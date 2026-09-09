@@ -271,12 +271,14 @@
     ctx.stroke();
   }
 
-  let nextSpawn = 0, nextLine = 0;
-  const LINE_MS = 110; // the waterfall scrolls at about nine lines a second
+  let nextSpawn = 0, nextTick = 0;
+  const TICK_MS = 110; // one FFT and one waterfall line, about nine a second
   function frame(now) {
+    if (now < nextTick) { requestAnimationFrame(frame); return; }
+    nextTick = now + TICK_MS;
     if (now > nextSpawn) { spawn(); nextSpawn = now + 900 + Math.random() * 2200; }
     step(now);
-    if (now >= nextLine) { nextLine = now + LINE_MS; pushFallLine(); }
+    pushFallLine();
     draw();
     requestAnimationFrame(frame);
   }
