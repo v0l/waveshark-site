@@ -60,12 +60,12 @@
     addRow(s, bin, snr);
   }
 
-  function addRow(s, bin, snr) {
+  function addRow(s, bin, snr, ageSec) {
     const freq = (CENTER + (bin / BINS - 0.5) * SPAN).toFixed(3);
     const el = document.createElement('li');
     if (!s.why) el.className = 'unclaimed';
     el.innerHTML =
-      `<span class="t">${clock()}</span>` +
+      `<span class="t">${clock(ageSec || 0)}</span>` +
       `<span class="f">${freq} MHz</span>` +
       `<span class="m">${s.mod}</span>` +
       `<span class="s">${snr.toFixed(1)} dB</span>` +
@@ -76,15 +76,21 @@
     while (rowsEl.children.length > 7) rowsEl.lastElementChild.remove();
   }
 
-  function clock() {
-    const d = new Date(Date.now());
-    return d.toTimeString().slice(0, 8);
+  function clock(ageSec) {
+    return new Date(Date.now() - ageSec * 1000).toTimeString().slice(0, 8);
+  }
+
+  function seedRows(n) {
+    for (let k = n; k > 0; k--) {
+      const s = CATALOG[(Math.random() * CATALOG.length) | 0];
+      addRow(s, Math.round((s.off / SPAN + 0.5) * BINS), 8 + Math.random() * 26, k * 3 + Math.random() * 4);
+    }
   }
 
   function level(x) { // waterfall colour ramp, dark -> cyan -> amber -> white
     const v = Math.max(0, Math.min(1, x));
-    if (v < 0.42) { const k = v / 0.42; return [11 + 25 * k, 16 + 60 * k, 20 + 75 * k]; }
-    if (v < 0.72) { const k = (v - 0.42) / 0.3; return [36 + 11 * k, 76 + 135 * k, 95 + 130 * k]; }
+    if (v < 0.42) { const k = v / 0.42; return [11 + 25 * k, 16 + 96 * k, 20 + 122 * k]; }
+    if (v < 0.72) { const k = (v - 0.42) / 0.3; return [36 + 11 * k, 112 + 99 * k, 142 + 83 * k]; }
     if (v < 0.9) { const k = (v - 0.72) / 0.18; return [47 + 208 * k, 211 - 35 * k, 225 - 193 * k]; }
     const k = (v - 0.9) / 0.1; return [255, 176 + 79 * k, 32 + 200 * k];
   }
@@ -93,13 +99,13 @@
     for (let i = 0; i < BINS; i++) {
       noise[i] += (Math.random() - 0.5) * 0.35;
       noise[i] = Math.max(0, Math.min(1, noise[i] * 0.86 + 0.07));
-      mag[i] = 0.06 + noise[i] * 0.1;
+      mag[i] = 0.1 + noise[i] * 0.13;
     }
     bursts = bursts.filter(b => now - b.born < b.life);
     for (const b of bursts) {
       const age = (now - b.born) / b.life;
       const env = Math.sin(Math.PI * Math.min(1, age * 1.15)) ** 0.6;
-      const amp = (b.snr / 34) * env;
+      const amp = (b.snr / 26) * env;
       for (let d = -b.w * 3; d <= b.w * 3; d++) {
         const i = b.bin + d;
         if (i < 0 || i >= BINS) continue;
@@ -114,7 +120,8 @@
     const row = fctx.createImageData(BINS, 1);
     for (let i = 0; i < BINS; i++) {
       const [r, g, b] = level(mag[i] * 1.15);
-      row.data[i * 4] = r; row.data[i * 4 + 1] = g; row.data[i * 4 + 2] = b; row.data[i * 4 + 3] = 255;
+      const j = i * 4;
+      row.data[j] = r; row.data[j + 1] = g; row.data[j + 2] = b; row.data[j + 3] = 255;
     }
     fctx.putImageData(row, 0, 0);
   }
@@ -124,25 +131,36 @@
     ctx.fillRect(0, 0, W, H);
 
     ctx.imageSmoothingEnabled = false;
-    ctx.globalAlpha = 0.85;
     ctx.drawImage(fall, 0, specH, W, fallH);
-    ctx.globalAlpha = 1;
 
     ctx.strokeStyle = COL.rule;
     ctx.lineWidth = 1;
     ctx.beginPath(); ctx.moveTo(0, specH + 0.5); ctx.lineTo(W, specH + 0.5); ctx.stroke();
 
     ctx.font = '500 10px "IBM Plex Mono", monospace';
-    ctx.fillStyle = 'rgba(159,179,189,0.5)';
-    for (let k = 0; k <= 4; k++) {
-      const x = (k / 4) * W;
+    for (let k = 1; k <= 3; k++) {
+      const gy = Math.round(specH - (k / 4) * (specH - 22)) + 0.5;
       ctx.beginPath();
-      ctx.moveTo(Math.round(x) + 0.5, specH - 8);
-      ctx.lineTo(Math.round(x) + 0.5, specH);
-      ctx.strokeStyle = COL.rule; ctx.stroke();
-      const f = (CENTER + (k / 4 - 0.5) * SPAN).toFixed(2);
-      ctx.fillText(f, Math.min(W - 34, Math.max(4, x + 5)), specH - 12);
+      ctx.moveTo(0, gy); ctx.lineTo(W, gy);
+      ctx.strokeStyle = 'rgba(34,51,61,0.55)';
+      ctx.stroke();
+      ctx.fillStyle = 'rgba(159,179,189,0.4)';
+      ctx.fillText(`-${100 - k * 25} dBFS`, 6, gy - 5);
     }
+
+    ctx.font = '500 10px "IBM Plex Mono", monospace';
+    for (let k = 0; k <= 4; k++) {
+      const x = Math.round((k / 4) * W) + 0.5;
+      ctx.beginPath();
+      ctx.moveTo(x, specH - 8);
+      ctx.lineTo(x, specH);
+      ctx.strokeStyle = COL.rule; ctx.stroke();
+      ctx.fillStyle = 'rgba(159,179,189,0.55)';
+      ctx.textAlign = k === 4 ? 'right' : 'left';
+      const f = (CENTER + (k / 4 - 0.5) * SPAN).toFixed(2);
+      ctx.fillText(f, k === 4 ? x - 6 : x + 6, specH - 12);
+    }
+    ctx.textAlign = 'left';
 
     const y = i => specH - Math.min(1, mag[i]) * (specH - 22);
 
@@ -195,12 +213,10 @@
     for (let k = 0; k < 3; k++) spawn();
     step(performance.now());
     draw();
-    for (let k = 0; k < 4; k++) {
-      const s = CATALOG[(Math.random() * CATALOG.length) | 0];
-      addRow(s, Math.round((s.off / SPAN + 0.5) * BINS), 9 + Math.random() * 24);
-    }
+    seedRows(6);
   } else {
     for (let k = 0; k < 60; k++) { step(t0 + k * 30); pushFallLine(); }
+    seedRows(6);
     requestAnimationFrame(frame);
   }
 })();
