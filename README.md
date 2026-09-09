@@ -16,5 +16,8 @@ fallback and go stale, so refresh them when the release layout changes.
 `assets/` is copied from the app repo (`assets/logo/*.svg`,
 `assets/screenshot.png`). Recopy after a UI change rather than editing here.
 
-Deployed by `.github/workflows/pages.yml` to GitHub Pages, `CNAME` points the
-apex at it.
+Deployed to Cloudflare Pages (project `waveshark`, apex `waveshark.io`):
+
+```sh
+bunx wrangler pages deploy . --project-name waveshark --branch master
+```
