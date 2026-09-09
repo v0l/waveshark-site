@@ -50,13 +50,33 @@
     fctx.fillRect(0, 0, BINS, fall.height);
   }
 
-  for (let i = 0; i < BINS; i++) { noise[i] = Math.random(); peak[i] = 0; }
+  // Power in dBFS, mapped to 0..1 for drawing. A receiver's floor is exponentially
+  // distributed power, which is what makes a waterfall speckle instead of wash.
+  const DB_LO = -95, DB_HI = -20;
+  const FLOOR_DB = -70;
+  const norm = db => Math.max(0, Math.min(1, (db - DB_LO) / (DB_HI - DB_LO)));
+
+  const shape = new Float32Array(BINS);
+  for (let i = 0; i < BINS; i++) {
+    const u = i / (BINS - 1) - 0.5;
+    shape[i] = -3.5 * Math.pow(Math.abs(u) * 2, 6); // the front end's skirt
+    peak[i] = 0;
+  }
+  const BIRDIES = [
+    { bin: BINS >> 1, w: 1.1, db: 22 },              // the DC spike every RTL-SDR has
+    { bin: (BINS * 0.245) | 0, w: 0.9, db: 9 },      // a clock harmonic in the tuner
+    { bin: (BINS * 0.83) | 0, w: 1.4, db: 6 },
+  ];
 
   function spawn() {
     const s = CATALOG[(Math.random() * CATALOG.length) | 0];
     const bin = Math.round((s.off / SPAN + 0.5) * BINS);
     const snr = 8 + Math.random() * 26;
-    bursts.push({ bin, w: s.w, snr, born: performance.now(), life: 900 + Math.random() * 1500 });
+    bursts.push({
+      bin, w: s.w, snr, mod: s.mod,
+      born: performance.now(),
+      life: 900 + Math.random() * 1500,
+    });
     addRow(s, bin, snr);
   }
 
@@ -87,39 +107,83 @@
     }
   }
 
-  function level(x) { // waterfall colour ramp, dark -> cyan -> amber -> white
-    const v = Math.max(0, Math.min(1, x));
-    if (v < 0.42) { const k = v / 0.42; return [11 + 25 * k, 16 + 96 * k, 20 + 122 * k]; }
-    if (v < 0.72) { const k = (v - 0.42) / 0.3; return [36 + 11 * k, 112 + 99 * k, 142 + 83 * k]; }
-    if (v < 0.9) { const k = (v - 0.72) / 0.18; return [47 + 208 * k, 211 - 35 * k, 225 - 193 * k]; }
-    const k = (v - 0.9) / 0.1; return [255, 176 + 79 * k, 32 + 200 * k];
+  // Black through navy and blue to cyan, then amber and white at the top, which is
+  // the ramp the receiver itself uses.
+  const STOPS = [
+    [0.00, 8, 12, 18], [0.28, 12, 26, 52], [0.44, 20, 62, 112],
+    [0.58, 28, 116, 168], [0.70, 47, 190, 214], [0.82, 140, 232, 240],
+    [0.90, 255, 176, 32], [1.00, 255, 255, 235],
+  ];
+  function level(v) {
+    const x = Math.max(0, Math.min(1, v));
+    for (let s = 1; s < STOPS.length; s++) {
+      if (x <= STOPS[s][0]) {
+        const a = STOPS[s - 1], b = STOPS[s];
+        const k = (x - a[0]) / (b[0] - a[0]);
+        return [a[1] + (b[1] - a[1]) * k, a[2] + (b[2] - a[2]) * k, a[3] + (b[3] - a[3]) * k];
+      }
+    }
+    return [255, 255, 235];
+  }
+
+  const power = new Float32Array(BINS); // linear power this frame, floor = 1
+
+  // What a transmission puts on the screen depends on how it is keyed: one carrier
+  // for OOK, two tones for FSK, an occupied block for a chirp.
+  function profile(d, w, mod) {
+    const skirt = 0.006 / (1 + (d / w) ** 4);
+    if (mod === 'FSK') {
+      const s = w * 1.8, n = w * 0.55;
+      return 0.5 * Math.exp(-((d - s) ** 2) / (2 * n * n))
+        + 0.5 * Math.exp(-((d + s) ** 2) / (2 * n * n)) + skirt;
+    }
+    if (mod === 'LoRa') {
+      const half = w * 2.2, edge = w * 0.5;
+      const over = Math.abs(d) - half;
+      const flat = over <= 0 ? 1 : Math.exp(-(over * over) / (2 * edge * edge));
+      return flat * (0.85 + 0.3 * Math.random()) + skirt; // the chirp sweeps the block
+    }
+    return Math.exp(-(d * d) / (2 * w * w)) + skirt;
   }
 
   function step(now) {
     for (let i = 0; i < BINS; i++) {
-      noise[i] += (Math.random() - 0.5) * 0.35;
-      noise[i] = Math.max(0, Math.min(1, noise[i] * 0.86 + 0.07));
-      mag[i] = 0.1 + noise[i] * 0.13;
+      // -ln(U) is exponentially distributed: the power of a complex Gaussian bin.
+      power[i] = -Math.log(1 - Math.random()) * Math.pow(10, shape[i] / 10);
+    }
+    for (const c of BIRDIES) {
+      const amp = Math.pow(10, c.db / 10) * (0.8 + Math.random() * 0.4);
+      for (let d = -4; d <= 4; d++) {
+        const i = c.bin + d;
+        if (i >= 0 && i < BINS) power[i] += amp * Math.exp(-(d * d) / (2 * c.w * c.w));
+      }
     }
     bursts = bursts.filter(b => now - b.born < b.life);
     for (const b of bursts) {
       const age = (now - b.born) / b.life;
-      const env = Math.sin(Math.PI * Math.min(1, age * 1.15)) ** 0.6;
-      const amp = (b.snr / 26) * env;
-      for (let d = -b.w * 3; d <= b.w * 3; d++) {
+      // Keying is far faster than a frame, so a burst is on at full level for its
+      // length and only its first and last frames are partial.
+      const env = Math.min(1, age * 40) * Math.min(1, (1 - age) * 40);
+      if (env <= 0) continue;
+      const amp = Math.pow(10, b.snr / 10) * env * (0.9 + Math.random() * 0.2);
+      const span = Math.ceil(b.w * 5);
+      for (let d = -span; d <= span; d++) {
         const i = b.bin + d;
         if (i < 0 || i >= BINS) continue;
-        mag[i] += amp * Math.exp(-(d * d) / (2 * b.w * b.w));
+        power[i] += amp * profile(d, b.w, b.mod);
       }
     }
-    for (let i = 0; i < BINS; i++) peak[i] = Math.max(mag[i], peak[i] * 0.985);
+    for (let i = 0; i < BINS; i++) {
+      mag[i] = norm(FLOOR_DB + 10 * Math.log10(power[i]));
+      peak[i] = Math.max(mag[i], peak[i] * 0.99);
+    }
   }
 
   function pushFallLine() {
     fctx.drawImage(fall, 0, 1);
     const row = fctx.createImageData(BINS, 1);
     for (let i = 0; i < BINS; i++) {
-      const [r, g, b] = level(mag[i] * 1.15);
+      const [r, g, b] = level(mag[i]);
       const j = i * 4;
       row.data[j] = r; row.data[j + 1] = g; row.data[j + 2] = b; row.data[j + 3] = 255;
     }
@@ -138,14 +202,14 @@
     ctx.beginPath(); ctx.moveTo(0, specH + 0.5); ctx.lineTo(W, specH + 0.5); ctx.stroke();
 
     ctx.font = '500 10px "IBM Plex Mono", monospace';
-    for (let k = 1; k <= 3; k++) {
-      const gy = Math.round(specH - (k / 4) * (specH - 22)) + 0.5;
+    for (const db of [-80, -60, -40]) {
+      const gy = Math.round(specH - norm(db) * (specH - 22)) + 0.5;
       ctx.beginPath();
       ctx.moveTo(0, gy); ctx.lineTo(W, gy);
       ctx.strokeStyle = 'rgba(34,51,61,0.55)';
       ctx.stroke();
       ctx.fillStyle = 'rgba(159,179,189,0.4)';
-      ctx.fillText(`-${100 - k * 25} dBFS`, 6, gy - 5);
+      ctx.fillText(`${db} dBFS`, 6, gy - 5);
     }
 
     ctx.font = '500 10px "IBM Plex Mono", monospace';
