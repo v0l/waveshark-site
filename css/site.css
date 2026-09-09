@@ -213,6 +213,30 @@ h1 {
 }
 .card-tx .freq { color: var(--amber); }
 
+/* ---------- views ---------- */
+
+.views-intro { max-width: 68ch; margin-bottom: 8px; }
+.views {
+  list-style: none; margin: 34px 0 0; padding: 0;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1px;
+  background: var(--rule); border: 1px solid var(--rule);
+}
+.views li {
+  background: var(--bg);
+  padding: 22px 24px 26px 62px;
+  position: relative;
+  transition: background .18s ease;
+}
+.views li:hover { background: var(--panel); }
+.views .key {
+  position: absolute; left: 22px; top: 23px;
+  width: 26px; height: 26px;
+  border: 1px solid var(--cyan); color: var(--cyan);
+  font: 500 12px/24px var(--mono); text-align: center;
+}
+.views h3 { font: 600 21px/1.2 var(--display); margin: 0 0 8px; }
+.views p { color: var(--muted); font-size: 15.5px; margin: 0; }
+
 /* ---------- screenshot ---------- */
 
 .shot figure { margin: 0; display: grid; grid-template-columns: minmax(0, 734px) minmax(0, 1fr); gap: clamp(24px, 4vw, 56px); align-items: end; }
