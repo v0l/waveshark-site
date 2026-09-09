@@ -272,7 +272,7 @@
   }
 
   let nextSpawn = 0, nextTick = 0;
-  const TICK_MS = 110; // one FFT and one waterfall line, about nine a second
+  const TICK_MS = 45; // one FFT and one waterfall line, about twenty-two a second
   function frame(now) {
     if (now < nextTick) { requestAnimationFrame(frame); return; }
     nextTick = now + TICK_MS;
