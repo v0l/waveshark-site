@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WaveShark - Wireshark for the radio spectrum</title>
+<meta name="description" content="Leave a cheap SDR on a band and WaveShark tells you what is transmitting around you: sensors, TPMS, aircraft, ships, pagers, DMR, TETRA, M17, LoRa mesh and meters, decoded continuously across the whole span.">
+<link rel="canonical" href="https://waveshark.io/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://waveshark.io/">
+<meta property="og:title" content="WaveShark - Wireshark for the radio spectrum">
+<meta property="og:description" content="An OSINT tool for RF. Cover a band continuously and keep everything, decoded or not.">
+<meta property="og:image" content="https://waveshark.io/assets/screenshot.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B1014">
+<link rel="icon" href="assets/waveshark-icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/waveshark-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <a class="brand" href="/" aria-label="WaveShark home">
+    <img src="assets/waveshark-horizontal.svg" alt="WaveShark" width="266" height="50">
+  </a>
+  <nav class="nav" aria-label="Primary">
+    <a href="#hears">What it hears</a>
+    <a href="#work">How it works</a>
+    <a href="#hardware">Hardware</a>
+    <a href="https://github.com/v0l/waveshark">Source</a>
+    <a class="btn btn-sm" href="download.html">Download</a>
+  </nav>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="scope" aria-hidden="true">
+    <canvas id="scope" width="1600" height="520"></canvas>
+    <div class="scope-fade"></div>
+  </div>
+  <div class="hero-copy">
+    <p class="eyebrow">433.920 MHz &middot; span 2400 kHz &middot; 39 scanners running</p>
+    <h1>Wireshark for the<br>radio spectrum</h1>
+    <p class="lede">Leave a cheap dongle on a band and WaveShark tells you what is
+      transmitting around you, instead of what is on the one frequency somebody
+      already told you about.</p>
+    <div class="cta">
+      <a class="btn" href="download.html">Download for Linux and Windows</a>
+      <a class="btn btn-ghost" href="https://github.com/v0l/waveshark">Read the source</a>
+    </div>
+    <p class="fineprint">GPL-3.0 &middot; RTL-SDR, HackRF One, LimeSDR &middot; no account, no cloud</p>
+  </div>
+  <div class="ticker" id="ticker" aria-label="Bursts heard in the last minute">
+    <div class="ticker-head">
+      <span>TIME</span><span>FREQ</span><span>MOD</span><span>SNR</span><span>DECODED AS</span>
+    </div>
+    <ol class="ticker-rows" id="ticker-rows"></ol>
+  </div>
+</section>
+
+<section class="band" id="work">
+  <div class="wrap two">
+    <div>
+      <h2 class="section-h">The dial is where you look.<br>The span is what you collect.</h2>
+    </div>
+    <div class="prose">
+      <p>Decoding does not follow the dial. Every scanner inside the sampled span
+        runs all the time, so a sensor that transmits once a minute is caught
+        whether or not you were pointing at it when it fired.</p>
+      <p>Everything heard goes in the list along the bottom, decoded or not: frequency,
+        modulation, RSSI, SNR and what was made of it. Click a row for its envelope,
+        its instantaneous frequency and a hex dump. A burst nothing claims still gets
+        its coding inferred and its bits sliced out, which is enough to recognise
+        the same device again and start reversing it.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band tight" id="hears">
+  <div class="wrap">
+    <p class="eyebrow">Organised by where you point the radio</p>
+    <h2 class="section-h">What it hears</h2>
+    <ul class="cards">
+      <li class="card">
+        <p class="freq">433 / 868 / 915 MHz</p>
+        <h3>ISM devices</h3>
+        <p>39 decoders, most from rtl_433's family. Weather stations, thermometers,
+          TPMS, door contacts, gate remotes, shelf labels, mostly with a stable
+          device ID you can follow.</p>
+      </li>
+      <li class="card">
+        <p class="freq">1090 MHz</p>
+        <h3>Aircraft</h3>
+        <p>ADS-B and Mode S onto a map with a track table: callsign, altitude,
+          speed, track, position.</p>
+      </li>
+      <li class="card">
+        <p class="freq">Marine VHF</p>
+        <h3>Shipping</h3>
+        <p>AIS positions and vessel identity, on the same map as the aircraft.</p>
+      </li>
+      <li class="card">
+        <p class="freq">144.800 / 144.390 / 144.640</p>
+        <h3>APRS</h3>
+        <p>Packet stations and vehicle trackers, Mic-E included, on the EU, US
+          and JP calling frequencies.</p>
+      </li>
+      <li class="card">
+        <p class="freq">Wherever you point it</p>
+        <h3>Pagers</h3>
+        <p>POCSAG at 512, 1200 and 2400 bit/s, message text in clear.</p>
+      </li>
+      <li class="card">
+        <p class="freq">136-174 / 400-470 MHz</p>
+        <h3>DMR</h3>
+        <p>Who called whom on which talkgroup, and speech through the
+          <code>ambe</code> feature.</p>
+      </li>
+      <li class="card">
+        <p class="freq">390-400 MHz</p>
+        <h3>TETRA</h3>
+        <p>The network, its cells and who is called, with decryption and key
+          recovery under the <code>tea</code> feature.</p>
+      </li>
+      <li class="card">
+        <p class="freq">Amateur VHF and UHF</p>
+        <h3>M17</h3>
+        <p>Who called whom, for how long, packet messages in full, and Codec 2
+          speech.</p>
+      </li>
+      <li class="card">
+        <p class="freq">433 / 868 / 915 MHz</p>
+        <h3>LoRa mesh</h3>
+        <p>LoRaWAN join requests and addresses, Meshtastic text under the public
+          keys, MeshCore adverts.</p>
+      </li>
+      <li class="card">
+        <p class="freq">868.95 MHz</p>
+        <h3>Utility meters</h3>
+        <p>Wireless M-Bus mode T: manufacturer, meter number, version and type.</p>
+      </li>
+      <li class="card">
+        <p class="freq">Any band</p>
+        <h3>Voice</h3>
+        <p>WFM with stereo and RDS, NFM, AM, USB, LSB and CW, several channels
+          at once.</p>
+      </li>
+      <li class="card card-tx">
+        <p class="freq">On a radio that can</p>
+        <h3>Transmit</h3>
+        <p>A microphone or a tone into NFM, WFM or AM, drawn as the TX side of
+          the same flow graph.</p>
+      </li>
+    </ul>
+    <p class="note"><a href="https://github.com/v0l/waveshark/blob/master/docs/protocols.md">docs/protocols.md</a>
+      is the roadmap. Coverage is the thin part: thirty-nine ISM decoders where the goal is hundreds.</p>
+  </div>
+</section>
+
+<section class="band shot">
+  <div class="wrap">
+    <figure>
+      <img src="assets/screenshot.png" alt="WaveShark decoding a weather station on 433.92 MHz: spectrum and waterfall above, packet list below." width="1600" height="900" loading="lazy" decoding="async">
+      <figcaption>Decoding a weather station on 433.92 MHz. The view selector swaps the
+        spectrum for the signal chain, the map and its track table, the call list,
+        the messages, or the keys.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="band" id="hardware">
+  <div class="wrap">
+    <p class="eyebrow">Three radios, and one over the network</p>
+    <h2 class="section-h">Hardware</h2>
+    <ul class="rigs">
+      <li>
+        <p class="freq">from about &euro;30</p>
+        <h3>Any RTL2832U dongle</h3>
+        <p>Does all of the receiving on this page. Install <code>librtlsdr0</code>
+          or <code>rtl-sdr</code> on Linux for the udev rules; on Windows, bind
+          WinUSB with Zadig first.</p>
+      </li>
+      <li>
+        <p class="freq">1 MHz - 6 GHz</p>
+        <h3>HackRF One</h3>
+        <p>Buys you wider spans and a transmitter.</p>
+      </li>
+      <li>
+        <p class="freq">USB and Mini</p>
+        <h3>LimeSDR</h3>
+        <p>Both of those, plus full duplex. Linux builds only: LimeSuite is not
+          packaged for Windows.</p>
+      </li>
+      <li>
+        <p class="freq">--stream &lt;host&gt;</p>
+        <h3>A tuner on another machine</h3>
+        <p>An iqstream server shows up as a local radio, so the antenna can live
+          where the signals are.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="band cli">
+  <div class="wrap two">
+    <div>
+      <p class="eyebrow">Capture once, decode forever</p>
+      <h2 class="section-h">A capture that decodes is a test fixture</h2>
+      <p class="prose"><code>--record</code> writes each burst as an rtl_433 style
+        capture, so both WaveShark and rtl_433 can read it back. Capture a band
+        once, then replay after every change: no radio, same answer every time.</p>
+    </div>
+    <div>
+<pre class="code"><code><span class="c">$</span> waveshark --tune 868.3 --record captures
+<span class="c">$</span> waveshark --replay captures
+
+<span class="d">--tune &lt;mhz&gt;</span>        start tuned and listening
+<span class="d">--mode &lt;mode&gt;</span>       wfm, nfm, am, usb, lsb or cw
+<span class="d">--span &lt;khz&gt;</span>        nearest span, narrowed in software
+<span class="d">--stream &lt;host&gt;</span>     offer an iqstream server as a radio
+<span class="d">--headless</span>          run with no window, scanning and logging
+<span class="d">--print-log</span>         print every packet as it arrives
+<span class="d">--fetch-data</span>        warm the dataset cache before going offline</code></pre>
+    </div>
+  </div>
+</section>
+
+<section class="band verified">
+  <div class="wrap two">
+    <div>
+      <p class="eyebrow">Status</p>
+      <h2 class="section-h">Checked against other people's decoders</h2>
+    </div>
+    <div class="prose">
+      <p><strong>52 recordings</strong> from rtl_433's corpus are replayed field for
+        field against what rtl_433 25.02 made of them. ADS-B is asserted against
+        dump1090. Off-air captures of M17, DMR, TETRA and Meshtastic are checked
+        against what the transmission itself says.</p>
+      <p>The browser build is still a plan, and the decoder count is the part that
+        needs to grow. <a href="https://github.com/v0l/waveshark/blob/master/docs/design.md">docs/design.md</a>
+        is how it works inside.</p>
+    </div>
+  </div>
+</section>
+
+<section class="closer">
+  <div class="wrap">
+    <h2>Plug in a radio and press play.</h2>
+    <p>It opens on 433.92 MHz, where the devices it decodes are.</p>
+    <a class="btn btn-lg" href="download.html">Download WaveShark</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <img src="assets/waveshark-mark.svg" alt="" width="72" height="40">
+      <p>An OSINT tool for RF. GPL-3.0-or-later.</p>
+    </div>
+    <nav aria-label="Documentation">
+      <p class="foot-h">Docs</p>
+      <a href="https://github.com/v0l/waveshark/blob/master/docs/design.md">Design</a>
+      <a href="https://github.com/v0l/waveshark/blob/master/docs/protocols.md">Protocols</a>
+      <a href="https://github.com/v0l/waveshark/blob/master/docs/views.md">Views</a>
+      <a href="https://github.com/v0l/waveshark/blob/master/docs/references.md">References</a>
+    </nav>
+    <nav aria-label="Project">
+      <p class="foot-h">Project</p>
+      <a href="https://github.com/v0l/waveshark">Repository</a>
+      <a href="https://github.com/v0l/waveshark/releases">Releases</a>
+      <a href="https://github.com/v0l/waveshark/issues">Issues</a>
+      <a href="download.html">Download</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/scope.js" defer></script>
+</body>
+</html>

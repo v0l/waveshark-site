@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Download WaveShark</title>
+<meta name="description" content="Builds of WaveShark for Linux x86_64 and Windows x86_64, what each one needs from the system, and how to build from source with the tea and ambe features.">
+<link rel="canonical" href="https://waveshark.io/download.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://waveshark.io/download.html">
+<meta property="og:title" content="Download WaveShark">
+<meta property="og:description" content="Linux and Windows builds, driver setup, and building from source.">
+<meta property="og:image" content="https://waveshark.io/assets/screenshot.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B1014">
+<link rel="icon" href="assets/waveshark-icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/waveshark-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <a class="brand" href="/" aria-label="WaveShark home">
+    <img src="assets/waveshark-horizontal.svg" alt="WaveShark" width="266" height="50">
+  </a>
+  <nav class="nav" aria-label="Primary">
+    <a href="/#hears">What it hears</a>
+    <a href="/#hardware">Hardware</a>
+    <a href="https://github.com/v0l/waveshark">Source</a>
+    <a class="btn btn-sm" href="https://github.com/v0l/waveshark/releases">All releases</a>
+  </nav>
+</header>
+
+<main id="main">
+
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow" id="rel-line">Latest release &middot; v0.1.0</p>
+    <h1>Download</h1>
+    <p class="lede">One binary and a radio. There is no installer, no service and
+      nothing to sign up for.</p>
+  </div>
+</section>
+
+<section class="wrap">
+  <ul class="builds">
+    <li class="build">
+      <h2>Linux</h2>
+      <p class="meta" id="meta-linux">x86_64 &middot; tar.gz &middot; 13.8 MB</p>
+      <p class="req">Links librtlsdr rather than bundling it, so install
+        <code>librtlsdr0</code> or <code>rtl-sdr</code> from your distribution.
+        That package also brings the udev rules that let you open a dongle
+        without root. LimeSDR support is compiled in.</p>
+      <a class="btn" id="dl-linux" href="https://github.com/v0l/waveshark/releases/latest/download/waveshark-linux-x86_64.tar.gz">Download for Linux</a>
+    </li>
+    <li class="build">
+      <h2>Windows</h2>
+      <p class="meta" id="meta-windows">x86_64 &middot; zip &middot; 11.5 MB</p>
+      <p class="req">Ships the DLLs it needs, but Windows will not let anything
+        open an RTL2832U until WinUSB is bound to it with
+        <a href="https://zadig.akeo.ie/">Zadig</a>. This build has no LimeSDR
+        driver, because LimeSuite is not packaged for Windows.</p>
+      <a class="btn" id="dl-windows" href="https://github.com/v0l/waveshark/releases/latest/download/waveshark-windows-x86_64.zip">Download for Windows</a>
+    </li>
+    <li class="build">
+      <h2>macOS</h2>
+      <p class="meta">Not built yet</p>
+      <p class="req">There is no published macOS binary. The tree builds on
+        Unix, so a local <code>cargo build --release</code> with librtlsdr from
+        Homebrew is the way in for now.</p>
+      <a class="btn btn-ghost" href="#source">Build from source</a>
+    </li>
+  </ul>
+</section>
+
+<section class="band" id="first-run">
+  <div class="wrap two">
+    <div>
+      <p class="eyebrow">After the download</p>
+      <h2 class="section-h">First run</h2>
+      <p class="prose">Four minutes, most of it the driver. If the spectrum moves,
+        the radio is open and every scanner in the span is already running.</p>
+    </div>
+    <ol class="steps">
+      <li>
+        <h3>Give the dongle a driver</h3>
+        <p>On Linux, install the distribution package so the udev rules land. On
+          Windows, run Zadig, pick the RTL2832U interface and install WinUSB.</p>
+<pre class="code"><code><span class="c">$</span> sudo apt install librtlsdr0</code></pre>
+      </li>
+      <li>
+        <h3>Unpack and run</h3>
+        <p>No install step. The binary is the program.</p>
+<pre class="code"><code><span class="c">$</span> tar xf waveshark-linux-x86_64.tar.gz
+<span class="c">$</span> ./waveshark</code></pre>
+      </li>
+      <li>
+        <h3>Press play</h3>
+        <p>It opens on 433.92 MHz, where the devices it decodes are. Click the
+          spectrum to place a channel and listen, drag to pan, scroll to scrub,
+          hold shift to snap to the band plan.</p>
+      </li>
+      <li>
+        <h3>Check the path if nothing arrives</h3>
+        <p><code>--probe</code> tests the signal path with no display, and
+          <code>--squelch-probe</code> reports what the squelch reads on a
+          frequency.</p>
+<pre class="code"><code><span class="c">$</span> ./waveshark --probe 433.92</code></pre>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="band" id="source">
+  <div class="wrap two">
+    <div>
+      <p class="eyebrow">Two decoders the downloads do not carry</p>
+      <h2 class="section-h">Build from source</h2>
+      <p class="prose">The published builds leave out <code>tea</code> and
+        <code>ambe</code>. Compiling them for yourself is not the same act as a
+        project distributing them, which is why the source turns them on and the
+        downloads do not.</p>
+    </div>
+    <div>
+<pre class="code"><code><span class="c">$</span> sudo apt install librtlsdr-dev liblimesuite-dev pkg-config \
+    libclang-dev libasound2-dev libx11-dev libxrandr-dev libxi-dev \
+    libxcursor-dev libxkbcommon-dev libwayland-dev libgl1-mesa-dev
+<span class="c">$</span> cargo run --release -p app</code></pre>
+      <table class="flags">
+        <thead><tr><th>Feature</th><th>With it, and without</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><code>tea</code></td>
+            <td>Links the TETRA ciphers and a wgpu key search. Without it the keys
+              view still lists enciphered channels and says nothing can read them.</td>
+          </tr>
+          <tr>
+            <td><code>ambe</code></td>
+            <td>Builds the AMBE and IMBE vocoder port, whose algorithms are patent
+              encumbered. Without it DMR still says who is talking and decodes no speech.</td>
+          </tr>
+          <tr>
+            <td><code>limesdr</code></td>
+            <td>On by default. Needs LimeSuite, which is why the Windows build drops it.</td>
+          </tr>
+          <tr>
+            <td><code>stt</code></td>
+            <td>Speech to text over decoded voice.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="note">The release workflow builds
+        <code>--no-default-features --features limesdr,stt</code>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="closer">
+  <div class="wrap">
+    <h2>Something did not decode?</h2>
+    <p>Record the burst with <code>--record</code> and open an issue with the capture.
+      A capture that decodes becomes a test fixture.</p>
+    <a class="btn btn-lg" href="https://github.com/v0l/waveshark/issues">Open an issue</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <img src="assets/waveshark-mark.svg" alt="" width="72" height="40">
+      <p>An OSINT tool for RF. GPL-3.0-or-later.</p>
+    </div>
+    <nav aria-label="Documentation">
+      <p class="foot-h">Docs</p>
+      <a href="https://github.com/v0l/waveshark/blob/master/docs/design.md">Design</a>
+      <a href="https://github.com/v0l/waveshark/blob/master/docs/protocols.md">Protocols</a>
+      <a href="https://github.com/v0l/waveshark/blob/master/docs/views.md">Views</a>
+      <a href="https://github.com/v0l/waveshark/blob/master/docs/references.md">References</a>
+    </nav>
+    <nav aria-label="Project">
+      <p class="foot-h">Project</p>
+      <a href="https://github.com/v0l/waveshark">Repository</a>
+      <a href="https://github.com/v0l/waveshark/releases">Releases</a>
+      <a href="https://github.com/v0l/waveshark/issues">Issues</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/release.js" defer></script>
+</body>
+</html>
