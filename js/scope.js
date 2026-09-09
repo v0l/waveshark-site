@@ -37,7 +37,7 @@
       why: s => `Nexus-TH  id ${s.id}  ch ${s.ch}  ${(s.t += rnd(-0.1, 0.1)).toFixed(1)} C  ${s.h} %` },
     { name: 'Fine Offset WH1080', mod: 'OOK', freq: 433.92, scatter: 40, baud: 1000, on: 100, gap: 0, n: [1, 1], snr: [24, 42], weight: 2, instances: 1,
       state: () => ({ id: irnd(1, 255), t: rnd(4, 19), h: irnd(50, 95), wind: rnd(0, 6), rain: rnd(0, 40) }),
-      why: s => `Fineoffset-WHx080  id ${s.id}  ${(s.t += rnd(-0.1, 0.1)).toFixed(1)} C  ${s.h} %  wind ${(s.wind = Math.max(0, s.wind + rnd(-0.4, 0.4))).toFixed(1)} m/s  rain ${s.rain.toFixed(1)} mm` },
+      why: s => `Fineoffset-WHx080  id ${s.id}  ${(s.t += rnd(-0.1, 0.1)).toFixed(1)} C  ${s.h} %  wind ${(s.wind = Math.max(0, s.wind + rnd(-0.4, 0.4))).toFixed(1)} m/s` },
     { name: 'Acurite 609TXC', mod: 'OOK', freq: 433.92, scatter: 50, baud: 2000, on: 25, gap: 8, n: [3, 3], snr: [14, 32], weight: 2, instances: 1,
       state: () => ({ id: irnd(1, 255), t: rnd(2, 12), h: irnd(60, 95) }),
       why: s => `Acurite-609TXC  id ${s.id}  ${(s.t += rnd(-0.1, 0.1)).toFixed(1)} C  ${s.h} %  battery ok` },
@@ -77,10 +77,13 @@
       state: () => ({ id: hex(4), open: false }),
       why: s => `Door contact  id ${s.id}  ${(s.open = !s.open) ? 'open' : 'closed'}  battery ok` },
 
-    { name: 'Meshtastic', mod: 'LoRa', freq: 433.875, scatter: 3, bw: 250e3, on: [520, 900], gap: 0, n: [1, 1], snr: [10, 32], weight: 2.5, instances: 3,
+    { name: 'Meshtastic', mod: 'LoRa', freq: 433.875, scatter: 3, bw: 250e3, on: [520, 900], gap: 0, n: [1, 1], snr: [10, 32], weight: 5, instances: 4, mesh: true,
       state: () => ({ node: hex(8), name: pick(['KH1', 'MSHTK', 'roof', 'van', 'base', 'HILL']) }),
       why: s => `Meshtastic  !${s.node}  LongFast  ${pick([`text, ${irnd(8, 64)} bytes`, `position  ${s.name}`, `nodeinfo  ${s.name}`, 'telemetry', `text, ${irnd(8, 64)} bytes`])}` },
-    { name: 'MeshCore', mod: 'LoRa', freq: 433.65, scatter: 3, bw: 62.5e3, on: [280, 600], gap: 0, n: [1, 1], snr: [10, 30], weight: 1, instances: 2,
+    { name: 'Meshtastic MediumFast', mod: 'LoRa', freq: 433.375, scatter: 3, bw: 250e3, on: [180, 420], gap: 0, n: [1, 1], snr: [10, 30], weight: 2, instances: 2, mesh: true,
+      state: () => ({ node: hex(8), name: pick(['shed', 'K2', 'bike', 'attic']) }),
+      why: s => `Meshtastic  !${s.node}  MediumFast  ${pick([`text, ${irnd(8, 48)} bytes`, `position  ${s.name}`, 'telemetry'])}` },
+    { name: 'MeshCore', mod: 'LoRa', freq: 433.65, scatter: 3, bw: 62.5e3, on: [280, 600], gap: 0, n: [1, 1], snr: [10, 30], weight: 2, instances: 2, mesh: true,
       state: () => ({ name: pick(['Repeater North', 'MC-home', 'Room 12', 'Ridge']) }),
       why: s => `MeshCore  advert  ${s.name}  ${pick(['repeater', 'companion', 'room server'])}` },
 
@@ -177,16 +180,30 @@
 
   // ---- transmissions -------------------------------------------------------
 
-  function spawn(now) {
-    const d = pickDevice(), k = d.kind;
+  function spawn(now) { transmit(pickDevice(), now); }
+
+  function transmit(d, now, why) {
+    const k = d.kind;
     const on = Array.isArray(k.on) ? rnd(k.on[0], k.on[1]) : k.on;
     const n = irnd(k.n[0], k.n[1]);
     const snr = rnd(k.snr[0], k.snr[1]);
     const bin = (d.freq - CENTER) * 1e6 / BIN_HZ + BINS / 2;
-    const b = { d, bin, on, gap: k.gap, n, level: Math.pow(10, snr / 10), snr, start: now, end: now + n * (on + k.gap) };
-    bursts.push(b);
-    const row = () => addRow(d, snr, on * n + k.gap * (n - 1));
-    if (still) row(); else setTimeout(row, on + 30);
+    const total = on * n + k.gap * (n - 1);
+    bursts.push({ d, bin, on, gap: k.gap, n, level: Math.pow(10, snr / 10), snr, start: now, end: now + n * (on + k.gap) });
+    const row = () => addRow(d, snr, total, 0, why);
+    if (still) { row(); return; }
+    setTimeout(row, on + 30);
+    // A mesh node that hears a packet sends it on after a random backoff, so a
+    // packet on the air is usually followed by one or two copies from elsewhere.
+    if (k.mesh && !why && Math.random() < 0.75) {
+      const others = DEVICES.filter(o => o.kind === k && o !== d);
+      const hops = Math.random() < 0.4 ? 2 : 1;
+      for (let h = 0; h < hops && others.length; h++) {
+        const o = others.splice((Math.random() * others.length) | 0, 1)[0];
+        const delay = total + rnd(150, 900) + h * rnd(200, 600);
+        setTimeout(() => transmit(o, performance.now(), `${k.why(o.s).split('  ').slice(0, 2).join('  ')}  rebroadcast  hop ${h + 1}`), delay);
+      }
+    }
   }
 
   // Fraction of the window [now - TICK, now] during which the burst is keyed.
@@ -240,9 +257,9 @@
 
   // ---- the packet list -----------------------------------------------------
 
-  function addRow(d, snr, ms, ageSec) {
+  function addRow(d, snr, ms, ageSec, whyOverride) {
     const k = d.kind;
-    const why = k.why(d.s, ms);
+    const why = whyOverride || k.why(d.s, ms);
     const el = document.createElement('li');
     if (!why) el.className = 'unclaimed';
     el.innerHTML =
@@ -271,9 +288,9 @@
   // ---- drawing -------------------------------------------------------------
 
   const STOPS = [
-    [0.00, 7, 11, 15], [0.40, 10, 20, 32], [0.52, 14, 44, 68],
-    [0.62, 22, 96, 130], [0.74, 47, 190, 214], [0.86, 150, 236, 244],
-    [0.93, 255, 176, 32], [1.00, 255, 250, 225],
+    [0.00, 7, 11, 15], [0.30, 10, 22, 36], [0.40, 16, 52, 84],
+    [0.50, 26, 110, 150], [0.60, 47, 190, 214], [0.74, 150, 236, 244],
+    [0.86, 255, 176, 32], [1.00, 255, 250, 225],
   ];
   function level(v) {
     const x = Math.max(0, Math.min(1, v));
