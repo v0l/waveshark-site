@@ -2,24 +2,64 @@
 // devices with real timings and modulations transmits into a receiver noise
 // floor; the FFT and the waterfall are one line per tick and the packet list
 // fills as bursts finish.
-(() => {
-  const cv = document.getElementById('scope');
-  const rowsEl = document.getElementById('ticker-rows');
-  if (!cv || !rowsEl) return;
 
+type State = Record<string, any>;
+
+interface Kind {
+  name: string;
+  mod: 'OOK' | '2-FSK' | 'LoRa' | 'NFM';
+  freq: number | null;
+  scatter: number;
+  dev?: number;
+  baud?: number;
+  bw?: number;
+  on: number | [number, number];
+  gap: number;
+  n: [number, number];
+  snr: [number, number];
+  weight: number;
+  instances: number;
+  mesh?: boolean;
+  state: () => State;
+  freqOf?: (s: State) => number;
+  why: (s: State, ms?: number) => string | null;
+  unclaimed?: (s: State) => string;
+  kernel?: { R: number; k: Float32Array };
+}
+
+interface Device {
+  kind: Kind;
+  s: State;
+  freq: number;
+  weight: number;
+}
+
+interface Burst {
+  d: Device;
+  bin: number;
+  on: number;
+  gap: number;
+  n: number;
+  level: number;
+  snr: number;
+  start: number;
+  end: number;
+}
+
+export function startScope(cv: HTMLCanvasElement, rowsEl: HTMLElement): () => void {
   const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const ctx = cv.getContext('2d', { alpha: false });
+  const ctx = cv.getContext('2d', { alpha: false })!;
 
   const BINS = 512;
   const CENTER = 433.92, SPAN = 2.4;           // MHz
-  const BIN_HZ = SPAN * 1e6 / BINS;            // 4687.5 Hz
+  const BIN_HZ = (SPAN * 1e6) / BINS;          // 4687.5 Hz
   const TICK_MS = 45;                          // one FFT and one waterfall line
   const COL = { bg: '#0B1014', rule: '#22333D', cyan: '#2FD3E1', amber: '#FFB020', muted: '#9FB3BD' };
 
-  const rnd = (a, b) => a + Math.random() * (b - a);
-  const irnd = (a, b) => Math.floor(rnd(a, b + 1));
-  const pick = a => a[(Math.random() * a.length) | 0];
-  const hex = n => Math.floor(Math.random() * 16 ** n).toString(16).padStart(n, '0');
+  const rnd = (a: number, b: number) => a + Math.random() * (b - a);
+  const irnd = (a: number, b: number) => Math.floor(rnd(a, b + 1));
+  const pick = <T,>(a: T[]): T => a[(Math.random() * a.length) | 0];
+  const hex = (n: number) => Math.floor(Math.random() * 16 ** n).toString(16).padStart(n, '0');
 
   // ---- the population -----------------------------------------------------
   //
@@ -28,7 +68,7 @@
   // repeats and how many repeats, in ms. dev and baud describe an FSK signal,
   // bw a LoRa one. weight is how often it goes off, relative.
 
-  const KINDS = [
+  const KINDS: Kind[] = [
     { name: 'Bresser 3CH', mod: 'OOK', freq: 433.92, scatter: 60, baud: 2000, on: 30, gap: 4, n: [12, 15], snr: [20, 40], weight: 3, instances: 2,
       state: () => ({ id: irnd(1, 255), ch: irnd(1, 3), t: rnd(-2, 26), h: irnd(35, 90) }),
       why: s => `Bresser 3CH  id ${s.id}  ch ${s.ch}  ${(s.t += rnd(-0.1, 0.1)).toFixed(1)} C  ${s.h} %` },
@@ -90,23 +130,23 @@
     { name: 'LPD433 voice', mod: 'NFM', freq: null, scatter: 1, on: [700, 3800], gap: 0, n: [1, 1], snr: [14, 36], weight: 0.6, instances: 2,
       state: () => ({ ch: irnd(1, 69) }),
       freqOf: s => 433.075 + (s.ch - 1) * 0.025,
-      why: (s, ms) => `NFM voice  LPD433 ch ${s.ch}  ${(ms / 1000).toFixed(1)} s` },
+      why: (s, ms) => `NFM voice  LPD433 ch ${s.ch}  ${((ms ?? 0) / 1000).toFixed(1)} s` },
 
     { name: 'unknown', mod: 'OOK', freq: 433.92, scatter: 120, baud: 1500, on: 40, gap: 9, n: [3, 8], snr: [12, 28], weight: 1.5, instances: 3,
       state: () => ({ bits: irnd(20, 70) }),
-      why: s => null, unclaimed: s => `unclaimed  OOK PWM, ${s.bits} bits` },
+      why: () => null, unclaimed: s => `unclaimed  OOK PWM, ${s.bits} bits` },
   ];
 
-  const DEVICES = [];
+  const DEVICES: Device[] = [];
   for (const k of KINDS) {
     for (let i = 0; i < k.instances; i++) {
       const s = k.state();
-      const base = k.freqOf ? k.freqOf(s) : k.freq;
+      const base = k.freqOf ? k.freqOf(s) : k.freq!;
       DEVICES.push({ kind: k, s, freq: base + rnd(-k.scatter, k.scatter) / 1000, weight: k.weight / k.instances });
     }
   }
   const TOTAL_W = DEVICES.reduce((a, d) => a + d.weight, 0);
-  function pickDevice() {
+  function pickDevice(): Device {
     let r = Math.random() * TOTAL_W;
     for (const d of DEVICES) { r -= d.weight; if (r <= 0) return d; }
     return DEVICES[0];
@@ -114,14 +154,14 @@
 
   // ---- signal shapes -------------------------------------------------------
 
-  function kernelFor(kind) {
-    let R, f;
+  function kernelFor(kind: Kind) {
+    let R: number, f: (d: number) => number;
     if (kind.mod === 'LoRa') {
-      const half = kind.bw / 2 / BIN_HZ, edge = 0.8;
+      const half = kind.bw! / 2 / BIN_HZ, edge = 0.8;
       R = Math.ceil(half + 4);
       f = d => { const o = Math.abs(d) - half; return o <= 0 ? 1 : Math.exp(-(o * o) / (2 * edge * edge)); };
     } else if (kind.mod === '2-FSK') {
-      const s = kind.dev / BIN_HZ, w = Math.max(0.6, kind.baud / BIN_HZ / 2.2);
+      const s = kind.dev! / BIN_HZ, w = Math.max(0.6, kind.baud! / BIN_HZ / 2.2);
       R = Math.ceil(s + 4 * w);
       f = d => 0.5 * Math.exp(-((d - s) ** 2) / (2 * w * w)) + 0.5 * Math.exp(-((d + s) ** 2) / (2 * w * w));
     } else if (kind.mod === 'NFM') {
@@ -129,7 +169,7 @@
       R = 6;
       f = d => Math.exp(-(d * d) / (2 * w * w));
     } else {
-      const w = Math.max(0.55, kind.baud / BIN_HZ);
+      const w = Math.max(0.55, kind.baud! / BIN_HZ);
       R = 5;
       f = d => Math.exp(-(d * d) / (2 * w * w));
     }
@@ -142,12 +182,12 @@
   // ---- receiver state ------------------------------------------------------
 
   const DB_LO = -90, DB_HI = -25, FLOOR_DB = -72;
-  const norm = db => Math.max(0, Math.min(1, (db - DB_LO) / (DB_HI - DB_LO)));
+  const norm = (db: number) => Math.max(0, Math.min(1, (db - DB_LO) / (DB_HI - DB_LO)));
 
   const shape = new Float32Array(BINS);
   for (let i = 0; i < BINS; i++) {
     const u = i / (BINS - 1) - 0.5;
-    shape[i] = Math.pow(10, -3.5 * Math.pow(Math.abs(u) * 2, 6) / 10);
+    shape[i] = Math.pow(10, (-3.5 * Math.pow(Math.abs(u) * 2, 6)) / 10);
   }
   const BIRDIES = [
     { bin: BINS >> 1, w: 1.0, db: 20 },
@@ -158,11 +198,11 @@
   const power = new Float32Array(BINS);
   const mag = new Float32Array(BINS);
   const peak = new Float32Array(BINS);
-  let bursts = [];
+  let bursts: Burst[] = [];
 
   let W = 0, H = 0, dpr = 1, specH = 0, fallH = 0;
   const fall = document.createElement('canvas');
-  const fctx = fall.getContext('2d');
+  const fctx = fall.getContext('2d')!;
 
   function resize() {
     dpr = Math.min(window.devicePixelRatio || 1, 2);
@@ -180,19 +220,25 @@
 
   // ---- transmissions -------------------------------------------------------
 
-  function spawn(now) { transmit(pickDevice(), now); }
+  const timers = new Set<ReturnType<typeof setTimeout>>();
+  function later(fn: () => void, ms: number) {
+    const t = setTimeout(() => { timers.delete(t); fn(); }, ms);
+    timers.add(t);
+  }
 
-  function transmit(d, now, why) {
+  function spawn(now: number) { transmit(pickDevice(), now); }
+
+  function transmit(d: Device, now: number, why?: string) {
     const k = d.kind;
     const on = Array.isArray(k.on) ? rnd(k.on[0], k.on[1]) : k.on;
     const n = irnd(k.n[0], k.n[1]);
     const snr = rnd(k.snr[0], k.snr[1]);
-    const bin = (d.freq - CENTER) * 1e6 / BIN_HZ + BINS / 2;
+    const bin = ((d.freq - CENTER) * 1e6) / BIN_HZ + BINS / 2;
     const total = on * n + k.gap * (n - 1);
     bursts.push({ d, bin, on, gap: k.gap, n, level: Math.pow(10, snr / 10), snr, start: now, end: now + n * (on + k.gap) });
     const row = () => addRow(d, snr, total, 0, why);
     if (still) { row(); return; }
-    setTimeout(row, on + 30);
+    later(row, on + 30);
     // A mesh node that hears a packet sends it on after a random backoff, so a
     // packet on the air is usually followed by one or two copies from elsewhere.
     if (k.mesh && !why && Math.random() < 0.75) {
@@ -201,13 +247,13 @@
       for (let h = 0; h < hops && others.length; h++) {
         const o = others.splice((Math.random() * others.length) | 0, 1)[0];
         const delay = total + rnd(150, 900) + h * rnd(200, 600);
-        setTimeout(() => transmit(o, performance.now(), `${k.why(o.s).split('  ').slice(0, 2).join('  ')}  rebroadcast  hop ${h + 1}`), delay);
+        later(() => transmit(o, performance.now(), `${k.why(o.s)!.split('  ').slice(0, 2).join('  ')}  rebroadcast  hop ${h + 1}`), delay);
       }
     }
   }
 
   // Fraction of the window [now - TICK, now] during which the burst is keyed.
-  function onFraction(b, now) {
+  function onFraction(b: Burst, now: number) {
     const w0 = now - TICK_MS, w1 = now;
     let on = 0;
     const period = b.on + b.gap;
@@ -220,7 +266,7 @@
     return on / TICK_MS;
   }
 
-  function step(now) {
+  function step(now: number) {
     for (let i = 0; i < BINS; i++) power[i] = -Math.log(1 - Math.random()) * shape[i];
     for (const c of BIRDIES) {
       const amp = Math.pow(10, c.db / 10) * rnd(0.8, 1.2);
@@ -239,7 +285,7 @@
       if (k.mod === 'LoRa') amp *= rnd(0.85, 1.05);    // the chirp sweeps the block
       let centre = b.bin;
       if (k.mod === 'NFM') centre += rnd(-0.5, 0.5);   // speech wobbles the carrier
-      const { R, k: kern } = k.kernel;
+      const { R, k: kern } = k.kernel!;
       const c0 = Math.round(centre), sub = centre - c0;
       for (let d = -R; d <= R; d++) {
         const i = c0 + d;
@@ -257,7 +303,7 @@
 
   // ---- the packet list -----------------------------------------------------
 
-  function addRow(d, snr, ms, ageSec, whyOverride) {
+  function addRow(d: Device, snr: number, ms: number, ageSec: number, whyOverride?: string) {
     const k = d.kind;
     const why = whyOverride || k.why(d.s, ms);
     const el = document.createElement('li');
@@ -267,18 +313,18 @@
       `<span class="f">${(d.freq + rnd(-0.001, 0.001)).toFixed(3)} MHz</span>` +
       `<span class="m">${k.mod}</span>` +
       `<span class="s">${(snr + rnd(-0.8, 0.8)).toFixed(1)} dB</span>` +
-      `<span class="why">${why || k.unclaimed(d.s)}</span>`;
+      `<span class="why">${why || k.unclaimed!(d.s)}</span>`;
     rowsEl.prepend(el);
     el.classList.add('fresh');
-    setTimeout(() => el.classList.remove('fresh'), 700);
-    while (rowsEl.children.length > 7) rowsEl.lastElementChild.remove();
+    later(() => el.classList.remove('fresh'), 700);
+    while (rowsEl.children.length > 7) rowsEl.lastElementChild!.remove();
   }
 
-  function clock(ageSec) {
+  function clock(ageSec: number) {
     return new Date(Date.now() - ageSec * 1000).toTimeString().slice(0, 8);
   }
 
-  function seedRows(n) {
+  function seedRows(n: number) {
     for (let k = n; k > 0; k--) {
       const d = pickDevice();
       addRow(d, rnd(d.kind.snr[0], d.kind.snr[1]), 400, k * 3 + rnd(0, 4));
@@ -292,7 +338,7 @@
     [0.50, 26, 110, 150], [0.60, 47, 190, 214], [0.74, 150, 236, 244],
     [0.86, 255, 176, 32], [1.00, 255, 250, 225],
   ];
-  function level(v) {
+  function level(v: number): [number, number, number] {
     const x = Math.max(0, Math.min(1, v));
     for (let s = 1; s < STOPS.length; s++) {
       if (x <= STOPS[s][0]) {
@@ -359,7 +405,7 @@
     }
     ctx.textAlign = 'left';
 
-    const y = i => specH - Math.min(1, mag[i]) * (specH - 22);
+    const y = (i: number) => specH - Math.min(1, mag[i]) * (specH - 22);
 
     ctx.beginPath();
     ctx.moveTo(0, specH);
@@ -395,28 +441,39 @@
 
   // ---- run -----------------------------------------------------------------
 
-  let nextSpawn = 0, nextTick = 0;
-  function advance(now) {
+  let nextSpawn = 0, nextTick = 0, raf = 0, stopped = false;
+  function advance(now: number) {
     if (now > nextSpawn) { spawn(now); nextSpawn = now + rnd(500, 2400); }
     step(now);
     pushFallLine();
   }
-  function frame(now) {
+  function frame(now: number) {
+    if (stopped) return;
     if (now >= nextTick) { nextTick = now + TICK_MS; advance(now); draw(); }
-    requestAnimationFrame(frame);
+    raf = requestAnimationFrame(frame);
   }
 
   resize();
-  window.addEventListener('resize', () => { resize(); draw(); });
+  const onResize = () => { resize(); draw(); };
+  window.addEventListener('resize', onResize);
 
   const t0 = performance.now();
   if (still) {
     for (let k = 0; k < fallH + 20; k++) advance(t0 + k * TICK_MS);
     draw();
-    while (rowsEl.children.length > 7) rowsEl.lastElementChild.remove();
+    while (rowsEl.children.length > 7) rowsEl.lastElementChild!.remove();
   } else {
     for (let k = 0; k < 40; k++) { step(t0 - (40 - k) * TICK_MS); pushFallLine(); }
     seedRows(6);
-    requestAnimationFrame(frame);
+    raf = requestAnimationFrame(frame);
   }
-})();
+
+  return () => {
+    stopped = true;
+    cancelAnimationFrame(raf);
+    window.removeEventListener('resize', onResize);
+    for (const t of timers) clearTimeout(t);
+    timers.clear();
+    rowsEl.replaceChildren();
+  };
+}
