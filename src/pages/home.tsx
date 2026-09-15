@@ -98,7 +98,7 @@ export function Home() {
 
         <section class="band tight" id="hears">
           <div class="wrap">
-            <p class="eyebrow">Organised by where you point the radio</p>
+            <p class="eyebrow">The ones with nowhere else to go, first</p>
             <h2 class="section-h">What it hears</h2>
             <ul class="cards">
               {CARDS.map(c => (

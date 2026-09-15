@@ -258,7 +258,9 @@ h1 {
   border: 1px solid var(--rule);
   border-left: 2px solid var(--amber);
   padding: 22px;
-  overflow-x: auto;
+  /* Wrap rather than scroll: a clipped command reads as a complete one. */
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
   font: 400 13.5px/1.75 var(--mono);
   color: var(--muted);
   margin: 0;

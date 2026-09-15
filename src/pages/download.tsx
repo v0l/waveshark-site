@@ -98,9 +98,10 @@ function useRelease() {
 }
 
 const SOURCE = [
-  '<span class="c">$</span> sudo apt install librtlsdr-dev liblimesuite-dev pkg-config \\',
-  '    libclang-dev libasound2-dev libx11-dev libxrandr-dev libxi-dev \\',
-  '    libxcursor-dev libxkbcommon-dev libwayland-dev libgl1-mesa-dev',
+  '<span class="c">$</span> sudo apt install librtlsdr-dev liblimesuite-dev \\',
+  '    pkg-config libclang-dev libasound2-dev \\',
+  '    libx11-dev libxrandr-dev libxi-dev libxcursor-dev \\',
+  '    libxkbcommon-dev libwayland-dev libgl1-mesa-dev',
   '<span class="c">$</span> cargo run --release -p app',
 ].join('\n');
 
@@ -141,11 +142,10 @@ export function Download() {
             ))}
           </ul>
           <p class="note">
-            Every platform also has a <code>-cuda</code> asset on Linux and Windows. It is the same
-            receiver with the speech model on an NVIDIA card, and it needs the CUDA 12 runtime and a
-            driver of 570 or later; without them it will not start, so take the plain build unless you
-            want speech read on the GPU. <a href={`${REPO}/releases/latest`}>Every asset</a> is on the
-            release page.
+            Linux and Windows also have a <code>-cuda</code> asset: the same receiver with the speech
+            model on an NVIDIA card. It needs the CUDA 12 runtime and a driver of 570 or later and will
+            not start without them, so take the plain build unless you want speech read on the GPU.{' '}
+            <a href={`${REPO}/releases/latest`}>Every asset</a> is on the release page.
           </p>
         </section>
 

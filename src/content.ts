@@ -5,76 +5,27 @@ export interface Card {
   tx?: boolean;
 }
 
-/// Ordered roughly by where a receiver is most often pointed.
+/// Ordered by how hard the signal is to get anywhere else: the things other
+/// receivers hand to a separate tool come first, the well-served protocols
+/// after them.
 export const CARDS: Card[] = [
-  {
-    freq: '433 / 868 / 915 MHz',
-    title: 'ISM devices',
-    body:
-      '41 decoders, most from rtl_433\u2019s family. Weather stations, thermometers, TPMS, door contacts, gate remotes, security sensors, shelf labels, mostly with a stable device ID you can follow.',
-  },
-  {
-    freq: '1090 MHz',
-    title: 'Aircraft',
-    body: 'ADS-B and Mode S onto a map with a track table: callsign, altitude, speed, track, position.',
-  },
-  {
-    freq: '131.5 / 136.7 - 137 MHz',
-    title: 'Airline datalink',
-    body:
-      'ACARS on the airband channels and VDL Mode 2, the datalink most European traffic uses: the aircraft, the flight and the message it sent to the ground.',
-  },
-  {
-    freq: 'Marine VHF',
-    title: 'Shipping',
-    body: 'AIS positions and vessel identity, on the same map as the aircraft.',
-  },
-  {
-    freq: '144.800 / 144.390 / 144.640',
-    title: 'APRS',
-    body: 'Packet stations and vehicle trackers, Mic-E included, on the EU, US and JP calling frequencies.',
-  },
-  {
-    freq: 'Wherever you point it',
-    title: 'Pagers',
-    body: 'POCSAG at 512, 1200 and 2400 bit/s, message text in clear.',
-  },
-  {
-    freq: '136-174 / 400-470 MHz',
-    title: 'DMR',
-    body: 'Who called whom on which talkgroup, and speech through the ambe feature.',
-  },
-  {
-    freq: '390-400 MHz',
-    title: 'TETRA',
-    body: 'The network, its cells and who is called, with decryption and key recovery under the tea feature.',
-  },
-  {
-    freq: 'Amateur VHF and UHF',
-    title: 'M17',
-    body: 'Who called whom, for how long, packet messages in full, and Codec 2 speech.',
-  },
-  {
-    freq: '433 / 868 / 915 MHz',
-    title: 'LoRa mesh',
-    body: 'LoRaWAN join requests and addresses, Meshtastic text under the public keys, MeshCore adverts.',
-  },
-  {
-    freq: '868.95 MHz',
-    title: 'Utility meters',
-    body: 'Wireless M-Bus mode T: manufacturer, meter number, version and type.',
-  },
-  {
-    freq: 'Any band',
-    title: 'Voice',
-    body:
-      'WFM with stereo and RDS, NFM, AM, USB, LSB and CW, several channels at once, and a local speech model putting words beside each call.',
-  },
   {
     freq: '2.4 GHz',
     title: 'Wi-Fi and drones',
     body:
       '802.11a/g/b and single-stream n: network names, the addresses talking, the rate each frame arrived at and whether an address is randomised. A drone broadcasting Remote ID gives up its serial, position and operator, and a DJI airframe gives up its home point too. Needs a HackRF or a LimeSDR, since one channel is 20 MHz wide.',
+  },
+  {
+    freq: 'UHF and band III',
+    title: 'Television',
+    body:
+      'A DVB-T multiplex read from its carriers down to its transport stream: the transmission parameters, the services on it, and whichever one you pick playing in the window at full frame rate with its sound in step.',
+  },
+  {
+    freq: '390-400 MHz',
+    title: 'TETRA',
+    body:
+      'The network, its cells and who is called. The tea feature links the ciphers and a wgpu key search, so an enciphered channel can be worked on rather than only counted.',
   },
   {
     freq: '2.4 GHz',
@@ -94,10 +45,16 @@ export const CARDS: Card[] = [
       'ExpressLRS with the sticks read live on the control view, plus FrSky ACCST, FlySky AFHDS-2A and XN297 remotes.',
   },
   {
-    freq: 'UHF and band III',
-    title: 'Television',
+    freq: 'Any band',
+    title: 'Voice',
     body:
-      'A DVB-T multiplex read from its carriers to its transport stream: the transmission parameters, the services on it, and whichever one you pick watched at full frame rate with its sound in step.',
+      'WFM with stereo and RDS, NFM, AM, USB, LSB and CW, several channels at once, with a local Whisper or Qwen3-ASR model writing the words down as they are spoken.',
+  },
+  {
+    freq: '1.2 / 2.4 / 5.8 GHz',
+    title: 'Analogue video',
+    body:
+      'A camera\u2019s picture straight off the span, PAL or NTSC, in colour, with its audio subcarrier heard alongside and the lines received counted because nothing in analogue video checks itself.',
   },
   {
     freq: '144.500 MHz',
@@ -106,10 +63,56 @@ export const CARDS: Card[] = [
       'Martin 1 and 2, Scottie 1, 2 and DX, Robot 36 and 72, drawn line by line as they arrive and saved to disc when the picture ends.',
   },
   {
-    freq: '1.2 / 2.4 / 5.8 GHz',
-    title: 'Analogue video',
+    freq: '131.5 / 136.7 - 137 MHz',
+    title: 'Airline datalink',
     body:
-      'A camera\u2019s picture straight off the span, PAL or NTSC, in colour, with its audio subcarrier heard alongside and the lines received counted because nothing in analogue video checks itself.',
+      'ACARS on the airband channels and VDL Mode 2, the datalink most European traffic uses: the aircraft, the flight and the message it sent to the ground.',
+  },
+  {
+    freq: '433 / 868 / 915 MHz',
+    title: 'ISM devices',
+    body:
+      '41 decoders, most from rtl_433\u2019s family. Weather stations, thermometers, TPMS, door contacts, gate remotes, security sensors, shelf labels, mostly with a stable device ID you can follow.',
+  },
+  {
+    freq: '136-174 / 400-470 MHz',
+    title: 'DMR',
+    body: 'Who called whom on which talkgroup, and speech through the ambe feature.',
+  },
+  {
+    freq: 'Amateur VHF and UHF',
+    title: 'M17',
+    body: 'Who called whom, for how long, packet messages in full, and Codec 2 speech.',
+  },
+  {
+    freq: '433 / 868 / 915 MHz',
+    title: 'LoRa mesh',
+    body: 'LoRaWAN join requests and addresses, Meshtastic text under the public keys, MeshCore adverts.',
+  },
+  {
+    freq: '868.95 MHz',
+    title: 'Utility meters',
+    body: 'Wireless M-Bus mode T: manufacturer, meter number, version and type.',
+  },
+  {
+    freq: '1090 MHz',
+    title: 'Aircraft',
+    body: 'ADS-B and Mode S onto a map with a track table: callsign, altitude, speed, track, position.',
+  },
+  {
+    freq: 'Marine VHF',
+    title: 'Shipping',
+    body: 'AIS positions and vessel identity, on the same map as the aircraft.',
+  },
+  {
+    freq: '144.800 / 144.390 / 144.640',
+    title: 'APRS',
+    body: 'Packet stations and vehicle trackers, Mic-E included, on the EU, US and JP calling frequencies.',
+  },
+  {
+    freq: 'Wherever you point it',
+    title: 'Pagers',
+    body: 'POCSAG at 512, 1200 and 2400 bit/s, message text in clear.',
   },
   {
     freq: 'On a radio that can',
@@ -232,7 +235,7 @@ export const RIGS: Rig[] = [
     freq: '1 MHz - 6 GHz',
     title: 'HackRF One',
     body:
-      'Wider spans, so Wi-Fi, Bluetooth LE, DroneID and television come within reach, plus a transmitter and a bias tee for a mast head amplifier.',
+      'Spans wide enough for Wi-Fi, Bluetooth LE, DroneID and television, a transmitter, and a bias tee for a mast head amplifier.',
   },
   {
     freq: 'USB and Mini',
