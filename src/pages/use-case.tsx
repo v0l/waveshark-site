@@ -25,7 +25,7 @@ export function UseCase() {
         <section class="page-head">
           <div class="wrap">
             <nav class="crumbs" aria-label="Breadcrumb">
-              <a href="/">WaveShark</a> <span>/</span> <a href="/use-cases">Use cases</a>
+              <a href="/">WaveShark</a> <span>/</span> <a href="/use-cases/">Use cases</a>
             </nav>
             <p class="eyebrow">{item.kicker}</p>
             <h1>{item.title}</h1>
@@ -49,7 +49,7 @@ export function UseCase() {
                 <span key={v} class="chip">{v}</span>
               ))}
             </p>
-            <a class="btn btn-sm" href="/download">Download</a>
+            <a class="btn btn-sm" href="/download/">Download</a>
           </aside>
         </section>
 
@@ -57,7 +57,7 @@ export function UseCase() {
           <div class="wrap">
             <h2>{next.title}</h2>
             <p>{next.summary}</p>
-            <a class="btn btn-lg" href={`/use-cases/${next.id}`}>Read that one</a>
+            <a class="btn btn-lg" href={`/use-cases/${next.id}/`}>Read that one</a>
           </div>
         </section>
       </main>

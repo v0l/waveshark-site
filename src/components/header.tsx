@@ -29,10 +29,10 @@ export function HomeHeader() {
       links={[
         { href: '#hears', label: 'What it hears' },
         { href: '#views', label: 'Views' },
-        { href: '/use-cases', label: 'Use cases' },
+        { href: '/use-cases/', label: 'Use cases' },
         { href: '#hardware', label: 'Hardware' },
         { href: REPO, label: 'Source' },
-        { href: '/download', label: 'Download', button: true },
+        { href: '/download/', label: 'Download', button: true },
       ]}
     />
   );
@@ -43,7 +43,7 @@ export function DownloadHeader() {
     <Header
       links={[
         { href: '/#hears', label: 'What it hears' },
-        { href: '/use-cases', label: 'Use cases' },
+        { href: '/use-cases/', label: 'Use cases' },
         { href: '/#hardware', label: 'Hardware' },
         { href: REPO, label: 'Source' },
         { href: `${REPO}/releases`, label: 'All releases', button: true },

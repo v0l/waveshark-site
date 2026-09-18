@@ -9,10 +9,10 @@ export function UseCasesHeader() {
       links={[
         { href: '/#hears', label: 'What it hears' },
         { href: '/#views', label: 'Views' },
-        { href: '/use-cases', label: 'Use cases' },
+        { href: '/use-cases/', label: 'Use cases' },
         { href: '/#hardware', label: 'Hardware' },
         { href: REPO, label: 'Source' },
-        { href: '/download', label: 'Download', button: true },
+        { href: '/download/', label: 'Download', button: true },
       ]}
     />
   );
@@ -40,7 +40,7 @@ export function UseCases() {
               <li key={c.id} class="case">
                 <p class="freq">{c.kicker}</p>
                 <h2>
-                  <a href={`/use-cases/${c.id}`}>{c.title}</a>
+                  <a href={`/use-cases/${c.id}/`}>{c.title}</a>
                 </h2>
                 <p class="case-sum">{c.summary}</p>
                 <p class="case-meta">
@@ -49,7 +49,7 @@ export function UseCases() {
                     <span key={v} class="chip">{v}</span>
                   ))}
                 </p>
-                <a class="case-more" href={`/use-cases/${c.id}`}>
+                <a class="case-more" href={`/use-cases/${c.id}/`}>
                   How it works &rarr;
                 </a>
               </li>
@@ -64,7 +64,7 @@ export function UseCases() {
               It opens on a dashboard, and the dial starts at 433.92 MHz where the devices it decodes
               are.
             </p>
-            <a class="btn btn-lg" href="/download">Download WaveShark</a>
+            <a class="btn btn-lg" href="/download/">Download WaveShark</a>
           </div>
         </section>
       </main>

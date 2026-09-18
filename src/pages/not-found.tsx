@@ -18,7 +18,7 @@ export function NotFound() {
             <p class="lede">The page you asked for is not here. The spectrum is.</p>
             <div class="cta">
               <a class="btn" href="/">Back to the front page</a>
-              <a class="btn btn-ghost" href="/download">Download</a>
+              <a class="btn btn-ghost" href="/download/">Download</a>
             </div>
           </div>
         </section>

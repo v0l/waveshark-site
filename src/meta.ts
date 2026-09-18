@@ -24,7 +24,7 @@ const softwareJsonLd = {
   applicationCategory: 'SecurityApplication',
   applicationSubCategory: 'Software defined radio',
   operatingSystem: 'Linux, Windows, macOS',
-  downloadUrl: `${SITE}/download`,
+  downloadUrl: `${SITE}/download/`,
   softwareVersion: '0.3.0',
   license: 'https://www.gnu.org/licenses/gpl-3.0.html',
   image: `${SITE}/assets/og.png`,
@@ -50,12 +50,12 @@ export const PAGES: Record<string, PageMeta> = {
     description:
       'Builds of WaveShark for Linux, Windows and Apple silicon, with CUDA variants for speech on a card, what each one needs from the system, and how to build from source with the tea and ambe features.',
     social: 'Linux, Windows and macOS builds, driver setup, and building from source.',
-    canonical: `${SITE}/download`,
+    canonical: `${SITE}/download/`,
     jsonLd: {
       '@context': 'https://schema.org',
       '@type': 'WebPage',
       name: 'Download WaveShark',
-      url: `${SITE}/download`,
+      url: `${SITE}/download/`,
       description:
         'Builds of WaveShark for Linux x86_64, Windows x86_64 and macOS arm64, what each one needs from the system, and how to build from source.',
       isPartOf: { '@type': 'WebSite', name: 'WaveShark', url: `${SITE}/` },
@@ -66,12 +66,12 @@ export const PAGES: Record<string, PageMeta> = {
     description:
       'Jobs one SDR receiver does: survey the wireless devices around you, track aircraft and shipping, monitor and transcribe radio networks, reverse engineer a remote, follow drones, receive weather satellites and radiosondes, run an amateur station, and let an agent drive the radio.',
     social: 'Device surveys, aircraft, shipping, voice networks, drones, weather satellites and more.',
-    canonical: `${SITE}/use-cases`,
+    canonical: `${SITE}/use-cases/`,
     jsonLd: {
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',
       name: 'WaveShark use cases',
-      url: `${SITE}/use-cases`,
+      url: `${SITE}/use-cases/`,
       isPartOf: { '@type': 'WebSite', name: 'WaveShark', url: `${SITE}/` },
       mainEntity: {
         '@type': 'ItemList',
@@ -79,7 +79,7 @@ export const PAGES: Record<string, PageMeta> = {
           '@type': 'ListItem',
           position: i + 1,
           name: c.title,
-          url: `${SITE}/use-cases/${c.id}`,
+          url: `${SITE}/use-cases/${c.id}/`,
         })),
       },
     },
@@ -87,7 +87,7 @@ export const PAGES: Record<string, PageMeta> = {
 };
 
 for (const c of USE_CASES) {
-  const url = `${SITE}/use-cases/${c.id}`;
+  const url = `${SITE}/use-cases/${c.id}/`;
   PAGES[`/use-cases/${c.id}`] = {
     title: `${c.title} with an SDR - WaveShark`,
     description: c.summary,
@@ -102,12 +102,12 @@ for (const c of USE_CASES) {
       image: `${SITE}/assets/og.png`,
       author: { '@type': 'Person', name: 'Kieran', url: 'https://github.com/v0l' },
       about: { '@type': 'SoftwareApplication', name: 'WaveShark', url: `${SITE}/` },
-      isPartOf: { '@type': 'CollectionPage', name: 'WaveShark use cases', url: `${SITE}/use-cases` },
+      isPartOf: { '@type': 'CollectionPage', name: 'WaveShark use cases', url: `${SITE}/use-cases/` },
       breadcrumb: {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'WaveShark', item: `${SITE}/` },
-          { '@type': 'ListItem', position: 2, name: 'Use cases', item: `${SITE}/use-cases` },
+          { '@type': 'ListItem', position: 2, name: 'Use cases', item: `${SITE}/use-cases/` },
           { '@type': 'ListItem', position: 3, name: c.title, item: url },
         ],
       },

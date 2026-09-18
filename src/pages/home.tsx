@@ -54,7 +54,7 @@ function Hero() {
           instead of what is on the one frequency somebody already told you about.
         </p>
         <div class="cta">
-          <a class="btn" href="/download">Download for Linux, Windows and macOS</a>
+          <a class="btn" href="/download/">Download for Linux, Windows and macOS</a>
           <a class="btn btn-ghost" href={REPO}>Read the source</a>
         </div>
         <p class="fineprint">GPL-3.0 &middot; RTL-SDR, HackRF One, LimeSDR &middot; no account, no cloud</p>
@@ -113,7 +113,7 @@ export function Home() {
             </ul>
             <p class="note">
               ISM coverage is the thin part: rtl_433 has roughly 250 device decoders and matching it
-              is the job. <a href="/use-cases">The use cases</a> are what people do with the rest.{' '}
+              is the job. <a href="/use-cases/">The use cases</a> are what people do with the rest.{' '}
               <a href={`${REPO}/blob/master/crates/nodes/src/protocol.rs`}>The registry</a>{' '}
               is every protocol the receiver can reach, and{' '}
               <a href={`${REPO}/blob/master/CHANGELOG.md`}>the changelog</a> is what landed last.
@@ -173,15 +173,15 @@ export function Home() {
                 <li key={c.id} class="case">
                   <p class="freq">{c.kicker}</p>
                   <h3 class="case-h">
-                    <a href={`/use-cases/${c.id}`}>{c.title}</a>
+                    <a href={`/use-cases/${c.id}/`}>{c.title}</a>
                   </h3>
                   <p class="case-sum">{c.summary}</p>
-                  <a class="case-more" href={`/use-cases/${c.id}`}>How it works &rarr;</a>
+                  <a class="case-more" href={`/use-cases/${c.id}/`}>How it works &rarr;</a>
                 </li>
               ))}
             </ul>
             <p class="note">
-              <a href="/use-cases">All {USE_CASES.length} use cases</a>, from a device survey to
+              <a href="/use-cases/">All {USE_CASES.length} use cases</a>, from a device survey to
               letting an agent drive the radio.
             </p>
           </div>
@@ -304,7 +304,7 @@ export function Home() {
           <div class="wrap">
             <h2>Plug in a radio and press play.</h2>
             <p>It opens on a dashboard, and the dial starts at 433.92 MHz where the devices it decodes are.</p>
-            <a class="btn btn-lg" href="/download">Download WaveShark</a>
+            <a class="btn btn-lg" href="/download/">Download WaveShark</a>
           </div>
         </section>
       </main>

@@ -4,6 +4,10 @@ import { ROUTES } from './src/meta';
 
 const SITE = 'https://waveshark.io';
 
+/// Pages serves `/download/index.html`, so the slashless path redirects: the
+/// sitemap and the canonicals have to name the URL that answers 200.
+const href = (path: string) => (path === '/' ? '/' : `${path}/`);
+
 /// The sitemap is the route table, so a page cannot be added without listing it.
 function sitemap(): Plugin {
   const lastmod = new Date().toISOString().slice(0, 10);
@@ -14,7 +18,7 @@ function sitemap(): Plugin {
     generateBundle() {
       const urls = ROUTES.map(
         p =>
-          `  <url>\n    <loc>${SITE}${p === '/' ? '/' : p}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <priority>${priority(p)}</priority>\n  </url>`,
+          `  <url>\n    <loc>${SITE}${href(p)}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <priority>${priority(p)}</priority>\n  </url>`,
       ).join('\n');
       this.emitFile({
         type: 'asset',
