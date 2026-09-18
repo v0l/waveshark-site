@@ -1,4 +1,4 @@
-import { USE_CASES } from './content';
+import { USE_CASES, VIEWS } from './content';
 
 export interface HeadElement {
   type: string;
@@ -59,6 +59,29 @@ export const PAGES: Record<string, PageMeta> = {
       description:
         'Builds of WaveShark for Linux x86_64, Windows x86_64 and macOS arm64, what each one needs from the system, and how to build from source.',
       isPartOf: { '@type': 'WebSite', name: 'WaveShark', url: `${SITE}/` },
+    },
+  },
+  '/views': {
+    title: 'The fifteen views - WaveShark',
+    description:
+      'One packet stream read fifteen ways: spectrum and waterfall, the signal chain itself, calls, transcript, messages, video, map, data links, devices, channels, control links, satellite passes, keys and an agent view.',
+    social: 'One packet stream, read fifteen ways. None of the views knows a protocol.',
+    canonical: `${SITE}/views/`,
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      name: 'The fifteen views',
+      url: `${SITE}/views/`,
+      isPartOf: { '@type': 'WebSite', name: 'WaveShark', url: `${SITE}/` },
+      mainEntity: {
+        '@type': 'ItemList',
+        itemListElement: VIEWS.map((v, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          name: v.title,
+          description: v.body,
+        })),
+      },
     },
   },
   '/use-cases': {

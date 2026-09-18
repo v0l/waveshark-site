@@ -8,7 +8,7 @@ export function UseCasesHeader() {
     <Header
       links={[
         { href: '/#hears', label: 'What it hears' },
-        { href: '/#views', label: 'Views' },
+        { href: '/views/', label: 'Views' },
         { href: '/use-cases/', label: 'Use cases' },
         { href: '/#hardware', label: 'Hardware' },
         { href: REPO, label: 'Source' },

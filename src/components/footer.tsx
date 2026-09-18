@@ -21,6 +21,7 @@ export function Footer() {
           <a href={`${REPO}/releases`}>Releases</a>
           <a href={`${REPO}/issues`}>Issues</a>
           <a href="https://github.com/sponsors/v0l">Sponsor</a>
+          <a href="/views/">Views</a>
           <a href="/use-cases/">Use cases</a>
           <a href="/download/">Download</a>
         </nav>

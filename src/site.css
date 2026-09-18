@@ -359,3 +359,8 @@ h1 {
 .case-h a { color: var(--text); text-decoration: none; }
 .case-h a:hover { color: var(--cyan); }
 .alts { display: flex; flex-wrap: wrap; gap: 14px; margin: 14px 0 0; font: 400 12.5px/1.5 var(--mono); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.view-chips { margin: 24px 0 0; }
+a.chip { text-decoration: none; }
+a.chip:hover { border-color: var(--cyan); color: var(--text); }
+.views h2 { font: 600 21px/1.2 var(--display); margin: 0 0 8px; }

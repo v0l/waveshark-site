@@ -152,15 +152,17 @@ export function Home() {
               track. The packet list runs along the bottom of all of them, newest last, with the
               selected burst’s envelope, instantaneous frequency and hex dump beside it.
             </p>
-            <ol class="views">
+            <p class="chips view-chips">
               {VIEWS.map(v => (
-                <li key={v.title}>
-                  <span class="key">{v.key}</span>
-                  <h3>{v.title}</h3>
-                  <p>{v.body}</p>
-                </li>
+                <a key={v.title} class="chip" href={`/views/#${v.title.toLowerCase().replace(/\s+/g, '-')}`}>
+                  {v.title}
+                </a>
               ))}
-            </ol>
+            </p>
+            <p class="note">
+              <a href="/views/">What each view holds</a>, from the dashboard a fresh receiver opens on
+              to the satellite passes nobody has heard yet.
+            </p>
           </div>
         </section>
 
