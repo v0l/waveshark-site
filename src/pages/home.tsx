@@ -113,7 +113,8 @@ export function Home() {
             </ul>
             <p class="note">
               ISM coverage is the thin part: rtl_433 has roughly 250 device decoders and matching it
-              is the job. <a href="/use-cases/">The use cases</a> are what people do with the rest.{' '}
+              is the job. Each protocol has <a href="/decodes/">a page of its own</a> saying what it
+              gives you, and <a href="/bands/">the band guides</a> say what is transmitting where.{' '}
               <a href={`${REPO}/blob/master/crates/nodes/src/protocol.rs`}>The registry</a>{' '}
               is every protocol the receiver can reach, and{' '}
               <a href={`${REPO}/blob/master/CHANGELOG.md`}>the changelog</a> is what landed last.

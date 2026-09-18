@@ -173,6 +173,9 @@ export function Download() {
                   <a class="btn" href={first ? first.browser_download_url : RELEASE_PAGE}>
                     Download for {b.title}
                   </a>
+                  <p class="alts">
+                    <a href={`/download/${b.id}/`}>Setup and first run on {b.title}</a>
+                  </p>
                   {rest.length ? (
                     <p class="alts">
                       {rest.map(a => (

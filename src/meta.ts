@@ -1,4 +1,8 @@
 import { USE_CASES, VIEWS } from './content';
+import { DECODES } from './decodes';
+import { BANDS } from './bands';
+import { RADIOS } from './radios';
+import { PLATFORMS, COMPARISONS } from './guides';
 
 export interface HeadElement {
   type: string;
@@ -137,6 +141,164 @@ for (const c of USE_CASES) {
     },
   };
 }
+
+const webPage = (name: string, path: string, parent?: [string, string]) => ({
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name,
+  url: `${SITE}${path}`,
+  isPartOf: parent
+    ? { '@type': 'CollectionPage', name: parent[0], url: `${SITE}${parent[1]}` }
+    : { '@type': 'WebSite', name: 'WaveShark', url: `${SITE}/` },
+});
+
+const collection = (name: string, path: string, items: { name: string; url: string }[]) => ({
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name,
+  url: `${SITE}${path}`,
+  isPartOf: { '@type': 'WebSite', name: 'WaveShark', url: `${SITE}/` },
+  mainEntity: {
+    '@type': 'ItemList',
+    itemListElement: items.map((it, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: it.name,
+      url: `${SITE}${it.url}`,
+    })),
+  },
+});
+
+PAGES['/decodes'] = {
+  title: 'What WaveShark decodes - every protocol',
+  description: `${DECODES.length} decoders running at once inside one span: ADS-B, ACARS, VDL Mode 2, AIS, POCSAG and FLEX paging, DMR, P25, NXDN, TETRA, M17, LoRa mesh, wireless M-Bus, Z-Wave, TPMS, ISM sensors, Wi-Fi, Bluetooth LE, Zigbee, drone Remote ID, SSTV, weather satellites, radiosondes, DVB-T, DAB and DRM.`,
+  social: 'Every protocol WaveShark reads, and what each one gives you.',
+  canonical: `${SITE}/decodes/`,
+  jsonLd: collection(
+    'WaveShark decoders',
+    '/decodes/',
+    DECODES.map(d => ({ name: d.name, url: `/decodes/${d.slug}/` })),
+  ),
+};
+
+for (const d of DECODES) {
+  PAGES[`/decodes/${d.slug}`] = {
+    title: `${d.name} decoder for SDR - WaveShark`,
+    description: `${d.summary}${d.aka ? ` Also known as ${d.aka}.` : ''}`,
+    social: d.summary,
+    canonical: `${SITE}/decodes/${d.slug}/`,
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'TechArticle',
+      headline: `${d.name} decoder`,
+      url: `${SITE}/decodes/${d.slug}/`,
+      description: d.summary,
+      about: { '@type': 'Thing', name: d.name, alternateName: d.aka },
+      isPartOf: { '@type': 'CollectionPage', name: 'WaveShark decoders', url: `${SITE}/decodes/` },
+      breadcrumb: {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'WaveShark', item: `${SITE}/` },
+          { '@type': 'ListItem', position: 2, name: 'Decoders', item: `${SITE}/decodes/` },
+          { '@type': 'ListItem', position: 3, name: d.name, item: `${SITE}/decodes/${d.slug}/` },
+        ],
+      },
+    },
+  };
+}
+
+PAGES['/bands'] = {
+  title: 'What is transmitting on each band - WaveShark',
+  description:
+    'Band by band: what is on 433, 868 and 915 MHz, the 2.4 and 5.8 GHz bands, airband, 1090 MHz, marine VHF, the amateur and business allocations, 137 MHz satellites, L band, shortwave and television.',
+  social: 'Point a radio at a band and see what is already transmitting on it.',
+  canonical: `${SITE}/bands/`,
+  jsonLd: collection(
+    'Bands',
+    '/bands/',
+    BANDS.map(b => ({ name: b.name, url: `/bands/${b.slug}/` })),
+  ),
+};
+
+for (const b of BANDS) {
+  PAGES[`/bands/${b.slug}`] = {
+    title: `${b.name} (${b.range}): what is transmitting there`,
+    description: b.summary,
+    social: b.summary,
+    canonical: `${SITE}/bands/${b.slug}/`,
+    jsonLd: webPage(b.name, `/bands/${b.slug}/`, ['Bands', '/bands/']),
+  };
+}
+
+PAGES['/hardware'] = {
+  title: 'SDR hardware for WaveShark - RTL-SDR, HackRF, LimeSDR',
+  description:
+    'Which radio for which job: an RTL-SDR dongle for the narrowband protocols, a HackRF One or LimeSDR for Wi-Fi, Bluetooth, drone Remote ID and television, and a tuner on another machine over iqstream or rtl_tcp.',
+  social: 'A €30 dongle does most of it. Here is what the wider radios buy you.',
+  canonical: `${SITE}/hardware/`,
+  jsonLd: collection(
+    'Hardware',
+    '/hardware/',
+    RADIOS.map(r => ({ name: r.name, url: `/hardware/${r.slug}/` })),
+  ),
+};
+
+for (const r of RADIOS) {
+  PAGES[`/hardware/${r.slug}`] = {
+    title: `${r.name} with WaveShark - what it reaches`,
+    description: r.summary,
+    social: r.summary,
+    canonical: `${SITE}/hardware/${r.slug}/`,
+    jsonLd: webPage(r.name, `/hardware/${r.slug}/`, ['Hardware', '/hardware/']),
+  };
+}
+
+for (const p of PLATFORMS) {
+  PAGES[`/download/${p.slug}`] = {
+    title: `Download WaveShark for ${p.name}`,
+    description: p.summary,
+    social: p.summary,
+    canonical: `${SITE}/download/${p.slug}/`,
+    jsonLd: webPage(`WaveShark for ${p.name}`, `/download/${p.slug}/`, ['Download', '/download/']),
+  };
+}
+
+for (const c of COMPARISONS) {
+  PAGES[`/vs/${c.slug}`] = {
+    title: `${c.name} - where each one wins`,
+    description: c.summary,
+    social: c.summary,
+    canonical: `${SITE}/vs/${c.slug}/`,
+    jsonLd: webPage(c.name, `/vs/${c.slug}/`),
+  };
+}
+
+PAGES['/mcp'] = {
+  title: 'An SDR receiver an agent can drive - WaveShark MCP server',
+  description:
+    'Every run serves the receiver over the Model Context Protocol on 127.0.0.1:8931, so a model can tune, open channels, read the spectrum and packets, edit the signal chain and screenshot the window it is driving.',
+  social: 'MCP on the loopback: an agent drives the receiver you are watching.',
+  canonical: `${SITE}/mcp/`,
+  jsonLd: webPage('Let an agent drive the radio', '/mcp/'),
+};
+
+PAGES['/home-assistant'] = {
+  title: 'RF sensors into Home Assistant over MQTT - WaveShark',
+  description:
+    'Publish every transmitter the decoders can name to Home Assistant over MQTT: weather stations, wireless M-Bus and ERT meters, TPMS pressure and the level each was heard at, with no vendor hub.',
+  social: 'Your own 433 and 868 MHz sensors as Home Assistant devices, no hub required.',
+  canonical: `${SITE}/home-assistant/`,
+  jsonLd: webPage('RF sensors into Home Assistant', '/home-assistant/'),
+};
+
+PAGES['/cli'] = {
+  title: 'WaveShark command line reference',
+  description:
+    'Every WaveShark flag: --tune, --span, --mode, --record, --replay, --headless, --survey, --mcp-listen, --kiss-listen, --iqstream-listen, --ha-broker, --probe and the switches that open the receiver on a view.',
+  social: 'Every flag, and the two that matter most.',
+  canonical: `${SITE}/cli/`,
+  jsonLd: webPage('Command line reference', '/cli/'),
+};
 
 /// Every path the build prerenders, which is also every path in the sitemap.
 export const ROUTES = Object.keys(PAGES);

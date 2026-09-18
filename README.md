@@ -18,10 +18,21 @@ radios, the use cases) and `src/meta.ts` (per-page head and the version in the
 JSON-LD). Pages are `src/pages/*.tsx`, the hero receiver simulation is
 `src/hero/scope.ts`.
 
-Each entry in `USE_CASES` is its own page at `/use-cases/<id>`. Adding one to
-that array gives it a route, a head, an Article with breadcrumbs, a prerendered
-page and a sitemap line, because `ROUTES` in `src/meta.ts` is what the build
-prerenders and what the sitemap plugin in `vite.config.ts` writes.
+Most of the site is data plus one page component:
+
+| file | pages |
+|---|---|
+| `src/content.ts` | home cards, `/views/`, `/use-cases/<id>` |
+| `src/decodes.ts` | `/decodes/<slug>` |
+| `src/bands.ts` | `/bands/<slug>`, which lists the decodes claiming that band |
+| `src/radios.ts` | `/hardware/<slug>` |
+| `src/guides.ts` | `/download/<platform>` and `/vs/<tool>` |
+
+Adding an entry to any of those arrays gives it a route, a head, breadcrumbs, a
+prerendered page and a sitemap line, because `ROUTES` in `src/meta.ts` is what
+the build prerenders and what the sitemap plugin in `vite.config.ts` writes.
+Paths carry a trailing slash everywhere, since that is what Cloudflare Pages
+serves; the router strips it before matching.
 
 The download page reads the latest tag and asset sizes from the GitHub API at
 runtime; the links work without it because they point at

@@ -1,27 +1,10 @@
-import { Header } from '../components/header';
+import { SiteHeader } from '../components/header';
 import { USE_CASES } from '../content';
-
-const REPO = 'https://github.com/v0l/waveshark';
-
-export function UseCasesHeader() {
-  return (
-    <Header
-      links={[
-        { href: '/#hears', label: 'What it hears' },
-        { href: '/views/', label: 'Views' },
-        { href: '/use-cases/', label: 'Use cases' },
-        { href: '/#hardware', label: 'Hardware' },
-        { href: REPO, label: 'Source' },
-        { href: '/download/', label: 'Download', button: true },
-      ]}
-    />
-  );
-}
 
 export function UseCases() {
   return (
     <>
-      <UseCasesHeader />
+      <SiteHeader />
       <main id="main">
         <section class="page-head">
           <div class="wrap">

@@ -23,32 +23,24 @@ export function Header({ links }: { links: Link[] }) {
   );
 }
 
-export function HomeHeader() {
+/// One nav everywhere, so a page added to the site is reachable from every
+/// other page rather than from the one that happened to link it.
+export function SiteHeader() {
   return (
     <Header
       links={[
-        { href: '#hears', label: 'What it hears' },
+        { href: '/decodes/', label: 'Decoders' },
+        { href: '/bands/', label: 'Bands' },
+        { href: '/hardware/', label: 'Hardware' },
         { href: '/views/', label: 'Views' },
         { href: '/use-cases/', label: 'Use cases' },
-        { href: '#hardware', label: 'Hardware' },
-        { href: REPO, label: 'Source' },
         { href: '/download/', label: 'Download', button: true },
       ]}
     />
   );
 }
 
-export function DownloadHeader() {
-  return (
-    <Header
-      links={[
-        { href: '/#hears', label: 'What it hears' },
-        { href: '/views/', label: 'Views' },
-        { href: '/use-cases/', label: 'Use cases' },
-        { href: '/#hardware', label: 'Hardware' },
-        { href: REPO, label: 'Source' },
-        { href: `${REPO}/releases`, label: 'All releases', button: true },
-      ]}
-    />
-  );
-}
+export const HomeHeader = SiteHeader;
+export const DownloadHeader = SiteHeader;
+
+export { REPO };

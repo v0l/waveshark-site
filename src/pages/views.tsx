@@ -1,27 +1,10 @@
-import { Header } from '../components/header';
+import { SiteHeader } from '../components/header';
 import { VIEWS } from '../content';
-
-const REPO = 'https://github.com/v0l/waveshark';
-
-export function ViewsHeader() {
-  return (
-    <Header
-      links={[
-        { href: '/#hears', label: 'What it hears' },
-        { href: '/views/', label: 'Views' },
-        { href: '/use-cases/', label: 'Use cases' },
-        { href: '/#hardware', label: 'Hardware' },
-        { href: REPO, label: 'Source' },
-        { href: '/download/', label: 'Download', button: true },
-      ]}
-    />
-  );
-}
 
 export function Views() {
   return (
     <>
-      <ViewsHeader />
+      <SiteHeader />
       <main id="main">
         <section class="page-head">
           <div class="wrap">

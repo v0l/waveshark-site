@@ -2,7 +2,7 @@ import { useRoute } from 'preact-iso';
 import { Code } from '../components/code';
 import { USE_CASES } from '../content';
 import { NotFound } from './not-found';
-import { UseCasesHeader } from './use-cases';
+import { SiteHeader } from '../components/header';
 
 /// Anything with a paragraph that names a flag or a file carries markup in the
 /// copy, so the body is written as HTML rather than escaped text.
@@ -20,7 +20,7 @@ export function UseCase() {
 
   return (
     <>
-      <UseCasesHeader />
+      <SiteHeader />
       <main id="main">
         <section class="page-head">
           <div class="wrap">
