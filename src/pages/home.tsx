@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'preact/hooks';
 import { HomeHeader } from '../components/header';
 import { Code } from '../components/code';
-import { CARDS, VIEWS, RIGS } from '../content';
+import { CARDS, VIEWS, RIGS, USE_CASES } from '../content';
 
 const REPO = 'https://github.com/v0l/waveshark';
 
@@ -9,15 +9,17 @@ const CLI = [
   '<span class="c">$</span> waveshark --tune 868.3 --record captures',
   '<span class="c">$</span> waveshark --replay captures',
   '',
-  '<span class="d">--tune &lt;mhz&gt;</span>         start tuned and listening',
-  '<span class="d">--mode &lt;mode&gt;</span>        wfm, nfm, am, usb, lsb or cw',
-  '<span class="d">--span &lt;khz&gt;</span>         nearest span, narrowed in software',
-  '<span class="d">--stream &lt;host&gt;</span>      offer an iqstream server as a radio',
-  '<span class="d">--headless</span>           run with no window, scanning and logging',
-  '<span class="d">--mcp-listen &lt;addr&gt;</span>  where to serve MCP, or off',
-  '<span class="d">--ha-broker &lt;host&gt;</span>   publish what is heard to Home Assistant',
-  '<span class="d">--print-log</span>          print every packet as it arrives',
-  '<span class="d">--fetch-data</span>         warm the dataset cache before going offline',
+  '<span class="d">--tune &lt;mhz&gt;</span>          start tuned and listening',
+  '<span class="d">--mode &lt;mode&gt;</span>         wfm, nfm, am, usb, lsb or cw',
+  '<span class="d">--span &lt;khz&gt;</span>          nearest span, narrowed in software',
+  '<span class="d">--stream &lt;host&gt;</span>       read a remote tuner, iqstream or rtl_tcp',
+  '<span class="d">--iqstream-listen</span>     serve this span to another machine',
+  '<span class="d">--headless</span>            run with no window, scanning and logging',
+  '<span class="d">--mcp-listen &lt;addr&gt;</span>   where to serve MCP, or off',
+  '<span class="d">--kiss-listen &lt;addr&gt;</span>  serve a KISS TNC to packet software',
+  '<span class="d">--ha-broker &lt;host&gt;</span>    publish what is heard to Home Assistant',
+  '<span class="d">--survey</span>              keep a database of devices and where',
+  '<span class="d">--print-log</span>           print every packet as it arrives',
 ].join('\n');
 
 function Hero() {
@@ -45,7 +47,7 @@ function Hero() {
         <div class="scope-fade" />
       </div>
       <div class="hero-copy">
-        <p class="eyebrow">433.920 MHz &middot; span 2400 kHz &middot; 41 scanners running</p>
+        <p class="eyebrow">433.920 MHz &middot; span 2400 kHz &middot; 45 scanners running</p>
         <h1>Wireshark for the<br />radio spectrum</h1>
         <p class="lede">
           Leave a cheap dongle on a band and WaveShark tells you what is transmitting around you,
@@ -111,7 +113,8 @@ export function Home() {
             </ul>
             <p class="note">
               ISM coverage is the thin part: rtl_433 has roughly 250 device decoders and matching it
-              is the job. <a href={`${REPO}/blob/master/crates/nodes/src/protocol.rs`}>The registry</a>{' '}
+              is the job. <a href="/use-cases">The use cases</a> are what people do with the rest.{' '}
+              <a href={`${REPO}/blob/master/crates/nodes/src/protocol.rs`}>The registry</a>{' '}
               is every protocol the receiver can reach, and{' '}
               <a href={`${REPO}/blob/master/CHANGELOG.md`}>the changelog</a> is what landed last.
             </p>
@@ -141,7 +144,7 @@ export function Home() {
         <section class="band" id="views">
           <div class="wrap">
             <p class="eyebrow">A strip of tabs, Ctrl and a digit for the first ten, Ctrl+` to go back</p>
-            <h2 class="section-h">Fourteen views on one stream</h2>
+            <h2 class="section-h">Fifteen views on one stream</h2>
             <p class="prose views-intro">
               Every decoded frame arrives in one place, and each view is a different reading of it.
               None of them knows a protocol: a DMR call, a TETRA call and an M17 call are the same row
@@ -161,6 +164,29 @@ export function Home() {
           </div>
         </section>
 
+        <section class="band tight" id="use-cases">
+          <div class="wrap">
+            <p class="eyebrow">One receiver, a different antenna and a different dial</p>
+            <h2 class="section-h">What people use it for</h2>
+            <ul class="cases">
+              {USE_CASES.slice(0, 6).map(c => (
+                <li key={c.id} class="case">
+                  <p class="freq">{c.kicker}</p>
+                  <h3 class="case-h">
+                    <a href={`/use-cases/${c.id}`}>{c.title}</a>
+                  </h3>
+                  <p class="case-sum">{c.summary}</p>
+                  <a class="case-more" href={`/use-cases/${c.id}`}>How it works &rarr;</a>
+                </li>
+              ))}
+            </ul>
+            <p class="note">
+              <a href="/use-cases">All {USE_CASES.length} use cases</a>, from a device survey to
+              letting an agent drive the radio.
+            </p>
+          </div>
+        </section>
+
         <section class="band" id="agents">
           <div class="wrap two">
             <div>
@@ -174,8 +200,13 @@ export function Home() {
                 one: what an agent tunes, opens or switches on appears in the window, and it can take a
                 picture of that window to see what it did. It reads the spectrum, the packets, the
                 calls, the transcript and the tracker, changes anything in the signal chain and draws
-                the chain itself. It cannot transmit, and <code>--mcp-listen off</code> stops it
-                listening.
+                the chain itself, and it reaches the settings: the scanner table, the memory bank, the
+                station and the datasets. <code>--mcp-listen off</code> stops it listening.
+              </p>
+              <p>
+                A channel’s transmit source can be the agent itself. Give it a name and it answers
+                when called: it hears the over, replies in its own voice and keeps the conversation
+                going for half a minute without being named again.
               </p>
               <p>
                 Point <code>--ha-broker</code> at the MQTT broker Home Assistant already uses and every
@@ -229,14 +260,15 @@ export function Home() {
             </div>
             <div class="prose">
               <p>
-                <strong>52 recordings</strong> from rtl_433’s corpus are replayed field for field
-                against what rtl_433 25.02 made of them. ADS-B is asserted against dump1090. Off-air
-                captures of M17, DMR, TETRA and Meshtastic are checked against what the transmission
-                itself says.
+                <strong>81 recordings</strong> from rtl_433’s corpus are replayed field for field
+                against what rtl_433 25.02 made of them, plus ADS-B against dump1090, ACARS against
+                acarsdec, VDL Mode 2 against dumpvdl2, SSTV against colaclanth’s decoder and a
+                radiosonde against SDRangel. Off-air captures of M17, DMR, TETRA and Meshtastic are
+                checked against what the transmission itself says.
               </p>
               <p>
-                The browser build is still a plan, and the decoder count is the part that needs to
-                grow. The code is the documentation: <a href={`${REPO}/blob/master/crates/app/src/chain.rs`}>
+                The browser build is still a plan, and forty-five ISM decoders where the goal is
+                hundreds is the part that needs to grow. The code is the documentation: <a href={`${REPO}/blob/master/crates/app/src/chain.rs`}>
                 crates/app/src/chain.rs</a> draws the graph the receiver runs.
               </p>
             </div>

@@ -323,3 +323,39 @@ h1 {
 .flags th { font: 500 11.5px/1.4 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 .flags td { color: var(--muted); }
 .flags td:first-child { color: var(--text); white-space: nowrap; }
+
+/* ---------- use cases ---------- */
+
+.cases { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+.case { background: var(--bg); padding: 26px 26px 28px; display: flex; flex-direction: column; }
+.case:hover { background: var(--panel); }
+.case h2 { font: 700 24px/1.15 var(--display); margin: 0 0 10px; }
+.case h2 a { color: var(--text); text-decoration: none; }
+.case h2 a:hover { color: var(--cyan); }
+.case-sum { color: var(--muted); font-size: 15.5px; margin: 0 0 18px; flex: 1; }
+.case-meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 18px; }
+.case-gear { font: 400 12px/1.5 var(--mono); color: color-mix(in srgb, var(--muted) 80%, var(--bg)); width: 100%; }
+.chip {
+  font: 500 11.5px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase;
+  color: var(--cyan); border: 1px solid var(--rule); padding: 6px 9px;
+}
+.case-more { font: 500 13px/1 var(--mono); text-decoration: none; }
+
+.crumbs { font: 400 12.5px/1 var(--mono); color: var(--muted); margin: 0 0 22px; display: flex; gap: 8px; }
+.crumbs a { text-decoration: none; }
+.crumbs span { color: color-mix(in srgb, var(--muted) 60%, var(--bg)); }
+
+.case-body { display: grid; grid-template-columns: minmax(0, 1.9fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 64px); align-items: start; padding-bottom: clamp(48px, 7vw, 90px); }
+.case-body .prose p { max-width: 68ch; }
+.case-body .code { margin-top: 26px; }
+.case-side { border-top: 2px solid var(--cyan); padding-top: 18px; }
+.case-side p { color: var(--muted); font-size: 15px; margin: 0 0 18px; }
+.case-side .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+
+@media (max-width: 860px) {
+  .case-body { grid-template-columns: minmax(0, 1fr); }
+}
+.case-h { font: 700 21px/1.18 var(--display); margin: 0 0 10px; }
+.case-h a { color: var(--text); text-decoration: none; }
+.case-h a:hover { color: var(--cyan); }
+.alts { display: flex; flex-wrap: wrap; gap: 14px; margin: 14px 0 0; font: 400 12.5px/1.5 var(--mono); }

@@ -3,13 +3,17 @@ import { DownloadHeader } from '../components/header';
 import { Code } from '../components/code';
 
 const REPO = 'https://github.com/v0l/waveshark';
-const LATEST = `${REPO}/releases/latest/download`;
+const RELEASE_PAGE = `${REPO}/releases/latest`;
 
 interface Build {
   id: string;
   title: string;
-  /// The asset name, which is also how the release API row is matched.
-  asset: string;
+  /// The token every asset for this platform carries, whatever else the file
+  /// is named. Asset names carry the version, so nothing here is a full name.
+  token: string;
+  /// Extensions worth offering, best first. An empty string is the bare
+  /// binary, which has no extension on Linux and macOS.
+  kinds: string[];
   fallbackMeta: string;
   req: preact.ComponentChildren;
 }
@@ -18,39 +22,44 @@ const BUILDS: Build[] = [
   {
     id: 'linux',
     title: 'Linux',
-    asset: 'waveshark-linux-x86_64.tar.gz',
-    fallbackMeta: 'x86_64 \u00b7 tar.gz',
+    token: 'linux-x86_64',
+    kinds: ['.deb', '.rpm', '.tar.gz', ''],
+    fallbackMeta: 'x86_64',
     req: (
       <>
-        Links librtlsdr rather than bundling it, so install <code>librtlsdr0</code> or{' '}
-        <code>rtl-sdr</code> from your distribution. That package also brings the udev rules that let
-        you open a dongle without root. LimeSDR support is compiled in.
+        The <code>.deb</code> and <code>.rpm</code> pull in librtlsdr, which brings the udev rules
+        that let you open a dongle without root. With the bare binary, install{' '}
+        <code>librtlsdr0</code> or <code>rtl-sdr</code> yourself. LimeSDR support is compiled in.
       </>
     ),
   },
   {
     id: 'windows',
     title: 'Windows',
-    asset: 'waveshark-windows-x86_64.zip',
-    fallbackMeta: 'x86_64 \u00b7 zip',
+    token: 'windows-x86_64',
+    kinds: ['.msi', '.zip'],
+    fallbackMeta: 'x86_64',
     req: (
       <>
         Ships the DLLs it needs, but Windows will not let anything open an RTL2832U until WinUSB is
-        bound to it with <a href="https://zadig.akeo.ie/">Zadig</a>. This build has no LimeSDR driver,
-        because LimeSuite is not packaged for Windows.
+        bound to it with <a href="https://zadig.akeo.ie/">Zadig</a>. The zip holds the executable and
+        its two DLLs, which have to stay beside it. No LimeSDR driver: LimeSuite is not packaged for
+        Windows.
       </>
     ),
   },
   {
     id: 'macos',
     title: 'macOS',
-    asset: 'waveshark-macos-arm64.tar.gz',
-    fallbackMeta: 'Apple silicon \u00b7 tar.gz',
+    token: 'macos-arm64',
+    kinds: ['.dmg', '.tar.gz', ''],
+    fallbackMeta: 'Apple silicon',
     req: (
       <>
-        Apple silicon only, and neither signed nor notarised, so clear the download flag once with{' '}
-        <code>xattr -dr com.apple.quarantine waveshark</code>. It links Homebrew’s librtlsdr and
-        LimeSuite, so <code>brew install librtlsdr limesuite</code> before the first run.
+        Apple silicon only. Signed but not notarised, so the first open needs a right click and Open,
+        or <code>xattr -dr com.apple.quarantine /Applications/WaveShark.app</code>. The app carries
+        its own ffmpeg, librtlsdr and LimeSuite; the bare binary reads them from Homebrew, so{' '}
+        <code>brew install ffmpeg librtlsdr limesuite</code> before running that one.
       </>
     ),
   },
@@ -59,10 +68,36 @@ const BUILDS: Build[] = [
 interface Asset {
   name: string;
   size: number;
+  browser_download_url: string;
 }
 
+/// Every asset for one platform, best first, with the bare binary last.
+///
+/// Matched on the platform token and the extension rather than the whole name,
+/// because the name carries the version: a hardcoded link is a 404 one release
+/// later.
+function kindOf(build: Build, name: string) {
+  return build.kinds.find(k => k !== '' && name.endsWith(k)) ?? '';
+}
+
+function assetsFor(build: Build, assets: Asset[]) {
+  return assets
+    .filter(a => a.name.includes(build.token) && !a.name.includes('-cuda'))
+    .filter(a => build.kinds.includes(kindOf(build, a.name)))
+    .sort((a, b) => build.kinds.indexOf(kindOf(build, a.name)) - build.kinds.indexOf(kindOf(build, b.name)));
+}
+
+/// What to call a file in a link. The version is in the name and full of full
+/// stops, so the extension cannot be read off the last one.
+function label(build: Build, name: string) {
+  const kind = kindOf(build, name);
+  return kind === '' ? 'bare binary' : kind.slice(1);
+}
+
+const size = (bytes: number) => `${(bytes / 1e6).toFixed(1)} MB`;
+
 function useRelease() {
-  const [tag, setTag] = useState('v0.2.0');
+  const [tag, setTag] = useState('v0.3.0');
   const [published, setPublished] = useState<string | null>(null);
   const [assets, setAssets] = useState<Asset[]>([]);
 
@@ -90,11 +125,7 @@ function useRelease() {
     };
   }, []);
 
-  const sizeOf = (name: string) => {
-    const a = assets.find(x => x.name === name);
-    return a ? ` \u00b7 ${(a.size / 1e6).toFixed(1)} MB` : '';
-  };
-  return { tag, published, sizeOf };
+  return { tag, published, assets };
 }
 
 const SOURCE = [
@@ -106,7 +137,8 @@ const SOURCE = [
 ].join('\n');
 
 export function Download() {
-  const { tag, published, sizeOf } = useRelease();
+  const { tag, published, assets } = useRelease();
+  const cuda = assets.some(a => a.name.includes('-cuda'));
 
   return (
     <>
@@ -120,32 +152,56 @@ export function Download() {
             </p>
             <h1>Download</h1>
             <p class="lede">
-              One binary and a radio. There is no installer, no service and nothing to sign up for.
+              A package or the bare binary, and a radio. No service, no account and nothing phoning
+              home.
             </p>
           </div>
         </section>
 
         <section class="wrap">
           <ul class="builds">
-            {BUILDS.map(b => (
-              <li class="build" key={b.id}>
-                <h2>{b.title}</h2>
-                <p class="meta">
-                  {b.fallbackMeta}
-                  {sizeOf(b.asset)}
-                </p>
-                <p class="req">{b.req}</p>
-                <a class="btn" href={`${LATEST}/${b.asset}`}>
-                  Download for {b.title}
-                </a>
-              </li>
-            ))}
+            {BUILDS.map(b => {
+              const [first, ...rest] = assetsFor(b, assets);
+              return (
+                <li class="build" key={b.id}>
+                  <h2>{b.title}</h2>
+                  <p class="meta">
+                    {b.fallbackMeta}
+                    {first ? ` \u00b7 ${label(b, first.name)} \u00b7 ${size(first.size)}` : ''}
+                  </p>
+                  <p class="req">{b.req}</p>
+                  <a class="btn" href={first ? first.browser_download_url : RELEASE_PAGE}>
+                    Download for {b.title}
+                  </a>
+                  {rest.length ? (
+                    <p class="alts">
+                      {rest.map(a => (
+                        <a key={a.name} href={a.browser_download_url}>
+                          {label(b, a.name)} &middot; {size(a.size)}
+                        </a>
+                      ))}
+                    </p>
+                  ) : null}
+                </li>
+              );
+            })}
           </ul>
           <p class="note">
-            Linux and Windows also have a <code>-cuda</code> asset: the same receiver with the speech
-            model on an NVIDIA card. It needs the CUDA 12 runtime and a driver of 570 or later and will
-            not start without them, so take the plain build unless you want speech read on the GPU.{' '}
-            <a href={`${REPO}/releases/latest`}>Every asset</a> is on the release page.
+            The buttons follow the release rather than a filename, because every asset carries its
+            version in the name.{' '}
+            {cuda ? (
+              <>
+                This release also has a <code>-cuda</code> asset on Linux and Windows: the same
+                receiver with the speech model on an NVIDIA card, needing the CUDA 12 runtime and a
+                driver of 570 or later. Take the plain build unless you want speech read on the GPU.{' '}
+              </>
+            ) : (
+              <>
+                One build per platform, card or no card: the speech models use an NVIDIA GPU when the
+                CUDA 12 runtime is on the machine and the CPU when it is not, and macOS uses Metal.{' '}
+              </>
+            )}
+            <a href={RELEASE_PAGE}>The release page</a> has the lot.
           </p>
         </section>
 
@@ -169,12 +225,15 @@ export function Download() {
                 <Code html={'<span class="c">$</span> sudo apt install librtlsdr0'} />
               </li>
               <li>
-                <h3>Unpack and run</h3>
-                <p>No install step. The binary is the program.</p>
+                <h3>Install it, or do not</h3>
+                <p>
+                  Open the package the button gave you, or take the bare binary and run it where it
+                  lands. The binary is the whole program either way.
+                </p>
                 <Code
                   html={[
-                    '<span class="c">$</span> tar xf waveshark-linux-x86_64.tar.gz',
-                    '<span class="c">$</span> ./waveshark',
+                    '<span class="c">$</span> sudo apt install ./waveshark-*-linux-x86_64.deb',
+                    '<span class="c">$</span> waveshark',
                   ].join('\n')}
                 />
               </li>
@@ -192,7 +251,7 @@ export function Download() {
                   <code>--probe</code> tests the signal path with no display, and{' '}
                   <code>--squelch-probe</code> reports what the squelch reads on a frequency.
                 </p>
-                <Code html={'<span class="c">$</span> ./waveshark --probe 433.92'} />
+                <Code html={'<span class="c">$</span> waveshark --probe 433.92'} />
               </li>
             </ol>
           </div>
@@ -249,8 +308,8 @@ export function Download() {
               </table>
               <p class="note">
                 The release workflow builds{' '}
-                <code>--no-default-features --features limesdr,stt,mcp</code>, and the CUDA assets add{' '}
-                <code>cuda</code>.
+                <code>--no-default-features --features limesdr,stt,cuda,mcp</code>, with{' '}
+                <code>limesdr</code> dropped on Windows.
               </p>
             </div>
           </div>
