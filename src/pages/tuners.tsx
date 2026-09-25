@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'preact/hooks';
 import { FormattedMessage, FormattedRelativeTime, useIntl } from 'react-intl';
 import { SiteHeader } from '../components/header';
 import { TunerMap } from '../components/tuner-map';
-import { RELAYS, addr, hasSlot, hears, now, watch, type Station, type Tuner } from '../directory';
+import { RELAYS, addr, hasSlot, hears, now, span, watch, type Station, type Tuner } from '../directory';
 import { useLocalePath } from '../i18n/context';
 
 const HARDWARE: Record<string, [string, string?]> = {
@@ -38,8 +38,13 @@ function Hardware({ id }: { id: string }) {
   return href ? <a href={to(href)}>{name}</a> : <>{name}</>;
 }
 
+function reachesPastSpan(t: Tuner): t is Tuner & { dial: { tunable: true; min: number; max: number } } {
+  const [lo, hi] = span(t);
+  return t.dial.tunable && t.dial.min !== undefined && t.dial.max !== undefined && (t.dial.min < lo || t.dial.max > hi);
+}
+
 function Reach({ t }: { t: Tuner }) {
-  if (t.dial.tunable && t.dial.min !== undefined && t.dial.max !== undefined) {
+  if (reachesPastSpan(t)) {
     return (
       <FormattedMessage
         defaultMessage="{span} MHz span, tunes {min} to {max} MHz"
