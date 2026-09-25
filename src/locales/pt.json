@@ -153,7 +153,7 @@
     "defaultMessage": "A descriptografia e a recuperação de chaves exigem uma compilação da fonte com o recurso tea. O monitor está sempre presente."
   },
   "134szimvz0y": {
-    "defaultMessage": "Onde está o WaveShark"
+    "defaultMessage": "Onde o WaveShark é a melhor escolha"
   },
   "134x2iqboiq": {
     "defaultMessage": "Onde os bastões estão em cada elo de controle do modelo ao alcance do ouvido: uma barra por canal em microssegundos, a taxa de quadros, o nível e se o fone está pedindo para armar."
@@ -267,7 +267,7 @@
     "defaultMessage": "Ligue um rádio e pressione reproduzir."
   },
   "15baupv03a5": {
-    "defaultMessage": "TEMPO"
+    "defaultMessage": "HORA"
   },
   "15em8yitac3": {
     "defaultMessage": "Uma janela: espectro, cascateamento, envelope, fatiamento de bits e hexadecimal para rajadas não reivindicadas"
@@ -378,7 +378,7 @@
     "defaultMessage": "A mensagem do balizamento é lida para obter seu código de país, sua identidade e sua posição, e o balizamento aparece no mapa como um rastreamento, assim como qualquer outro. O portadora de localização em 121,5 MHz é um sinal separado, não decodificado."
   },
   "17dl3dx5b3c": {
-    "defaultMessage": "Quinze Views num único stream"
+    "defaultMessage": "Quinze vistas sobre um único fluxo"
   },
   "17dm9j2v2vm": {
     "defaultMessage": "Abre-se em um painel de controle, e o mostrador inicia em 433,92 MHz, onde estão os dispositivos que ele decodifica."
@@ -1029,7 +1029,7 @@
     "defaultMessage": "Ondas curtas (3-30 MHz): o que está a transmitir aí"
   },
   "1lb9f0eq0cx": {
-    "defaultMessage": "Rádio para dentro, nada mais."
+    "defaultMessage": "Um rádio e mais nada."
   },
   "1lchlngx5dn": {
     "defaultMessage": "Todos os outros protocolos no mesmo span, ao mesmo tempo"
@@ -1095,7 +1095,7 @@
     "defaultMessage": "Televisão UHF (470-790 MHz): o que está a transmitir aí"
   },
   "1mevpzu3pvf": {
-    "defaultMessage": "Onde chega"
+    "defaultMessage": "Onde aparece"
   },
   "1mf1covvwqd": {
     "defaultMessage": "Controlo fino sobre todos os parâmetros do demodulador"
@@ -2151,7 +2151,7 @@
     "defaultMessage": "Instalar ou descomprimir"
   },
   "2b1vw8ypfqq": {
-    "defaultMessage": "Protocolos largos"
+    "defaultMessage": "Protocolos de banda larga"
   },
   "2b4ltxo5xvg": {
     "defaultMessage": "MOTOTRBO, Tier II, grupo de conversa, ID DMR"

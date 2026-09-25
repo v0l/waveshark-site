@@ -153,7 +153,7 @@
     "defaultMessage": "復号化と鍵の復旧には、tea機能を含むソースビルドが必要です。モニターは常に存在します。"
   },
   "134szimvz0y": {
-    "defaultMessage": "WaveShark の位置"
+    "defaultMessage": "WaveShark の方が向いている場面"
   },
   "134x2iqboiq": {
     "defaultMessage": "耳の届く範囲内のすべてのモデルコントロールリンクにおけるスティックの位置：マイクロ秒単位のチャネルごとのバー、フレームレート、レベル、およびハンドセットがアーム要求を行っているかどうか。"
@@ -267,7 +267,7 @@
     "defaultMessage": "ラジオを接続して再生を押すだけ。"
   },
   "15baupv03a5": {
-    "defaultMessage": "TIME"
+    "defaultMessage": "時刻"
   },
   "15em8yitac3": {
     "defaultMessage": "ウィンドウ：スペクトラム、ウォーターフォール、エンベロープ、未割り当てバーストのビットスライシングおよび16進数表示"
@@ -696,7 +696,7 @@
     "defaultMessage": "Home Assistant 連携が真価を発揮するのも、まさにこのバンドです。`<code>--ha-broker</code>` を Home Assistant がすでに使用しているブローカーに指定し、`<code>ism,wmbus</code>` に限定しておけば、独自のメーターやセンサーが、ベンダーのゲートウェイを介さずにデバイスとして表示されます。"
   },
   "1dvxnhl4tl": {
-    "defaultMessage": "FREQ"
+    "defaultMessage": "周波数"
   },
   "1dyj0clbky4": {
     "defaultMessage": "必要なもの"
@@ -1029,7 +1029,7 @@
     "defaultMessage": "短波 (3-30 MHz): この帯域で送信されているもの"
   },
   "1lb9f0eq0cx": {
-    "defaultMessage": "ラジオのみ、それ以外は何もありません。"
+    "defaultMessage": "必要なのは無線機だけ。"
   },
   "1lchlngx5dn": {
     "defaultMessage": "同じスパン内で他のすべてのプロトコルを同時に処理"
@@ -1200,7 +1200,7 @@
     "defaultMessage": "現在、欧州の航空交通の多くで使用されているデータリンクであり、ACARSと同じ航空会社メッセージを8倍の速度で伝送する。別名として、dumpvdl2、VDL2、136.975 MHz、AVLCとも呼ばれる。"
   },
   "1o93dpfq1uj": {
-    "defaultMessage": "デコード可能なキャプチャはテストフィクスチャ"
+    "defaultMessage": "デコードできたキャプチャはそのままテストデータになる"
   },
   "1o98ie1zb5v": {
     "defaultMessage": "Zadig で WinUSB をバインド"
@@ -2547,7 +2547,7 @@
     "defaultMessage": "すべてのモデル制御リンクが聴取可能な範囲内にあるスティックの状態：マイクロ秒単位のチャネルごとのバー、フレームレート、およびハンドセットがアームを要求しているかどうかを示す情報。ExpressLRS、FrSky ACCST、FlySky AFHDS-2A、XN297としても知られている。"
   },
   "54co5rz08w": {
-    "defaultMessage": "DECODED AS"
+    "defaultMessage": "デコード結果"
   },
   "5a61x8gopi": {
     "defaultMessage": "デコードされたすべてのフレームは単一の場所に集約され、各ビューはそのフレームに対する異なる解釈である。いずれのビューもプロトコルを認識しない。DMRの呼び出し、TETRAの呼び出し、M17の呼び出しは、異なるフィールドが埋められた同一の行であり、航空機、船舶、メッシュノードは同一の軌跡である。パケットリストはすべてのビューの下部に配置され、最新のパケットが末尾に表示される。選択されたバーストのエンベロープ、瞬間周波数、および16進ダンプがその横に表示される。"

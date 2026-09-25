@@ -126,7 +126,7 @@
     "defaultMessage": "<code>--headless</code> 以无窗口模式运行整个程序，其扫描和日志记录行为与图形界面完全一致，适合部署在阁楼中的设备上。"
   },
   "12evlta4f12": {
-    "defaultMessage": "先看看那些无处可去的数据"
+    "defaultMessage": "先说其他工具读不了的"
   },
   "12icutmjw7f": {
     "defaultMessage": "在 {platform} 上安装与首次运行"
@@ -153,7 +153,7 @@
     "defaultMessage": "解密和密钥恢复需要一个启用 tea 功能的源代码构建。监控始终存在。"
   },
   "134szimvz0y": {
-    "defaultMessage": "WaveShark 的位置"
+    "defaultMessage": "WaveShark 更合适的场合"
   },
   "134x2iqboiq": {
     "defaultMessage": "在耳语范围内，每个模型控制链路中各通道每微秒的条形图、帧率、信号电平以及手持设备是否请求武装。"
@@ -645,7 +645,7 @@
     "defaultMessage": "WaveShark - 无线电频谱的 Wireshark"
   },
   "1cno0rocrcn": {
-    "defaultMessage": "本地回环上的 MCP，以及通往室内的 MQTT"
+    "defaultMessage": "本地回环上的 MCP，以及通往家中的 MQTT"
   },
   "1cnvnajty13": {
     "defaultMessage": "卫星视图列出了次日卫星经过您站点的所有过境信息，包括最大仰角和天区图。监听功能在整个过境过程中跟踪下行链路，进行多普勒校正，并在卫星落出地平线时关闭通道。"
@@ -753,7 +753,7 @@
     "defaultMessage": "控制视图是另一半：显示所有可听范围内的模型控制链路，每个通道以微秒为单位的条形图、帧率、信号电平以及手持设备是否请求武装。ExpressLRS 由接收机本身定位；FrSky ACCST、FlySky AFHDS-2A 和 XN297 也可被读取。"
   },
   "1fhd5hwexrc": {
-    "defaultMessage": "空闲插槽"
+    "defaultMessage": "有空位"
   },
   "1fiu4n7vic6": {
     "defaultMessage": "四分钟，其中大部分时间由司机负责。如果频谱发生移动，无线电就会开启，覆盖范围内的所有扫描仪都已在运行。"
@@ -957,7 +957,7 @@
     "defaultMessage": "通过 MQTT 将解码器可识别的所有发射器发布到 Home Assistant，包括气象站、无线 M-Bus 和 ERT 电表、胎压监测系统（TPMS）压力值以及每个信号被接收时的信号强度，无需厂商网关。"
   },
   "1jz5jwzfmls": {
-    "defaultMessage": "正在传输：语音、截图、.sub 文件以及六个已解码的协议"
+    "defaultMessage": "发射：语音、捕获文件、.sub 文件以及六种已解码协议"
   },
   "1k5gcimte9p": {
     "defaultMessage": "坦率地说：这类流量数据往往包含医疗和个人细节，且各国法律允许接收和保留的内容各不相同。"
@@ -1029,7 +1029,7 @@
     "defaultMessage": "短波 (3-30 MHz): 该频段有哪些发射信号"
   },
   "1lb9f0eq0cx": {
-    "defaultMessage": "仅接收无线电。"
+    "defaultMessage": "只需一台无线电，别无其他。"
   },
   "1lchlngx5dn": {
     "defaultMessage": "在同一带宽内同时解码其他所有协议"
@@ -1200,7 +1200,7 @@
     "defaultMessage": "目前欧洲大多数航空交通使用的数据链路，以八倍于ACARS的速率传输相同的航空公司报文。也称为dumpvdl2、VDL2、136.975 MHz或AVLC。"
   },
   "1o93dpfq1uj": {
-    "defaultMessage": "能解码的捕获就是测试固件"
+    "defaultMessage": "能解码的捕获就是测试样例"
   },
   "1o98ie1zb5v": {
     "defaultMessage": "使用 Zadig 绑定 WinUSB"
@@ -2151,7 +2151,7 @@
     "defaultMessage": "安装或解压"
   },
   "2b1vw8ypfqq": {
-    "defaultMessage": "宽协议"
+    "defaultMessage": "宽带协议"
   },
   "2b4ltxo5xvg": {
     "defaultMessage": "MOTOTRBO，Tier II，通话组，DMR ID"

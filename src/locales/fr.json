@@ -153,7 +153,7 @@
     "defaultMessage": "Le déchiffrement et la récupération de clé nécessitent une version de compilation avec la fonctionnalité tea. Le moniteur est toujours présent."
   },
   "134szimvz0y": {
-    "defaultMessage": "Où en est WaveShark"
+    "defaultMessage": "Là où WaveShark est le meilleur choix"
   },
   "134x2iqboiq": {
     "defaultMessage": "Là où les baguettes se trouvent sur chaque lien de commande du modèle à portée d’oreille : une barre par canal en microsecondes, le taux de trame, le niveau, et si le combiné demande l’armement."
@@ -1029,7 +1029,7 @@
     "defaultMessage": "Ondes courtes (3-30 MHz) : ce qui émet dans cette bande"
   },
   "1lb9f0eq0cx": {
-    "defaultMessage": "Radio en entrée, rien d'autre."
+    "defaultMessage": "Une radio, rien d’autre."
   },
   "1lchlngx5dn": {
     "defaultMessage": "Tous les autres protocoles dans la même bande passante, en même temps"
@@ -1095,7 +1095,7 @@
     "defaultMessage": "Télévision UHF (470-790 MHz) : ce qui émet dans cette bande"
   },
   "1mevpzu3pvf": {
-    "defaultMessage": "Où ça atterrit"
+    "defaultMessage": "Où ça apparaît"
   },
   "1mf1covvwqd": {
     "defaultMessage": "Contrôle fin de chaque paramètre de démodulateur"
@@ -1236,7 +1236,7 @@
     "defaultMessage": "rtl_433 est la référence pour la lecture des appareils ISM, et rien ici ne prétend le contraire : il intègre environ 250 décodeurs d’appareils, tandis que WaveShark en propose quarante-cinq, et ces quarante-cinq ont été vérifiés champ par champ par rapport à rtl_433 25.02 sur 81 enregistrements issus de son propre corpus. Si votre seule tâche est de décoder des capteurs et que vous souhaitez la couverture la plus large possible, utilisez rtl_433."
   },
   "1ow2tb94y32": {
-    "defaultMessage": "Réglable"
+    "defaultMessage": "Accordable"
   },
   "1p3k0c2xl6o": {
     "defaultMessage": "Niveau de signal pour chaque appareil entendu"
@@ -1389,7 +1389,7 @@
     "defaultMessage": "Un ensemble et les stations qu’il contient, avec leurs types de programme et débits binaire, sont lus à partir du bloc utilisé par votre émetteur. Également connu sous les noms de DAB+, radio numérique, ensemble, bande III."
   },
   "1sjazobb4jn": {
-    "defaultMessage": "Ce qui vit ici"
+    "defaultMessage": "Ce qui émet ici"
   },
   "1sktsh746mz": {
     "defaultMessage": "Bande L (1525-1559 MHz) : ce qui émet dans cette bande"
@@ -2151,7 +2151,7 @@
     "defaultMessage": "Installer ou décompresser"
   },
   "2b1vw8ypfqq": {
-    "defaultMessage": "Protocoles larges"
+    "defaultMessage": "Protocoles large bande"
   },
   "2b4ltxo5xvg": {
     "defaultMessage": "MOTOTRBO, Tier II, talkgroup, ID DMR"

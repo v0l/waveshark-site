@@ -153,7 +153,7 @@
     "defaultMessage": "Odszyfrowywanie i odzyskiwanie kluczy wymagają kompilacji źródłowej z funkcją tea. Monitor jest zawsze obecny."
   },
   "134szimvz0y": {
-    "defaultMessage": "Gdzie jest WaveShark"
+    "defaultMessage": "Gdzie lepiej sprawdza się WaveShark"
   },
   "134x2iqboiq": {
     "defaultMessage": "Gdzie w każdym modelu znajdują się linki sterowania w zasięgu słuchu: pasek na kanał w mikrosekundach, częstotliwość klatek, poziom oraz czy słuchawka prosi o uzbrojenie."
@@ -696,7 +696,7 @@
     "defaultMessage": "To również jest zespół, w którym integracja z Home Assistant znajduje swoje uzasadnienie. Wskaż opcją <code>--ha-broker</code> na brokera, którego Home Assistant już używa, ogranicz zakres do <code>ism,wmbus</code>, a Twoje własne liczniki i czujniki pojawią się jako urządzenia, bez pośredniczącej bramki producenta."
   },
   "1dvxnhl4tl": {
-    "defaultMessage": "CZĘSTOTLIWOŚĆ"
+    "defaultMessage": "CZĘST."
   },
   "1dyj0clbky4": {
     "defaultMessage": "Czego potrzebujesz"
@@ -795,7 +795,7 @@
     "defaultMessage": "Każda flaga WaveShark: --tune, --span, --mode, --record, --replay, --headless, --survey, --mcp-listen, --kiss-listen, --iqstream-listen, --ha-broker, --probe oraz przełączniki otwierające odbiornik w widoku."
   },
   "1gcws9ummjb": {
-    "defaultMessage": "goły plik binarny"
+    "defaultMessage": "sam plik binarny"
   },
   "1gn0mh7j9nb": {
     "defaultMessage": "Wydawca i kod zdarzenia, rozwinięty do nazwy"
@@ -1029,7 +1029,7 @@
     "defaultMessage": "Fale krótkie (3-30 MHz): co nadaje w tym zakresie"
   },
   "1lb9f0eq0cx": {
-    "defaultMessage": "Radio w, nic więcej."
+    "defaultMessage": "Tylko radio, nic więcej."
   },
   "1lchlngx5dn": {
     "defaultMessage": "Każdy inny protocol w tym samym spanie jednocześnie"
@@ -1095,7 +1095,7 @@
     "defaultMessage": "Telewizja UHF (470-790 MHz): co nadaje w tym zakresie"
   },
   "1mevpzu3pvf": {
-    "defaultMessage": "Gdzie to trafia"
+    "defaultMessage": "Gdzie się pojawia"
   },
   "1mf1covvwqd": {
     "defaultMessage": "Dokładna kontrola nad każdym parametrem demodulatora"
@@ -1236,7 +1236,7 @@
     "defaultMessage": "rtl_433 jest standardem do odczytu danych z urządzeń ISM i nic w tym miejscu nie sugeruje inaczej: zawiera około 250 dekodera urządzeń, podczas gdy WaveShark oferuje czterdzieści pięć, a te czterdzieści pięć zostało zweryfikowanych pole po polu względem wersji rtl_433 25.02 na podstawie 81 nagrań z jego własnego korpusu. Jeśli Twoim jedynym zadaniem jest dekodowanie danych z czujników i zależy Ci na możliwie najszerszym zakresie obsługi, użyj rtl_433."
   },
   "1ow2tb94y32": {
-    "defaultMessage": "Nastawialny"
+    "defaultMessage": "Przestrajalny"
   },
   "1p3k0c2xl6o": {
     "defaultMessage": "Poziom sygnału dla każdego usłyszanego urządzenia"
@@ -1389,7 +1389,7 @@
     "defaultMessage": "Ensemble oraz stacje w nim, wraz z typami programów i przepustowością, odczytywane z bloku wykorzystywanego przez nadajnik. Znany również jako DAB+, radio cyfrowe, ensemble, pasmo III."
   },
   "1sjazobb4jn": {
-    "defaultMessage": "Co tu działa"
+    "defaultMessage": "Co tu nadaje"
   },
   "1sktsh746mz": {
     "defaultMessage": "Pasmo L (1525-1559 MHz): co nadaje w tym zakresie"
@@ -2151,7 +2151,7 @@
     "defaultMessage": "Zainstaluj lub rozpakuj"
   },
   "2b1vw8ypfqq": {
-    "defaultMessage": "Szerokie protokoły"
+    "defaultMessage": "Protokoły szerokopasmowe"
   },
   "2b4ltxo5xvg": {
     "defaultMessage": "MOTOTRBO, Tier II, grupa rozmów, identyfikator DMR"

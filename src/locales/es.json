@@ -153,7 +153,7 @@
     "defaultMessage": "El descifrado y la recuperación de claves requieren una compilación de origen con la función tea. El monitor siempre está presente."
   },
   "134szimvz0y": {
-    "defaultMessage": "Dónde está WaveShark"
+    "defaultMessage": "Dónde WaveShark es la mejor opción"
   },
   "134x2iqboiq": {
     "defaultMessage": "Dónde están los bastones en cada enlace de control de modelo dentro del alcance de escucha: una barra por canal en microsegundos, la tasa de cuadros, el nivel y si el auricular está solicitando la armar."
@@ -267,7 +267,7 @@
     "defaultMessage": "Conecta un radio y pulsa reproducir."
   },
   "15baupv03a5": {
-    "defaultMessage": "TIEMPO"
+    "defaultMessage": "HORA"
   },
   "15em8yitac3": {
     "defaultMessage": "Una ventana: espectro, cascada, envolvente, segmentación por bits y hexadecimal para ráfagas no reclamadas"
@@ -753,7 +753,7 @@
     "defaultMessage": "La vista de control es la otra mitad: cada enlace de control de modelo en el rango de escucha, con una barra por canal en microsegundos, la tasa de fotogramas, el nivel de señal y si el transmisor está solicitando el armado. ExpressLRS es detectado por el propio receptor; FrSky ACCST, FlySky AFHDS-2A y XN297 también se leen."
   },
   "1fhd5hwexrc": {
-    "defaultMessage": "Hueco libre"
+    "defaultMessage": "Plaza libre"
   },
   "1fiu4n7vic6": {
     "defaultMessage": "Cuatro minutos, la mayor parte de ellos el conductor. Si el espectro se mueve, la radio está abierta y todos los escáneres del área ya están en marcha."
@@ -1029,7 +1029,7 @@
     "defaultMessage": "Ondas cortas (3-30 MHz): qué transmite ahí"
   },
   "1lb9f0eq0cx": {
-    "defaultMessage": "Radio de entrada, nada más."
+    "defaultMessage": "Una radio y nada más."
   },
   "1lchlngx5dn": {
     "defaultMessage": "Cualquier otro protocolo en el mismo span, al mismo tiempo"
@@ -1095,7 +1095,7 @@
     "defaultMessage": "Televisión UHF (470-790 MHz): qué transmite ahí"
   },
   "1mevpzu3pvf": {
-    "defaultMessage": "Dónde aterriza"
+    "defaultMessage": "Dónde aparece"
   },
   "1mf1covvwqd": {
     "defaultMessage": "Control fino sobre cada parámetro del demodulador"
@@ -2151,7 +2151,7 @@
     "defaultMessage": "Instala o descomprime"
   },
   "2b1vw8ypfqq": {
-    "defaultMessage": "Protocolos anchos"
+    "defaultMessage": "Protocolos de banda ancha"
   },
   "2b4ltxo5xvg": {
     "defaultMessage": "MOTOTRBO, Tier II, grupo de conversación, ID DMR"
@@ -2547,7 +2547,7 @@
     "defaultMessage": "Dónde se encuentran los bastones en cada enlace de control del modelo dentro del alcance de escucha: una barra por canal en microsegundos, con la tasa de fotogramas y si el emisor está solicitando armar. También conocido como ExpressLRS, FrSky ACCST, FlySky AFHDS-2A, XN297."
   },
   "54co5rz08w": {
-    "defaultMessage": "DECODED AS"
+    "defaultMessage": "DECODIFICADO COMO"
   },
   "5a61x8gopi": {
     "defaultMessage": "Cada cuadro decodificado llega a un único lugar, y cada vista es una lectura diferente de él. Ninguna de ellas conoce un protocolo: una llamada DMR, una llamada TETRA y una llamada M17 son la misma fila con distintos campos completados, y una aeronave, un buque y un nodo de malla son la misma trayectoria. La lista de paquetes se despliega en la parte inferior de todas las vistas, con el más reciente al final, y junto a ella se muestran el sobre del ráfago seleccionado, la frecuencia instantánea y el volcado hexadecimal."

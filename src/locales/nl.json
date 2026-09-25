@@ -153,7 +153,7 @@
     "defaultMessage": "Ontcijfering en sleutelherstel vereisen een broncodebuild met de tea-functie. De monitor is altijd aanwezig."
   },
   "134szimvz0y": {
-    "defaultMessage": "Waar WaveShark staat"
+    "defaultMessage": "Waar WaveShark de betere keuze is"
   },
   "134x2iqboiq": {
     "defaultMessage": "Waar de staven voor elke modelbesturingskoppeling binnen gehoorafstand staan: een staaf per kanaal in microseconden, het framepercentage, het niveau en of de handset vraagt om te activeren."
@@ -795,7 +795,7 @@
     "defaultMessage": "Elke WaveShark-vlag: --tune, --span, --mode, --record, --replay, --headless, --survey, --mcp-listen, --kiss-listen, --iqstream-listen, --ha-broker, --probe en de schakelaars die de ontvanger openen op een weergave."
   },
   "1gcws9ummjb": {
-    "defaultMessage": "naakte binary"
+    "defaultMessage": "losse binary"
   },
   "1gn0mh7j9nb": {
     "defaultMessage": "Oorsprong en gebeurteniscode, uitgebreid tot de naam"
@@ -1029,7 +1029,7 @@
     "defaultMessage": "Kortgolfradio (3-30 MHz): wat zendt er daar"
   },
   "1lb9f0eq0cx": {
-    "defaultMessage": "Radio in, niets anders."
+    "defaultMessage": "Een radio, verder niets."
   },
   "1lchlngx5dn": {
     "defaultMessage": "Elk ander protocol in dezelfde span tegelijk"
@@ -1095,7 +1095,7 @@
     "defaultMessage": "UHF televisie (470-790 MHz): wat zendt er daar"
   },
   "1mevpzu3pvf": {
-    "defaultMessage": "Waar het terechtkomt"
+    "defaultMessage": "Waar het verschijnt"
   },
   "1mf1covvwqd": {
     "defaultMessage": "Fijne controle over elke demodulatorparameter"
@@ -1164,7 +1164,7 @@
     "defaultMessage": "Frame- en pakkettelers, zodat een slechte passage duidelijk is"
   },
   "1nje5q1vjjt": {
-    "defaultMessage": "Command line referentie"
+    "defaultMessage": "Opdrachtregelreferentie"
   },
   "1now8zk4iwb": {
     "defaultMessage": "Installeer het, of niet"
@@ -1389,7 +1389,7 @@
     "defaultMessage": "Een ensemble en de zenders daarin, met hun programmatypes en bitrates, lezen de blok uit dat uw zender gebruikt. Ook bekend als DAB+, digitale radio, ensemble, band III."
   },
   "1sjazobb4jn": {
-    "defaultMessage": "Wat hier leeft"
+    "defaultMessage": "Wat hier uitzendt"
   },
   "1sktsh746mz": {
     "defaultMessage": "L-band (1525-1559 MHz): wat zendt er daar"
@@ -2151,7 +2151,7 @@
     "defaultMessage": "Installeren of uitpakken"
   },
   "2b1vw8ypfqq": {
-    "defaultMessage": "Brede protocollen"
+    "defaultMessage": "Breedbandprotocollen"
   },
   "2b4ltxo5xvg": {
     "defaultMessage": "MOTOTRBO, Tier II, talkgroup, DMR ID"
@@ -2670,7 +2670,7 @@
     "defaultMessage": "Hoogte, grondsnelheid, koers en verticale snelheid"
   },
   "82k3a4fl2t": {
-    "defaultMessage": "Bepalingsregel"
+    "defaultMessage": "Opdrachtregel"
   },
   "88peslw942": {
     "defaultMessage": "Wi-Fi decoder voor SDR - WaveShark"

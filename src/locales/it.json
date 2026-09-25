@@ -153,7 +153,7 @@
     "defaultMessage": "La decrittazione e il recupero della chiave richiedono una build della sorgente con la funzione tea abilitata. Il monitor è sempre presente."
   },
   "134szimvz0y": {
-    "defaultMessage": "Dove si trova WaveShark"
+    "defaultMessage": "Dove WaveShark è la scelta migliore"
   },
   "134x2iqboiq": {
     "defaultMessage": "Dove si trovano i comandi di ogni modello su ogni collegamento di controllo a portata d’orecchio: una barra per canale in microsecondi, la frequenza di aggiornamento dei fotogrammi, il livello e se il ricevitore sta richiedendo l’armamento."
@@ -795,7 +795,7 @@
     "defaultMessage": "Ogni flag di WaveShark: --tune, --span, --mode, --record, --replay, --headless, --survey, --mcp-listen, --kiss-listen, --iqstream-listen, --ha-broker, --probe e gli switch che aprono il ricevitore su una vista."
   },
   "1gcws9ummjb": {
-    "defaultMessage": "binario nudo"
+    "defaultMessage": "binario semplice"
   },
   "1gn0mh7j9nb": {
     "defaultMessage": "Origine e codice evento, espansi al nome completo"
@@ -1095,7 +1095,7 @@
     "defaultMessage": "Televisione UHF (470-790 MHz): cosa trasmette qui"
   },
   "1mevpzu3pvf": {
-    "defaultMessage": "Dove arriva"
+    "defaultMessage": "Dove appare"
   },
   "1mf1covvwqd": {
     "defaultMessage": "Controllo fine di ogni parametro del demodulatore"
@@ -2151,7 +2151,7 @@
     "defaultMessage": "Installa o estrai"
   },
   "2b1vw8ypfqq": {
-    "defaultMessage": "Protocolli larghi"
+    "defaultMessage": "Protocolli a banda larga"
   },
   "2b4ltxo5xvg": {
     "defaultMessage": "MOTOTRBO, Tier II, talkgroup, DMR ID"

@@ -49,15 +49,28 @@ Internal links go through `useLocalePath()` so they stay in the reader's
 language.
 
 ```sh
-bun run intl:extract   # -> src/locales/en.json, JSX and data together
+bun run intl:extract     # -> src/locales/en.json, JSX and data together
+bun run intl:translate   # short labels and messages with placeholders
 ollama_intl -u http://localhost:8001/v1 -m <model> -i src/locales/en.json -o src/locales \
   -t German:de -t French:fr -t Spanish:es -t Italian:it -t Portuguese:pt \
   -t Dutch:nl -t Polish:pl -t Japanese:ja -t "Chinese (Simplified):zh"
+bun run intl:translate   # again, to clean up what ollama_intl wrote
 ```
 
-`ollama_intl` only translates keys a locale file does not have yet, and drops
-keys English no longer has. Shell commands, flags, band slugs and the hero's
-simulated packet log are left in English on purpose.
+Both only fill keys a locale does not have yet, so hand fixes in a locale file
+stay. `intl:translate` (`INTL_URL`, `INTL_MODEL`, optional locale arguments)
+sends labels under 60 characters and anything with a placeholder in batches,
+with a radio glossary and a note of where each string appears, because
+`ollama_intl` translates one string at a time with no context and gets short
+labels wrong ("Views" as page views, "Bands" as music). It then replaces en and
+em dashes and drops any translation whose placeholders or tags no longer match
+the English, so the next run translates it again. `ollama_intl` does the long
+paragraphs, where the sentence is its own context. It cannot turn a model's
+thinking off, so serve a reasoning model with thinking disabled for that run,
+or it spends a minute on every string.
+
+Shell commands, flags, band slugs and the hero's simulated packet log are left
+in English on purpose.
 
 `/tuners/` reads the IQStream directory from nostr in the browser: kind 10690
 listings on the relays in `src/directory.ts`, checked against their signatures,

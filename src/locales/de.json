@@ -153,7 +153,7 @@
     "defaultMessage": "Die Entschlüsselung und Schlüsselwiederherstellung erfordern einen Quellcode-Build mit der tea-Funktion. Der Monitor ist immer vorhanden."
   },
   "134szimvz0y": {
-    "defaultMessage": "Wo WaveShark steht"
+    "defaultMessage": "Wo WaveShark besser ist"
   },
   "134x2iqboiq": {
     "defaultMessage": "Wo die Sticks auf jedem Modellsteuerungslink im Hörbereich sind: ein Balken pro Kanal in Mikrosekunden, die Bildwiederholrate, das Pegel und ob das Handset zum Armieren auffordert."
@@ -1095,7 +1095,7 @@
     "defaultMessage": "UHF-Fernsehen (470-790 MHz): Was dort sendet"
   },
   "1mevpzu3pvf": {
-    "defaultMessage": "Wo es landet"
+    "defaultMessage": "Wo es erscheint"
   },
   "1mf1covvwqd": {
     "defaultMessage": "Feine Kontrolle über jeden Demodulator-Parameter"
@@ -1389,7 +1389,7 @@
     "defaultMessage": "Ein Ensemble und die Sender darin, mit ihren Programmtypen und Bitraten, lesen den Block ab, den Ihr Sender verwendet. Auch bekannt als DAB+, digitales Radio, Ensemble, Band III."
   },
   "1sjazobb4jn": {
-    "defaultMessage": "Was hier lebt"
+    "defaultMessage": "Was hier sendet"
   },
   "1sktsh746mz": {
     "defaultMessage": "L-Band (1525-1559 MHz): Was dort sendet"
