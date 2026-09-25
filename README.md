@@ -34,6 +34,11 @@ the build prerenders and what the sitemap plugin in `vite.config.ts` writes.
 Paths carry a trailing slash everywhere, since that is what Cloudflare Pages
 serves; the router strips it before matching.
 
+`/tuners/` reads the IQStream directory from nostr in the browser: kind 10690
+listings on the relays in `src/directory.ts`, checked against their signatures,
+newest per author, dropped after a day. The map is Leaflet on OpenStreetMap
+tiles and loads only on that page.
+
 The download page reads the latest tag and asset sizes from the GitHub API at
 runtime; the links work without it because they point at
 `releases/latest/download`.

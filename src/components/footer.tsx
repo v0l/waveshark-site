@@ -19,6 +19,7 @@ export function Footer() {
           <p class="foot-h">Running it</p>
           <a href="/download/">Download</a>
           <a href="/hardware/">Hardware</a>
+          <a href="/tuners/">Public tuners</a>
           <a href="/cli/">Command line</a>
           <a href="/mcp/">Agents and MCP</a>
           <a href="/home-assistant/">Home Assistant</a>

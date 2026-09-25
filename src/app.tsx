@@ -10,6 +10,7 @@ import { PlatformPage, ComparisonPage } from './pages/guides';
 import { Mcp, HomeAssistant, Cli } from './pages/features';
 import { UseCases } from './pages/use-cases';
 import { UseCase } from './pages/use-case';
+import { Tuners } from './pages/tuners';
 import { NotFound } from './pages/not-found';
 import { Footer } from './components/footer';
 import { PAGES } from './meta';
@@ -45,6 +46,7 @@ export function App(props: { url?: string }) {
         <Route path="/cli" component={Cli} />
         <Route path="/use-cases" component={UseCases} />
         <Route path="/use-cases/:id" component={UseCase} />
+        <Route path="/tuners" component={Tuners} />
         <Route default component={NotFound} />
       </Router>
       <Footer />

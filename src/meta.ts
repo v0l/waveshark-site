@@ -300,6 +300,15 @@ PAGES['/cli'] = {
   jsonLd: webPage('Command line reference', '/cli/'),
 };
 
+PAGES['/tuners'] = {
+  title: 'Public SDR tuners on a map - WaveShark',
+  description:
+    'A live map of the iqstream servers people share through the WaveShark directory on nostr: where each receiver is, the tuners it has, what they are set to and the address to open it at.',
+  social: 'Shared SDR receivers anybody can open as a remote radio, read live from nostr.',
+  canonical: `${SITE}/tuners/`,
+  jsonLd: webPage('Public tuners', '/tuners/'),
+};
+
 /// Every path the build prerenders, which is also every path in the sitemap.
 export const ROUTES = Object.keys(PAGES);
 

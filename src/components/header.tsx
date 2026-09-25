@@ -34,6 +34,7 @@ export function SiteHeader() {
         { href: '/hardware/', label: 'Hardware' },
         { href: '/views/', label: 'Views' },
         { href: '/use-cases/', label: 'Use cases' },
+        { href: '/tuners/', label: 'Tuners' },
         { href: '/download/', label: 'Download', button: true },
       ]}
     />
