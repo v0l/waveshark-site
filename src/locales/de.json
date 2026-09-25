@@ -1682,9 +1682,6 @@
   "205tc2rnc0b": {
     "defaultMessage": "Die Textnachrichten, die Besatzungen und Fluggesellschaften sich gegenseitig per VHF senden: Positionsberichte, Treibstoffwerte, technische Störungen und Freitexte."
   },
-  "208f6okyqle": {
-    "defaultMessage": "Eine Anzeige ist ein signiertes Nostr-Ereignis der Art 10690, das jedes Mal ersetzt wird, wenn der Sender eine Ankündigung macht, und nach einem Tag abläuft, sodass ein Empfänger, der abmeldet, hier von selbst verschwindet. Der Standort ist ein fünfstelliger Geohash, eine Zelle von etwa fünf Kilometern Kantenlänge, nie die Antenne selbst."
-  },
   "20emzg6kfgf": {
     "defaultMessage": "Bilder und Daten aus dem Himmel holen"
   },
@@ -2005,6 +2002,9 @@
   },
   "286qzoufeqp": {
     "defaultMessage": "„Beschädigt“ beim ersten Öffnen ist der Quarantäne-Status, der mit dem oben genannten Befehl aufgehoben wird."
+  },
+  "286un4avnbr": {
+    "defaultMessage": "Ein Listing ist ein signiertes Nostr-Event der Art 10690. Die Station sendet es einige Minuten nach dem Umschalten oder wenn jemand das Hören startet oder beendet erneut aus, und jedes Listing läuft nach einem Tag ab, sodass ein Empfänger, der sich entfernt, hier von selbst verschwindet. Der Standort ist nur so genau, wie es der Eigentümer gewählt hat, irgendwo zwischen etwa 150 km und 150 m."
   },
   "288kn7s3hd3": {
     "defaultMessage": "2,4 GHz · HackRF oder LimeSDR"
@@ -3104,6 +3104,9 @@
   "hg5n65ai4j": {
     "defaultMessage": "bis zu 30 MHz"
   },
+  "hjn870suwl": {
+    "defaultMessage": "Stellen Sie die Span-Verbindung über IQStream über die Setup-Karte oder mit <code>--iqstream-listen</code> her, aktivieren Sie im Verzeichnisbereich der Einstellungen die Option <strong>list</strong> und legen Sie über <strong>locate</strong> fest, wie genau der Sender auf der Karte platziert werden soll. Lassen Sie das öffentliche Host-Feld leer, damit der Router gebeten wird, den Port über UPnP, PCP oder NAT-PMP zu öffnen. Eine <code>wave1090</code>-Instanz registriert sich mit <code>--iqstream-list</code>, und <code>--iqstream-locate</code> in Kombination mit <code>--iqstream-accuracy</code> platziert sie auf der Karte."
+  },
   "hnnqyqjm4k": {
     "defaultMessage": "Ein CW-Kanal wird als Text gelesen, unabhängig von der Geschwindigkeit, mit der er gesendet wurde, einschließlich der Beacons, die einen Relais- oder Sendeort identifizieren. Auch bekannt als CW-Decoder, QRS, Beacon."
   },
@@ -3553,9 +3556,6 @@
   },
   "rnljkhn2rf": {
     "defaultMessage": "Der russische digitale Wettersatellit: Die drei MSU-MR-Kanäle zeichnen bei jedem Überflug nacheinander Streifen aus jeweils acht Zeilen auf. Auch bekannt als Meteor M2, MSU-MR, digitaler Wettersatellit."
-  },
-  "rpi644veyt": {
-    "defaultMessage": "Stellen Sie die Span-Verbindung über iqstream über die Setup-Karte oder mit <code>--iqstream-listen</code> her, aktivieren Sie im Verzeichnisbereich der Einstellungen <strong>Liste</strong> und aktivieren Sie <strong>Ortung</strong>, damit die Position auf der Karte angezeigt wird. Lassen Sie den öffentlichen Host leer, sodass der Router gebeten wird, den Port über UPnP, PCP oder NAT-PMP zu öffnen. Ein <code>wave1090</code>-Gerät listet sich mit <code>--iqstream-list</code> selbst auf."
   },
   "rr4mv16s7t": {
     "defaultMessage": "digitales terrestrisches Fernsehen, Transportstrom, Freeview, Multiplex"

@@ -1682,9 +1682,6 @@
   "205tc2rnc0b": {
     "defaultMessage": "VHFを通じてクルーと航空会社が互いに送信するテキストメッセージには、位置報告、燃料量、技術的な故障、および自由形式のテキストが含まれます。"
   },
-  "208f6okyqle": {
-    "defaultMessage": "リスティングは、種別10690の署名済みNostrイベントであり、ステーションがアナウンスするたびに置き換えられ、1日で期限切れとなるため、受信機が離脱すると自動的にリストから削除されます。位置情報は5文字のジオハッシュで、約5km四方のセルを示し、アンテナ自体の位置ではありません。"
-  },
   "20emzg6kfgf": {
     "defaultMessage": "空から画像とデータを取得する"
   },
@@ -2005,6 +2002,9 @@
   },
   "286qzoufeqp": {
     "defaultMessage": "初回開封時に「破損」と表示されるのは隔離フラグであり、上記のコマンドで解除されます。"
+  },
+  "286un4avnbr": {
+    "defaultMessage": "リスティングは、種類10690の署名済みNostrイベントです。ステーションは、周波数を再調整した数分後、または誰かが聴取を開始・停止した際にこれを再送信します。また、すべてのリスティングは1日で失効するため、受信機が離脱すると自動的にここから削除されます。位置情報は、所有者が選択した精度の範囲内であり、約150kmから150mまでさまざまです。"
   },
   "288kn7s3hd3": {
     "defaultMessage": "2.4 GHz、HackRFまたはLimeSDR"
@@ -3104,6 +3104,9 @@
   "hg5n65ai4j": {
     "defaultMessage": "最大 30 MHz"
   },
+  "hjn870suwl": {
+    "defaultMessage": "セットアップカードまたは<code>--iqstream-listen</code>オプションを用いて、iqstream経由でspanを提供します。その後、設定のディレクトリセクションで<strong>list</strong>をオンにし、<strong>locate</strong>を地図上にステーションを配置する精度に合わせて設定してください。パブリックホスト欄を空欄にすると、ルーターに対してUPnP、PCP、またはNAT-PMP経由でポートを開くようリクエストされます。<code>wave1090</code>ボックスは<code>--iqstream-list</code>で自身をリストに表示し、<code>--iqstream-locate</code>と<code>--iqstream-accuracy</code>を併用することで地図上に配置されます。"
+  },
   "hnnqyqjm4k": {
     "defaultMessage": "CWチャネルは、送信された速度に関わらず、リピーターや送信局の位置を識別するビーコンを含むテキストとして読み取ります。CWデコーダー、QRS、ビーコンとも呼ばれます。"
   },
@@ -3553,9 +3556,6 @@
   },
   "rnljkhn2rf": {
     "defaultMessage": "ロシアのデジタル気象衛星：パスが通過する際、MSU-MRの3つのチャネルが一度に8行のストリップを描き出す。メテオルM2、MSU-MR、デジタル気象衛星とも呼ばれる。"
-  },
-  "rpi644veyt": {
-    "defaultMessage": "セットアップカードまたは<code>--iqstream-listen</code>オプションを使用して、iqstream経由でspanを提供します。その後、設定のディレクトリセクションで<strong>list</strong>をオンにし、<strong>locate</strong>をオンにして地図に表示させます。パブリックホスト欄を空欄にしておくと、ルーターはUPnP、PCP、またはNAT-PMP経由でポートを開くよう要求されます。<code>wave1090</code>ボックスは<code>--iqstream-list</code>オプションにより、自身をリストに表示します。"
   },
   "rr4mv16s7t": {
     "defaultMessage": "地上デジタル、トランスポートストリーム、Freeview、マルチプレックス"

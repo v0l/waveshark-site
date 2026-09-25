@@ -291,12 +291,12 @@ export function Tuners() {
                 <FormattedMessage defaultMessage="List your own" />
               </h2>
               <p class="prose">
-                <FormattedMessage defaultMessage="Serve the span over iqstream from the setup card or with <code>--iqstream-listen</code>, then switch on <strong>list</strong> in the directory section of the settings, and <strong>locate</strong> to be on the map. Leave the public host blank and the router is asked to open the port over UPnP, PCP or NAT-PMP. A <code>wave1090</code> box lists itself with <code>--iqstream-list</code>." />
+                <FormattedMessage defaultMessage="Serve the span over iqstream from the setup card or with <code>--iqstream-listen</code>, then switch on <strong>list</strong> in the directory section of the settings, and set <strong>locate</strong> to how closely the station should be placed on the map. Leave the public host blank and the router is asked to open the port over UPnP, PCP or NAT-PMP. A <code>wave1090</code> box lists itself with <code>--iqstream-list</code>, and <code>--iqstream-locate</code> with <code>--iqstream-accuracy</code> puts it on the map." />
               </p>
             </div>
             <div class="prose">
               <p>
-                <FormattedMessage defaultMessage="A listing is a signed nostr event of kind 10690, replaced each time the station announces and expired after a day, so a receiver that goes away drops off here on its own. The location is a five character geohash, a cell about five kilometres across, never the antenna itself." />
+                <FormattedMessage defaultMessage="A listing is a signed nostr event of kind 10690. The station sends it again a few minutes after it retunes or someone starts or stops listening, and every listing expires after a day, so a receiver that goes away drops off here on its own. The location is only as close as its owner chose, anywhere from about 150 km to 150 m." />
               </p>
               <p>
                 <FormattedMessage defaultMessage="In WaveShark the same list is in the remote tuners dialog, where TUNE opens a station as a radio. From a terminal, <code>--stream</code> takes the address on each card." />

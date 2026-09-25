@@ -1682,9 +1682,6 @@
   "205tc2rnc0b": {
     "defaultMessage": "Les messages texte que les équipages et les compagnies aériennes s’envoient par VHF : rapports de position, données sur le carburant, pannes techniques et texte libre."
   },
-  "208f6okyqle": {
-    "defaultMessage": "Une annonce est un événement signé de type 10690, remplacé à chaque fois que la station émet une annonce et expiré après un jour, si bien qu’un récepteur qui se déconnecte disparaît de lui-même. La position est un géohash de cinq caractères, représentant une cellule d’environ cinq kilomètres de côté, et non l’antenne elle-même."
-  },
   "20emzg6kfgf": {
     "defaultMessage": "Extraire images et données du ciel"
   },
@@ -2005,6 +2002,9 @@
   },
   "286qzoufeqp": {
     "defaultMessage": "« Endommagé » lors de la première ouverture est l’indicateur de quarantaine, effacé par la commande ci-dessus."
+  },
+  "286un4avnbr": {
+    "defaultMessage": "Un listing est un événement nostr signé de type 10690. La station le renvoie quelques minutes après un changement de fréquence ou lorsque quelqu’un commence ou cesse d’écouter, et chaque listing expire après une journée, de sorte qu’un récepteur qui disparaît se retire automatiquement de cette liste. La localisation n’est précise que dans la mesure choisie par son propriétaire, allant d’environ 150 km à 150 m."
   },
   "288kn7s3hd3": {
     "defaultMessage": "2,4 GHz · HackRF ou LimeSDR"
@@ -3104,6 +3104,9 @@
   "hg5n65ai4j": {
     "defaultMessage": "jusqu'à 30 MHz"
   },
+  "hjn870suwl": {
+    "defaultMessage": "Fournissez le flux via iqstream depuis la carte de configuration ou à l’aide de l’option <code>--iqstream-listen</code>, puis activez <strong>list</strong> dans la section « Répertoires » des paramètres, et réglez <strong>locate</strong> pour définir la précision avec laquelle la station doit être positionnée sur la carte. Laissez le champ « hôte public » vide et le routeur sera invité à ouvrir le port via UPnP, PCP ou NAT-PMP. Une boîte <code>wave1090</code> s’enregistre elle-même avec <code>--iqstream-list</code>, et l’option <code>--iqstream-locate</code> associée à <code>--iqstream-accuracy</code> permet de la placer sur la carte."
+  },
   "hnnqyqjm4k": {
     "defaultMessage": "Un canal CW lu sous forme de texte à la vitesse d’envoi, y compris les balises identifiant un répéteur ou un site émetteur. Également appelé décodeur CW, QRS, balise."
   },
@@ -3553,9 +3556,6 @@
   },
   "rnljkhn2rf": {
     "defaultMessage": "Le satellite météorologique numérique russe : les trois canaux du MSU-MR ont capturé une bande de huit lignes à la fois au passage du satellite. Également connu sous les noms de Meteor M2, MSU-MR et satellite météorologique numérique."
-  },
-  "rpi644veyt": {
-    "defaultMessage": "Diffusez le flux via iqstream depuis la carte de configuration ou à l’aide de l’option <code>--iqstream-listen</code>, puis activez <strong>list</strong> dans la section « Annuaire » des paramètres, ainsi que <strong>locate</strong> pour l’afficher sur la carte. Laissez le champ « Hôte public » vide afin que le routeur soit invité à ouvrir le port via UPnP, PCP ou NAT-PMP. Une boîte <code>wave1090</code> s’affiche dans la liste avec l’option <code>--iqstream-list</code>."
   },
   "rr4mv16s7t": {
     "defaultMessage": "terrestre numérique, flux transport, Freeview, multiplex"

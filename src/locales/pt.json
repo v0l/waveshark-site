@@ -1682,9 +1682,6 @@
   "205tc2rnc0b": {
     "defaultMessage": "As mensagens de texto que as tripulações e as companhias aéreas se enviam via VHF: relatórios de posição, valores de combustível, avarias técnicas e texto livre."
   },
-  "208f6okyqle": {
-    "defaultMessage": "Um anúncio é um evento nostr assinado do tipo 10690, substituído cada vez que a estação o anuncia e expirado após um dia, de modo que um receptor que se desconecta é removido automaticamente. A localização é um geohash de cinco caracteres, uma célula de aproximadamente cinco quilômetros de extensão, nunca a própria antena."
-  },
   "20emzg6kfgf": {
     "defaultMessage": "Extrair imagens e dados do céu"
   },
@@ -2005,6 +2002,9 @@
   },
   "286qzoufeqp": {
     "defaultMessage": "“Danificado” na primeira abertura é a flag de quarentena, removida com o comando acima"
+  },
+  "286un4avnbr": {
+    "defaultMessage": "Um listing é um evento assinado do nostr do tipo 10690. A estação o envia novamente alguns minutos após reafinar ou quando alguém inicia ou interrompe a escuta, e cada listing expira após um dia, de modo que um receptor que se afasta é removido automaticamente. A localização é apenas tão precisa quanto o seu proprietário escolheu, variando de aproximadamente 150 km a 150 m."
   },
   "288kn7s3hd3": {
     "defaultMessage": "2.4 GHz · HackRF ou LimeSDR"
@@ -3104,6 +3104,9 @@
   "hg5n65ai4j": {
     "defaultMessage": "até 30 MHz"
   },
+  "hjn870suwl": {
+    "defaultMessage": "Forneça o intervalo via iqstream a partir do cartão de configuração ou com <code>--iqstream-listen</code>, depois ative <strong>list</strong> na seção de diretório das configurações e defina <strong>locate</strong> para a proximidade com que a estação deve ser posicionada no mapa. Deixe o host público em branco e o roteador será solicitado a abrir a porta via UPnP, PCP ou NAT-PMP. Uma caixa <code>wave1090</code> se lista com <code>--iqstream-list</code>, e <code>--iqstream-locate</code> com <code>--iqstream-accuracy</code> a posiciona no mapa."
+  },
   "hnnqyqjm4k": {
     "defaultMessage": "Um canal CW é lido como texto na velocidade em que foi enviado, incluindo os faróis que identificam um repetidor ou um local de transmissão. Também conhecido como decodificador CW, QRS, farol."
   },
@@ -3553,9 +3556,6 @@
   },
   "rnljkhn2rf": {
     "defaultMessage": "O satélite meteorológico digital russo: três canais do MSU-MR capturaram uma faixa de oito linhas por vez durante a passagem. Também conhecido como Meteor M2, MSU-MR, satélite meteorológico digital."
-  },
-  "rpi644veyt": {
-    "defaultMessage": "Forneça o intervalo sobre o iqstream a partir do cartão de configuração ou com <code>--iqstream-listen</code>, em seguida, ative <strong>list</strong> na seção de diretório das configurações e <strong>locate</strong> para aparecer no mapa. Deixe o host público em branco e o roteador será solicitado a abrir a porta via UPnP, PCP ou NAT-PMP. Uma caixa <code>wave1090</code> se lista com <code>--iqstream-list</code>."
   },
   "rr4mv16s7t": {
     "defaultMessage": "terrestre digital, transport stream, Freeview, multiplex"

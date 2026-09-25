@@ -1682,9 +1682,6 @@
   "205tc2rnc0b": {
     "defaultMessage": "Komunikaty tekstowe, które załogi i linie lotnicze wysyłają nawzajem przez VHF: raporty o pozycji, dane dotyczące paliwa, usterki techniczne oraz tekst swobodny."
   },
-  "208f6okyqle": {
-    "defaultMessage": "Zapowiedź to podpisane zdarzenie nostr typu 10690, zastępowane za każdym razem, gdy stacja ją ogłasza, oraz wygasające po upływie doby, dzięki czemu odbiornik, który się odłączy, automatycznie znika z listy. Lokalizacja to pięcioznakowy geohash, reprezentujący komórkę o rozmiarach około pięciu kilometrów, nigdy sama antena."
-  },
   "20emzg6kfgf": {
     "defaultMessage": "Pobieraj obrazy i dane z nieba"
   },
@@ -2005,6 +2002,9 @@
   },
   "286qzoufeqp": {
     "defaultMessage": "„Uszkodzony” przy pierwszym otwarciu to flaga kwarantanny, usuwana za pomocą powyższego polecenia"
+  },
+  "286un4avnbr": {
+    "defaultMessage": "Listowanie to podpisane zdarzenie nostr typu 10690. Stacja ponownie go wysyła kilka minut po ponownym dostrojeniu lub gdy ktoś zaczyna lub kończy odsłuchiwanie, a każde listowanie wygasa po dniu, więc odbiornik, który się odłączy, automatycznie znika z listy. Lokalizacja jest tak dokładna, jak wybrał jej właściciel, od około 150 km do 150 m."
   },
   "288kn7s3hd3": {
     "defaultMessage": "2,4 GHz · HackRF lub LimeSDR"
@@ -3104,6 +3104,9 @@
   "hg5n65ai4j": {
     "defaultMessage": "do 30 MHz"
   },
+  "hjn870suwl": {
+    "defaultMessage": "Serwuj sygnał przez iqstream z karty konfiguracji lub za pomocą parametru <code>--iqstream-listen</code>, następnie włącz opcję <strong>list</strong> w sekcji katalogu ustawień i ustaw <strong>locate</strong> na wartość określającą dokładność umieszczenia stacji na mapie. Pozostaw pole hosta publicznego puste, aby router został poproszony o otwarcie portu za pomocą UPnP, PCP lub NAT-PMP. Urządzenie <code>wave1090</code> rejestruje się za pomocą parametru <code>--iqstream-list</code>, a parametry <code>--iqstream-locate</code> oraz <code>--iqstream-accuracy</code> umieszczają je na mapie."
+  },
   "hnnqyqjm4k": {
     "defaultMessage": "Sygnał CW odczytywany jako tekst z dowolną prędkością, z jaką został nadany, w tym beakony identyfikujące repeater lub lokalizację nadajnika. Znany również jako dekodery CW, QRS, beakony."
   },
@@ -3553,9 +3556,6 @@
   },
   "rnljkhn2rf": {
     "defaultMessage": "Rosyjski cyfrowy satelita meteorologiczny: trzy kanały MSU-MR narysowały pas o szerokości ośmiu linii naraz w trakcie przelotu. Znany również jako Meteor M2, MSU-MR, cyfrowy satelita meteorologiczny."
-  },
-  "rpi644veyt": {
-    "defaultMessage": "Serwisuj span przez iqstream z karty ustawień lub za pomocą <code>--iqstream-listen</code>, następnie włącz <strong>list</strong> w sekcji katalogu ustawień oraz <strong>locate</strong>, aby pozycja była wyświetlana na mapie. Pozostaw pole publicznego hosta puste, aby router został poproszony o otwarcie portu za pomocą UPnP, PCP lub NAT-PMP. Urządzenie <code>wave1090</code> rejestruje się za pomocą <code>--iqstream-list</code>."
   },
   "rr4mv16s7t": {
     "defaultMessage": "cyfrowa telewizja naziemna, strumień transportowy, Freeview, multipleks"

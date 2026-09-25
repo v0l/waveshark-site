@@ -1682,9 +1682,6 @@
   "205tc2rnc0b": {
     "defaultMessage": "De tekstberichten die bemanningsleden en luchtvaartmaatschappijen onderling via VHF versturen: positierapporten, brandstofgegevens, technische storingen en vrije tekst."
   },
-  "208f6okyqle": {
-    "defaultMessage": "Een listing is een ondertekend nostr-event van type 10690, dat elke keer wordt vervangen wanneer de zender een aankondiging doet en na één dag verloopt, zodat een ontvanger die de verbinding verliest hier automatisch van verdwijnt. De locatie is een geohash van vijf tekens, een cel van ongeveer vijf kilometer doorsnede, nooit de antenne zelf."
-  },
   "20emzg6kfgf": {
     "defaultMessage": "Beelden en data uit de lucht halen"
   },
@@ -2005,6 +2002,9 @@
   },
   "286qzoufeqp": {
     "defaultMessage": "“Geschadigd” bij het eerste openen is het quarantainevlag, opgeheven met het bovenstaande commando"
+  },
+  "286un4avnbr": {
+    "defaultMessage": "Een vermelding is een ondertekend nostr-event van type 10690. De zender stuurt deze opnieuw door enkele minuten nadat hij is afgestemd of nadat iemand met luisteren is begonnen of gestopt, en elke vermelding verloopt na een dag, zodat een ontvanger die weggaat hier vanzelf uit het beeld verdwijnt. De locatie is slechts zo nauwkeurig als de eigenaar heeft gekozen, variërend van ongeveer 150 km tot 150 m."
   },
   "288kn7s3hd3": {
     "defaultMessage": "2,4 GHz · HackRF of LimeSDR"
@@ -3104,6 +3104,9 @@
   "hg5n65ai4j": {
     "defaultMessage": "tot 30 MHz"
   },
+  "hjn870suwl": {
+    "defaultMessage": "Dien de span over iqstream aan via de instelkaart of met <code>--iqstream-listen</code>, schakel daarna <strong>list</strong> in in het mapsectie van de instellingen en stel <strong>locate</strong> in op de gewenste nauwkeurigheid van de locatie van de station op de kaart. Laat het openbare host veld leeg en de router wordt gevraagd de poort te openen via UPnP, PCP of NAT-PMP. Een <code>wave1090</code>-box registreert zichzelf met <code>--iqstream-list</code>, en <code>--iqstream-locate</code> in combinatie met <code>--iqstream-accuracy</code> plaatst deze op de kaart."
+  },
   "hnnqyqjm4k": {
     "defaultMessage": "Een CW-kanal wordt als tekst weergegeven, ongeacht de snelheid waarmee het is verzonden, inclusief de beacons die een herhaaler of zendlocatie identificeren. Ook bekend als CW-decoder, QRS, beacon."
   },
@@ -3553,9 +3556,6 @@
   },
   "rnljkhn2rf": {
     "defaultMessage": "De Russische digitale weersatelliet: drie MSU-MR-kanaals trekken tijdens het passeren een strook van acht rijen tegelijk. Ook bekend als Meteor M2, MSU-MR, digitale weersatelliet."
-  },
-  "rpi644veyt": {
-    "defaultMessage": "Dien de span over iqstream toe vanaf de opzetkaart of met <code>--iqstream-listen</code>, schakel daarna <strong>list</strong> in in de mapsectie van de instellingen en <strong>locate</strong> om op de kaart te verschijnen. Laat het openbare hostveld leeg en de router wordt verzocht de poort te openen via UPnP, PCP of NAT-PMP. Een <code>wave1090</code>-doos registreert zichzelf met <code>--iqstream-list</code>."
   },
   "rr4mv16s7t": {
     "defaultMessage": "digitale terrestrisch, transport stream, Freeview, multiplex"

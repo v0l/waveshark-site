@@ -1682,9 +1682,6 @@
   "205tc2rnc0b": {
     "defaultMessage": "机组与航空公司之间通过甚高频（VHF）相互发送的短信，包括位置报告、燃油数据、技术故障及自由文本。"
   },
-  "208f6okyqle": {
-    "defaultMessage": "列表是一个签名的 Nostr 事件，类型为 10690，每次站点发布时会被替换，并在一天后过期，因此离线接收器会自动从该列表中移除。位置信息是一个五位数的 GeoHash，代表一个边长约五公里的网格单元，而非天线本身。"
-  },
   "20emzg6kfgf": {
     "defaultMessage": "从空中获取图像和数据"
   },
@@ -2005,6 +2002,9 @@
   },
   "286qzoufeqp": {
     "defaultMessage": "首次打开时显示的“已损坏”是隔离标记，可通过上述命令清除。"
+  },
+  "286un4avnbr": {
+    "defaultMessage": "列表项是一个类型为 10690 的已签名 Nostr 事件。当电台重新调谐，或有人开始或停止收听后几分钟，电台会再次发送该列表项；此外，每个列表项会在一天后过期，因此如果接收方断开连接，它将自动从列表中移除。位置信息的精确度取决于其所有者的选择，范围大约从 150 公里到 150 米不等。"
   },
   "288kn7s3hd3": {
     "defaultMessage": "2.4 GHz · HackRF 或 LimeSDR"
@@ -3104,6 +3104,9 @@
   "hg5n65ai4j": {
     "defaultMessage": "最高 30 MHz"
   },
+  "hjn870suwl": {
+    "defaultMessage": "通过设置卡或 <code>--iqstream-listen</code> 用 iqstream 提供频谱，然后在设置的 directory 部分打开 <strong>list</strong>，并把 <strong>locate</strong> 设为电台在地图上的显示精度。公共主机留空时，会请求路由器通过 UPnP、PCP 或 NAT-PMP 打开端口。<code>wave1090</code> 用 <code>--iqstream-list</code> 列出自己，再加上 <code>--iqstream-locate</code> 和 <code>--iqstream-accuracy</code> 即可显示在地图上。"
+  },
   "hnnqyqjm4k": {
     "defaultMessage": "CW信道以任意发送速度读取为文本，包括用于识别中继台或发射台位置的信标。也称为CW解码器、QRS、信标。"
   },
@@ -3553,9 +3556,6 @@
   },
   "rnljkhn2rf": {
     "defaultMessage": "俄罗斯数字气象卫星：在卫星过境时，三个MSU-MR通道每次绘制八行一条的条带。该卫星也被称为“气象M2”、MSU-MR、数字气象卫星。"
-  },
-  "rpi644veyt": {
-    "defaultMessage": "从设置卡或通过 <code>--iqstream-listen</code> 参数在 IQStream 上提供信号，然后在设置的目录部分中开启<strong>列表</strong>功能，并启用<strong>定位</strong>以在地图上显示位置。保持公共主机字段为空，路由器将被请求通过 UPnP、PCP 或 NAT-PMP 打开端口。运行 <code>wave1090</code> 的盒子会使用 <code>--iqstream-list</code> 参数自行注册。"
   },
   "rr4mv16s7t": {
     "defaultMessage": "数字地面广播，传输流，Freeview，复用"
