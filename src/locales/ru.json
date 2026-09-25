@@ -1,0 +1,2303 @@
+{
+  "10a7k5lbbgu": {
+    "defaultMessage": "Декодер P25 phase 1 для SDR - WaveShark"
+  },
+  "10ayq3jpx8o": {
+    "defaultMessage": "TEA1, TEA2, альтернатива TETRAPOL, групповой режим"
+  },
+  "10ed673hvw5": {
+    "defaultMessage": "Является ли импульс тестовым или реальной активацией"
+  },
+  "10hgukglr8w": {
+    "defaultMessage": "Получить сборку"
+  },
+  "10j84xvfpj8": {
+    "defaultMessage": "Запросы пейджинга и идентификатор вызываемого абонента"
+  },
+  "10lhogrq94i": {
+    "defaultMessage": "Текст сообщения, если это разрешает ключ канала"
+  },
+  "10splocz6y": {
+    "defaultMessage": "Для бинарного файла установите библиотеки"
+  },
+  "10uuzccd35v": {
+    "defaultMessage": "PHY и канал рекламы"
+  },
+  "10z025327mb": {
+    "defaultMessage": "Запрос на запуск, если протокол его поддерживает"
+  },
+  "10zxm8zxjdy": {
+    "defaultMessage": "полностью, {listening}"
+  },
+  "1131i1zyflp": {
+    "defaultMessage": "Блоки системной информации, включая список соседних сот"
+  },
+  "114r8eebyge": {
+    "defaultMessage": "Где {other}, лучший ответ"
+  },
+  "115yodmxz8p": {
+    "defaultMessage": "Позиция, курс, скорость и высота, включая Mic-E"
+  },
+  "117s9dg0g79": {
+    "defaultMessage": "RTL-SDR; для голоса в DMR нужна сборка с ambe"
+  },
+  "11a1yka6riy": {
+    "defaultMessage": "Голос Codec 2, декодированный и воспроизводимый"
+  },
+  "11gqpt2gd7": {
+    "defaultMessage": "M17"
+  },
+  "11jm8vdf8i9": {
+    "defaultMessage": "Релизы"
+  },
+  "11n1jopi669": {
+    "defaultMessage": "Работает на любом оборудовании, включая очень малые устройства"
+  },
+  "11nwsu8gbtc": {
+    "defaultMessage": "RTL-SDR для приёма, HackRF или LimeSDR для передачи"
+  },
+  "11oe762m3lh": {
+    "defaultMessage": "Декодер CW, QRS, маяк"
+  },
+  "11tcmb3zixm": {
+    "defaultMessage": "Wi-Fi"
+  },
+  "11tz2j5f9ks": {
+    "defaultMessage": "Wi-Fi, Bluetooth LE и 802.15.4 на 2.4 ГГц"
+  },
+  "11u2teu7xiu": {
+    "defaultMessage": "Диапазон III"
+  },
+  "11zaas7pz1q": {
+    "defaultMessage": "DMR"
+  },
+  "121bsoar62": {
+    "defaultMessage": "Удаленные тюнеры с WaveShark - что они охватывают"
+  },
+  "12evlta4f12": {
+    "defaultMessage": "Сначала те, которым больше некуда идти"
+  },
+  "12icutmjw7f": {
+    "defaultMessage": "Настройка и первый запуск на {platform}"
+  },
+  "12jg1mqyd6l": {
+    "defaultMessage": "Немедленное назначение: канал, на который направляется телефон"
+  },
+  "12k1u2hvjcw": {
+    "defaultMessage": "1090 / 978 МГц"
+  },
+  "12l95bv6ubk": {
+    "defaultMessage": "2,4 ГГц"
+  },
+  "12qa1qcl5po": {
+    "defaultMessage": "Спутниковый диапазон 137 МГц"
+  },
+  "12qvu7914iu": {
+    "defaultMessage": "156-163 МГц"
+  },
+  "134szimvz0y": {
+    "defaultMessage": "Где WaveShark"
+  },
+  "13af6yzfpat": {
+    "defaultMessage": "Изображение, оба канала, по мере формирования прохода"
+  },
+  "13llmnrpxqn": {
+    "defaultMessage": "Телевидение DVB-T: мультиплекс занимает 8 МГц"
+  },
+  "13n4eru7j3p": {
+    "defaultMessage": "Последний релиз · {tag}"
+  },
+  "13pnn3zur0j": {
+    "defaultMessage": "MQTT · --ha-broker"
+  },
+  "13ry3eapfr3": {
+    "defaultMessage": "Группа вызова, цветовой код и временной слот"
+  },
+  "13tm9trtwzf": {
+    "defaultMessage": "Capcode и биты функции"
+  },
+  "13uorgeag0q": {
+    "defaultMessage": "Что на нем →"
+  },
+  "146e70p7btr": {
+    "defaultMessage": "Декодер TPMS для SDR - WaveShark"
+  },
+  "146jelnprqz": {
+    "defaultMessage": "несколько тюнеров как один более широкий диапазон"
+  },
+  "14cw6oiln96": {
+    "defaultMessage": "Диапазон настройки показывает, куда смотреть, а ширина полосы определяет, что вы собираете"
+  },
+  "14lve2djxoy": {
+    "defaultMessage": "WaveShark и rtl_433"
+  },
+  "14tpdml0lfd": {
+    "defaultMessage": "Декодер EAS и SAME для SDR - WaveShark"
+  },
+  "14v2xbctbmc": {
+    "defaultMessage": "ACARS"
+  },
+  "14x2jr7zxbo": {
+    "defaultMessage": "137-138 МГц"
+  },
+  "157ho3c9l0q": {
+    "defaultMessage": "NAC, код доступа к сети, идентифицирующий систему"
+  },
+  "15a2ohtvwgf": {
+    "defaultMessage": "Подключите радиоприемник и нажмите «Пуск»."
+  },
+  "15baupv03a5": {
+    "defaultMessage": "ВРЕМЯ"
+  },
+  "15hccmn2563": {
+    "defaultMessage": "HackRF или LimeSDR для работы на 2.4 ГГц, адаптер для более низких частот"
+  },
+  "15paaksaege": {
+    "defaultMessage": "Домашняя точка, в случае DJI DroneID"
+  },
+  "15t6307mf9n": {
+    "defaultMessage": "На главную"
+  },
+  "15x2qnmz6t3": {
+    "defaultMessage": "1090 МГц"
+  },
+  "162h2anw18g": {
+    "defaultMessage": "Проверьте путь, если ничего не поступает"
+  },
+  "16338458zt7": {
+    "defaultMessage": "Любой RTL-SDR; для передачи нужен HackRF или LimeSDR"
+  },
+  "163d98q67s1": {
+    "defaultMessage": "Спонсор"
+  },
+  "1675i2rmukj": {
+    "defaultMessage": "Управление радиостанцией с помощью агента и SDR - WaveShark"
+  },
+  "16bq7g5m830": {
+    "defaultMessage": "Декодер NOAA APT для SDR - WaveShark"
+  },
+  "16cbobm5tto": {
+    "defaultMessage": "Поддержка гораздо большего количества радиооборудования"
+  },
+  "16ds7um3svi": {
+    "defaultMessage": "1545-1555 МГц"
+  },
+  "16i76mjnnb6": {
+    "defaultMessage": "Один собранный диапазон, читаемый несколькими машинами"
+  },
+  "1714wo5vmer": {
+    "defaultMessage": "144.500 МГц и КВ"
+  },
+  "171nwwtz69g": {
+    "defaultMessage": "Класс безопасности, используемый сотой"
+  },
+  "1749ci6oufa": {
+    "defaultMessage": "Движение или неподвижность, по данным датчика"
+  },
+  "175zioniw5g": {
+    "defaultMessage": "GSM 900 и 1800"
+  },
+  "17d2o1i3aij": {
+    "defaultMessage": "Скорость передачи строк и индекс кооперации"
+  },
+  "17dl3dx5b3c": {
+    "defaultMessage": "Пятнадцать представлений в одном потоке"
+  },
+  "17i61jza4il": {
+    "defaultMessage": "WaveShark для {platform}"
+  },
+  "17j4te9bn8n": {
+    "defaultMessage": "136-174 / 400-470 МГц"
+  },
+  "17lowkdtha1": {
+    "defaultMessage": "Digital Radio Mondiale, цифровое коротковолновое вещание, средневолновое вещание"
+  },
+  "17m1oouswh7": {
+    "defaultMessage": "Сырые временны́е интервалы и биты для нераспознанных сигналов"
+  },
+  "17nkpfi0q7b": {
+    "defaultMessage": "868 МГц (863-870 МГц): что передается здесь"
+  },
+  "17o7sxi1opu": {
+    "defaultMessage": "Любой RTL-SDR; для КВ нужен повышающий преобразователь или прямое преобразование"
+  },
+  "17pewyf5xdt": {
+    "defaultMessage": "RAN, системный номер"
+  },
+  "17pzwlggiu2": {
+    "defaultMessage": "радиотелеграф, Baudot, 45.45 бод"
+  },
+  "17rb1dukwzw": {
+    "defaultMessage": "Любой USB-приёмник RTL2832U"
+  },
+  "17rz2x12g9d": {
+    "defaultMessage": "Скачать"
+  },
+  "17toe05fpxc": {
+    "defaultMessage": "Изменить любой параметр, включая таблицу сканера"
+  },
+  "184cpjwelyt": {
+    "defaultMessage": "136-174 / 400-470 / 700-800 МГц"
+  },
+  "184u2hwo6og": {
+    "defaultMessage": "Покрытые коды округов FIPS"
+  },
+  "18fgsyrzkr4": {
+    "defaultMessage": "Любой донгл RTL2832U, от 30 евро"
+  },
+  "18fp23i5ryy": {
+    "defaultMessage": "Название станции, из вашего списка"
+  },
+  "18o1ne0dp3w": {
+    "defaultMessage": "Телевидение DVB-T"
+  },
+  "18xcz4g6ddo": {
+    "defaultMessage": "Адрес ICAO и позывной, если самолет его передает"
+  },
+  "18yvf5lkeld": {
+    "defaultMessage": "Скорость передачи и уровень защиты для каждого сервиса"
+  },
+  "196z9ki0prl": {
+    "defaultMessage": "Координаты, если они присутствуют в сообщении, отображаются на карте"
+  },
+  "19b0o1cciyj": {
+    "defaultMessage": "RTL-SDR с преобразователем частоты или прямым преобразованием"
+  },
+  "19dhzehakj6": {
+    "defaultMessage": "Какие пространства идентификаторов публиковать, например ism,wmbus."
+  },
+  "19dyvpc2gu8": {
+    "defaultMessage": "Устройства"
+  },
+  "19eyveaiko6": {
+    "defaultMessage": "Любой RTL-SDR и антенна, настроенная на 1090 МГц"
+  },
+  "19vkt15yirb": {
+    "defaultMessage": "UHF и диапазон III"
+  },
+  "19vl8f2fiz2": {
+    "defaultMessage": "Аналоговое видео и FPV"
+  },
+  "1a56fxt6c5v": {
+    "defaultMessage": "Что он делает"
+  },
+  "1a71mq8346n": {
+    "defaultMessage": "Пакет AX.25, Mic-E, 144.800 МГц, 144.390 МГц"
+  },
+  "1adtuo86ix2": {
+    "defaultMessage": "Изображение, в цвете, PAL или NTSC"
+  },
+  "1anxwulk9sc": {
+    "defaultMessage": "Текст сообщения, который авиакомпания передает открытым текстом"
+  },
+  "1ap57x2z8t5": {
+    "defaultMessage": "Длительность вызова и канал, по которому он шел"
+  },
+  "1apw2e2k0nn": {
+    "defaultMessage": "Декодер Zigbee, Thread и Matter для SDR - WaveShark"
+  },
+  "1arye9c76pr": {
+    "defaultMessage": "Созвездие, защитный интервал, коэффициент кодирования и идентификатор ячейки"
+  },
+  "1at9fgdy08": {
+    "defaultMessage": "Идентификатор станции в конце заголовка"
+  },
+  "1atuz2h83ft": {
+    "defaultMessage": "КВ и VHF"
+  },
+  "1au1c67x0rt": {
+    "defaultMessage": "HackRF One с WaveShark - что он охватывает"
+  },
+  "1avaaomznc4": {
+    "defaultMessage": "Тип маяка: EPIRB, PLB или ELT"
+  },
+  "1ax2rri7hdw": {
+    "defaultMessage": "Декодеры"
+  },
+  "1azm99r1ead": {
+    "defaultMessage": "Время выпуска и время очистки"
+  },
+  "1b0wsnygjd7": {
+    "defaultMessage": "Сам график, по мере его отрисовки"
+  },
+  "1b31gg104ze": {
+    "defaultMessage": "Проверено с помощью декодера colaclanth на тех же записях."
+  },
+  "1b56puqx555": {
+    "defaultMessage": "M17 и DMR"
+  },
+  "1bk0diq8h77": {
+    "defaultMessage": "Тип кадра: управление, управление или данные"
+  },
+  "1bq0lun7sz7": {
+    "defaultMessage": "Флаги вскрытия для физического и кодировочного переключателей"
+  },
+  "1bw4ickrcat": {
+    "defaultMessage": "Позиция оператора, если у летательного аппарата есть определение местоположения"
+  },
+  "1c50ow6yf3o": {
+    "defaultMessage": "Многопротокольное SDR-программное обеспечение"
+  },
+  "1c82zlecqx": {
+    "defaultMessage": "Что вы получаете →"
+  },
+  "1c92bt42uhb": {
+    "defaultMessage": "Подключите радио и нажмите воспроизведение"
+  },
+  "1ceq5csqyfz": {
+    "defaultMessage": "UHF · диапазон III · КВ"
+  },
+  "1cg07td3vga": {
+    "defaultMessage": "Формат сэмплов"
+  },
+  "1cgyxgucgk5": {
+    "defaultMessage": "Распознавание речи работает на Metal, поэтому вопрос с CUDA здесь не возникает"
+  },
+  "1ciufesyvck": {
+    "defaultMessage": "Сборка из исходного кода"
+  },
+  "1cl74dbv8f": {
+    "defaultMessage": "Сервис и океаническая зона назначения"
+  },
+  "1clyqli0yj4": {
+    "defaultMessage": "AIS"
+  },
+  "1cn31uq4k2d": {
+    "defaultMessage": "Сессии {minutes} мин"
+  },
+  "1cnngs79vxw": {
+    "defaultMessage": "WaveShark - Wireshark для радиоспектра"
+  },
+  "1cno0rocrcn": {
+    "defaultMessage": "MCP на loopback, MQTT в дом"
+  },
+  "1cp8t65qodg": {
+    "defaultMessage": "Репозиторий"
+  },
+  "1cro97h6sqf": {
+    "defaultMessage": "Windows"
+  },
+  "1cs6y0du4qv": {
+    "defaultMessage": "от 1 МГц до 6 ГГц"
+  },
+  "1cy61rwtjlt": {
+    "defaultMessage": "Linux"
+  },
+  "1d4uczg30dp": {
+    "defaultMessage": "Телевидение"
+  },
+  "1dbm6xe8otn": {
+    "defaultMessage": "Местоположение не указано"
+  },
+  "1dgjoj2lz88": {
+    "defaultMessage": "Деловой VHF и UHF"
+  },
+  "1dh5ji9ns1a": {
+    "defaultMessage": "868,95 / 915 МГц"
+  },
+  "1dl5jqh26jd": {
+    "defaultMessage": "Главная WaveShark"
+  },
+  "1dnwjmmk7zt": {
+    "defaultMessage": "Идентификаторы вызываемой и вызывающей стороны при установлении вызова"
+  },
+  "1dvxnhl4tl": {
+    "defaultMessage": "ЧАСТОТА"
+  },
+  "1dyj0clbky4": {
+    "defaultMessage": "Что вам нужно"
+  },
+  "1e10c9xk046": {
+    "defaultMessage": "Записывайте сырой спектр с момента запуска приёмника."
+  },
+  "1e59c9bm9a": {
+    "defaultMessage": "MMSI, а также название судна и позывной из статических отчетов"
+  },
+  "1e9ok7hj406": {
+    "defaultMessage": "5645-5945 МГц"
+  },
+  "1ehel55qpyo": {
+    "defaultMessage": "Запись, транскрипция и история сообщений с поиском"
+  },
+  "1er5b69sbss": {
+    "defaultMessage": "Тюнеры"
+  },
+  "1esyzrqm88y": {
+    "defaultMessage": "Первый запуск"
+  },
+  "1f423dts634": {
+    "defaultMessage": "Приблизить"
+  },
+  "1fhd5hwexrc": {
+    "defaultMessage": "Свободный слот"
+  },
+  "1fnfi3z007r": {
+    "defaultMessage": "P25 phase 1"
+  },
+  "1fq5ecbfazc": {
+    "defaultMessage": "телевидение медленной развёртки, Martin, Scottie, Robot 36"
+  },
+  "1fsnq0x06lx": {
+    "defaultMessage": "от 30 евро"
+  },
+  "1fviq92uqmq": {
+    "defaultMessage": "TPMS: давление, температура, движение или нет"
+  },
+  "1g1e6jvxex1": {
+    "defaultMessage": "<release>Страница релиза</release> содержит всё."
+  },
+  "1g2ovf85cgd": {
+    "defaultMessage": "Данные пакетов, включая текстовые сообщения"
+  },
+  "1g9htwq1cda": {
+    "defaultMessage": "Все протоколы, которые читает WaveShark, и что даёт каждый из них."
+  },
+  "1gcws9ummjb": {
+    "defaultMessage": "чистый бинарный код"
+  },
+  "1gn0mh7j9nb": {
+    "defaultMessage": "Инициатор и код события, расшифрованные в название"
+  },
+  "1gnyw579yh6": {
+    "defaultMessage": "спутниковый ACARS, SatCom, авиационный диапазон L"
+  },
+  "1gw0sycr8iz": {
+    "defaultMessage": "Режим устойчивости и занимаемая полоса частот"
+  },
+  "1h3dl3ydaev": {
+    "defaultMessage": "UHF"
+  },
+  "1h598maslqw": {
+    "defaultMessage": "Декодеры здесь"
+  },
+  "1h6bmoat6z0": {
+    "defaultMessage": "Разбор вещания"
+  },
+  "1hetooqn2xa": {
+    "defaultMessage": "Идентификатор устройства, в шестнадцатеричном формате, как записывает карта флота"
+  },
+  "1hh8519ohhn": {
+    "defaultMessage": "Запускать без окна"
+  },
+  "1hjtnrxc6ae": {
+    "defaultMessage": "Все диапазоны"
+  },
+  "1hjx30y08di": {
+    "defaultMessage": "тюнер {id}"
+  },
+  "1hkncbrxp7q": {
+    "defaultMessage": "Аудиоподнесущая, воспроизводимая вместе с"
+  },
+  "1hp2ztw8k07": {
+    "defaultMessage": "NOAA Weather Radio, аварийное оповещение, 162.400 МГц"
+  },
+  "1hpc4bz64it": {
+    "defaultMessage": "802.11, beacon-кадры, SSID, probe request"
+  },
+  "1hppvcmct2s": {
+    "defaultMessage": "2.4 ГГц · 5 ГГц · любой диапазон"
+  },
+  "1hqag40yr6w": {
+    "defaultMessage": "1,2 / 2,4 / 5,8 ГГц"
+  },
+  "1hwjmx3hypf": {
+    "defaultMessage": "Блок, названный по плану диапазонов"
+  },
+  "1hyghsfav99": {
+    "defaultMessage": "WaveShark и Gqrx"
+  },
+  "1i1fkla60gk": {
+    "defaultMessage": "Сделать снимок окна, чтобы проверить его работу"
+  },
+  "1i3cvqqsstc": {
+    "defaultMessage": "Добавить свой"
+  },
+  "1i3q8rh6ysn": {
+    "defaultMessage": "137.1 / 137.9125 / 137.62 МГц"
+  },
+  "1i6fkvwb664": {
+    "defaultMessage": "Сеть LoRa"
+  },
+  "1idfhhtbjs0": {
+    "defaultMessage": "Почему он управляет видимым приемником"
+  },
+  "1ighh77aubr": {
+    "defaultMessage": "5.8 ГГц"
+  },
+  "1ii4ur4v82z": {
+    "defaultMessage": "RS41, DFM, M10, iMet, метеобаллон, SondeHub"
+  },
+  "1iinxm6d79w": {
+    "defaultMessage": "Динамический диапазон 12 бит в загруженном диапазоне"
+  },
+  "1ilda8it0kv": {
+    "defaultMessage": "Сшивание"
+  },
+  "1ix568b22d3": {
+    "defaultMessage": "Скачать WaveShark для macOS"
+  },
+  "1jaffnkthh3": {
+    "defaultMessage": "радиофакс, WEFAX, морские карты, Northwood"
+  },
+  "1jbbtbia90i": {
+    "defaultMessage": "Редактируемая цепочка сигналов и агент, который может ею управлять"
+  },
+  "1jldxh8ooea": {
+    "defaultMessage": "Устройства ISM"
+  },
+  "1jn8ugqt7ax": {
+    "defaultMessage": "Протоколы"
+  },
+  "1jqyave6m35": {
+    "defaultMessage": "Работа как любительская станция"
+  },
+  "1jr3wvsfbhj": {
+    "defaultMessage": "Выберите радиоприёмник, если подключено несколько."
+  },
+  "1jv1gm449ay": {
+    "defaultMessage": "Для чего люди его используют"
+  },
+  "1k8fx0qbgj5": {
+    "defaultMessage": "Декодер Bluetooth LE для SDR - WaveShark"
+  },
+  "1kewv55vqvi": {
+    "defaultMessage": "Имя и id ансамбля"
+  },
+  "1kjkd5woge9": {
+    "defaultMessage": "Декодер NXDN для SDR - WaveShark"
+  },
+  "1kldbwb7gho": {
+    "defaultMessage": "Записать один раз, декодировать вечно"
+  },
+  "1klogjd7v1d": {
+    "defaultMessage": "Импульсы, зафиксированные за последнюю минуту"
+  },
+  "1kmz22sni29": {
+    "defaultMessage": "TPMS"
+  },
+  "1kn2m0kzp3s": {
+    "defaultMessage": "Морзе"
+  },
+  "1kp0gxpun1f": {
+    "defaultMessage": "Любой RTL-SDR, с антенной типа «вертушка» или V-образным диполем"
+  },
+  "1kv1oqcd5rp": {
+    "defaultMessage": "Код производителя и серийный номер счётчика"
+  },
+  "1kvwd5g7k9t": {
+    "defaultMessage": "Чего он не умеет"
+  },
+  "1kxpxnxt8jv": {
+    "defaultMessage": "8 бит"
+  },
+  "1l24xrjmoxf": {
+    "defaultMessage": "915 МГц (902-928 МГц): что передается здесь"
+  },
+  "1lb5ie4doms": {
+    "defaultMessage": "Короткие волны (3-30 МГц): что там передается"
+  },
+  "1lb9f0eq0cx": {
+    "defaultMessage": "Только радио, ничего больше."
+  },
+  "1lchlngx5dn": {
+    "defaultMessage": "Все остальные протоколы в том же диапазоне одновременно"
+  },
+  "1le0s6kp8nq": {
+    "defaultMessage": "Codec 2, открытая цифровая голосовая связь, любительская"
+  },
+  "1lfh6nabf0v": {
+    "defaultMessage": "Частота строк и соответствующий канал FPV"
+  },
+  "1lgb87dcure": {
+    "defaultMessage": "Вызовы"
+  },
+  "1lgct97ynb6": {
+    "defaultMessage": "Нет сборки для Windows: LimeSuite не упакована для этой системы"
+  },
+  "1lkl12f1is0": {
+    "defaultMessage": "Флаг"
+  },
+  "1lneeq7pp0i": {
+    "defaultMessage": "Частоты двух тонов и их длительность"
+  },
+  "1lwdmfzv1d4": {
+    "defaultMessage": "Диапазон шире, чем у любого отдельного приёмника"
+  },
+  "1lxraa9d3qh": {
+    "defaultMessage": "P25 и NXDN"
+  },
+  "1ly4hangsb6": {
+    "defaultMessage": "Морской VHF"
+  },
+  "1m5zr03f1bn": {
+    "defaultMessage": "137 МГц и КВ"
+  },
+  "1m65mp7bu7o": {
+    "defaultMessage": "Рабочий диапазон"
+  },
+  "1m8wepjjwo3": {
+    "defaultMessage": "Каталог IQStream, читается в реальном времени из nostr"
+  },
+  "1m8yk0i9r1r": {
+    "defaultMessage": "144,500 МГц"
+  },
+  "1mbzia83glq": {
+    "defaultMessage": "Выбранный сервис, воспроизведение, синхронизированный звук"
+  },
+  "1mdbn322izy": {
+    "defaultMessage": "ТВ UHF (470-790 МГц): что там передается"
+  },
+  "1mevpzu3pvf": {
+    "defaultMessage": "Куда попадает"
+  },
+  "1mf1covvwqd": {
+    "defaultMessage": "Тонкая настройка каждого параметра демодулятора"
+  },
+  "1milffdbxox": {
+    "defaultMessage": "925-960 / 1805-1880 МГц"
+  },
+  "1mkgknux66m": {
+    "defaultMessage": "Проверено с помощью dumpvdl2 на тех же записях."
+  },
+  "1movq7mz4rt": {
+    "defaultMessage": "Спутниковый диапазон 137 МГц (137-138 МГц): что передается здесь"
+  },
+  "1ms8b7i51qy": {
+    "defaultMessage": "Оставить работать на машине у антенны"
+  },
+  "1mzkyvxaye3": {
+    "defaultMessage": "Речь, при наличии сборки с поддержкой ambe"
+  },
+  "1n09zavya14": {
+    "defaultMessage": "MCP на 127.0.0.1:8931"
+  },
+  "1n3gv939hya": {
+    "defaultMessage": "Декодер Z-Wave для SDR - WaveShark"
+  },
+  "1n8m3b40vm1": {
+    "defaultMessage": "Журнал изменений"
+  },
+  "1narfz2og3r": {
+    "defaultMessage": "Декодер TETRA для SDR - WaveShark"
+  },
+  "1navgd1gv7n": {
+    "defaultMessage": "Неприсвоенные bursts · записи · воспроизведение"
+  },
+  "1ncdincfnqv": {
+    "defaultMessage": "RTL-SDR с повышающим преобразователем или радиоприемник для КВ"
+  },
+  "1nepqf4qe73": {
+    "defaultMessage": "Счетчики Itron ERT"
+  },
+  "1ngrhm2qgmb": {
+    "defaultMessage": "Количество кадров и пакетов, чтобы слабое прохождение было заметно"
+  },
+  "1nje5q1vjjt": {
+    "defaultMessage": "Справка по командной строке"
+  },
+  "1now8zk4iwb": {
+    "defaultMessage": "Установите или нет"
+  },
+  "1np0eeznhng": {
+    "defaultMessage": "FLEX 1600 3200, пейджинг Motorola"
+  },
+  "1nxawn7eb53": {
+    "defaultMessage": "144,800 / 144,390 / 144,640"
+  },
+  "1o1n2ly7yzd": {
+    "defaultMessage": "МГц, напр. 1090"
+  },
+  "1o1nvc4tstr": {
+    "defaultMessage": "Реклама BLE, Bluetooth 5 Long Range, iBeacon"
+  },
+  "1o2pudjli83": {
+    "defaultMessage": "900 / 1800 МГц"
+  },
+  "1o93dpfq1uj": {
+    "defaultMessage": "Захват, который декодируется, это тестовый фикстура"
+  },
+  "1o98ie1zb5v": {
+    "defaultMessage": "Свяжите WinUSB с помощью Zadig"
+  },
+  "1odkqi7mdhn": {
+    "defaultMessage": "--stream · iqstream · rtl_tcp"
+  },
+  "1ogjkinco1y": {
+    "defaultMessage": "{count} декодеров, один поток пакетов"
+  },
+  "1oq3s8z0672": {
+    "defaultMessage": "Что может делать агент"
+  },
+  "1os4xfnx6oa": {
+    "defaultMessage": "Любой диапазон"
+  },
+  "1osn07ltexw": {
+    "defaultMessage": "Диапазоны, на которые стоит обратить внимание"
+  },
+  "1otl45jufq": {
+    "defaultMessage": "Wireshark для радиоспектра"
+  },
+  "1ow2tb94y32": {
+    "defaultMessage": "Настраиваемый"
+  },
+  "1p3k0c2xl6o": {
+    "defaultMessage": "Уровень сигнала для каждого обнаруженного устройства"
+  },
+  "1p5056zsg4i": {
+    "defaultMessage": "Тип кадра, чтобы управление каналом отделялось от трафика"
+  },
+  "1p7gnx5giwc": {
+    "defaultMessage": "Декодер телевидения DVB-T для SDR - WaveShark"
+  },
+  "1pak4di4z6l": {
+    "defaultMessage": "да, полудуплекс"
+  },
+  "1pb2o7xdpj8": {
+    "defaultMessage": "Оба являются свободным программным обеспечением"
+  },
+  "1pgv1i9i33s": {
+    "defaultMessage": "390-406 МГц (390-406 МГц): что там передается"
+  },
+  "1ph8fodi7yi": {
+    "defaultMessage": "TETRA"
+  },
+  "1phdh12ydt1": {
+    "defaultMessage": "Декодер Inmarsat STD-C для SDR - WaveShark"
+  },
+  "1pr9y0z4o2s": {
+    "defaultMessage": "Декодер Meteor-M LRPT для SDR - WaveShark"
+  },
+  "1pufcb8lrg1": {
+    "defaultMessage": "Модель и ID устройства, стабильны при передаче"
+  },
+  "1px4tkm2t7i": {
+    "defaultMessage": "WaveShark и Gqrx - где выигрывает каждый"
+  },
+  "1q8xaiifp9": {
+    "defaultMessage": "Декодер VDL Mode 2 для SDR - WaveShark"
+  },
+  "1qc93uxsn83": {
+    "defaultMessage": "Декодер радиозондов для SDR - WaveShark"
+  },
+  "1qgocyqyv6a": {
+    "defaultMessage": "Метка и идентификатор блока, указывающие тип сообщения"
+  },
+  "1ql8ki2vynn": {
+    "defaultMessage": "Ширина {span} МГц, настройка от {min} до {max} МГц"
+  },
+  "1qm029gfkgu": {
+    "defaultMessage": "Поддержать работу"
+  },
+  "1qmhi71zu7k": {
+    "defaultMessage": "Справочник командной строки WaveShark"
+  },
+  "1qrc8ul3f31": {
+    "defaultMessage": "Пейджинг FLEX"
+  },
+  "1qs8ipxkuar": {
+    "defaultMessage": "Публичные SDR-тюнеры на карте - WaveShark"
+  },
+  "1qwmr3pz9lu": {
+    "defaultMessage": "433 МГц"
+  },
+  "1qxw4fxmpba": {
+    "defaultMessage": "Агенты и MCP"
+  },
+  "1r1ee20681l": {
+    "defaultMessage": "Сообщение ACARS внутри, с его меткой и текстом"
+  },
+  "1r26stqy0lb": {
+    "defaultMessage": "Щелкните правой кнопкой мыши и выберите Открыть, или выполните это один раз."
+  },
+  "1radidgx63": {
+    "defaultMessage": "Отдалить"
+  },
+  "1reh7ydc4gj": {
+    "defaultMessage": "Два декодера, которых нет в скачиваемых версиях"
+  },
+  "1roj4bzs056": {
+    "defaultMessage": "от 24 МГц до 1,7 ГГц, в зависимости от тюнера"
+  },
+  "1rt0nw9g8wu": {
+    "defaultMessage": "Полученные строки и качество синхронизации"
+  },
+  "1s1r7xs7nbj": {
+    "defaultMessage": "APRS"
+  },
+  "1sd85k5nbpb": {
+    "defaultMessage": "Любой RTL-SDR с антенной для авиационного диапазона"
+  },
+  "1sdfyc132ki": {
+    "defaultMessage": "Home id и идентификаторы исходного и целевого узлов"
+  },
+  "1sjazobb4jn": {
+    "defaultMessage": "Что здесь передаётся"
+  },
+  "1sktsh746mz": {
+    "defaultMessage": "Диапазон L (1525-1559 МГц): что там передается"
+  },
+  "1sn5qcgmnja": {
+    "defaultMessage": "Настройка частоты, усиления, открытие и закрытие каналов"
+  },
+  "1spybdn8llc": {
+    "defaultMessage": "WaveShark и SDRangel"
+  },
+  "1symvem8fx8": {
+    "defaultMessage": "После скачивания"
+  },
+  "1tb0je52xsf": {
+    "defaultMessage": "Виды"
+  },
+  "1tbzcrnkbaz": {
+    "defaultMessage": "Отлично подходит для прослушивания одного канала"
+  },
+  "1thc4m4ky3r": {
+    "defaultMessage": "Wi-Fi и дроны"
+  },
+  "1tilwwiceph": {
+    "defaultMessage": "dumpvdl2, VDL2, 136.975 МГц, AVLC"
+  },
+  "1tlt7hfu7gq": {
+    "defaultMessage": "Куда записывать бинарный журнал пакетов, один файл в день."
+  },
+  "1tuqywfxeeq": {
+    "defaultMessage": "Показания, если счётчик отправляет их без шифрования"
+  },
+  "1tz5o51d0f7": {
+    "defaultMessage": "Аппаратное обеспечение для WaveShark"
+  },
+  "1u2lf2kds50": {
+    "defaultMessage": "Z-Wave"
+  },
+  "1u36f1hte38": {
+    "defaultMessage": "{clients} из {max} слушателей при добавлении"
+  },
+  "1u6sww63mm4": {
+    "defaultMessage": "Датчики ISM, TPMS, счётчики и Z-Wave"
+  },
+  "1u8fb2niukv": {
+    "defaultMessage": "Копировать"
+  },
+  "1u8xyhhufal": {
+    "defaultMessage": "1 МГц - 6 ГГц"
+  },
+  "1ughv6grrxq": {
+    "defaultMessage": "Передавать"
+  },
+  "1uitui9lrpq": {
+    "defaultMessage": "HackRF или LimeSDR: ширина мультиплекса 8 МГц"
+  },
+  "1ujmkpyd1oj": {
+    "defaultMessage": "162.400-162.550 МГц"
+  },
+  "1ulbqagz67i": {
+    "defaultMessage": "Разбор вещания с SDR - WaveShark"
+  },
+  "1ung4icwrvj": {
+    "defaultMessage": "Карта"
+  },
+  "1urskkv5mqp": {
+    "defaultMessage": "Показать на карте"
+  },
+  "1uyycuumhgb": {
+    "defaultMessage": "Тип кадра: beacon, данные, подтверждение или команда"
+  },
+  "1v2gq8t6w2c": {
+    "defaultMessage": "Счетчики коммунальных услуг"
+  },
+  "1vdw3h4z73": {
+    "defaultMessage": "HackRF или LimeSDR: ширина канала рекламы 2 МГц"
+  },
+  "1vetyf6pjd6": {
+    "defaultMessage": "144-148 / 430-450 МГц"
+  },
+  "1vgz7sv81m7": {
+    "defaultMessage": "Доступные диапазоны"
+  },
+  "1vj8o3fxggd": {
+    "defaultMessage": "Любой RTL-SDR, с антенной типа «вертушка» или QFH"
+  },
+  "1vkbpcb25rn": {
+    "defaultMessage": "433 / 868 / 915 МГц · RTL-SDR"
+  },
+  "1vl3upm6uu7": {
+    "defaultMessage": "HackRF One"
+  },
+  "1vqn2v0v809": {
+    "defaultMessage": "SSTV"
+  },
+  "1vy66olgbut": {
+    "defaultMessage": "DRM"
+  },
+  "1w1v72is29o": {
+    "defaultMessage": "Общее усиление тюнера, распределённое по каскадам приёмника."
+  },
+  "1w26bmzsrxd": {
+    "defaultMessage": "отслеживание судов, морской AIS, 161.975 МГц"
+  },
+  "1w7heujukad": {
+    "defaultMessage": "Короткие и средние волны"
+  },
+  "1wa00kjkhp0": {
+    "defaultMessage": "Два самых важных"
+  },
+  "1wagyxr6nyp": {
+    "defaultMessage": "Читать исходный код"
+  },
+  "1wcvksa9b7q": {
+    "defaultMessage": "ID счетчика и тип конечной точки"
+  },
+  "1wdet0gdwmy": {
+    "defaultMessage": "Подавайте данные своих датчиков в Home Assistant"
+  },
+  "1wdji3344fp": {
+    "defaultMessage": "144.800 / 144.390 / 144.640 МГц"
+  },
+  "1wepjk8hgio": {
+    "defaultMessage": "Основной"
+  },
+  "1wmqpv3tzc": {
+    "defaultMessage": "Более длинный список режимов и передача в большинстве из них"
+  },
+  "1x6qae3gis3": {
+    "defaultMessage": "Полудуплекс: передаёт или принимает, но не одновременно"
+  },
+  "1xf3ddg4w0m": {
+    "defaultMessage": "406 МГц"
+  },
+  "1y2okysigbx": {
+    "defaultMessage": "Wireless M-Bus"
+  },
+  "1y95cysm5vo": {
+    "defaultMessage": "Обратите внимание на"
+  },
+  "1ymp0m3r4zy": {
+    "defaultMessage": "Положения каналов в микросекундах, в реальном времени"
+  },
+  "1ymscjcnk03": {
+    "defaultMessage": "<all>Все {count} сценария использования</all>, от обзора устройств до управления приёмником агентом."
+  },
+  "1yp1e2qp0ll": {
+    "defaultMessage": "Идентификатор воздушного судна, если сообщение его содержит"
+  },
+  "1yqml6oig63": {
+    "defaultMessage": "Спутник и прохождение, из которого он получен"
+  },
+  "1yuf74elqy1": {
+    "defaultMessage": "Три радиоприёмника, один по сети"
+  },
+  "1z58eql84tk": {
+    "defaultMessage": "Морской VHF (156-163 МГц): что там передается"
+  },
+  "1zilg51qwsm": {
+    "defaultMessage": "Двухтональная пейджинговая связь"
+  },
+  "1zpvf9m2kqt": {
+    "defaultMessage": "3-30 МГц"
+  },
+  "1zukncydsdm": {
+    "defaultMessage": "Скачать для {platform}"
+  },
+  "1zvdbsgnpaj": {
+    "defaultMessage": "VHF и UHF для пожарной службы и скорой помощи"
+  },
+  "2044i25fvve": {
+    "defaultMessage": "SCM, SCM+, IDM, rtlamr, счетчик 915 МГц"
+  },
+  "20emzg6kfgf": {
+    "defaultMessage": "Извлекайте изображения и данные из эфира"
+  },
+  "20kk0sprhhq": {
+    "defaultMessage": "RTL-SDR и антенна-поворотка или V-образный диполь"
+  },
+  "20p1ow0d97x": {
+    "defaultMessage": "Что можно делать с WaveShark - примеры использования"
+  },
+  "20rzv77e04w": {
+    "defaultMessage": "Какой спутник и геометрия его прохода"
+  },
+  "20sgm41acdc": {
+    "defaultMessage": "Сообщения"
+  },
+  "20ydylf86f7": {
+    "defaultMessage": "Режим потока или пакетов, а также длительность вызова"
+  },
+  "2115nlu7ibj": {
+    "defaultMessage": "Канал и время начала"
+  },
+  "2155f50losa": {
+    "defaultMessage": "Meteor M2, MSU-MR, цифровой метеоспутник"
+  },
+  "21779co2f83": {
+    "defaultMessage": "2G, GSM900, DCS1800, BCCH, пейджинг IMSI"
+  },
+  "2192m9385re": {
+    "defaultMessage": "Время оповещения и канал"
+  },
+  "219aevq56z1": {
+    "defaultMessage": "Декодер LoRa mesh для SDR - WaveShark"
+  },
+  "21d0q03sgp5": {
+    "defaultMessage": "Прослушивание частоты"
+  },
+  "21lnugjqi6c": {
+    "defaultMessage": "С ним и без него"
+  },
+  "21mhsdlzlqh": {
+    "defaultMessage": "Хлебные крошки"
+  },
+  "21nfnu417u2": {
+    "defaultMessage": "Что декодирует WaveShark - все протоколы"
+  },
+  "21q374u1w0i": {
+    "defaultMessage": "470-790 МГц"
+  },
+  "21v98163ts": {
+    "defaultMessage": "Карта указанных станций"
+  },
+  "21wbxhv8b1z": {
+    "defaultMessage": "Bluetooth LE"
+  },
+  "21y2igm35if": {
+    "defaultMessage": "Локальная речевая модель, транскрибирующая каждый голосовой канал"
+  },
+  "22d5rk9zvdm": {
+    "defaultMessage": "Где это работает"
+  },
+  "22ed4gax8j3": {
+    "defaultMessage": "Настройка"
+  },
+  "22hltvxtxh9": {
+    "defaultMessage": "Датчики и пульты ISM"
+  },
+  "22hqkzkan1e": {
+    "defaultMessage": "Позиция, курс по дну, скорость и скорость поворота"
+  },
+  "22k9iamz2d8": {
+    "defaultMessage": "Где он останавливается"
+  },
+  "22msww1d008": {
+    "defaultMessage": "да, полнодуплекс"
+  },
+  "22ufv82msfw": {
+    "defaultMessage": "Авиационная связь данных"
+  },
+  "23221gpdz8z": {
+    "defaultMessage": "Drone Remote ID и DJI DroneID"
+  },
+  "2370lm0p65y": {
+    "defaultMessage": "Декодер двухтонального пейджинга для SDR - WaveShark"
+  },
+  "23oqqgmfb7i": {
+    "defaultMessage": "Пейджинг POCSAG и FLEX, APRS, SSTV и радиозонды"
+  },
+  "2409qbzgxff": {
+    "defaultMessage": "Позиция, высота и скорость набора высоты"
+  },
+  "2443660wl0c": {
+    "defaultMessage": "Запрос к ретрансляторам"
+  },
+  "244ey4xyeo2": {
+    "defaultMessage": "Что он считывает"
+  },
+  "24dv9l8hxe9": {
+    "defaultMessage": "Расшифрованный текст"
+  },
+  "24iqo5b3e0d": {
+    "defaultMessage": "Наблюдение за судоходством и аварийным трафиком"
+  },
+  "24ldnjyzev1": {
+    "defaultMessage": "Читать дальше"
+  },
+  "24svxo7yyrf": {
+    "defaultMessage": "Запуск"
+  },
+  "24t4xihhqdq": {
+    "defaultMessage": "Годы полевых испытаний на огромном каталоге устройств"
+  },
+  "24xdl44pg9c": {
+    "defaultMessage": "Декодер датчиков и пультов ISM для SDR - WaveShark"
+  },
+  "2515tikr6gh": {
+    "defaultMessage": "Создать issue"
+  },
+  "252bfvun10e": {
+    "defaultMessage": "добавлен {ago}"
+  },
+  "2562ia8ygnn": {
+    "defaultMessage": "Любой RTL-SDR; подходит та же антенна, что и для 1090 МГц"
+  },
+  "25bjviiz5i4": {
+    "defaultMessage": "MCC, MNC, LAC и идентификатор соты"
+  },
+  "25clkmqay4v": {
+    "defaultMessage": "Длительность вызова и наличие шифрования"
+  },
+  "25d37jtq06t": {
+    "defaultMessage": "Прочитать этот"
+  },
+  "25dvitwa697": {
+    "defaultMessage": "Любой RTL-SDR адаптер и устройство, которое работает постоянно"
+  },
+  "25pjbejkot7": {
+    "defaultMessage": "433.05-434.79 МГц"
+  },
+  "25saq0ia9x4": {
+    "defaultMessage": "Прочитать сценарии использования"
+  },
+  "25vo1imlybl": {
+    "defaultMessage": "RTL-SDR с антенной типа «вертушка», QFH или V-диполь"
+  },
+  "25yuo28fwc8": {
+    "defaultMessage": "Нажмите воспроизведение"
+  },
+  "2668ascw5il": {
+    "defaultMessage": "Декодер RTTY для SDR - WaveShark"
+  },
+  "267j9o8pse7": {
+    "defaultMessage": "Адрес ICAO и регистрационный номер самолёта"
+  },
+  "26pbst599rj": {
+    "defaultMessage": "Декодер Inmarsat Aero для SDR - WaveShark"
+  },
+  "277mrfe3jsj": {
+    "defaultMessage": "Формат сообщения: SCM, SCM+ или IDM"
+  },
+  "278ar7ewoz": {
+    "defaultMessage": "Скорость передачи и канал, по которому оно пришло"
+  },
+  "27e9qdj2e8l": {
+    "defaultMessage": "Судовая связь"
+  },
+  "27ivktlfhsq": {
+    "defaultMessage": "ТВ DVB-T и аналоговое видео 5.8 ГГц"
+  },
+  "27kjk6etn65": {
+    "defaultMessage": "433.920 МГц · ширина полосы 2400 кГц · 45 сканеров работают"
+  },
+  "27mp8zm5pgm": {
+    "defaultMessage": "КВ, VHF и UHF"
+  },
+  "27s4ro6vgrt": {
+    "defaultMessage": "Любой RTL-SDR с антенной, настроенной на этот диапазон"
+  },
+  "27xgdau5ey9": {
+    "defaultMessage": "Что отображается"
+  },
+  "27ypz6mvy83": {
+    "defaultMessage": "Декодер SSTV для SDR - WaveShark"
+  },
+  "282uy7fuqn7": {
+    "defaultMessage": "Найдите все беспроводные устройства вокруг"
+  },
+  "283a7cxjitz": {
+    "defaultMessage": "Метеостанции: температура, влажность, дождь, ветер"
+  },
+  "28533xl1r07": {
+    "defaultMessage": "Частота пакетов и уровень связи"
+  },
+  "288kn7s3hd3": {
+    "defaultMessage": "2.4 ГГц · HackRF или LimeSDR"
+  },
+  "28nk2jc3jrp": {
+    "defaultMessage": "Что передается в каждом диапазоне"
+  },
+  "28qoanz1oub": {
+    "defaultMessage": "Редактирование цепочки обработки сигнала по этапам"
+  },
+  "28rqcu3hq6n": {
+    "defaultMessage": "Выше 3.8 ГГц вне диапазона, поэтому для FPV 5.8 ГГц нужен HackRF"
+  },
+  "28sn2n44om9": {
+    "defaultMessage": "Что-то не декодировалось?"
+  },
+  "28ve2eawycu": {
+    "defaultMessage": "Речи пока нет."
+  },
+  "2934039rwnr": {
+    "defaultMessage": "ExpressLRS, FrSky ACCST, FlySky AFHDS-2A, XN297"
+  },
+  "298gy1xc3qw": {
+    "defaultMessage": "VHF и UHF · запись и расшифровка"
+  },
+  "298n2hnvucu": {
+    "defaultMessage": "Установите WaveShark"
+  },
+  "29bplpxayep": {
+    "defaultMessage": "Морзе и телеграф"
+  },
+  "29ewwj3c4sn": {
+    "defaultMessage": "Спонсор на GitHub"
+  },
+  "29fctni8jdf": {
+    "defaultMessage": "Каналы рекламы 2.4 ГГц"
+  },
+  "29iofmuny0": {
+    "defaultMessage": "2,4 ГГц / 868 / 915 МГц"
+  },
+  "29iz636mz86": {
+    "defaultMessage": "433 МГц (433.05-434.79 МГц): что передается здесь"
+  },
+  "29l0oa4m21m": {
+    "defaultMessage": "Установите драйвер для USB-приёмника"
+  },
+  "29tkdmx4clc": {
+    "defaultMessage": "USB и Mini"
+  },
+  "2a3r739adjm": {
+    "defaultMessage": "Что он слышит"
+  },
+  "2a6flpbq9qq": {
+    "defaultMessage": "{count} задач, которые выполняет один приёмник"
+  },
+  "2aay7p5db3t": {
+    "defaultMessage": "Сравнение"
+  },
+  "2afw7zgey1g": {
+    "defaultMessage": "Только Apple silicon; сборки для Intel нет"
+  },
+  "2apk1wu99s0": {
+    "defaultMessage": "Код страны и идентификатор маяка, включая hex id"
+  },
+  "2aq9u4gz4mi": {
+    "defaultMessage": "Битрейт и количество ошибок"
+  },
+  "2aw4dusebee": {
+    "defaultMessage": "EUI устройства LoRaWAN, join EUI и адрес устройства"
+  },
+  "2ax613qv554": {
+    "defaultMessage": "Декодер аналогового видео и FPV для SDR - WaveShark"
+  },
+  "2ax7wq3x7se": {
+    "defaultMessage": "5.8 ГГц (5645-5945 МГц): что передается здесь"
+  },
+  "2ay3f7fiunx": {
+    "defaultMessage": "Что декодирует WaveShark"
+  },
+  "2ay4w1nt4it": {
+    "defaultMessage": "LimeSDR"
+  },
+  "2azouv7hgf2": {
+    "defaultMessage": "Установите или распакуйте"
+  },
+  "2b1vw8ypfqq": {
+    "defaultMessage": "Широкополосные протоколы"
+  },
+  "2b4ltxo5xvg": {
+    "defaultMessage": "MOTOTRBO, Tier II, группа вызова, DMR ID"
+  },
+  "2bf5sjp6thy": {
+    "defaultMessage": "Откройте образ диска и перетащите приложение"
+  },
+  "2bhxkwgbsp7": {
+    "defaultMessage": "добавлен только что"
+  },
+  "2bp6mv3ncqi": {
+    "defaultMessage": "RTL-SDR; для диапазона L нужна патч-антенна и УВЧ"
+  },
+  "2bqj8omaoac": {
+    "defaultMessage": "Аналоговые VHF и UHF"
+  },
+  "2bqvhsgyles": {
+    "defaultMessage": "iqstream и rtl_tcp, по сети"
+  },
+  "2bryhm23vr6": {
+    "defaultMessage": "GSM"
+  },
+  "2bsg300a0qg": {
+    "defaultMessage": "Требуется установка LimeSuite на Linux и macOS"
+  },
+  "2c87g9kxktc": {
+    "defaultMessage": "IDAS, NEXEDGE, узкополосный 6.25 кГц"
+  },
+  "2c9h0tjlzne": {
+    "defaultMessage": "Утилита командной строки, которая встраивается в конвейер и cron-задачу"
+  },
+  "2cdb1kmbzbg": {
+    "defaultMessage": "Радиозонды"
+  },
+  "2ce4rwvr8fx": {
+    "defaultMessage": "Разместите антенну там, где есть сигналы"
+  },
+  "2cffgm35oq9": {
+    "defaultMessage": "Декодер M17 для SDR - WaveShark"
+  },
+  "2cfwiajxwcl": {
+    "defaultMessage": "Все диапазоны, один приёмник."
+  },
+  "2chdwuv27n1": {
+    "defaultMessage": "Каналы 2.4 ГГц 11-26"
+  },
+  "2clj97av1ft": {
+    "defaultMessage": "Регистрационный номер самолета и номер рейса"
+  },
+  "2cuiieayai2": {
+    "defaultMessage": "Открытие на определенном экране"
+  },
+  "2cxznpjx382": {
+    "defaultMessage": "390-406 МГц"
+  },
+  "2d2y43v5jjw": {
+    "defaultMessage": "rtl_433, 433.92 МГц, метеостанция, датчик двери"
+  },
+  "2d6xrgahbar": {
+    "defaultMessage": "Meshtastic, MeshCore, LoRaWAN, chirp spread spectrum"
+  },
+  "2daws9efrk8": {
+    "defaultMessage": "UAT978, ADS-B UAT, FIS-B, TIS-B"
+  },
+  "2dcywjktde8": {
+    "defaultMessage": "Спутники"
+  },
+  "2dfmxka7or1": {
+    "defaultMessage": "Используемый шифр, в представлении «Ключи»"
+  },
+  "2dofqu1knpz": {
+    "defaultMessage": "Скорость передачи и сдвиг"
+  },
+  "2door4wbbdw": {
+    "defaultMessage": "Самолёты"
+  },
+  "2dovzfwjl2x": {
+    "defaultMessage": "Пейджеры и тоны"
+  },
+  "2ds6dw3q48x": {
+    "defaultMessage": "Номера последовательности, показывающие повторы"
+  },
+  "2dzlmj34kca": {
+    "defaultMessage": "Код страны и сети, а также сота"
+  },
+  "2dzu7t0873w": {
+    "defaultMessage": "Декодер каналов управления RC - WaveShark"
+  },
+  "2e01nexofnb": {
+    "defaultMessage": "macOS"
+  },
+  "2ebz0wxjw90": {
+    "defaultMessage": "Декодер MDC-1200 для SDR - WaveShark"
+  },
+  "2edtdd05v5l": {
+    "defaultMessage": "Позывные источника и назначения, а также путь через ретрансляторы"
+  },
+  "2edtth2bfnq": {
+    "defaultMessage": "Перейти к содержимому"
+  },
+  "2eic9yxee5p": {
+    "defaultMessage": "Инструмент OSINT для РЧ. GPL-3.0-or-later."
+  },
+  "2ejz5fnb0pq": {
+    "defaultMessage": "Канал и уровень, на котором он был принят"
+  },
+  "2enqiq4f15z": {
+    "defaultMessage": "PAL, NTSC, FPV 5.8 ГГц, беспроводная камера"
+  },
+  "2eodtht6h3p": {
+    "defaultMessage": "Inmarsat Aero"
+  },
+  "2ep3rc54dlm": {
+    "defaultMessage": "APRS и пакетная связь"
+  },
+  "2euavjod2mp": {
+    "defaultMessage": "978 МГц"
+  },
+  "2ezz8ug1af6": {
+    "defaultMessage": "rtl_tcp передаёт 8-битные сэмплы, независимо от приёмника"
+  },
+  "2f04efwkkyj": {
+    "defaultMessage": "Talkgroup и ID исходной радиостанции"
+  },
+  "2f5pempmig0": {
+    "defaultMessage": "Метеоспутники"
+  },
+  "2ff5esyhu5j": {
+    "defaultMessage": "Тоны начала и остановки, чтобы график обрезался в нужном месте"
+  },
+  "2fkpyd67dvq": {
+    "defaultMessage": "131,5 / 136,7 - 137 МГц"
+  },
+  "2fu2y3bpx8h": {
+    "defaultMessage": "Пропускная способность сети определяет диапазон, который можно передать"
+  },
+  "2fybau5d1rd": {
+    "defaultMessage": "LimeSDR с WaveShark - что он охватывает"
+  },
+  "2gjb633q6ws": {
+    "defaultMessage": "Остальное есть в waveshark --help"
+  },
+  "2gkskakd1r9": {
+    "defaultMessage": "Zigbee, Thread и Matter"
+  },
+  "2gky0jpxtrl": {
+    "defaultMessage": "Текст сообщения или числовое сообщение"
+  },
+  "2pbeoivq5l": {
+    "defaultMessage": "Проходы метеоспутников NOAA APT и Meteor LRPT"
+  },
+  "2vcpovapgl": {
+    "defaultMessage": "868.95 МГц"
+  },
+  "2x1rqqw8ji": {
+    "defaultMessage": "Каналы"
+  },
+  "31unvxdy2e": {
+    "defaultMessage": "Декодер Remote ID для дронов - WaveShark"
+  },
+  "336huwmbqh": {
+    "defaultMessage": "Чтение спектра, пакетов, вызовов и транскрипта"
+  },
+  "34toebin6l": {
+    "defaultMessage": "Скорость передачи данных на кадр и канал"
+  },
+  "35dmvl4wc2": {
+    "defaultMessage": "Скачать WaveShark для Linux"
+  },
+  "37ppdwjjup": {
+    "defaultMessage": "Примерно 250 декодеров устройств против 45"
+  },
+  "3a6ibzv947": {
+    "defaultMessage": "978 / 1090 МГц"
+  },
+  "3eji58ho1a": {
+    "defaultMessage": "Без интерфейса"
+  },
+  "3l0aim1i0n": {
+    "defaultMessage": "dump1090, 1090 МГц, Mode S, вторичная радиолокация"
+  },
+  "3l4x5sz8sr": {
+    "defaultMessage": "Позывные источника и назначения"
+  },
+  "3nt7jar3y4": {
+    "defaultMessage": "Нет работы в режиме полнодуплексного ретранслятора"
+  },
+  "3qs44k4pdz": {
+    "defaultMessage": "Обследование площадки и поиск помех"
+  },
+  "417u296esr": {
+    "defaultMessage": "Звука пока нет."
+  },
+  "4a367o0js6": {
+    "defaultMessage": "Всё, что ловит RTL-SDR, в одном приёмнике"
+  },
+  "4ahp1wva16": {
+    "defaultMessage": "Пункт назначения и расчетное время прибытия, введённые экипажем"
+  },
+  "4bkbfmt5mg": {
+    "defaultMessage": "Любительские диапазоны"
+  },
+  "4c4wbupq8b": {
+    "defaultMessage": "Декодер DAB для SDR - WaveShark"
+  },
+  "4ih42n98ys": {
+    "defaultMessage": "Airband (118-137 МГц): что передается здесь"
+  },
+  "4izuwv6cy9": {
+    "defaultMessage": "Четыре радиоприёмника, и ни один из них не дорогой"
+  },
+  "4jxnkla976": {
+    "defaultMessage": "RTL-SDR с WaveShark - что он охватывает"
+  },
+  "4lpdlv08ni": {
+    "defaultMessage": "Слов в минуту, по измерению"
+  },
+  "4q0etjhd2d": {
+    "defaultMessage": "Коэффициент расширения, ширина полосы и скорость кодирования"
+  },
+  "4srzzu0upz": {
+    "defaultMessage": "Что можно делать с WaveShark"
+  },
+  "4wplsyuqp6": {
+    "defaultMessage": "Слушает"
+  },
+  "4xxaw03lv4": {
+    "defaultMessage": "DAB и DRM"
+  },
+  "54co5rz08w": {
+    "defaultMessage": "РАСШИФРОВАНО КАК"
+  },
+  "5elv5b798": {
+    "defaultMessage": "SDR-оборудование для WaveShark - RTL-SDR, HackRF, LimeSDR"
+  },
+  "5ihjs7ikgj": {
+    "defaultMessage": "Само изображение, строка за строкой"
+  },
+  "5lqm3x6p6i": {
+    "defaultMessage": "нет"
+  },
+  "5rwtbccx3j": {
+    "defaultMessage": "EPIRB, PLB, ELT, аварийный маяк 406 МГц"
+  },
+  "5vkvxhg6w6": {
+    "defaultMessage": "Отслеживание самолетов и чтение их сообщений"
+  },
+  "5yijtayq5i": {
+    "defaultMessage": "Пятнадцать экранов - WaveShark"
+  },
+  "61oav484in": {
+    "defaultMessage": "Проверено с помощью acarsdec на тех же записях."
+  },
+  "62x3w0ycpn": {
+    "defaultMessage": "400-406 МГц"
+  },
+  "6achmvtfq9": {
+    "defaultMessage": "Декодер GSM для SDR - WaveShark"
+  },
+  "70yac3rvz": {
+    "defaultMessage": "Идентификаторы сервисов"
+  },
+  "719lt0z10f": {
+    "defaultMessage": "Каналы 12.5 и 6.25 кГц"
+  },
+  "733bunqdsr": {
+    "defaultMessage": "1525-1559 МГц"
+  },
+  "7am1p640zz": {
+    "defaultMessage": "Попробуйте на диапазоне, который вам знаком."
+  },
+  "7jx5uyv4x9": {
+    "defaultMessage": "Антенна на чердаке, приёмник на столе"
+  },
+  "7lgylux05": {
+    "defaultMessage": "RTL-SDR с повышающим преобразователем для КВ или прямое преобразование"
+  },
+  "7ns82niu86": {
+    "defaultMessage": "2400-2483.5 МГц"
+  },
+  "7p2ivb23p": {
+    "defaultMessage": "Ширина {span} МГц, настраиваемый"
+  },
+  "7vt9qd4uyx": {
+    "defaultMessage": "Работа как любительская радиостанция с SDR - WaveShark"
+  },
+  "7w251fm81": {
+    "defaultMessage": "до 20 МГц"
+  },
+  "7ymgpwgd03": {
+    "defaultMessage": "Каналы данных"
+  },
+  "8233lasho0": {
+    "defaultMessage": "Ключи"
+  },
+  "8267gvpm97": {
+    "defaultMessage": "Высота, наземная скорость, курс и вертикальная скорость"
+  },
+  "82k3a4fl2t": {
+    "defaultMessage": "Командная строка"
+  },
+  "88peslw942": {
+    "defaultMessage": "Декодер Wi-Fi для SDR - WaveShark"
+  },
+  "8czb5se7x4": {
+    "defaultMessage": "915 МГц"
+  },
+  "8eum8uzz8t": {
+    "defaultMessage": "Запрос к ретрансляторам, ответили {settled} из {relays}"
+  },
+  "8evmerfzff": {
+    "defaultMessage": "Короткие волны без повышающего преобразователя или прямого преобразования"
+  },
+  "8jtde5uw7t": {
+    "defaultMessage": "315 / 433.92 МГц"
+  },
+  "8k9uhrceln": {
+    "defaultMessage": "HackRF или LimeSDR на 2.4 ГГц; USB-адаптер на 868 и 915"
+  },
+  "8pjmbtrki9": {
+    "defaultMessage": "RTL-SDR для приёма, HackRF или LimeSDR для передачи"
+  },
+  "8serfl71bo": {
+    "defaultMessage": "Quick Call II, тональные сигналы пожарных пейджеров, сигналы оповещения"
+  },
+  "8xi4uu0hu7": {
+    "defaultMessage": "Адрес наземной станции и сторона, отправившая кадр"
+  },
+  "96ztpjgyjc": {
+    "defaultMessage": "DAB+, цифровое радио, ансамбль, диапазон III"
+  },
+  "9kg25byl6r": {
+    "defaultMessage": "Декодер Wireless M-Bus для SDR - WaveShark"
+  },
+  "9l4ojrr9qx": {
+    "defaultMessage": "от 1 МГц до 6 ГГц, передача и приём"
+  },
+  "9odlrlgob5": {
+    "defaultMessage": "Wayland и X11 работают одинаково хорошо; окно отрисовывается с помощью wgpu"
+  },
+  "9xzs6yz7tv": {
+    "defaultMessage": "Любительские VHF и UHF"
+  },
+  "9z9ow2xt5z": {
+    "defaultMessage": "ТВ в диапазоне UHF"
+  },
+  "9zaxev24zz": {
+    "defaultMessage": "Морской VHF · диапазон L · 406 МГц"
+  },
+  "a2ihqarn65": {
+    "defaultMessage": "Позиция, высота, скорость и курс"
+  },
+  "art3voklsj": {
+    "defaultMessage": "Декодер счетчиков Itron ERT для SDR - WaveShark"
+  },
+  "ay8432qs36": {
+    "defaultMessage": "Прочитать сценарий использования"
+  },
+  "azchfhqzf2": {
+    "defaultMessage": "Транскрипт"
+  },
+  "b2dh1gokfv": {
+    "defaultMessage": "Декодер AIS для SDR - WaveShark"
+  },
+  "b441gaw3v2": {
+    "defaultMessage": "Настройка частоты"
+  },
+  "b6uhtvxtqh": {
+    "defaultMessage": "Пейджинг в диапазонах VHF и UHF"
+  },
+  "b70orc7ob7": {
+    "defaultMessage": "Скорость передачи данных и канал"
+  },
+  "b7i90hkgf5": {
+    "defaultMessage": "Capcode и позиция кадра"
+  },
+  "ba5btrqnsg": {
+    "defaultMessage": "RTL-SDR"
+  },
+  "bc0kaac6y0": {
+    "defaultMessage": "Какой приёмник для какой задачи?"
+  },
+  "bcxv98u65k": {
+    "defaultMessage": "от 100 кГц до 3.8 ГГц, Mini от 10 МГц"
+  },
+  "bf6nt5m2qh": {
+    "defaultMessage": "Статус и текст сообщения, в виде сообщений"
+  },
+  "bjvz910j6h": {
+    "defaultMessage": "Возможность"
+  },
+  "boe9hxbg9f": {
+    "defaultMessage": "Мониторинг радиосети и последующее чтение"
+  },
+  "c91da206su": {
+    "defaultMessage": "RTL-SDR, патч-антенна для диапазона L и УВЧ"
+  },
+  "ccu3wx5nor": {
+    "defaultMessage": "EGC, SafetyNET, NCS, морская безопасность"
+  },
+  "cf2758yl26": {
+    "defaultMessage": "Код Squawk и коды аварийной ситуации, если они установлены"
+  },
+  "cj194hvkq8": {
+    "defaultMessage": "Скачать для Linux, Windows и macOS"
+  },
+  "ct8jbhzbq6": {
+    "defaultMessage": "2.4 ГГц (2400-2483.5 МГц): что передается здесь"
+  },
+  "curuh59ikx": {
+    "defaultMessage": "Непрерывное декодирование по всему спектру, а не одного канала"
+  },
+  "cwrody0m1s": {
+    "defaultMessage": "Идентификаторы исходного и целевого устройств"
+  },
+  "cx401c8i6x": {
+    "defaultMessage": "декодер пейджеров, capcode, 512 1200 2400 бод"
+  },
+  "cx4zym6vfg": {
+    "defaultMessage": "Декодер DMR для SDR - WaveShark"
+  },
+  "cxzmbgzc8l": {
+    "defaultMessage": "Один приёмник, другая антенна и другая частота настройки"
+  },
+  "czxc7xwuvw": {
+    "defaultMessage": "Поля метеосводки, если станция их отправляет"
+  },
+  "d3d55gsii6": {
+    "defaultMessage": "удалённая настройка частоты, если сервер это позволяет"
+  },
+  "d3rorxyezh": {
+    "defaultMessage": "Любой RTL-SDR с антенной для морского диапазона"
+  },
+  "d3waxb6stw": {
+    "defaultMessage": "Флаги состояния батареи и неисправностей"
+  },
+  "ddn1vbcjwd": {
+    "defaultMessage": "Декодер ACARS для SDR - WaveShark"
+  },
+  "df5sy3s7ib": {
+    "defaultMessage": "замок двери, умный дом, 868.42 МГц, 908.42 МГц"
+  },
+  "dqawmcbdxj": {
+    "defaultMessage": "902-928 МГц"
+  },
+  "drqd384el8": {
+    "defaultMessage": "Тип судна, размеры и осадка"
+  },
+  "dtdf83skru": {
+    "defaultMessage": "UAT на 978 МГц"
+  },
+  "dvirr5ri8g": {
+    "defaultMessage": "серверу не нужен дисплей"
+  },
+  "dxg45mebvs": {
+    "defaultMessage": "Проект"
+  },
+  "dyilckfp8o": {
+    "defaultMessage": "Тюнер на другом компьютере"
+  },
+  "dzfi871i2q": {
+    "defaultMessage": "wfm, nfm, am, usb, lsb или cw."
+  },
+  "e0rx1dbbs3": {
+    "defaultMessage": "Декодер азбуки Морзе для SDR - WaveShark"
+  },
+  "e69h98cf5b": {
+    "defaultMessage": "Локальное имя, UUID сервисов и данные производителя"
+  },
+  "e72t990kub": {
+    "defaultMessage": "датчик давления в шинах, Ford, Renault, Schrader, 315 МГц"
+  },
+  "ectbhbp6tf": {
+    "defaultMessage": "APCO-25, групповой режим, talkgroup, ID радиостанции"
+  },
+  "eh2wayuq98": {
+    "defaultMessage": "VDL Mode 2"
+  },
+  "eom5d6muj3": {
+    "defaultMessage": "PAN id, а также исходный и целевой адреса"
+  },
+  "esyfzm0aw8": {
+    "defaultMessage": "Полнодуплекс: передача и приём одновременно"
+  },
+  "f2026z95cq": {
+    "defaultMessage": "Скорость передачи и уровень модуляции"
+  },
+  "fat0wjn1v0": {
+    "defaultMessage": "Снимите флаг карантина при первом открытии"
+  },
+  "faxtcbx36k": {
+    "defaultMessage": "Простой, лёгкий и быстро осваиваемый"
+  },
+  "fb5do6wyxj": {
+    "defaultMessage": "Погодная факсимильная связь на КВ"
+  },
+  "fbso5nr5dm": {
+    "defaultMessage": "Airband"
+  },
+  "fkj8qkdeva": {
+    "defaultMessage": "Проверьте путь сигнала без отображения."
+  },
+  "fm7xr88a8t": {
+    "defaultMessage": "Управление"
+  },
+  "fmhiksmr9k": {
+    "defaultMessage": "HackRF или LimeSDR"
+  },
+  "frrj8bw8jf": {
+    "defaultMessage": "Уже есть приёмник?"
+  },
+  "fxe5v0ey0t": {
+    "defaultMessage": "Канал и время нажатия кнопки"
+  },
+  "g0bgdulx0d": {
+    "defaultMessage": "Любой RTL-SDR адаптер"
+  },
+  "g0iqanewpb": {
+    "defaultMessage": "137 МГц · 400-406 МГц · КВ"
+  },
+  "g46zw4ku4e": {
+    "defaultMessage": "NXDN"
+  },
+  "g50h3ct23f": {
+    "defaultMessage": "Спектр"
+  },
+  "g7b1ui094q": {
+    "defaultMessage": "868 МГц"
+  },
+  "gaay69tb69": {
+    "defaultMessage": "Декодер маяков COSPAS-SARSAT для SDR - WaveShark"
+  },
+  "gh4btqfa1q": {
+    "defaultMessage": "IEEE 802.15.4, PAN id, mesh-сеть умного дома"
+  },
+  "gqhp4kd70f": {
+    "defaultMessage": "Флаг батареи, канал и нажатая кнопка пульта"
+  },
+  "gqr196bglq": {
+    "defaultMessage": "Зрелый продукт с большой базой пользователей и документацией"
+  },
+  "gsmxjbfz7n": {
+    "defaultMessage": "x86_64 · msi и zip"
+  },
+  "gu1w6t6ged": {
+    "defaultMessage": "Диапазон III и КВ"
+  },
+  "h1to1bfdpp": {
+    "defaultMessage": "1090 / 978 / 131 МГц"
+  },
+  "h2qms9ol75": {
+    "defaultMessage": "Температура воздуха и влажность, где их измеряет зонд"
+  },
+  "h54q5klru5": {
+    "defaultMessage": "Публичные тюнеры"
+  },
+  "h9zpj42t30": {
+    "defaultMessage": "Обследование площадки и поиск помех с SDR - WaveShark"
+  },
+  "hg5n65ai4j": {
+    "defaultMessage": "до 30 МГц"
+  },
+  "hpbp8u5xij": {
+    "defaultMessage": "NOAA APT"
+  },
+  "hs2eyet78d": {
+    "defaultMessage": "Морской VHF и L-диапазон"
+  },
+  "hu5ddxnmcf": {
+    "defaultMessage": "Давление и температура"
+  },
+  "hufgqk0thh": {
+    "defaultMessage": "Что на выходе"
+  },
+  "hxt5l69syn": {
+    "defaultMessage": "Страница, которую вы искали, здесь не находится. Но спектр есть."
+  },
+  "i42qjt06zy": {
+    "defaultMessage": "ADS-B и Mode S"
+  },
+  "i9culi1nx8": {
+    "defaultMessage": "Удалённые тюнеры"
+  },
+  "idagbwine0": {
+    "defaultMessage": "Все флаги и два самых важных."
+  },
+  "ifmz7mezv": {
+    "defaultMessage": "Приоритет сообщения, от обычного до аварийного"
+  },
+  "ihjsd3b7ud": {
+    "defaultMessage": "118-137 МГц"
+  },
+  "iltfm7mgwt": {
+    "defaultMessage": "Диапазоны"
+  },
+  "it4zp1fpqb": {
+    "defaultMessage": "Записывайте каждый декодированный пакет в формате захвата rtl_433."
+  },
+  "iuo03saav1": {
+    "defaultMessage": "Публикуйте все обнаруженные устройства в Home Assistant через MQTT."
+  },
+  "ivr857t0hl": {
+    "defaultMessage": "На радиостанции, которая умеет"
+  },
+  "iwj4tbf4gu": {
+    "defaultMessage": "Скачать WaveShark для Windows"
+  },
+  "iwm861r0m2": {
+    "defaultMessage": "Сервисы в мультиплексе, с метками и языками"
+  },
+  "j34md0ov4t": {
+    "defaultMessage": "174-240 МГц"
+  },
+  "j75dv4lr3d": {
+    "defaultMessage": "Буйки-маяки"
+  },
+  "jhg1lj4uqo": {
+    "defaultMessage": "Агент"
+  },
+  "jve0c2pv2p": {
+    "defaultMessage": "Open Drone ID, если дрон передает его через BLE"
+  },
+  "k05z3zraki": {
+    "defaultMessage": "Декодирование устройств ISM"
+  },
+  "k62bp1wbgx": {
+    "defaultMessage": "Home Assistant"
+  },
+  "k8b69jcqif": {
+    "defaultMessage": "Декодер DRM для SDR - WaveShark"
+  },
+  "kbkj8zxmxq": {
+    "defaultMessage": "POCSAG paging"
+  },
+  "kc5791tpe9": {
+    "defaultMessage": "868 / 908 МГц"
+  },
+  "kfkbh7wrmf": {
+    "defaultMessage": "Зашифрован ли вызов"
+  },
+  "kg1g0ykgdn": {
+    "defaultMessage": "Ширина канала, 12.5 или 6.25 кГц"
+  },
+  "kl0vfrief7": {
+    "defaultMessage": "Диапазон III (174-240 МГц): что там передается"
+  },
+  "ko2yrq7tlw": {
+    "defaultMessage": "Диапазон"
+  },
+  "kvf0tjulb": {
+    "defaultMessage": "Каналы RC"
+  },
+  "kxkfag3djj": {
+    "defaultMessage": "Проверено по другим декодерам"
+  },
+  "l2xfnjx8x3": {
+    "defaultMessage": "--stream <host>"
+  },
+  "l7dp49nlrl": {
+    "defaultMessage": "Сервисы в мультиплексе, с их названиями и типами"
+  },
+  "lddw5tuvk7": {
+    "defaultMessage": "Хеш фразы привязки или адрес, в зависимости от канала"
+  },
+  "lkb1pqh6rm": {
+    "defaultMessage": "Идентификатор датчика, уникальный для каждого колеса"
+  },
+  "lq4uhjucpv": {
+    "defaultMessage": "RTTY"
+  },
+  "lx1enynw62": {
+    "defaultMessage": "Шина вызовов, шина сообщений и индикатор эфира"
+  },
+  "m6jah23yon": {
+    "defaultMessage": "Три канала MSU-MR в порядке их поступления"
+  },
+  "mc16r6dfm0": {
+    "defaultMessage": "Предупреждение, которое стоит повторить"
+  },
+  "mdoelpfzut": {
+    "defaultMessage": "Видео"
+  },
+  "mf34i99uvg": {
+    "defaultMessage": "RTL-SDR для 900 МГц; для 1800 МГц нужен HackRF или LimeSDR"
+  },
+  "mf7ossludu": {
+    "defaultMessage": "Позиция, с кругом дальности, отрисованным от вашей антенны"
+  },
+  "mnhyf1xisk": {
+    "defaultMessage": "Датчики РЧ в Home Assistant через MQTT - WaveShark"
+  },
+  "mssdm24xaj": {
+    "defaultMessage": "iqstream и rtl_tcp"
+  },
+  "myfjeyqiu": {
+    "defaultMessage": "RTL-SDR и антенна, настроенная на диапазон"
+  },
+  "n0fuvzicg5": {
+    "defaultMessage": "Суммарное потребление, как его считает счетчик"
+  },
+  "n24jepf0qt": {
+    "defaultMessage": "1090 и 978 МГц"
+  },
+  "n2wmsuoh6g": {
+    "defaultMessage": "Режим, определяется по заголовку VIS"
+  },
+  "n4vnoy3hsy": {
+    "defaultMessage": "Изображения метеоспутников, NOAA 15, NOAA 18, NOAA 19, 137 МГц"
+  },
+  "n7v207iu60": {
+    "defaultMessage": "MDC-1200"
+  },
+  "nb5tyo0rny": {
+    "defaultMessage": "Доступные диапазоны →"
+  },
+  "ncvw3buhv5": {
+    "defaultMessage": "Apple silicon · dmg и бинарный файл"
+  },
+  "npjtn8nxp4": {
+    "defaultMessage": "HackRF или LimeSDR для телевидения; адаптер для DAB и FM"
+  },
+  "npq37ojgln": {
+    "defaultMessage": "Текст сообщения"
+  },
+  "nwqz24hnk3": {
+    "defaultMessage": "Декодер метеорологического факса HF для SDR - WaveShark"
+  },
+  "o1b5pzilxp": {
+    "defaultMessage": "Имена сервисов и типы программ"
+  },
+  "o1vmefkksn": {
+    "defaultMessage": "Декодер пейджинга POCSAG для SDR - WaveShark"
+  },
+  "oqtemrj7c": {
+    "defaultMessage": "Любая передача"
+  },
+  "otf9oyuu4k": {
+    "defaultMessage": "EAS и SAME"
+  },
+  "ou0b999ff3": {
+    "defaultMessage": "Аппаратное обеспечение"
+  },
+  "oyyuolzy7a": {
+    "defaultMessage": "Долгосрочная поддержка широкого спектра радиоприёмников"
+  },
+  "p4lz7kuc8h": {
+    "defaultMessage": "Частота настройки, то, что вы видите. Ширина полосы, то, что вы собираете."
+  },
+  "p9o32qnekh": {
+    "defaultMessage": "Обзор устройств с координатами и экспорт в CSV WiGLE"
+  },
+  "pgt3rkwz60": {
+    "defaultMessage": "Любая поддерживаемая радиостанция и небольшое устройство рядом с ней"
+  },
+  "pki0nonk4x": {
+    "defaultMessage": "МОД"
+  },
+  "pl78xp3usq": {
+    "defaultMessage": "Выводите каждый пакет по мере поступления, независимо от наличия окна."
+  },
+  "pnnpdc8wq3": {
+    "defaultMessage": "Установите librtlsdr или доверьте это пакету"
+  },
+  "pqbk79k7rs": {
+    "defaultMessage": "Панель"
+  },
+  "py7up7bu9e": {
+    "defaultMessage": "Адрес рекламы и является ли он случайным"
+  },
+  "q1aj9udmd2": {
+    "defaultMessage": "Декодер UAT на 978 МГц для SDR - WaveShark"
+  },
+  "q4g1bzg2ac": {
+    "defaultMessage": "около 2,4 МГц"
+  },
+  "q9ghb6p6co": {
+    "defaultMessage": "Разберите пульт, датчик или сигнализацию"
+  },
+  "qn2ai0o7wl": {
+    "defaultMessage": "Наблюдение за дронами, их операторами и передатчиками"
+  },
+  "qqvnbj1uic": {
+    "defaultMessage": "HackRF One или LimeSDR"
+  },
+  "qqzp7sxnuu": {
+    "defaultMessage": "137 МГц"
+  },
+  "qu6337ahba": {
+    "defaultMessage": "863-870 МГц"
+  },
+  "qz3qqo5ui8": {
+    "defaultMessage": "На этой частоте ничего нет"
+  },
+  "r0neyww55y": {
+    "defaultMessage": "DJI DroneID, Open Drone ID, ASTM F3411, местоположение оператора"
+  },
+  "r1j9satb68": {
+    "defaultMessage": "Каналы управления RC"
+  },
+  "r2id9uzhzq": {
+    "defaultMessage": "DAB"
+  },
+  "r4xilm3b7z": {
+    "defaultMessage": "ID узла, лимит прыжков и хеш канала"
+  },
+  "r5hh4ahz0p": {
+    "defaultMessage": "Голос"
+  },
+  "r5ive2uwg1": {
+    "defaultMessage": "Дистанционный идентификатор дрона"
+  },
+  "r8a865mnif": {
+    "defaultMessage": "Тип кадра и класс команд, если он передан открытым текстом"
+  },
+  "rb0z8bsqxf": {
+    "defaultMessage": "433 / 868 / 915 МГц"
+  },
+  "rchwylzo8e": {
+    "defaultMessage": "Другое может управлять им"
+  },
+  "rdc764b3z8": {
+    "defaultMessage": "Полный текст сообщения"
+  },
+  "rj1ngyto0o": {
+    "defaultMessage": "Язык"
+  },
+  "rr4mv16s7t": {
+    "defaultMessage": "цифровое наземное вещание, транспортный поток, Freeview, мультиплекс"
+  },
+  "rsoo8ybq42": {
+    "defaultMessage": "Скачать WaveShark"
+  },
+  "ruocyarqjz": {
+    "defaultMessage": "DMR, P25, NXDN, TETRA, M17 и аналоговая голосовая связь"
+  },
+  "ruxit0vqit": {
+    "defaultMessage": "390-400 МГц"
+  },
+  "sa6xlmnaaf": {
+    "defaultMessage": "Куда бы вы ни направили антенну"
+  },
+  "sctkev09ox": {
+    "defaultMessage": "Сценарии использования"
+  },
+  "sgc8qsdwl9": {
+    "defaultMessage": "Ширина {span} МГц, фиксированный"
+  },
+  "sgwlhi7vir": {
+    "defaultMessage": "Декодер пейджинга FLEX для SDR - WaveShark"
+  },
+  "sq7ocfet1b": {
+    "defaultMessage": "Тип сигнальной единицы, на канале P"
+  },
+  "t1g98gafpt": {
+    "defaultMessage": "WaveShark и rtl_433 - где выигрывает каждый"
+  },
+  "t6bye6dqrj": {
+    "defaultMessage": "x86_64 · deb, rpm и бинарный файл"
+  },
+  "t96hw1mkt0": {
+    "defaultMessage": "Диапазон L"
+  },
+  "tkrnxyvuu3": {
+    "defaultMessage": "Короткие волны"
+  },
+  "tvz0s72fbe": {
+    "defaultMessage": "Датчики РЧ в Home Assistant"
+  },
+  "ubd1ls7a3p": {
+    "defaultMessage": "acarsdec, авиационная связь, 131.550 МГц"
+  },
+  "uoeq5qq7gg": {
+    "defaultMessage": "Командная строка"
+  },
+  "uq54z3w64e": {
+    "defaultMessage": "Любая поддерживаемая радиостанция"
+  },
+  "uw9rgvkmkr": {
+    "defaultMessage": "12 бит"
+  },
+  "v004piiaej": {
+    "defaultMessage": "Декодер APRS для SDR - WaveShark"
+  },
+  "v5to9vhfa": {
+    "defaultMessage": "Meteor-M LRPT"
+  },
+  "vewencogh3": {
+    "defaultMessage": "Цепочка сигналов"
+  },
+  "vh88ypv7zp": {
+    "defaultMessage": "Скопировано"
+  },
+  "viqx0flk3i": {
+    "defaultMessage": "Количество принятых строк на кадр"
+  },
+  "vog2lgu7lw": {
+    "defaultMessage": "Беспроводные счетчики M-Bus и ERT: показания"
+  },
+  "voojgf2lr0": {
+    "defaultMessage": "Сообщение ACARS и его метка"
+  },
+  "vwen7w6kb1": {
+    "defaultMessage": "SSID из beacon-кадров и ответов на probe"
+  },
+  "w2zclbtyk2": {
+    "defaultMessage": "Сообщить об ошибке"
+  },
+  "w5htxyww2r": {
+    "defaultMessage": "WaveShark и SDRangel - где выигрывает каждый"
+  },
+  "w6ysoj0kj4": {
+    "defaultMessage": "Статус"
+  },
+  "w8rafrlm8x": {
+    "defaultMessage": "Всё, что ловит HackRF"
+  },
+  "w922jm228l": {
+    "defaultMessage": "Диапазон настройки"
+  },
+  "wb3tme72va": {
+    "defaultMessage": "Буйки COSPAS-SARSAT"
+  },
+  "wpzg55xm9t": {
+    "defaultMessage": "Кодированная позиция, если маяк имеет координаты"
+  },
+  "wqqh8v8zam": {
+    "defaultMessage": "Проблемы"
+  },
+  "wr9s5dhan7": {
+    "defaultMessage": "Также называется"
+  },
+  "wubkvlqhce": {
+    "defaultMessage": "Расшифрованный текст, в реальном времени по мере поступления символов"
+  },
+  "wujef3l0o6": {
+    "defaultMessage": "Любой RTL-SDR"
+  },
+  "ww4mo9g2fd": {
+    "defaultMessage": "Декодер ADS-B и Mode S для SDR - WaveShark"
+  },
+  "wwzjdlw8ns": {
+    "defaultMessage": "Аналоговое видео"
+  },
+  "x4e8cqq59o": {
+    "defaultMessage": "Что передается в каждом диапазоне - WaveShark"
+  },
+  "xi0if8l70d": {
+    "defaultMessage": "Наблюдение за судоходным и аварийным трафиком с SDR - WaveShark"
+  },
+  "xl2a1p2o61": {
+    "defaultMessage": "Везде, где используются пейджеры"
+  },
+  "xrkuj4v0zp": {
+    "defaultMessage": "129-137 МГц"
+  },
+  "xwxbb29je8": {
+    "defaultMessage": "136.7-137 МГц"
+  },
+  "xzz0adrow7": {
+    "defaultMessage": "Качество канала и соединения"
+  },
+  "y2gwjkzspm": {
+    "defaultMessage": "ID алгоритма и ID ключа при зашифрованном вызове"
+  },
+  "y7x19gkd1t": {
+    "defaultMessage": "Обратный инжиниринг"
+  },
+  "yjk7wo3pcr": {
+    "defaultMessage": "SDR-приемник, которым может управлять агент - MCP-сервер WaveShark"
+  },
+  "yjl1u33nrx": {
+    "defaultMessage": "Полученные строки, поэтому частичное изображение помечается как одно"
+  },
+  "ylvlo8rqks": {
+    "defaultMessage": "Категория излучателя, чтобы планер не отображался как реактивный самолёт"
+  },
+  "ylyi8z9etj": {
+    "defaultMessage": "Серийный номер, указанный на корпусе"
+  },
+  "yq397vf9mt": {
+    "defaultMessage": "Нисходящий или восходящий канал, а также станция, отправившая сообщение"
+  },
+  "yr5grs6meb": {
+    "defaultMessage": "Тип устройства: вода, тепло, газ или электричество"
+  },
+  "yt6t6uxywj": {
+    "defaultMessage": "Inmarsat STD-C"
+  },
+  "yxlf318w04": {
+    "defaultMessage": "USB и Mini, полнодуплекс, 12 бит"
+  },
+  "zaowbkniva": {
+    "defaultMessage": "Идентификатор устройства Motorola, ID PTT, кнопка тревоги"
+  },
+  "zgrkhnpb0h": {
+    "defaultMessage": "{clients} слушателей при добавлении"
+  },
+  "zo6jqp6ntt": {
+    "defaultMessage": "Серийный номер, как напечатан на зонде"
+  },
+  "zoq7mr1ndv": {
+    "defaultMessage": "ADS-B, UAT, ACARS, VDL Mode 2 и AIS"
+  },
+  "zpe6qw154f": {
+    "defaultMessage": "Как это работает →"
+  },
+  "zux4fiieiu": {
+    "defaultMessage": "RTL-SDR на 900 МГц; для 1800 МГц нужен HackRF или LimeSDR"
+  },
+  "zvk4n0l8e5": {
+    "defaultMessage": "Позвольте агенту управлять радиостанцией"
+  },
+  "zximma6hzg": {
+    "defaultMessage": "wM-Bus mode T, интеллектуальный счётчик, OMS, 868.95 МГц"
+  },
+  "zxyotmjfm3": {
+    "defaultMessage": "Адрес ICAO, позывной, позиция, высота и скорость"
+  }
+}
