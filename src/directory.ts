@@ -177,14 +177,14 @@ export interface Watch {
 
 export function watch(
   onStations: (stations: Station[]) => void,
-  onRelays: (answered: number, failed: number) => void,
+  onRelays: (live: number, down: number) => void,
   relays: string[] = RELAYS,
 ): Watch {
   const events = new Map<string, NostrEvent>();
   const checked = new Set<string>();
-  const sockets: WebSocket[] = [];
-  let answered = 0;
-  let failed = 0;
+  const sockets = new Map<string, WebSocket>();
+  const retries = new Map<string, ReturnType<typeof setTimeout>>();
+  const state = new Map<string, 'live' | 'down'>();
   let closed = false;
   let pending: ReturnType<typeof setTimeout> | undefined;
 
@@ -216,31 +216,46 @@ export function watch(
     });
   };
 
+  const mark = (url: string, status: 'live' | 'down') => {
+    if (state.get(url) === status) return;
+    state.set(url, status);
+    verifier.then(() => {
+      if (closed) return;
+      const live = [...state.values()].filter(s => s === 'live').length;
+      onRelays(live, state.size - live);
+      publish();
+    });
+  };
+
   const sub = Math.random().toString(36).slice(2, 10);
-  const since = now() - STALE_AFTER_SECS;
-  for (const url of relays) {
+
+  const connect = (url: string, attempt: number) => {
+    retries.delete(url);
+    if (closed) return;
     let ws: WebSocket;
     try {
       ws = new WebSocket(url);
     } catch {
-      failed++;
-      onRelays(answered, failed);
-      continue;
+      mark(url, 'down');
+      return;
     }
-    sockets.push(ws);
-    let settled = false;
-    const settle = (ok: boolean) => {
-      if (settled || closed) return;
-      settled = true;
-      verifier.then(() => {
-        if (closed) return;
-        ok ? answered++ : failed++;
-        onRelays(answered, failed);
-        publish();
-      });
+    sockets.set(url, ws);
+    let tries = attempt;
+    let gone = false;
+    const drop = () => {
+      if (gone) return;
+      gone = true;
+      clearTimeout(timeout);
+      if (sockets.get(url) === ws) sockets.delete(url);
+      ws.close();
+      if (closed) return;
+      mark(url, 'down');
+      const wait = Math.min(60_000, 1000 * 2 ** tries) * (0.5 + Math.random());
+      retries.set(url, setTimeout(() => connect(url, tries + 1), wait));
     };
-    const timeout = setTimeout(() => settle(false), 10_000);
-    ws.onopen = () => ws.send(JSON.stringify(['REQ', sub, { kinds: [KIND], since }]));
+    const timeout = setTimeout(drop, 10_000);
+    ws.onopen = () =>
+      ws.send(JSON.stringify(['REQ', sub, { kinds: [KIND], since: now() - STALE_AFTER_SECS }]));
     ws.onmessage = m => {
       let v: unknown;
       try {
@@ -250,25 +265,35 @@ export function watch(
       }
       if (!Array.isArray(v) || v[1] !== sub) return;
       if (v[0] === 'EVENT' && v[2] && typeof v[2] === 'object') take(v[2] as NostrEvent);
-      else if (v[0] === 'EOSE' || v[0] === 'CLOSED') {
+      else if (v[0] === 'EOSE') {
         clearTimeout(timeout);
-        settle(v[0] === 'EOSE');
-      }
+        tries = 0;
+        mark(url, 'live');
+      } else if (v[0] === 'CLOSED') drop();
     };
-    ws.onerror = () => {
-      clearTimeout(timeout);
-      settle(false);
-    };
-  }
+    ws.onclose = drop;
+  };
+
+  const reconnect = () => {
+    for (const [url, timer] of retries) {
+      clearTimeout(timer);
+      connect(url, 0);
+    }
+  };
+
+  for (const url of relays) connect(url, 0);
   if (!relays.length) onStations([]);
+  window.addEventListener('online', reconnect);
 
   const tick = setInterval(publish, 60_000);
   return {
     close() {
       closed = true;
+      window.removeEventListener('online', reconnect);
       clearInterval(tick);
       if (pending) clearTimeout(pending);
-      for (const ws of sockets) {
+      for (const timer of retries.values()) clearTimeout(timer);
+      for (const ws of sockets.values()) {
         if (ws.readyState === WebSocket.OPEN) ws.send(JSON.stringify(['CLOSE', sub]));
         ws.close();
       }
