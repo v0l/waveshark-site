@@ -7,6 +7,7 @@ export const LOCALES = {
   pt: { name: 'Português', tag: 'pt', og: 'pt_PT' },
   nl: { name: 'Nederlands', tag: 'nl', og: 'nl_NL' },
   pl: { name: 'Polski', tag: 'pl', og: 'pl_PL' },
+  ru: { name: 'Русский', tag: 'ru', og: 'ru_RU' },
   ja: { name: '日本語', tag: 'ja', og: 'ja_JP' },
   zh: { name: '简体中文', tag: 'zh-Hans', og: 'zh_CN' },
 } as const;

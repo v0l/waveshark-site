@@ -14,6 +14,7 @@ const LANGUAGE: Record<string, string> = {
   pt: 'European Portuguese',
   nl: 'Dutch',
   pl: 'Polish',
+  ru: 'Russian',
   ja: 'Japanese',
   zh: 'Simplified Chinese',
 };

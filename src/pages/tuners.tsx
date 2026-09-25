@@ -83,10 +83,10 @@ function Copy({ text }: { text: string }) {
 function Slots({ s }: { s: Station }) {
   const listening =
     s.maxClients === undefined ? (
-      <FormattedMessage defaultMessage="{clients} listening when listed" values={{ clients: s.clients }} />
+      <FormattedMessage defaultMessage="{clients} listening" values={{ clients: s.clients }} />
     ) : (
       <FormattedMessage
-        defaultMessage="{clients} of {max} listening when listed"
+        defaultMessage="{clients} of {max} listening"
         values={{ clients: s.clients, max: s.maxClients }}
       />
     );

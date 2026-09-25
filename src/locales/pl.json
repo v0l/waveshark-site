@@ -1445,9 +1445,6 @@
   "1u2lf2kds50": {
     "defaultMessage": "Z-Wave"
   },
-  "1u36f1hte38": {
-    "defaultMessage": "{clients} z {max} słuchało w chwili ogłoszenia"
-  },
   "1u38a8geruy": {
     "defaultMessage": "Jeden kanał 2,4 GHz ma szerokość 20 MHz, dlatego do tego zadania lepiej nadaje się HackRF lub LimeSDR niż prosty dongle."
   },
@@ -2509,6 +2506,9 @@
   },
   "4q0etjhd2d": {
     "defaultMessage": "Współczynnik rozpraszania, pasmo i szybkość kodowania"
+  },
+  "4qolilzsxr": {
+    "defaultMessage": "słucha: {clients} z {max}"
   },
   "4qzx8smibe": {
     "defaultMessage": "Kanał Wi-Fi ma szerokość 20 MHz, więc jego odczyt to zadanie dla HackRF lub LimeSDR, a nie dla prostego dongla. Wynikiem jest raport: sieci nadające beacons, klienci wysyłający zapytania, używane prędkości transmisji oraz adresy, które pojawiają się regularnie."
@@ -3827,6 +3827,9 @@
   "y2gwjkzspm": {
     "defaultMessage": "Identyfikator algorytmu i klucza w zaszyfrowanym połączeniu"
   },
+  "y6diz8vq5d": {
+    "defaultMessage": "słucha: {clients}"
+  },
   "y7x19gkd1t": {
     "defaultMessage": "Inżynieria odwrócona"
   },
@@ -3874,9 +3877,6 @@
   },
   "zaowbkniva": {
     "defaultMessage": "Identyfikator urządzenia Motorola, PTT ID, przycisk awaryjny"
-  },
-  "zgrkhnpb0h": {
-    "defaultMessage": "{clients} słuchało w chwili ogłoszenia"
   },
   "zo6jqp6ntt": {
     "defaultMessage": "Numer seryjny, zgodnie z oznaczeniem na sondzie"

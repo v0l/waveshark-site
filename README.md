@@ -37,7 +37,7 @@ serves; the router strips it before matching.
 ## Translations
 
 Every page is prerendered once per locale: English at `/`, the rest under
-`/de/`, `/fr/`, `/es/`, `/it/`, `/pt/`, `/nl/`, `/pl/`, `/ja/` and `/zh/`
+`/de/`, `/fr/`, `/es/`, `/it/`, `/pt/`, `/nl/`, `/pl/`, `/ru/`, `/ja/` and `/zh/`
 (`src/i18n/locales.ts`), with hreflang alternates in the head and the sitemap.
 
 Page copy is react-intl `FormattedMessage` with a `defaultMessage` and no id.
@@ -53,7 +53,7 @@ bun run intl:extract     # -> src/locales/en.json, JSX and data together
 bun run intl:translate   # short labels and messages with placeholders
 ollama_intl -u http://localhost:8001/v1 -m <model> -i src/locales/en.json -o src/locales \
   -t German:de -t French:fr -t Spanish:es -t Italian:it -t Portuguese:pt \
-  -t Dutch:nl -t Polish:pl -t Japanese:ja -t "Chinese (Simplified):zh"
+  -t Dutch:nl -t Polish:pl -t Russian:ru -t Japanese:ja -t "Chinese (Simplified):zh"
 bun run intl:translate   # again, to clean up what ollama_intl wrote
 ```
 

@@ -1445,9 +1445,6 @@
   "1u2lf2kds50": {
     "defaultMessage": "Z-Wave"
   },
-  "1u36f1hte38": {
-    "defaultMessage": "{clients} van {max} luisterden bij aanmelding"
-  },
   "1u38a8geruy": {
     "defaultMessage": "Een 2,4 GHz-kanaal is 20 MHz breed, dus dit is een taak die een HackRF of LimeSDR vereist in plaats van een dongle."
   },
@@ -2509,6 +2506,9 @@
   },
   "4q0etjhd2d": {
     "defaultMessage": "Spreading factor, bandbreedte en coderingsratio"
+  },
+  "4qolilzsxr": {
+    "defaultMessage": "{clients} van {max} luisteren"
   },
   "4qzx8smibe": {
     "defaultMessage": "Een Wi-Fi-kanaal is 20 MHz breed, dus het aflezen ervan is een taak voor een HackRF of LimeSDR en niet voor een dongle. Het resultaat is een inventarisatie: de netwerken die beacons uitzenden, de clients die proeven, de gebruikte snelheden en de adressen die steeds opnieuw verschijnen."
@@ -3827,6 +3827,9 @@
   "y2gwjkzspm": {
     "defaultMessage": "Algoritme id en sleutel id bij een versleuteld gesprek"
   },
+  "y6diz8vq5d": {
+    "defaultMessage": "{clients} luisteren"
+  },
   "y7x19gkd1t": {
     "defaultMessage": "Reverse engineering"
   },
@@ -3874,9 +3877,6 @@
   },
   "zaowbkniva": {
     "defaultMessage": "Motorola-eenheid-id, PTT-ID, noodknop"
-  },
-  "zgrkhnpb0h": {
-    "defaultMessage": "{clients} luisterden bij aanmelding"
   },
   "zo6jqp6ntt": {
     "defaultMessage": "Serienummer, zoals op de sonde gedrukt"

@@ -1445,9 +1445,6 @@
   "1u2lf2kds50": {
     "defaultMessage": "Z-Wave"
   },
-  "1u36f1hte38": {
-    "defaultMessage": "掲載時の受信者 {clients}/{max}"
-  },
   "1u38a8geruy": {
     "defaultMessage": "2.4GHzの1チャネルは20MHzの帯域幅を持つため、この用途にはドングルではなくHackRFやLimeSDRが適しています。"
   },
@@ -2509,6 +2506,9 @@
   },
   "4q0etjhd2d": {
     "defaultMessage": "スプレディングファクター、帯域幅、コーディングレート"
+  },
+  "4qolilzsxr": {
+    "defaultMessage": "受信中 {clients}/{max}"
   },
   "4qzx8smibe": {
     "defaultMessage": "Wi-Fiチャネルは20MHzの帯域幅を持つため、その読み取りにはHackRFやLimeSDRのような機器が適しており、USBドングルには不向きです。得られるのは調査結果であり、ビーコンを送出しているネットワーク、プローブを送信しているクライアント、使用されているデータレート、そして繰り返し出現するアドレスが含まれます。"
@@ -3827,6 +3827,9 @@
   "y2gwjkzspm": {
     "defaultMessage": "暗号化通話におけるアルゴリズム ID とキー ID"
   },
+  "y6diz8vq5d": {
+    "defaultMessage": "受信中 {clients}"
+  },
   "y7x19gkd1t": {
     "defaultMessage": "リバースエンジニアリング"
   },
@@ -3874,9 +3877,6 @@
   },
   "zaowbkniva": {
     "defaultMessage": "MotorolaユニットID、PTT ID、緊急ボタン"
-  },
-  "zgrkhnpb0h": {
-    "defaultMessage": "掲載時の受信者 {clients}"
   },
   "zo6jqp6ntt": {
     "defaultMessage": "気象観測気球本体に印字されたシリアル番号"

@@ -1445,9 +1445,6 @@
   "1u2lf2kds50": {
     "defaultMessage": "Z-Wave"
   },
-  "1u36f1hte38": {
-    "defaultMessage": "发布时 {clients}/{max} 人在收听"
-  },
   "1u38a8geruy": {
     "defaultMessage": "一个2.4 GHz频道的带宽为20 MHz，因此这项任务更适合使用HackRF或LimeSDR，而非USB无线网卡。"
   },
@@ -2509,6 +2506,9 @@
   },
   "4q0etjhd2d": {
     "defaultMessage": "扩频因子、带宽和编码率"
+  },
+  "4qolilzsxr": {
+    "defaultMessage": "{clients}/{max} 人在收听"
   },
   "4qzx8smibe": {
     "defaultMessage": "Wi-Fi 信道的带宽为 20 MHz，因此要读取一个信道，需要使用 HackRF 或 LimeSDR 这类设备，而非普通的 USB 无线网卡。输出结果是一份频谱调查报告，其中包含正在广播信标（Beacon）的网络、正在探测（Probe）的客户端、所使用的速率以及频繁出现的 MAC 地址。"
@@ -3827,6 +3827,9 @@
   "y2gwjkzspm": {
     "defaultMessage": "加密呼叫中的算法 ID 和密钥 ID"
   },
+  "y6diz8vq5d": {
+    "defaultMessage": "{clients} 人在收听"
+  },
   "y7x19gkd1t": {
     "defaultMessage": "逆向工程"
   },
@@ -3874,9 +3877,6 @@
   },
   "zaowbkniva": {
     "defaultMessage": "Motorola 单元 ID, PTT ID, 紧急按钮"
-  },
-  "zgrkhnpb0h": {
-    "defaultMessage": "发布时 {clients} 人在收听"
   },
   "zo6jqp6ntt": {
     "defaultMessage": "序列号，即探空仪上印制的编号"

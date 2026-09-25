@@ -1445,9 +1445,6 @@
   "1u2lf2kds50": {
     "defaultMessage": "Z-Wave"
   },
-  "1u36f1hte38": {
-    "defaultMessage": "{clients} de {max} a ouvir quando foi anunciado"
-  },
   "1u38a8geruy": {
     "defaultMessage": "Um canal de 2,4 GHz tem 20 MHz de largura, portanto, esta é a tarefa que requer um HackRF ou um LimeSDR, em vez de um dongle."
   },
@@ -2509,6 +2506,9 @@
   },
   "4q0etjhd2d": {
     "defaultMessage": "Fator de espalhamento, largura de banda e taxa de codificação"
+  },
+  "4qolilzsxr": {
+    "defaultMessage": "{clients} de {max} a ouvir"
   },
   "4qzx8smibe": {
     "defaultMessage": "Um canal Wi-Fi tem 20 MHz de largura, portanto, a leitura de um canal é uma tarefa para um HackRF ou um LimeSDR, e não para um dongle. O que se obtém é um levantamento: as redes que emitem balizas, os clientes que realizam sondagens, as taxas em uso e os endereços que continuam a aparecer."
@@ -3827,6 +3827,9 @@
   "y2gwjkzspm": {
     "defaultMessage": "ID do algoritmo e ID da chave numa chamada cifrada"
   },
+  "y6diz8vq5d": {
+    "defaultMessage": "{clients} a ouvir"
+  },
   "y7x19gkd1t": {
     "defaultMessage": "Engenharia reversa"
   },
@@ -3874,9 +3877,6 @@
   },
   "zaowbkniva": {
     "defaultMessage": "ID da unidade Motorola, PTT ID, botão de emergência"
-  },
-  "zgrkhnpb0h": {
-    "defaultMessage": "{clients} a ouvir quando foi anunciado"
   },
   "zo6jqp6ntt": {
     "defaultMessage": "Número de série, tal como impresso no sonde"

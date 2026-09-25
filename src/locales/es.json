@@ -1445,9 +1445,6 @@
   "1u2lf2kds50": {
     "defaultMessage": "Z-Wave"
   },
-  "1u36f1hte38": {
-    "defaultMessage": "{clients} de {max} escuchando al publicarse"
-  },
   "1u38a8geruy": {
     "defaultMessage": "Un canal de 2,4 GHz tiene un ancho de banda de 20 MHz, por lo que esta es la tarea para la que se requiere un HackRF o un LimeSDR, en lugar de un adaptador USB."
   },
@@ -2509,6 +2506,9 @@
   },
   "4q0etjhd2d": {
     "defaultMessage": "Factor de expansión, ancho de banda y tasa de codificación"
+  },
+  "4qolilzsxr": {
+    "defaultMessage": "{clients} de {max} escuchando"
   },
   "4qzx8smibe": {
     "defaultMessage": "Un canal de Wi-Fi tiene un ancho de banda de 20 MHz, por lo que su lectura es una tarea para un HackRF o un LimeSDR, no para un adaptador USB. Lo que se obtiene es un análisis: las redes que emiten balizas, los clientes que realizan sondeos, las tasas de transmisión en uso y las direcciones que aparecen constantemente."
@@ -3827,6 +3827,9 @@
   "y2gwjkzspm": {
     "defaultMessage": "ID de algoritmo e ID de clave en una llamada cifrada"
   },
+  "y6diz8vq5d": {
+    "defaultMessage": "{clients} escuchando"
+  },
   "y7x19gkd1t": {
     "defaultMessage": "Ingeniería inversa"
   },
@@ -3874,9 +3877,6 @@
   },
   "zaowbkniva": {
     "defaultMessage": "ID de unidad Motorola, PTT ID, botón de emergencia"
-  },
-  "zgrkhnpb0h": {
-    "defaultMessage": "{clients} escuchando al publicarse"
   },
   "zo6jqp6ntt": {
     "defaultMessage": "Número de serie, tal como aparece impreso en la sonda"

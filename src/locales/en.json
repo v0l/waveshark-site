@@ -1445,9 +1445,6 @@
   "1u2lf2kds50": {
     "defaultMessage": "Z-Wave"
   },
-  "1u36f1hte38": {
-    "defaultMessage": "{clients} of {max} listening when listed"
-  },
   "1u38a8geruy": {
     "defaultMessage": "One 2.4 GHz channel is 20 MHz wide, so this is the job that wants a HackRF or a LimeSDR rather than a dongle."
   },
@@ -2509,6 +2506,9 @@
   },
   "4q0etjhd2d": {
     "defaultMessage": "Spreading factor, bandwidth and coding rate"
+  },
+  "4qolilzsxr": {
+    "defaultMessage": "{clients} of {max} listening"
   },
   "4qzx8smibe": {
     "defaultMessage": "A Wi-Fi channel is 20 MHz wide, so reading one is a job for a HackRF or a LimeSDR rather than a dongle. What comes out is a survey: the networks beaconing, the clients probing, the rates in use and the addresses that keep appearing."
@@ -3827,6 +3827,9 @@
   "y2gwjkzspm": {
     "defaultMessage": "Algorithm id and key id on an encrypted call"
   },
+  "y6diz8vq5d": {
+    "defaultMessage": "{clients} listening"
+  },
   "y7x19gkd1t": {
     "defaultMessage": "Reverse engineering"
   },
@@ -3874,9 +3877,6 @@
   },
   "zaowbkniva": {
     "defaultMessage": "Motorola unit id, PTT ID, emergency button"
-  },
-  "zgrkhnpb0h": {
-    "defaultMessage": "{clients} listening when listed"
   },
   "zo6jqp6ntt": {
     "defaultMessage": "Serial number, as printed on the sonde"

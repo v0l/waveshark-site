@@ -1445,9 +1445,6 @@
   "1u2lf2kds50": {
     "defaultMessage": "Z-Wave"
   },
-  "1u36f1hte38": {
-    "defaultMessage": "{clients} von {max} hörten beim Eintrag zu"
-  },
   "1u38a8geruy": {
     "defaultMessage": "Ein 2,4-GHz-Kanal ist 20 MHz breit, daher ist diese Aufgabe für ein HackRF oder ein LimeSDR geeignet und nicht für einen USB-Dongle."
   },
@@ -2509,6 +2506,9 @@
   },
   "4q0etjhd2d": {
     "defaultMessage": "Spreading Factor, Bandbreite und Coderate"
+  },
+  "4qolilzsxr": {
+    "defaultMessage": "{clients} von {max} hören zu"
   },
   "4qzx8smibe": {
     "defaultMessage": "Ein WLAN-Kanal ist 20 MHz breit, sodass seine Auslesung eine Aufgabe für ein HackRF oder ein LimeSDR ist, nicht aber für einen USB-Dongle. Das Ergebnis ist eine Analyse: die beaconenden Netzwerke, die abfragenden Clients, die genutzten Datenraten und die Adressen, die wiederholt auftauchen."
@@ -3827,6 +3827,9 @@
   "y2gwjkzspm": {
     "defaultMessage": "Algorithmus-ID und Schlüssel-ID bei einem verschlüsselten Anruf"
   },
+  "y6diz8vq5d": {
+    "defaultMessage": "{clients} hören zu"
+  },
   "y7x19gkd1t": {
     "defaultMessage": "Reverse Engineering"
   },
@@ -3874,9 +3877,6 @@
   },
   "zaowbkniva": {
     "defaultMessage": "Motorola-Geräte-ID, PTT-ID, Notruftaste"
-  },
-  "zgrkhnpb0h": {
-    "defaultMessage": "{clients} hörten beim Eintrag zu"
   },
   "zo6jqp6ntt": {
     "defaultMessage": "Seriennummer, wie auf der Sonde aufgedruckt"
