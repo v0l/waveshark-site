@@ -170,7 +170,7 @@ export function Tuners() {
             <h1>Public tuners</h1>
             <p class="lede">
               Receivers people have chosen to share. Each one is an iqstream server announced on
-              nostr, so any copy of WaveShark can open it as a remote radio and decode what that
+              <a href="https://nostr.how">nostr</a>, so any copy of WaveShark can open it as a remote radio and decode what that
               antenna hears.
             </p>
           </div>
