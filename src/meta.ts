@@ -3,6 +3,8 @@ import { DECODES } from './decodes';
 import { BANDS } from './bands';
 import { RADIOS } from './radios';
 import { PLATFORMS, COMPARISONS } from './guides';
+import { LOCALES, LOCALE_CODES, localePath, splitPath } from './i18n/locales';
+import { translateString, type Messages } from './i18n/copy';
 
 export interface HeadElement {
   type: string;
@@ -309,24 +311,50 @@ PAGES['/tuners'] = {
   jsonLd: webPage('Public tuners', '/tuners/'),
 };
 
-/// Every path the build prerenders, which is also every path in the sitemap.
-export const ROUTES = Object.keys(PAGES);
+export const OG_IMAGE_ALT =
+  'WaveShark: Wireshark for the radio spectrum, over a spectrum trace with three signal peaks.';
 
-export function headFor(path: string) {
+export const PAGE_PATHS = Object.keys(PAGES);
+
+/// Every path the build prerenders, which is also every path in the sitemap.
+export const ROUTES = LOCALE_CODES.flatMap(locale => PAGE_PATHS.map(path => localePath(locale, path)));
+
+/// Pages serves `/download/index.html`, so the slashless path redirects: the
+/// sitemap and the canonicals have to name the URL that answers 200.
+export const canonicalPath = (path: string) => (path.endsWith('/') ? path : `${path}/`);
+
+export function alternates(path: string): [string, string][] {
+  return [
+    ...LOCALE_CODES.map((l): [string, string] => [LOCALES[l].tag, `${SITE}${canonicalPath(localePath(l, path))}`]),
+    ['x-default', `${SITE}${canonicalPath(path)}`],
+  ];
+}
+
+export function headFor(fullPath: string, messages: Messages) {
+  const [locale, path] = splitPath(fullPath);
   const page = PAGES[path] ?? PAGES['/'];
+  const t = (english: string) => translateString(messages, english);
+  const title = t(page.title);
+  const canonical = `${SITE}${canonicalPath(localePath(locale, PAGES[path] ? path : '/'))}`;
   const elements: HeadElement[] = [
-    { type: 'meta', props: { name: 'description', content: page.description } },
-    { type: 'link', props: { rel: 'canonical', href: page.canonical } },
-    { type: 'meta', props: { property: 'og:url', content: page.canonical } },
-    { type: 'meta', props: { property: 'og:title', content: page.title } },
-    { type: 'meta', props: { property: 'og:description', content: page.social } },
-    { type: 'meta', props: { name: 'twitter:title', content: page.title } },
-    { type: 'meta', props: { name: 'twitter:description', content: page.social } },
+    { type: 'meta', props: { name: 'description', content: t(page.description) } },
+    { type: 'link', props: { rel: 'canonical', href: canonical } },
+    ...alternates(PAGES[path] ? path : '/').map(([hreflang, href]) => ({
+      type: 'link',
+      props: { rel: 'alternate', hreflang, href },
+    })),
+    { type: 'meta', props: { property: 'og:url', content: canonical } },
+    { type: 'meta', props: { property: 'og:locale', content: LOCALES[locale].og } },
+    { type: 'meta', props: { property: 'og:title', content: title } },
+    { type: 'meta', props: { property: 'og:description', content: t(page.social) } },
+    { type: 'meta', props: { property: 'og:image:alt', content: t(OG_IMAGE_ALT) } },
+    { type: 'meta', props: { name: 'twitter:title', content: title } },
+    { type: 'meta', props: { name: 'twitter:description', content: t(page.social) } },
     {
       type: 'script',
       props: { type: 'application/ld+json' },
-      children: JSON.stringify(page.jsonLd),
+      children: JSON.stringify({ ...(page.jsonLd as object), inLanguage: LOCALES[locale].tag }),
     },
   ];
-  return { lang: 'en', title: page.title, elements: new Set(elements) };
+  return { lang: LOCALES[locale].tag, title, elements: new Set(elements) };
 }

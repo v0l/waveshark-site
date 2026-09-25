@@ -1,0 +1,3905 @@
+{
+  "101ymjskz10": {
+    "defaultMessage": "Het publiceren van alles wat is gehoord is een slecht idee op een druk kanaal. Apparaatidentiteiten zijn een registratie van wie er waar was, en een telefoon of tag die elke ochtend langs je raam passeert, is een persoon. Door het te beperken tot <code>ism,wmbus</code> beperk je het tot je eigen huis."
+  },
+  "1026xat01f8": {
+    "defaultMessage": "Het wordt geopend op het dashboard en de schaal begint op 433,92 MHz. Klik op het spectrum om een kanaal te plaatsen en te luisteren."
+  },
+  "10a7k5lbbgu": {
+    "defaultMessage": "P25 fase 1 decoder voor SDR - WaveShark"
+  },
+  "10aqppmbpk9": {
+    "defaultMessage": "Het andere verschil is wat daarna gebeurt. Alles wat wordt gehoord, of het nu is gedecodeerd of niet, komt in een logboek dat de monsters opslaat, zodat de vraag “wat was die uitbarsting om drie uur ’s nachts” een antwoord krijgt."
+  },
+  "10ayq3jpx8o": {
+    "defaultMessage": "TEA1, TEA2, TETRAPOL-alternatief, trunked"
+  },
+  "10dsnjsfiwc": {
+    "defaultMessage": "Een camerabeeld rechtstreeks vanaf de span, PAL of NTSC, in kleur, met de bijbehorende audiosubdraager. Een FPV-draager wordt benoemd naar zijn lijnsnelheid en krijgt een kanaal: R1, F4, A5."
+  },
+  "10eagd4oe1i": {
+    "defaultMessage": "Wie belde wie, hoe lang en in welke talkgroup. M17-pakketberichten worden volledig ontvangen met Codec 2-spraak; DMR-spraak vereist de ambe-functie."
+  },
+  "10ed673hvw5": {
+    "defaultMessage": "Of de burst een test is of een actieve activatie"
+  },
+  "10ey1htqp4w": {
+    "defaultMessage": "LoRa-meshverkeer bevindt zich hier eveneens, evenals frequentiespringende industriële verbindingen die een smalbandscanner niet kan volgen."
+  },
+  "10geq70w98": {
+    "defaultMessage": "TETRA-netwerken, weerschikballonnen onderweg naar 30 km en noodzenders op 406 MHz."
+  },
+  "10hgukglr8w": {
+    "defaultMessage": "Haal de build op"
+  },
+  "10j84xvfpj8": {
+    "defaultMessage": "Pagingverzoeken en de gepagte identiteit"
+  },
+  "10lhogrq94i": {
+    "defaultMessage": "Berichttekst waar de kanaalsleutel dit toelaat"
+  },
+  "10pxhz5vygu": {
+    "defaultMessage": "Elke gedecodeerde frame komt op één en dezelfde plek binnen, en elk weergave is een andere interpretatie ervan. Geen van hen kent een protocol: een DMR-gesprek, een TETRA-gesprek en een M17-gesprek zijn dezelfde rij met verschillende ingevulde velden, en een vliegtuig, een vaartuig en een mesh-knooppunt zijn dezelfde track."
+  },
+  "10splocz6y": {
+    "defaultMessage": "Voor het losse binaire bestand, installeer de bibliotheken"
+  },
+  "10uuzccd35v": {
+    "defaultMessage": "PHY en het advertentiekanaal"
+  },
+  "10wbd6vjm6h": {
+    "defaultMessage": "Het bereikt ook de instellingen, waardoor het een scanner kan toevoegen, een geheugen kan opslaan, een stem kan kiezen, een feed kan inschakelen of de datasets kan beheren. Standaard luistert het alleen op de loopback-interface, en <code>--mcp-listen off</code> stopt het."
+  },
+  "10z025327mb": {
+    "defaultMessage": "Arm-verzoek, indien het protocol dit bevat"
+  },
+  "10zxm8zxjdy": {
+    "defaultMessage": "vol, {listening}"
+  },
+  "1131i1zyflp": {
+    "defaultMessage": "Systeem-informatieblokken, inclusief de buurlijst"
+  },
+  "113kmw5pl6m": {
+    "defaultMessage": "APT is de oudste toepassing op deze site en nog steeds de meest bevredigende: twee zichtbare en infraroodkanalen worden als een beeld met audiotempo verzonden vanuit een satelliet die voorbijtrekt, en vijftien minuten later zie je op het scherm een beeld van je eigen weer."
+  },
+  "114r8eebyge": {
+    "defaultMessage": "Waar {other} de betere keuze is"
+  },
+  "115yodmxz8p": {
+    "defaultMessage": "Positie, koers, snelheid en hoogte, inclusief Mic-E"
+  },
+  "1168vw8evho": {
+    "defaultMessage": "Reverse engineer een afstandsbediening, sensor of alarm met een SDR - WaveShark"
+  },
+  "117s9dg0g79": {
+    "defaultMessage": "RTL-SDR; spraak op DMR vereist een bronbuild met ambe"
+  },
+  "11a1yka6riy": {
+    "defaultMessage": "Codec 2-spraak, gedecodeerd en afspelbaar"
+  },
+  "11gqpt2gd7": {
+    "defaultMessage": "M17"
+  },
+  "11hw7psaes2": {
+    "defaultMessage": "Wat WaveShark toevoegt, is de rest van de ontvanger. De zelfde frequentieband die wordt uitgelezen voor sensoren, wordt ook uitgelezen voor vliegtuigen, pagers, digitale spraak, meshverkeer en alles wat er anders in voorkomt. Een apparaat dat zich identificeert, wordt een rij in een inventarisatie, met waarnemingen op een kaart in plaats van een regel uitvoer."
+  },
+  "11jm8vdf8i9": {
+    "defaultMessage": "Releases"
+  },
+  "11n1jopi669": {
+    "defaultMessage": "Werkt op alles, inclusief zeer kleine hardware"
+  },
+  "11nwsu8gbtc": {
+    "defaultMessage": "RTL-SDR om te lezen, HackRF of LimeSDR om te zenden"
+  },
+  "11oe762m3lh": {
+    "defaultMessage": "CW-decoder, QRS, zender"
+  },
+  "11tcmb3zixm": {
+    "defaultMessage": "Wi-Fi"
+  },
+  "11tdz9c1kkh": {
+    "defaultMessage": "Reclame, ingebouwde Bluetooth 5 Long Range en Open Drone ID."
+  },
+  "11tz2j5f9ks": {
+    "defaultMessage": "Wi-Fi, Bluetooth LE en 802.15.4 op 2.4 GHz"
+  },
+  "11u2teu7xiu": {
+    "defaultMessage": "Band III"
+  },
+  "11vzqosp0g5": {
+    "defaultMessage": "Elk commercieel vaartuig en de meeste pleziervaartuigen zenden AIS uit: wie ze zijn, waar ze zich bevinden, waar ze naartoe varen en met welke snelheid. De twee kanalen liggen 50 kHz uit elkaar, en WaveShark leest beide uit één bandbreedte in plaats van dat u moet kiezen."
+  },
+  "11w0qiv012y": {
+    "defaultMessage": "DMR plaatst twee gesprekken in één kanaal van 12,5 kHz door het kanaal tijdsgebaseerd te splitsen, en elke burst identificeert de aanroeper, de groep en de slot. Deze metadata is de nuttige helft: een vloot wordt een lijst van radio-ids en de groepen waarover zij communiceren, zonder dat er een woord van de spraak wordt gedecodeerd."
+  },
+  "11zaas7pz1q": {
+    "defaultMessage": "DMR"
+  },
+  "121bsoar62": {
+    "defaultMessage": "Afstandstuners met WaveShark - wat het bereikt"
+  },
+  "12bqldyoo7h": {
+    "defaultMessage": "Het opent op het dashboard en de schaal begint op 433,92 MHz, waar de apparaten die het decodeert zich bevinden. Klik op het spectrum om een kanaal te plaatsen en te luisteren, sleep om te pannen, scroll om te scrubben en houd Shift ingedrukt om uit te lijnen op het bandplan."
+  },
+  "12d0ulbrtcs": {
+    "defaultMessage": "<code>--headless</code> voert het hele proces uit zonder venster, waarbij het scant en logt op precies dezelfde manier als de interface, wat geschikt is voor de machine op de zolder."
+  },
+  "12evlta4f12": {
+    "defaultMessage": "Eerst de signalen die nergens anders terechtkomen"
+  },
+  "12icutmjw7f": {
+    "defaultMessage": "Installatie en eerste start op {platform}"
+  },
+  "12jg1mqyd6l": {
+    "defaultMessage": "Directe toewijzing: het kanaal waarnaartoe een telefoon wordt gestuurd"
+  },
+  "12jk2ss7irl": {
+    "defaultMessage": "IEEE 802.15.4 voor alle drie: de adressen die communiceren en de netwerken waartoe ze behoren, op het kanaal waarop elk zit."
+  },
+  "12k1u2hvjcw": {
+    "defaultMessage": "1090 / 978 MHz"
+  },
+  "12l95bv6ubk": {
+    "defaultMessage": "2,4 GHz"
+  },
+  "12qa1qcl5po": {
+    "defaultMessage": "137 MHz satelliet"
+  },
+  "12qvu7914iu": {
+    "defaultMessage": "156-163 MHz"
+  },
+  "12rd9divgvx": {
+    "defaultMessage": "Ontcijfering en sleutelherstel vereisen een broncodebuild met de tea-functie. De monitor is altijd aanwezig."
+  },
+  "134szimvz0y": {
+    "defaultMessage": "Waar WaveShark staat"
+  },
+  "134x2iqboiq": {
+    "defaultMessage": "Waar de staven voor elke modelbesturingskoppeling binnen gehoorafstand staan: een staaf per kanaal in microseconden, het framepercentage, het niveau en of de handset vraagt om te activeren."
+  },
+  "13af6yzfpat": {
+    "defaultMessage": "Het beeld, beide kanalen, terwijl de passie bouwt"
+  },
+  "13bwu6plv71": {
+    "defaultMessage": "Beelden die lijn voor lijn worden getekend naarmate ze binnenkomen, in Martin 1 en 2, Scottie 1, 2 en DX, en Robot 36 en 72, opgeslagen op schijf zodra de overdracht is beëindigd."
+  },
+  "13fawhnalyg": {
+    "defaultMessage": "Voed de meters die van u zijn aan Home Assistant met <code>--ha-broker</code> en <code>--ha-spaces ism,wmbus</code>, en de meting verschijnt als sensor zonder tussenkomst van een gateway van de leverancier."
+  },
+  "13gs2eshkhe": {
+    "defaultMessage": "ACARS op de luchtbandkanalen en VDL Mode 2, de datalink die het meeste Europese verkeer gebruikt: het vliegtuig, de vlucht en de bericht dat het naar de grond stuurde. Inmarsat Aero levert de satellietzijde van hetzelfde verkeer via een L-band patch."
+  },
+  "13llmnrpxqn": {
+    "defaultMessage": "DVB-T televisie: een multiplex is 8 MHz"
+  },
+  "13mo5jd6zfg": {
+    "defaultMessage": "Deze pagina behandelt de narrowband-helft. Installeer op Linux librtlsdr0 of rtl-sdr voor de udev-regels; op Windows moet u eerst WinUSB koppelen met Zadig."
+  },
+  "13n4eru7j3p": {
+    "defaultMessage": "Nieuwste versie · {tag}"
+  },
+  "13pnn3zur0j": {
+    "defaultMessage": "MQTT · --ha-broker"
+  },
+  "13rexlgdw5v": {
+    "defaultMessage": "De diensten in een DRM-multiplex, hun talen en hun labels, van een korte golf- of middengolfzending. Ook bekend als Digital Radio Mondiale, digitale radiomultiplex op korte golf, middengolf."
+  },
+  "13ry3eapfr3": {
+    "defaultMessage": "Talkgroup, kleurcode en tijdsloot"
+  },
+  "13sdlc6izp": {
+    "defaultMessage": "De drie berichtformaten worden gelezen: SCM en SCM+ bevatten de lopende totale waarde, en IDM voegt intervaldata toe. Het meter-id is stabiel, waardoor een meter een apparaat is in plaats van een waarneming."
+  },
+  "13tm9trtwzf": {
+    "defaultMessage": "Capcode en functiebits"
+  },
+  "13uorgeag0q": {
+    "defaultMessage": "Wat erop staat →"
+  },
+  "13zl8ln5ds8": {
+    "defaultMessage": "Een warmtekaart van het frequentieband over de uren, wat zich op elk Wi-Fi-, Bluetooth- en 802.15.4-kanaal bevindt, en een bandscan die stopt bij alles wat hij hoort."
+  },
+  "140l73gyh3i": {
+    "defaultMessage": "De open digitale spraakmodus, volledig gedecodeerd: roepaantekeningen, pakketberichten en Codec 2-spraak, zonder dat octrooien in de weg staan. Ook bekend als Codec 2, open digitale spraak, amateur."
+  },
+  "145pbw1zdys": {
+    "defaultMessage": "Het snellere pagingstandaard, met 1600 en 3200 baud in twee- en vier-niveau, wordt in dezelfde berichtlijst gelezen als POCSAG. Ook bekend als FLEX 1600 3200, Motorola-paging."
+  },
+  "146e70p7btr": {
+    "defaultMessage": "TPMS decoder voor SDR - WaveShark"
+  },
+  "146jelnprqz": {
+    "defaultMessage": "meerdere tuners als één bredere span"
+  },
+  "14cw6oiln96": {
+    "defaultMessage": "De dial is waar je kijkt, de span is wat je verzamelt"
+  },
+  "14dm0w42vs": {
+    "defaultMessage": "Wie praat er met wie, in elk protocol tegelijk. De conversielijst van Wireshark voor radio: kies een link en de pakketten die deze vervoerde worden daaronder geopend, met de payload wanneer het protocol deze in het openbaar toont."
+  },
+  "14jlhwpx5ek": {
+    "defaultMessage": "Het bereik en de watervalweergave. Klik om een kanaal te selecteren en te luisteren, sleep om te pannen, scroll om te bladeren, en houd Shift ingedrukt om uit te lijnen met het bandplan. Het bereik kan worden opgeslagen als metingen en geëxporteerd als een heatmap-pagina die kan worden ingezoomd en gepand, met tijd, frequentie en decibel onder een kruisdrager."
+  },
+  "14lve2djxoy": {
+    "defaultMessage": "WaveShark en rtl_433"
+  },
+  "14m7kbhn047": {
+    "defaultMessage": "De Vaisala RS41, Graw DFM, Meteomodem M10 en M20, InterMet iMet, Meisei iMS-100, Meteo-Radiy MRZ en Lockheed Martin LMS6 worden allemaal gelezen. Een sonde wijkt in frequentie af tijdens de klim en koeling, waardoor het kanaal deze volgt in plaats van het signaal te verliezen op 20 km hoogte."
+  },
+  "14nb1g13o8e": {
+    "defaultMessage": "<code>waveshark --iqstream-listen 1234</code> op de machine bij de antenne en <code>waveshark --stream mast.local:1234</code> aan het bureau."
+  },
+  "14oxiygo9jd": {
+    "defaultMessage": "RTTY bestaat uit twee tonen en een code van vijf bits, en het heeft elke voorspelling van zijn ondergang overleefd: amateurwedstrijden, weerberichten en een flinke hoeveelheid zakelijk verkeer gebruiken het nog steeds. WaveShark leest de standaard snelheden en beide polariteiten, waardoor een omgekeerde verschuiving geen dode kanaal is."
+  },
+  "14prx5qftro": {
+    "defaultMessage": "<code>--record</code> schrijft opnames die voor altijd identiek worden afgespeeld, en <code>--headless</code> voert de volledige ontvanger uit op een machine zonder scherm."
+  },
+  "14tpdml0lfd": {
+    "defaultMessage": "EAS en SAME decoder voor SDR - WaveShark"
+  },
+  "14v2xbctbmc": {
+    "defaultMessage": "ACARS"
+  },
+  "14w1yr3sylq": {
+    "defaultMessage": "Een multiplex leest vanaf zijn carriers tot aan zijn transportstroom, waarbij de gekozen dienst in het venster met volledige beeldsnelheid wordt weergegeven en het geluid synchroon loopt. Ook bekend als digitale terrestrische, transportstroom, Freeview, multiplex."
+  },
+  "14x2jr7zxbo": {
+    "defaultMessage": "137-138 MHz"
+  },
+  "1517g19mw90": {
+    "defaultMessage": "Voor het plannen van passages geldt hetzelfde: het satellietoverzicht toont de passage, en de ontvanger volgt de Dopplerverschuiving eroverheen zonder ingrijpen."
+  },
+  "153wpl0xpv0": {
+    "defaultMessage": "Voer de tuner uit op een machine bij de mast, lees deze in vanaf het bureau via iqstream of rtl_tcp en voeg meerdere tuners samen tot een bredere bandbreedte."
+  },
+  "156qmzln52p": {
+    "defaultMessage": "Eén build per platform, met of zonder kaart: de spraakmodellen gebruiken een NVIDIA-GPU wanneer de CUDA 12-runtime op de machine is geïnstalleerd en anders de CPU, en macOS gebruikt Metal."
+  },
+  "157ho3c9l0q": {
+    "defaultMessage": "NAC, de netwerktoegangscode die het systeem identificeert"
+  },
+  "159d9e6ggq3": {
+    "defaultMessage": "Sluit het aan en druk op afspelen. Het start op 433,92 MHz, waar de apparaten die het decodeert, actief zijn."
+  },
+  "15a2ohtvwgf": {
+    "defaultMessage": "Sluit een radio aan en druk op afspelen."
+  },
+  "15baupv03a5": {
+    "defaultMessage": "TIJD"
+  },
+  "15em8yitac3": {
+    "defaultMessage": "Venster: spectrum, waterval, omhulling, bitsnijding en hex voor ongeclaimde bursts"
+  },
+  "15gtogid7j0": {
+    "defaultMessage": "Elke scanner binnen het bemonsterde bereik draait tegelijkertijd, dus dit zijn geen modi die je wisselt. Richt de ontvanger op een band en de scanners die daar actief zijn, draaien al."
+  },
+  "15hccmn2563": {
+    "defaultMessage": "HackRF of LimeSDR voor het 2,4 GHz werk, een dongle eronder"
+  },
+  "15n8luiewl4": {
+    "defaultMessage": "Richt het op 433,92 MHz voor een uur en bekijk wat er in de lijst verschijnt."
+  },
+  "15ooz4gllgs": {
+    "defaultMessage": "Spraak-naar-tekst over gedecodeerde spraak, waarbij <code>cuda</code> het model naar een kaart verplaatst."
+  },
+  "15paaksaege": {
+    "defaultMessage": "Thuispunt, op DJI DroneID"
+  },
+  "15t6307mf9n": {
+    "defaultMessage": "Terug naar de voorpagina"
+  },
+  "15w97jdlp1s": {
+    "defaultMessage": "Ofwel het pakket voor uw distributie, ofwel de blote binair ergens in uw pad."
+  },
+  "15x2qnmz6t3": {
+    "defaultMessage": "1090 MHz"
+  },
+  "15xrar4e76e": {
+    "defaultMessage": "Eén pakketstroom, met een gespreksoverzicht en een apparaatonderzoek erover"
+  },
+  "160btnizb6e": {
+    "defaultMessage": "Een €30 dongle doet het grootste deel van het werk. Hier is wat de bredere radio's je bieden."
+  },
+  "162h2anw18g": {
+    "defaultMessage": "Controleer het pad als er niets binnenkomt"
+  },
+  "16338458zt7": {
+    "defaultMessage": "Elke RTL-SDR; voor zenden is een HackRF of LimeSDR nodig"
+  },
+  "163d98q67s1": {
+    "defaultMessage": "Sponsor"
+  },
+  "1675i2rmukj": {
+    "defaultMessage": "Laat een agent de radio besturen met een SDR - WaveShark"
+  },
+  "168hkzvfjv9": {
+    "defaultMessage": "Analoge FPV-video van modelvliegtuigen, op de gekanaliseerde frequenties die elke piloot gebruikt."
+  },
+  "16agbsjkgw0": {
+    "defaultMessage": "802.11a/g/b en single-stream n: netwerknamen, de adressen die communiceren, de snelheid waarmee elk frame arriveerde en of een adres is gerandomiseerd."
+  },
+  "16bq7g5m830": {
+    "defaultMessage": "NOAA APT decoder voor SDR - WaveShark"
+  },
+  "16cbobm5tto": {
+    "defaultMessage": "Ondersteuning voor veel meer radiohardware"
+  },
+  "16ds7um3svi": {
+    "defaultMessage": "1545-1555 MHz"
+  },
+  "16i76mjnnb6": {
+    "defaultMessage": "Eén verzamelde span gelezen door meer dan één machine"
+  },
+  "16iseooozh2": {
+    "defaultMessage": "Analoge weersatellietfoto's van de NOAA-satellieten, getekend terwijl de passage bovenkomt, waarbij de passage zelf gepland is in het satellietzicht."
+  },
+  "16j2uxtvy0e": {
+    "defaultMessage": "Morse is nog steeds de manier waarop een herhaaler zich identificeert, waarop een propagatiebeacon zijn roepnaam aankondigt en waarop een groot deel van de amateurbanden werkt. De decoder volgt de zend snelheid in plaats van dat deze hem wordt meegedeeld."
+  },
+  "16ozg45wkzs": {
+    "defaultMessage": "Vliegtuigen op een kaart met roepnaam, hoogte, snelheid, koers en positie, afgelezen van de 1090 MHz-downlink naast alle andere signalen binnen het bereik."
+  },
+  "16phao5egph": {
+    "defaultMessage": "De HackRF is halve duplex en 8 bit, maar dat maakt voor dit werk weinig uit. Wat ertoe doet, is de bandbreedte van 20 MS/s, wat het verschil maakt tussen het kunnen lezen van een Wi-Fi-kanaal of niet, en de dekking tot 6 GHz, waardoor FPV-video op 5,8 GHz bereikbaar wordt."
+  },
+  "16xprg0nmao": {
+    "defaultMessage": "Standaard wordt er alleen op de loopback-interfaces geluisterd, omdat een socket die een radio bestuurt niet aan een netwerk mag worden overgelaten door een host uit te sluiten. <code>--mcp-listen off</code> stopt het volledig, en een <code>host:port</code> plaatst het opzettelijk op een andere locatie."
+  },
+  "16y1mmq78ca": {
+    "defaultMessage": "{shown} van {total, plural, one {# station} other {# stations}}, {placed} op de kaart, van {answered} van {relays} relays"
+  },
+  "16yx4xoc6wo": {
+    "defaultMessage": "WaveShark bedient ook iqstream, zodat een machine die al een span verzamelt, dezelfde monsters kan doorsturen naar een andere machine zonder een tweede antenne. Voeg <code>,tune</code> toe en een abonnee kan de instelling aanpassen, wat ook op het bedieningsscherm wordt weergegeven."
+  },
+  "1714wo5vmer": {
+    "defaultMessage": "144,500 MHz en HF"
+  },
+  "171nwwtz69g": {
+    "defaultMessage": "Welke beveiligingsklasse de cel gebruikt"
+  },
+  "1749ci6oufa": {
+    "defaultMessage": "Bewegend of stilstaand, volgens de sensor"
+  },
+  "174r6zx7rr6": {
+    "defaultMessage": "De bandbreedte is de beperking, niet het decoderen. Een bandbreedte van 2,4 MHz op 433 MHz kan alle sensoren in een gebouw tegelijkertijd accommoderen; dezelfde bandbreedte kan niet één Wi-Fi-kanaal bevatten."
+  },
+  "175zioniw5g": {
+    "defaultMessage": "GSM 900 en 1800"
+  },
+  "178obt9yixc": {
+    "defaultMessage": "Alles wat niet wordt geclaimd, krijgt nog steeds een afgeleide codering en worden de bits eruit gehaald, zodat een onbekende afstandsbediening een startpunt is in plaats van een blanco vel."
+  },
+  "17d2o1i3aij": {
+    "defaultMessage": "Regelrate en index van samenwerking"
+  },
+  "17dhrh1mvhc": {
+    "defaultMessage": "Het boodschapsbericht van de zender wordt gelezen om de landcode, de identiteit en de positie te bepalen, en de zender verschijnt op de kaart als een spoor, zoals elke andere. De 121,5 MHz-zendersignalen zijn een apart, ongedecodeerd signaal."
+  },
+  "17dl3dx5b3c": {
+    "defaultMessage": "Vijftien weergaven op één stream"
+  },
+  "17dm9j2v2vm": {
+    "defaultMessage": "Het opent op een dashboard, waarbij de schaal begint bij 433,92 MHz, waar de apparaten die het decodeert zich bevinden."
+  },
+  "17ffdephq4l": {
+    "defaultMessage": "Bron- en bestemmingsradio-id, en of het een groeps- of privétel is"
+  },
+  "17i61jza4il": {
+    "defaultMessage": "WaveShark voor {platform}"
+  },
+  "17j4te9bn8n": {
+    "defaultMessage": "136-174 / 400-470 MHz"
+  },
+  "17lowkdtha1": {
+    "defaultMessage": "Digital Radio Mondiale, kortegolf digitaal, middengolf"
+  },
+  "17m1oouswh7": {
+    "defaultMessage": "Ruwe timing en bits voor alles dat niet is toegewezen"
+  },
+  "17nkpfi0q7b": {
+    "defaultMessage": "868 MHz (863-870 MHz): wat zendt er daar"
+  },
+  "17o7sxi1opu": {
+    "defaultMessage": "Elke RTL-SDR; HF vereist een upconverter of directe sampling"
+  },
+  "17o893b69em": {
+    "defaultMessage": "Alleen de macOS-build toont de afbeelding, omdat dit de enige is waarvan de ffmpeg-versie nieuw genoeg is; de andere lezen het multiplex en tonen een lijst van de services. Het doorsturen van een multiplex werkt andersom, vanuit een transportstream-bestand of iets anders dat ffmpeg kan openen."
+  },
+  "17pewyf5xdt": {
+    "defaultMessage": "RAN, het systeemnummer"
+  },
+  "17pwljmonx7": {
+    "defaultMessage": "WFM met stereo en RDS, NFM, AM, USB, LSB en CW, meerdere kanalen tegelijk, waarbij een lokaal Whisper- of Qwen3-ASR-model de woorden noteert zodra ze worden uitgesproken. Elke over kan als Opus worden bewaard en afgespeeld vanuit de oproeplijst."
+  },
+  "17pzwlggiu2": {
+    "defaultMessage": "radioteletype, Baudot, 45,45 baud"
+  },
+  "17r3p1d8084": {
+    "defaultMessage": "Dit is waar de werkende radio's leven, en waar de identiteiten belangrijker zijn dan de audio. DMR, P25 en NXDN noemen zowel de aanroeper als de groep in het open, zelfs wanneer de spraak versleuteld is, waardoor de samenstelling van een vloot uitsluitend op basis van de metadata leesbaar is."
+  },
+  "17rb1dukwzw": {
+    "defaultMessage": "Elke RTL2832U-dongle"
+  },
+  "17rz2x12g9d": {
+    "defaultMessage": "Download"
+  },
+  "17toe05fpxc": {
+    "defaultMessage": "Wijzig elke instelling, inclusief de scantabel"
+  },
+  "17vruzur1od": {
+    "defaultMessage": "Een weersfax is een kaart die als een trage afbeelding wordt verzonden over een enkelzijbandkanaal en nog steeds wordt uitgezonden voor de scheepvaart door enkele nationale diensten. Een volledige kaart duurt enkele minuten en verschijnt regel voor regel."
+  },
+  "184cpjwelyt": {
+    "defaultMessage": "136-174 / 400-470 / 700-800 MHz"
+  },
+  "184u2hwo6og": {
+    "defaultMessage": "De gedekte FIPS-countycodes"
+  },
+  "188vik4p284": {
+    "defaultMessage": "Meerdere passende ontvangers kunnen als één bredere ontvanger worden aangeboden: de drift tussen deze ontvangers wordt gemeten op het gedeelde frequentieband en gecompenseerd, waardoor een groter frequentiebereik wordt gedekt dan met een enkele ontvanger mogelijk is."
+  },
+  "189jbqoilwv": {
+    "defaultMessage": "Een machtigingsfout bij het openen van de dongle wordt veroorzaakt door ontbrekende udev-regels, niet door een defect apparaat."
+  },
+  "18aft6hjttf": {
+    "defaultMessage": "Sensoren van Ford en Renault worden gedecodeerd samen met de generieke families, inclusief druk en temperatuur wanneer de sensor deze transmittiert. Europa gebruikt 433,92 MHz en Noord-Amerika 315 MHz."
+  },
+  "18e7x39zmvi": {
+    "defaultMessage": "De satellietweergave toont alle passages boven uw station voor de komende dag, inclusief de piekhoogte, een luchtpictogram, live azimut, elevatie en Doppler-verschuiving, en de ouderdom van de baanparameters. De luisterfunctie volgt de downlink gedurende de hele passage en sluit af wanneer de satelliet ondergaat, waardoor een beeld wordt opgebouwd zonder dat iemand de instellingen hoeft aan te passen."
+  },
+  "18fgsyrzkr4": {
+    "defaultMessage": "Elke RTL2832U-dongle, vanaf ongeveer €30"
+  },
+  "18fp23i5ryy": {
+    "defaultMessage": "De stationnaam, uit uw eigen lijst"
+  },
+  "18l6v11b8e4": {
+    "defaultMessage": "De <code>.deb</code>- en <code>.rpm</code>-pakketten trekken librtlsdr aan, wat de udev-regels meebrengt die het mogelijk maken een dongle te openen zonder rootrechten. Bij het gebruik van de losse binaire bestand, installeer dan zelf <code>librtlsdr0</code> of <code>rtl-sdr</code>. LimeSDR-ondersteuning is ingekoppeld."
+  },
+  "18ndk9c1pt4": {
+    "defaultMessage": "DJI-luchtramen zenden ook DJI DroneID uit, waarbij het thuispunt wordt toegevoegd, oftewel de plaats waar het vliegtuig is afgestegen. Dit vereist 15,36 MS/s, wat een taak is voor een HackRF of LimeSDR, niet voor een USB-dongle."
+  },
+  "18o1ne0dp3w": {
+    "defaultMessage": "DVB-T televisie"
+  },
+  "18xcz4g6ddo": {
+    "defaultMessage": "ICAO-adres, en de roepnaam als het vliegtuig die verstuurt"
+  },
+  "18yvf5lkeld": {
+    "defaultMessage": "Bitsnelheid en beschermingsniveau per dienst"
+  },
+  "196z9ki0prl": {
+    "defaultMessage": "Posities, indien aanwezig in het bericht, getekend op de kaart"
+  },
+  "19b0o1cciyj": {
+    "defaultMessage": "RTL-SDR met een upconverter of directe sampling"
+  },
+  "19dhzehakj6": {
+    "defaultMessage": "Welke identiteitsruimten moeten worden gepubliceerd, bijv. ism,wmbus."
+  },
+  "19dyvpc2gu8": {
+    "defaultMessage": "Apparaten"
+  },
+  "19eyveaiko6": {
+    "defaultMessage": "Elke RTL-SDR, en een antenne afgestemd op 1090 MHz"
+  },
+  "19gvpty4f06": {
+    "defaultMessage": "Neem de burst op met <code>--record</code> en open een issue met de opname. Een opname die wordt gedecodeerd, wordt een testfixture."
+  },
+  "19lapl1der2": {
+    "defaultMessage": "Wat een lokaal model leest van alles wat het hoort, met de nieuwste invoer onderaan, een regel die wordt gemarkeerd naarmate deze groeit en een lezing met lage zekerheid wordt gemarkeerd. Whisper in elke grootte of Qwen3-ASR, op de CPU of een genoemde GPU."
+  },
+  "19s6sqqrzg6": {
+    "defaultMessage": "Het ene overzicht toont iets dat nog niemand heeft gehoord: elke passage boven de station in de komende dag, met de piekhoogte, een luchtpictogram, live az/el en Doppler, en hoe verouderd de elementen zijn. Het luisteren volgt de downlink gedurende de passage en eindigt wanneer de satelliet ondergaat."
+  },
+  "19txf7esmza": {
+    "defaultMessage": "De lichtvliegtuigen die nooit op 1090 MHz verschijnen, en de grondstations die weer- en verkeersinformatie naar hen doorgeven. Ook bekend als UAT978, ADS-B UAT, FIS-B en TIS-B."
+  },
+  "19vkt15yirb": {
+    "defaultMessage": "UHF en band III"
+  },
+  "19vl8f2fiz2": {
+    "defaultMessage": "Analoge video en FPV"
+  },
+  "1a56fxt6c5v": {
+    "defaultMessage": "Wat het doet"
+  },
+  "1a71mq8346n": {
+    "defaultMessage": "AX.25-pakket, Mic-E, 144,800 MHz, 144,390 MHz"
+  },
+  "1adtuo86ix2": {
+    "defaultMessage": "Het beeld, in kleur, PAL of NTSC"
+  },
+  "1aef5yzrf88": {
+    "defaultMessage": "Dien deze span op, zodat een andere machine dezelfde monsters kan lezen. Voeg ,tune toe om een abonnee de schakelaar te laten verstellen."
+  },
+  "1anxwulk9sc": {
+    "defaultMessage": "De boodschaps tekst, waar de luchtvaartmaatschappij deze in het open stuurt"
+  },
+  "1ap57x2z8t5": {
+    "defaultMessage": "Gespreksduur en het kanaal waarop het liep"
+  },
+  "1apw2e2k0nn": {
+    "defaultMessage": "Zigbee, Thread en Matter decoder voor SDR - WaveShark"
+  },
+  "1arye9c76pr": {
+    "defaultMessage": "Constellatie, guard interval, coderingssnelheid en cel-id"
+  },
+  "1at4owa148n": {
+    "defaultMessage": "Racing- en freestylequadcopters vliegen nog steeds met analoge video, omdat deze soepel degradeert terwijl digitale signalen uitvallen. Er is niets versleuteld en niets dat zichzelf controleert, dus een ontvanger toont het beeld of niet."
+  },
+  "1at9fgdy08": {
+    "defaultMessage": "De zendingsidentificatie aan het einde van de header"
+  },
+  "1atuz2h83ft": {
+    "defaultMessage": "HF en VHF"
+  },
+  "1au1c67x0rt": {
+    "defaultMessage": "HackRF One met WaveShark - wat het bereikt"
+  },
+  "1avaaomznc4": {
+    "defaultMessage": "Zendertype: EPIRB, PLB of ELT"
+  },
+  "1ax2rri7hdw": {
+    "defaultMessage": "Decoders"
+  },
+  "1azlhpyiyiw": {
+    "defaultMessage": "Alle zeven weerradio-kanalen zijn ingesteld, zodat de ontvanger het kanaal vindt dat uw zender gebruikt, in plaats van dat u moet gokken."
+  },
+  "1azm99r1ead": {
+    "defaultMessage": "Uitgavetijd en verwijderingstijd"
+  },
+  "1b0wsnygjd7": {
+    "defaultMessage": "De kaart zelf, zoals deze wordt getekend"
+  },
+  "1b31gg104ze": {
+    "defaultMessage": "Geverifieerd tegen de decoder van colaclanth op dezelfde opnames."
+  },
+  "1b56puqx555": {
+    "defaultMessage": "M17 en DMR"
+  },
+  "1b65hn2gbxy": {
+    "defaultMessage": "--probe test de signaalpaden zonder weergave, wat de juiste optie is om uit te voeren via ssh op een headless machine."
+  },
+  "1b879yz2nsq": {
+    "defaultMessage": "De use cases beschrijven waarvoor elk van hen bedoeld is, van een apparaatonderzoek op een dongle tot drone Remote ID op een HackRF."
+  },
+  "1bddohxetko": {
+    "defaultMessage": "1090 en 978 MHz (978 / 1090 MHz): wat wordt daar uitgezonden"
+  },
+  "1bfmhjmf99p": {
+    "defaultMessage": "Noord-Amerikaanse nutsbedrijfsmetertjes: het verbruiksgetal, het meter-ID en het type, in de formaten SCM, SCM+ en IDM. Ook bekend als SCM, SCM+, IDM, rtlamr, 915 MHz-meter."
+  },
+  "1bk0diq8h77": {
+    "defaultMessage": "Frame type: management, control of data"
+  },
+  "1bnfhylvvkh": {
+    "defaultMessage": "Gqrx is een prima radio-applicatie om tegelijkertijd naar één ding te luisteren. WaveShark is bedoeld om te ontdekken wat er in de eerste plaats aanwezig is."
+  },
+  "1bp3zp2s7zc": {
+    "defaultMessage": "Waar de staven voor elke modelbesturingskoppeling binnen gehoorstand staan: een staaf per kanaal in microseconden, met het framepercentage en of de handheld vraagt om te activeren."
+  },
+  "1bq0lun7sz7": {
+    "defaultMessage": "Tamper-vlaggen voor de fysieke en encoder-schakelaars"
+  },
+  "1bs1995y51a": {
+    "defaultMessage": "Een CW-kanal wordt als tekst gelezen met de snelheid waarmee het is verzonden, en RTTY in Baudot van 45,45 tot 200 baud, in beide richtingen. EAS- en SAME-meldkoppen worden afgespeeld op de zeven NOAA Weather Radio-kanalen."
+  },
+  "1bui33dxznu": {
+    "defaultMessage": "Het leest het spectrum, de pakketten, de oproepen, het transcript en de tracker. Het wijzigt alles in de signaalchain en tekent de chain zelf: voeg stages toe, koppel ze aan elkaar, verwijder ze, doe wijzigingen ongedaan en keer terug naar de automatische grafiek. Het heeft ook toegang tot de instellingen, zodat het een scanner kan toevoegen, een geheugen kan opslaan, een stem kan kiezen, een feed kan inschakelen of de gecachte datasets kan beheren."
+  },
+  "1bw4ickrcat": {
+    "defaultMessage": "Positie van de operator, waar het vliegtuig een fix heeft"
+  },
+  "1bzpl2tp9hm": {
+    "defaultMessage": "De 802.15.4-laag onder alle drie de stacks: de adressen die communiceren, de netwerken waartoe ze behoren en het kanaal waarop elk zich bevindt. Ook bekend als IEEE 802.15.4, PAN-id, smart home mesh."
+  },
+  "1c4ki30jg2x": {
+    "defaultMessage": "Elke run van WaveShark bedient de ontvanger via het Model Context Protocol op <code>http://127.0.0.1:8931/mcp</code>. Het is de ontvanger op het scherm en niet een tweede, headless ontvanger, dus wat de agent afstelt, opent of inschakelt, verschijnt in het venster, en hij kan een foto van dat venster maken om te controleren wat hij heeft gedaan."
+  },
+  "1c50ow6yf3o": {
+    "defaultMessage": "Multi-protocol SDR-software"
+  },
+  "1c82zlecqx": {
+    "defaultMessage": "Wat het je geeft →"
+  },
+  "1c92bt42uhb": {
+    "defaultMessage": "Sluit een radio aan en druk op afspelen"
+  },
+  "1c9m9ft28pj": {
+    "defaultMessage": "Temperatuur, vochtigheid, regen en wind op de locaties waar de sensor deze doorgeeft"
+  },
+  "1cc5ijdjwj8": {
+    "defaultMessage": "Gqrx doet één ding goed: een frequentie afstemmen, een demodulator kiezen en luisteren. Het is lichtgewicht, stabiel en het eerste programma dat veel mensen installeren na het aanschaffen van een dongle, en voor het luisteren naar een herhaler of een zendstation blijft het de kortste weg."
+  },
+  "1ccwglfcol5": {
+    "defaultMessage": "AIS-posities en schipidentificatie op de kaart, Inmarsat STD-C-veiligheidsberichten en COSPAS-SARSAT-noodzenders met de daarin gecodeerde positie."
+  },
+  "1cece0c57yq": {
+    "defaultMessage": "Een rij per versleutelde kanaal en wat bekend is over de sleutel. De monitor is altijd aanwezig; ontcijfering en sleutelherstel vereisen de tea-functie."
+  },
+  "1ceq5csqyfz": {
+    "defaultMessage": "UHF · band III · kortgolfradio"
+  },
+  "1cg07td3vga": {
+    "defaultMessage": "Steekproefformaat"
+  },
+  "1cgyxgucgk5": {
+    "defaultMessage": "Spraak draait op Metal, dus hier is geen CUDA-vraag"
+  },
+  "1ciufesyvck": {
+    "defaultMessage": "Bouwen vanuit broncode"
+  },
+  "1cl74dbv8f": {
+    "defaultMessage": "De dienst en het oceaan gebied waarvoor het bestemd was"
+  },
+  "1clyqli0yj4": {
+    "defaultMessage": "AIS"
+  },
+  "1cn31uq4k2d": {
+    "defaultMessage": "sessies van {minutes} min"
+  },
+  "1cnngs79vxw": {
+    "defaultMessage": "WaveShark - Wireshark voor het radiospectrum"
+  },
+  "1cno0rocrcn": {
+    "defaultMessage": "MCP op de loopback, en MQTT naar het huis"
+  },
+  "1cnvnajty13": {
+    "defaultMessage": "De weergave van satellietdoorlopen toont elke passage boven uw station voor de komende dag, inclusief de piekhoogte en een hemelplot. De luisterfunctie volgt de downlink gedurende de passage, compenseert voor Doppler en sluit de kanaalverbinding wanneer de satelliet ondergaat."
+  },
+  "1cp8t65qodg": {
+    "defaultMessage": "Repository"
+  },
+  "1cro97h6sqf": {
+    "defaultMessage": "Windows"
+  },
+  "1cs6y0du4qv": {
+    "defaultMessage": "1 MHz tot 6 GHz"
+  },
+  "1ctsf6yll6n": {
+    "defaultMessage": "Vliegtuigen op een kaart met roepnaam, hoogte, snelheid, koers en positie, afgelezen van de 1090 MHz downlink naast alles andere in het bereik. Ook bekend als dump1090, 1090 MHz, Mode S, secundaire radar."
+  },
+  "1cy61rwtjlt": {
+    "defaultMessage": "Linux"
+  },
+  "1d4uczg30dp": {
+    "defaultMessage": "Televisie"
+  },
+  "1d4yhky7fnh": {
+    "defaultMessage": "Het verkeer is een lopend commentaar op wat er op zee gebeurt en verschijnt in de berichtweergave, samen met de pagers en het mesh-tekst, in plaats van in een apart venster."
+  },
+  "1d5u64e8gro": {
+    "defaultMessage": "De identiteit van een cel op basis van zijn synchronisatieburst, de blokken die het uitzendt, naar wie een pagina belt en het kanaal waarnaar een telefoon wordt verwezen."
+  },
+  "1d9kw374n6w": {
+    "defaultMessage": "Wie heeft wie gebeld op welke talkgroup, op beide tijdsloten, met spraak via een bronbuild met de AMBE-functie. Ook bekend als MOTOTRBO, Tier II, talkgroup, DMR-ID."
+  },
+  "1dbm6xe8otn": {
+    "defaultMessage": "Geen locatie opgegeven"
+  },
+  "1dgjoj2lz88": {
+    "defaultMessage": "Business VHF en UHF"
+  },
+  "1dh5ji9ns1a": {
+    "defaultMessage": "868,95 / 915 MHz"
+  },
+  "1dl5jqh26jd": {
+    "defaultMessage": "WaveShark home"
+  },
+  "1dnwjmmk7zt": {
+    "defaultMessage": "Geroepen en roepende identiteiten bij oproepopbouw"
+  },
+  "1dug68p9l3h": {
+    "defaultMessage": "Het is ook de band waar de Home Assistant-integratie zijn waarde bewijst. Wijs <code>--ha-broker</code> naar de broker die Home Assistant al gebruikt, beperk het tot <code>ism,wmbus</code>, en je eigen meters en sensoren verschijnen als apparaten zonder vendor-gateway in het pad."
+  },
+  "1dvxnhl4tl": {
+    "defaultMessage": "FREQ"
+  },
+  "1dyj0clbky4": {
+    "defaultMessage": "Wat je nodig hebt"
+  },
+  "1e03iajjgo5": {
+    "defaultMessage": "Het Europese korte-afstandsband: nutsmeters, Z-Wave-sloten en -sensoren, LoRa-meshnetwerken en de langere-afstandszone van de slimme huisautomatisering."
+  },
+  "1e10c9xk046": {
+    "defaultMessage": "Schrijf de ruwe span op vanaf het moment dat de radio start."
+  },
+  "1e59c9bm9a": {
+    "defaultMessage": "MMSI, en de schepsnaam en roepnaam uit statische rapporten"
+  },
+  "1e6tbeo02fi": {
+    "defaultMessage": "Wat er op elk Wi-Fi-, Bluetooth- en 802.15.4-kanaal actief is, hoe sterk het signaal is en hoe druk het kanaal is; dit is het overzicht dat aangeeft waar u uw eigen netwerk het beste kunt plaatsen."
+  },
+  "1e9ok7hj406": {
+    "defaultMessage": "5645-5945 MHz"
+  },
+  "1e9uiv4etm8": {
+    "defaultMessage": "Speech vereist een bronbuild met de ambe-functie; de gepubliceerde binaire bestanden decoderen alles behalve de audio."
+  },
+  "1ehel55qpyo": {
+    "defaultMessage": "Opname, transcriptie en een doorzoekbare berichtgeschiedenis"
+  },
+  "1ehyk7udya5": {
+    "defaultMessage": "Schakel Opnemen in en elke over wordt opgeslagen als Opus. Een tijdlijn onder de oproeplijst toont de opnames op de klok, waarbij stiltes worden aangegeven, zodat een middag kan worden uitgerekt tot één bestand. De opnametabel kan worden gefilterd op talkgroep, beller, systeem of frequentie."
+  },
+  "1envjz6gdlb": {
+    "defaultMessage": "Analoge weersatellietbeelden van de NOAA-zatellieten, getekend tijdens het passeren, waarbij de passage zelf is gepland in het satellietzicht. Ook bekend als weersatellietbeelden, NOAA 15, NOAA 18, NOAA 19, 137 MHz."
+  },
+  "1er5b69sbss": {
+    "defaultMessage": "Tuners"
+  },
+  "1esyzrqm88y": {
+    "defaultMessage": "Eerste run"
+  },
+  "1ev8p516lvo": {
+    "defaultMessage": "AIS plaatst schepen op dezelfde kaart als vliegtuigen, met identiteit, positie en koers, en maritiem VHF-spraakverkeer loopt op eigen kanalen in de oproeplijst naast deze."
+  },
+  "1f423dts634": {
+    "defaultMessage": "Inzoomen"
+  },
+  "1f4ojr3bqke": {
+    "defaultMessage": "AIS-posities en schipidentiteit, op dezelfde kaart als de vliegtuigen, met Inmarsat STD-C die de EGC- en SafetyNET-broadcasts naar hen verzendt."
+  },
+  "1fai3v6mslm": {
+    "defaultMessage": "Een MCP-server, zodat een agent de ontvanger die u bekijkt kan bedienen"
+  },
+  "1fc27pf8yfz": {
+    "defaultMessage": "Verwarm de datasetcache voordat u ergens naartoe gaat zonder verbinding."
+  },
+  "1fcnvnywgcv": {
+    "defaultMessage": "Het controleoverzicht is de andere helft: elke modelcontrolelink binnen bereik, met een balk per kanaal in microseconden, het framevermogen, het signaalniveau en of de zender om armering vraagt. ExpressLRS wordt door de ontvanger zelf gepositioneerd; FrSky ACCST, FlySky AFHDS-2A en XN297 worden eveneens gelezen."
+  },
+  "1fhd5hwexrc": {
+    "defaultMessage": "Vrije slot"
+  },
+  "1fiu4n7vic6": {
+    "defaultMessage": "Vier minuten, grotendeels door de bestuurder. Als het spectrum verschuift, is de radio open en draait al elke scanner binnen bereik."
+  },
+  "1fnfi3z007r": {
+    "defaultMessage": "P25 fase 1"
+  },
+  "1fq5ecbfazc": {
+    "defaultMessage": "slow scan television, Martin, Scottie, Robot 36"
+  },
+  "1fsnq0x06lx": {
+    "defaultMessage": "vanaf ongeveer €30"
+  },
+  "1fviq92uqmq": {
+    "defaultMessage": "TPMS: druk, temperatuur, beweging of stilstand"
+  },
+  "1g1e6jvxex1": {
+    "defaultMessage": "<release>De releasepagina</release> heeft alles."
+  },
+  "1g1qea5pupy": {
+    "defaultMessage": "Een drone die Remote ID uitzendt, onthult zijn serienummer, zijn positie en de locatie van de operator, ongeacht of deze uitzending via Wi-Fi of Bluetooth LE plaatsvindt. Een DJI-luchtvaartuig dat zijn eigen DroneID leest, voegt het thuispunt toe, namelijk het punt waarvandaan het is opgestegen."
+  },
+  "1g1sj3dvrxc": {
+    "defaultMessage": "ADS-B en Mode S op een kaart met een tracktabel: roepnaam, hoogte, snelheid, koers, positie. UAT op 978 MHz voegt lichte vliegtuigen en de weers- en verkeersuplink van de grondstations toe."
+  },
+  "1g24d6gd3w5": {
+    "defaultMessage": "Schipposities en identificatie op dezelfde kaart als de vliegtuigen, tegelijkertijd via de twee AIS-kanalen. Ook bekend als schipvolging, maritiem AIS, 161,975 MHz."
+  },
+  "1g2ovf85cgd": {
+    "defaultMessage": "Pakketladingen, inclusief tekstberichten"
+  },
+  "1g767lx0t48": {
+    "defaultMessage": "Fase 1 van P25 geeft de talkgroup, het radio-id en de sleutel onder welke een oproep plaatsvindt. NXDN op de 12,5 en 6,25 kHz-kanalen geeft het systeemnummer, wie wie heeft opgeroepen en of de spraak is versleuteld. Nog geen van beide heeft geluid."
+  },
+  "1g9htwq1cda": {
+    "defaultMessage": "Elk protocol dat WaveShark leest, en wat elk ervan oplevert."
+  },
+  "1gcgdhll3yt": {
+    "defaultMessage": "Elke WaveShark-vlag: --tune, --span, --mode, --record, --replay, --headless, --survey, --mcp-listen, --kiss-listen, --iqstream-listen, --ha-broker, --probe en de schakelaars die de ontvanger openen op een weergave."
+  },
+  "1gcws9ummjb": {
+    "defaultMessage": "naakte binary"
+  },
+  "1gn0mh7j9nb": {
+    "defaultMessage": "Oorsprong en gebeurteniscode, uitgebreid tot de naam"
+  },
+  "1gnyw579yh6": {
+    "defaultMessage": "satelliet ACARS, SatCom, L-band luchtvaart"
+  },
+  "1go97txz3ew": {
+    "defaultMessage": "Een geostationaire satelliet zendt signalen uit vanuit een vaste richting die nooit ondergaat, waardoor L-band de eenvoudigste satellietontvangst is na de weersatellieten op 137 MHz, mits je beschikt over een patchantenne en een ruisarme versterker."
+  },
+  "1gs7sgm4ey9": {
+    "defaultMessage": "De heatmap-export bewaart de span als metingen en schrijft een pagina die zoomt en pannen kan, met tijdstip, frequentie en decibels onder een kruisdrager. Een rij toont het luidste niveau dat elk bin bereikte, in plaats van een momentopname, zodat een zender die één keer om drie uur ’s nachts is afgestort, ’s ochtends nog steeds zichtbaar is, en het draaien van de schakelaar de weergave verbreedt in plaats van deze te wissen."
+  },
+  "1gu0dqhqsf1": {
+    "defaultMessage": "Wat één SDR-ontvanger kan doen: draagbare draadloze apparaten in de omgeving scannen, vliegtuigen en schepen volgen, radionetwerken monitoren en transcriberen, een afstandsbediening reverse-engineeren, drones volgen, weersatellieten en radiosonden ontvangen, een amateurstation exploiteren en een agent de radio laten besturen."
+  },
+  "1gw0sycr8iz": {
+    "defaultMessage": "Robuustheidsmodus en spectrumgebruik"
+  },
+  "1h1mxhvxnrx": {
+    "defaultMessage": "LoRaWAN-aanvraagverzoeken en adressen, Meshtastic-tekst onder de openbare sleutels, MeshCore-advertenties."
+  },
+  "1h3dl3ydaev": {
+    "defaultMessage": "UHF"
+  },
+  "1h598maslqw": {
+    "defaultMessage": "Decoders hier"
+  },
+  "1h6bmoat6z0": {
+    "defaultMessage": "Uitzendingen uit elkaar halen"
+  },
+  "1h9od13ekot": {
+    "defaultMessage": "De datalink die de meeste Europese luchtverkeersdeelnemers tegenwoordig gebruiken, die dezelfde luchtvaartmaatschappijberichten als ACARS transporteert, maar met acht keer de snelheid."
+  },
+  "1hetooqn2xa": {
+    "defaultMessage": "Eenheid-id, in hex zoals de vlootkaart het schrijft"
+  },
+  "1hh8519ohhn": {
+    "defaultMessage": "Draai het zonder venster"
+  },
+  "1hjtnrxc6ae": {
+    "defaultMessage": "Alle bands"
+  },
+  "1hjx30y08di": {
+    "defaultMessage": "tuner {id}"
+  },
+  "1hkncbrxp7q": {
+    "defaultMessage": "De audiosubdraager, tegelijk afgespeeld"
+  },
+  "1hp2ztw8k07": {
+    "defaultMessage": "NOAA Weather Radio, noodmelding, 162.400 MHz"
+  },
+  "1hpc4bz64it": {
+    "defaultMessage": "802.11, beacon frames, SSID, probe request"
+  },
+  "1hppvcmct2s": {
+    "defaultMessage": "2,4 GHz · 5 GHz · elke band"
+  },
+  "1hqag40yr6w": {
+    "defaultMessage": "1,2 / 2,4 / 5,8 GHz"
+  },
+  "1hr8y37b5qi": {
+    "defaultMessage": "De zendbron van een kanaal kan de agent zelf zijn. Geef deze een naam en deze reageert wanneer deze wordt aangeroepen: deze hoort het einde van de oproep, antwoordt in de eigen stem en houdt het gesprek een halve minuut gaande zonder opnieuw te worden genoemd."
+  },
+  "1hv003kqpno": {
+    "defaultMessage": "Z-Wave opereert onder de Zigbee-frequentieband, in het sub-gigahertz-bereik. Daarom doorbreekt het muren beter en komt het nooit voor in een 2,4 GHz-scan. Alle drie de databitraties worden gelezen, zodat een oudere sensor met 9,6 kbit/s naast een nieuw slot met 100 kbit/s wordt weergegeven."
+  },
+  "1hwjmx3hypf": {
+    "defaultMessage": "Het blok, vernoemd naar het bandplan"
+  },
+  "1hyghsfav99": {
+    "defaultMessage": "WaveShark en Gqrx"
+  },
+  "1i0s36b57lv": {
+    "defaultMessage": "Alles wat de HackRF bereikt, inclusief full duplex en 12-bit samples, op Linux en macOS. Er is geen Windows-versie."
+  },
+  "1i16t0a28ze": {
+    "defaultMessage": "Een enkele positiekader uit een vliegtuig waarvoor geen paar beschikbaar is, plaatst het nog steeds, zolang de ontvanger weet waar het zich bevindt: geef dan <code>--location</code> op of stel de stationpositie in, zodat het decoderen van de oppervlaktespositie een referentie heeft. Een markering die uit één kader wordt getekend, is hol en sluit zich nooit aan bij een spoor, zodat een gok nooit een traject wordt."
+  },
+  "1i1fkla60gk": {
+    "defaultMessage": "Maak een screenshot van het venster om de eigen werking te controleren"
+  },
+  "1i3cvqqsstc": {
+    "defaultMessage": "Eigene toevoegen"
+  },
+  "1i3d1npb121": {
+    "defaultMessage": "Windows staat geen gebruikersruimteprogramma toe om een RTL2832U te openen totdat WinUSB aan het apparaat is gekoppeld, omdat het apparaat zich bij het aansluiten voordeelt als een televisietuner. Zadig doet dit in ongeveer dertig seconden en hoeft slechts een keer per dongle te worden uitgevoerd."
+  },
+  "1i3q8rh6ysn": {
+    "defaultMessage": "137.1 / 137.9125 / 137.62 MHz"
+  },
+  "1i6fkvwb664": {
+    "defaultMessage": "LoRa mesh"
+  },
+  "1idfhhtbjs0": {
+    "defaultMessage": "Waarom het de zichtbare ontvanger stuurt"
+  },
+  "1if2k6tn98n": {
+    "defaultMessage": "De <readme>readme</readme> bevat de volledige toollijst, en <usecase>het use case</usecase> is de kortere versie."
+  },
+  "1ighh77aubr": {
+    "defaultMessage": "5.8 GHz"
+  },
+  "1ii4ur4v82z": {
+    "defaultMessage": "RS41, DFM, M10, iMet, weersballon, SondeHub"
+  },
+  "1iinxm6d79w": {
+    "defaultMessage": "12 bit dynamisch bereik in een drukke band"
+  },
+  "1ilda8it0kv": {
+    "defaultMessage": "Stitching"
+  },
+  "1ipmqn4mh3u": {
+    "defaultMessage": "Wat wordt ontvangen, is de luchtvaartdatalink van locaties zonder VHF-bodemstation en de maritieme veiligheidsuitzendingen die elke commerciële schip verplicht is te ontvangen."
+  },
+  "1ivn76j07lq": {
+    "defaultMessage": "UAT is de andere ADS-B-kanaal, dat in de Verenigde Staten wordt gebruikt door vliegtuigen onder de 18.000 voet. Door dit kanaal te lezen, verschijnt het algemene luchtverkeer dat niet zichtbaar is op 1090 MHz op de kaart, en zijn de toestellen die hierop worden gedetecteerd de interessante: zweefvliegtuigen, oefenvliegtuigen en bestuivingsvliegtuigen."
+  },
+  "1ix568b22d3": {
+    "defaultMessage": "Download WaveShark voor macOS"
+  },
+  "1j03xiyle9c": {
+    "defaultMessage": "802.11a/g/b en single-stream n: netwerkenamen, de adressen die communiceren, de snelheid waarmee elk frame arriveerde en of een adres is gerandomiseerd. Ook bekend als 802.11, beaconframes, SSID, probe request."
+  },
+  "1j8j8fs118d": {
+    "defaultMessage": "ACARS is de oudste van de twee VHF-datalinks en nog steeds de drukst in gebruik in de meeste delen van de wereld. Elke bericht bevat de registratie van het vliegtuig, het vluchtnummer en een label dat aangeeft om welk type bericht het gaat, en de inhoud is vaak eenvoudig genoeg om zonder handleiding te kunnen lezen."
+  },
+  "1jaffnkthh3": {
+    "defaultMessage": "radiofax, WEFAX, zeekaarten, Northwood"
+  },
+  "1jbbtbia90i": {
+    "defaultMessage": "Een signaalpad dat u kunt bewerken, en een agent die het kan besturen"
+  },
+  "1jldxh8ooea": {
+    "defaultMessage": "ISM-apparaten"
+  },
+  "1jmho1ise8c": {
+    "defaultMessage": "Een agent met een eigen verborgen radio is een agent waarvan de fouten onzichtbaar zijn. Het bedienen van het venster betekent dat elk nummer, elk kanaal en elke bewerking van de keten op het scherm wordt weergegeven terwijl het gebeurt, en het screenshotinstrument betekent dat het model hetzelfde kan zien als jij."
+  },
+  "1jn8ugqt7ax": {
+    "defaultMessage": "Protocollen"
+  },
+  "1jq54v0ry7v": {
+    "defaultMessage": "Een pakketlogboek dat monsters opslaat, zodat een toekomstige decoder een oude burst kan analyseren"
+  },
+  "1jqyave6m35": {
+    "defaultMessage": "Als amateurstation draaien"
+  },
+  "1jr1pufj66t": {
+    "defaultMessage": "Martin 1 en 2, Scottie 1, 2 en DX, Robot 36 en 72, regel voor regel getekend naarmate ze binnenkomen en op schijf bewaard zodra het beeld is afgerond."
+  },
+  "1jr3wvsfbhj": {
+    "defaultMessage": "Kies een radio als er meerdere zijn aangesloten."
+  },
+  "1jv1gm449ay": {
+    "defaultMessage": "Waarvoor mensen het gebruiken"
+  },
+  "1jye6sm2v04": {
+    "defaultMessage": "Publiceer via MQTT naar Home Assistant elke zender die de decoders kunnen identificeren: weersstations, draadloze M-Bus- en ERT-meters, TPMS-drukdalingen en het niveau waarop elke zender is ontvangen, zonder fabrikantshub."
+  },
+  "1jz5jwzfmls": {
+    "defaultMessage": "Doorgeven: spraak, opnamen, .sub-bestanden en zes gedecodeerde protocollen"
+  },
+  "1k5gcimte9p": {
+    "defaultMessage": "Het is de moeite waard dit duidelijk te zeggen: dit verkeer bevat vaak medische en persoonlijke gegevens, en wat u wettelijk mag ontvangen en bewaren verschilt per land."
+  },
+  "1k8fx0qbgj5": {
+    "defaultMessage": "Bluetooth LE decoder voor SDR - WaveShark"
+  },
+  "1kc4g7dl5e3": {
+    "defaultMessage": "Start met instellen en luisteren. Herhaal dit voor meerdere kanalen tegelijk."
+  },
+  "1kcxxzo3muu": {
+    "defaultMessage": "De tekstberichten die bemanningsleden en luchtvaartmaatschappijen met elkaar uitwisselen via VHF: positierapporten, brandstofcijfers, technische storingen en vrije tekst. Ook bekend als acarsdec, luchtvaartmaatschappij-datalink, 131,550 MHz."
+  },
+  "1kewv55vqvi": {
+    "defaultMessage": "Ensemblenaam en id"
+  },
+  "1kj6xd53w48": {
+    "defaultMessage": "Er kunnen meerdere overeenkomende tuners worden aangeboden als één bredere ontvanger: de drift tussen deze tuners wordt gemeten op het gedeelde bandbereik en gecompenseerd, waardoor een bereik wordt gedekt dat breder is dan dat van een enkele radio."
+  },
+  "1kjkd5woge9": {
+    "defaultMessage": "NXDN decoder voor SDR - WaveShark"
+  },
+  "1kldbwb7gho": {
+    "defaultMessage": "Eenmalig opnemen, eeuwig decoderen"
+  },
+  "1klogjd7v1d": {
+    "defaultMessage": "Bursts in de afgelopen minuut"
+  },
+  "1kmz22sni29": {
+    "defaultMessage": "TPMS"
+  },
+  "1kn2m0kzp3s": {
+    "defaultMessage": "Morse"
+  },
+  "1kp0gxpun1f": {
+    "defaultMessage": "Elke RTL-SDR, met een turnstile of V-dipool"
+  },
+  "1kqbnloipj6": {
+    "defaultMessage": "Packetmodus verstuurt tekst en willekeurige gegevens, die in het berichtoverzicht volledig worden ontvangen."
+  },
+  "1ktxox5uetp": {
+    "defaultMessage": "Voor een machine op de antenne: --headless voert de gehele ontvanger uit zonder beeldscherm."
+  },
+  "1kum9rz5sct": {
+    "defaultMessage": "De bij de afbeelding gepubliceerde binary leest ze uit Homebrew, in plaats van ze zelf te bevatten."
+  },
+  "1kv1oqcd5rp": {
+    "defaultMessage": "Fabrikantcode en serienummer van de meter"
+  },
+  "1kvwd5g7k9t": {
+    "defaultMessage": "Wat het niet doet"
+  },
+  "1kx6bk6cvvh": {
+    "defaultMessage": "Laat een goedkope dongle achter op een band en WaveShark vertelt je wat er in de buurt wordt uitgezonden, in plaats van wat er op de ene frequentie staat waar iemand je al over heeft verteld."
+  },
+  "1kxpxnxt8jv": {
+    "defaultMessage": "8 bit"
+  },
+  "1l24xrjmoxf": {
+    "defaultMessage": "915 MHz (902-928 MHz): wat zendt er daar"
+  },
+  "1l2ms7auz4d": {
+    "defaultMessage": "Het beeld van een camera rechtstreeks vanaf de span, in kleur volgens het PAL- of NTSC-systeem, waarbij de audiobegleider te horen is en de draagfrequentie wordt aangeduid naar zijn lijnfrequentie. Ook bekend als PAL, NTSC, 5,8 GHz FPV, draadloze camera."
+  },
+  "1l6o5lfl8ip": {
+    "defaultMessage": "Band voor band: wat er op 433, 868 en 915 MHz, de 2,4 en 5,8 GHz-banden, airband, 1090 MHz, maritiem VHF, de amateur- en bedrijfsallocaties, 137 MHz-zatellieten, L-band, kortgolfradio en televisie te vinden is."
+  },
+  "1lb5ie4doms": {
+    "defaultMessage": "Kortgolfradio (3-30 MHz): wat zendt er daar"
+  },
+  "1lb9f0eq0cx": {
+    "defaultMessage": "Radio in, niets anders."
+  },
+  "1lchlngx5dn": {
+    "defaultMessage": "Elk ander protocol in dezelfde span tegelijk"
+  },
+  "1le0s6kp8nq": {
+    "defaultMessage": "Codec 2, open digitale spraak, amateur"
+  },
+  "1lfh6nabf0v": {
+    "defaultMessage": "Regelsnelheid en het bijbehorende FPV-kanaal"
+  },
+  "1lgb87dcure": {
+    "defaultMessage": "Oproepen"
+  },
+  "1lgct97ynb6": {
+    "defaultMessage": "Geen Windows build: LimeSuite is niet verpakt voor Windows"
+  },
+  "1lj3lf58zk": {
+    "defaultMessage": "De NOAA APT en de drie MSU-MR-kanaals van een Meteor-M LRPT-passage worden in stroken getekend op het videobedieningspaneel naarmate ze worden ontvangen, en HF-weerfaxkaarten worden op dezelfde manier getekend."
+  },
+  "1lkl12f1is0": {
+    "defaultMessage": "Flag"
+  },
+  "1lma825mul0": {
+    "defaultMessage": "ADS-B en Mode S op de kaart, UAT voor lichtvliegtuigen, en de ACARS-, VDL Mode 2- en satellietberichten die bemanningsleden met de grond uitwisselen."
+  },
+  "1lneeq7pp0i": {
+    "defaultMessage": "De twee toonfrequenties en hun duur"
+  },
+  "1lo3h5vefi5": {
+    "defaultMessage": "Wanneer een oproep is versleuteld, worden het algoritme-id en het sleutel-id gelezen en wordt de oproep weergegeven in het sleuteloverzicht in plaats van stilzwijgend te worden genegeerd. Een niet-versleutelde systeem toont dezelfde rijen, maar dan met de audio erbij."
+  },
+  "1lwdmfzv1d4": {
+    "defaultMessage": "Een span breder dan enige enkele radio"
+  },
+  "1lxraa9d3qh": {
+    "defaultMessage": "P25 en NXDN"
+  },
+  "1ly4hangsb6": {
+    "defaultMessage": "Maritiem VHF"
+  },
+  "1m5zr03f1bn": {
+    "defaultMessage": "137 MHz en HF"
+  },
+  "1m65mp7bu7o": {
+    "defaultMessage": "Bruikbare span"
+  },
+  "1m6h912286l": {
+    "defaultMessage": "De .app-bestand bevat eigen ffmpeg, librtlsdr en LimeSuite, dus er is niets anders nodig."
+  },
+  "1m8wepjjwo3": {
+    "defaultMessage": "De IQStream-lijst, live gelezen van nostr"
+  },
+  "1m8yk0i9r1r": {
+    "defaultMessage": "144,500 MHz"
+  },
+  "1m99njw2l7z": {
+    "defaultMessage": "De open digitale spraakmodus, volledig gedecodeerd: roepnamen, pakketberichten en Codec 2-spraak, zonder enige patentbelemmering."
+  },
+  "1mbzia83glq": {
+    "defaultMessage": "De gekozen dienst, afspelen, met gesynchroniseerde audio"
+  },
+  "1mdbn322izy": {
+    "defaultMessage": "UHF televisie (470-790 MHz): wat zendt er daar"
+  },
+  "1mevpzu3pvf": {
+    "defaultMessage": "Waar het terechtkomt"
+  },
+  "1mf1covvwqd": {
+    "defaultMessage": "Fijne controle over elke demodulatorparameter"
+  },
+  "1mfypxe2dqc": {
+    "defaultMessage": "Het toonpaar dat een brandweer- of ambulancepager activeert, vernoemd naar een operatorlijst zodat een oproep als een station wordt weergegeven in plaats van twee frequenties. Ook bekend als Quick Call II, brandweerpagertoons of meldtoons."
+  },
+  "1milffdbxox": {
+    "defaultMessage": "925-960 / 1805-1880 MHz"
+  },
+  "1mkgknux66m": {
+    "defaultMessage": "Geverifieerd met dumpvdl2 op dezelfde opnames."
+  },
+  "1movq7mz4rt": {
+    "defaultMessage": "137 MHz satelliet (137-138 MHz): wat zendt er daar"
+  },
+  "1ms8b7i51qy": {
+    "defaultMessage": "Laat het draaien op de machine bij de antenne"
+  },
+  "1mu1k46o9h": {
+    "defaultMessage": "AIS op 161,975 en 162,025 MHz toont schepen op de kaart met identiteit, koers en bestemming, en WaveShark leest beide kanalen vanaf één span in plaats van dat u moet kiezen."
+  },
+  "1mv2a2yuegi": {
+    "defaultMessage": "Het systeemnummer, wie wie heeft gebeld, en of de spraak op een kanaal is versleuteld."
+  },
+  "1mv70hi3nxn": {
+    "defaultMessage": "Als u de frequentie al kent en deze wilt horen, is Gqrx voldoende. Als de vraag is wat er in de buurt wordt uitgezonden, is het de verkeerde tool."
+  },
+  "1mzkyvxaye3": {
+    "defaultMessage": "Spraak, met een bronbuild die de ambe-functie bevat"
+  },
+  "1n09zavya14": {
+    "defaultMessage": "MCP op 127.0.0.1:8931"
+  },
+  "1n3b6js0k9m": {
+    "defaultMessage": "Het kanaaloverzicht toont hoe bezet elk kanaal is, wat het praktische antwoord is op de vraag waar je eigen netwerk het beste kunt plaatsen. Het apparaatoverzicht houdt één rij per adres bij met het sterkste signaalniveau dat ooit is waargenomen, en een drive kan worden geëxporteerd als WiGLE-CSV."
+  },
+  "1n3gv939hya": {
+    "defaultMessage": "Z-Wave decoder voor SDR - WaveShark"
+  },
+  "1n6aufuucsw": {
+    "defaultMessage": "STD-C is de berichtenservice die elk commercieel vaartuig verplicht is te hebben. De versterkte groepoproepen die via deze dienst worden uitgezonden, zijn gericht op oceaanregio's in plaats van op individuele schepen, waardoor ze leesbaar zijn: een navigatie waarschuwing is bedoeld om iedereen in die zeegebied te bereiken."
+  },
+  "1n7r2gbotag": {
+    "defaultMessage": "Net daarboven zendt radiosonde's vanaf elke lanceerlocatie tweemaal daags, waarbij de frequentie afwijkt naarmate ze stijgen, terwijl het kanaal hen volgt. Op 406 MHz zenden COSPAS-SARSAT-zenders een identificatie en vaak ook een positie uit, meestal als proef."
+  },
+  "1n8m3b40vm1": {
+    "defaultMessage": "Wijzigingen"
+  },
+  "1narfz2og3r": {
+    "defaultMessage": "TETRA decoder voor SDR - WaveShark"
+  },
+  "1navgd1gv7n": {
+    "defaultMessage": "Ongeclaimde bursts · opnames · afspelen"
+  },
+  "1ncdincfnqv": {
+    "defaultMessage": "RTL-SDR met een upconverter, of een HF-capabele radio"
+  },
+  "1nepqf4qe73": {
+    "defaultMessage": "Itron ERT meters"
+  },
+  "1nfjfi331ze": {
+    "defaultMessage": "Boven zoomniveau negen tekent de kaart luchthavens met hun luchtverkeersfrequentie, zodat de toren die je hoort slechts één klik verwijderd is van het vliegtuig dat je ziet."
+  },
+  "1ngrhm2qgmb": {
+    "defaultMessage": "Frame- en pakkettelers, zodat een slechte passage duidelijk is"
+  },
+  "1nje5q1vjjt": {
+    "defaultMessage": "Command line referentie"
+  },
+  "1now8zk4iwb": {
+    "defaultMessage": "Installeer het, of niet"
+  },
+  "1np0eeznhng": {
+    "defaultMessage": "FLEX 1600 3200, Motorola-paging"
+  },
+  "1nu8ptr7nu": {
+    "defaultMessage": "Een model met de uitvoer van de ontvanger en wat u ervan heeft gevraagd. Elke uitvoering bedient MCP op de loopback, dus wat de agent instelt, opent, herbekabelt of wijzigt in de instellingen, gebeurt in dit venster."
+  },
+  "1nxawn7eb53": {
+    "defaultMessage": "144,800 / 144,390 / 144,640"
+  },
+  "1nyifsdcg15": {
+    "defaultMessage": "GPL-3.0 · RTL-SDR, HackRF One, LimeSDR · geen account, geen cloud"
+  },
+  "1nyju9pqk3j": {
+    "defaultMessage": "Een installer of een zip-bestand met de uitvoerbare bestanden en de twee DLL’s die nodig zijn om te starten. WinUSB moet eerst aan de dongle worden gekoppeld."
+  },
+  "1o0nf18syj0": {
+    "defaultMessage": "De 802.15.4-laag onder alle drie de stacks: de adressen die communiceren, de netwerken waartoe ze behoren en het kanaal waarop elk zich bevindt."
+  },
+  "1o1n2ly7yzd": {
+    "defaultMessage": "MHz, bijv. 1090"
+  },
+  "1o1nvc4tstr": {
+    "defaultMessage": "BLE-advertentie, Bluetooth 5 Long Range, iBeacon"
+  },
+  "1o2pudjli83": {
+    "defaultMessage": "900 / 1800 MHz"
+  },
+  "1o6yek5fk6e": {
+    "defaultMessage": "De datalink die tegenwoordig door de meeste Europese luchtverkeersbewegingen wordt gebruikt, die dezelfde luchtvaartmaatschappijberichten als ACARS draagt, maar met acht keer de snelheid. Ook bekend als dumpvdl2, VDL2, 136,975 MHz en AVLC."
+  },
+  "1o93dpfq1uj": {
+    "defaultMessage": "Een capture die decodeert is een test fixture"
+  },
+  "1o98ie1zb5v": {
+    "defaultMessage": "WinUSB koppelen met Zadig"
+  },
+  "1odkqi7mdhn": {
+    "defaultMessage": "--stream · iqstream · rtl_tcp"
+  },
+  "1ofi3ku7mpc": {
+    "defaultMessage": "Een herhaalcount waarbij het netwerk de pagina meer dan één keer heeft verzonden"
+  },
+  "1ogjkinco1y": {
+    "defaultMessage": "{count} decoders, één pakketstroom"
+  },
+  "1oiegqbyhrh": {
+    "defaultMessage": "Een FPV-zender wordt vernoemd naar zijn lijnsnelheid en krijgt zijn kanaal volgens de gebruikelijke bandbenaming, zodat het wordt aangeduid als R1, F4 of A5 in plaats van als frequentie. De audiosubdraager, 6,5 MHz bij de opname waar dit op is gebaseerd, is te horen samen met het beeld, want een beeld zonder geluid is slechts de helft van een ontvanger."
+  },
+  "1oq3s8z0672": {
+    "defaultMessage": "Wat een agent kan doen"
+  },
+  "1os29bxc0ai": {
+    "defaultMessage": "Eén pakketstroom, gelezen op vijftien manieren. Geen van de weergaven kent een protocol."
+  },
+  "1os4xfnx6oa": {
+    "defaultMessage": "Elk bandgebied"
+  },
+  "1osn07ltexw": {
+    "defaultMessage": "Banden die de moeite waard zijn"
+  },
+  "1otl45jufq": {
+    "defaultMessage": "Wireshark voor het radiospectrum"
+  },
+  "1ou92oiyfu9": {
+    "defaultMessage": "rtl_433 is de standaard voor het lezen van ISM-apparaten, en hier wordt nergens anders van beweerd: het bevat ongeveer 250 apparaatdecoders, WaveShark telt er veertigvijf, en die veertigvijf zijn veld voor veld geverifieerd tegenover rtl_433 25.02 op basis van 81 opnames uit de eigen corpus. Als uw enige taak het decoderen van sensoren is en u de breedste dekking wilt, gebruik dan rtl_433."
+  },
+  "1ow2tb94y32": {
+    "defaultMessage": "Afstembaar"
+  },
+  "1p3k0c2xl6o": {
+    "defaultMessage": "Signaalniveau voor elk gehoord apparaat"
+  },
+  "1p5056zsg4i": {
+    "defaultMessage": "Frame-type, zodat linkbeheer gescheiden is van verkeer"
+  },
+  "1p7gnx5giwc": {
+    "defaultMessage": "DVB-T televisiedecoder voor SDR - WaveShark"
+  },
+  "1pak4di4z6l": {
+    "defaultMessage": "ja, half duplex"
+  },
+  "1pb2o7xdpj8": {
+    "defaultMessage": "Beide zijn vrije software"
+  },
+  "1pg7omnv7zt": {
+    "defaultMessage": "De identiteit van een cel wordt bepaald door zijn synchronisatieburst, de systeemgegevens die hij uitzendt en de partij die een pagingbericht oproept. Ook bekend als 2G, GSM900, DCS1800, BCCH en IMSI-paging."
+  },
+  "1pgv1i9i33s": {
+    "defaultMessage": "390-406 MHz (390-406 MHz): wat zendt er daar"
+  },
+  "1ph8fodi7yi": {
+    "defaultMessage": "TETRA"
+  },
+  "1phdh12ydt1": {
+    "defaultMessage": "Inmarsat STD-C decoder voor SDR - WaveShark"
+  },
+  "1pixuwa31jw": {
+    "defaultMessage": "Elke run bedient de ontvanger via het Model Context Protocol op <code>http://127.0.0.1:8931/mcp</code>. Het is de ontvanger op het scherm, niet een tweede: wat een agent afstelt, opent of inschakelt, verschijnt in het venster, en hij kan een foto van dat venster maken om te zien wat hij heeft gedaan. Hij leest het spectrum, de pakketten, de oproepen, de transcriptie en de tracker, wijzigt alles in de signaalketen en tekent de keten zelf, en hij bereikt de instellingen: de scantabel, het geheugengeheugen, de zender en de datasets. <code>--mcp-listen off</code> stopt het luisteren."
+  },
+  "1pko3c0v1ak": {
+    "defaultMessage": "Builds van WaveShark voor Linux, Windows en Apple-silicon, met CUDA-varianten voor spraak op een kaart, wat elke variant van het systeem vereist, en hoe je vanaf broncode kunt bouwen met de tea- en ambe-functies."
+  },
+  "1plbwodih9i": {
+    "defaultMessage": "Uw eigen weerstation, meters en bandensensoren als Home Assistant-apparaten, vanaf een €30-dongle en zonder vendor hub."
+  },
+  "1plktc140yi": {
+    "defaultMessage": "<cases>De use cases</cases> zijn de taken waarvoor deze weergaven worden gebruikt, variërend van een apparaconderzoek tot het mogelijk maken dat een agent de radio bestuurt."
+  },
+  "1pr9y0z4o2s": {
+    "defaultMessage": "Meteor-M LRPT decoder voor SDR - WaveShark"
+  },
+  "1pufcb8lrg1": {
+    "defaultMessage": "Apparaatmodel en id, stabiel over verzendingen heen"
+  },
+  "1puyduxwlaj": {
+    "defaultMessage": "Geverifieerd aan de hand van opnames van de uitzending, gecontroleerd op basis van wat de uitzending zelf aangeeft, in plaats van op basis van een andere decoder."
+  },
+  "1px4tkm2t7i": {
+    "defaultMessage": "WaveShark en Gqrx - waar elk van de twee wint"
+  },
+  "1q3pvl43gz": {
+    "defaultMessage": "Het netwerk, zijn cellen en wie wordt gebeld. De theefunctie koppelt de ciphers aan een wgpu-sleuteloeking, zodat er op een gecodeerde kanaal kan worden gewerkt in plaats van alleen maar te worden geteld."
+  },
+  "1q8xaiifp9": {
+    "defaultMessage": "VDL Mode 2 decoder voor SDR - WaveShark"
+  },
+  "1qbs10vo8kp": {
+    "defaultMessage": "Neem de burst op met --record en open een issue met de opname. Een opname die wordt gedecodeerd, wordt een testfixture."
+  },
+  "1qc93uxsn83": {
+    "defaultMessage": "Radiosonde decoder voor SDR - WaveShark"
+  },
+  "1qgocyqyv6a": {
+    "defaultMessage": "Label en blok-id, die aangeven welk type boodschap het is"
+  },
+  "1ql8ki2vynn": {
+    "defaultMessage": "{span} MHz breed, afstembaar van {min} tot {max} MHz"
+  },
+  "1qm029gfkgu": {
+    "defaultMessage": "Ondersteun het werk"
+  },
+  "1qmhi71zu7k": {
+    "defaultMessage": "WaveShark command line referentie"
+  },
+  "1qpxu308f4j": {
+    "defaultMessage": "Het scripts-paneel bevat alle Flipper <code>.sub</code>-bestanden op het apparaat en codeert één voor één op de frequentie die in het bestand staat vermeld. Een ontvangen burst kan als codeerbestand worden opgeslagen, waardoor de lus wordt gesloten tussen het lezen van een afstandsbediening en het reproduceren ervan."
+  },
+  "1qrc8ul3f31": {
+    "defaultMessage": "FLEX-paging"
+  },
+  "1qs8ipxkuar": {
+    "defaultMessage": "Publieke SDR-tuners op een kaart - WaveShark"
+  },
+  "1qsgiig5qwo": {
+    "defaultMessage": "Een DVB-T-multiplex wordt gelezen vanaf zijn dragers tot en met de transportstream: de overdrachtsparameters, de diensten erop en de dienst die u kiest, wordt in het venster weergegeven met volledige beeldsnelheid en geluid in synchroon."
+  },
+  "1qsk61eh9az": {
+    "defaultMessage": "Het interessante onderdeel voor een bestaand station is <code>--kiss-listen</code>: WaveShark biedt een KISS-TNC aan, waardoor Xastir, YAAC, Direwolf-achtige hulpmiddelen of alles anders dat KISS spreekt, de SDR als modem beschouwt en AX.25-frames kan terugsturen via een zender die kan uitzenden."
+  },
+  "1qwmr3pz9lu": {
+    "defaultMessage": "433 MHz"
+  },
+  "1qxw4fxmpba": {
+    "defaultMessage": "Agents en MCP"
+  },
+  "1r1ee20681l": {
+    "defaultMessage": "Het ACARS-bericht dat daarin zit, met label en tekst"
+  },
+  "1r26stqy0lb": {
+    "defaultMessage": "Klik met de rechtermuisknop en Open, of voer dit een keer uit."
+  },
+  "1radidgx63": {
+    "defaultMessage": "Uitzoomen"
+  },
+  "1rawc0pe5xp": {
+    "defaultMessage": "Oppervlakte-drukaanduidingen en ijskaarten die via kortegolf naar de scheepvaart worden verzonden, worden weergegeven op het videoblad zodra ze binnenkomen."
+  },
+  "1rcco39g3nb": {
+    "defaultMessage": "868 MHz draagt het verkeer dat belangrijker is dan een deurbel: draadloze M-Bus-meters die warmte, water en gas rapporteren, Z-Wave-deursloten en LoRa-netwerken, waaronder Meshtastic en LoRaWAN-sensoren."
+  },
+  "1rdno1j5spz": {
+    "defaultMessage": "Een ondertekend maar niet-notariele app met eigen bibliotheken, of een naakte binair die ze van Homebrew leest. De enige build die televisie afspelt."
+  },
+  "1reh7ydc4gj": {
+    "defaultMessage": "Twee decoders die niet in de downloads zitten"
+  },
+  "1rensfn2pd8": {
+    "defaultMessage": "Een SDR-ontvanger die een LLM kan bedienen: instellen, kanalen openen, inlezen wat is ontvangen, de signaalketen herschakelen en het live volgen in het venster voor je."
+  },
+  "1rgm70b7d76": {
+    "defaultMessage": "DMR-, TETRA-, P25-, NXDN-, M17- en gewone FM-kanalen met registratie van wie wie heeft gebeld, waarbij elk overzichtsbericht wordt opgenomen als Opus en een lokaal spraakmodel noteert wat er is gezegd."
+  },
+  "1roj4bzs056": {
+    "defaultMessage": "24 MHz tot 1,7 GHz, afhankelijk van de tuner"
+  },
+  "1rt0nw9g8wu": {
+    "defaultMessage": "Ontvangen regels en de synchronisatiekwaliteit"
+  },
+  "1rvr2wwvr09": {
+    "defaultMessage": "De transcriptweergave is een Whisper- of Qwen3-ASR-model op deze machine dat alles op de audiobus leest, op de CPU of op een kaart, waarbij regels met lage betrouwbaarheid worden gemarkeerd in plaats van stilzwijgend fout te zijn. Niets verlaat de machine."
+  },
+  "1rxv6ndz26a": {
+    "defaultMessage": "Eigen 433 en 868 MHz-sensoren als Home Assistant-apparaten, zonder hub vereist."
+  },
+  "1s1r7xs7nbj": {
+    "defaultMessage": "APRS"
+  },
+  "1s9omxjztcy": {
+    "defaultMessage": "Een EPIRB op een vaartuig, een PLB in een zak en een ELT in een vliegtuig zenden allemaal dezelfde 406 MHz-uitzending uit, ongeveer elke vijftig seconden, met een gecodeerde identiteit en vaak een GPS-positie. In normale tijden hoort u een testuitzending in plaats van een echte activering."
+  },
+  "1sd85k5nbpb": {
+    "defaultMessage": "Elke RTL-SDR, met een airband-antenne"
+  },
+  "1sdfyc132ki": {
+    "defaultMessage": "Home id en bron- en bestemmingsnode-ids"
+  },
+  "1sfq4sk9w9c": {
+    "defaultMessage": "Een ensemble en de zenders daarin, met hun programmatypes en bitrates, lezen de blok uit dat uw zender gebruikt. Ook bekend als DAB+, digitale radio, ensemble, band III."
+  },
+  "1sjazobb4jn": {
+    "defaultMessage": "Wat hier leeft"
+  },
+  "1sktsh746mz": {
+    "defaultMessage": "L-band (1525-1559 MHz): wat zendt er daar"
+  },
+  "1sn5qcgmnja": {
+    "defaultMessage": "Afstemmen, gains instellen, kanalen openen en sluiten"
+  },
+  "1spybdn8llc": {
+    "defaultMessage": "WaveShark en SDRangel"
+  },
+  "1stdrcd89md": {
+    "defaultMessage": "Bouwt de AMBE- en IMBE-vocoder, waarvan de algoritmen onder patent vallen. Zonder deze module geeft DMR nog steeds aan wie spreekt, maar decodeert hij geen spraak."
+  },
+  "1suzwzwjqea": {
+    "defaultMessage": "Elke run bedient de ontvanger via het Model Context Protocol op 127.0.0.1:8931, zodat een model kan afstemmen, kanalen openen, het spectrum en pakketten lezen, de signaalketen bewerken en een screenshot maken van het venster dat het bestuurt."
+  },
+  "1symvem8fx8": {
+    "defaultMessage": "Na de download"
+  },
+  "1t3j5lptzgs": {
+    "defaultMessage": "De spraak zelf vereist de AMBE-vocoder, waarvan de algoritmen door octrooien worden beschermd; daarom is deze in de gepubliceerde builds weggelaten. Een build vanuit broncode met de functie <code>ambe</code> decodeert deze. Zonder die functie verschijnt het gesprek nog steeds met de beller, de groep en de duur."
+  },
+  "1t9c4c4mc23": {
+    "defaultMessage": "Een externe tuner verschijnt in de ontvangerlijst als een lokale radio, via iqstream of rtl_tcp, en kan hieruit worden afgestemd in plaats van alleen geluisterd te worden. Deze ontvanger dient ook als iqstream, zodat het signaalbereik dat een mastgemonteerde machine al verzamelt, door een andere ontvanger kan worden gelezen zonder een tweede antenne."
+  },
+  "1tb0je52xsf": {
+    "defaultMessage": "Weergaven"
+  },
+  "1tbzcrnkbaz": {
+    "defaultMessage": "Uitstekend voor het luisteren naar één kanaal"
+  },
+  "1thc4m4ky3r": {
+    "defaultMessage": "Wi-Fi en drones"
+  },
+  "1tilwwiceph": {
+    "defaultMessage": "dumpvdl2, VDL2, 136.975 MHz, AVLC"
+  },
+  "1tlt7hfu7gq": {
+    "defaultMessage": "Waar het binaire pakketlogboek terechtkomt, één bestand per dag."
+  },
+  "1trc3px3771": {
+    "defaultMessage": "In WaveShark staat dezelfde lijst in het dialoogvenster voor afgekeurde afstemmers, waar TUNE een zender opent als een radio. Vanuit een terminal neemt <code>--stream</code> het adres op elke kaart."
+  },
+  "1tsgxp4jmgc": {
+    "defaultMessage": "Vang de burst op, bekijk de envelope, timing en bits, speel deze zo vaak als je wilt af in nieuwe decoderen en haal de sleutel eruit via een Flipper .sub-bestand."
+  },
+  "1tuqywfxeeq": {
+    "defaultMessage": "Lezingen die de meter onversleuteld verstuurt"
+  },
+  "1tycjh5hy8g": {
+    "defaultMessage": "Vóór de invoering van de digitale standaarden, en nog steeds in dagelijks gebruik, wordt een draadloze brandweeralarmtoestel geactiveerd door twee opeenvolgende geluidstonen: een lange en een korte, op frequenties die uniek zijn voor die specifieke post. Het horen van dit paar tonen geeft aan welke ploeg net is ingeroepen."
+  },
+  "1tz5o51d0f7": {
+    "defaultMessage": "Hardware voor WaveShark"
+  },
+  "1u2lf2kds50": {
+    "defaultMessage": "Z-Wave"
+  },
+  "1u36f1hte38": {
+    "defaultMessage": "{clients} van {max} luisterden bij aanmelding"
+  },
+  "1u38a8geruy": {
+    "defaultMessage": "Een 2,4 GHz-kanaal is 20 MHz breed, dus dit is een taak die een HackRF of LimeSDR vereist in plaats van een dongle."
+  },
+  "1u4bpfutjo0": {
+    "defaultMessage": "NOAA APT-passen en Meteor-M LRPT, die in het videopaneel worden getekend naarmate ze worden ontvangen, plus HF-weerfaxkaarten. Het satellietoverzicht toont de passes over de station voor de volgende dag, en de luistering volgt de downlink via Doppler totdat de satelliet ondergaat."
+  },
+  "1u5f5zkietp": {
+    "defaultMessage": "Een DAB-ensemble is een bundel van zenders die één uitzending delen, en de weergave ervan laat zien wat er in de bundel zit: de naam van het ensemble, alle services die erop staan, het type programma van elk en het aantal kilobits dat eraan is toegekend, wat het aantal is dat bepaalt hoe het klinkt."
+  },
+  "1u6sww63mm4": {
+    "defaultMessage": "ISM-sensoren, TPMS, nutsmeetapparaten en Z-Wave"
+  },
+  "1u8fb2niukv": {
+    "defaultMessage": "Kopiëren"
+  },
+  "1u8xyhhufal": {
+    "defaultMessage": "1 MHz - 6 GHz"
+  },
+  "1ugc63zwtv6": {
+    "defaultMessage": "EGC- en SafetyNET-uitzendingen aan de scheepvaart: navigatie waarschuwingen, weerberichten, piraterijmeldingen en zoek- en reddingsoproepen."
+  },
+  "1ughv6grrxq": {
+    "defaultMessage": "Zenden"
+  },
+  "1uitui9lrpq": {
+    "defaultMessage": "HackRF of LimeSDR: een multiplex is 8 MHz breed"
+  },
+  "1ujmkpyd1oj": {
+    "defaultMessage": "162.400-162.550 MHz"
+  },
+  "1ulbqagz67i": {
+    "defaultMessage": "Breng uitzendingen in kaart met een SDR - WaveShark"
+  },
+  "1ung4icwrvj": {
+    "defaultMessage": "Kaart"
+  },
+  "1uo8ov0btx7": {
+    "defaultMessage": "Een rij tabs, Ctrl en een cijfer voor de eerste tien, Ctrl+` om terug te gaan"
+  },
+  "1uqxw5prn0k": {
+    "defaultMessage": "Pagerberichten in helder signaal op 512, 1200 en 2400 bit/s, gedupliceerd omdat een pagenetwerk elke pagina twee keer verstuurt. Ook bekend als pagedecoder, capcode, 512 1200 2400 baud."
+  },
+  "1urskkv5mqp": {
+    "defaultMessage": "Op kaart tonen"
+  },
+  "1uyycuumhgb": {
+    "defaultMessage": "Frame type: beacon, data, acknowledgement of command"
+  },
+  "1v2gq8t6w2c": {
+    "defaultMessage": "Meters"
+  },
+  "1va68y0hyil": {
+    "defaultMessage": "Alles in de span werd tegelijk gedecodeerd, zonder kanaal om te plaatsen"
+  },
+  "1vcfyic5onx": {
+    "defaultMessage": "De exe start niet vanzelf: hij heeft rtlsdr.dll en libusb-1.0.dll nodig in dezelfde map."
+  },
+  "1vdw3h4z73": {
+    "defaultMessage": "HackRF of LimeSDR: een advertentiekanaal is 2 MHz breed"
+  },
+  "1vetyf6pjd6": {
+    "defaultMessage": "144-148 / 430-450 MHz"
+  },
+  "1vgz7sv81m7": {
+    "defaultMessage": "Wat het bereikt"
+  },
+  "1vj8o3fxggd": {
+    "defaultMessage": "Elke RTL-SDR, met een turnstile- of QFH-antenne"
+  },
+  "1vkbpcb25rn": {
+    "defaultMessage": "433 / 868 / 915 MHz · RTL-SDR"
+  },
+  "1vl3upm6uu7": {
+    "defaultMessage": "HackRF One"
+  },
+  "1vonh2mjjot": {
+    "defaultMessage": "Elke auto die in het afgelopen decennium is gebouwd, heeft in zijn wielen vier radio's, elk een id uitzendend dat gedurende de levensduur van de sensor niet verandert. Hierdoor is TPMS de meest betrouwbare methode om een voertuig te herkennen dat een vast punt passeert, wat precies de reden is waarom het belangrijk is om te weten dat dit gebeurt."
+  },
+  "1vqn2v0v809": {
+    "defaultMessage": "SSTV"
+  },
+  "1vtnfkdmyfs": {
+    "defaultMessage": "Voer Zadig uit, selecteer de RTL2832U-interface, kies WinUSB en installeer. Selecteer de juiste interface als de dongle twee interfaces toont."
+  },
+  "1vy66olgbut": {
+    "defaultMessage": "DRM"
+  },
+  "1w1v72is29o": {
+    "defaultMessage": "Totale tuner-versterking, verdeeld over de stadia van de radio."
+  },
+  "1w26bmzsrxd": {
+    "defaultMessage": "schiptracking, maritiem AIS, 161.975 MHz"
+  },
+  "1w3nunkv2z0": {
+    "defaultMessage": "Het punt is dat er niets van afhankelijk is van de hub van de leverancier. Een sensor die je al bezit en die in het openbaar zendt op 433 of 868 MHz, wordt een Home Assistant-entiteit omdat er iets naar luistert, niet omdat er een brug is gekocht en een account is aangemaakt."
+  },
+  "1w6yz9zciv2": {
+    "defaultMessage": "Een CW-kanal wordt als tekst gelezen, ongeacht de snelheid waarmee het is verzonden, inclusief de beacons die een herhaler of een zendlocatie identificeren."
+  },
+  "1w7heujukad": {
+    "defaultMessage": "Kortegolf en middengolf"
+  },
+  "1wa00kjkhp0": {
+    "defaultMessage": "De twee die het meest tellen"
+  },
+  "1wagyxr6nyp": {
+    "defaultMessage": "Lees de broncode"
+  },
+  "1wcsko816m": {
+    "defaultMessage": "Advertentiepakketten op alle drie de primaire kanalen, inclusief Bluetooth 5 Long Range, waarbij Open Drone ID wordt gelezen indien aanwezig. Ook bekend als BLE-advertenties, Bluetooth 5 Long Range en iBeacon."
+  },
+  "1wcvksa9b7q": {
+    "defaultMessage": "Meter-id en eindpunttype"
+  },
+  "1wdet0gdwmy": {
+    "defaultMessage": "Voer je eigen sensoren door naar Home Assistant"
+  },
+  "1wdji3344fp": {
+    "defaultMessage": "144,800 / 144,390 / 144,640 MHz"
+  },
+  "1wepjk8hgio": {
+    "defaultMessage": "Primaire"
+  },
+  "1whz125ogy": {
+    "defaultMessage": "Een DAB-ensemble geeft zijn naam, zijn zenders, hun programmatypes en bitrates, en een DRM-multiplex op kortgolfgolf of middengolf geeft zijn diensten, hun talen en hun labels. Nog geen van beide produceert geluid, wat de moeite waard is om te weten voordat je op zoek gaat."
+  },
+  "1wjt3xwsrst": {
+    "defaultMessage": "De warmte-, water-, gas- en elektriciteitsmeters die om u heen communiceren: fabrikant, meternummer, versie en type."
+  },
+  "1wllcq35it4": {
+    "defaultMessage": "WaveShark uitvoeren zonder argumenten start de interactieve ontvanger. Alles hieronder configureert die ontvanger of is een diagnostische functie die de output weergeeft en afsluit."
+  },
+  "1wmqpv3tzc": {
+    "defaultMessage": "Een langere lijst met modi, en zenden op de meeste ervan"
+  },
+  "1x2nd5x0dqi": {
+    "defaultMessage": "Het weergavevenster voor apparaten toont één rij per zender, in plaats van per overdracht: de door de zender gebruikte naam, de fabrikant, het sterkste signaalniveau dat ooit is ontvangen en het tijdstip van de laatste waarneming. Selecteer een rij en de bijbehorende waarnemingen worden weergegeven op de kaart, waardoor een wandeling of rit een dekkingsoverzicht wordt in plaats van een lijst. De meting kan worden geëxporteerd als WiGLE-CSV voor toepassingen die dit formaat al ondersteunen."
+  },
+  "1x3bma08soy": {
+    "defaultMessage": "Het stuurt de benodigde DLL's mee, maar Windows laat niets toe om een RTL2832U te openen totdat WinUSB aan dit apparaat is gekoppeld met <zadig>Zadig</zadig>. Het zip-bestand bevat het uitvoerbare bestand en de twee DLL's, die naast het uitvoerbare bestand moeten blijven liggen. Geen LimeSDR-stuurprogramma: LimeSuite is niet verpakt voor Windows."
+  },
+  "1x6qae3gis3": {
+    "defaultMessage": "Half duplex: het zendt of ontvangt, niet beide"
+  },
+  "1x764eu8aw3": {
+    "defaultMessage": "Linux is het platform waarop WaveShark wordt ontwikkeld, en het is het platform met de minste verrassingen: LimeSDR-ondersteuning is ingebouwd, de spraakmodellen gebruiken een NVIDIA-kaart wanneer de CUDA-runtime aanwezig is en de CPU wanneer deze ontbreekt, en de pakketten laden librtlsdr automatisch mee."
+  },
+  "1xcy6no095e": {
+    "defaultMessage": "Er is ook een oproepbus en een berichtbus, met een 'on-air'-lamp, zodat een automatisering kan reageren wanneer een kanaal bezet raakt."
+  },
+  "1xdvdefe11": {
+    "defaultMessage": "Afbeeldingen van een multiplex worden alleen afgespeeld in de macOS-build; elders worden de services wel vermeld, maar niet gedecodeerd."
+  },
+  "1xf3ddg4w0m": {
+    "defaultMessage": "406 MHz"
+  },
+  "1xipo1tytdp": {
+    "defaultMessage": "rtl_433 heeft vijf keer zoveel apparaatondersteuning en is de referentie waar dit project tegen wordt getest. WaveShark voegt een venster, een onderzoek en alles toe wat niet onder ISM valt."
+  },
+  "1xjc35f6bx1": {
+    "defaultMessage": "Afbeeldingen die lijn voor lijn worden getekend naarmate ze binnenkomen, in Martin 1 en 2, Scottie 1, 2 en DX, en Robot 36 en 72, opgeslagen op schijf wanneer de overdracht is afgerond. Ook bekend als slow scan television, Martin, Scottie, Robot 36."
+  },
+  "1xmvj3hunpx": {
+    "defaultMessage": "Frames benoemen de thuis-id en de node, wat voldoende is om het aantal apparaten in een thuisnetwerk te tellen en te zien welke van hen communiceren, ongeacht of de payload beveiligd is."
+  },
+  "1xzff6exwhl": {
+    "defaultMessage": "Op een radio die kan zenden, kan de zendbron van een kanaal de agent zelf zijn: geef hem een naam en hij antwoordt wanneer hij wordt opgeroepen, reageert met zijn eigen stem en houdt het gesprek een halve minuut vol zonder opnieuw genoemd te worden."
+  },
+  "1y2okysigbx": {
+    "defaultMessage": "Wireless M-Bus"
+  },
+  "1y95cysm5vo": {
+    "defaultMessage": "Let op"
+  },
+  "1yghlyqsgn8": {
+    "defaultMessage": "De pakketlijst bevindt zich onderaan in alle weergaven, met de nieuwste pakketten onderaan, en naast de geselecteerde burst worden de omhulling, de momentane frequentie en de hexdump weergegeven. De bovenste rij tabs toont wat de ontvanger kan doen en wat hij heeft ontvangen; de onderste rij toont wie er zich buiten bevinden."
+  },
+  "1ymp0m3r4zy": {
+    "defaultMessage": "Kanaalposities in microseconden, live"
+  },
+  "1ymscjcnk03": {
+    "defaultMessage": "<all>Alle {count} toepassingen</all>, van een apparateninventaris tot een agent die de radio bedient."
+  },
+  "1yp1e2qp0ll": {
+    "defaultMessage": "Vliegtuigidentiteit, indien aanwezig in het bericht"
+  },
+  "1yqml6oig63": {
+    "defaultMessage": "De satelliet en de passage waaruit deze kwam"
+  },
+  "1yrb5ccr5v2": {
+    "defaultMessage": "Dien een KISS TNC aan, zodat packetsoftware de radio kan gebruiken en AX.25 via de TNC kan sleutelen."
+  },
+  "1yuf74elqy1": {
+    "defaultMessage": "Drie radio's, en één via het netwerk"
+  },
+  "1z1p7bw8jod": {
+    "defaultMessage": "Het is ook de module waar de kanaalweergave zijn waarde bewijst: de kanalen van 802.15.4 liggen onder de Wi-Fi-kanalen, dus een Zigbee-mesh die voortdurend verbinding verliest, staat meestal onder een access point, en de weergave toont dit in één oogopslag."
+  },
+  "1z58eql84tk": {
+    "defaultMessage": "Maritiem VHF (156-163 MHz): wat zendt er daar"
+  },
+  "1zctqk0c9md": {
+    "defaultMessage": "Frame Nummer en batterij, die aangeven hoe de vlucht verloopt"
+  },
+  "1zgbw0f7neh": {
+    "defaultMessage": "Plaats de antenne waar de signalen zijn met een SDR - WaveShark"
+  },
+  "1zilg51qwsm": {
+    "defaultMessage": "Tweekanaals paging"
+  },
+  "1zl7mqov6oy": {
+    "defaultMessage": "Een multiplex wordt vanaf zijn draagfrequenties tot aan zijn transportstroom gelezen, waarbij de gekozen dienst in het venster met volle beeldfrequentie wordt weergegeven en de geluidssynchronisatie correct is."
+  },
+  "1zmgpoc36kg": {
+    "defaultMessage": "Versie en het toegangsnummer dat per transmissie wordt verhoogd"
+  },
+  "1zobg86hoa8": {
+    "defaultMessage": "Bijna alles hier draagt een stabiel apparaat-id, waardoor een middag luisteren leidt tot een lijst van apparaten in plaats van een lijst van overdrachten. Een burst die niets decodeert, wordt alsnog bewaard, inclusief de timing en de eruit gehaalde bits; daar begint de reverse engineering."
+  },
+  "1zpvf9m2kqt": {
+    "defaultMessage": "3-30 MHz"
+  },
+  "1zs6rqjdxd6": {
+    "defaultMessage": "APRS is AX.25 met een snelheid van 1200 baud, met daarin positie, weersgegevens en tekst, op één oproepfrequentie per regio: 144,800 MHz in Europa, 144,390 MHz in Noord-Amerika en 144,640 MHz in Japan. Mic-E-gecomprimeerde posities worden gelezen naast de gewone posities."
+  },
+  "1zukncydsdm": {
+    "defaultMessage": "Downloaden voor {platform}"
+  },
+  "1zvdbsgnpaj": {
+    "defaultMessage": "VHF en UHF brandweer en ambulance"
+  },
+  "2044i25fvve": {
+    "defaultMessage": "SCM, SCM+, IDM, rtlamr, 915 MHz meter"
+  },
+  "205tc2rnc0b": {
+    "defaultMessage": "De tekstberichten die bemanningsleden en luchtvaartmaatschappijen onderling via VHF versturen: positierapporten, brandstofgegevens, technische storingen en vrije tekst."
+  },
+  "208f6okyqle": {
+    "defaultMessage": "Een listing is een ondertekend nostr-event van type 10690, dat elke keer wordt vervangen wanneer de zender een aankondiging doet en na één dag verloopt, zodat een ontvanger die de verbinding verliest hier automatisch van verdwijnt. De locatie is een geohash van vijf tekens, een cel van ongeveer vijf kilometer doorsnede, nooit de antenne zelf."
+  },
+  "20emzg6kfgf": {
+    "defaultMessage": "Beelden en data uit de lucht halen"
+  },
+  "20gkl9swh6": {
+    "defaultMessage": "De gecodeerde PHY-modus, de Bluetooth 5-langafstandmodus, wordt eveneens gelezen, wat belangrijk is omdat dit de modus is die langere-afstandstrackers en industriële sensoren gebruiken."
+  },
+  "20kk0sprhhq": {
+    "defaultMessage": "RTL-SDR en een draaikruis of V-dipool"
+  },
+  "20p1ow0d97x": {
+    "defaultMessage": "Wat je kunt doen met WaveShark - toepassingsgebieden"
+  },
+  "20rzv77e04w": {
+    "defaultMessage": "Welke satelliet en de geometrie van de pass"
+  },
+  "20sgm41acdc": {
+    "defaultMessage": "Berichten"
+  },
+  "20ydylf86f7": {
+    "defaultMessage": "Stream- of pakketmodus, en de oproeplengte"
+  },
+  "210te4bj0hn": {
+    "defaultMessage": "Ook een burst die niet kan worden gedecodeerd wordt bewaard. Klik op de bijbehorende regel om de envelope, de momentane frequentie en een hexdump te bekijken, inclusief de afgeleide codering en de geëxtraheerde bits. Dit is voldoende om hetzelfde apparaat opnieuw te herkennen en te gaan uitzoeken wat de velden betekenen."
+  },
+  "2115nlu7ibj": {
+    "defaultMessage": "Het kanaal en de starttijd"
+  },
+  "2130cybkkpf": {
+    "defaultMessage": "Er is geen stuurprogramma-dans op Linux, behalve de gebruikelijke udev-regels. De instellingen voor de bias tee en de versterking bevinden zich in het radiodialogvenster en worden onthouden bij een wijziging van het bereik."
+  },
+  "2155f50losa": {
+    "defaultMessage": "Meteor M2, MSU-MR, digitale weersatelliet"
+  },
+  "21779co2f83": {
+    "defaultMessage": "2G, GSM900, DCS1800, BCCH, IMSI-paging"
+  },
+  "2192m9385re": {
+    "defaultMessage": "Het tijdstip van de melding en het kanaal"
+  },
+  "219aevq56z1": {
+    "defaultMessage": "LoRa mesh decoder voor SDR - WaveShark"
+  },
+  "21d0q03sgp5": {
+    "defaultMessage": "Luisteren op een frequentie"
+  },
+  "21j0yq7091b": {
+    "defaultMessage": "Op een radio met zendfunctie kan de zendsource van een kanaal de agent zelf zijn. Geef deze een naam en hij reageert wanneer hij wordt aangeroepen: hij hoort het woord 'over', antwoordt met zijn eigen stem via een lokaal spraakmodel en houdt het gesprek een halve minuut gaande zonder opnieuw bij naam genoemd te worden."
+  },
+  "21lnugjqi6c": {
+    "defaultMessage": "Met en zonder"
+  },
+  "21mhsdlzlqh": {
+    "defaultMessage": "Kruimnavigatie"
+  },
+  "21nfnu417u2": {
+    "defaultMessage": "Wat WaveShark decodeert - elk protocol"
+  },
+  "21q374u1w0i": {
+    "defaultMessage": "470-790 MHz"
+  },
+  "21v98163ts": {
+    "defaultMessage": "Kaart van vermelde stations"
+  },
+  "21w2xbgbal": {
+    "defaultMessage": "De decoders volgen de wijzerplaat niet: alles binnen de span loopt altijd door."
+  },
+  "21wbxhv8b1z": {
+    "defaultMessage": "Bluetooth LE"
+  },
+  "21y2igm35if": {
+    "defaultMessage": "Een lokaal spraakmodel dat elke spraakchannel transcribeert"
+  },
+  "220wghzhjoi": {
+    "defaultMessage": "Dezelfde ontvanger dekt een band, decodeert alles erin en bewaart wat hij heeft gehoord. Wat er tussen deze varianten verschilt, is de antenne, de instelknop en het weergavevenster waarin je zit."
+  },
+  "2219rgk0e1s": {
+    "defaultMessage": "Analoge videoverbindingen zijn overal te vinden: goedkope draadloze camera’s, babyfoons en elke FPV-quadcopter op 5,8 GHz. Er is niets om te ontsleutelen en niets dat zichzelf controleert, waardoor de ondertiteling het aantal ontvangen regels telt in plaats van een goed beeld te garanderen."
+  },
+  "222vc4ljr71": {
+    "defaultMessage": "Het deelt het videobed met SSTV en de satellietpassages, want een beeld is een beeld, ongeacht het draagmedium."
+  },
+  "2299szs66wv": {
+    "defaultMessage": "Het .msi-bestand installeert en upgradet op dezelfde locatie. De zip bevat waveshark.exe, rtlsdr.dll en libusb-1.0.dll, die in dezelfde map moeten blijven."
+  },
+  "22bgkc68lis": {
+    "defaultMessage": "Bouwversies voor Linux, Windows en macOS, installatie van stuurprogramma's en bouwen vanuit broncode."
+  },
+  "22c04aibotg": {
+    "defaultMessage": "Het 902-928 MHz-band is breder dan het Europese equivalent en drukker bezet. De opvallendste gebruikers zijn slimme meters: Itron ERT-eindpunten voor gas, water en stroom rapporteren elke paar seconden een lopende tellerstand, zodat een voorbijrijdende bestelwagen een hele straat kan uitlezen."
+  },
+  "22d5rk9zvdm": {
+    "defaultMessage": "Waar het staat"
+  },
+  "22ed4gax8j3": {
+    "defaultMessage": "Installatie"
+  },
+  "22hhdh2j2mz": {
+    "defaultMessage": "Identificatiegegevens van noodzenders en de door hen gecodeerde positie, weergegeven op de kaart op het moment van verzending."
+  },
+  "22hltvxtxh9": {
+    "defaultMessage": "ISM-sensoren en afstandsbedieningen"
+  },
+  "22hqkzkan1e": {
+    "defaultMessage": "Positie, koers over de grond, snelheid en draaisnelheid"
+  },
+  "22k9iamz2d8": {
+    "defaultMessage": "Waar het ophoudt"
+  },
+  "22msww1d008": {
+    "defaultMessage": "ja, full duplex"
+  },
+  "22nkwjhsnxx": {
+    "defaultMessage": "Niets hier is een reden om niet beide uit te voeren. Ze lezen de vangsten van elkaar en beantwoorden verschillende vragen."
+  },
+  "22reiue1rcp": {
+    "defaultMessage": "Elke telefoon, horloge, tag en luidspreker binnen bereik zendt advertenties uit op drie kanalen, en die advertenties bevatten namen, service-id's en fabrikantsdata. De meeste moderne apparaten roteren hun adres ongeveer elke vijftien minuten, wat door de apparaten wordt weergegeven in rapporten in plaats van verborgen."
+  },
+  "22tt908li9c": {
+    "defaultMessage": "De Inmarsat STD-C via een L-band-patch draagt de EGC- en SafetyNET-uitzendingen die naar deze schepen worden verzonden, wat de communicatie betreft die aangeeft wat er gebeurt, in plaats van waar een schip zich bevindt."
+  },
+  "22ufv82msfw": {
+    "defaultMessage": "Luchtvaart datalink"
+  },
+  "22w9yel3k9h": {
+    "defaultMessage": "Op Linux installeer je <code>librtlsdr0</code> of <code>rtl-sdr</code>, wat de udev-regels levert die het mogelijk maken het apparaat te openen zonder root. Op Windows bind je eerst WinUSB aan de RTL2832U-interface met Zadig, anders kan niemand het apparaat openen."
+  },
+  "23150z8fdlk": {
+    "defaultMessage": "Neem een database op van de gehoorde apparaten en de locaties waar ze werden gehoord."
+  },
+  "23221gpdz8z": {
+    "defaultMessage": "Drone Remote ID en DJI DroneID"
+  },
+  "2370lm0p65y": {
+    "defaultMessage": "Tweekleurige paging decoder voor SDR - WaveShark"
+  },
+  "23b8hbgn9o6": {
+    "defaultMessage": "Elke schakelaar die de ontvanger zo instelt dat een sessie kan worden gereproduceerd zonder een dozend klikken, en elke diagnostiek die getallen weergeeft en afsluit."
+  },
+  "23o8cbxyb31": {
+    "defaultMessage": "Alles wat aangeeft waar het zich bevindt: vliegtuigen, vaartuigen, voertuigen, mesh-nodes, radiosonde, noodzenders en satellietbaanprojecties op OpenStreetMap-tiles. Een lege markering komt van een enkel kader en voegt zich nooit aan een spoor toe; bereikringen worden getekend rond de antenne, niet rond het venster. Na zoomniveau negen verschijnen luchthavens met hun luchtverkeersfrequentie."
+  },
+  "23oqqgmfb7i": {
+    "defaultMessage": "POCSAG- en FLEX-paging, APRS, SSTV en radiosondes"
+  },
+  "23q24vtyq9a": {
+    "defaultMessage": "De dichtstbijzijnde spanwaarde, die in de software wordt verkleind wanneer de radio niet zo langzaam kan monsteren."
+  },
+  "23tcet7ala1": {
+    "defaultMessage": "EGC- en SafetyNET-uitzendingen aan de scheepvaart: navigatie- en weerswaarschuwingen, piraterijrapporten en zoek- en reddingsoproepen. Ook bekend als EGC, SafetyNET, NCS, maritieme veiligheid."
+  },
+  "23yytvjppc2": {
+    "defaultMessage": "De amateurbanden bevatten tegelijkertijd meerdere modi, en daar is deze ontvanger precies voor bedoeld: APRS op de roepfrequentie, SSTV op 144.500, M17 op het digitale spraaksegment en FM-herhaalders ertussenin, allemaal gedecodeerd uit één bandbreedte in plaats van één voor één."
+  },
+  "2409qbzgxff": {
+    "defaultMessage": "Positie, hoogte en klimsnelheid"
+  },
+  "2443660wl0c": {
+    "defaultMessage": "Relays bevragen"
+  },
+  "244ey4xyeo2": {
+    "defaultMessage": "Wat het leest"
+  },
+  "24dv9l8hxe9": {
+    "defaultMessage": "De gedecodeerde tekst"
+  },
+  "24fiwwq2b96": {
+    "defaultMessage": "De browserbuild is nog steeds een plan, en de veertig-vijf ISM-decoders, terwijl het doel honderden is, is het deel dat moet groeien. De code is de documentatie: <chain>crates/app/src/chain.rs</chain> toont de grafiek die de ontvanger uitvoert."
+  },
+  "24ibhtfcqew": {
+    "defaultMessage": "Nog geen spraak: de frames worden gelezen voor wie en wat, niet voor audio."
+  },
+  "24iqo5b3e0d": {
+    "defaultMessage": "Scheepsverkeer en veiligheidsverkeer volgen"
+  },
+  "24ldnjyzev1": {
+    "defaultMessage": "Lees als volgende"
+  },
+  "24svxo7yyrf": {
+    "defaultMessage": "Uitvoeren"
+  },
+  "24t4xihhqdq": {
+    "defaultMessage": "Jaren aan veldtesten met een enorme apparaatcatalogus"
+  },
+  "24x7czbz02y": {
+    "defaultMessage": "De knoppen volgen de release in plaats van een bestandsnaam, omdat elk asset zijn versie in de naam draagt."
+  },
+  "24xdl44pg9c": {
+    "defaultMessage": "ISM-sensor- en afstandsbedieningsdecoder voor SDR - WaveShark"
+  },
+  "24zzxn7lzpy": {
+    "defaultMessage": "Gedeelde SDR-ontvangers die iedereen als een externe radio kan openen en live kan lezen via nostr."
+  },
+  "2515tikr6gh": {
+    "defaultMessage": "Issue openen"
+  },
+  "252bfvun10e": {
+    "defaultMessage": "aangemeld {ago}"
+  },
+  "2562ia8ygnn": {
+    "defaultMessage": "Elke RTL-SDR; dezelfde antenne als voor 1090 MHz werkt"
+  },
+  "256yduapl6k": {
+    "defaultMessage": "Een KISS TNC met de optie <code>--kiss-listen</code> doorstuur het verkeer naar elk packetprogramma en stuurt AX.25 via de radio terug, zodat de software die u al draait de SDR als een modem beschouwt."
+  },
+  "257fywpwttm": {
+    "defaultMessage": "Basisstations die zich continu identificeren: land- en netwerkcodes, cel-id's, burenlijsten en paging."
+  },
+  "25bjviiz5i4": {
+    "defaultMessage": "MCC, MNC, LAC en cel-id"
+  },
+  "25clkmqay4v": {
+    "defaultMessage": "Oproeplengte en of de oproep gecodeerd is"
+  },
+  "25d37jtq06t": {
+    "defaultMessage": "Lees die"
+  },
+  "25dvitwa697": {
+    "defaultMessage": "Elke RTL-SDR-dongle en een machine die aan blijft"
+  },
+  "25k505fou0m": {
+    "defaultMessage": "De dongle die de smalle bandbreedte-afhandeling verzorgt van alles op deze site: sensoren, meters, vliegtuigen, scheepvaart, pagers, digitale spraak, radiosondes en weersatellieten."
+  },
+  "25pjbejkot7": {
+    "defaultMessage": "433.05-434.79 MHz"
+  },
+  "25saq0ia9x4": {
+    "defaultMessage": "Lees de gebruiksscenario's"
+  },
+  "25vo1imlybl": {
+    "defaultMessage": "RTL-SDR met een turnstile, QFH of V-dipoolantenne"
+  },
+  "25yuo28fwc8": {
+    "defaultMessage": "Druk op afspelen"
+  },
+  "26330mpk5yt": {
+    "defaultMessage": "LRPT is de digitale tegenhanger van APT, en het beeld is daar schärper voor. De drie MSU-MR-kanaalstroompjes arriveren geïnterleaved en worden in de videopaneel in stroken getekend terwijl de frames worden samengesteld, zodat een pass zichtbaar wordt opgebouwd in plaats van pas aan het einde te verschijnen."
+  },
+  "265jlire0io": {
+    "defaultMessage": "WaveShark meetst het paar en zoekt het op in een lijst die u aanlevert, zodat de melding met een naam wordt weergegeven. De spraakdispatch die na de tonen volgt, is een oproep op hetzelfde kanaal, opgenomen en getranscribeerd als elke andere."
+  },
+  "2668ascw5il": {
+    "defaultMessage": "RTTY decoder voor SDR - WaveShark"
+  },
+  "266x07hvzoq": {
+    "defaultMessage": "Zakelijke VHF- en UHF-frequenties (136-174 / 400-470 MHz): wat wordt daar uitgezonden"
+  },
+  "267j9o8pse7": {
+    "defaultMessage": "ICAO-adres en registratie van het vliegtuig"
+  },
+  "26iv1b6izox": {
+    "defaultMessage": "Een DVB-T-multiplex, gelezen vanaf de draagfrequenties tot aan de transportstroom: de overdrachtsparameters, de diensten erop, en de dienst die u kiest, afgespeeld in het venster met volledige beeldverversing en synchroon geluid."
+  },
+  "26oh080c3rd": {
+    "defaultMessage": "Richt een radio op een frequentieband en zie wat er al op wordt uitgezonden."
+  },
+  "26pbst599rj": {
+    "defaultMessage": "Inmarsat Aero decoder voor SDR - WaveShark"
+  },
+  "26t5s77en52": {
+    "defaultMessage": "Een DVB-T-multiplex tot op het niveau van de transportstream en afspelen, DAB-ensembles en hun zenders, DRM-diensten op kortgolf, en FM met stereogeluid en RDS."
+  },
+  "26vhcyaxedv": {
+    "defaultMessage": "Site-radio, taxi's, beveiliging, openbare veiligheid en roepnet: DMR, P25, NXDN, analoge FM met MDC-1200 en tooncodes, en POCSAG- en FLEX-roepnet."
+  },
+  "270i9669qfr": {
+    "defaultMessage": "De blokken zijn op het spectrum vernoemd, dus 11C wordt als 11C gelezen en niet als een frequentie die opgezocht moet worden."
+  },
+  "271dn6te6sk": {
+    "defaultMessage": "De satellietcomponent van de luchtvaartdatalink: dezelfde berichten als ACARS, verzonden op plekken waar geen VHF-landstation bereikbaar is."
+  },
+  "274fjsctlnc": {
+    "defaultMessage": "Draadloze M-Bus-modus T met fabrikant, meternummer, versie en type, en Itron ERT SCM, SCM+ en IDM-lezingen op het US-band."
+  },
+  "277mrfe3jsj": {
+    "defaultMessage": "Berichtformaat: SCM, SCM+ of IDM"
+  },
+  "278ar7ewoz": {
+    "defaultMessage": "Baudrate en het kanaal waarop het aankwam"
+  },
+  "278trenu7rz": {
+    "defaultMessage": "Inmarsat: satelliet-ACARS van vliegtuigen boven oceanen, en de EGC- en SafetyNET-uitzendingen die naar de scheepvaart worden verzonden."
+  },
+  "27e9qdj2e8l": {
+    "defaultMessage": "Scheepvaart"
+  },
+  "27ivktlfhsq": {
+    "defaultMessage": "DVB-T televisie en 5.8 GHz analoge video"
+  },
+  "27kjk6etn65": {
+    "defaultMessage": "433.920 MHz · span 2400 kHz · 45 scanners actief"
+  },
+  "27mp8zm5pgm": {
+    "defaultMessage": "HF, VHF en UHF"
+  },
+  "27s4ro6vgrt": {
+    "defaultMessage": "Elke RTL-SDR, met een antenne afgestemd op het band"
+  },
+  "27xgdau5ey9": {
+    "defaultMessage": "Wat verschijnt"
+  },
+  "27ypz6mvy83": {
+    "defaultMessage": "SSTV decoder voor SDR - WaveShark"
+  },
+  "27z0wpatnr6": {
+    "defaultMessage": "Wi-Fi, Bluetooth LE, Zigbee en Thread, drone Remote ID en de besturingslinks voor vliegende modelvliegtuigen, allemaal in hetzelfde 83 MHz-band."
+  },
+  "280l49pvihp": {
+    "defaultMessage": "Geen van de vermelde stations komt overeen. Wis de filter om ze allemaal te bekijken."
+  },
+  "282uy7fuqn7": {
+    "defaultMessage": "Vind elk draadloos apparaat in de buurt"
+  },
+  "283a7cxjitz": {
+    "defaultMessage": "Weerstations: temperatuur, vochtigheid, regen, wind"
+  },
+  "28533xl1r07": {
+    "defaultMessage": "Paketsnelheid en linkniveau"
+  },
+  "286qzoufeqp": {
+    "defaultMessage": "“Geschadigd” bij het eerste openen is het quarantainevlag, opgeheven met het bovenstaande commando"
+  },
+  "288kn7s3hd3": {
+    "defaultMessage": "2,4 GHz · HackRF of LimeSDR"
+  },
+  "28aeahqex8e": {
+    "defaultMessage": "Beide, plus full duplex. Geen Windows-build: LimeSuite is niet verpakt voor dit platform."
+  },
+  "28gquwsdw04": {
+    "defaultMessage": "Een KISS TNC met <code>--kiss-listen</code> levert het pakketverkeer door aan de software die u al draait en stuurt AX.25-frames via een zender terug."
+  },
+  "28jz15smsjk": {
+    "defaultMessage": "Wanneer een ontvanger net is gestart: wat de applicatie kan doen, met kaarten die u daarheen leiden, en zodra een radio draait, wat er is afgestemd, of de host bijblijft, hoeveel er is gedecodeerd en wat er op dit moment op de ether is."
+  },
+  "28nk2jc3jrp": {
+    "defaultMessage": "Wat op elke band wordt uitgezonden"
+  },
+  "28p5mhvqg9h": {
+    "defaultMessage": "Wijs <code>--ha-broker</code> naar de MQTT-broker die Home Assistant al gebruikt en elke zender die de decoders kunnen identificeren, wordt daar via MQTT-detectie een apparaat. De temperatuur en vochtigheid van een weerstation, de meting van een meter, de bandenspanning van een bandensensor en het niveau waarop elk ervan werd ontvangen."
+  },
+  "28qcig37z1d": {
+    "defaultMessage": "De snellere paginastandaard, met 1600 en 3200 baud in twee- en vier-niveaus, wordt in dezelfde berichtlijst gelezen als POCSAG."
+  },
+  "28qoanz1oub": {
+    "defaultMessage": "Bewerk de signaalketen stap voor stap"
+  },
+  "28rqcu3hq6n": {
+    "defaultMessage": "Boven 3.8 GHz is buiten bereik, dus 5.8 GHz FPV heeft een HackRF nodig"
+  },
+  "28s88uwp83x": {
+    "defaultMessage": "Plaats een dongle op een ISM-band en verzamel de sensoren, afstandsbedieningen, deurbewegingsmelders, meters en bandensensoren die in de buurt van u uitzenden, elk met het ID dat ze behouden."
+  },
+  "28sn2n44om9": {
+    "defaultMessage": "Iets niet gedecodeerd?"
+  },
+  "28vace9oujh": {
+    "defaultMessage": "Alles wat wordt gehoord wordt opgenomen in de lijst onderaan, gedecodeerd of niet: frequentie, modulatie, RSSI, SNR en wat er van is gemaakt. Klik op een rij voor de omslag, de momentane frequentie en een hexdump. Een burst die door niemand wordt geïdentificeerd krijgt nog steeds zijn codering afgeleid en zijn bits uitgesneden, wat voldoende is om hetzelfde apparaat te herkennen en de reverse engineering te starten."
+  },
+  "28ve2eawycu": {
+    "defaultMessage": "Nog geen spraak."
+  },
+  "2934039rwnr": {
+    "defaultMessage": "ExpressLRS, FrSky ACCST, FlySky AFHDS-2A, XN297"
+  },
+  "294lp02vwaz": {
+    "defaultMessage": "Polariteit, zodat een omgekeerd signaal gelabeld wordt in plaats van vervormd."
+  },
+  "294qrisb0h6": {
+    "defaultMessage": "Een RTL-SDR heeft een omhoogconverter of een directe bemonsteringsmodificatie nodig om hier überhaupt te kunnen ontvangen."
+  },
+  "298gy1xc3qw": {
+    "defaultMessage": "VHF en UHF · opgenomen en getranscribeerd"
+  },
+  "298n2hnvucu": {
+    "defaultMessage": "Installeer WaveShark"
+  },
+  "299wqgh2a3a": {
+    "defaultMessage": "<strong>81 opnames</strong> uit de corpus van rtl_433 worden veld voor veld vergeleken met wat rtl_433 25.02 er van heeft gemaakt, evenals ADS-B met dump1090, ACARS met acarsdec, VDL Mode 2 met dumpvdl2, SSTV met de decoder van colaclanth en een radiosonde met SDRangel. De opnames van M17, DMR, TETRA en Meshtastic worden gecontroleerd op basis van wat de overdracht zelf aangeeft."
+  },
+  "29bplpxayep": {
+    "defaultMessage": "Morse en telex"
+  },
+  "29ewwj3c4sn": {
+    "defaultMessage": "Sponsor op GitHub"
+  },
+  "29ezmokis6v": {
+    "defaultMessage": "Het systeemnummer, wie wie heeft opgeroepen, en of de spraak op een kanaal is gecodeerd. Ook bekend als IDAS, NEXEDGE, 6,25 kHz smalband."
+  },
+  "29fctni8jdf": {
+    "defaultMessage": "2,4 GHz advertentiekanaal"
+  },
+  "29gn13ltsr6": {
+    "defaultMessage": "De spraak van de luchtverkeersleiding op de onderste helft, en de ACARS- en VDL Mode 2-datalinks op de bovenste helft."
+  },
+  "29iofmuny0": {
+    "defaultMessage": "2,4 GHz / 868 / 915 MHz"
+  },
+  "29iz636mz86": {
+    "defaultMessage": "433 MHz (433.05-434.79 MHz): wat zendt er daar"
+  },
+  "29l0oa4m21m": {
+    "defaultMessage": "Geef de dongle een driver"
+  },
+  "29tkdmx4clc": {
+    "defaultMessage": "USB en Mini"
+  },
+  "2a3r739adjm": {
+    "defaultMessage": "Wat het hoort"
+  },
+  "2a4ktw5xbiw": {
+    "defaultMessage": "Drie ongerelateerde zaken delen dit deel van het spectrum, en een breed bereik vangt ze allemaal tegelijk op. TETRA draagt Europese publieke veiligheid en vervoer, met leesbare cellen en oproepopbouw, en zijn cijfers zijn opgesomd in de sleutelweergave."
+  },
+  "2a6flpbq9qq": {
+    "defaultMessage": "{count} taken voor één ontvanger"
+  },
+  "2aay7p5db3t": {
+    "defaultMessage": "Vergeleken met"
+  },
+  "2afityrvf67": {
+    "defaultMessage": "WaveShark luistert over de hele databand van het luchtband in plaats van op één kanaal, zodat ook berichten op een bedrijfsfrequentie waar u niet van op de hoogte was, worden opgevangen samen met de rest. Berichten verschijnen in het berichtoverzicht en de linkweergave en worden per dag in een bestand geschreven."
+  },
+  "2afw7zgey1g": {
+    "defaultMessage": "Alleen Apple silicon; er is geen Intel-build"
+  },
+  "2ahdyirgy1d": {
+    "defaultMessage": "De gepubliceerde builds laten <code>tea</code> en <code>ambe</code> weg. Het zelf compileren ervan is niet hetzelfde als het door een project distribueren, daarom zijn ze in de broncode ingeschakeld maar niet in de downloads."
+  },
+  "2al6rl5wuev": {
+    "defaultMessage": "Decodeer een capture, een map met captures, of een pakketlogboek, en toon wat eruit kwam."
+  },
+  "2am4ae77ieo": {
+    "defaultMessage": "Wijs <code>--ha-broker</code> naar de MQTT-broker die Home Assistant al gebruikt en de temperatuur en vochtigheid van een weerstation, de meting van een meter, de bandenspanning van een bandensensor en het niveau waarop deze werden ontvangen, verschijnen als apparaten, zonder tussenkomst van een vendor-hub."
+  },
+  "2apk1wu99s0": {
+    "defaultMessage": "Landcode en zenderidentiteit, inclusief de hex-id"
+  },
+  "2aq9u4gz4mi": {
+    "defaultMessage": "Bitrate en foutaantallen"
+  },
+  "2at2m8unw6c": {
+    "defaultMessage": "Koppelt de TETRA-cijfers met een wgpu-sleutelzoekopdracht. Zonder deze koppeling toont het sleuteloverzicht nog steeds versleutelde kanalen en geeft aan dat er niets kan worden gelezen."
+  },
+  "2aw4dusebee": {
+    "defaultMessage": "LoRaWAN-apparatuur-EUI, join-EUI en apparaatadres"
+  },
+  "2ax613qv554": {
+    "defaultMessage": "Analoge video- en FPV decoder voor SDR - WaveShark"
+  },
+  "2ax7wq3x7se": {
+    "defaultMessage": "5,8 GHz (5645-5945 MHz): wat zendt er daar"
+  },
+  "2ay3f7fiunx": {
+    "defaultMessage": "Wat WaveShark decodeert"
+  },
+  "2ay4w1nt4it": {
+    "defaultMessage": "LimeSDR"
+  },
+  "2azouv7hgf2": {
+    "defaultMessage": "Installeren of uitpakken"
+  },
+  "2b1vw8ypfqq": {
+    "defaultMessage": "Brede protocollen"
+  },
+  "2b4ltxo5xvg": {
+    "defaultMessage": "MOTOTRBO, Tier II, talkgroup, DMR ID"
+  },
+  "2b719wzev0p": {
+    "defaultMessage": "Van de meeste lanceerlocaties stijgen dagelijks twee ballonnen op, klimmen tot een hoogte van ongeveer 30 km en barsten. Onderweg zendt elke ballon zijn positie en de lucht die hij meet door. Het achtervolgen en terugvinden van de ballonnen is een hobby op zich, en de vlucht is openbare data zolang de ballon in de lucht is."
+  },
+  "2baxwm6kueg": {
+    "defaultMessage": "Net als bij de andere digitale spraakstandaarden zijn de identiteiten het deel dat na versleuteling overblijft: een radio-id en een groeps-id geven aan wat de vloot doet, zelfs wanneer de lading niet wordt geopend."
+  },
+  "2bf5sjp6thy": {
+    "defaultMessage": "Open het schijfbeeld en sleep de app over"
+  },
+  "2bhxkwgbsp7": {
+    "defaultMessage": "zojuist toegevoegd"
+  },
+  "2bp6mv3ncqi": {
+    "defaultMessage": "RTL-SDR; L-band vereist een patchantenne en een LNA"
+  },
+  "2bqj8omaoac": {
+    "defaultMessage": "Analoge VHF en UHF"
+  },
+  "2bqvhsgyles": {
+    "defaultMessage": "iqstream en rtl_tcp, via het netwerk"
+  },
+  "2bryhm23vr6": {
+    "defaultMessage": "GSM"
+  },
+  "2bsg300a0qg": {
+    "defaultMessage": "Vereist LimeSuite geïnstalleerd op Linux en macOS"
+  },
+  "2bsjlp5nd0m": {
+    "defaultMessage": "Een pakket of de kale binary, en een radio. Geen service, geen account en niets dat naar huis belt."
+  },
+  "2bvejpgj4at": {
+    "defaultMessage": "Pagerberichten in helder op 512, 1200 en 2400 bit/s, gedupliceerd omdat een pagernetwerk elke pagina tweemaal verzendt."
+  },
+  "2bxma6ofueq": {
+    "defaultMessage": "WaveShark is GPL-3.0 en gratis, zonder account en zonder dat er data naar buiten wordt gestuurd. Sponsoring betaalt voor de radio's, het testapparatuur en de uren die worden besteed aan de volgende reeks decoders."
+  },
+  "2byily30k8a": {
+    "defaultMessage": "Geen account, geen service en niets dat naar huis belt. De binary is het programma."
+  },
+  "2c87g9kxktc": {
+    "defaultMessage": "IDAS, NEXEDGE, 6,25 kHz smalband"
+  },
+  "2c8aqr85e9i": {
+    "defaultMessage": "Breit genoeg voor Wi-Fi, Bluetooth, drone Remote ID, televisie en 5,8 GHz video, en de goedkoopste manier om een zender in dezelfde flowgraph te plaatsen."
+  },
+  "2c9h0tjlzne": {
+    "defaultMessage": "Een command line tool die past in een pipeline en een cron job"
+  },
+  "2cab5ljh63u": {
+    "defaultMessage": "Wijs <code>--ha-broker</code> naar de MQTT-broker die Home Assistant al gebruikt, en elke zender die de decoders kunnen identificeren, wordt daar een apparaat: de temperatuur en vochtigheid van een weerstation, de meterstand van een meter, de bandenspanning van een bandensensor en het signaalniveau waarop elk ervan werd ontvangen. <code>--ha-spaces ism,wmbus</code> beperkt dit tot uw eigen sensoren en meters, in plaats van een straat vol voorbijgaande telefoons."
+  },
+  "2cdb1kmbzbg": {
+    "defaultMessage": "Radiosondes"
+  },
+  "2ce4rwvr8fx": {
+    "defaultMessage": "De antenne plaatsen waar de signalen zijn"
+  },
+  "2cffgm35oq9": {
+    "defaultMessage": "M17 decoder voor SDR - WaveShark"
+  },
+  "2cfwiajxwcl": {
+    "defaultMessage": "Elke band, één ontvanger."
+  },
+  "2cgxahoohg4": {
+    "defaultMessage": "Het is de ontvanger op het scherm, niet een tweede: wat de agent afstemt, opent of inschakelt, verschijnt in het venster, en hij kan een foto van dat venster maken om te controleren wat hij heeft gedaan. Hij leest het spectrum, de pakketten, de oproepen, de transcriptie en de tracker, wijzigt alles in de signaalketen en tekent de keten zelf door stadia toe te voegen, ze te bekabelen en ze weer te verwijderen."
+  },
+  "2chdwuv27n1": {
+    "defaultMessage": "2,4 GHz kanalen 11-26"
+  },
+  "2clj97av1ft": {
+    "defaultMessage": "Vliegtuigregistratie en vluchtnummer"
+  },
+  "2cnu6xktjyv": {
+    "defaultMessage": "Niemand heeft de afgelopen dag een station toegevoegd. Het jouwe zou het eerste kunnen zijn."
+  },
+  "2cuiieayai2": {
+    "defaultMessage": "Openen op een weergave"
+  },
+  "2cxznpjx382": {
+    "defaultMessage": "390-406 MHz"
+  },
+  "2d2y43v5jjw": {
+    "defaultMessage": "rtl_433, 433.92 MHz, weerstation, deursensor"
+  },
+  "2d3h2hi0wyi": {
+    "defaultMessage": "Eén pakketstroom, op vijftien manieren gelezen: spectrum en waterval, de signaalketen zelf, oproepen, transcriptie, berichten, video, kaart, datalinks, apparaten, kanalen, besturingslinks, satellietdoorgangen, sleutels en een agentweergave."
+  },
+  "2d6xrgahbar": {
+    "defaultMessage": "Meshtastic, MeshCore, LoRaWAN, chirp spread spectrum"
+  },
+  "2daws9efrk8": {
+    "defaultMessage": "UAT978, ADS-B UAT, FIS-B, TIS-B"
+  },
+  "2dcsq3gu4wh": {
+    "defaultMessage": "Bandenspanningssensoren wanneer auto's voorbijrijden: het sensornummer, de druk, de temperatuur en of het wiel draait."
+  },
+  "2dcywjktde8": {
+    "defaultMessage": "Zatellieten"
+  },
+  "2dfmxka7or1": {
+    "defaultMessage": "De gebruikte versleuteling, in het sleutelscherm"
+  },
+  "2dha6ewvvzy": {
+    "defaultMessage": "Wie spreekt er over alles wat spraak decodeert? Een oproep opnemen is een verzoek om die te horen; elke oproep kan worden opgenomen in het Opus-formaat, en een tijdlijn onder de lijst toont de opnames in verhouding tot de klok, zodat een reeks oproepen kan worden samengevoegd tot één bestand."
+  },
+  "2dl2nfpudrs": {
+    "defaultMessage": "Vind elke draadloze apparatuur in de buurt met een SDR - WaveShark"
+  },
+  "2dofqu1knpz": {
+    "defaultMessage": "Baudsnelheid en verschuiving"
+  },
+  "2door4wbbdw": {
+    "defaultMessage": "Vliegtuigen"
+  },
+  "2dovzfwjl2x": {
+    "defaultMessage": "Pagers en tonen"
+  },
+  "2dqbbncy1z2": {
+    "defaultMessage": "MDC-1200 is de korte databurst aan het begin of einde van een analoge overdracht. Deze bevat een eenheid-id en soms een nood- of statuscode, waardoor een onbekend spraakkanaal wordt omgezet in een register van radio's."
+  },
+  "2ds6dw3q48x": {
+    "defaultMessage": "Volgnummers die herhalingen tonen"
+  },
+  "2du2rz8fhxt": {
+    "defaultMessage": "Een pakket dat de udev-regels meevoert, of een enkele binary die niets anders vereist dan een driver voor de dongle."
+  },
+  "2dzlmj34kca": {
+    "defaultMessage": "Mobiel land- en netwerkcodel, en de cel"
+  },
+  "2dzu7t0873w": {
+    "defaultMessage": "RC-bedieningsdecoder voor SDR - WaveShark"
+  },
+  "2e01nexofnb": {
+    "defaultMessage": "macOS"
+  },
+  "2e1d46e0siw": {
+    "defaultMessage": "Een iqstream- of rtl_tcp-server verschijnt als een lokale radio, waardoor de antenne op de locatie kan worden geplaatst waar de signalen het sterkst zijn. Deze ontvanger ondersteunt ook iqstream, en meerdere overeenkomende tuners worden samengevoegd tot een bredere bandbreedte."
+  },
+  "2e2f05fb3to": {
+    "defaultMessage": "De grondstations zenden eveneens uit. Hun uplink draagt het weer- en verkeersbeeld dat naar de cockpits wordt gestuurd, wat een breedcastdienst is die niets versleuteld bevat."
+  },
+  "2eaq9w7m5c0": {
+    "defaultMessage": "WaveShark decodeert een weerstation op 433,92 MHz: spectrum en watervalgrafiek hierboven, pakketlijst hieronder."
+  },
+  "2ebz0wxjw90": {
+    "defaultMessage": "MDC-1200 decoder voor SDR - WaveShark"
+  },
+  "2edtdd05v5l": {
+    "defaultMessage": "Bron- en bestemmingsroepaantekens en het digipeater-pad"
+  },
+  "2edtth2bfnq": {
+    "defaultMessage": "Naar inhoud"
+  },
+  "2eic9yxee5p": {
+    "defaultMessage": "Een OSINT-gereedschap voor RF. GPL-3.0-or-later."
+  },
+  "2ejz5fnb0pq": {
+    "defaultMessage": "Het kanaal en het niveau waarop het werd gehoord"
+  },
+  "2elx5uex2nu": {
+    "defaultMessage": "Kan je niet sponsoren? Een goed bugrapport met een bijgevoegde opname is net zo waardevol, en een decoder die het misgaat op echte signalen is het nuttigste wat je kunt sturen."
+  },
+  "2enqiq4f15z": {
+    "defaultMessage": "PAL, NTSC, 5,8 GHz FPV, draadloze camera"
+  },
+  "2eodtht6h3p": {
+    "defaultMessage": "Inmarsat Aero"
+  },
+  "2ep3rc54dlm": {
+    "defaultMessage": "APRS en packet"
+  },
+  "2etmtqz0uv1": {
+    "defaultMessage": "Open het pakket dat de knop je gaf, of neem de kale binary en voer deze uit op de locatie waar deze terechtkomt. De binary is in beide gevallen het volledige programma."
+  },
+  "2euavjod2mp": {
+    "defaultMessage": "978 MHz"
+  },
+  "2ezz8ug1af6": {
+    "defaultMessage": "rtl_tcp draagt 8 bit samples, ongeacht de radio"
+  },
+  "2f04efwkkyj": {
+    "defaultMessage": "Talkgroup en bronradio id"
+  },
+  "2f2cmuqicue": {
+    "defaultMessage": "Open met een instellingenvenster: agent, radio, spectrum, waterval, logboek, scanners, geheugen, data of app."
+  },
+  "2f5pempmig0": {
+    "defaultMessage": "Weersatellieten"
+  },
+  "2f6ywuox36h": {
+    "defaultMessage": "Eén ontvanger dekt de modi die een amateurband tegelijkertijd draagt, in plaats van ze één voor één af te handelen: APRS met Mic-E op de EU-, VS- en Japanse roepfrequentie, SSTV in de modi Martin, Scottie en Robot, waarbij elk beeld wordt opgeslagen zodra het is afgerond, RTTY van 45,45 tot 200 baud, CW dat als tekst wordt weergegeven in de snelheid waarmee het is verzonden, en M17 met de volledige weergave van de pakketberichten."
+  },
+  "2f8a3ru5i9z": {
+    "defaultMessage": "--chain, --flights, --calls, --messages, --transcript, --links, --control, --channels, --video, --scanners, --gain en --setup openen de ontvanger in een weergave."
+  },
+  "2fakh0478gi": {
+    "defaultMessage": "Koppen van waarschuwingen via de zeven NOAA Weather Radio-kanalen: het gebeurtenistype, de bestreekte county's en de duur van de waarschuwing."
+  },
+  "2ff5esyhu5j": {
+    "defaultMessage": "Start- en stoptonen, zodat een grafiek op de juiste plek wordt afgebroken"
+  },
+  "2ffusjhlj1y": {
+    "defaultMessage": "Remote ID en DJI DroneID met serienummer, positie, hoogte en thuispunt, plus de besturingsverbinding zelf met de sturen live getekend."
+  },
+  "2fkpyd67dvq": {
+    "defaultMessage": "131,5 / 136,7 - 137 MHz"
+  },
+  "2flya9ttuk1": {
+    "defaultMessage": "Positieberichtgeving is slechts de helft van wat een vliegtuig overdraagt. ADS-B en Mode S op 1090 MHz plaatsen het vliegtuig op de kaart met roepnaam, hoogte, snelheid en koers; UAT op 978 MHz voegt de lichte vliegtuigen toe die nooit op 1090 MHz verschijnen, samen met het weer- en verkeersuplink van de grondstations."
+  },
+  "2fsfgbhsox0": {
+    "defaultMessage": "Ongeveer veertig protocollen die tegelijkertijd draaien, met een pakketlijst en een kaart"
+  },
+  "2fu1jt0wmyj": {
+    "defaultMessage": "GSM 900 en 1800 (925-960 / 1805-1880 MHz): wat wordt daar uitgezonden"
+  },
+  "2fu2y3bpx8h": {
+    "defaultMessage": "Netwerkdoorvoer bepaalt de span die je kunt dragen"
+  },
+  "2fxwvuwfz2s": {
+    "defaultMessage": "Koppen van waarschuwingen via de zeven NOAA-Weerradiokanalen: het type gebeurtenis, de bestreken county’s en de duur. Ook bekend als NOAA-Weerradio, noodmelding, 162,400 MHz."
+  },
+  "2fybau5d1rd": {
+    "defaultMessage": "LimeSDR met WaveShark - wat het bereikt"
+  },
+  "2g1zep3qykk": {
+    "defaultMessage": "DVB-T-multiplexen: de zendparameters, de diensten die ze bevatten, en een programma dat wordt gedecodeerd tot beeld en geluid."
+  },
+  "2g2075un3ck": {
+    "defaultMessage": "HF is het bandgebied waarin een ontvanger in één land een zender in een ander land ontvangt, en de modi daarop zijn de oudste: Morse identificeert nog steeds beacons en herhalers, RTTY draagt nieuwsberichten en wedstrijden, en weersfax stuurt drukkaarten als langzame beelden naar de scheepvaart."
+  },
+  "2gjb633q6ws": {
+    "defaultMessage": "waveshark --help heeft de rest"
+  },
+  "2gkskakd1r9": {
+    "defaultMessage": "Zigbee, Thread and Matter"
+  },
+  "2gky0jpxtrl": {
+    "defaultMessage": "Berichttekst of het numerieke bericht"
+  },
+  "2l27vheugk": {
+    "defaultMessage": "Monitor een radienetwerk en lees het later terug met een SDR - WaveShark"
+  },
+  "2mga8cugs6": {
+    "defaultMessage": "45 decoders uit de rtl_433-familie: weerstations, thermometers, deurcontacten, poortafstandsbedieningen, beveiligingssensoren en schaplabels."
+  },
+  "2pbeoivq5l": {
+    "defaultMessage": "NOAA APT- en Meteor LRPT-weersatellietpassages"
+  },
+  "2vcpovapgl": {
+    "defaultMessage": "868,95 MHz"
+  },
+  "2w6p0g9zvd": {
+    "defaultMessage": "Ongestemde ontvangers die mensen hebben gekozen om te delen. Elk is een iqstream-server die is aangekondigd op <nostr>nostr</nostr>, zodat elke kopie van WaveShark deze kan openen als een externe radio en kan decoderen wat die antenne ontvangt."
+  },
+  "2x1rqqw8ji": {
+    "defaultMessage": "Kanalen"
+  },
+  "31unvxdy2e": {
+    "defaultMessage": "Drone Remote ID decoder voor SDR - WaveShark"
+  },
+  "336huwmbqh": {
+    "defaultMessage": "Lees het spectrum, pakketten, oproepen en transcript"
+  },
+  "34toebin6l": {
+    "defaultMessage": "Datatempo per frame en het kanaal"
+  },
+  "35dmvl4wc2": {
+    "defaultMessage": "Download WaveShark voor Linux"
+  },
+  "36ut2uoc13": {
+    "defaultMessage": "Voer uit zonder venster, waarbij wordt gescand en gelogd zoals bij de interface."
+  },
+  "37ppdwjjup": {
+    "defaultMessage": "Ongeveer 250 apparaatdecoders tegen vijftig"
+  },
+  "38cnc557q0": {
+    "defaultMessage": "Direct boven hen bevinden zich de zeven NOAA-weather radiokanalen, waar een SAME-kop de volledige waarschuwing, de bijbehorende county's en de vervaldatum in machineleesbare vorm bevat, voordat de aankondiger ook maar één woord uitspreekt."
+  },
+  "3a6ibzv947": {
+    "defaultMessage": "978 / 1090 MHz"
+  },
+  "3bv0m4ugx4": {
+    "defaultMessage": "Bied een netwerkafstemmer aan als radio: iqstream, of rtl_tcp://host:port. Herhaalbaar."
+  },
+  "3eji58ho1a": {
+    "defaultMessage": "Headless"
+  },
+  "3g8fk1mcaw": {
+    "defaultMessage": "Nog geen geluid: het ensemble wordt gelezen op wat het draagt, niet gedecodeerd naar audio."
+  },
+  "3ga0uevlqz": {
+    "defaultMessage": "<code>--ha-spaces ism,wmbus</code> beperkt zich tot uw eigen sensoren en meters. Laat het open op een band vol met handsets en het huis vult zich met apparaten die hun adres elke kwartier veranderen; dat is een waarschuwing, geen functie."
+  },
+  "3i59at279n": {
+    "defaultMessage": "De datalinks vervoeren de tekst: ACARS op de luchtbandkanalen en VDL Mode 2, de link die het meeste Europese luchtverkeer gebruikt, met Inmarsat Aero die de satellietzijde bedient via een L-band patch-antenne. Die berichten zijn de vlucht, het vliegtuig en wat het aan de luchtvaartmaatschappij heeft gemeld."
+  },
+  "3ish90ipup": {
+    "defaultMessage": "--headless voert de volledige ontvanger uit zonder venster, waarbij het scant en publiceert zoals het dat zou doen met een venster."
+  },
+  "3l0aim1i0n": {
+    "defaultMessage": "dump1090, 1090 MHz, Mode S, secundaire radar"
+  },
+  "3l4x5sz8sr": {
+    "defaultMessage": "Bron- en bestemmingsroepnaam"
+  },
+  "3nt7jar3y4": {
+    "defaultMessage": "Geen full duplex herhaalstation werk"
+  },
+  "3qs44k4pdz": {
+    "defaultMessage": "Een locatie in kaart brengen en interferentie opsporen"
+  },
+  "3uvpen3zah": {
+    "defaultMessage": "Omvatting breedtebanden die ruim voldoende zijn voor Wi-Fi, Bluetooth LE, DroneID en televisie, een zender en een bias tee voor een mastkopversterker."
+  },
+  "417u296esr": {
+    "defaultMessage": "Nog geen geluid."
+  },
+  "4a367o0js6": {
+    "defaultMessage": "Alles wat een RTL-SDR bereikt, op één radio"
+  },
+  "4ahp1wva16": {
+    "defaultMessage": "Bestemming en verwachte aankomst, zoals door de bemanning ingevoerd"
+  },
+  "4bkbfmt5mg": {
+    "defaultMessage": "Amateurbanden"
+  },
+  "4c4wbupq8b": {
+    "defaultMessage": "DAB decoder voor SDR - WaveShark"
+  },
+  "4fe0x4pxka": {
+    "defaultMessage": "Op een zender kan een over worden teruggekeyed, waardoor het zelfde venster aan beide zijden van een contact wordt gevormd."
+  },
+  "4gr7bnrsb1": {
+    "defaultMessage": "Baudot-telegraaftekst van 45,45 tot 200 baud, in beide richtingen, gelezen in het berichtvenster naarmate deze binnenkomt."
+  },
+  "4ih42n98ys": {
+    "defaultMessage": "Airband (118-137 MHz): wat zendt er daar"
+  },
+  "4izuwv6cy9": {
+    "defaultMessage": "Vier radio's, en geen van hen duur"
+  },
+  "4jxnkla976": {
+    "defaultMessage": "RTL-SDR met WaveShark - wat het bereikt"
+  },
+  "4l858tmwdb": {
+    "defaultMessage": "De serienummer, positie, hoogte en locatie van de operator van een drone, afkomstig van de Remote ID-broadcast die deze verplicht moet uitzenden, en het thuispunt van een DJI-luchtrangkaart. Ook bekend als DJI DroneID, Open Drone ID, ASTM F3411, locatie van de operator."
+  },
+  "4lpdlv08ni": {
+    "defaultMessage": "Woorden per minuut, zoals gemeten"
+  },
+  "4npawvcnus": {
+    "defaultMessage": "De identiteit van een cel, afgeleid uit zijn synchronisatieburst, de systeem informatie die het uitzendt en wie een oproep is bestemd."
+  },
+  "4q0etjhd2d": {
+    "defaultMessage": "Spreading factor, bandbreedte en coderingsratio"
+  },
+  "4qzx8smibe": {
+    "defaultMessage": "Een Wi-Fi-kanaal is 20 MHz breed, dus het aflezen ervan is een taak voor een HackRF of LimeSDR en niet voor een dongle. Het resultaat is een inventarisatie: de netwerken die beacons uitzenden, de clients die proeven, de gebruikte snelheden en de adressen die steeds opnieuw verschijnen."
+  },
+  "4r6u0t6qrr": {
+    "defaultMessage": "Een tuner op een machine op de mast, bediend vanuit de werkbank, afgestemd vanuit de werkbank, en meerdere ervan genaaid tot één bredere spanwijdte."
+  },
+  "4re1lg9km5": {
+    "defaultMessage": "Het toonpaar dat een brandweer- of ambulancepager activeert, vernoemd naar een operatorlijst, zodat een oproep wordt weergegeven als een station in plaats van twee frequenties."
+  },
+  "4srzzu0upz": {
+    "defaultMessage": "Wat je kunt doen met WaveShark"
+  },
+  "4svgwqfg8d": {
+    "defaultMessage": "NXDN is het smalbandstandaard van Icom en Kenwood, veelvoorkomend in bedrijfs- en transportsystemen, en past in de helft van de kanaalbreedte die DMR gebruikt. Beide kanaalbreedtes worden gelezen."
+  },
+  "4wplsyuqp6": {
+    "defaultMessage": "Ontvangt"
+  },
+  "4x34lmko20": {
+    "defaultMessage": "Deze release bevat ook een <code>-cuda</code>-asset voor Linux en Windows: dezelfde ontvanger met het spraakmodel op een NVIDIA-kaart, waarbij de CUDA 12-runtime en een stuurprogramma van 570 of nieuwer vereist zijn. Kies de gewone build, tenzij je spraakverwerking op de GPU wilt uitvoeren."
+  },
+  "4xxaw03lv4": {
+    "defaultMessage": "DAB en DRM"
+  },
+  "50oqpj54it": {
+    "defaultMessage": "De udev-regels zijn het onderdeel dat mensen vaak over het hoofd zien. Zonder deze regels kan een dongle alleen als root worden geopend, wat een machtigingsfout is en geen radiofout, en het installeren van het distributiepakket zorgt ervoor dat deze regels op hun plaats komen."
+  },
+  "523s03tux5": {
+    "defaultMessage": "De diensten in een DRM-multiplex, hun talen en hun labels, van een kortegolf- of middengolfzending."
+  },
+  "52d45k2otf": {
+    "defaultMessage": "Waar de stokjes staan op elke modelbesturingslink binnen bereik: een balk per kanaal in microseconden, met het frame rate en of de handset om armen vraagt. Ook bekend als ExpressLRS, FrSky ACCST, FlySky AFHDS-2A, XN297."
+  },
+  "54co5rz08w": {
+    "defaultMessage": "GECODEERD ALS"
+  },
+  "5a61x8gopi": {
+    "defaultMessage": "Elk gedecodeerd frame komt op één plek binnen, en elk weergavevenster is een andere interpretatie ervan. Geen van hen kent een protocol: een DMR-gesprek, een TETRA-gesprek en een M17-gesprek zijn dezelfde rij met verschillende ingevulde velden, en een vliegtuig, een vaartuig en een mesh-knooppunt zijn dezelfde spoorbaan. De pakketlijst loopt langs de onderkant van alle weergaven, met de nieuwste bovenaan, en naast de geselecteerde burst staat de omhulling, de momentane frequentie en de hexdump."
+  },
+  "5cwesb9hdb": {
+    "defaultMessage": "De scheidingslijn is bandbreedte, niet slimheid: één Wi-Fi-kanaal is 20 MHz breed en een televisiemultiplex 8 MHz, terwijl een dongle ongeveer 2,4 MHz verwerkt. Alles dat daar smaller dan is, wat het grootste deel van <decodes>de decoderlijst</decodes> betreft, draait op de goedkoopste ontvanger die ooit is gemaakt."
+  },
+  "5elv5b798": {
+    "defaultMessage": "SDR-hardware voor WaveShark - RTL-SDR, HackRF, LimeSDR"
+  },
+  "5ihjs7ikgj": {
+    "defaultMessage": "Het beeld zelf, regel voor regel"
+  },
+  "5is2i5zezk": {
+    "defaultMessage": "De meeste draadloze apparaten in een gebouw geven zich elke paar seconden tot elke paar minuten aan en vrijwel alle van hen hebben een ID die niet verandert. Door het frequentieband continu te monitoren, vangt u ook de apparaten op die zouden hebben verzonden terwijl u ergens anders was afgestemd; dat is precies de reden waarom een scan ze mist."
+  },
+  "5kojm6ux2d": {
+    "defaultMessage": "Een OSINT-gereedschap voor RF. Dek een band continu af en bewaar alles, gedecodeerd of niet."
+  },
+  "5lqm3x6p6i": {
+    "defaultMessage": "nee"
+  },
+  "5rwtbccx3j": {
+    "defaultMessage": "EPIRB, PLB, ELT, 406 MHz noodzender"
+  },
+  "5sozpcoqhe": {
+    "defaultMessage": "Op Linux installeert u het distributiepakket zodat de udev-regels worden geïnstalleerd. Op Windows voert u Zadig uit, selecteert u de RTL2832U-interface en installeert u WinUSB."
+  },
+  "5ukqq7yi5u": {
+    "defaultMessage": "Geverifieerd tegen dump1090 op dezelfde opnamen, wat de enige manier is om te weten dat een decoder correct is en niet alleen zelfverzekerd."
+  },
+  "5vkvxhg6w6": {
+    "defaultMessage": "Vliegtuigen volgen en lezen wat ze zenden"
+  },
+  "5wsfjntqgr": {
+    "defaultMessage": "Het kanaaloverzicht toont wat er op elk Wi-Fi-, Bluetooth- en 802.15.4-kanal actief is, hoe sterk de signalen zijn en hoe druk het is. Dit geeft het antwoord op de vraag waar u uw eigen netwerk het beste kunt plaatsen, in plaats van een afbeelding van het probleem."
+  },
+  "5yijtayq5i": {
+    "defaultMessage": "De vijftien views - WaveShark"
+  },
+  "61oav484in": {
+    "defaultMessage": "Geverifieerd met acarsdec op dezelfde opnames."
+  },
+  "62x3w0ycpn": {
+    "defaultMessage": "400-406 MHz"
+  },
+  "6achmvtfq9": {
+    "defaultMessage": "GSM decoder voor SDR - WaveShark"
+  },
+  "6q8g6icl0l": {
+    "defaultMessage": "Het opent op het dashboard, en de schaal begint op 433,92 MHz, waar de apparaten die het decodeert, zich bevinden."
+  },
+  "6sxmkvhdk0": {
+    "defaultMessage": "AIS-scheepsposities op twee kanalen, werkkanalen en oproepspraak, en de NOAA-weerradio-alarmen bovenaan het bandbereik."
+  },
+  "6u2t4jel4w": {
+    "defaultMessage": "Zie drones, hun bestuurders en hun handsets met een SDR - WaveShark"
+  },
+  "70yac3rvz": {
+    "defaultMessage": "Dienstidentifiers"
+  },
+  "719lt0z10f": {
+    "defaultMessage": "12,5 en 6,25 kHz kanalen"
+  },
+  "733bunqdsr": {
+    "defaultMessage": "1525-1559 MHz"
+  },
+  "7am1p640zz": {
+    "defaultMessage": "Probeer het op een band die je kent."
+  },
+  "7crvxb3tur": {
+    "defaultMessage": "Het netwerk, zijn cellen en wie wordt gebeld, met een wgpu-sleuteloopzoekopdracht op de cijfers in een broncodebuild met de tea-functie. Ook bekend als TEA1, TEA2, TETRAPOL-alternatief, gekanaliseerd."
+  },
+  "7cu7vrpg8h": {
+    "defaultMessage": "42 decoders tegelijk actief binnen één span: ADS-B, ACARS, VDL Mode 2, AIS, POCSAG- en FLEX-paging, DMR, P25, NXDN, TETRA, M17, LoRa-mesh, draadloze M-Bus, Z-Wave, TPMS, ISM-sensoren, Wi-Fi, Bluetooth LE, Zigbee, drone Remote ID, SSTV, weersatellieten, radiosondes, DVB-T, DAB en DRM."
+  },
+  "7fzmyjor46": {
+    "defaultMessage": "Rapporteer wat de squelch aangeeft op een frequentie, voor het instellen ervan."
+  },
+  "7gr9rhzyl": {
+    "defaultMessage": "Koppel je eigen sensoren aan Home Assistant met een SDR - WaveShark"
+  },
+  "7jx5uyv4x9": {
+    "defaultMessage": "Een antenne op de zolder en een ontvanger op het bureau"
+  },
+  "7lgylux05": {
+    "defaultMessage": "RTL-SDR met een upconverter voor HF, of directe sampling"
+  },
+  "7ns82niu86": {
+    "defaultMessage": "2400-2483.5 MHz"
+  },
+  "7p2ivb23p": {
+    "defaultMessage": "{span} MHz breed, afstembaar"
+  },
+  "7vt9qd4uyx": {
+    "defaultMessage": "Draai het als amateurstation met een SDR - WaveShark"
+  },
+  "7w251fm81": {
+    "defaultMessage": "tot 20 MHz"
+  },
+  "7x29fn6l6i": {
+    "defaultMessage": "Oppervlaktedrukaanduidingen en ijskaarten, verzonden naar de scheepvaart via kortegolf, weergegeven in het videobedieningspaneel naarmate ze binnenkomen. Ook bekend als radiofax, WEFAX, zeekaarten, Northwood."
+  },
+  "7y9tn2le1": {
+    "defaultMessage": "ExpressLRS met de stuurstokken die live worden weergegeven in het besturingsscherm, plus FrSky ACCST, FlySky AFHDS-2A- en XN297-afstandsbedieningen, inclusief adres en payload."
+  },
+  "7ymgpwgd03": {
+    "defaultMessage": "Dataverbindingen"
+  },
+  "800dtpy3be": {
+    "defaultMessage": "De .deb- en .rpm-pakketten zijn ervan afhankelijk. Bij het installeren van de kale binary moet u de udev-regels zelf installeren."
+  },
+  "81y1aeuo8u": {
+    "defaultMessage": "De release-workflow bouwt met <code>--no-default-features --features limesdr,stt,cuda,mcp</code>, waarbij <code>limesdr</code> op Windows wordt weggelaten."
+  },
+  "8233lasho0": {
+    "defaultMessage": "Sleutels"
+  },
+  "8267gvpm97": {
+    "defaultMessage": "Hoogte, grondsnelheid, koers en verticale snelheid"
+  },
+  "82k3a4fl2t": {
+    "defaultMessage": "Bepalingsregel"
+  },
+  "88peslw942": {
+    "defaultMessage": "Wi-Fi decoder voor SDR - WaveShark"
+  },
+  "8a60tzp1aj": {
+    "defaultMessage": "<views>Wat elk beeld bevat</views>, van het dashboard dat een nieuwe ontvanger opent tot aan de satellietpassages die nog niemand heeft gehoord."
+  },
+  "8b9gcaqrlp": {
+    "defaultMessage": "Wat hier wordt gelezen, is de multiplexstructuur in plaats van de audio: welke services er bestaan, in welke talen en hoe de uitzending is geconfigureerd."
+  },
+  "8czb5se7x4": {
+    "defaultMessage": "915 MHz"
+  },
+  "8eum8uzz8t": {
+    "defaultMessage": "Relays worden bevraagd, {settled} van {relays} hebben geantwoord"
+  },
+  "8evmerfzff": {
+    "defaultMessage": "Kortgolfradio zonder upconverter of directe sampling"
+  },
+  "8fzs0dxszi": {
+    "defaultMessage": "Wi-Fi, Bluetooth LE, Zigbee en DJI DroneID: één kanaal is breder dan het volledige frequentiebereik"
+  },
+  "8jtde5uw7t": {
+    "defaultMessage": "315 / 433.92 MHz"
+  },
+  "8k9uhrceln": {
+    "defaultMessage": "HackRF of LimeSDR op 2,4 GHz; een dongle op 868 en 915"
+  },
+  "8ntovd9cpj": {
+    "defaultMessage": "Advertentiepakketten op alle drie de primaire kanalen, inclusief Bluetooth 5 Long Range, met Open Drone ID-gegevens die worden gelezen indien aanwezig."
+  },
+  "8pjmbtrki9": {
+    "defaultMessage": "RTL-SDR om te ontvangen, HackRF of LimeSDR om te zenden"
+  },
+  "8sbtzrtwvw": {
+    "defaultMessage": "Een microfoon, een toon of een opname, ingevoerd in NFM, WFM of AM, met handmatig of spraakgestuurd sleutelen, en zes protocollen die deze ontvanger al kan lezen en weer uitzenden: POCSAG-pagina's, APRS-beacons, RTTY-overs, BLE-advertenties, SSTV-beelden en RDS-namen. Flipper .sub-bestanden sleutelen op de frequentie die ze noemen, en een complete DVB-T-multiplex kan worden opgebouwd uit elk bestand dat ffmpeg kan openen."
+  },
+  "8serfl71bo": {
+    "defaultMessage": "Quick Call II, brandweerpager-tonen, alarmtonen"
+  },
+  "8sf2t00tcg": {
+    "defaultMessage": "Het pakketlogboek bewaart de mark- en gap-timing, de framebytes en de eigen samples van de burst, in plaats van de geparste velden, zodat een decoder die volgende maand wordt geschreven, nog steeds de kans krijgt om een vandaag ontvangen burst te verwerken. <code>--record</code> schrijft opnames in rtl_433-stijl die door beide programma's worden gelezen, en de ruwe opname kan op energie worden geactiveerd, zodat per burst een bestand wordt geschreven met het signaal van vóór het moment waarop het werd getriggerd."
+  },
+  "8xi4uu0hu7": {
+    "defaultMessage": "Adres van de grondstation en welke kant het frame heeft verzonden"
+  },
+  "92k071rx4k": {
+    "defaultMessage": "Haal beelden en data uit de lucht met een SDR - WaveShark"
+  },
+  "94n9ogvjyj": {
+    "defaultMessage": "Vaisala RS41, Graw DFM, Meteomodem M10 en M20, iMet, Meisei, MRZ en LMS6-sondes op de kaart, inclusief serienummer, hoogte, klimsnelheid en de lucht waar ze naartoe zijn gelanceerd om metingen te verrichten. Het kanaal volgt de zender terwijl deze drijft, en lanceerlocaties van SondeHub geven aan wanneer de volgende sonde wordt gelanceerd."
+  },
+  "96ztpjgyjc": {
+    "defaultMessage": "DAB+, digitale radio, ensemble, band III"
+  },
+  "97j51uk1gd": {
+    "defaultMessage": "APRS, SSTV, RTTY, Morse en M17 tegelijkertijd lezen, een KISS-TNC voor de packetsoftware die u al gebruikt en geheugensets geïmporteerd vanuit Chirp."
+  },
+  "9ejr342olt": {
+    "defaultMessage": "Dient de ontvanger aan bij een agent op 127.0.0.1:8931. In elke gepubliceerde build."
+  },
+  "9exahopy9q": {
+    "defaultMessage": "Het decoderen van een weerstation op 433,92 MHz. De tabstrip wisselt het spectrum in voor de signaalketen, de kaart en de bijbehorende spoorlijst, de oproeplijst, het transcript, de berichten, de afbeelding of de sleutels."
+  },
+  "9kg25byl6r": {
+    "defaultMessage": "Wireless M-Bus decoder voor SDR - WaveShark"
+  },
+  "9l4ojrr9qx": {
+    "defaultMessage": "1 MHz tot 6 GHz, zenden en ontvangen"
+  },
+  "9nlufw56ub": {
+    "defaultMessage": "Remote ID is een uitzending, geen netwerkdienst: het vliegtuig zendt uit wie het is en waar het en zijn exploitant zich bevinden, via Wi-Fi of Bluetooth LE, en alles in de buurt kan dit lezen. WaveShark leest Open Drone ID op beide draagmodi en toont het vliegtuig en de exploitant als aparte markeringen op de kaart."
+  },
+  "9odlrlgob5": {
+    "defaultMessage": "Wayland en X11 zijn beide prima; het venster wordt getekend met wgpu"
+  },
+  "9pmc512hbc": {
+    "defaultMessage": "Een GSM-cel zendt zijn beaconkanaal zonder onderbreking uit, en alles wat het identificeert is in het openbaar. Dat maakt een inventarisatie van de mobiele infrastructuur in uw omgeving tot een uitsluitend ontvangersgebonden taak."
+  },
+  "9skgj0ta6p": {
+    "defaultMessage": "Weersatellieten die overhead passeren: NOAA-APT-beelden en Meteor-M LRPT, gepland op basis van de passlijst en gevolgd via Doppler."
+  },
+  "9v5tkcy5ee": {
+    "defaultMessage": "Paginagemeldingen noemen het abonnee-identiteitsnummer dat wordt opgeroepen en het kanaal waarnaartoe een telefoon vervolgens wordt doorverbonden. Het verkeer zelf is versleuteld en wordt niet ontleed."
+  },
+  "9xzs6yz7tv": {
+    "defaultMessage": "Amateur VHF en UHF"
+  },
+  "9z9ow2xt5z": {
+    "defaultMessage": "UHF televisie"
+  },
+  "9zaxev24zz": {
+    "defaultMessage": "Maritiem VHF · L-band · 406 MHz"
+  },
+  "a1xk3l5dtp": {
+    "defaultMessage": "Geverifieerd op basis van opnames van de uitzending, gecontroleerd aan de hand van wat de uitzending zelf aangeeft."
+  },
+  "a2ihqarn65": {
+    "defaultMessage": "Positie, hoogte, snelheid en koers"
+  },
+  "a3t8v4um3y": {
+    "defaultMessage": "De talkgroup, het radio-id en de sleutel waaronder een oproep wordt uitgevoerd, afkomstig van de C4FM-frames die het Noord-Amerikaanse openbare veiligheidsverkeer draagt."
+  },
+  "a8nw9lev65": {
+    "defaultMessage": "DRM is digitale zending in de frequentiebanden die over continenten reiken, waardoor het nog steeds wordt gebruikt door internationale zenders op plaatsen waar geen andere middelen bereik bieden. Een multiplex bevat één tot vier diensten, elk met een eigen taal en label."
+  },
+  "aj4wuhsd6h": {
+    "defaultMessage": "Een dongle die twee interfaces toont in Zadig vereist de bulkinterface."
+  },
+  "aq2l8p8up3": {
+    "defaultMessage": "SDRangel beschikt over meer modi, meer radio's en een zender voor de meeste van deze. WaveShark decodeert het volledige spectrum in één keer, in plaats van dat u elke demodulator handmatig moet plaatsen."
+  },
+  "art3voklsj": {
+    "defaultMessage": "Itron ERT-metersdecoder voor SDR - WaveShark"
+  },
+  "av7dlchfo8": {
+    "defaultMessage": "Baudot-telegraaftekst met een snelheid van 45,45 tot 200 baud, in beide richtingen, weergegeven in het berichtvenster zodra deze binnenkomt. Ook bekend als radiotelegrafie, Baudot, 45,45 baud."
+  },
+  "avipn8cs66": {
+    "defaultMessage": "Een RTL2832U-dongle met een R820T2- of R860-tuner is de goedkoopste nuttige ontvanger die ooit is gemaakt, en het grootste deel van wat WaveShark decodeert is geschreven voor zo’n ontvanger. Een bruikbare bandbreedte van ongeveer 2,4 MS/s is voldoende voor elk protocol hier dat geen Wi-Fi, Bluetooth, televisie of dronevideokoppeling is."
+  },
+  "ay8432qs36": {
+    "defaultMessage": "Lees het gebruiksscenario"
+  },
+  "azchfhqzf2": {
+    "defaultMessage": "Transcript"
+  },
+  "b2dh1gokfv": {
+    "defaultMessage": "AIS decoder voor SDR - WaveShark"
+  },
+  "b441gaw3v2": {
+    "defaultMessage": "Afstemmen"
+  },
+  "b4j99w8c76": {
+    "defaultMessage": "Amerikaanse nutsbedrijfsmeters: het verbruiksnnummer, het meter-ID en het type, in de formaten SCM, SCM+ en IDM."
+  },
+  "b6uhtvxtqh": {
+    "defaultMessage": "VHF- en UHF-paging"
+  },
+  "b70orc7ob7": {
+    "defaultMessage": "Datatempo en het kanaal"
+  },
+  "b7i90hkgf5": {
+    "defaultMessage": "Capcode en framepositie"
+  },
+  "ba5btrqnsg": {
+    "defaultMessage": "RTL-SDR"
+  },
+  "bc0kaac6y0": {
+    "defaultMessage": "Welke radio voor welk doel?"
+  },
+  "bcxv98u65k": {
+    "defaultMessage": "100 kHz tot 3.8 GHz, Mini vanaf 10 MHz"
+  },
+  "bf6nt5m2qh": {
+    "defaultMessage": "Status en berichttekst, in de berichtweergave"
+  },
+  "bjvz910j6h": {
+    "defaultMessage": "Functie"
+  },
+  "boe9hxbg9f": {
+    "defaultMessage": "Een radionetwerk monitoren en later teruglezen"
+  },
+  "c91da206su": {
+    "defaultMessage": "RTL-SDR, een L-band patchantenne en een LNA"
+  },
+  "c9j083hd4n": {
+    "defaultMessage": "COSPAS-SARSAT-zenders op 406 MHz worden gelezen voor de identiteit van de EPIRB, PLB of ELT en de daarin gecodeerde positie, die op dezelfde kaart worden weergegeven."
+  },
+  "cbuvhctbu9": {
+    "defaultMessage": "Een pagerkanaal is overal een pagerkanaal, ongeacht de frequentieband; de decoder wordt daarom op basis van de signaalvorm en niet op basis van de band geplaatst. Richt de ontvanger op de toewijzing die uw lokale netwerk gebruikt en het apparaat werkt."
+  },
+  "ccu3wx5nor": {
+    "defaultMessage": "EGC, SafetyNET, NCS, maritieme veiligheid"
+  },
+  "cf2758yl26": {
+    "defaultMessage": "Squawk, en de noodcodes zoals deze zijn ingesteld"
+  },
+  "cf9r9k4yyf": {
+    "defaultMessage": "Het burst-signaal dat een Motorola-radio zendt wanneer de knop wordt ingedrukt, waarmee de eenheid wordt geïdentificeerd, zodat op een analoge kanaal zowel wie als wat wordt overgedragen. Ook bekend als Motorola unit id, PTT ID of noodknop."
+  },
+  "cj194hvkq8": {
+    "defaultMessage": "Download voor Linux, Windows en macOS"
+  },
+  "cji9zkweki": {
+    "defaultMessage": "Onder ongeveer 24 MHz hoort een standaard-dongle niets zonder hulp, dus kortegolf vereist een opconverter of een directe sampling-modificatie."
+  },
+  "ct8jbhzbq6": {
+    "defaultMessage": "2,4 GHz (2400-2483,5 MHz): wat zendt daar uit"
+  },
+  "curuh59ikx": {
+    "defaultMessage": "Continue decoding over de hele span, niet slechts één kanaal"
+  },
+  "cwrody0m1s": {
+    "defaultMessage": "Bron- en bestemmings-eenheid id"
+  },
+  "cx401c8i6x": {
+    "defaultMessage": "pager decoder, capcode, 512 1200 2400 baud"
+  },
+  "cx4zym6vfg": {
+    "defaultMessage": "DMR-decoder voor SDR - WaveShark"
+  },
+  "cxzmbgzc8l": {
+    "defaultMessage": "Eén ontvanger, een andere antenne en een andere dial"
+  },
+  "czxc7xwuvw": {
+    "defaultMessage": "Weerberichtvelden, indien de station ze verzendt"
+  },
+  "d07y2gj0vp": {
+    "defaultMessage": "Bedrijfsmodus: push-to-talk, noodgeval, status of bevestiging"
+  },
+  "d3d55gsii6": {
+    "defaultMessage": "afstandsafstemming, als de server dit toestaat"
+  },
+  "d3rorxyezh": {
+    "defaultMessage": "Elke RTL-SDR, met een maritieme band-antenne"
+  },
+  "d3waxb6stw": {
+    "defaultMessage": "Batterij- en foutvlaggen"
+  },
+  "d4ixikncom": {
+    "defaultMessage": "Deursloten, sensoren en stopcontacten op 9,6, 40 en 100 kbit/s, op de Europese en Amerikaanse kanalen."
+  },
+  "dchpg72mxn": {
+    "defaultMessage": "Deursluitingen, sensoren en stekkers op 9,6, 40 en 100 kbit/s, op de Europese en Noord-Amerikaanse kanalen. Ook bekend als deursluiting, slimme woning, 868,42 MHz, 908,42 MHz."
+  },
+  "ddn1vbcjwd": {
+    "defaultMessage": "ACARS-decoder voor SDR - WaveShark"
+  },
+  "df5sy3s7ib": {
+    "defaultMessage": "deurslot, slim thuis, 868,42 MHz, 908,42 MHz"
+  },
+  "dfnzulyhzn": {
+    "defaultMessage": "DAB-ensembles, benoemd naar blok in plaats van naar frequentie, met de zenders erin."
+  },
+  "dqawmcbdxj": {
+    "defaultMessage": "902-928 MHz"
+  },
+  "drqd384el8": {
+    "defaultMessage": "Scheepstype, afmetingen en diepgang"
+  },
+  "dtdf83skru": {
+    "defaultMessage": "UAT op 978 MHz"
+  },
+  "dvbxlf3vyy": {
+    "defaultMessage": "Elk spraakprotocol wordt geregistreerd in één oproeplijst: de beller, de groep, de duur en het kanaal, of de overdracht via DMR, TETRA, P25, NXDN, M17 of een analoog herhaaldstation plaatsvond. Op een analoog kanaal geven het DTMF-eenhetsnummer en de CTCSS-toon of DCS-code aan welzender radio is geactiveerd en tot welke groep deze behoort."
+  },
+  "dvirr5ri8g": {
+    "defaultMessage": "de server heeft geen beeldscherm nodig"
+  },
+  "dvzknvp12z": {
+    "defaultMessage": "De blokken zijn vernoemd naar de bandplannen in het spectrum, dus 11C wordt gelezen als 11C."
+  },
+  "dxg45mebvs": {
+    "defaultMessage": "Project"
+  },
+  "dyilckfp8o": {
+    "defaultMessage": "Een tuner op een andere machine"
+  },
+  "dzfi871i2q": {
+    "defaultMessage": "wfm, nfm, am, usb, lsb of cw."
+  },
+  "e0rx1dbbs3": {
+    "defaultMessage": "Morse-decoder voor SDR - WaveShark"
+  },
+  "e13hygios3": {
+    "defaultMessage": "Geen LimeSDR op Windows, omdat LimeSuite niet is verpakt voor dit besturingssysteem."
+  },
+  "e1uvd8p7qi": {
+    "defaultMessage": "Stem en data op een verkeerskanaal zijn versleuteld en blijven dat ook."
+  },
+  "e1vmjzo3sl": {
+    "defaultMessage": "Een dongle van 30 euro doet het grootste deel van wat op deze site wordt beschreven. Een HackRF of LimeSDR biedt toegang tot breedbandprotocolen en een zender, en een tuner op een andere machine plaatst de antenne op de plek waar de signalen zich bevinden."
+  },
+  "e21cheupvs": {
+    "defaultMessage": "Deze build bevat geen LimeSDR-stuurprogramma: LimeSuite is niet verpakt voor Windows, dus die radio verschijnt nooit in de lijst. Alles anders werkt hetzelfde als op Linux, inclusief spraak op een NVIDIA-kaart wanneer de CUDA-runtime aanwezig is."
+  },
+  "e5rweyqmex": {
+    "defaultMessage": "De band loopt in de scannerinstellingen de knop voorbij de bereikbreedte, houdt vast aan wat hij hoort of noteert het en gaat verder, waarbij een gevonden frequentie die je niet interessant vindt, als genegeerd wordt gemarkeerd. Storingen die alleen voorkomen als niemand toekijkt, zijn de reden waarom al dit onbemand verloopt."
+  },
+  "e69h98cf5b": {
+    "defaultMessage": "Lokale naam, service-UUID's en fabrikantgegevens"
+  },
+  "e72t990kub": {
+    "defaultMessage": "bandenspanningssensor, Ford, Renault, Schrader, 315 MHz"
+  },
+  "ectbhbp6tf": {
+    "defaultMessage": "APCO-25, trunking, talkgroup, radio id"
+  },
+  "eh2wayuq98": {
+    "defaultMessage": "VDL Mode 2"
+  },
+  "ej56mdif3o": {
+    "defaultMessage": "WaveShark beantwoordt een andere vraag. In plaats van de gekozen kanaal te demoduleren, decodeert het alles binnen het bemonsterde bereik en geeft het een overzicht van wat het heeft gevonden. Het resultaat is dus een lijst van apparaten, vliegtuigen, vaartuigen, pagers en mesh-knooppunten, in plaats van audio van één frequentie."
+  },
+  "ek6drwkjz0": {
+    "defaultMessage": "De lichtvliegtuigen die nooit op 1090 verschijnen, en de grondstations die weer- en verkeersgegevens naar hen doorsturen."
+  },
+  "el6jd5eohy": {
+    "defaultMessage": "Vliegtuigtransponders: ADS-B en Mode S op 1090 MHz wereldwijd, en UAT op 978 MHz voor lichte vliegtuigen in de Verenigde Staten."
+  },
+  "eom5d6muj3": {
+    "defaultMessage": "PAN id en bron- en bestemmingsadressen"
+  },
+  "esyfzm0aw8": {
+    "defaultMessage": "Full duplex: zenden en ontvangen tegelijk"
+  },
+  "f2026z95cq": {
+    "defaultMessage": "Baudrate en modulatiepeil"
+  },
+  "fat0wjn1v0": {
+    "defaultMessage": "Quarantainevlag wissen bij eerste openen"
+  },
+  "faxtcbx36k": {
+    "defaultMessage": "Eenvoudig, licht en snel te leren"
+  },
+  "fb5do6wyxj": {
+    "defaultMessage": "HF weerkabel"
+  },
+  "fbso5nr5dm": {
+    "defaultMessage": "Airband"
+  },
+  "fbzfq5xgga": {
+    "defaultMessage": "Bandenspanningsensors tijdens het passeren van auto's: de sensor-id, de druk, de temperatuur en of het wiel draait. Ook bekend als bandenspanningssensor, Ford, Renault, Schrader, 315 MHz."
+  },
+  "fcqf55ftzv": {
+    "defaultMessage": "WaveShark leest de signaalunits van het P-kanaal en de berichten die daarop worden verzonden, welke in het berichtoverzicht naast de VHF-berichten worden weergegeven, in plaats van in een apart gereedschap."
+  },
+  "fg1krst402": {
+    "defaultMessage": "Mode S is het transponderantwoord dat elke passagiersvliegtuig zendt, en ADS-B is het deel daarvan dat een positie bevat die het vliegtuig zelf heeft bepaald. WaveShark leest beide breedbandig in plaats van op een kanaal, omdat een Mode S-frame korter is dan een detectorkader, en plaatst elk vliegtuig op de kaart met daaraan een tracktabel."
+  },
+  "fkj8qkdeva": {
+    "defaultMessage": "Controleer het signaalpad zonder weergave."
+  },
+  "fkknfquam": {
+    "defaultMessage": "NOAA APT- en Meteor-M LRPT-passen getekend naarmate ze binnenkomen, HF-weerfaxkaarten en radiosondes gevolgd van lancering tot ontploffing."
+  },
+  "flot4044bl": {
+    "defaultMessage": "Het netwerk, zijn cellen en wie wordt gebeld, met een wgpu-sleutelzoekopdracht op de ciphers in een broncodebuild met de tea-functie."
+  },
+  "fm7xr88a8t": {
+    "defaultMessage": "Bediening"
+  },
+  "fmhiksmr9k": {
+    "defaultMessage": "HackRF of LimeSDR"
+  },
+  "fn6w6jq0q1": {
+    "defaultMessage": "Het zendt uit, dus een kanaal hier kan een microfoon zijn, een toon, een opname, een Flipper <code>.sub</code>-bestand, een POCSAG-pagina, een APRS-beacon, een SSTV-afbeelding of een complete DVB-T-multiplex, samengesteld uit alles wat ffmpeg kan openen."
+  },
+  "fpo68miik3": {
+    "defaultMessage": "Dit is waar een ontvanger eerst op gericht moet worden, en het is ook waar WaveShark start. De apparaten hier zenden uit volgens een eigen schema, van elke paar seconden tot elke paar minuten, waardoor het continu dekken van het hele bandbereik signalen vangt die door een scan per definitie gemist zouden worden."
+  },
+  "frrj8bw8jf": {
+    "defaultMessage": "Heb je al een radio?"
+  },
+  "fxe5v0ey0t": {
+    "defaultMessage": "Het kanaal en het tijdstip waarop het werd ingedrukt"
+  },
+  "g0bgdulx0d": {
+    "defaultMessage": "Elke RTL-SDR dongle"
+  },
+  "g0iqanewpb": {
+    "defaultMessage": "137 MHz · 400-406 MHz · HF"
+  },
+  "g46zw4ku4e": {
+    "defaultMessage": "NXDN"
+  },
+  "g50h3ct23f": {
+    "defaultMessage": "Spectrum"
+  },
+  "g5cp0wzka1": {
+    "defaultMessage": "De Itron ERT-eindpunten zijn geïnstalleerd op gas-, water- en elektriciteitsmeters in Noord-Amerika en zenden elke paar seconden een totaalverbruik door, zodat een voorbijrijdende bestelbus of een vaste ontvanger de straat kan uitlezen zonder dat iemand de straat te voet hoeft af te lopen."
+  },
+  "g7b1ui094q": {
+    "defaultMessage": "868 MHz"
+  },
+  "g8as9v28dd": {
+    "defaultMessage": "De drukste frequentieband in de meeste huishoudens: weersensoren, deurcontacten, afstandsbedieningen voor hekken, bandenspanningssensoren en alles anders dat wordt verkocht met een vergunningsvrije zender."
+  },
+  "g9ot3o9ct1": {
+    "defaultMessage": "Op een LimeSDR moet de zendpoort de juiste zijn; dit is een instelling, geen gok. Als de zender op een niet-geselecteerde poort wordt gericht, ontstaat er een stille fout die in het verleden mensen een middag heeft gekost."
+  },
+  "gaay69tb69": {
+    "defaultMessage": "COSPAS-SARSAT-zenderdecoder voor SDR - WaveShark"
+  },
+  "gfwtsgz2e5": {
+    "defaultMessage": "Elke run bedient de ontvanger via het Model Context Protocol, zodat een model kan afstemmen, kanalen kan openen, kan lezen wat is aangekomen en de signaalketen kan herbedraden in het venster dat u bekijkt."
+  },
+  "gh4btqfa1q": {
+    "defaultMessage": "IEEE 802.15.4, PAN id, slim thuis mesh"
+  },
+  "gjaek657hi": {
+    "defaultMessage": "De burst die een Motorola-zender zendt wanneer de knop wordt ingedrukt, waarmee de zender wordt geïdentificeerd, zodat op een analoog kanaal zowel wie als wat wordt overgedragen."
+  },
+  "gjd4ao4kpj": {
+    "defaultMessage": "Uplink van de grondstation: de weers- en verkeersproducten die het verzendt"
+  },
+  "gpwg5ryyw1": {
+    "defaultMessage": "Het verschil zit in wie bepaalt wat wordt uitgevoerd. In SDRangel plaatst u een demodulator op een kanaal; in WaveShark draait elke scanner binnen het bereik continu, zodat een sensor die een keer per minuut zendt wordt gevangen, ongeacht of u naar die frequentie keek. Wat u terugkrijgt, is een pakketstroom met weergaven daarover, in plaats van een rek vol instrumenten."
+  },
+  "gqhp4kd70f": {
+    "defaultMessage": "Batterijvlag, kanaal en de ingedrukte knop op een afstandsbediening"
+  },
+  "gqr196bglq": {
+    "defaultMessage": "Volwassen, met een grote gebruikersbasis en documentatie"
+  },
+  "grmnvngnh": {
+    "defaultMessage": "In Noord-Amerika verloopt het vergelijkbare verkeer grotendeels op 315 MHz en 915 MHz, en de bandenspanningssensoren zitten daar op 315 MHz."
+  },
+  "grpxcomdcx": {
+    "defaultMessage": "VDL Mode 2 heeft ACARS vervangen op de meeste Europese vlootten en op een groot deel van de rest van de wereld. Het maakt gebruik van D8PSK met een snelheid van 31.500 bits per seconde binnen een kanaal van 25 kHz, met daaronder AVLC-frames die ACARS-berichten en ATN-verkeer vervoeren."
+  },
+  "gsmxjbfz7n": {
+    "defaultMessage": "x86_64 · msi en zip"
+  },
+  "gu1w6t6ged": {
+    "defaultMessage": "Band III en kortgolffrequentie"
+  },
+  "h1to1bfdpp": {
+    "defaultMessage": "1090 / 978 / 131 MHz"
+  },
+  "h2qms9ol75": {
+    "defaultMessage": "Luchttemperatuur en -vochtigheid, gemeten door de sonde"
+  },
+  "h54q5klru5": {
+    "defaultMessage": "Openbare tuners"
+  },
+  "h6gr4k3gdg": {
+    "defaultMessage": "Amateur VHF en UHF (144-148 / 430-450 MHz): wat wordt daar uitgezonden"
+  },
+  "h9zpj42t30": {
+    "defaultMessage": "Meet een locatie en zoek storing met een SDR - WaveShark"
+  },
+  "hg5n65ai4j": {
+    "defaultMessage": "tot 30 MHz"
+  },
+  "hnnqyqjm4k": {
+    "defaultMessage": "Een CW-kanal wordt als tekst weergegeven, ongeacht de snelheid waarmee het is verzonden, inclusief de beacons die een herhaaler of zendlocatie identificeren. Ook bekend als CW-decoder, QRS, beacon."
+  },
+  "hokelj92gm": {
+    "defaultMessage": "De warmte-, water-, gas- en stroommeters die om u heen zenden: fabrikant, meternummer, versie en type. Ook bekend als wM-Bus modus T, slimme meter, OMS, 868,95 MHz."
+  },
+  "hpbp8u5xij": {
+    "defaultMessage": "NOAA APT"
+  },
+  "hs2eyet78d": {
+    "defaultMessage": "Maritiem VHF en L-band"
+  },
+  "htt1hvlg0y": {
+    "defaultMessage": "Een SAME-kop is de data-uitzending aan het begin van een weerradio-melding. Daarin staat precies welke melding het betreft, welke county-codes erop van toepassing zijn, wanneer deze is uitgegeven en wanneer deze verloopt. Dit is de volledige melding in machineleesbare vorm, voordat de aankondiger een woord spreekt."
+  },
+  "hu5ddxnmcf": {
+    "defaultMessage": "Druk en temperatuur"
+  },
+  "hufgqk0thh": {
+    "defaultMessage": "Wat eruit komt"
+  },
+  "hutd1k7wll": {
+    "defaultMessage": "De grafiek die de ontvanger uitvoert, getekend met per fase een beschrijving van wat deze heeft gedaan. In de handmatige modus wordt deze bewerkt, en een zender is dezelfde grafiek, maar met de pijlen in de andere richting."
+  },
+  "hxt5l69syn": {
+    "defaultMessage": "De pagina die je zocht is hier niet. Het spectrum wel."
+  },
+  "i42qjt06zy": {
+    "defaultMessage": "ADS-B en Mode S"
+  },
+  "i9culi1nx8": {
+    "defaultMessage": "Verre tuners"
+  },
+  "idagbwine0": {
+    "defaultMessage": "Elke flag, en de twee die het meest tellen."
+  },
+  "ifmz7mezv": {
+    "defaultMessage": "Berichtprioriteit, van routine tot nood"
+  },
+  "ihjsd3b7ud": {
+    "defaultMessage": "118-137 MHz"
+  },
+  "iltfm7mgwt": {
+    "defaultMessage": "Bands"
+  },
+  "ir1vtswptc": {
+    "defaultMessage": "Een weersatelliet in een polaire baan bevindt zich ongeveer een kwartier boven je hoofd, enkele keren per dag, en zendt onderweg een beeld van het weer onder zich door. Het is de goedkoopste satellietontvangst die er is."
+  },
+  "it4zp1fpqb": {
+    "defaultMessage": "Schrijf elke burst die wordt gedecodeerd weg als een rtl_433-stijl opname."
+  },
+  "iuo03saav1": {
+    "defaultMessage": "Publiceer elk gehoord apparaat naar Home Assistant via MQTT."
+  },
+  "ivr857t0hl": {
+    "defaultMessage": "Op een radio die dat kan"
+  },
+  "iwj4tbf4gu": {
+    "defaultMessage": "Download WaveShark voor Windows"
+  },
+  "iwm861r0m2": {
+    "defaultMessage": "Diensten in de multiplex, met labels en talen"
+  },
+  "iyl6to7y09": {
+    "defaultMessage": "Er is zowel een oproepsysteem als een berichtensysteem, voorzien van een zendlamp, zodat automatisering kan reageren op een kanaal dat bezet raakt of op een binnenkomende oproep."
+  },
+  "j34md0ov4t": {
+    "defaultMessage": "174-240 MHz"
+  },
+  "j75dv4lr3d": {
+    "defaultMessage": "Noodzenders"
+  },
+  "j7pl9x7h9g": {
+    "defaultMessage": "Het beeld van een camera rechtstreeks vanaf de span, in PAL- of NTSC-kleuren, met de gehoorde audiosubdraager en de draager benoemd naar zijn lijnfrequentie."
+  },
+  "jarn37wd59": {
+    "defaultMessage": "De datahalve is de interessantere helft: ACARS en VDL Mode 2 dragen de berichten die bemanningsleden en luchtvaartmaatschappijen met elkaar uitwisselen, en WaveShark leest ze over de gehele toewijzing in plaats van op een kanaal dat je zelf moet kiezen."
+  },
+  "jf9tv7r1uu": {
+    "defaultMessage": "Onderzoek van apparaten, luchtvaartuigen, scheepvaart, spraaknetwerken, drones, weersatellieten en meer."
+  },
+  "jgljvohn2y": {
+    "defaultMessage": "POCSAG op 512, 1200 en 2400 bit/s en FLEX op 1600 en 3200 baud, boodschaptekst in helder, plus het tweetoonpaar dat een brand- of ambulancepager activeert en het MDC-1200-eenheid-id dat een Motorola-zender zendt wanneer de knop wordt ingedrukt."
+  },
+  "jhg1lj4uqo": {
+    "defaultMessage": "Agent"
+  },
+  "jifvbtt13l": {
+    "defaultMessage": "Alles met tekst, of het nu afkomstig is van een pager-capcode, een TETRA-sprekergroep, een meshkanaal, RTTY of een Morse-sleutel. Dezelfde woorden twee keer binnen twee minuten vormen één bericht met een teller, omdat een pager elke paginering twee keer verstuurt."
+  },
+  "jn8pkegslp": {
+    "defaultMessage": "Deze twee frequenties vormen de basis van het volgen van vliegtuigen. Op 1090 MHz worden Mode S-antwoorden en ADS-B-positierapporten van alle passagiersvliegtuigen verzonden; op 978 MHz wordt UAT gebruikt, door de Amerikaanse algemene luchtvaart en door de grondstations die weer- en verkeersinformatie naar hen uitzenden."
+  },
+  "jve0c2pv2p": {
+    "defaultMessage": "Open Drone ID, indien een drone deze via BLE meedraagt"
+  },
+  "k05z3zraki": {
+    "defaultMessage": "Ondersteuning voor ISM-apparaten"
+  },
+  "k0u1cret1l": {
+    "defaultMessage": "De twee lezen de opnames van elkaar: <code>--record</code> schrijft bestanden in de stijl van rtl_433, zodat een burst die door de ene is vastgelegd, dient als testfixture voor de andere."
+  },
+  "k2wlvmh2qo": {
+    "defaultMessage": "Plaats een goedkope SDR op een band en WaveShark vertelt je wat er in de omgeving wordt uitgezonden: sensoren, TPMS, vliegtuigen en hun datalinks, schepen, radiosondes, pagers, DMR, TETRA, P25, NXDN, M17, LoRa-mesh, Wi-Fi, Bluetooth LE, Zigbee, GSM, drones, weersatellieten en televisie, continu gedecodeerd over het hele bereik."
+  },
+  "k4nppvpzrb": {
+    "defaultMessage": "Ook analoge kanalen geven hun eigen identiteit prijs: de MDC-1200-uitbarsting wanneer een Motorola-toets wordt ingedrukt, het DTMF-eenhetsnummer en de CTCSS-toon of DCS-code die aangeven tot welke groep een radio hoort. Pagering deelt dezelfde frequentiebanden, en een brandweerpager die wordt geactiveerd door een tweetoonpaar is de waarschuwing die voorafgaat aan de stemoverdracht."
+  },
+  "k55iv8kpbe": {
+    "defaultMessage": "De sleutelsweergave toont elk gecodeerd kanaal en wat er bekend is over de bijbehorende sleutel. De <code>tea</code>-functie, alleen beschikbaar in een broncodebuild, koppelt de encrypties aan een sleutelzoekfunctie die op elke GPU wordt uitgevoerd via wgpu, zodat aan een gecodeerd kanaal kan worden gewerkt in plaats van alleen het aantal kanalen bij te houden."
+  },
+  "k5a50jidry": {
+    "defaultMessage": "Meshtastic-tekst onder de open sleutels, MeshCore-advertenties en LoRaWAN-aanvraagverzoeken met de adressen die ze toewijzen. Ook bekend als Meshtastic, MeshCore, LoRaWAN, chirp spread spectrum."
+  },
+  "k62bp1wbgx": {
+    "defaultMessage": "Home Assistant"
+  },
+  "k68i8dz2xm": {
+    "defaultMessage": "Zigbee, Thread en Matter over Thread maken allemaal gebruik van IEEE 802.15.4, zodat één decoder ze allemaal kan zien. Wat leesbaar is, is het netwerklaag: PAN-id’s, korte en uitgebreide adressen, en welke apparaten routeren voor welke."
+  },
+  "k8b69jcqif": {
+    "defaultMessage": "DRM-decoder voor SDR - WaveShark"
+  },
+  "kbkj8zxmxq": {
+    "defaultMessage": "POCSAG-paging"
+  },
+  "kc5791tpe9": {
+    "defaultMessage": "868 / 908 MHz"
+  },
+  "kfkbh7wrmf": {
+    "defaultMessage": "Of het gesprek is versleuteld"
+  },
+  "kg1g0ykgdn": {
+    "defaultMessage": "Kanaalbreedte, 12,5 of 6,25 kHz"
+  },
+  "kl0vfrief7": {
+    "defaultMessage": "Band III (174-240 MHz): wat zendt daar uit"
+  },
+  "ko2yrq7tlw": {
+    "defaultMessage": "Band"
+  },
+  "kpehph1moy": {
+    "defaultMessage": "De macOS-build is de enige waarvan de ffmpeg-versie nieuw genoeg is om een dienst uit een DVB-T-multiplex te decoderen, en dus de enige build die televisiebeelden weergeeft. De spraakmodellen draaien op Metal."
+  },
+  "kr1ko69qe8": {
+    "defaultMessage": "Packetstations en voertuigtrackers, waaronder Mic-E, op de roepfrequenties van de EU, VS en JP. Een KISS-TNC op --kiss-listen levert hetzelfde verkeer door aan elk packetprogramma en stuurt AX.25 terug via de radio."
+  },
+  "kvf0tjulb": {
+    "defaultMessage": "RC-verbindingen"
+  },
+  "kxkfag3djj": {
+    "defaultMessage": "Geverifieerd met decoders van anderen"
+  },
+  "kylmd34xgg": {
+    "defaultMessage": "De satellietcomponent van de luchtvaartdatalink: dezelfde berichten als ACARS, verzonden op locaties waar geen VHF-grondstation bereik heeft. Ook bekend als satelliet-ACARS, SatCom of L-band luchtvaartcommunicatie."
+  },
+  "kyvv8atr6u": {
+    "defaultMessage": "Welke radio voor welk werk: een RTL-SDR-dongle voor de smalbandprotocollen, een HackRF One of LimeSDR voor Wi-Fi, Bluetooth, drone Remote ID en televisie, en een tuner op een andere machine via iqstream of rtl_tcp."
+  },
+  "kzqgljrzt": {
+    "defaultMessage": "Meshtastic-kanaalen met de standaard sleutel worden gedecodeerd tot tekst; kanalen met een eigen sleutel tonen de node, de hops en het pakkettype zonder de woorden. MeshCore-advertenties noemen de nodes die zich aankondigen. LoRaWAN-toetredingsverzoeken bevatten het apparaat-EUI, waarmee de sensor wordt geïdentificeerd, zelfs wanneer de payload is versleuteld."
+  },
+  "l2xfnjx8x3": {
+    "defaultMessage": "--stream <host>"
+  },
+  "l5oalybpw2": {
+    "defaultMessage": "Adressen van zender en ontvanger, met randomisatie gemarkeerd"
+  },
+  "l7dp49nlrl": {
+    "defaultMessage": "De diensten op de multiplex, met hun namen en types"
+  },
+  "lddw5tuvk7": {
+    "defaultMessage": "Hash of adres van de binding, afhankelijk van de link"
+  },
+  "lkb1pqh6rm": {
+    "defaultMessage": "Sensor-id, uniek per wiel"
+  },
+  "lq4uhjucpv": {
+    "defaultMessage": "RTTY"
+  },
+  "lx1enynw62": {
+    "defaultMessage": "Een oproepbus, een berichtbus en een zendlamp"
+  },
+  "lxq3btch7q": {
+    "defaultMessage": "DRM is de digitale uitzendstandaard die wordt gebruikt waar geen andere technologie bereik heeft. WaveShark leest de diensten in een multiplex, hun talen en hun labels, maar nog niet de audio."
+  },
+  "m6jah23yon": {
+    "defaultMessage": "Drie MSU-MR-kanaals zoals ze binnenkomen"
+  },
+  "m942ancelh": {
+    "defaultMessage": "Pakketstations, digipeaters, weerstations en voertuigtrackers, met een KISS-TNC zodat uw eigen software dezelfde radio kan gebruiken."
+  },
+  "mc16r6dfm0": {
+    "defaultMessage": "Een waarschuwing die de herhaling waard is"
+  },
+  "mdoelpfzut": {
+    "defaultMessage": "Video"
+  },
+  "mf34i99uvg": {
+    "defaultMessage": "RTL-SDR voor 900 MHz; 1800 MHz vereist een HackRF of LimeSDR"
+  },
+  "mf7ossludu": {
+    "defaultMessage": "Positie, met de bereikscirkel getekend vanuit uw antenne"
+  },
+  "mlfpzg29ei": {
+    "defaultMessage": "Op FM leest de ontvanger stereo en RDS, en <code>--mpx</code> rapporteert wat er daadwerkelijk in de multiplex van een zender zit, waardoor een mislukte RDS-decodering kan worden toegeschreven aan de zender of de ontvanger in plaats van op basis van gokwerk."
+  },
+  "mnhyf1xisk": {
+    "defaultMessage": "RF-sensoren naar Home Assistant via MQTT - WaveShark"
+  },
+  "mo6b0w6twe": {
+    "defaultMessage": "--headless-scans en logs, exact zoals de interface zou doen, wat op de machine bij de antenne hoort."
+  },
+  "moow4lzsa6": {
+    "defaultMessage": "De satellietweergave toont de passages boven uw station voor de komende dag, inclusief de piekhoogte en een hemelplot. Vervolgens volgt de downlink door middel van Doppler tijdens de gehele passage en sluit het kanaal wanneer de satelliet ondergaat. Niemand hoeft aan de knoppen te draaien."
+  },
+  "mp5rpb369q": {
+    "defaultMessage": "De LimeSDR is op papier de betere radio van de twee: 12 bit in plaats van 8, full duplex in plaats van half duplex, en twee kanalen op de USB-versie. Voor het ontvangen van een druk bezet frequentieband met een sterke zender in de buurt zijn die extra bits de bepalende factor."
+  },
+  "mscxls5b0d": {
+    "defaultMessage": "Standaard ingeschakeld. Vereist LimeSuite, daarom is het in de Windows-build weggelaten."
+  },
+  "mssdm24xaj": {
+    "defaultMessage": "iqstream en rtl_tcp"
+  },
+  "msxsq24m9t": {
+    "defaultMessage": "De zender van de spraakband is AM, waardoor de luchtband het geluid heeft dat het heeft, en deze wordt hier net als elke andere spraakkanaal getranscribeerd. Vanaf zoomniveau negen tekent de kaart luchthavens met hun luchtverkeersfrequentie, zodat de toren die je hoort met één klik bereikbaar is vanaf het vliegtuig dat je ziet."
+  },
+  "myfjeyqiu": {
+    "defaultMessage": "RTL-SDR, en een antenne afgestemd op de band"
+  },
+  "n0fuvzicg5": {
+    "defaultMessage": "Totale verbruik, zoals de meter het telt"
+  },
+  "n24jepf0qt": {
+    "defaultMessage": "1090 en 978 MHz"
+  },
+  "n2wmsuoh6g": {
+    "defaultMessage": "Modus, gedetecteerd uit de VIS-header"
+  },
+  "n4vnoy3hsy": {
+    "defaultMessage": "weersatellietbeelden, NOAA 15, NOAA 18, NOAA 19, 137 MHz"
+  },
+  "n7v207iu60": {
+    "defaultMessage": "MDC-1200"
+  },
+  "n9a24c8ed": {
+    "defaultMessage": "Een DAB-ensemble en de zenders daarin, met hun programmotypes en bitrates, en een DRM-multiplex op kortgolffrequentie of middengolffrequentie met zijn diensten, talen en labels. Beide worden gelezen op basis van hun inhoud; er wordt nog geen geluid geproduceerd."
+  },
+  "nb5tyo0rny": {
+    "defaultMessage": "Bereik →"
+  },
+  "ncvw3buhv5": {
+    "defaultMessage": "Apple silicon · dmg en een los binair bestand"
+  },
+  "nfj5vvvezo": {
+    "defaultMessage": "Een ensemble en de zenders daarin, met hun programmatypes en bitrates, worden afgelezen uit het blok dat uw zender gebruikt."
+  },
+  "ni12ux4no1": {
+    "defaultMessage": "<code>--record</code> schrijft elke burst op als een rtl_433-stijl capture, zodat zowel WaveShark als rtl_433 deze kunnen lezen. Neem een band één keer op en speel deze af na elke wijziging: geen radio nodig, hetzelfde resultaat elke keer."
+  },
+  "nipfxyxeni": {
+    "defaultMessage": "Installeer LimeSuite vanuit uw distributie of Homebrew. De macOS-app bevat een eigen kopie; de kale binary gebruikt de kopie van Homebrew."
+  },
+  "nkuqo1fnf4": {
+    "defaultMessage": "Scheepsposities en -identiteit op dezelfde kaart als de luchtvaartuigen, tegelijkertijd via beide AIS-kanaal."
+  },
+  "nkuuwlkq6t": {
+    "defaultMessage": "Dit is het bandgebied waar de meeste mensen mee beginnen, en de apparaten die erop werken zijn degenen die niemand als radio beschouwt: de buitenthermometer, de deurbel, de afstandsbediening voor het hek en de schuiflabels in een supermarkt. Bijna allemaal hebben een stabiel apparaat-id, waardoor een meting een lijst van apparaten oplevert in plaats van een lijst van transmissies."
+  },
+  "no4o6xpdmg": {
+    "defaultMessage": "Morse, RTTY, weersfaxkaarten en DRM-uitzendingen, in de banden die over continenten heen reiken."
+  },
+  "npjtn8nxp4": {
+    "defaultMessage": "HackRF of LimeSDR voor televisie; een dongle voor DAB en FM"
+  },
+  "npq37ojgln": {
+    "defaultMessage": "Berichttekst"
+  },
+  "nq0b4ljgq2": {
+    "defaultMessage": "Deursloten, sensoren en stekkers met 9,6, 40 en 100 kbit/s, op de Europese en Noord-Amerikaanse kanalen."
+  },
+  "nrrcq9trps": {
+    "defaultMessage": "De draadloze M-Bus-modus T is de modus die de meeste Europese nutsmeetapparaten gebruiken om zich aan een mobiele of vaste datacollector te melden. Elke meter identificeert zich in de open tekst, zelfs wanneer de metingen zijn versleuteld, waardoor een blok flats wordt ontleden tot een lijst van meters per fabrikant en serienummer."
+  },
+  "nwqz24hnk3": {
+    "defaultMessage": "HF-weerfaxdecoder voor SDR - WaveShark"
+  },
+  "ny5wndawu0": {
+    "defaultMessage": "45 decoders, grotendeels uit het rtl_433-assortiment. Weerstations, thermometers, TPMS-systemen (waaronder Ford en Renault), decontacten, afstandsbedieningen voor poorten, beveiligingssensoren en schaplabels, over het algemeen met een stabiel apparaat-ID dat u kunt volgen."
+  },
+  "o1b5pzilxp": {
+    "defaultMessage": "Dienstnamen en programmatypes"
+  },
+  "o1vmefkksn": {
+    "defaultMessage": "POCSAG-pagingdecoder voor SDR - WaveShark"
+  },
+  "oqtemrj7c": {
+    "defaultMessage": "Zenden"
+  },
+  "otf9oyuu4k": {
+    "defaultMessage": "EAS en SAME"
+  },
+  "ou0b999ff3": {
+    "defaultMessage": "Hardware"
+  },
+  "ovcmttwqh3": {
+    "defaultMessage": "De app is ad-hoc ondertekend in plaats van genotariseerd, waardoor bij het eerste openen een rechtermuisklik en 'Openen' vereist is, of de quarantaine-vlag handmatig moet worden verwijderd. Dit is Apples toegangsbeheer, geen waarschuwing over de software."
+  },
+  "ovtaepv3jw": {
+    "defaultMessage": "<code>--ha-spaces ism,wmbus</code> beperkt de detectie tot uw eigen sensoren en meters, wat in bijna alle gevallen gewenst is. Laat de band open voor een frequentie vol draadloze telefoons en het huis wordt overspoeld met apparaten die elk kwartier van adres veranderen; daarom is de smalle band de standaardinstelling."
+  },
+  "oyr37k9wme": {
+    "defaultMessage": "Identiteiten van noodzenders en de daarin gecodeerde positie, weergegeven op de kaart op het moment van uitzending. Ook bekend als EPIRB, PLB, ELT of 406 MHz-noodzender."
+  },
+  "oyyuolzy7a": {
+    "defaultMessage": "Langdurige ondersteuning voor een breed scala aan radio's"
+  },
+  "ozfu4vowf6": {
+    "defaultMessage": "WaveShark benoemt de draager naar de lijnsnelheid en geeft hem het kanaal dat erbij hoort, bijvoorbeeld R1, F4 of A5, in plaats van een frequentie te rapporteren die u vervolgens op moet zoeken."
+  },
+  "p3qg88eq2e": {
+    "defaultMessage": "Pakketstations, digipeaters, weersstations en voertuigtrackers, met een KISS-TNC zodat uw eigen software dezelfde radio kan gebruiken. Ook bekend als AX.25-pakket, Mic-E, 144,800 MHz, 144,390 MHz."
+  },
+  "p4lz7kuc8h": {
+    "defaultMessage": "De dial is waar je kijkt. De span is wat je verzamelt."
+  },
+  "p7irno6a1v": {
+    "defaultMessage": "WaveShark: Wireshark voor het radiospectrum, met een spectrumtrace met drie signaalpieken."
+  },
+  "p9o32qnekh": {
+    "defaultMessage": "Een apparaatoverzicht met posities en een WiGLE CSV-export"
+  },
+  "pgt3rkwz60": {
+    "defaultMessage": "Elke ondersteunde radio, en een kleine machine ernaast"
+  },
+  "pjkc6hj0at": {
+    "defaultMessage": "De bias tee voedt de mastkopversterker via de coax, wat het verschil maakt tussen een werkende 1090 MHz-opstelling en een teleurstellende."
+  },
+  "pki0nonk4x": {
+    "defaultMessage": "MOD"
+  },
+  "pl2hp929rk": {
+    "defaultMessage": "<code>--probe</code> test het signaalpad zonder weergave, en <code>--squelch-probe</code> rapporteert wat de squelch op een bepaalde frequentie leest."
+  },
+  "pl78xp3usq": {
+    "defaultMessage": "Print elk pakket zodra het binnenkomt, met of zonder venster."
+  },
+  "pn0hfb62ob": {
+    "defaultMessage": "Volg vliegtuigen en lees wat ze zenden met een SDR - WaveShark"
+  },
+  "pnnpdc8wq3": {
+    "defaultMessage": "Installeer librtlsdr, of laat het pakket het doen"
+  },
+  "pqbk79k7rs": {
+    "defaultMessage": "Dashboard"
+  },
+  "py7up7bu9e": {
+    "defaultMessage": "Advertentieadres en of dit gerandomiseerd is"
+  },
+  "q1aj9udmd2": {
+    "defaultMessage": "UAT op 978 MHz-decoder voor SDR - WaveShark"
+  },
+  "q1cisskq9t": {
+    "defaultMessage": "Een live kaart van de iqstream-servers die mensen delen via de WaveShark-directory op nostr: waar elke ontvanger zich bevindt, welke tuners deze heeft, waarnaar deze zijn ingesteld en het adres om deze te openen."
+  },
+  "q4g1bzg2ac": {
+    "defaultMessage": "ongeveer 2,4 MHz"
+  },
+  "q9ghb6p6co": {
+    "defaultMessage": "Een afstandsbediening, sensor of alarm reverse enginieren"
+  },
+  "qel5eov2i0": {
+    "defaultMessage": "Waar MCP moet draaien, of uit. Standaard 127.0.0.1:8931, tenzij anders aangegeven."
+  },
+  "qems1bibnr": {
+    "defaultMessage": "Paging is nog steeds de manier waarop ziekenhuizen, brandweer en sitealarmering mensen bereiken, waarbij POCSAG het bericht als platte tekst overdraagt met een capcode die de bestemde pager aanduidt. Een netwerk herhaalt elk bericht doorgaans, zodat WaveShark dezelfde woorden die binnen twee minuten twee keer worden ontvangen, samenvoegt tot één bericht met een teller, in plaats van beide te tonen."
+  },
+  "qj9gjdkpjq": {
+    "defaultMessage": "Tekst verschijnt in het berichtweergavevenster, net als alle andere gegevens die woorden bevatten, wat precies het punt is: een beacon-identificatiecode en een pagerbericht zijn hetzelfde type record."
+  },
+  "qn2ai0o7wl": {
+    "defaultMessage": "Drones, hun operators en hun handsets zien"
+  },
+  "qo98e1ehiy": {
+    "defaultMessage": "Radiosonden vormen de andere helft van het weerbeeld: Vaisala RS41, Graw DFM, Meteomodem M10 en M20, iMet, Meisei, MRZ en LMS6-ballonnen op de kaart, met serienummer, hoogte, klimsnelheid en de temperatuur en vochtigheid waarvoor ze zijn opgelaten. De kanaalvolging volgt de zender terwijl deze drijft, en SondeHub-lanceerlocaties geven aan wanneer de volgende sonde wordt opgelaten."
+  },
+  "qqvnbj1uic": {
+    "defaultMessage": "HackRF One of LimeSDR"
+  },
+  "qqzp7sxnuu": {
+    "defaultMessage": "137 MHz"
+  },
+  "qrdz1wv2b6": {
+    "defaultMessage": "M17 is ontworpen om te kunnen worden geïmplementeerd zonder licenties, daarom is het de enige digitale spraakmodus in de gepubliceerde versies die wordt gedecodeerd naar audio. Roepnamen worden in de stroom meegestuurd in plaats van als numerieke identificatiecodes, waardoor een oproep klinkt als twee personen en niet als twee nummers."
+  },
+  "qu6337ahba": {
+    "defaultMessage": "863-870 MHz"
+  },
+  "qz3qqo5ui8": {
+    "defaultMessage": "Niets op deze frequentie"
+  },
+  "r0neyww55y": {
+    "defaultMessage": "DJI DroneID, Open Drone ID, ASTM F3411, positie van de operator"
+  },
+  "r1j9satb68": {
+    "defaultMessage": "RC-bedieningslinks"
+  },
+  "r2id9uzhzq": {
+    "defaultMessage": "DAB"
+  },
+  "r4vbi1q9ud": {
+    "defaultMessage": "De ISM-dekking is het dunne deel: rtl_433 heeft ongeveer 250 apparaatdecoders en het bijhouden daarvan is de taak. Elk protocol heeft <decodes>een eigen pagina</decodes> die uitlegt wat het oplevert, en <bands>de bandgidsen</bands> geven aan wat er waar wordt verzonden. <registry>Het register</registry> bevat alle protocollen die de ontvanger kan bereiken, en <changelog>het wijzigingslogboek</changelog> toont wat recent is toegevoegd."
+  },
+  "r4xilm3b7z": {
+    "defaultMessage": "Node-id, hop limit en kanaalhash"
+  },
+  "r5hh4ahz0p": {
+    "defaultMessage": "Spraak"
+  },
+  "r5ive2uwg1": {
+    "defaultMessage": "Drone Remote ID"
+  },
+  "r8a865mnif": {
+    "defaultMessage": "Frame type en de command class als deze in de open staat"
+  },
+  "rb0z8bsqxf": {
+    "defaultMessage": "433 / 868 / 915 MHz"
+  },
+  "rbx4lphhpi": {
+    "defaultMessage": "De talkgroup, het radio-id en de sleutel waaronder een oproep loopt, afkomstig uit de C4FM-frames die door de Noord-Amerikaanse publieke veiligheid worden gebruikt. Ook bekend als APCO-25, trunking, talkgroup en radio-id."
+  },
+  "rchwylzo8e": {
+    "defaultMessage": "Iets anders kan het besturen"
+  },
+  "rdc764b3z8": {
+    "defaultMessage": "De volledige berichttekst"
+  },
+  "rgiwyaolql": {
+    "defaultMessage": "Geheugenbanken importeren uit Chirp, CSV, Freqman en SDR#-lijsten en exporteren als Chirp-CSV. Op een zender die kan uitzenden, gaan POCSAG-pagina's, APRS-bakens, RTTY-overs, BLE-advertenties, SSTV-beelden en RDS-namen weer de deur uit."
+  },
+  "rgx0mx5nun": {
+    "defaultMessage": "Dit is de diepste decode op de site: een 8 MHz OFDM-multiplex wordt gedemoduleerd, de transportstroom wordt hersteld, de servicetabellen worden gelezen en een programma wordt gedecodeerd naar beeld en geluid. De overdrachtsparameters die het rapporteert, zijn de parameters die een zendtechnicus zou opvragen."
+  },
+  "rj1ngyto0o": {
+    "defaultMessage": "Taal"
+  },
+  "rnljkhn2rf": {
+    "defaultMessage": "De Russische digitale weersatelliet: drie MSU-MR-kanaals trekken tijdens het passeren een strook van acht rijen tegelijk. Ook bekend als Meteor M2, MSU-MR, digitale weersatelliet."
+  },
+  "rpi644veyt": {
+    "defaultMessage": "Dien de span over iqstream toe vanaf de opzetkaart of met <code>--iqstream-listen</code>, schakel daarna <strong>list</strong> in in de mapsectie van de instellingen en <strong>locate</strong> om op de kaart te verschijnen. Laat het openbare hostveld leeg en de router wordt verzocht de poort te openen via UPnP, PCP of NAT-PMP. Een <code>wave1090</code>-doos registreert zichzelf met <code>--iqstream-list</code>."
+  },
+  "rr4mv16s7t": {
+    "defaultMessage": "digitale terrestrisch, transport stream, Freeview, multiplex"
+  },
+  "rrjtz7nf9s": {
+    "defaultMessage": "De lanceringslocaties van SondeHub worden op de kaart weergegeven met de resterende tijd tot de volgende lancering, zodat u weet wanneer u moet luisteren. Geverifieerd met SDRangel op dezelfde opname."
+  },
+  "rrk7knooy5": {
+    "defaultMessage": "Kies een band, richt je radio daarop en alle decoders die daar actief zijn, starten tegelijk. Deze pagina's beschrijven wat er op elke band te ontvangen is, wat er nodig is om het te horen en waar je moet beginnen."
+  },
+  "rsoo8ybq42": {
+    "defaultMessage": "WaveShark downloaden"
+  },
+  "ruocyarqjz": {
+    "defaultMessage": "DMR, P25, NXDN, TETRA, M17 en analoge spraak"
+  },
+  "ruxit0vqit": {
+    "defaultMessage": "390-400 MHz"
+  },
+  "rxse8jrsgq": {
+    "defaultMessage": "FLEX is het protocol waartoe de grotere pagingnetwerken zijn overgestapt, en het verweeft frames zodat meerdere pagers de luchtfrequentie efficiënt delen. Zowel twee-niveau op 1600 baud als vier-niveau op 3200 baud worden gelezen."
+  },
+  "s63rdj9e7f": {
+    "defaultMessage": "Weerballonnen op de kaart met serienummer, hoogte en klimsnelheid, in acht families, waarbij het kanaal de zender volgt terwijl deze drijft."
+  },
+  "sa6xlmnaaf": {
+    "defaultMessage": "Waar je ook op richt"
+  },
+  "sa89wr862": {
+    "defaultMessage": "De linkweergave is de juiste plek voor dit: één rij per combinatie van vliegtuig en grondstation, met daaronder de frames die tussen hen zijn uitgewisseld. 136,975 MHz is het gemeenschappelijke kanaal, maar de volledige toewijzing wordt tegelijkertijd gelezen."
+  },
+  "sctkev09ox": {
+    "defaultMessage": "Gebruiksscenario's"
+  },
+  "sehtqseaj4": {
+    "defaultMessage": "De Russische digitale weersatelliet: drie MSU-MR-kanaals trekken bij het passeren van de satelliet een strook van acht rijen tegelijk."
+  },
+  "sgc8qsdwl9": {
+    "defaultMessage": "{span} MHz breed, vast"
+  },
+  "sgwlhi7vir": {
+    "defaultMessage": "FLEX-pagingdecoder voor SDR - WaveShark"
+  },
+  "sllp83pq8i": {
+    "defaultMessage": "45 decoders uit de rtl_433-familie: weerstations, thermometers, deurcontacten, poortafstandsbedieningen, beveiligingssensoren en schaplabels. Ook bekend als rtl_433, 433,92 MHz, weerstation, deursensor."
+  },
+  "sq7ocfet1b": {
+    "defaultMessage": "Signaaltype, op de P-kanaal"
+  },
+  "sxukbbuyum": {
+    "defaultMessage": "Het Noord-Amerikaanse korte-afstandband: Itron ERT nutsmeetapparaten, LoRa, Z-Wave op 908 MHz en veel industriële telemetrie."
+  },
+  "t06pr1vko5": {
+    "defaultMessage": "SDRangel is de meest capabele multi-protocol SDR-toepassing die er is, met een langere lijst aan modi, bredere hardware-ondersteuning en jaren aan ontwikkeling erachter. Als u een specifieke demodulator op een specifieke frequentie wilt bedienen met alle parameters toegankelijk, dan is dit het betere hulpmiddel."
+  },
+  "t1g98gafpt": {
+    "defaultMessage": "WaveShark en rtl_433 - waar elk wint"
+  },
+  "t6bye6dqrj": {
+    "defaultMessage": "x86_64 · deb, rpm en een los binair bestand"
+  },
+  "t96hw1mkt0": {
+    "defaultMessage": "L-band"
+  },
+  "tkrnxyvuu3": {
+    "defaultMessage": "Kortgolfradio"
+  },
+  "tpwapvj6qs": {
+    "defaultMessage": "Coverage is het dunne deel, en de site zal dat niet ontkennen: rtl_433 heeft ongeveer 250 apparaat-decoders en WaveShark heeft vijfenveertig, veld voor veld geverifieerd tegen rtl_433 25.02 op basis van 81 opnames uit zijn corpus. Een burst waarover niets wordt beweerd, wordt toch bewaard, met zijn codering afgeleid en zijn bits eruit gesneden."
+  },
+  "tvn6ka0vth": {
+    "defaultMessage": "Frames in fase 1 van P25 bevatten het talkgroup- en bronradio-id in het open, ongeacht of de spraakbelasting is versleuteld, wat betekent dat het patroon van wie met wie spreekt leesbaar is op een systeem dat je niet kunt beluisteren."
+  },
+  "tvz0s72fbe": {
+    "defaultMessage": "RF-sensoren naar Home Assistant"
+  },
+  "tyqhv8vch1": {
+    "defaultMessage": "Alleen voor Apple-silicon. Gesigneerd maar niet genotariseerd, dus bij het eerste openen moet u met de rechtermuisknop klikken en 'Open' kiezen, of <code>xattr -dr com.apple.quarantine /Applications/WaveShark.app</code> uitvoeren. De app bevat zijn eigen ffmpeg, librtlsdr en LimeSuite; de losse binary leest deze uit Homebrew, dus voer <code>brew install ffmpeg librtlsdr limesuite</code> uit voordat u die uitvoert."
+  },
+  "tznaurebcd": {
+    "defaultMessage": "DAB bundelt meerdere zenders in één uitzending, en het lezen van het ensemble geeft aan wat er in de bundel zit, welk type programma elke zender uitzendt en hoeveel kilobits er aan is toegewezen, wat het aantal is dat bepaalt hoe het klinkt."
+  },
+  "u76o2cnhb6": {
+    "defaultMessage": "Een GSM-basisstation zendt continu uit op zijn beaconkanaal, en alles wat nodig is om het te identificeren, is in het openbaar beschikbaar: de land- en netwerkcodes, de cel-id, het locatiegebied en de buren die het aankondigt. Dit is een inventarisatie van de mobiele infrastructuur in de buurt van een ontvanger die nooit zelf zendt."
+  },
+  "ubd1ls7a3p": {
+    "defaultMessage": "acarsdec, luchtvaart datalink, 131.550 MHz"
+  },
+  "uevbn9w54w": {
+    "defaultMessage": "TETRA is de Europese standaard voor openbare veiligheid en vervoer, en zijn uitzendingen noemen het netwerk, de cel en de buren waarnaar een radio kan overschakelen. Het opzetten van een oproep noemt wie wordt gebeld, waardoor een druk systeem leesbaar wordt als een structuur in plaats van een muur van lawaai."
+  },
+  "ujsoqaudog": {
+    "defaultMessage": "De Windows-build van WaveShark beschikt niet over een LimeSDR-stuurprogramma, omdat LimeSuite niet is verpakt voor Windows. Dit is een beperking in de verpakking en geen beslissing over de hardware."
+  },
+  "ul4wcv0qhm": {
+    "defaultMessage": "Elke zender die de decoders kunnen herkennen, wordt via MQTT een Home Assistant-apparaat, zonder hub, zonder bridge en zonder cloudaccount voor de sensor die je al bezit."
+  },
+  "uoeq5qq7gg": {
+    "defaultMessage": "De opdrachtregel"
+  },
+  "uq54z3w64e": {
+    "defaultMessage": "Elke ondersteunde radio"
+  },
+  "ut2pt6mx8h": {
+    "defaultMessage": "Standaard is de modus loopback, en er wordt niet verzonden tenzij er een kanaal voor is geconfigureerd."
+  },
+  "uw9rgvkmkr": {
+    "defaultMessage": "12 bit"
+  },
+  "v004piiaej": {
+    "defaultMessage": "APRS-decoder voor SDR - WaveShark"
+  },
+  "v0e31buq3h": {
+    "defaultMessage": "8-bit sampling, waardoor een sterk signaal naast een zwak signaal moeilijker te verwerken is"
+  },
+  "v0iqa0uymq": {
+    "defaultMessage": "Coverage is het dunne deel bij ISM: rtl_433 heeft ongeveer 250 apparaatdecoders en WaveShark heeft veertig-vijf, veld voor veld gecontroleerd tegenover elkaar. <bands>De banden</bands> geven aan waar wat zich bevindt, en <cases>de gebruiksscenario’s</cases> zijn de taken waarvoor deze worden gebruikt."
+  },
+  "v0tmgwl2lg": {
+    "defaultMessage": "Alles hier is breed. Een Wi-Fi-kanaal is 20 MHz breed en DJI DroneID vereist 15,36 MS/s, waardoor dit bandbereik de scheidingslijn vormt tussen een dongle en een HackRF of LimeSDR."
+  },
+  "v59art65up": {
+    "defaultMessage": "Lees de DTMF-eenhetsnummers en de CTCSS-toon of DCS-code die op dezelfde frequentie wordt verzonden; samen geven deze aan welke radio heeft ingedrukt en tot welke groep deze behoort."
+  },
+  "v5to9vhfa": {
+    "defaultMessage": "Meteor-M LRPT"
+  },
+  "v6kh54mveh": {
+    "defaultMessage": "Een opname die wordt gedecodeerd, is een testfixture: geen radio, hetzelfde antwoord bij elke run."
+  },
+  "v7ichf3aiv": {
+    "defaultMessage": "Op een drukke 2,4 GHz-band is de weergave van kanalen de nuttige combinatie, omdat 802.15.4-kanalen overlappen met Wi-Fi-kanalen en een mesh-netwerk dat voortdurend verbinding verliest doorgaans onder een access point zit."
+  },
+  "vewencogh3": {
+    "defaultMessage": "Signaalpad"
+  },
+  "vh2v963t1n": {
+    "defaultMessage": "Bovengronds of bovenwoestijn bereikt een vliegtuig geen VHF-zender, waardoor de datalink via een Inmarsat-satelliet wordt verzonden. Omdat de satelliet geostationair is, komt het neerwaartse signaal vanuit een vaste richting, wat het tot een van de eenvoudigste satellietontvangstsignalen maakt, mits je over een patch-antenne en een ruisarme versterker beschikt."
+  },
+  "vh88ypv7zp": {
+    "defaultMessage": "Gekopieerd"
+  },
+  "vhaws6sg9s": {
+    "defaultMessage": "LoRa is een chirp, waardoor het werkt op niveaus onder het ruisvloer en waarom een conventionele scanner het nooit ziet. WaveShark plaatst de chirp-decoder op de ISM-bandbreedtes en leest wat de drie gangbare stacks erbovenop zetten."
+  },
+  "vhqo991vd2": {
+    "defaultMessage": "De serienummer, positie, hoogte en locatie van de operator van een drone, afkomstig van de Remote ID-broadcast die deze verplicht moet verzenden, en het thuispunt van een DJI-luchtrangkaart."
+  },
+  "viqx0flk3i": {
+    "defaultMessage": "Ontvangen regels per frame"
+  },
+  "vmfrdyzgfs": {
+    "defaultMessage": "Eén rij per zender die zich heeft geïdentificeerd, in plaats van per transmissie: de naam die de zender gebruikte, de fabrikant, het sterkste signaalniveau dat ooit werd waargenomen en het tijdstip van de laatste waarneming. Het selecteren van een rij toont de waarnemingen op de kaart, en een rit kan worden geëxporteerd als WiGLE-CSV."
+  },
+  "vog2lgu7lw": {
+    "defaultMessage": "Wireless M-Bus en ERT-meters: de meting"
+  },
+  "voojgf2lr0": {
+    "defaultMessage": "Het ACARS-bericht en het label"
+  },
+  "vski9xdprx": {
+    "defaultMessage": "ExpressLRS is de link die de ontvanger voor zichzelf instelt, op 2,4 GHz en in de 868 en 915 MHz-band. Ook FrSky ACCST, FlySky AFHDS-2A en XN297 speelgoedzenders worden gelezen, waarbij de laatste inclusief adres en payload wordt uitgelezen."
+  },
+  "vso9nkdyoo": {
+    "defaultMessage": "Afbeeldingen worden afgespeeld in de macOS-build, waarvan de ffmpeg nieuw genoeg is; de andere builds lezen het multiplex en tonen een lijst van wat erop staat."
+  },
+  "vwen7w6kb1": {
+    "defaultMessage": "SSID uit beacons en probe responses"
+  },
+  "vz0cl7lj2o": {
+    "defaultMessage": "Berichten verschijnen in het berichtoverzicht naast POCSAG, met dezelfde duplicatieverwijdering, zodat een site die beide standaarden draait als één stroom wordt weergegeven in plaats van twee."
+  },
+  "vzh1dlu5r4": {
+    "defaultMessage": "Elk afgerukt beeld wordt geschreven naar <code>~/.local/share/waveshark/pictures</code>. Op een radio die zendt, kan een beeld teruggezonden worden in dezelfde modi."
+  },
+  "w2zclbtyk2": {
+    "defaultMessage": "Meld een bug"
+  },
+  "w5htxyww2r": {
+    "defaultMessage": "WaveShark en SDRangel - waar elk wint"
+  },
+  "w6ysoj0kj4": {
+    "defaultMessage": "Status"
+  },
+  "w84mk04q22": {
+    "defaultMessage": "Een besturingskoppeling is het signaal dat aangeeft wat de piloot doet, in plaats van wat het vliegtuig doet. Het besturingsoverzicht toont elk kanaal live als een balk in microseconden, met de pakketfrequentie en het signaalniveau ernaast, en markeert de arm-schakelaar."
+  },
+  "w861mv3ro9": {
+    "defaultMessage": "Het opent op het dashboard op 433,92 MHz, waar de sensoren zich bevinden."
+  },
+  "w8rafrlm8x": {
+    "defaultMessage": "Alles wat de HackRF bereikt"
+  },
+  "w922jm228l": {
+    "defaultMessage": "Afstemgebied"
+  },
+  "wb3tme72va": {
+    "defaultMessage": "COSPAS-SARSAT-zenders"
+  },
+  "wj6loaoc3i": {
+    "defaultMessage": "Wie belde wie op welke talkgroup, op beide tijdsloten, met spraak via een broncode die de ambe-functie draagt."
+  },
+  "wlff7jd5e3": {
+    "defaultMessage": "Een terrestrisch televisiemultiplex is een 8 MHz OFDM-signaal dat een transportstream bevat met daarin meerdere diensten. Het lezen van één van deze carriers is de diepste decodeeroperatie op deze site en rapporteert de parameters die een zendtechnicus zou willen weten."
+  },
+  "wpzg55xm9t": {
+    "defaultMessage": "Gecodeerde positie, indien de zender een fix heeft"
+  },
+  "wqomfaurwh": {
+    "defaultMessage": "APRS-pakketten, SSTV-beelden, M17-digitale spraak en de herhaalders die zich in Morsecode identificeren."
+  },
+  "wqqh8v8zam": {
+    "defaultMessage": "Issues"
+  },
+  "wr9s5dhan7": {
+    "defaultMessage": "Ook bekend als"
+  },
+  "wubkvlqhce": {
+    "defaultMessage": "Het gedecodeerde tekst, live naarmate de tekens binnenkomen"
+  },
+  "wujef3l0o6": {
+    "defaultMessage": "Elke RTL-SDR"
+  },
+  "wukyf53cd8": {
+    "defaultMessage": "SSTV zendt een afbeelding uit als audio via een spraakkanaal, regel voor regel, over de loop van een of twee minuten. Het bekijken van het opbouwen is de helft van de aantrekkingskracht, dus de video-weergave tekent elke regel zodra deze binnenkomt, in plaats van te wachten tot het einde, en de ondertitel telt het aantal ontvangen regels."
+  },
+  "ww4mo9g2fd": {
+    "defaultMessage": "ADS-B en Mode S-decoder voor SDR - WaveShark"
+  },
+  "wwzjdlw8ns": {
+    "defaultMessage": "Analoge video"
+  },
+  "x4e8cqq59o": {
+    "defaultMessage": "Wat zendt uit op elk band - WaveShark"
+  },
+  "x6b9uxms79": {
+    "defaultMessage": "De ontvangerpositie, waarmee één ADS-B-frame een vliegtuig kan plaatsen in plaats van een paar te vereisen."
+  },
+  "x8ngpstg2i": {
+    "defaultMessage": "Een vaartuig is een hetzelfde type spoor als een vliegtuig, dus de kaart, de sporen en de bereikringen werken op dezelfde manier. Statische meldingen vullen de naam, het type en de bestemming in zodra ze binnenkomen, waardoor een vaartuig een minuut na zijn eerste positiebepaling een naam krijgt."
+  },
+  "xdakanitls": {
+    "defaultMessage": "De verkeerskanalen zijn versleuteld en blijven dat ook. Wat leesbaar is, is welk netwerk het is, onder welke cel u zich bevindt, welke buren het als dergelijke aankondigt en welke abonnee-identiteiten worden opgeroepen."
+  },
+  "xeg73htij2": {
+    "defaultMessage": "Weerballonnen op de kaart met serienummer, hoogte en klimsnelheid, in acht families, waarbij het kanaal de zender volgt tijdens het drijven. Ook bekend als RS41, DFM, M10, iMet, weerballon, SondeHub."
+  },
+  "xi0if8l70d": {
+    "defaultMessage": "Volg scheepvaart en veiligheidsverkeer met een SDR - WaveShark"
+  },
+  "xl2a1p2o61": {
+    "defaultMessage": "Overal waar pagers worden gebruikt"
+  },
+  "xrkuj4v0zp": {
+    "defaultMessage": "129-137 MHz"
+  },
+  "xvo0zcicnu": {
+    "defaultMessage": "Ongeacht welk beeld op de span verschijnt: een analoge camera, een SSTV-transmissie die regel voor regel wordt getekend, een weersatellietdoorgang die in stroken wordt opgebouwd, of een dienst van een DVB-T-multiplex. De bijschrift telt de ontvangen regels, en een keuzemogelijkheid selecteert tussen transmissies."
+  },
+  "xwxbb29je8": {
+    "defaultMessage": "136,7-137 MHz"
+  },
+  "xzz0adrow7": {
+    "defaultMessage": "Kanaal en linkkwaliteit"
+  },
+  "y0x6kccsap": {
+    "defaultMessage": "MCP op de loopback: een agent stuurt de ontvanger die u bekijkt."
+  },
+  "y2gwjkzspm": {
+    "defaultMessage": "Algoritme id en sleutel id bij een versleuteld gesprek"
+  },
+  "y7x19gkd1t": {
+    "defaultMessage": "Reverse engineering"
+  },
+  "yak1t0izeg": {
+    "defaultMessage": "802.11a/g/b en single-stream n: netwerknamen, de communicerende adressen, de snelheid waarmee elk frame arriveerde en of een adres is gerandomiseerd. Een drone die Remote ID uitzendt, onthult zijn serienummer, positie en operator, en een DJI-luchtdoel onthult ook zijn thuispunt. Vereist een HackRF of een LimeSDR, aangezien één kanaal 20 MHz breed is."
+  },
+  "yi72occiag": {
+    "defaultMessage": "Geef de ontvanger een eigen positie en een enkele positiestelplaats een vliegtuig, in plaats van een passend paar te vereisen. Een markering die uit één stel wordt getekend, is hol en sluit nooit aan bij een spoor."
+  },
+  "yjk7wo3pcr": {
+    "defaultMessage": "Een SDR-ontvanger die een agent kan besturen - WaveShark MCP-server"
+  },
+  "yjl1u33nrx": {
+    "defaultMessage": "Ontvangen regels, zodat een gedeeltelijk beeld als zodanig wordt gelabeld"
+  },
+  "ylvlo8rqks": {
+    "defaultMessage": "Zendercategorie, zodat een zweefvliegtuig niet als straaljet wordt getekend"
+  },
+  "ylyi8z9etj": {
+    "defaultMessage": "Serienummer zoals afgedrukt op het vliegtuig"
+  },
+  "yq397vf9mt": {
+    "defaultMessage": "Downlink of uplink, en de zender die het verstuurde"
+  },
+  "yr5grs6meb": {
+    "defaultMessage": "Apparaattype: water, warmte, gas of elektriciteit"
+  },
+  "yt6t6uxywj": {
+    "defaultMessage": "Inmarsat STD-C"
+  },
+  "ywxh43me71": {
+    "defaultMessage": "Het decoderen volgt niet de draaischijf. Elke scanner binnen het bemonsterde bereik werkt continu, waardoor een sensor die één keer per minuut zendt wordt opgevangen, ongeacht of u er op dat moment op was gericht."
+  },
+  "yxlf318w04": {
+    "defaultMessage": "USB en Mini, full duplex, 12 bit"
+  },
+  "z15pfrxp22": {
+    "defaultMessage": "Meshtastic-tekst onder de open sleutels, MeshCore-advertenties en LoRaWAN-aanvraagverzoeken met de adressen die ze toewijzen."
+  },
+  "z4aukxonn3": {
+    "defaultMessage": "Identiteiten van COSPAS-SARSAT EPIRB, PLB en ELT, met de daarin gecodeerde positie weergegeven op de kaart."
+  },
+  "za6bva6xtc": {
+    "defaultMessage": "Coaxiale verlies en ruis zijn groter dan netwerklanting, dus de juiste plaats voor een ontvanger is bij de antenne. Wijs <code>--stream</code> naar een iqstream- of rtl_tcp-server en deze verschijnt in de ontvangerlijst als een lokale radio, inclusief frequentieafstemming."
+  },
+  "zaowbkniva": {
+    "defaultMessage": "Motorola-eenheid-id, PTT-ID, noodknop"
+  },
+  "zgrkhnpb0h": {
+    "defaultMessage": "{clients} luisterden bij aanmelding"
+  },
+  "zo6jqp6ntt": {
+    "defaultMessage": "Serienummer, zoals op de sonde gedrukt"
+  },
+  "zoq7mr1ndv": {
+    "defaultMessage": "ADS-B, UAT, ACARS, VDL Mode 2 en AIS"
+  },
+  "zpe6qw154f": {
+    "defaultMessage": "Hoe het werkt →"
+  },
+  "zux4fiieiu": {
+    "defaultMessage": "RTL-SDR op 900 MHz; 1800 MHz vereist een HackRF of LimeSDR"
+  },
+  "zvk4n0l8e5": {
+    "defaultMessage": "Laat een agent de radio besturen"
+  },
+  "zximma6hzg": {
+    "defaultMessage": "wM-Bus mode T, slimme meter, OMS, 868,95 MHz"
+  },
+  "zxyotmjfm3": {
+    "defaultMessage": "ICAO-adres, roepnaam, positie, hoogte en snelheid"
+  }
+}

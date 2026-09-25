@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'preact/hooks';
 import type { Map as LeafletMap, LayerGroup } from 'leaflet';
+import { useIntl } from 'react-intl';
 import type { Station } from '../directory';
 
 type Leaflet = typeof import('leaflet');
@@ -28,6 +29,7 @@ function cells(stations: Station[]): Cell[] {
 }
 
 export function TunerMap({ stations, selected, onSelect }: Props) {
+  const intl = useIntl();
   const host = useRef<HTMLDivElement>(null);
   const leaflet = useRef<{ L: Leaflet; map: LeafletMap; layer: LayerGroup }>();
   const fitted = useRef(false);
@@ -46,7 +48,14 @@ export function TunerMap({ stations, selected, onSelect }: Props) {
         minZoom: 2,
         worldCopyJump: true,
         scrollWheelZoom: false,
+        zoomControl: false,
       });
+      L.control
+        .zoom({
+          zoomInTitle: intl.formatMessage({ defaultMessage: 'Zoom in' }),
+          zoomOutTitle: intl.formatMessage({ defaultMessage: 'Zoom out' }),
+        })
+        .addTo(map);
       L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 12,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -103,5 +112,5 @@ export function TunerMap({ stations, selected, onSelect }: Props) {
     }
   }, [selected]);
 
-  return <div ref={host} class="tuner-map" role="region" aria-label="Map of listed stations" />;
+  return <div ref={host} class="tuner-map" role="region" aria-label={intl.formatMessage({ defaultMessage: 'Map of listed stations' })} />;
 }

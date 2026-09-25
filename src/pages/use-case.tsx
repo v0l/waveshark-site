@@ -1,8 +1,10 @@
 import { useRoute } from 'preact-iso';
+import { FormattedMessage, useIntl } from 'react-intl';
 import { Code } from '../components/code';
 import { USE_CASES } from '../content';
 import { NotFound } from './not-found';
 import { SiteHeader } from '../components/header';
+import { useCopy, useLocalePath, useString } from '../i18n/context';
 
 /// Anything with a paragraph that names a flag or a file carries markup in the
 /// copy, so the body is written as HTML rather than escaped text.
@@ -12,11 +14,15 @@ function Para({ html }: { html: string }) {
 
 export function UseCase() {
   const { params } = useRoute();
-  const item = USE_CASES.find(c => c.id === params.id);
+  const to = useLocalePath();
+  const intl = useIntl();
+  const t = useString();
+  const useCases = useCopy()(USE_CASES);
+  const item = useCases.find(c => c.id === params.id);
   if (!item) return <NotFound />;
 
-  const i = USE_CASES.indexOf(item);
-  const next = USE_CASES[(i + 1) % USE_CASES.length];
+  const i = useCases.indexOf(item);
+  const next = useCases[(i + 1) % useCases.length];
 
   return (
     <>
@@ -24,8 +30,11 @@ export function UseCase() {
       <main id="main">
         <section class="page-head">
           <div class="wrap">
-            <nav class="crumbs" aria-label="Breadcrumb">
-              <a href="/">WaveShark</a> <span>/</span> <a href="/use-cases/">Use cases</a>
+            <nav class="crumbs" aria-label={intl.formatMessage({ defaultMessage: 'Breadcrumb' })}>
+              <a href={to('/')}>WaveShark</a> <span>/</span>{' '}
+              <a href={to('/use-cases/')}>
+                <FormattedMessage defaultMessage="Use cases" />
+              </a>
             </nav>
             <p class="eyebrow">{item.kicker}</p>
             <h1>{item.title}</h1>
@@ -41,15 +50,21 @@ export function UseCase() {
             {item.cli ? <Code html={item.cli} /> : null}
           </div>
           <aside class="case-side">
-            <p class="foot-h">What you need</p>
+            <p class="foot-h">
+              <FormattedMessage defaultMessage="What you need" />
+            </p>
             <p>{item.gear}</p>
-            <p class="foot-h">Where it lives</p>
+            <p class="foot-h">
+              <FormattedMessage defaultMessage="Where it lives" />
+            </p>
             <p class="chips">
               {item.views.map(v => (
-                <span key={v} class="chip">{v}</span>
+                <span key={v} class="chip">{t(v)}</span>
               ))}
             </p>
-            <a class="btn btn-sm" href="/download/">Download</a>
+            <a class="btn btn-sm" href={to('/download/')}>
+              <FormattedMessage defaultMessage="Download" />
+            </a>
           </aside>
         </section>
 
@@ -57,7 +72,9 @@ export function UseCase() {
           <div class="wrap">
             <h2>{next.title}</h2>
             <p>{next.summary}</p>
-            <a class="btn btn-lg" href={`/use-cases/${next.id}/`}>Read that one</a>
+            <a class="btn btn-lg" href={to(`/use-cases/${next.id}/`)}>
+              <FormattedMessage defaultMessage="Read that one" />
+            </a>
           </div>
         </section>
       </main>

@@ -1,0 +1,3905 @@
+{
+  "101ymjskz10": {
+    "defaultMessage": "Publishing everything heard is a bad idea on a busy band. Device identities are a record of who was where, and a phone or a tag that passes your window every morning is a person. Keeping it to <code>ism,wmbus</code> keeps it to your own house."
+  },
+  "1026xat01f8": {
+    "defaultMessage": "It opens on the dashboard and the dial starts at 433.92 MHz. Click the spectrum to place a channel and listen."
+  },
+  "10a7k5lbbgu": {
+    "defaultMessage": "P25 phase 1 decoder for SDR - WaveShark"
+  },
+  "10aqppmbpk9": {
+    "defaultMessage": "The other difference is what happens afterwards. Everything heard, decoded or not, goes into a log that stores the samples, so the question \"what was that burst at three in the morning\" has an answer."
+  },
+  "10ayq3jpx8o": {
+    "defaultMessage": "TEA1, TEA2, TETRAPOL alternative, trunked"
+  },
+  "10dsnjsfiwc": {
+    "defaultMessage": "A camera’s picture straight off the span, PAL or NTSC, in colour, with its audio subcarrier heard alongside. An FPV carrier is named from its line rate and given its channel: R1, F4, A5."
+  },
+  "10eagd4oe1i": {
+    "defaultMessage": "Who called whom, for how long, and on which talkgroup. M17 packet messages arrive in full with Codec 2 speech; DMR speech needs the ambe feature."
+  },
+  "10ed673hvw5": {
+    "defaultMessage": "Whether the burst is a test or a live activation"
+  },
+  "10ey1htqp4w": {
+    "defaultMessage": "LoRa mesh traffic lives here too, along with frequency-hopping industrial links that a narrowband scanner cannot follow."
+  },
+  "10geq70w98": {
+    "defaultMessage": "TETRA networks, weather balloons on their way to 30 km, and the distress beacons at 406 MHz."
+  },
+  "10hgukglr8w": {
+    "defaultMessage": "Get the build"
+  },
+  "10j84xvfpj8": {
+    "defaultMessage": "Paging requests and the identity paged"
+  },
+  "10lhogrq94i": {
+    "defaultMessage": "Message text where the channel key allows it"
+  },
+  "10pxhz5vygu": {
+    "defaultMessage": "Every decoded frame arrives in one place, and each view is a different reading of it. None of them knows a protocol: a DMR call, a TETRA call and an M17 call are the same row with different fields filled in, and an aircraft, a vessel and a mesh node are the same track."
+  },
+  "10splocz6y": {
+    "defaultMessage": "For the bare binary, install the libraries"
+  },
+  "10uuzccd35v": {
+    "defaultMessage": "PHY and the advertising channel"
+  },
+  "10wbd6vjm6h": {
+    "defaultMessage": "It reaches the settings as well, so it can add a scanner, store a memory, pick a voice, turn on a feed or manage the datasets. The default listens on loopback only, and <code>--mcp-listen off</code> stops it."
+  },
+  "10z025327mb": {
+    "defaultMessage": "Arm request, where the protocol carries it"
+  },
+  "10zxm8zxjdy": {
+    "defaultMessage": "full, {listening}"
+  },
+  "1131i1zyflp": {
+    "defaultMessage": "System information blocks, including the neighbour list"
+  },
+  "113kmw5pl6m": {
+    "defaultMessage": "APT is the oldest thing on this site and still the most satisfying: two visible and infrared channels sent as an audio-rate picture from a satellite passing overhead, and a picture of your own weather on the screen fifteen minutes later."
+  },
+  "114r8eebyge": {
+    "defaultMessage": "Where {other} is the better answer"
+  },
+  "115yodmxz8p": {
+    "defaultMessage": "Position, course, speed and altitude, Mic-E included"
+  },
+  "1168vw8evho": {
+    "defaultMessage": "Reverse engineer a remote, sensor or alarm with an SDR - WaveShark"
+  },
+  "117s9dg0g79": {
+    "defaultMessage": "RTL-SDR; speech on DMR needs a source build with ambe"
+  },
+  "11a1yka6riy": {
+    "defaultMessage": "Codec 2 speech, decoded and playable"
+  },
+  "11gqpt2gd7": {
+    "defaultMessage": "M17"
+  },
+  "11hw7psaes2": {
+    "defaultMessage": "What WaveShark adds is the rest of the receiver. The same span that is being read for sensors is also being read for aircraft, pagers, digital voice, mesh traffic and anything else in it, and a device that identifies itself becomes a row in a survey with its sightings on a map rather than a line of output."
+  },
+  "11jm8vdf8i9": {
+    "defaultMessage": "Releases"
+  },
+  "11n1jopi669": {
+    "defaultMessage": "Runs on anything, including very small hardware"
+  },
+  "11nwsu8gbtc": {
+    "defaultMessage": "RTL-SDR to read it, HackRF or LimeSDR to send it"
+  },
+  "11oe762m3lh": {
+    "defaultMessage": "CW decoder, QRS, beacon"
+  },
+  "11tcmb3zixm": {
+    "defaultMessage": "Wi-Fi"
+  },
+  "11tdz9c1kkh": {
+    "defaultMessage": "Advertising, Bluetooth 5 Long Range included, and Open Drone ID carried in it."
+  },
+  "11tz2j5f9ks": {
+    "defaultMessage": "Wi-Fi, Bluetooth LE and 802.15.4 at 2.4 GHz"
+  },
+  "11u2teu7xiu": {
+    "defaultMessage": "Band III"
+  },
+  "11vzqosp0g5": {
+    "defaultMessage": "Every commercial vessel and most pleasure craft transmit AIS: who they are, where they are, where they are going and how fast. The two channels sit 50 kHz apart, and WaveShark reads both from one span rather than making you choose."
+  },
+  "11w0qiv012y": {
+    "defaultMessage": "DMR puts two conversations in one 12.5 kHz channel by splitting it in time, and every burst names the caller, the group and the slot. That metadata is the useful half: a fleet becomes a list of radio ids and the groups they talk on, without a word of speech being decoded."
+  },
+  "11zaas7pz1q": {
+    "defaultMessage": "DMR"
+  },
+  "121bsoar62": {
+    "defaultMessage": "Remote tuners with WaveShark - what it reaches"
+  },
+  "12bqldyoo7h": {
+    "defaultMessage": "It opens on the dashboard and the dial starts at 433.92 MHz, where the devices it decodes are. Click the spectrum to place a channel and listen, drag to pan, scroll to scrub, hold shift to snap to the band plan."
+  },
+  "12d0ulbrtcs": {
+    "defaultMessage": "<code>--headless</code> runs the whole thing with no window, scanning and logging exactly as the interface would, which is what belongs on the machine in the loft."
+  },
+  "12evlta4f12": {
+    "defaultMessage": "The ones with nowhere else to go, first"
+  },
+  "12icutmjw7f": {
+    "defaultMessage": "Setup and first run on {platform}"
+  },
+  "12jg1mqyd6l": {
+    "defaultMessage": "Immediate assignment: the channel a phone is sent to"
+  },
+  "12jk2ss7irl": {
+    "defaultMessage": "IEEE 802.15.4 under all three: the addresses talking and the networks they belong to, on the channel each sits on."
+  },
+  "12k1u2hvjcw": {
+    "defaultMessage": "1090 / 978 MHz"
+  },
+  "12l95bv6ubk": {
+    "defaultMessage": "2.4 GHz"
+  },
+  "12qa1qcl5po": {
+    "defaultMessage": "137 MHz satellite"
+  },
+  "12qvu7914iu": {
+    "defaultMessage": "156-163 MHz"
+  },
+  "12rd9divgvx": {
+    "defaultMessage": "Decryption and key recovery need a source build with the tea feature. The monitor is always there."
+  },
+  "134szimvz0y": {
+    "defaultMessage": "Where WaveShark is"
+  },
+  "134x2iqboiq": {
+    "defaultMessage": "Where the sticks are on every model control link in earshot: a bar per channel in microseconds, the frame rate, the level, and whether the handset is asking to arm."
+  },
+  "13af6yzfpat": {
+    "defaultMessage": "The picture, both channels, as the pass builds"
+  },
+  "13bwu6plv71": {
+    "defaultMessage": "Pictures drawn line by line as they arrive, in Martin 1 and 2, Scottie 1, 2 and DX, and Robot 36 and 72, saved to disc when the transmission ends."
+  },
+  "13fawhnalyg": {
+    "defaultMessage": "Feed the ones that are yours into Home Assistant with <code>--ha-broker</code> and <code>--ha-spaces ism,wmbus</code>, and the reading appears as a sensor with no vendor gateway involved."
+  },
+  "13gs2eshkhe": {
+    "defaultMessage": "ACARS on the airband channels and VDL Mode 2, the datalink most European traffic uses: the aircraft, the flight and the message it sent to the ground. Inmarsat Aero brings the satellite side of the same traffic off an L-band patch."
+  },
+  "13llmnrpxqn": {
+    "defaultMessage": "DVB-T television: a multiplex is 8 MHz"
+  },
+  "13mo5jd6zfg": {
+    "defaultMessage": "Does the narrowband half of this page. Install librtlsdr0 or rtl-sdr on Linux for the udev rules; on Windows, bind WinUSB with Zadig first."
+  },
+  "13n4eru7j3p": {
+    "defaultMessage": "Latest release · {tag}"
+  },
+  "13pnn3zur0j": {
+    "defaultMessage": "MQTT · --ha-broker"
+  },
+  "13rexlgdw5v": {
+    "defaultMessage": "The services in a DRM multiplex, their languages and their labels, off a shortwave or medium wave transmission. Also known as Digital Radio Mondiale, shortwave digital, medium wave."
+  },
+  "13ry3eapfr3": {
+    "defaultMessage": "Talkgroup, colour code and time slot"
+  },
+  "13sdlc6izp": {
+    "defaultMessage": "The three message formats are read: SCM and SCM+ carry the running total, and IDM adds interval data. The meter id is stable, which is what makes a meter a device rather than a sighting."
+  },
+  "13tm9trtwzf": {
+    "defaultMessage": "Capcode and function bits"
+  },
+  "13uorgeag0q": {
+    "defaultMessage": "What is on it →"
+  },
+  "13zl8ln5ds8": {
+    "defaultMessage": "A heatmap of the band over hours, what sits on each Wi-Fi, Bluetooth and 802.15.4 channel, and a band walk that stops on whatever it hears."
+  },
+  "140l73gyh3i": {
+    "defaultMessage": "The open digital voice mode, decoded in full: callsigns, packet messages and Codec 2 speech, with nothing patent encumbered in the way. Also known as Codec 2, open digital voice, amateur."
+  },
+  "145pbw1zdys": {
+    "defaultMessage": "The faster paging standard, at 1600 and 3200 baud in two and four level, read into the same message list as POCSAG. Also known as FLEX 1600 3200, Motorola paging."
+  },
+  "146e70p7btr": {
+    "defaultMessage": "TPMS decoder for SDR - WaveShark"
+  },
+  "146jelnprqz": {
+    "defaultMessage": "several tuners as one wider span"
+  },
+  "14cw6oiln96": {
+    "defaultMessage": "The dial is where you look, the span is what you collect"
+  },
+  "14dm0w42vs": {
+    "defaultMessage": "Who is talking to whom, on every protocol at once. Wireshark’s conversation list for radio: pick a link and the packets it carried open underneath, with the payload where the protocol gives one in the clear."
+  },
+  "14jlhwpx5ek": {
+    "defaultMessage": "The span and its waterfall. Click to place a channel and listen, drag to pan, scroll to scrub, hold shift to snap to the band plan. The span can be kept as readings and exported as a heatmap page that zooms and pans, with time, frequency and decibels under a crosshair."
+  },
+  "14lve2djxoy": {
+    "defaultMessage": "WaveShark and rtl_433"
+  },
+  "14m7kbhn047": {
+    "defaultMessage": "Vaisala RS41, Graw DFM, Meteomodem M10 and M20, InterMet iMet, Meisei iMS-100, Meteo-Radiy MRZ and Lockheed Martin LMS6 are all read. A sonde drifts in frequency as it climbs and cools, so the channel follows it rather than losing it at 20 km."
+  },
+  "14nb1g13o8e": {
+    "defaultMessage": "<code>waveshark --iqstream-listen 1234</code> on the machine at the antenna, <code>waveshark --stream mast.local:1234</code> at the desk."
+  },
+  "14oxiygo9jd": {
+    "defaultMessage": "RTTY is two tones and a five bit code, and it has outlived every prediction of its death: amateur contests, weather bulletins and a fair amount of utility traffic still use it. WaveShark reads the standard speeds and both polarities, so a reversed shift is not a dead channel."
+  },
+  "14prx5qftro": {
+    "defaultMessage": "<code>--record</code> writes captures that replay identically forever, and <code>--headless</code> runs the whole receiver on a machine with no screen."
+  },
+  "14tpdml0lfd": {
+    "defaultMessage": "EAS and SAME decoder for SDR - WaveShark"
+  },
+  "14v2xbctbmc": {
+    "defaultMessage": "ACARS"
+  },
+  "14w1yr3sylq": {
+    "defaultMessage": "A multiplex read from its carriers down to its transport stream, with the service you pick playing in the window at full frame rate and its sound in step. Also known as digital terrestrial, transport stream, Freeview, multiplex."
+  },
+  "14x2jr7zxbo": {
+    "defaultMessage": "137-138 MHz"
+  },
+  "1517g19mw90": {
+    "defaultMessage": "The same pass planning applies: the satellites view has the pass, and the receiver follows the Doppler shift across it without being touched."
+  },
+  "153wpl0xpv0": {
+    "defaultMessage": "Run the tuner on a machine at the mast, read it from the desk over iqstream or rtl_tcp, and stitch several tuners into one wider span."
+  },
+  "156qmzln52p": {
+    "defaultMessage": "One build per platform, card or no card: the speech models use an NVIDIA GPU when the CUDA 12 runtime is on the machine and the CPU when it is not, and macOS uses Metal."
+  },
+  "157ho3c9l0q": {
+    "defaultMessage": "NAC, the network access code identifying the system"
+  },
+  "159d9e6ggq3": {
+    "defaultMessage": "Plug it in and press play. It opens on 433.92 MHz, where the devices it decodes are."
+  },
+  "15a2ohtvwgf": {
+    "defaultMessage": "Plug in a radio and press play."
+  },
+  "15baupv03a5": {
+    "defaultMessage": "TIME"
+  },
+  "15em8yitac3": {
+    "defaultMessage": "A window: spectrum, waterfall, envelope, bit slicing and hex for unclaimed bursts"
+  },
+  "15gtogid7j0": {
+    "defaultMessage": "Every scanner inside the sampled span runs at once, so these are not modes you switch between. Point the receiver at a band and whichever of them live there are already running."
+  },
+  "15hccmn2563": {
+    "defaultMessage": "HackRF or LimeSDR for the 2.4 GHz work, a dongle below it"
+  },
+  "15n8luiewl4": {
+    "defaultMessage": "Point it at 433.92 MHz for an hour and see what the list fills with."
+  },
+  "15ooz4gllgs": {
+    "defaultMessage": "Speech to text over decoded voice, with <code>cuda</code> moving the model onto a card."
+  },
+  "15paaksaege": {
+    "defaultMessage": "Home point, on DJI DroneID"
+  },
+  "15t6307mf9n": {
+    "defaultMessage": "Back to the front page"
+  },
+  "15w97jdlp1s": {
+    "defaultMessage": "Either the package for your distribution, or the bare binary anywhere on your path."
+  },
+  "15x2qnmz6t3": {
+    "defaultMessage": "1090 MHz"
+  },
+  "15xrar4e76e": {
+    "defaultMessage": "One packet stream, with a conversation view and a device survey over it"
+  },
+  "160btnizb6e": {
+    "defaultMessage": "A €30 dongle does most of it. Here is what the wider radios buy you."
+  },
+  "162h2anw18g": {
+    "defaultMessage": "Check the path if nothing arrives"
+  },
+  "16338458zt7": {
+    "defaultMessage": "Any RTL-SDR; transmitting needs a HackRF or LimeSDR"
+  },
+  "163d98q67s1": {
+    "defaultMessage": "Sponsor"
+  },
+  "1675i2rmukj": {
+    "defaultMessage": "Let an agent drive the radio with an SDR - WaveShark"
+  },
+  "168hkzvfjv9": {
+    "defaultMessage": "Analogue FPV video from model aircraft, on the lettered channel plans every pilot uses."
+  },
+  "16agbsjkgw0": {
+    "defaultMessage": "802.11a/g/b and single-stream n: network names, the addresses talking, the rate each frame arrived at and whether an address is randomised."
+  },
+  "16bq7g5m830": {
+    "defaultMessage": "NOAA APT decoder for SDR - WaveShark"
+  },
+  "16cbobm5tto": {
+    "defaultMessage": "Support for far more radio hardware"
+  },
+  "16ds7um3svi": {
+    "defaultMessage": "1545-1555 MHz"
+  },
+  "16i76mjnnb6": {
+    "defaultMessage": "One collected span read by more than one machine"
+  },
+  "16iseooozh2": {
+    "defaultMessage": "Analogue weather satellite pictures from the NOAA birds, drawn as the pass comes over, with the pass itself planned in the satellites view."
+  },
+  "16j2uxtvy0e": {
+    "defaultMessage": "Morse is still how a repeater identifies itself, how a propagation beacon announces its callsign and how a large part of the amateur bands operate. The decoder follows the sending speed rather than being told it."
+  },
+  "16ozg45wkzs": {
+    "defaultMessage": "Aircraft on a map with callsign, altitude, speed, track and position, read off the 1090 MHz downlink alongside everything else in the span."
+  },
+  "16phao5egph": {
+    "defaultMessage": "The HackRF is half duplex and 8 bit, and neither of those matters much for this work. What matters is 20 MS/s of span, which is the difference between reading a Wi-Fi channel and not, and coverage up to 6 GHz, which is what puts FPV video on 5.8 GHz within reach."
+  },
+  "16xprg0nmao": {
+    "defaultMessage": "The default listens on loopback only, because a socket that drives a radio should not be handed to a network by leaving a host out. <code>--mcp-listen off</code> stops it entirely, and a <code>host:port</code> puts it somewhere else deliberately."
+  },
+  "16y1mmq78ca": {
+    "defaultMessage": "{shown} of {total, plural, one {# station} other {# stations}}, {placed} on the map, from {answered} of {relays} relays"
+  },
+  "16yx4xoc6wo": {
+    "defaultMessage": "WaveShark serves iqstream as well, so a machine already collecting a span can hand the same samples to another one without a second antenna. Add <code>,tune</code> and a subscriber can move the dial, which moves it on the serving screen too."
+  },
+  "1714wo5vmer": {
+    "defaultMessage": "144.500 MHz and HF"
+  },
+  "171nwwtz69g": {
+    "defaultMessage": "Which security class the cell is running"
+  },
+  "1749ci6oufa": {
+    "defaultMessage": "Moving or stationary, where the sensor says"
+  },
+  "174r6zx7rr6": {
+    "defaultMessage": "The bandwidth is the limit, not the decoding. A 2.4 MHz span across 433 MHz holds every sensor in a building at once; the same span cannot hold one Wi-Fi channel."
+  },
+  "175zioniw5g": {
+    "defaultMessage": "GSM 900 and 1800"
+  },
+  "178obt9yixc": {
+    "defaultMessage": "Anything nothing claims still gets its coding inferred and its bits sliced out, so an unknown remote is a starting point rather than a blank."
+  },
+  "17d2o1i3aij": {
+    "defaultMessage": "Line rate and index of cooperation"
+  },
+  "17dhrh1mvhc": {
+    "defaultMessage": "The beacon message is read for its country code, its identity and its position, and the beacon appears on the map as a track like any other. The 121.5 MHz homing carrier is a separate, undecoded signal."
+  },
+  "17dl3dx5b3c": {
+    "defaultMessage": "Fifteen views on one stream"
+  },
+  "17dm9j2v2vm": {
+    "defaultMessage": "It opens on a dashboard, and the dial starts at 433.92 MHz where the devices it decodes are."
+  },
+  "17ffdephq4l": {
+    "defaultMessage": "Source and destination radio id, and whether it is a group or private call"
+  },
+  "17i61jza4il": {
+    "defaultMessage": "WaveShark for {platform}"
+  },
+  "17j4te9bn8n": {
+    "defaultMessage": "136-174 / 400-470 MHz"
+  },
+  "17lowkdtha1": {
+    "defaultMessage": "Digital Radio Mondiale, shortwave digital, medium wave"
+  },
+  "17m1oouswh7": {
+    "defaultMessage": "Raw timings and bits for anything unclaimed"
+  },
+  "17nkpfi0q7b": {
+    "defaultMessage": "868 MHz (863-870 MHz): what is transmitting there"
+  },
+  "17o7sxi1opu": {
+    "defaultMessage": "Any RTL-SDR; HF needs an upconverter or direct sampling"
+  },
+  "17o893b69em": {
+    "defaultMessage": "Only the macOS build shows the picture, because it is the only one whose ffmpeg is new enough; the others read the multiplex and list its services. Transmitting a multiplex works the other way, from a transport stream file or anything ffmpeg can open."
+  },
+  "17pewyf5xdt": {
+    "defaultMessage": "RAN, the system number"
+  },
+  "17pwljmonx7": {
+    "defaultMessage": "WFM with stereo and RDS, NFM, AM, USB, LSB and CW, several channels at once, with a local Whisper or Qwen3-ASR model writing the words down as they are spoken. Every over can be kept as Opus and played back from the call list."
+  },
+  "17pzwlggiu2": {
+    "defaultMessage": "radioteletype, Baudot, 45.45 baud"
+  },
+  "17r3p1d8084": {
+    "defaultMessage": "This is where working radio lives, and where the identities matter more than the audio. DMR, P25 and NXDN all name the caller and the group in clear even where the speech is encrypted, so the shape of a fleet is readable from the metadata alone."
+  },
+  "17rb1dukwzw": {
+    "defaultMessage": "Any RTL2832U dongle"
+  },
+  "17rz2x12g9d": {
+    "defaultMessage": "Download"
+  },
+  "17toe05fpxc": {
+    "defaultMessage": "Change any setting, including the scanner table"
+  },
+  "17vruzur1od": {
+    "defaultMessage": "Weather fax is a chart sent as a slow picture over a single sideband channel, still broadcast for shipping by several national services. A full chart takes several minutes and appears line by line."
+  },
+  "184cpjwelyt": {
+    "defaultMessage": "136-174 / 400-470 / 700-800 MHz"
+  },
+  "184u2hwo6og": {
+    "defaultMessage": "The FIPS county codes covered"
+  },
+  "188vik4p284": {
+    "defaultMessage": "Several matching tuners can be offered as one wider receiver: the drift between them is measured on the band they share and taken out, which is how you cover more span than any one radio can."
+  },
+  "189jbqoilwv": {
+    "defaultMessage": "A permission error opening the dongle is the udev rules missing, not a broken device"
+  },
+  "18aft6hjttf": {
+    "defaultMessage": "Ford and Renault sensors are decoded along with the generic families, with pressure and temperature where the sensor sends them. Europe uses 433.92 MHz and North America 315 MHz."
+  },
+  "18e7x39zmvi": {
+    "defaultMessage": "The satellites view lists every pass over your station for the next day with peak elevation, a sky plot, live azimuth, elevation and Doppler, and how stale the orbital elements are. Listening follows the downlink through the whole pass and closes when the satellite sets, so a picture builds up without anyone touching the dial."
+  },
+  "18fgsyrzkr4": {
+    "defaultMessage": "Any RTL2832U dongle, from about €30"
+  },
+  "18fp23i5ryy": {
+    "defaultMessage": "The station name, from your own list"
+  },
+  "18l6v11b8e4": {
+    "defaultMessage": "The <code>.deb</code> and <code>.rpm</code> pull in librtlsdr, which brings the udev rules that let you open a dongle without root. With the bare binary, install <code>librtlsdr0</code> or <code>rtl-sdr</code> yourself. LimeSDR support is compiled in."
+  },
+  "18ndk9c1pt4": {
+    "defaultMessage": "DJI airframes also broadcast DJI DroneID, which adds the home point, meaning the place the aircraft took off from. That needs 15.36 MS/s, so it is a HackRF or LimeSDR job rather than a dongle one."
+  },
+  "18o1ne0dp3w": {
+    "defaultMessage": "DVB-T television"
+  },
+  "18xcz4g6ddo": {
+    "defaultMessage": "ICAO address, and the callsign when the aircraft sends one"
+  },
+  "18yvf5lkeld": {
+    "defaultMessage": "Bit rate and protection level per service"
+  },
+  "196z9ki0prl": {
+    "defaultMessage": "Positions where the message carries them, drawn on the map"
+  },
+  "19b0o1cciyj": {
+    "defaultMessage": "RTL-SDR with an upconverter or direct sampling"
+  },
+  "19dhzehakj6": {
+    "defaultMessage": "Which identity spaces are worth publishing, e.g. ism,wmbus."
+  },
+  "19dyvpc2gu8": {
+    "defaultMessage": "Devices"
+  },
+  "19eyveaiko6": {
+    "defaultMessage": "Any RTL-SDR, and an antenna cut for 1090 MHz"
+  },
+  "19gvpty4f06": {
+    "defaultMessage": "Record the burst with <code>--record</code> and open an issue with the capture. A capture that decodes becomes a test fixture."
+  },
+  "19lapl1der2": {
+    "defaultMessage": "What a local model read off everything heard, newest at the bottom, a line marked as it grows and a low-confidence reading flagged. Whisper in every size or Qwen3-ASR, on the CPU or a named GPU."
+  },
+  "19s6sqqrzg6": {
+    "defaultMessage": "The one view showing something nobody has heard yet: every pass over the station in the next day, with peak elevation, a sky plot, live az/el and Doppler, and how stale the elements are. Listening follows the downlink across the pass and closes when the satellite sets."
+  },
+  "19txf7esmza": {
+    "defaultMessage": "The light aircraft that never appear on 1090, and the ground stations uplinking weather and traffic to them. Also known as UAT978, ADS-B UAT, FIS-B, TIS-B."
+  },
+  "19vkt15yirb": {
+    "defaultMessage": "UHF and band III"
+  },
+  "19vl8f2fiz2": {
+    "defaultMessage": "Analogue video and FPV"
+  },
+  "1a56fxt6c5v": {
+    "defaultMessage": "What it does"
+  },
+  "1a71mq8346n": {
+    "defaultMessage": "AX.25 packet, Mic-E, 144.800 MHz, 144.390 MHz"
+  },
+  "1adtuo86ix2": {
+    "defaultMessage": "The picture, in colour, PAL or NTSC"
+  },
+  "1aef5yzrf88": {
+    "defaultMessage": "Serve this span so another machine can read the same samples. Add ,tune to let a subscriber move the dial."
+  },
+  "1anxwulk9sc": {
+    "defaultMessage": "The message text, where the airline sends it in clear"
+  },
+  "1ap57x2z8t5": {
+    "defaultMessage": "Call length and the channel it ran on"
+  },
+  "1apw2e2k0nn": {
+    "defaultMessage": "Zigbee, Thread and Matter decoder for SDR - WaveShark"
+  },
+  "1arye9c76pr": {
+    "defaultMessage": "Constellation, guard interval, code rate and cell id"
+  },
+  "1at4owa148n": {
+    "defaultMessage": "Racing and freestyle quadcopters still fly analogue video, because it degrades gracefully where digital cuts out. There is nothing encrypted and nothing that checks itself, so a receiver either draws the picture or does not."
+  },
+  "1at9fgdy08": {
+    "defaultMessage": "The station identifier at the end of the header"
+  },
+  "1atuz2h83ft": {
+    "defaultMessage": "HF and VHF"
+  },
+  "1au1c67x0rt": {
+    "defaultMessage": "HackRF One with WaveShark - what it reaches"
+  },
+  "1avaaomznc4": {
+    "defaultMessage": "Beacon type: EPIRB, PLB or ELT"
+  },
+  "1ax2rri7hdw": {
+    "defaultMessage": "Decoders"
+  },
+  "1azlhpyiyiw": {
+    "defaultMessage": "All seven weather radio channels are placed, so the receiver finds the one your transmitter uses rather than waiting for you to guess."
+  },
+  "1azm99r1ead": {
+    "defaultMessage": "Issue time and purge time"
+  },
+  "1b0wsnygjd7": {
+    "defaultMessage": "The chart itself, as it draws"
+  },
+  "1b31gg104ze": {
+    "defaultMessage": "Checked against colaclanth’s decoder on the same recordings."
+  },
+  "1b56puqx555": {
+    "defaultMessage": "M17 and DMR"
+  },
+  "1b65hn2gbxy": {
+    "defaultMessage": "--probe tests the signal path with no display, which is what to run over ssh on a headless machine."
+  },
+  "1b879yz2nsq": {
+    "defaultMessage": "The use cases say what each one is for, from a device survey on a dongle to drone Remote ID on a HackRF."
+  },
+  "1bddohxetko": {
+    "defaultMessage": "1090 and 978 MHz (978 / 1090 MHz): what is transmitting there"
+  },
+  "1bfmhjmf99p": {
+    "defaultMessage": "North American utility meters: the consumption number, the meter id and the type, in SCM, SCM+ and IDM formats. Also known as SCM, SCM+, IDM, rtlamr, 915 MHz meter."
+  },
+  "1bk0diq8h77": {
+    "defaultMessage": "Frame type: management, control or data"
+  },
+  "1bnfhylvvkh": {
+    "defaultMessage": "Gqrx is a fine radio for listening to one thing at a time. WaveShark is for finding out what is there in the first place."
+  },
+  "1bp3zp2s7zc": {
+    "defaultMessage": "Where the sticks are on every model control link in earshot: a bar per channel in microseconds, with the frame rate and whether the handset is asking to arm."
+  },
+  "1bq0lun7sz7": {
+    "defaultMessage": "Tamper flags for the physical and encoder switches"
+  },
+  "1bs1995y51a": {
+    "defaultMessage": "A CW channel read as text at the speed it was sent, and RTTY in Baudot from 45.45 to 200 baud, either way up. EAS and SAME alert headers are read on the seven NOAA Weather Radio channels."
+  },
+  "1bui33dxznu": {
+    "defaultMessage": "It reads the spectrum, the packets, the calls, the transcript and the tracker. It changes anything in the signal chain and draws the chain itself: add stages, wire them, delete them, undo, and go back to the automatic graph. It reaches the settings too, so it can add a scanner, store a memory, pick a voice, turn on a feed or manage the cached datasets."
+  },
+  "1bw4ickrcat": {
+    "defaultMessage": "Operator position, where the aircraft has a fix"
+  },
+  "1bzpl2tp9hm": {
+    "defaultMessage": "The 802.15.4 layer under all three stacks: the addresses talking, the networks they belong to and the channel each sits on. Also known as IEEE 802.15.4, PAN id, smart home mesh."
+  },
+  "1c4ki30jg2x": {
+    "defaultMessage": "Every run of WaveShark serves the receiver over the Model Context Protocol at <code>http://127.0.0.1:8931/mcp</code>. It is the receiver on the screen rather than a headless second one, so what the agent tunes, opens or switches on appears in the window, and it can take a picture of that window to check what it did."
+  },
+  "1c50ow6yf3o": {
+    "defaultMessage": "Multi-protocol SDR software"
+  },
+  "1c82zlecqx": {
+    "defaultMessage": "What it gives you →"
+  },
+  "1c92bt42uhb": {
+    "defaultMessage": "Plug in a radio and press play"
+  },
+  "1c9m9ft28pj": {
+    "defaultMessage": "Temperature, humidity, rain and wind where the sensor sends them"
+  },
+  "1cc5ijdjwj8": {
+    "defaultMessage": "Gqrx does one job well: tune a frequency, pick a demodulator, listen. It is light, stable and the first thing many people install with a dongle, and for listening to a repeater or a broadcast station it remains the shorter path."
+  },
+  "1ccwglfcol5": {
+    "defaultMessage": "AIS positions and vessel identity on the map, Inmarsat STD-C safety broadcasts, and COSPAS-SARSAT distress beacons with the position they encode."
+  },
+  "1cece0c57yq": {
+    "defaultMessage": "A row per enciphered channel and what is known about its key. The monitor is always there; decryption and key recovery need the tea feature."
+  },
+  "1ceq5csqyfz": {
+    "defaultMessage": "UHF · band III · shortwave"
+  },
+  "1cg07td3vga": {
+    "defaultMessage": "Sample format"
+  },
+  "1cgyxgucgk5": {
+    "defaultMessage": "Speech runs on Metal, so there is no CUDA question here"
+  },
+  "1ciufesyvck": {
+    "defaultMessage": "Build from source"
+  },
+  "1cl74dbv8f": {
+    "defaultMessage": "The service and the ocean area it was addressed to"
+  },
+  "1clyqli0yj4": {
+    "defaultMessage": "AIS"
+  },
+  "1cn31uq4k2d": {
+    "defaultMessage": "{minutes} min sessions"
+  },
+  "1cnngs79vxw": {
+    "defaultMessage": "WaveShark - Wireshark for the radio spectrum"
+  },
+  "1cno0rocrcn": {
+    "defaultMessage": "MCP on the loopback, and MQTT to the house"
+  },
+  "1cnvnajty13": {
+    "defaultMessage": "The satellites view lists every pass over your station for the next day with peak elevation and a sky plot. Listening follows the downlink across the pass, correcting for Doppler, and closes the channel when the satellite sets."
+  },
+  "1cp8t65qodg": {
+    "defaultMessage": "Repository"
+  },
+  "1cro97h6sqf": {
+    "defaultMessage": "Windows"
+  },
+  "1cs6y0du4qv": {
+    "defaultMessage": "1 MHz to 6 GHz"
+  },
+  "1ctsf6yll6n": {
+    "defaultMessage": "Aircraft on a map with callsign, altitude, speed, track and position, read off the 1090 MHz downlink alongside everything else in the span. Also known as dump1090, 1090 MHz, Mode S, secondary radar."
+  },
+  "1cy61rwtjlt": {
+    "defaultMessage": "Linux"
+  },
+  "1d4uczg30dp": {
+    "defaultMessage": "Television"
+  },
+  "1d4yhky7fnh": {
+    "defaultMessage": "The traffic is a running commentary on what is happening at sea, and it arrives in the message view with the pagers and the mesh text rather than in a separate window."
+  },
+  "1d5u64e8gro": {
+    "defaultMessage": "A cell’s identity off its synchronisation burst, the blocks it broadcasts, who a page is calling, and the channel a phone is sent to."
+  },
+  "1d9kw374n6w": {
+    "defaultMessage": "Who called whom on which talkgroup, on both time slots, with speech through a source build carrying the ambe feature. Also known as MOTOTRBO, Tier II, talkgroup, DMR ID."
+  },
+  "1dbm6xe8otn": {
+    "defaultMessage": "No location given"
+  },
+  "1dgjoj2lz88": {
+    "defaultMessage": "Business VHF and UHF"
+  },
+  "1dh5ji9ns1a": {
+    "defaultMessage": "868.95 / 915 MHz"
+  },
+  "1dl5jqh26jd": {
+    "defaultMessage": "WaveShark home"
+  },
+  "1dnwjmmk7zt": {
+    "defaultMessage": "Called and calling identities on call setup"
+  },
+  "1dug68p9l3h": {
+    "defaultMessage": "It is also the band where Home Assistant integration earns its place. Point <code>--ha-broker</code> at the broker Home Assistant already uses, keep it to <code>ism,wmbus</code>, and your own meters and sensors appear as devices with no vendor gateway in the path."
+  },
+  "1dvxnhl4tl": {
+    "defaultMessage": "FREQ"
+  },
+  "1dyj0clbky4": {
+    "defaultMessage": "What you need"
+  },
+  "1e03iajjgo5": {
+    "defaultMessage": "The European short range band: utility meters, Z-Wave locks and sensors, LoRa mesh networks and the longer-range end of home automation."
+  },
+  "1e10c9xk046": {
+    "defaultMessage": "Write the raw span from the moment the radio starts."
+  },
+  "1e59c9bm9a": {
+    "defaultMessage": "MMSI, and the vessel name and call sign from static reports"
+  },
+  "1e6tbeo02fi": {
+    "defaultMessage": "What is sitting on each Wi-Fi, Bluetooth and 802.15.4 channel, how loud it is and how crowded the channel is, which is the view that says where to put your own network."
+  },
+  "1e9ok7hj406": {
+    "defaultMessage": "5645-5945 MHz"
+  },
+  "1e9uiv4etm8": {
+    "defaultMessage": "Speech needs a source build with the ambe feature; the published binaries decode everything but the audio."
+  },
+  "1ehel55qpyo": {
+    "defaultMessage": "Recording, transcription and a searchable message history"
+  },
+  "1ehyk7udya5": {
+    "defaultMessage": "Turn on Record and each over is kept as Opus. A timeline under the call list draws the recordings against the clock with the quiet marked, so an afternoon can be dragged out as one file, and the recordings table filters by talkgroup, caller, system or frequency."
+  },
+  "1envjz6gdlb": {
+    "defaultMessage": "Analogue weather satellite pictures from the NOAA birds, drawn as the pass comes over, with the pass itself planned in the satellites view. Also known as weather satellite images, NOAA 15, NOAA 18, NOAA 19, 137 MHz."
+  },
+  "1er5b69sbss": {
+    "defaultMessage": "Tuners"
+  },
+  "1esyzrqm88y": {
+    "defaultMessage": "First run"
+  },
+  "1ev8p516lvo": {
+    "defaultMessage": "AIS puts vessels on the same map as the aircraft, with identity, position and track, and marine VHF voice runs on channels of its own in the call list beside them."
+  },
+  "1f423dts634": {
+    "defaultMessage": "Zoom in"
+  },
+  "1f4ojr3bqke": {
+    "defaultMessage": "AIS positions and vessel identity, on the same map as the aircraft, with Inmarsat STD-C carrying the EGC and SafetyNET broadcasts sent to them."
+  },
+  "1fai3v6mslm": {
+    "defaultMessage": "An MCP server, so an agent can drive the receiver you are watching"
+  },
+  "1fc27pf8yfz": {
+    "defaultMessage": "Warm the dataset cache before going somewhere without a connection."
+  },
+  "1fcnvnywgcv": {
+    "defaultMessage": "The control view is the other half: every model control link in earshot with a bar per channel in microseconds, the frame rate, the signal level and whether the handset is asking to arm. ExpressLRS is placed by the receiver itself; FrSky ACCST, FlySky AFHDS-2A and XN297 are read as well."
+  },
+  "1fhd5hwexrc": {
+    "defaultMessage": "Free slot"
+  },
+  "1fiu4n7vic6": {
+    "defaultMessage": "Four minutes, most of it the driver. If the spectrum moves, the radio is open and every scanner in the span is already running."
+  },
+  "1fnfi3z007r": {
+    "defaultMessage": "P25 phase 1"
+  },
+  "1fq5ecbfazc": {
+    "defaultMessage": "slow scan television, Martin, Scottie, Robot 36"
+  },
+  "1fsnq0x06lx": {
+    "defaultMessage": "from about €30"
+  },
+  "1fviq92uqmq": {
+    "defaultMessage": "TPMS: pressure, temperature, moving or not"
+  },
+  "1g1e6jvxex1": {
+    "defaultMessage": "<release>The release page</release> has the lot."
+  },
+  "1g1qea5pupy": {
+    "defaultMessage": "A drone broadcasting Remote ID gives up its serial, its position and where the operator is standing, whether that broadcast rides on Wi-Fi or on Bluetooth LE. A DJI airframe reading its own DroneID adds the home point, which is where it took off from."
+  },
+  "1g1sj3dvrxc": {
+    "defaultMessage": "ADS-B and Mode S onto a map with a track table: callsign, altitude, speed, track, position. UAT at 978 MHz adds light aircraft and the ground stations’ weather and traffic uplink."
+  },
+  "1g24d6gd3w5": {
+    "defaultMessage": "Vessel positions and identity on the same map as the aircraft, off the two AIS channels at once. Also known as vessel tracking, marine AIS, 161.975 MHz."
+  },
+  "1g2ovf85cgd": {
+    "defaultMessage": "Packet payloads, including text messages"
+  },
+  "1g767lx0t48": {
+    "defaultMessage": "P25 phase 1 gives the talkgroup, the radio id and the key a call is under. NXDN on the 12.5 and 6.25 kHz channels gives the system number, who called whom and whether the speech is enciphered. Neither has sound yet."
+  },
+  "1g9htwq1cda": {
+    "defaultMessage": "Every protocol WaveShark reads, and what each one gives you."
+  },
+  "1gcgdhll3yt": {
+    "defaultMessage": "Every WaveShark flag: --tune, --span, --mode, --record, --replay, --headless, --survey, --mcp-listen, --kiss-listen, --iqstream-listen, --ha-broker, --probe and the switches that open the receiver on a view."
+  },
+  "1gcws9ummjb": {
+    "defaultMessage": "bare binary"
+  },
+  "1gn0mh7j9nb": {
+    "defaultMessage": "Originator and event code, expanded to its name"
+  },
+  "1gnyw579yh6": {
+    "defaultMessage": "satellite ACARS, SatCom, L band aero"
+  },
+  "1go97txz3ew": {
+    "defaultMessage": "A geostationary satellite is a signal from a fixed direction that never sets, which makes L band the easiest satellite reception after the 137 MHz weather birds, once you have a patch antenna and a low noise amplifier."
+  },
+  "1gs7sgm4ey9": {
+    "defaultMessage": "Heatmap export keeps the span as readings and writes a page that zooms and pans, with time of day, frequency and decibels under a crosshair. A row is the loudest each bin reached rather than a snapshot, so a transmitter that fired once at three in the morning is still there in the morning, and moving the dial widens the picture instead of clearing it."
+  },
+  "1gu0dqhqsf1": {
+    "defaultMessage": "Jobs one SDR receiver does: survey the wireless devices around you, track aircraft and shipping, monitor and transcribe radio networks, reverse engineer a remote, follow drones, receive weather satellites and radiosondes, run an amateur station, and let an agent drive the radio."
+  },
+  "1gw0sycr8iz": {
+    "defaultMessage": "Robustness mode and spectrum occupancy"
+  },
+  "1h1mxhvxnrx": {
+    "defaultMessage": "LoRaWAN join requests and addresses, Meshtastic text under the public keys, MeshCore adverts."
+  },
+  "1h3dl3ydaev": {
+    "defaultMessage": "UHF"
+  },
+  "1h598maslqw": {
+    "defaultMessage": "Decoders here"
+  },
+  "1h6bmoat6z0": {
+    "defaultMessage": "Take broadcast apart"
+  },
+  "1h9od13ekot": {
+    "defaultMessage": "The datalink most European traffic now uses, carrying the same airline messages as ACARS at eight times the rate."
+  },
+  "1hetooqn2xa": {
+    "defaultMessage": "Unit id, in hex as the fleet map writes it"
+  },
+  "1hh8519ohhn": {
+    "defaultMessage": "Run it with no window at all"
+  },
+  "1hjtnrxc6ae": {
+    "defaultMessage": "All the bands"
+  },
+  "1hjx30y08di": {
+    "defaultMessage": "tuner {id}"
+  },
+  "1hkncbrxp7q": {
+    "defaultMessage": "The audio subcarrier, played alongside"
+  },
+  "1hp2ztw8k07": {
+    "defaultMessage": "NOAA Weather Radio, emergency alert, 162.400 MHz"
+  },
+  "1hpc4bz64it": {
+    "defaultMessage": "802.11, beacon frames, SSID, probe request"
+  },
+  "1hppvcmct2s": {
+    "defaultMessage": "2.4 GHz · 5 GHz · any band"
+  },
+  "1hqag40yr6w": {
+    "defaultMessage": "1.2 / 2.4 / 5.8 GHz"
+  },
+  "1hr8y37b5qi": {
+    "defaultMessage": "A channel’s transmit source can be the agent itself. Give it a name and it answers when called: it hears the over, replies in its own voice and keeps the conversation going for half a minute without being named again."
+  },
+  "1hv003kqpno": {
+    "defaultMessage": "Z-Wave sits below the Zigbee crowd at sub-gigahertz, which is why it goes through walls better and why it never shows up on a 2.4 GHz survey. All three data rates are read, so an old sensor at 9.6 kbit/s appears beside a new lock at 100."
+  },
+  "1hwjmx3hypf": {
+    "defaultMessage": "The block, named from the band plan"
+  },
+  "1hyghsfav99": {
+    "defaultMessage": "WaveShark and Gqrx"
+  },
+  "1i0s36b57lv": {
+    "defaultMessage": "Everything the HackRF reaches plus full duplex and 12 bit samples, on Linux and macOS. There is no Windows build."
+  },
+  "1i16t0a28ze": {
+    "defaultMessage": "A single position frame from an aircraft you have no pair for still places it, as long as the receiver knows where it is: give it <code>--location</code> or set the station position and the surface position decoding has its reference. A mark drawn from one frame is hollow and never joins a trail, so a guess never becomes a track."
+  },
+  "1i1fkla60gk": {
+    "defaultMessage": "Screenshot the window to check its own work"
+  },
+  "1i3cvqqsstc": {
+    "defaultMessage": "List your own"
+  },
+  "1i3d1npb121": {
+    "defaultMessage": "Windows will not let any user-space program open an RTL2832U until WinUSB is bound to it, because the device arrives claiming to be a television tuner. Zadig does that in about thirty seconds and it only has to be done once per dongle."
+  },
+  "1i3q8rh6ysn": {
+    "defaultMessage": "137.1 / 137.9125 / 137.62 MHz"
+  },
+  "1i6fkvwb664": {
+    "defaultMessage": "LoRa mesh"
+  },
+  "1idfhhtbjs0": {
+    "defaultMessage": "Why it drives the visible receiver"
+  },
+  "1if2k6tn98n": {
+    "defaultMessage": "The <readme>read me</readme> has the full tool list, and <usecase>the use case</usecase> is the shorter version."
+  },
+  "1ighh77aubr": {
+    "defaultMessage": "5.8 GHz"
+  },
+  "1ii4ur4v82z": {
+    "defaultMessage": "RS41, DFM, M10, iMet, weather balloon, SondeHub"
+  },
+  "1iinxm6d79w": {
+    "defaultMessage": "12 bit dynamic range in a crowded band"
+  },
+  "1ilda8it0kv": {
+    "defaultMessage": "Stitching"
+  },
+  "1ipmqn4mh3u": {
+    "defaultMessage": "What comes down is aircraft datalink from places with no VHF ground station, and the maritime safety broadcasts every commercial vessel is required to receive."
+  },
+  "1ivn76j07lq": {
+    "defaultMessage": "UAT is the other ADS-B link, used in the United States by aircraft below 18,000 feet. Reading it is how the general aviation traffic that is invisible on 1090 MHz gets onto the map, and the airframes on it are the interesting ones: gliders, trainers, crop dusters."
+  },
+  "1ix568b22d3": {
+    "defaultMessage": "Download WaveShark for macOS"
+  },
+  "1j03xiyle9c": {
+    "defaultMessage": "802.11a/g/b and single-stream n: network names, the addresses talking, the rate each frame arrived at and whether an address is randomised. Also known as 802.11, beacon frames, SSID, probe request."
+  },
+  "1j8j8fs118d": {
+    "defaultMessage": "ACARS is the older of the two VHF datalinks and still the busiest in most of the world. Each message names the aircraft registration, the flight number and the label saying what kind of message it is, and the body is often plain enough to read without a manual."
+  },
+  "1jaffnkthh3": {
+    "defaultMessage": "radiofax, WEFAX, marine charts, Northwood"
+  },
+  "1jbbtbia90i": {
+    "defaultMessage": "A signal chain you can edit, and an agent that can drive it"
+  },
+  "1jldxh8ooea": {
+    "defaultMessage": "ISM devices"
+  },
+  "1jmho1ise8c": {
+    "defaultMessage": "An agent with its own hidden radio is an agent whose mistakes are invisible. Driving the window means every tune, every channel and every edit to the chain is on the screen while it happens, and the screenshot tool means the model can see the same thing you can."
+  },
+  "1jn8ugqt7ax": {
+    "defaultMessage": "Protocols"
+  },
+  "1jq54v0ry7v": {
+    "defaultMessage": "A packet log that stores samples, so a future decoder gets its chance at an old burst"
+  },
+  "1jqyave6m35": {
+    "defaultMessage": "Run it as an amateur station"
+  },
+  "1jr1pufj66t": {
+    "defaultMessage": "Martin 1 and 2, Scottie 1, 2 and DX, Robot 36 and 72, drawn line by line as they arrive and saved to disc when the picture ends."
+  },
+  "1jr3wvsfbhj": {
+    "defaultMessage": "Pick a radio when several are plugged in."
+  },
+  "1jv1gm449ay": {
+    "defaultMessage": "What people use it for"
+  },
+  "1jye6sm2v04": {
+    "defaultMessage": "Publish every transmitter the decoders can name to Home Assistant over MQTT: weather stations, wireless M-Bus and ERT meters, TPMS pressure and the level each was heard at, with no vendor hub."
+  },
+  "1jz5jwzfmls": {
+    "defaultMessage": "Transmitting: voice, captures, .sub files and six decoded protocols"
+  },
+  "1k5gcimte9p": {
+    "defaultMessage": "Worth saying plainly: this traffic often carries medical and personal detail, and what you may lawfully receive and keep differs by country."
+  },
+  "1k8fx0qbgj5": {
+    "defaultMessage": "Bluetooth LE decoder for SDR - WaveShark"
+  },
+  "1kc4g7dl5e3": {
+    "defaultMessage": "Start tuned and listening. Repeat it for several channels at once."
+  },
+  "1kcxxzo3muu": {
+    "defaultMessage": "The text messages crews and airlines send each other over VHF: position reports, fuel figures, technical faults and free text. Also known as acarsdec, airline datalink, 131.550 MHz."
+  },
+  "1kewv55vqvi": {
+    "defaultMessage": "Ensemble name and id"
+  },
+  "1kj6xd53w48": {
+    "defaultMessage": "Several matching tuners can be offered as one wider receiver: the drift between them is measured on the band they share and taken out, which is how a span wider than any one radio gets covered."
+  },
+  "1kjkd5woge9": {
+    "defaultMessage": "NXDN decoder for SDR - WaveShark"
+  },
+  "1kldbwb7gho": {
+    "defaultMessage": "Capture once, decode forever"
+  },
+  "1klogjd7v1d": {
+    "defaultMessage": "Bursts heard in the last minute"
+  },
+  "1kmz22sni29": {
+    "defaultMessage": "TPMS"
+  },
+  "1kn2m0kzp3s": {
+    "defaultMessage": "Morse"
+  },
+  "1kp0gxpun1f": {
+    "defaultMessage": "Any RTL-SDR, with a turnstile or V-dipole"
+  },
+  "1kqbnloipj6": {
+    "defaultMessage": "Packet mode carries text and arbitrary data, and those arrive in the message view in full."
+  },
+  "1ktxox5uetp": {
+    "defaultMessage": "For a machine at the antenna, --headless runs the whole receiver with no display"
+  },
+  "1kum9rz5sct": {
+    "defaultMessage": "The binary published beside the image reads them from Homebrew rather than carrying them."
+  },
+  "1kv1oqcd5rp": {
+    "defaultMessage": "Manufacturer code and meter serial number"
+  },
+  "1kvwd5g7k9t": {
+    "defaultMessage": "What it will not do"
+  },
+  "1kx6bk6cvvh": {
+    "defaultMessage": "Leave a cheap dongle on a band and WaveShark tells you what is transmitting around you, instead of what is on the one frequency somebody already told you about."
+  },
+  "1kxpxnxt8jv": {
+    "defaultMessage": "8 bit"
+  },
+  "1l24xrjmoxf": {
+    "defaultMessage": "915 MHz (902-928 MHz): what is transmitting there"
+  },
+  "1l2ms7auz4d": {
+    "defaultMessage": "A camera’s picture straight off the span, PAL or NTSC in colour, with its audio subcarrier heard alongside and the carrier named from its line rate. Also known as PAL, NTSC, 5.8 GHz FPV, wireless camera."
+  },
+  "1l6o5lfl8ip": {
+    "defaultMessage": "Band by band: what is on 433, 868 and 915 MHz, the 2.4 and 5.8 GHz bands, airband, 1090 MHz, marine VHF, the amateur and business allocations, 137 MHz satellites, L band, shortwave and television."
+  },
+  "1lb5ie4doms": {
+    "defaultMessage": "Shortwave (3-30 MHz): what is transmitting there"
+  },
+  "1lb9f0eq0cx": {
+    "defaultMessage": "Radio in, nothing else."
+  },
+  "1lchlngx5dn": {
+    "defaultMessage": "Every other protocol in the same span at the same time"
+  },
+  "1le0s6kp8nq": {
+    "defaultMessage": "Codec 2, open digital voice, amateur"
+  },
+  "1lfh6nabf0v": {
+    "defaultMessage": "Line rate, and the FPV channel it corresponds to"
+  },
+  "1lgb87dcure": {
+    "defaultMessage": "Calls"
+  },
+  "1lgct97ynb6": {
+    "defaultMessage": "No Windows build: LimeSuite is not packaged for it"
+  },
+  "1lj3lf58zk": {
+    "defaultMessage": "NOAA APT and the three MSU-MR channels of a Meteor-M LRPT pass are drawn on the video pane in strips as they come down, and HF weather fax charts are drawn the same way."
+  },
+  "1lkl12f1is0": {
+    "defaultMessage": "Flag"
+  },
+  "1lma825mul0": {
+    "defaultMessage": "ADS-B and Mode S on the map, UAT for light aircraft, and the ACARS, VDL Mode 2 and satellite messages crews exchange with the ground."
+  },
+  "1lneeq7pp0i": {
+    "defaultMessage": "The two tone frequencies and their durations"
+  },
+  "1lo3h5vefi5": {
+    "defaultMessage": "Where a call is encrypted, the algorithm id and key id are read and the call is listed in the keys view rather than silently dropped. An unencrypted system shows the same rows with the audio attached."
+  },
+  "1lwdmfzv1d4": {
+    "defaultMessage": "A span wider than any single radio"
+  },
+  "1lxraa9d3qh": {
+    "defaultMessage": "P25 and NXDN"
+  },
+  "1ly4hangsb6": {
+    "defaultMessage": "Marine VHF"
+  },
+  "1m5zr03f1bn": {
+    "defaultMessage": "137 MHz and HF"
+  },
+  "1m65mp7bu7o": {
+    "defaultMessage": "Usable span"
+  },
+  "1m6h912286l": {
+    "defaultMessage": "The .app carries its own ffmpeg, librtlsdr and LimeSuite, so nothing else is needed."
+  },
+  "1m8wepjjwo3": {
+    "defaultMessage": "The IQStream directory, read live from nostr"
+  },
+  "1m8yk0i9r1r": {
+    "defaultMessage": "144.500 MHz"
+  },
+  "1m99njw2l7z": {
+    "defaultMessage": "The open digital voice mode, decoded in full: callsigns, packet messages and Codec 2 speech, with nothing patent encumbered in the way."
+  },
+  "1mbzia83glq": {
+    "defaultMessage": "The chosen service, playing, with audio in sync"
+  },
+  "1mdbn322izy": {
+    "defaultMessage": "UHF television (470-790 MHz): what is transmitting there"
+  },
+  "1mevpzu3pvf": {
+    "defaultMessage": "Where it lands"
+  },
+  "1mf1covvwqd": {
+    "defaultMessage": "Fine control over every demodulator parameter"
+  },
+  "1mfypxe2dqc": {
+    "defaultMessage": "The pair of tones that opens a fire or ambulance pager, named from an operator list so a call reads as a station rather than two frequencies. Also known as Quick Call II, fire pager tones, alerting tones."
+  },
+  "1milffdbxox": {
+    "defaultMessage": "925-960 / 1805-1880 MHz"
+  },
+  "1mkgknux66m": {
+    "defaultMessage": "Checked against dumpvdl2 on the same recordings."
+  },
+  "1movq7mz4rt": {
+    "defaultMessage": "137 MHz satellite (137-138 MHz): what is transmitting there"
+  },
+  "1ms8b7i51qy": {
+    "defaultMessage": "Leave it running on the machine at the antenna"
+  },
+  "1mu1k46o9h": {
+    "defaultMessage": "AIS at 161.975 and 162.025 MHz puts vessels on the map with identity, course and destination, and WaveShark reads both channels from one span rather than making you choose."
+  },
+  "1mv2a2yuegi": {
+    "defaultMessage": "The system number, who called whom, and whether the speech on a channel is enciphered."
+  },
+  "1mv70hi3nxn": {
+    "defaultMessage": "If you already know the frequency and want to hear it, Gqrx is enough. If the question is what is transmitting around here, it is the wrong shape of tool."
+  },
+  "1mzkyvxaye3": {
+    "defaultMessage": "Speech, with a source build carrying the ambe feature"
+  },
+  "1n09zavya14": {
+    "defaultMessage": "MCP on 127.0.0.1:8931"
+  },
+  "1n3b6js0k9m": {
+    "defaultMessage": "The channels view says how crowded each channel is, which is the practical answer to where to put your own network. The devices view keeps one row per address with the strongest level it was ever heard at, and a drive exports as WiGLE CSV."
+  },
+  "1n3gv939hya": {
+    "defaultMessage": "Z-Wave decoder for SDR - WaveShark"
+  },
+  "1n6aufuucsw": {
+    "defaultMessage": "STD-C is the message service every commercial vessel is required to carry. The Enhanced Group Call broadcasts on it are addressed to ocean areas rather than to ships, which is why they are readable: a navigational warning is meant to reach everybody in that sea area."
+  },
+  "1n7r2gbotag": {
+    "defaultMessage": "Just above, radiosondes transmit from every launch site twice a day, drifting in frequency as they climb, with the channel following them up. At 406 MHz, COSPAS-SARSAT beacons transmit an identity and often a position, mostly as tests."
+  },
+  "1n8m3b40vm1": {
+    "defaultMessage": "Changelog"
+  },
+  "1narfz2og3r": {
+    "defaultMessage": "TETRA decoder for SDR - WaveShark"
+  },
+  "1navgd1gv7n": {
+    "defaultMessage": "Unclaimed bursts · captures · replay"
+  },
+  "1ncdincfnqv": {
+    "defaultMessage": "RTL-SDR with an upconverter, or an HF-capable radio"
+  },
+  "1nepqf4qe73": {
+    "defaultMessage": "Itron ERT meters"
+  },
+  "1nfjfi331ze": {
+    "defaultMessage": "Past zoom nine the map draws airports with their air traffic frequencies, so the tower you can hear is one click from the aircraft you can see."
+  },
+  "1ngrhm2qgmb": {
+    "defaultMessage": "Frame and packet counts, so a poor pass is obvious"
+  },
+  "1nje5q1vjjt": {
+    "defaultMessage": "Command line reference"
+  },
+  "1now8zk4iwb": {
+    "defaultMessage": "Install it, or do not"
+  },
+  "1np0eeznhng": {
+    "defaultMessage": "FLEX 1600 3200, Motorola paging"
+  },
+  "1nu8ptr7nu": {
+    "defaultMessage": "A model with the run of the receiver, and what you asked it. Every run serves MCP on the loopback, so what the agent tunes, opens, rewires or changes in the settings happens in this window."
+  },
+  "1nxawn7eb53": {
+    "defaultMessage": "144.800 / 144.390 / 144.640"
+  },
+  "1nyifsdcg15": {
+    "defaultMessage": "GPL-3.0 · RTL-SDR, HackRF One, LimeSDR · no account, no cloud"
+  },
+  "1nyju9pqk3j": {
+    "defaultMessage": "An installer, or a zip holding the executable and the two DLLs it will not start without. WinUSB has to be bound to the dongle first."
+  },
+  "1o0nf18syj0": {
+    "defaultMessage": "The 802.15.4 layer under all three stacks: the addresses talking, the networks they belong to and the channel each sits on."
+  },
+  "1o1n2ly7yzd": {
+    "defaultMessage": "MHz, e.g. 1090"
+  },
+  "1o1nvc4tstr": {
+    "defaultMessage": "BLE advertising, Bluetooth 5 Long Range, iBeacon"
+  },
+  "1o2pudjli83": {
+    "defaultMessage": "900 / 1800 MHz"
+  },
+  "1o6yek5fk6e": {
+    "defaultMessage": "The datalink most European traffic now uses, carrying the same airline messages as ACARS at eight times the rate. Also known as dumpvdl2, VDL2, 136.975 MHz, AVLC."
+  },
+  "1o93dpfq1uj": {
+    "defaultMessage": "A capture that decodes is a test fixture"
+  },
+  "1o98ie1zb5v": {
+    "defaultMessage": "Bind WinUSB with Zadig"
+  },
+  "1odkqi7mdhn": {
+    "defaultMessage": "--stream · iqstream · rtl_tcp"
+  },
+  "1ofi3ku7mpc": {
+    "defaultMessage": "A repeat count where the network sent the page more than once"
+  },
+  "1ogjkinco1y": {
+    "defaultMessage": "{count} decoders, one packet stream"
+  },
+  "1oiegqbyhrh": {
+    "defaultMessage": "An FPV carrier is named from its line rate and given its channel in the usual band naming, so it reads as R1, F4 or A5 rather than as a frequency. The audio subcarrier, 6.5 MHz on the recording this was built against, is heard with the picture, because a picture with no sound is half a receiver."
+  },
+  "1oq3s8z0672": {
+    "defaultMessage": "What an agent can do"
+  },
+  "1os29bxc0ai": {
+    "defaultMessage": "One packet stream, read fifteen ways. None of the views knows a protocol."
+  },
+  "1os4xfnx6oa": {
+    "defaultMessage": "Any band"
+  },
+  "1osn07ltexw": {
+    "defaultMessage": "Bands worth pointing at"
+  },
+  "1otl45jufq": {
+    "defaultMessage": "Wireshark for the radio spectrum"
+  },
+  "1ou92oiyfu9": {
+    "defaultMessage": "rtl_433 is the standard for reading ISM devices, and nothing here pretends otherwise: it carries roughly 250 device decoders, WaveShark carries forty-five, and those forty-five are verified field for field against rtl_433 25.02 on 81 recordings from its own corpus. If your only job is decoding sensors and you want the widest coverage, run rtl_433."
+  },
+  "1ow2tb94y32": {
+    "defaultMessage": "Tunable"
+  },
+  "1p3k0c2xl6o": {
+    "defaultMessage": "Signal level for each device heard"
+  },
+  "1p5056zsg4i": {
+    "defaultMessage": "Frame type, so link management is separated from traffic"
+  },
+  "1p7gnx5giwc": {
+    "defaultMessage": "DVB-T television decoder for SDR - WaveShark"
+  },
+  "1pak4di4z6l": {
+    "defaultMessage": "yes, half duplex"
+  },
+  "1pb2o7xdpj8": {
+    "defaultMessage": "Both are free software"
+  },
+  "1pg7omnv7zt": {
+    "defaultMessage": "A cell’s identity off its synchronisation burst, the system information it broadcasts, and who a page is calling. Also known as 2G, GSM900, DCS1800, BCCH, IMSI paging."
+  },
+  "1pgv1i9i33s": {
+    "defaultMessage": "390-406 MHz (390-406 MHz): what is transmitting there"
+  },
+  "1ph8fodi7yi": {
+    "defaultMessage": "TETRA"
+  },
+  "1phdh12ydt1": {
+    "defaultMessage": "Inmarsat STD-C decoder for SDR - WaveShark"
+  },
+  "1pixuwa31jw": {
+    "defaultMessage": "Every run serves the receiver over the Model Context Protocol at <code>http://127.0.0.1:8931/mcp</code>. It is the receiver on the screen, not a second one: what an agent tunes, opens or switches on appears in the window, and it can take a picture of that window to see what it did. It reads the spectrum, the packets, the calls, the transcript and the tracker, changes anything in the signal chain and draws the chain itself, and it reaches the settings: the scanner table, the memory bank, the station and the datasets. <code>--mcp-listen off</code> stops it listening."
+  },
+  "1pko3c0v1ak": {
+    "defaultMessage": "Builds of WaveShark for Linux, Windows and Apple silicon, with CUDA variants for speech on a card, what each one needs from the system, and how to build from source with the tea and ambe features."
+  },
+  "1plbwodih9i": {
+    "defaultMessage": "Your own weather station, meters and tyre sensors as Home Assistant devices, from a €30 dongle and no vendor hub."
+  },
+  "1plktc140yi": {
+    "defaultMessage": "<cases>The use cases</cases> are the jobs these views get used for, from a device survey to letting an agent drive the radio."
+  },
+  "1pr9y0z4o2s": {
+    "defaultMessage": "Meteor-M LRPT decoder for SDR - WaveShark"
+  },
+  "1pufcb8lrg1": {
+    "defaultMessage": "Device model and id, stable across transmissions"
+  },
+  "1puyduxwlaj": {
+    "defaultMessage": "Checked against off-air captures, asserted against what the transmission itself says rather than against another decoder."
+  },
+  "1px4tkm2t7i": {
+    "defaultMessage": "WaveShark and Gqrx - where each one wins"
+  },
+  "1q3pvl43gz": {
+    "defaultMessage": "The network, its cells and who is called. The tea feature links the ciphers and a wgpu key search, so an enciphered channel can be worked on rather than only counted."
+  },
+  "1q8xaiifp9": {
+    "defaultMessage": "VDL Mode 2 decoder for SDR - WaveShark"
+  },
+  "1qbs10vo8kp": {
+    "defaultMessage": "Record the burst with --record and open an issue with the capture. A capture that decodes becomes a test fixture."
+  },
+  "1qc93uxsn83": {
+    "defaultMessage": "Radiosondes decoder for SDR - WaveShark"
+  },
+  "1qgocyqyv6a": {
+    "defaultMessage": "Label and block id, which say what kind of message it is"
+  },
+  "1ql8ki2vynn": {
+    "defaultMessage": "{span} MHz span, tunes {min} to {max} MHz"
+  },
+  "1qm029gfkgu": {
+    "defaultMessage": "Support the work"
+  },
+  "1qmhi71zu7k": {
+    "defaultMessage": "WaveShark command line reference"
+  },
+  "1qpxu308f4j": {
+    "defaultMessage": "The scripts panel holds every Flipper <code>.sub</code> file on the machine and keys one at the frequency it names, and a heard burst can be written back out as a key file, which closes the loop between reading a remote and reproducing it."
+  },
+  "1qrc8ul3f31": {
+    "defaultMessage": "FLEX paging"
+  },
+  "1qs8ipxkuar": {
+    "defaultMessage": "Public SDR tuners on a map - WaveShark"
+  },
+  "1qsgiig5qwo": {
+    "defaultMessage": "A DVB-T multiplex is read from its carriers down to its transport stream: the transmission parameters, the services on it, and whichever one you pick playing in the window at full frame rate with its sound in step."
+  },
+  "1qsk61eh9az": {
+    "defaultMessage": "The interesting part for an existing station is <code>--kiss-listen</code>: WaveShark serves a KISS TNC, so Xastir, YAAC, Direwolf-style tooling or anything else that speaks KISS treats the SDR as its modem, and can key AX.25 back out through a radio that transmits."
+  },
+  "1qwmr3pz9lu": {
+    "defaultMessage": "433 MHz"
+  },
+  "1qxw4fxmpba": {
+    "defaultMessage": "Agents and MCP"
+  },
+  "1r1ee20681l": {
+    "defaultMessage": "The ACARS message carried inside, with its label and text"
+  },
+  "1r26stqy0lb": {
+    "defaultMessage": "Right click and Open, or run this once."
+  },
+  "1radidgx63": {
+    "defaultMessage": "Zoom out"
+  },
+  "1rawc0pe5xp": {
+    "defaultMessage": "Surface pressure charts and ice maps sent to shipping on shortwave, drawn on the video pane as they come in."
+  },
+  "1rcco39g3nb": {
+    "defaultMessage": "868 MHz carries the traffic that matters more than a doorbell: wireless M-Bus meters reporting heat, water and gas, Z-Wave door locks, and LoRa networks including Meshtastic and LoRaWAN sensors."
+  },
+  "1rdno1j5spz": {
+    "defaultMessage": "A signed but unnotarised app carrying its own libraries, or a bare binary that reads them from Homebrew. The only build that plays television."
+  },
+  "1reh7ydc4gj": {
+    "defaultMessage": "Two decoders the downloads do not carry"
+  },
+  "1rensfn2pd8": {
+    "defaultMessage": "An SDR receiver an LLM can operate: tune it, open channels, read what arrived, rewire the signal chain, and watch it happen in the window in front of you."
+  },
+  "1rgm70b7d76": {
+    "defaultMessage": "DMR, TETRA, P25, NXDN, M17 and plain FM channels with who called whom, every over recorded as Opus and a local speech model writing down what was said."
+  },
+  "1roj4bzs056": {
+    "defaultMessage": "24 MHz to 1.7 GHz, depending on the tuner"
+  },
+  "1rt0nw9g8wu": {
+    "defaultMessage": "Lines received, and the sync quality"
+  },
+  "1rvr2wwvr09": {
+    "defaultMessage": "The transcript view is a Whisper or Qwen3-ASR model on this machine reading everything on the audio bus, on the CPU or on a card, with low-confidence lines flagged rather than quietly wrong. Nothing leaves the machine."
+  },
+  "1rxv6ndz26a": {
+    "defaultMessage": "Your own 433 and 868 MHz sensors as Home Assistant devices, no hub required."
+  },
+  "1s1r7xs7nbj": {
+    "defaultMessage": "APRS"
+  },
+  "1s9omxjztcy": {
+    "defaultMessage": "An EPIRB on a vessel, a PLB in a pocket and an ELT in an aircraft all transmit the same 406 MHz burst, roughly once every fifty seconds, carrying a coded identity and often a GPS position. In normal times you will hear a test burst rather than a real activation."
+  },
+  "1sd85k5nbpb": {
+    "defaultMessage": "Any RTL-SDR, with an airband antenna"
+  },
+  "1sdfyc132ki": {
+    "defaultMessage": "Home id and source and destination node ids"
+  },
+  "1sfq4sk9w9c": {
+    "defaultMessage": "An ensemble and the stations in it, with their programme types and bit rates, read off the block your transmitter uses. Also known as DAB+, digital radio, ensemble, band III."
+  },
+  "1sjazobb4jn": {
+    "defaultMessage": "What lives here"
+  },
+  "1sktsh746mz": {
+    "defaultMessage": "L band (1525-1559 MHz): what is transmitting there"
+  },
+  "1sn5qcgmnja": {
+    "defaultMessage": "Tune, set gains, open and close channels"
+  },
+  "1spybdn8llc": {
+    "defaultMessage": "WaveShark and SDRangel"
+  },
+  "1stdrcd89md": {
+    "defaultMessage": "Builds the AMBE and IMBE vocoder port, whose algorithms are patent encumbered. Without it DMR still says who is talking and decodes no speech."
+  },
+  "1suzwzwjqea": {
+    "defaultMessage": "Every run serves the receiver over the Model Context Protocol on 127.0.0.1:8931, so a model can tune, open channels, read the spectrum and packets, edit the signal chain and screenshot the window it is driving."
+  },
+  "1symvem8fx8": {
+    "defaultMessage": "After the download"
+  },
+  "1t3j5lptzgs": {
+    "defaultMessage": "Speech itself needs the AMBE vocoder, whose algorithms are patent encumbered, so the published builds leave it out. A build from source with the <code>ambe</code> feature decodes it. Without that feature the call still appears with its caller, its group and its length."
+  },
+  "1t9c4c4mc23": {
+    "defaultMessage": "A remote tuner shows up in the receiver list as a local radio, over iqstream or rtl_tcp, and it can be tuned from here rather than only listened to. This receiver serves iqstream as well, so the span a mast-head machine is already collecting can be read by another one without a second antenna."
+  },
+  "1tb0je52xsf": {
+    "defaultMessage": "Views"
+  },
+  "1tbzcrnkbaz": {
+    "defaultMessage": "Excellent for listening to one channel"
+  },
+  "1thc4m4ky3r": {
+    "defaultMessage": "Wi-Fi and drones"
+  },
+  "1tilwwiceph": {
+    "defaultMessage": "dumpvdl2, VDL2, 136.975 MHz, AVLC"
+  },
+  "1tlt7hfu7gq": {
+    "defaultMessage": "Where the binary packet log goes, one file a day."
+  },
+  "1trc3px3771": {
+    "defaultMessage": "In WaveShark the same list is in the remote tuners dialog, where TUNE opens a station as a radio. From a terminal, <code>--stream</code> takes the address on each card."
+  },
+  "1tsgxp4jmgc": {
+    "defaultMessage": "Capture the burst, see its envelope, timings and bits, replay it into new decoders as often as you like, and key it back out from a Flipper .sub file."
+  },
+  "1tuqywfxeeq": {
+    "defaultMessage": "Readings where the meter sends them unencrypted"
+  },
+  "1tycjh5hy8g": {
+    "defaultMessage": "Before any of the digital standards, and still in daily use, a volunteer fire pager is opened by two audio tones in sequence: a long one and a short one, at frequencies unique to that station. Hearing the pair is knowing which crew was just toned out."
+  },
+  "1tz5o51d0f7": {
+    "defaultMessage": "Hardware for WaveShark"
+  },
+  "1u2lf2kds50": {
+    "defaultMessage": "Z-Wave"
+  },
+  "1u36f1hte38": {
+    "defaultMessage": "{clients} of {max} listening when listed"
+  },
+  "1u38a8geruy": {
+    "defaultMessage": "One 2.4 GHz channel is 20 MHz wide, so this is the job that wants a HackRF or a LimeSDR rather than a dongle."
+  },
+  "1u4bpfutjo0": {
+    "defaultMessage": "NOAA APT passes and Meteor-M LRPT, drawn on the video pane as they come down, plus HF weather fax charts. The satellites view has the passes over the station for the next day, and listening follows the downlink through Doppler until the satellite sets."
+  },
+  "1u5f5zkietp": {
+    "defaultMessage": "A DAB ensemble is a bundle of stations sharing one transmission, and reading it tells you what is in the bundle: the ensemble name, every service on it, what kind of programme each is and how many kilobits it has been given, which is the number that decides how it sounds."
+  },
+  "1u6sww63mm4": {
+    "defaultMessage": "ISM sensors, TPMS, utility meters and Z-Wave"
+  },
+  "1u8fb2niukv": {
+    "defaultMessage": "Copy"
+  },
+  "1u8xyhhufal": {
+    "defaultMessage": "1 MHz - 6 GHz"
+  },
+  "1ugc63zwtv6": {
+    "defaultMessage": "EGC and SafetyNET broadcasts to shipping: navigation warnings, weather, piracy reports and search and rescue calls."
+  },
+  "1ughv6grrxq": {
+    "defaultMessage": "Transmit"
+  },
+  "1uitui9lrpq": {
+    "defaultMessage": "HackRF or LimeSDR: a multiplex is 8 MHz wide"
+  },
+  "1ujmkpyd1oj": {
+    "defaultMessage": "162.400-162.550 MHz"
+  },
+  "1ulbqagz67i": {
+    "defaultMessage": "Take broadcast apart with an SDR - WaveShark"
+  },
+  "1ung4icwrvj": {
+    "defaultMessage": "Map"
+  },
+  "1uo8ov0btx7": {
+    "defaultMessage": "A strip of tabs, Ctrl and a digit for the first ten, Ctrl+` to go back"
+  },
+  "1uqxw5prn0k": {
+    "defaultMessage": "Pager messages in clear at 512, 1200 and 2400 bit/s, deduplicated because a paging network sends every page twice. Also known as pager decoder, capcode, 512 1200 2400 baud."
+  },
+  "1urskkv5mqp": {
+    "defaultMessage": "Show on map"
+  },
+  "1uyycuumhgb": {
+    "defaultMessage": "Frame type: beacon, data, acknowledgement or command"
+  },
+  "1v2gq8t6w2c": {
+    "defaultMessage": "Utility meters"
+  },
+  "1va68y0hyil": {
+    "defaultMessage": "Everything in the span decoded at once, with no channel to place"
+  },
+  "1vcfyic5onx": {
+    "defaultMessage": "The exe will not start on its own: it needs rtlsdr.dll and libusb-1.0.dll beside it"
+  },
+  "1vdw3h4z73": {
+    "defaultMessage": "HackRF or LimeSDR: an advertising channel is 2 MHz wide"
+  },
+  "1vetyf6pjd6": {
+    "defaultMessage": "144-148 / 430-450 MHz"
+  },
+  "1vgz7sv81m7": {
+    "defaultMessage": "What it reaches"
+  },
+  "1vj8o3fxggd": {
+    "defaultMessage": "Any RTL-SDR, with a turnstile or QFH antenna"
+  },
+  "1vkbpcb25rn": {
+    "defaultMessage": "433 / 868 / 915 MHz · RTL-SDR"
+  },
+  "1vl3upm6uu7": {
+    "defaultMessage": "HackRF One"
+  },
+  "1vonh2mjjot": {
+    "defaultMessage": "Every car built in the last decade has four radios in its wheels, each transmitting an id that does not change for the life of the sensor. That makes TPMS the most reliable way to recognise a vehicle passing a fixed point, which is exactly why it is worth knowing it is happening."
+  },
+  "1vqn2v0v809": {
+    "defaultMessage": "SSTV"
+  },
+  "1vtnfkdmyfs": {
+    "defaultMessage": "Run Zadig, pick the RTL2832U interface, choose WinUSB and install. Pick the right interface if the dongle shows two."
+  },
+  "1vy66olgbut": {
+    "defaultMessage": "DRM"
+  },
+  "1w1v72is29o": {
+    "defaultMessage": "Total tuner gain, distributed across the radio’s stages."
+  },
+  "1w26bmzsrxd": {
+    "defaultMessage": "vessel tracking, marine AIS, 161.975 MHz"
+  },
+  "1w3nunkv2z0": {
+    "defaultMessage": "The point is that none of it needs the vendor’s hub. A sensor you already own, transmitting in clear on 433 or 868 MHz, becomes a Home Assistant entity because something listened to it, not because a bridge was bought and an account was made."
+  },
+  "1w6yz9zciv2": {
+    "defaultMessage": "A CW channel read as text at whatever speed it was sent, including the beacons that identify a repeater or a transmitter site."
+  },
+  "1w7heujukad": {
+    "defaultMessage": "Shortwave and medium wave"
+  },
+  "1wa00kjkhp0": {
+    "defaultMessage": "The two that matter most"
+  },
+  "1wagyxr6nyp": {
+    "defaultMessage": "Read the source"
+  },
+  "1wcsko816m": {
+    "defaultMessage": "Advertising packets on all three primary channels, Bluetooth 5 Long Range included, with Open Drone ID read where it is carried. Also known as BLE advertising, Bluetooth 5 Long Range, iBeacon."
+  },
+  "1wcvksa9b7q": {
+    "defaultMessage": "Meter id and endpoint type"
+  },
+  "1wdet0gdwmy": {
+    "defaultMessage": "Feed your own sensors into Home Assistant"
+  },
+  "1wdji3344fp": {
+    "defaultMessage": "144.800 / 144.390 / 144.640 MHz"
+  },
+  "1wepjk8hgio": {
+    "defaultMessage": "Primary"
+  },
+  "1whz125ogy": {
+    "defaultMessage": "A DAB ensemble gives its name, its stations, their programme types and bit rates, and a DRM multiplex on shortwave or medium wave gives its services, their languages and their labels. Neither makes sound yet, which is worth knowing before you go looking for it."
+  },
+  "1wjt3xwsrst": {
+    "defaultMessage": "The heat, water, gas and electricity meters transmitting around you: manufacturer, meter number, version and type."
+  },
+  "1wllcq35it4": {
+    "defaultMessage": "Running WaveShark with no arguments gives you the interactive receiver. Everything below either sets that receiver up, or is a diagnostic that prints and exits."
+  },
+  "1wmqpv3tzc": {
+    "defaultMessage": "A longer list of modes, and transmit on most of them"
+  },
+  "1x2nd5x0dqi": {
+    "defaultMessage": "The devices view is one row per transmitter rather than one per transmission: what it called itself, who made it, the strongest level it was ever heard at and when it was last heard. Select a row and its sightings are drawn on the map, so a walk or a drive turns into coverage rather than a list, and the survey exports as WiGLE CSV for anything that already draws that."
+  },
+  "1x3bma08soy": {
+    "defaultMessage": "Ships the DLLs it needs, but Windows will not let anything open an RTL2832U until WinUSB is bound to it with <zadig>Zadig</zadig>. The zip holds the executable and its two DLLs, which have to stay beside it. No LimeSDR driver: LimeSuite is not packaged for Windows."
+  },
+  "1x6qae3gis3": {
+    "defaultMessage": "Half duplex: it transmits or receives, not both"
+  },
+  "1x764eu8aw3": {
+    "defaultMessage": "Linux is where WaveShark is developed, and it is the platform with the fewest surprises: LimeSDR support is compiled in, the speech models use an NVIDIA card when the CUDA runtime is present and the CPU when it is not, and the packages pull in librtlsdr for you."
+  },
+  "1xcy6no095e": {
+    "defaultMessage": "There is a call bus and a message bus too, with an on-air lamp, so an automation can react to a channel going busy."
+  },
+  "1xdvdefe11": {
+    "defaultMessage": "Pictures off a multiplex play on the macOS build only; elsewhere the services are listed but not decoded."
+  },
+  "1xf3ddg4w0m": {
+    "defaultMessage": "406 MHz"
+  },
+  "1xipo1tytdp": {
+    "defaultMessage": "rtl_433 has five times the device coverage and is the reference this project is tested against. WaveShark adds a window, a survey and everything that is not ISM."
+  },
+  "1xjc35f6bx1": {
+    "defaultMessage": "Pictures drawn line by line as they arrive, in Martin 1 and 2, Scottie 1, 2 and DX, and Robot 36 and 72, saved to disc when the transmission ends. Also known as slow scan television, Martin, Scottie, Robot 36."
+  },
+  "1xmvj3hunpx": {
+    "defaultMessage": "Frames name the home id and the node, which is enough to count the devices in a home network and see which of them are talking, whether or not the payload is secured."
+  },
+  "1xzff6exwhl": {
+    "defaultMessage": "On a radio that can transmit, a channel’s transmit source can be the agent itself: give it a name and it answers when called, replies in its own voice and keeps the conversation going for half a minute without being named again."
+  },
+  "1y2okysigbx": {
+    "defaultMessage": "Wireless M-Bus"
+  },
+  "1y95cysm5vo": {
+    "defaultMessage": "Watch out for"
+  },
+  "1yghlyqsgn8": {
+    "defaultMessage": "The packet list runs along the bottom of all of them, newest last, with the selected burst’s envelope, instantaneous frequency and hex dump beside it. The top row of tabs is what the receiver can do and what it heard; the bottom row is who is out there."
+  },
+  "1ymp0m3r4zy": {
+    "defaultMessage": "Channel positions in microseconds, live"
+  },
+  "1ymscjcnk03": {
+    "defaultMessage": "<all>All {count} use cases</all>, from a device survey to letting an agent drive the radio."
+  },
+  "1yp1e2qp0ll": {
+    "defaultMessage": "Aircraft identity, where the message carries it"
+  },
+  "1yqml6oig63": {
+    "defaultMessage": "The satellite and the pass it came from"
+  },
+  "1yrb5ccr5v2": {
+    "defaultMessage": "Serve a KISS TNC, so packet software can use the radio and key AX.25 through it."
+  },
+  "1yuf74elqy1": {
+    "defaultMessage": "Three radios, and one over the network"
+  },
+  "1z1p7bw8jod": {
+    "defaultMessage": "It is also the band where the channels view earns its keep: 802.15.4 channels sit underneath Wi-Fi ones, so a Zigbee mesh that keeps dropping is usually parked under an access point, and the view says so in one glance."
+  },
+  "1z58eql84tk": {
+    "defaultMessage": "Marine VHF (156-163 MHz): what is transmitting there"
+  },
+  "1zctqk0c9md": {
+    "defaultMessage": "Frame number and battery, which tell you how the flight is going"
+  },
+  "1zgbw0f7neh": {
+    "defaultMessage": "Put the antenna where the signals are with an SDR - WaveShark"
+  },
+  "1zilg51qwsm": {
+    "defaultMessage": "Two-tone paging"
+  },
+  "1zl7mqov6oy": {
+    "defaultMessage": "A multiplex read from its carriers down to its transport stream, with the service you pick playing in the window at full frame rate and its sound in step."
+  },
+  "1zmgpoc36kg": {
+    "defaultMessage": "Version, and the access number that increments per transmission"
+  },
+  "1zobg86hoa8": {
+    "defaultMessage": "Almost everything here carries a stable device id, which is what turns an afternoon of listening into a list of devices rather than a list of transmissions. A burst that nothing decodes is still kept, with its timings and bits sliced out, which is where reverse engineering starts."
+  },
+  "1zpvf9m2kqt": {
+    "defaultMessage": "3-30 MHz"
+  },
+  "1zs6rqjdxd6": {
+    "defaultMessage": "APRS is AX.25 at 1200 baud carrying position, weather and text, on one calling frequency per region: 144.800 in Europe, 144.390 in North America, 144.640 in Japan. Mic-E compressed positions are read along with the plain ones."
+  },
+  "1zukncydsdm": {
+    "defaultMessage": "Download for {platform}"
+  },
+  "1zvdbsgnpaj": {
+    "defaultMessage": "VHF and UHF fire and ambulance"
+  },
+  "2044i25fvve": {
+    "defaultMessage": "SCM, SCM+, IDM, rtlamr, 915 MHz meter"
+  },
+  "205tc2rnc0b": {
+    "defaultMessage": "The text messages crews and airlines send each other over VHF: position reports, fuel figures, technical faults and free text."
+  },
+  "208f6okyqle": {
+    "defaultMessage": "A listing is a signed nostr event of kind 10690, replaced each time the station announces and expired after a day, so a receiver that goes away drops off here on its own. The location is a five character geohash, a cell about five kilometres across, never the antenna itself."
+  },
+  "20emzg6kfgf": {
+    "defaultMessage": "Pull pictures and data out of the sky"
+  },
+  "20gkl9swh6": {
+    "defaultMessage": "Coded PHY, the Bluetooth 5 long range mode, is read as well, which matters because it is what the longer-range trackers and industrial sensors use."
+  },
+  "20kk0sprhhq": {
+    "defaultMessage": "RTL-SDR and a turnstile or V-dipole"
+  },
+  "20p1ow0d97x": {
+    "defaultMessage": "What you can do with WaveShark - use cases"
+  },
+  "20rzv77e04w": {
+    "defaultMessage": "Which satellite, and its pass geometry"
+  },
+  "20sgm41acdc": {
+    "defaultMessage": "Messages"
+  },
+  "20ydylf86f7": {
+    "defaultMessage": "Stream or packet mode, and the call length"
+  },
+  "210te4bj0hn": {
+    "defaultMessage": "A burst nothing decodes is still kept. Click its row for the envelope, the instantaneous frequency and a hex dump, with the coding inferred and the bits sliced out, which is enough to recognise the same device again and start working out what the fields mean."
+  },
+  "2115nlu7ibj": {
+    "defaultMessage": "The channel and the time it started"
+  },
+  "2130cybkkpf": {
+    "defaultMessage": "No driver dance on Linux beyond the usual udev rules. The bias tee and the gain settings are in the radio dialog, and both are remembered across a span change."
+  },
+  "2155f50losa": {
+    "defaultMessage": "Meteor M2, MSU-MR, digital weather satellite"
+  },
+  "21779co2f83": {
+    "defaultMessage": "2G, GSM900, DCS1800, BCCH, IMSI paging"
+  },
+  "2192m9385re": {
+    "defaultMessage": "The time of the alert, and the channel"
+  },
+  "219aevq56z1": {
+    "defaultMessage": "LoRa mesh decoder for SDR - WaveShark"
+  },
+  "21d0q03sgp5": {
+    "defaultMessage": "Listening on a frequency"
+  },
+  "21j0yq7091b": {
+    "defaultMessage": "On a radio that can transmit, a channel’s transmit source can be the agent itself. Give it a name and it answers when called: it hears the over, replies in its own voice through a local speech model, and keeps the conversation going for half a minute without being named again."
+  },
+  "21lnugjqi6c": {
+    "defaultMessage": "With it, and without"
+  },
+  "21mhsdlzlqh": {
+    "defaultMessage": "Breadcrumb"
+  },
+  "21nfnu417u2": {
+    "defaultMessage": "What WaveShark decodes - every protocol"
+  },
+  "21q374u1w0i": {
+    "defaultMessage": "470-790 MHz"
+  },
+  "21v98163ts": {
+    "defaultMessage": "Map of listed stations"
+  },
+  "21w2xbgbal": {
+    "defaultMessage": "The decoders do not follow the dial: everything inside the span runs all the time."
+  },
+  "21wbxhv8b1z": {
+    "defaultMessage": "Bluetooth LE"
+  },
+  "21y2igm35if": {
+    "defaultMessage": "A local speech model transcribing every voice channel"
+  },
+  "220wghzhjoi": {
+    "defaultMessage": "The same receiver covers a band, decodes everything inside it and keeps what it heard. What changes between these is the antenna, the dial and which view you sit on."
+  },
+  "2219rgk0e1s": {
+    "defaultMessage": "Analogue video links are still everywhere: cheap wireless cameras, baby monitors, and every FPV quadcopter on 5.8 GHz. There is nothing to decrypt and nothing that checks itself, which is why the caption counts the lines received rather than claiming a good picture."
+  },
+  "222vc4ljr71": {
+    "defaultMessage": "It shares the video pane with SSTV and the satellite passes, because a picture is a picture whatever carried it."
+  },
+  "2299szs66wv": {
+    "defaultMessage": "The .msi installs and upgrades in place. The zip holds waveshark.exe with rtlsdr.dll and libusb-1.0.dll, which have to stay in the same folder."
+  },
+  "22bgkc68lis": {
+    "defaultMessage": "Linux, Windows and macOS builds, driver setup, and building from source."
+  },
+  "22c04aibotg": {
+    "defaultMessage": "The 902-928 MHz band is wider than its European counterpart and busier with it. Utility meters are the standout: Itron ERT endpoints on gas, water and electricity report a running total every few seconds so a passing van can read a street."
+  },
+  "22d5rk9zvdm": {
+    "defaultMessage": "Where it lives"
+  },
+  "22ed4gax8j3": {
+    "defaultMessage": "Setup"
+  },
+  "22hhdh2j2mz": {
+    "defaultMessage": "Distress beacon identities and the position they encode, drawn on the map the moment one transmits."
+  },
+  "22hltvxtxh9": {
+    "defaultMessage": "ISM sensors and remotes"
+  },
+  "22hqkzkan1e": {
+    "defaultMessage": "Position, course over ground, speed and rate of turn"
+  },
+  "22k9iamz2d8": {
+    "defaultMessage": "Where it stops"
+  },
+  "22msww1d008": {
+    "defaultMessage": "yes, full duplex"
+  },
+  "22nkwjhsnxx": {
+    "defaultMessage": "Nothing here is a reason not to run both. They read each other’s captures and they answer different questions."
+  },
+  "22reiue1rcp": {
+    "defaultMessage": "Every phone, watch, tag and speaker in range advertises on three channels, and those advertisements carry names, service ids and manufacturer data. Most modern devices rotate their address every fifteen minutes or so, which the devices view reports rather than hides."
+  },
+  "22tt908li9c": {
+    "defaultMessage": "Inmarsat STD-C off an L-band patch carries the EGC and SafetyNET broadcasts sent to those vessels, which is the traffic that says what is happening rather than where a ship is."
+  },
+  "22ufv82msfw": {
+    "defaultMessage": "Airline datalink"
+  },
+  "22w9yel3k9h": {
+    "defaultMessage": "On Linux install <code>librtlsdr0</code> or <code>rtl-sdr</code>, which brings the udev rules that let you open the device without root. On Windows, bind WinUSB to the RTL2832U interface with Zadig first or nothing can open it."
+  },
+  "23150z8fdlk": {
+    "defaultMessage": "Record a database of the devices heard and where they were heard."
+  },
+  "23221gpdz8z": {
+    "defaultMessage": "Drone Remote ID and DJI DroneID"
+  },
+  "2370lm0p65y": {
+    "defaultMessage": "Two-tone paging decoder for SDR - WaveShark"
+  },
+  "23b8hbgn9o6": {
+    "defaultMessage": "Every switch that sets the receiver up so a session can be reproduced without a dozen clicks, and every diagnostic that prints numbers and exits."
+  },
+  "23o8cbxyb31": {
+    "defaultMessage": "Anything that said where it was: aircraft, vessels, vehicles, mesh nodes, radiosondes, distress beacons and satellite ground tracks on OpenStreetMap tiles. A hollow mark came from a single frame and never joins a trail; range rings are drawn around the antenna, not the window. Past zoom nine, airports appear with their air traffic frequencies."
+  },
+  "23oqqgmfb7i": {
+    "defaultMessage": "POCSAG and FLEX paging, APRS, SSTV and radiosondes"
+  },
+  "23q24vtyq9a": {
+    "defaultMessage": "Nearest span to this, narrowed in software when the radio cannot sample that slowly."
+  },
+  "23tcet7ala1": {
+    "defaultMessage": "EGC and SafetyNET broadcasts to shipping: navigation warnings, weather, piracy reports and search and rescue calls. Also known as EGC, SafetyNET, NCS, maritime safety."
+  },
+  "23yytvjppc2": {
+    "defaultMessage": "The amateur bands carry several modes at once, and that is exactly what this receiver is for: APRS on the calling frequency, SSTV on 144.500, M17 on the digital voice segment and FM repeaters in between, all decoded from one span rather than one at a time."
+  },
+  "2409qbzgxff": {
+    "defaultMessage": "Position, height and climb rate"
+  },
+  "2443660wl0c": {
+    "defaultMessage": "Asking the relays"
+  },
+  "244ey4xyeo2": {
+    "defaultMessage": "What it reads"
+  },
+  "24dv9l8hxe9": {
+    "defaultMessage": "The decoded text"
+  },
+  "24fiwwq2b96": {
+    "defaultMessage": "The browser build is still a plan, and forty-five ISM decoders where the goal is hundreds is the part that needs to grow. The code is the documentation: <chain>crates/app/src/chain.rs</chain> draws the graph the receiver runs."
+  },
+  "24ibhtfcqew": {
+    "defaultMessage": "No speech yet: the frames are read for who and what, not for audio."
+  },
+  "24iqo5b3e0d": {
+    "defaultMessage": "Watch shipping and safety traffic"
+  },
+  "24ldnjyzev1": {
+    "defaultMessage": "Read next"
+  },
+  "24svxo7yyrf": {
+    "defaultMessage": "Running it"
+  },
+  "24t4xihhqdq": {
+    "defaultMessage": "Years of field testing across an enormous device catalogue"
+  },
+  "24x7czbz02y": {
+    "defaultMessage": "The buttons follow the release rather than a filename, because every asset carries its version in the name."
+  },
+  "24xdl44pg9c": {
+    "defaultMessage": "ISM sensors and remotes decoder for SDR - WaveShark"
+  },
+  "24zzxn7lzpy": {
+    "defaultMessage": "Shared SDR receivers anybody can open as a remote radio, read live from nostr."
+  },
+  "2515tikr6gh": {
+    "defaultMessage": "Open an issue"
+  },
+  "252bfvun10e": {
+    "defaultMessage": "listed {ago}"
+  },
+  "2562ia8ygnn": {
+    "defaultMessage": "Any RTL-SDR; the same antenna as 1090 MHz works"
+  },
+  "256yduapl6k": {
+    "defaultMessage": "A KISS TNC on <code>--kiss-listen</code> hands the traffic to any packet program and keys AX.25 back through the radio, so the software you already run treats the SDR as a modem."
+  },
+  "257fywpwttm": {
+    "defaultMessage": "Base stations identifying themselves continuously: country and network codes, cell ids, neighbour lists and paging."
+  },
+  "25bjviiz5i4": {
+    "defaultMessage": "MCC, MNC, LAC and cell id"
+  },
+  "25clkmqay4v": {
+    "defaultMessage": "Call length, and whether the call is enciphered"
+  },
+  "25d37jtq06t": {
+    "defaultMessage": "Read that one"
+  },
+  "25dvitwa697": {
+    "defaultMessage": "Any RTL-SDR dongle, and a machine that stays on"
+  },
+  "25k505fou0m": {
+    "defaultMessage": "The dongle that does the narrowband half of everything on this site: sensors, meters, aircraft, shipping, pagers, digital voice, radiosondes and weather satellites."
+  },
+  "25pjbejkot7": {
+    "defaultMessage": "433.05-434.79 MHz"
+  },
+  "25saq0ia9x4": {
+    "defaultMessage": "Read the use cases"
+  },
+  "25vo1imlybl": {
+    "defaultMessage": "RTL-SDR with a turnstile, QFH or V-dipole antenna"
+  },
+  "25yuo28fwc8": {
+    "defaultMessage": "Press play"
+  },
+  "26330mpk5yt": {
+    "defaultMessage": "LRPT is the digital counterpart to APT, and the picture is sharper for it. The three MSU-MR channels arrive interleaved and are drawn on the video pane in strips as the frames are assembled, so a pass builds visibly rather than appearing at the end."
+  },
+  "265jlire0io": {
+    "defaultMessage": "WaveShark measures the pair and looks it up in a list you provide, so the alert appears with a name. The voice dispatch that follows the tones is a call on the same channel, recorded and transcribed like any other."
+  },
+  "2668ascw5il": {
+    "defaultMessage": "RTTY decoder for SDR - WaveShark"
+  },
+  "266x07hvzoq": {
+    "defaultMessage": "Business VHF and UHF (136-174 / 400-470 MHz): what is transmitting there"
+  },
+  "267j9o8pse7": {
+    "defaultMessage": "Aircraft ICAO address and registration"
+  },
+  "26iv1b6izox": {
+    "defaultMessage": "A DVB-T multiplex read from its carriers down to its transport stream: the transmission parameters, the services on it, and whichever one you pick playing in the window at full frame rate with its sound in step."
+  },
+  "26oh080c3rd": {
+    "defaultMessage": "Point a radio at a band and see what is already transmitting on it."
+  },
+  "26pbst599rj": {
+    "defaultMessage": "Inmarsat Aero decoder for SDR - WaveShark"
+  },
+  "26t5s77en52": {
+    "defaultMessage": "A DVB-T multiplex down to its transport stream and playing, DAB ensembles and their stations, DRM services on shortwave, and FM with stereo and RDS."
+  },
+  "26vhcyaxedv": {
+    "defaultMessage": "Site radio, taxis, security, public safety and paging: DMR, P25, NXDN, analogue FM with MDC-1200 and tones, and POCSAG and FLEX paging."
+  },
+  "270i9669qfr": {
+    "defaultMessage": "The blocks are named on the spectrum, so 11C reads as 11C rather than as a frequency to look up."
+  },
+  "271dn6te6sk": {
+    "defaultMessage": "The satellite half of airline datalink: the same messages as ACARS, sent where there is no VHF ground station to hear."
+  },
+  "274fjsctlnc": {
+    "defaultMessage": "Wireless M-Bus mode T with manufacturer, meter number, version and type, and Itron ERT SCM, SCM+ and IDM readings on the US band."
+  },
+  "277mrfe3jsj": {
+    "defaultMessage": "Message format: SCM, SCM+ or IDM"
+  },
+  "278ar7ewoz": {
+    "defaultMessage": "Baud rate and the channel it arrived on"
+  },
+  "278trenu7rz": {
+    "defaultMessage": "Inmarsat: satellite ACARS from aircraft over oceans, and the EGC and SafetyNET broadcasts sent to shipping."
+  },
+  "27e9qdj2e8l": {
+    "defaultMessage": "Shipping"
+  },
+  "27ivktlfhsq": {
+    "defaultMessage": "DVB-T television and 5.8 GHz analogue video"
+  },
+  "27kjk6etn65": {
+    "defaultMessage": "433.920 MHz · span 2400 kHz · 45 scanners running"
+  },
+  "27mp8zm5pgm": {
+    "defaultMessage": "HF, VHF and UHF"
+  },
+  "27s4ro6vgrt": {
+    "defaultMessage": "Any RTL-SDR, with an antenna cut for the band"
+  },
+  "27xgdau5ey9": {
+    "defaultMessage": "What appears"
+  },
+  "27ypz6mvy83": {
+    "defaultMessage": "SSTV decoder for SDR - WaveShark"
+  },
+  "27z0wpatnr6": {
+    "defaultMessage": "Wi-Fi, Bluetooth LE, Zigbee and Thread, drone Remote ID and the control links flying model aircraft, all in the same 83 MHz."
+  },
+  "280l49pvihp": {
+    "defaultMessage": "No listed station matches that. Clear the filter to see them all."
+  },
+  "282uy7fuqn7": {
+    "defaultMessage": "Find every wireless device around you"
+  },
+  "283a7cxjitz": {
+    "defaultMessage": "Weather stations: temperature, humidity, rain, wind"
+  },
+  "28533xl1r07": {
+    "defaultMessage": "Packet rate and link level"
+  },
+  "286qzoufeqp": {
+    "defaultMessage": "\"Damaged\" on first open is the quarantine flag, cleared with the command above"
+  },
+  "288kn7s3hd3": {
+    "defaultMessage": "2.4 GHz · HackRF or LimeSDR"
+  },
+  "28aeahqex8e": {
+    "defaultMessage": "Both of those, plus full duplex. No Windows build: LimeSuite is not packaged for it."
+  },
+  "28gquwsdw04": {
+    "defaultMessage": "A KISS TNC on <code>--kiss-listen</code> hands the packet traffic to the software you already run, and keys AX.25 back through a radio that transmits."
+  },
+  "28jz15smsjk": {
+    "defaultMessage": "Where a receiver that has just started is: what the application can do, as cards that take you there, and once a radio is running what is tuned, whether the host is keeping up, how much has decoded and what is on the air right now."
+  },
+  "28nk2jc3jrp": {
+    "defaultMessage": "What is transmitting on each band"
+  },
+  "28p5mhvqg9h": {
+    "defaultMessage": "Point <code>--ha-broker</code> at the MQTT broker Home Assistant already uses and every transmitter the decoders can name becomes a device there, through MQTT discovery. A weather station’s temperature and humidity, a meter’s reading, a tyre sensor’s pressure, and the level each was heard at."
+  },
+  "28qcig37z1d": {
+    "defaultMessage": "The faster paging standard, at 1600 and 3200 baud in two and four level, read into the same message list as POCSAG."
+  },
+  "28qoanz1oub": {
+    "defaultMessage": "Edit the signal chain stage by stage"
+  },
+  "28rqcu3hq6n": {
+    "defaultMessage": "Above 3.8 GHz is out of range, so 5.8 GHz FPV needs a HackRF"
+  },
+  "28s88uwp83x": {
+    "defaultMessage": "Leave a dongle on an ISM band and collect the sensors, remotes, door contacts, meters and tyre sensors transmitting near you, each with the ID it keeps."
+  },
+  "28sn2n44om9": {
+    "defaultMessage": "Something did not decode?"
+  },
+  "28vace9oujh": {
+    "defaultMessage": "Everything heard goes in the list along the bottom, decoded or not: frequency, modulation, RSSI, SNR and what was made of it. Click a row for its envelope, its instantaneous frequency and a hex dump. A burst nothing claims still gets its coding inferred and its bits sliced out, which is enough to recognise the same device again and start reversing it."
+  },
+  "28ve2eawycu": {
+    "defaultMessage": "No speech yet."
+  },
+  "2934039rwnr": {
+    "defaultMessage": "ExpressLRS, FrSky ACCST, FlySky AFHDS-2A, XN297"
+  },
+  "294lp02vwaz": {
+    "defaultMessage": "Polarity, so a reversed signal is labelled rather than mangled"
+  },
+  "294qrisb0h6": {
+    "defaultMessage": "An RTL-SDR needs an upconverter or a direct sampling modification to reach here at all."
+  },
+  "298gy1xc3qw": {
+    "defaultMessage": "VHF and UHF · recorded and transcribed"
+  },
+  "298n2hnvucu": {
+    "defaultMessage": "Install WaveShark"
+  },
+  "299wqgh2a3a": {
+    "defaultMessage": "<strong>81 recordings</strong> from rtl_433’s corpus are replayed field for field against what rtl_433 25.02 made of them, plus ADS-B against dump1090, ACARS against acarsdec, VDL Mode 2 against dumpvdl2, SSTV against colaclanth’s decoder and a radiosonde against SDRangel. Off-air captures of M17, DMR, TETRA and Meshtastic are checked against what the transmission itself says."
+  },
+  "29bplpxayep": {
+    "defaultMessage": "Morse and teleprinter"
+  },
+  "29ewwj3c4sn": {
+    "defaultMessage": "Sponsor on GitHub"
+  },
+  "29ezmokis6v": {
+    "defaultMessage": "The system number, who called whom, and whether the speech on a channel is enciphered. Also known as IDAS, NEXEDGE, 6.25 kHz narrowband."
+  },
+  "29fctni8jdf": {
+    "defaultMessage": "2.4 GHz advertising channels"
+  },
+  "29gn13ltsr6": {
+    "defaultMessage": "Air traffic control voice on the lower half, and the ACARS and VDL Mode 2 datalinks on the upper half."
+  },
+  "29iofmuny0": {
+    "defaultMessage": "2.4 GHz / 868 / 915 MHz"
+  },
+  "29iz636mz86": {
+    "defaultMessage": "433 MHz (433.05-434.79 MHz): what is transmitting there"
+  },
+  "29l0oa4m21m": {
+    "defaultMessage": "Give the dongle a driver"
+  },
+  "29tkdmx4clc": {
+    "defaultMessage": "USB and Mini"
+  },
+  "2a3r739adjm": {
+    "defaultMessage": "What it hears"
+  },
+  "2a4ktw5xbiw": {
+    "defaultMessage": "Three unrelated things share this stretch of spectrum, and a wide span catches all of them at once. TETRA carries European public safety and transport, with its cells and call setup readable and its ciphers listed in the keys view."
+  },
+  "2a6flpbq9qq": {
+    "defaultMessage": "{count} jobs one receiver does"
+  },
+  "2aay7p5db3t": {
+    "defaultMessage": "Compared with"
+  },
+  "2afityrvf67": {
+    "defaultMessage": "WaveShark reads it across the data half of the airband rather than on one channel, so a message on a company frequency you did not know about is caught with the rest. Messages land in the message view and the link view, and are written down a file a day."
+  },
+  "2afw7zgey1g": {
+    "defaultMessage": "Apple silicon only; there is no Intel build"
+  },
+  "2ahdyirgy1d": {
+    "defaultMessage": "The published builds leave out <code>tea</code> and <code>ambe</code>. Compiling them for yourself is not the same act as a project distributing them, which is why the source turns them on and the downloads do not."
+  },
+  "2al6rl5wuev": {
+    "defaultMessage": "Decode a capture, a directory of them, or a packet log, and print what came out."
+  },
+  "2am4ae77ieo": {
+    "defaultMessage": "Point <code>--ha-broker</code> at the MQTT broker Home Assistant already uses and a weather station’s temperature and humidity, a meter’s reading, a tyre sensor’s pressure and the level each was heard at appear as devices, no vendor hub involved."
+  },
+  "2apk1wu99s0": {
+    "defaultMessage": "Country code and beacon identity, including the hex id"
+  },
+  "2aq9u4gz4mi": {
+    "defaultMessage": "Bit rate and error counts"
+  },
+  "2at2m8unw6c": {
+    "defaultMessage": "Links the TETRA ciphers and a wgpu key search. Without it the keys view still lists enciphered channels and says nothing can read them."
+  },
+  "2aw4dusebee": {
+    "defaultMessage": "LoRaWAN device EUI, join EUI and device address"
+  },
+  "2ax613qv554": {
+    "defaultMessage": "Analogue video and FPV decoder for SDR - WaveShark"
+  },
+  "2ax7wq3x7se": {
+    "defaultMessage": "5.8 GHz (5645-5945 MHz): what is transmitting there"
+  },
+  "2ay3f7fiunx": {
+    "defaultMessage": "What WaveShark decodes"
+  },
+  "2ay4w1nt4it": {
+    "defaultMessage": "LimeSDR"
+  },
+  "2azouv7hgf2": {
+    "defaultMessage": "Install, or unzip"
+  },
+  "2b1vw8ypfqq": {
+    "defaultMessage": "Wide protocols"
+  },
+  "2b4ltxo5xvg": {
+    "defaultMessage": "MOTOTRBO, Tier II, talkgroup, DMR ID"
+  },
+  "2b719wzev0p": {
+    "defaultMessage": "Two balloons go up from most launch sites every day, climb to around 30 km and burst, and each one transmits its position and the air it is measuring the whole way. Chasing and recovering them is a hobby of its own, and the flight is public data while it is in the air."
+  },
+  "2baxwm6kueg": {
+    "defaultMessage": "As with the other digital voice standards, the identities are the part that survives encryption: a radio id and a group id say what the fleet is doing even when the payload does not open."
+  },
+  "2bf5sjp6thy": {
+    "defaultMessage": "Open the disk image and drag the app across"
+  },
+  "2bhxkwgbsp7": {
+    "defaultMessage": "listed just now"
+  },
+  "2bp6mv3ncqi": {
+    "defaultMessage": "RTL-SDR; L band wants a patch antenna and an LNA"
+  },
+  "2bqj8omaoac": {
+    "defaultMessage": "Analogue VHF and UHF"
+  },
+  "2bqvhsgyles": {
+    "defaultMessage": "iqstream and rtl_tcp, over the network"
+  },
+  "2bryhm23vr6": {
+    "defaultMessage": "GSM"
+  },
+  "2bsg300a0qg": {
+    "defaultMessage": "Needs LimeSuite installed on Linux and macOS"
+  },
+  "2bsjlp5nd0m": {
+    "defaultMessage": "A package or the bare binary, and a radio. No service, no account and nothing phoning home."
+  },
+  "2bvejpgj4at": {
+    "defaultMessage": "Pager messages in clear at 512, 1200 and 2400 bit/s, deduplicated because a paging network sends every page twice."
+  },
+  "2bxma6ofueq": {
+    "defaultMessage": "WaveShark is GPL-3.0 and free, with no account and nothing phoning home. Sponsorship pays for the radios, the test gear and the hours that go into the next batch of decoders."
+  },
+  "2byily30k8a": {
+    "defaultMessage": "No account, no service and nothing phoning home. The binary is the program."
+  },
+  "2c87g9kxktc": {
+    "defaultMessage": "IDAS, NEXEDGE, 6.25 kHz narrowband"
+  },
+  "2c8aqr85e9i": {
+    "defaultMessage": "Wide enough for Wi-Fi, Bluetooth, drone Remote ID, television and 5.8 GHz video, and the cheapest way to get a transmitter into the same flow graph."
+  },
+  "2c9h0tjlzne": {
+    "defaultMessage": "A command line tool that fits in a pipeline and a cron job"
+  },
+  "2cab5ljh63u": {
+    "defaultMessage": "Point <code>--ha-broker</code> at the MQTT broker Home Assistant already uses and every transmitter the decoders can name becomes a device there: a weather station’s temperature and humidity, a meter’s reading, a tyre sensor’s pressure, and the level each was heard at. <code>--ha-spaces ism,wmbus</code> keeps it to your own sensors and meters rather than a street full of passing phones."
+  },
+  "2cdb1kmbzbg": {
+    "defaultMessage": "Radiosondes"
+  },
+  "2ce4rwvr8fx": {
+    "defaultMessage": "Put the antenna where the signals are"
+  },
+  "2cffgm35oq9": {
+    "defaultMessage": "M17 decoder for SDR - WaveShark"
+  },
+  "2cfwiajxwcl": {
+    "defaultMessage": "Every band, one receiver."
+  },
+  "2cgxahoohg4": {
+    "defaultMessage": "It is the receiver on the screen rather than a second one: what the agent tunes, opens or switches on appears in the window, and it can take a picture of that window to check what it did. It reads the spectrum, the packets, the calls, the transcript and the tracker, changes anything in the signal chain, and draws the chain itself by adding stages, wiring them and taking them out."
+  },
+  "2chdwuv27n1": {
+    "defaultMessage": "2.4 GHz channels 11-26"
+  },
+  "2clj97av1ft": {
+    "defaultMessage": "Aircraft registration and flight number"
+  },
+  "2cnu6xktjyv": {
+    "defaultMessage": "Nobody has listed a station in the last day. Yours could be the first."
+  },
+  "2cuiieayai2": {
+    "defaultMessage": "Opening on a view"
+  },
+  "2cxznpjx382": {
+    "defaultMessage": "390-406 MHz"
+  },
+  "2d2y43v5jjw": {
+    "defaultMessage": "rtl_433, 433.92 MHz, weather station, door sensor"
+  },
+  "2d3h2hi0wyi": {
+    "defaultMessage": "One packet stream read fifteen ways: spectrum and waterfall, the signal chain itself, calls, transcript, messages, video, map, data links, devices, channels, control links, satellite passes, keys and an agent view."
+  },
+  "2d6xrgahbar": {
+    "defaultMessage": "Meshtastic, MeshCore, LoRaWAN, chirp spread spectrum"
+  },
+  "2daws9efrk8": {
+    "defaultMessage": "UAT978, ADS-B UAT, FIS-B, TIS-B"
+  },
+  "2dcsq3gu4wh": {
+    "defaultMessage": "Tyre pressure sensors as cars pass: the sensor id, the pressure, the temperature and whether the wheel is turning."
+  },
+  "2dcywjktde8": {
+    "defaultMessage": "Satellites"
+  },
+  "2dfmxka7or1": {
+    "defaultMessage": "The cipher in use, in the keys view"
+  },
+  "2dha6ewvvzy": {
+    "defaultMessage": "Who is talking, on anything that decodes speech. Picking a call is asking to hear it, every over can be recorded as Opus, and a timeline under the list draws the recordings against the clock so a stretch can be dragged out as one file."
+  },
+  "2dl2nfpudrs": {
+    "defaultMessage": "Find every wireless device around you with an SDR - WaveShark"
+  },
+  "2dofqu1knpz": {
+    "defaultMessage": "Baud rate and shift"
+  },
+  "2door4wbbdw": {
+    "defaultMessage": "Aircraft"
+  },
+  "2dovzfwjl2x": {
+    "defaultMessage": "Pagers and tones"
+  },
+  "2dqbbncy1z2": {
+    "defaultMessage": "MDC-1200 is the short data burst at the start or end of an analogue over. It carries a unit id, and sometimes an emergency or status code, which turns an unidentified voice channel into a roster of radios."
+  },
+  "2ds6dw3q48x": {
+    "defaultMessage": "Sequence numbers, which show retries"
+  },
+  "2du2rz8fhxt": {
+    "defaultMessage": "A package that brings the udev rules with it, or a single binary that needs nothing installed but a driver for the dongle."
+  },
+  "2dzlmj34kca": {
+    "defaultMessage": "Mobile country and network code, and the cell"
+  },
+  "2dzu7t0873w": {
+    "defaultMessage": "RC control links decoder for SDR - WaveShark"
+  },
+  "2e01nexofnb": {
+    "defaultMessage": "macOS"
+  },
+  "2e1d46e0siw": {
+    "defaultMessage": "An iqstream or rtl_tcp server shows up as a local radio, so the antenna can live where the signals are. This receiver serves iqstream too, and several matching tuners stitch into one wider span."
+  },
+  "2e2f05fb3to": {
+    "defaultMessage": "The ground stations transmit too. Their uplink carries the weather and traffic picture being sent to cockpits, which is a broadcast service with nothing encrypted about it."
+  },
+  "2eaq9w7m5c0": {
+    "defaultMessage": "WaveShark decoding a weather station on 433.92 MHz: spectrum and waterfall above, packet list below."
+  },
+  "2ebz0wxjw90": {
+    "defaultMessage": "MDC-1200 decoder for SDR - WaveShark"
+  },
+  "2edtdd05v5l": {
+    "defaultMessage": "Source and destination call signs, and the digipeater path"
+  },
+  "2edtth2bfnq": {
+    "defaultMessage": "Skip to content"
+  },
+  "2eic9yxee5p": {
+    "defaultMessage": "An OSINT tool for RF. GPL-3.0-or-later."
+  },
+  "2ejz5fnb0pq": {
+    "defaultMessage": "The channel and the level it was heard at"
+  },
+  "2elx5uex2nu": {
+    "defaultMessage": "Not in a position to sponsor? Filing a good bug with a capture attached is worth just as much, and a decoder that is wrong on real signals is the most useful thing you can send."
+  },
+  "2enqiq4f15z": {
+    "defaultMessage": "PAL, NTSC, 5.8 GHz FPV, wireless camera"
+  },
+  "2eodtht6h3p": {
+    "defaultMessage": "Inmarsat Aero"
+  },
+  "2ep3rc54dlm": {
+    "defaultMessage": "APRS and packet"
+  },
+  "2etmtqz0uv1": {
+    "defaultMessage": "Open the package the button gave you, or take the bare binary and run it where it lands. The binary is the whole program either way."
+  },
+  "2euavjod2mp": {
+    "defaultMessage": "978 MHz"
+  },
+  "2ezz8ug1af6": {
+    "defaultMessage": "rtl_tcp carries 8 bit samples, whatever the radio is"
+  },
+  "2f04efwkkyj": {
+    "defaultMessage": "Talkgroup and source radio id"
+  },
+  "2f2cmuqicue": {
+    "defaultMessage": "Open with a settings dialog up: agent, radio, spectrum, waterfall, log, scanners, memory, data or app."
+  },
+  "2f5pempmig0": {
+    "defaultMessage": "Weather satellites"
+  },
+  "2f6ywuox36h": {
+    "defaultMessage": "One receiver covers the modes an amateur band carries at the same time rather than one at a time: APRS with Mic-E on the EU, US and JP calling frequencies, SSTV in Martin, Scottie and Robot modes saved as each picture ends, RTTY from 45.45 to 200 baud, CW read as text at the speed it was sent, and M17 with its packet messages in full."
+  },
+  "2f8a3ru5i9z": {
+    "defaultMessage": "--chain, --flights, --calls, --messages, --transcript, --links, --control, --channels, --video, --scanners, --gain and --setup open the receiver on a view."
+  },
+  "2fakh0478gi": {
+    "defaultMessage": "Alert headers off the seven NOAA Weather Radio channels: the event, the counties it covers and how long it lasts."
+  },
+  "2ff5esyhu5j": {
+    "defaultMessage": "Start and stop tones, so a chart is cut where it should be"
+  },
+  "2ffusjhlj1y": {
+    "defaultMessage": "Remote ID and DJI DroneID with serial, position, height and home point, plus the control link itself with the sticks drawn live."
+  },
+  "2fkpyd67dvq": {
+    "defaultMessage": "131.5 / 136.7 - 137 MHz"
+  },
+  "2flya9ttuk1": {
+    "defaultMessage": "Position reporting is only half of what an aircraft transmits. ADS-B and Mode S at 1090 MHz put the airframe on the map with callsign, altitude, speed and track; UAT at 978 MHz adds the light aircraft that never appear on 1090 along with the ground stations’ weather and traffic uplink."
+  },
+  "2fsfgbhsox0": {
+    "defaultMessage": "Forty-odd protocols running at once, with a packet list and a map"
+  },
+  "2fu1jt0wmyj": {
+    "defaultMessage": "GSM 900 and 1800 (925-960 / 1805-1880 MHz): what is transmitting there"
+  },
+  "2fu2y3bpx8h": {
+    "defaultMessage": "Network throughput sets the span you can carry"
+  },
+  "2fxwvuwfz2s": {
+    "defaultMessage": "Alert headers off the seven NOAA Weather Radio channels: the event, the counties it covers and how long it lasts. Also known as NOAA Weather Radio, emergency alert, 162.400 MHz."
+  },
+  "2fybau5d1rd": {
+    "defaultMessage": "LimeSDR with WaveShark - what it reaches"
+  },
+  "2g1zep3qykk": {
+    "defaultMessage": "DVB-T multiplexes: the transmission parameters, the services each carries, and a programme decoded to picture and sound."
+  },
+  "2g2075un3ck": {
+    "defaultMessage": "HF is the band where a receiver in one country hears a transmitter in another, and the modes on it are the oldest ones here: Morse still identifies beacons and repeaters, RTTY carries bulletins and contests, and weather fax sends pressure charts to shipping as slow pictures."
+  },
+  "2gjb633q6ws": {
+    "defaultMessage": "waveshark --help has the rest"
+  },
+  "2gkskakd1r9": {
+    "defaultMessage": "Zigbee, Thread and Matter"
+  },
+  "2gky0jpxtrl": {
+    "defaultMessage": "Message text, or the numeric message"
+  },
+  "2l27vheugk": {
+    "defaultMessage": "Monitor a radio network and read it back later with an SDR - WaveShark"
+  },
+  "2mga8cugs6": {
+    "defaultMessage": "45 decoders from the rtl_433 family: weather stations, thermometers, door contacts, gate remotes, security sensors and shelf labels."
+  },
+  "2pbeoivq5l": {
+    "defaultMessage": "NOAA APT and Meteor LRPT weather satellite passes"
+  },
+  "2vcpovapgl": {
+    "defaultMessage": "868.95 MHz"
+  },
+  "2w6p0g9zvd": {
+    "defaultMessage": "Receivers people have chosen to share. Each one is an iqstream server announced on <nostr>nostr</nostr>, so any copy of WaveShark can open it as a remote radio and decode what that antenna hears."
+  },
+  "2x1rqqw8ji": {
+    "defaultMessage": "Channels"
+  },
+  "31unvxdy2e": {
+    "defaultMessage": "Drone Remote ID decoder for SDR - WaveShark"
+  },
+  "336huwmbqh": {
+    "defaultMessage": "Read the spectrum, packets, calls and transcript"
+  },
+  "34toebin6l": {
+    "defaultMessage": "Data rate per frame, and the channel"
+  },
+  "35dmvl4wc2": {
+    "defaultMessage": "Download WaveShark for Linux"
+  },
+  "36ut2uoc13": {
+    "defaultMessage": "Run with no window, scanning and logging as the interface would."
+  },
+  "37ppdwjjup": {
+    "defaultMessage": "Roughly 250 device decoders against forty-five"
+  },
+  "38cnc557q0": {
+    "defaultMessage": "Just above them sit the seven NOAA Weather Radio channels, where a SAME header carries the whole of an alert, its counties and its expiry, in machine-readable form before the announcer says a word."
+  },
+  "3a6ibzv947": {
+    "defaultMessage": "978 / 1090 MHz"
+  },
+  "3bv0m4ugx4": {
+    "defaultMessage": "Offer a network tuner as a radio: iqstream, or rtl_tcp://host:port. Repeatable."
+  },
+  "3eji58ho1a": {
+    "defaultMessage": "Headless"
+  },
+  "3g8fk1mcaw": {
+    "defaultMessage": "No sound yet: the ensemble is read for what it carries, not decoded to audio."
+  },
+  "3ga0uevlqz": {
+    "defaultMessage": "<code>--ha-spaces ism,wmbus</code> keeps it to your own sensors and meters. Leave it open on a band full of handsets and the house fills up with devices that rotate their address every quarter of an hour, which is a warning rather than a feature."
+  },
+  "3i59at279n": {
+    "defaultMessage": "The datalinks carry the text: ACARS on the airband channels and VDL Mode 2, the link most European traffic uses, with Inmarsat Aero covering the satellite side off an L-band patch antenna. Those messages are the flight, the aircraft and what it told the airline."
+  },
+  "3ish90ipup": {
+    "defaultMessage": "--headless runs the whole receiver with no window, scanning and publishing as it would with one."
+  },
+  "3l0aim1i0n": {
+    "defaultMessage": "dump1090, 1090 MHz, Mode S, secondary radar"
+  },
+  "3l4x5sz8sr": {
+    "defaultMessage": "Source and destination callsign"
+  },
+  "3nt7jar3y4": {
+    "defaultMessage": "No full duplex repeater work"
+  },
+  "3qs44k4pdz": {
+    "defaultMessage": "Survey a site and hunt interference"
+  },
+  "3uvpen3zah": {
+    "defaultMessage": "Spans wide enough for Wi-Fi, Bluetooth LE, DroneID and television, a transmitter, and a bias tee for a mast head amplifier."
+  },
+  "417u296esr": {
+    "defaultMessage": "No sound yet."
+  },
+  "4a367o0js6": {
+    "defaultMessage": "Everything an RTL-SDR reaches, on one radio"
+  },
+  "4ahp1wva16": {
+    "defaultMessage": "Destination and estimated arrival, as entered by the crew"
+  },
+  "4bkbfmt5mg": {
+    "defaultMessage": "Amateur bands"
+  },
+  "4c4wbupq8b": {
+    "defaultMessage": "DAB decoder for SDR - WaveShark"
+  },
+  "4fe0x4pxka": {
+    "defaultMessage": "On a radio that transmits, an over can be keyed back out, which makes the same window both sides of a contact."
+  },
+  "4gr7bnrsb1": {
+    "defaultMessage": "Baudot teleprinter text from 45.45 to 200 baud, either way up, read into the message view as it arrives."
+  },
+  "4ih42n98ys": {
+    "defaultMessage": "Airband (118-137 MHz): what is transmitting there"
+  },
+  "4izuwv6cy9": {
+    "defaultMessage": "Four radios, and none of them expensive"
+  },
+  "4jxnkla976": {
+    "defaultMessage": "RTL-SDR with WaveShark - what it reaches"
+  },
+  "4l858tmwdb": {
+    "defaultMessage": "A drone’s serial, position, height and operator location, from the Remote ID broadcast it is required to send, and the home point from a DJI airframe. Also known as DJI DroneID, Open Drone ID, ASTM F3411, operator location."
+  },
+  "4lpdlv08ni": {
+    "defaultMessage": "Words per minute, as measured"
+  },
+  "4npawvcnus": {
+    "defaultMessage": "A cell’s identity off its synchronisation burst, the system information it broadcasts, and who a page is calling."
+  },
+  "4q0etjhd2d": {
+    "defaultMessage": "Spreading factor, bandwidth and coding rate"
+  },
+  "4qzx8smibe": {
+    "defaultMessage": "A Wi-Fi channel is 20 MHz wide, so reading one is a job for a HackRF or a LimeSDR rather than a dongle. What comes out is a survey: the networks beaconing, the clients probing, the rates in use and the addresses that keep appearing."
+  },
+  "4r6u0t6qrr": {
+    "defaultMessage": "A tuner on a machine at the mast, read from the desk, tuned from the desk, and several of them stitched into one wider span."
+  },
+  "4re1lg9km5": {
+    "defaultMessage": "The pair of tones that opens a fire or ambulance pager, named from an operator list so a call reads as a station rather than two frequencies."
+  },
+  "4srzzu0upz": {
+    "defaultMessage": "What you can do with WaveShark"
+  },
+  "4svgwqfg8d": {
+    "defaultMessage": "NXDN is the Icom and Kenwood narrowband standard, common on business and transport systems, and it fits in half the channel DMR uses. Both channel widths are read."
+  },
+  "4wplsyuqp6": {
+    "defaultMessage": "Hears"
+  },
+  "4x34lmko20": {
+    "defaultMessage": "This release also has a <code>-cuda</code> asset on Linux and Windows: the same receiver with the speech model on an NVIDIA card, needing the CUDA 12 runtime and a driver of 570 or later. Take the plain build unless you want speech read on the GPU."
+  },
+  "4xxaw03lv4": {
+    "defaultMessage": "DAB and DRM"
+  },
+  "50oqpj54it": {
+    "defaultMessage": "The udev rules are the part people miss. Without them a dongle can only be opened as root, which is a permission error rather than a radio fault, and installing the distribution package is what puts them in place."
+  },
+  "523s03tux5": {
+    "defaultMessage": "The services in a DRM multiplex, their languages and their labels, off a shortwave or medium wave transmission."
+  },
+  "52d45k2otf": {
+    "defaultMessage": "Where the sticks are on every model control link in earshot: a bar per channel in microseconds, with the frame rate and whether the handset is asking to arm. Also known as ExpressLRS, FrSky ACCST, FlySky AFHDS-2A, XN297."
+  },
+  "54co5rz08w": {
+    "defaultMessage": "DECODED AS"
+  },
+  "5a61x8gopi": {
+    "defaultMessage": "Every decoded frame arrives in one place, and each view is a different reading of it. None of them knows a protocol: a DMR call, a TETRA call and an M17 call are the same row with different fields filled in, and an aircraft, a vessel and a mesh node are the same track. The packet list runs along the bottom of all of them, newest last, with the selected burst’s envelope, instantaneous frequency and hex dump beside it."
+  },
+  "5cwesb9hdb": {
+    "defaultMessage": "The dividing line is bandwidth, not cleverness: one Wi-Fi channel is 20 MHz and a television multiplex is 8, where a dongle carries about 2.4. Everything narrower than that, which is most of <decodes>the decoder list</decodes>, runs on the cheapest receiver ever made."
+  },
+  "5elv5b798": {
+    "defaultMessage": "SDR hardware for WaveShark - RTL-SDR, HackRF, LimeSDR"
+  },
+  "5ihjs7ikgj": {
+    "defaultMessage": "The picture itself, line by line"
+  },
+  "5is2i5zezk": {
+    "defaultMessage": "Most wireless devices in a building announce themselves every few seconds to every few minutes, and almost all of them carry an ID that does not change. Covering the band continuously catches the ones that would have transmitted while you were tuned somewhere else, which is the whole reason a scan misses them."
+  },
+  "5kojm6ux2d": {
+    "defaultMessage": "An OSINT tool for RF. Cover a band continuously and keep everything, decoded or not."
+  },
+  "5lqm3x6p6i": {
+    "defaultMessage": "no"
+  },
+  "5rwtbccx3j": {
+    "defaultMessage": "EPIRB, PLB, ELT, 406 MHz distress beacon"
+  },
+  "5sozpcoqhe": {
+    "defaultMessage": "On Linux, install the distribution package so the udev rules land. On Windows, run Zadig, pick the RTL2832U interface and install WinUSB."
+  },
+  "5ukqq7yi5u": {
+    "defaultMessage": "Checked against dump1090 on the same recordings, which is the only way to know a decoder is right rather than merely confident."
+  },
+  "5vkvxhg6w6": {
+    "defaultMessage": "Track aircraft and read what they send"
+  },
+  "5wsfjntqgr": {
+    "defaultMessage": "The channels view says what is on each Wi-Fi, Bluetooth and 802.15.4 channel, how loud it is and how crowded it is, which is the answer to where to put your own network rather than a picture of the problem."
+  },
+  "5yijtayq5i": {
+    "defaultMessage": "The fifteen views - WaveShark"
+  },
+  "61oav484in": {
+    "defaultMessage": "Checked against acarsdec on the same recordings."
+  },
+  "62x3w0ycpn": {
+    "defaultMessage": "400-406 MHz"
+  },
+  "6achmvtfq9": {
+    "defaultMessage": "GSM decoder for SDR - WaveShark"
+  },
+  "6q8g6icl0l": {
+    "defaultMessage": "It opens on the dashboard, and the dial starts at 433.92 MHz where the devices it decodes are."
+  },
+  "6sxmkvhdk0": {
+    "defaultMessage": "AIS vessel positions on two channels, working channels and calling voice, and the NOAA Weather Radio alerts at the top of the band."
+  },
+  "6u2t4jel4w": {
+    "defaultMessage": "See drones, their operators and their handsets with an SDR - WaveShark"
+  },
+  "70yac3rvz": {
+    "defaultMessage": "Service identifiers"
+  },
+  "719lt0z10f": {
+    "defaultMessage": "12.5 and 6.25 kHz channels"
+  },
+  "733bunqdsr": {
+    "defaultMessage": "1525-1559 MHz"
+  },
+  "7am1p640zz": {
+    "defaultMessage": "Try it on a band you know."
+  },
+  "7crvxb3tur": {
+    "defaultMessage": "The network, its cells and who is called, with a wgpu key search on the ciphers in a source build carrying the tea feature. Also known as TEA1, TEA2, TETRAPOL alternative, trunked."
+  },
+  "7cu7vrpg8h": {
+    "defaultMessage": "42 decoders running at once inside one span: ADS-B, ACARS, VDL Mode 2, AIS, POCSAG and FLEX paging, DMR, P25, NXDN, TETRA, M17, LoRa mesh, wireless M-Bus, Z-Wave, TPMS, ISM sensors, Wi-Fi, Bluetooth LE, Zigbee, drone Remote ID, SSTV, weather satellites, radiosondes, DVB-T, DAB and DRM."
+  },
+  "7fzmyjor46": {
+    "defaultMessage": "Report what the squelch reads on a frequency, for setting one."
+  },
+  "7gr9rhzyl": {
+    "defaultMessage": "Feed your own sensors into Home Assistant with an SDR - WaveShark"
+  },
+  "7jx5uyv4x9": {
+    "defaultMessage": "An antenna in the loft and a receiver on the desk"
+  },
+  "7lgylux05": {
+    "defaultMessage": "RTL-SDR with an upconverter for HF, or direct sampling"
+  },
+  "7ns82niu86": {
+    "defaultMessage": "2400-2483.5 MHz"
+  },
+  "7p2ivb23p": {
+    "defaultMessage": "{span} MHz span, tunable"
+  },
+  "7vt9qd4uyx": {
+    "defaultMessage": "Run it as an amateur station with an SDR - WaveShark"
+  },
+  "7w251fm81": {
+    "defaultMessage": "up to 20 MHz"
+  },
+  "7x29fn6l6i": {
+    "defaultMessage": "Surface pressure charts and ice maps sent to shipping on shortwave, drawn on the video pane as they come in. Also known as radiofax, WEFAX, marine charts, Northwood."
+  },
+  "7y9tn2le1": {
+    "defaultMessage": "ExpressLRS with the sticks read live on the control view, plus FrSky ACCST, FlySky AFHDS-2A and XN297 remotes, address and payload included."
+  },
+  "7ymgpwgd03": {
+    "defaultMessage": "Data links"
+  },
+  "800dtpy3be": {
+    "defaultMessage": "The .deb and .rpm depend on it. With the bare binary, install it yourself for the udev rules."
+  },
+  "81y1aeuo8u": {
+    "defaultMessage": "The release workflow builds <code>--no-default-features --features limesdr,stt,cuda,mcp</code>, with <code>limesdr</code> dropped on Windows."
+  },
+  "8233lasho0": {
+    "defaultMessage": "Keys"
+  },
+  "8267gvpm97": {
+    "defaultMessage": "Altitude, ground speed, heading and vertical rate"
+  },
+  "82k3a4fl2t": {
+    "defaultMessage": "Command line"
+  },
+  "88peslw942": {
+    "defaultMessage": "Wi-Fi decoder for SDR - WaveShark"
+  },
+  "8a60tzp1aj": {
+    "defaultMessage": "<views>What each view holds</views>, from the dashboard a fresh receiver opens on to the satellite passes nobody has heard yet."
+  },
+  "8b9gcaqrlp": {
+    "defaultMessage": "What is read here is the multiplex structure rather than the audio: which services exist, in which languages, and how the transmission is configured."
+  },
+  "8czb5se7x4": {
+    "defaultMessage": "915 MHz"
+  },
+  "8eum8uzz8t": {
+    "defaultMessage": "Asking the relays, {settled} of {relays} answered"
+  },
+  "8evmerfzff": {
+    "defaultMessage": "Shortwave without an upconverter or direct sampling"
+  },
+  "8fzs0dxszi": {
+    "defaultMessage": "Wi-Fi, Bluetooth LE, Zigbee and DJI DroneID: one channel is wider than the whole span"
+  },
+  "8jtde5uw7t": {
+    "defaultMessage": "315 / 433.92 MHz"
+  },
+  "8k9uhrceln": {
+    "defaultMessage": "HackRF or LimeSDR at 2.4 GHz; a dongle on 868 and 915"
+  },
+  "8ntovd9cpj": {
+    "defaultMessage": "Advertising packets on all three primary channels, Bluetooth 5 Long Range included, with Open Drone ID read where it is carried."
+  },
+  "8pjmbtrki9": {
+    "defaultMessage": "RTL-SDR to receive, HackRF or LimeSDR to transmit"
+  },
+  "8sbtzrtwvw": {
+    "defaultMessage": "A microphone, a tone or a recorded capture into NFM, WFM or AM, keyed by hand or by voice, and six protocols this receiver already reads sent back out: POCSAG pages, APRS beacons, RTTY overs, BLE advertisements, SSTV pictures and RDS names. Flipper .sub files key at the frequency they name, and a whole DVB-T multiplex can be built from any file ffmpeg can open."
+  },
+  "8serfl71bo": {
+    "defaultMessage": "Quick Call II, fire pager tones, alerting tones"
+  },
+  "8sf2t00tcg": {
+    "defaultMessage": "The packet log stores the mark and gap timings, the frame bytes and the burst’s own samples rather than the parsed fields, so a decoder written next month gets its chance at a burst heard today. <code>--record</code> writes rtl_433 style captures that both programs read, and the raw capture can be armed on energy so a file is written per burst with the signal from before it triggered."
+  },
+  "8xi4uu0hu7": {
+    "defaultMessage": "Ground station address, and which side sent the frame"
+  },
+  "92k071rx4k": {
+    "defaultMessage": "Pull pictures and data out of the sky with an SDR - WaveShark"
+  },
+  "94n9ogvjyj": {
+    "defaultMessage": "Vaisala RS41, Graw DFM, Meteomodem M10 and M20, iMet, Meisei, MRZ and LMS6 balloons on the map with serial, height, climb rate and the air they were sent up to measure. The channel follows the transmitter as it drifts, and launch sites from SondeHub say when the next one goes up."
+  },
+  "96ztpjgyjc": {
+    "defaultMessage": "DAB+, digital radio, ensemble, band III"
+  },
+  "97j51uk1gd": {
+    "defaultMessage": "APRS, SSTV, RTTY, Morse and M17 read at once, a KISS TNC for the packet software you already use, and memory banks imported from Chirp."
+  },
+  "9ejr342olt": {
+    "defaultMessage": "Serves the receiver to an agent on 127.0.0.1:8931. In every published build."
+  },
+  "9exahopy9q": {
+    "defaultMessage": "Decoding a weather station on 433.92 MHz. The tab strip swaps the spectrum for the signal chain, the map and its track table, the call list, the transcript, the messages, the picture or the keys."
+  },
+  "9kg25byl6r": {
+    "defaultMessage": "Wireless M-Bus decoder for SDR - WaveShark"
+  },
+  "9l4ojrr9qx": {
+    "defaultMessage": "1 MHz to 6 GHz, transmit and receive"
+  },
+  "9nlufw56ub": {
+    "defaultMessage": "Remote ID is a broadcast, not a network service: the aircraft transmits who it is and where it and its operator are, over Wi-Fi or Bluetooth LE, and anything nearby can read it. WaveShark reads Open Drone ID on both carriers and puts the aircraft and the operator on the map as separate marks."
+  },
+  "9odlrlgob5": {
+    "defaultMessage": "Wayland and X11 are both fine; the window is drawn with wgpu"
+  },
+  "9pmc512hbc": {
+    "defaultMessage": "A GSM cell transmits its beacon channel without pause, and everything that identifies it is in clear. That makes a survey of the mobile infrastructure around you a receive-only exercise."
+  },
+  "9skgj0ta6p": {
+    "defaultMessage": "Weather satellites passing overhead: NOAA APT pictures and Meteor-M LRPT, planned from the pass list and followed through Doppler."
+  },
+  "9v5tkcy5ee": {
+    "defaultMessage": "Paging messages name the subscriber identity being called and the channel a phone is then directed to. Traffic itself is encrypted and is not decoded."
+  },
+  "9xzs6yz7tv": {
+    "defaultMessage": "Amateur VHF and UHF"
+  },
+  "9z9ow2xt5z": {
+    "defaultMessage": "UHF television"
+  },
+  "9zaxev24zz": {
+    "defaultMessage": "Marine VHF · L band · 406 MHz"
+  },
+  "a1xk3l5dtp": {
+    "defaultMessage": "Checked against off-air captures, asserted against what the transmission itself says."
+  },
+  "a2ihqarn65": {
+    "defaultMessage": "Position, height, speed and heading"
+  },
+  "a3t8v4um3y": {
+    "defaultMessage": "The talkgroup, the radio id and the key a call is under, off the C4FM frames North American public safety runs on."
+  },
+  "a8nw9lev65": {
+    "defaultMessage": "DRM is digital broadcasting in the bands that reach across continents, which is why it is still used by international broadcasters where nothing else carries. A multiplex holds one to four services, each with a language and a label."
+  },
+  "aj4wuhsd6h": {
+    "defaultMessage": "A dongle that shows two interfaces in Zadig wants the one that is the bulk interface"
+  },
+  "aq2l8p8up3": {
+    "defaultMessage": "SDRangel has more modes, more radios and a transmitter for most of them. WaveShark decodes the whole span at once instead of asking you to place every demodulator by hand."
+  },
+  "art3voklsj": {
+    "defaultMessage": "Itron ERT meters decoder for SDR - WaveShark"
+  },
+  "av7dlchfo8": {
+    "defaultMessage": "Baudot teleprinter text from 45.45 to 200 baud, either way up, read into the message view as it arrives. Also known as radioteletype, Baudot, 45.45 baud."
+  },
+  "avipn8cs66": {
+    "defaultMessage": "An RTL2832U dongle with an R820T2 or R860 tuner is the cheapest useful receiver ever made, and the majority of what WaveShark decodes was written against one. Roughly 2.4 MS/s of usable span is enough for every protocol here that is not Wi-Fi, Bluetooth, television or a drone video link."
+  },
+  "ay8432qs36": {
+    "defaultMessage": "Read the use case"
+  },
+  "azchfhqzf2": {
+    "defaultMessage": "Transcript"
+  },
+  "b2dh1gokfv": {
+    "defaultMessage": "AIS decoder for SDR - WaveShark"
+  },
+  "b441gaw3v2": {
+    "defaultMessage": "Tuning"
+  },
+  "b4j99w8c76": {
+    "defaultMessage": "North American utility meters: the consumption number, the meter id and the type, in SCM, SCM+ and IDM formats."
+  },
+  "b6uhtvxtqh": {
+    "defaultMessage": "VHF and UHF paging"
+  },
+  "b70orc7ob7": {
+    "defaultMessage": "Data rate, and the channel"
+  },
+  "b7i90hkgf5": {
+    "defaultMessage": "Capcode and frame position"
+  },
+  "ba5btrqnsg": {
+    "defaultMessage": "RTL-SDR"
+  },
+  "bc0kaac6y0": {
+    "defaultMessage": "Which radio for which job?"
+  },
+  "bcxv98u65k": {
+    "defaultMessage": "100 kHz to 3.8 GHz, Mini from 10 MHz"
+  },
+  "bf6nt5m2qh": {
+    "defaultMessage": "Status and message text, in the message view"
+  },
+  "bjvz910j6h": {
+    "defaultMessage": "Feature"
+  },
+  "boe9hxbg9f": {
+    "defaultMessage": "Monitor a radio network and read it back later"
+  },
+  "c91da206su": {
+    "defaultMessage": "RTL-SDR, an L band patch antenna and an LNA"
+  },
+  "c9j083hd4n": {
+    "defaultMessage": "COSPAS-SARSAT beacons at 406 MHz are read for the EPIRB, PLB or ELT identity and the position they encode, drawn on the same map."
+  },
+  "cbuvhctbu9": {
+    "defaultMessage": "A pager channel is a pager channel wherever it sits, so the decoder is placed by shape rather than by band: point the receiver at the allocation your local network uses and it runs."
+  },
+  "ccu3wx5nor": {
+    "defaultMessage": "EGC, SafetyNET, NCS, maritime safety"
+  },
+  "cf2758yl26": {
+    "defaultMessage": "Squawk, and the emergency codes as they are set"
+  },
+  "cf9r9k4yyf": {
+    "defaultMessage": "The burst a Motorola radio sends when its key goes down, naming the unit, so an analogue channel gains who as well as what. Also known as Motorola unit id, PTT ID, emergency button."
+  },
+  "cj194hvkq8": {
+    "defaultMessage": "Download for Linux, Windows and macOS"
+  },
+  "cji9zkweki": {
+    "defaultMessage": "Below about 24 MHz a stock dongle hears nothing without help, so shortwave needs an upconverter or a direct sampling modification."
+  },
+  "ct8jbhzbq6": {
+    "defaultMessage": "2.4 GHz (2400-2483.5 MHz): what is transmitting there"
+  },
+  "curuh59ikx": {
+    "defaultMessage": "Continuous decoding across the whole span, not one channel"
+  },
+  "cwrody0m1s": {
+    "defaultMessage": "Source and destination unit id"
+  },
+  "cx401c8i6x": {
+    "defaultMessage": "pager decoder, capcode, 512 1200 2400 baud"
+  },
+  "cx4zym6vfg": {
+    "defaultMessage": "DMR decoder for SDR - WaveShark"
+  },
+  "cxzmbgzc8l": {
+    "defaultMessage": "One receiver, a different antenna and a different dial"
+  },
+  "czxc7xwuvw": {
+    "defaultMessage": "Weather report fields where the station sends them"
+  },
+  "d07y2gj0vp": {
+    "defaultMessage": "Operation: push to talk, emergency, status or acknowledgement"
+  },
+  "d3d55gsii6": {
+    "defaultMessage": "remote dial, when the server allows it"
+  },
+  "d3rorxyezh": {
+    "defaultMessage": "Any RTL-SDR, with a marine band antenna"
+  },
+  "d3waxb6stw": {
+    "defaultMessage": "Battery and fault flags"
+  },
+  "d4ixikncom": {
+    "defaultMessage": "Door locks, sensors and plugs at 9.6, 40 and 100 kbit/s, on the European and US channels."
+  },
+  "dchpg72mxn": {
+    "defaultMessage": "Door locks, sensors and plugs at 9.6, 40 and 100 kbit/s, on the European and North American channels. Also known as door lock, smart home, 868.42 MHz, 908.42 MHz."
+  },
+  "ddn1vbcjwd": {
+    "defaultMessage": "ACARS decoder for SDR - WaveShark"
+  },
+  "df5sy3s7ib": {
+    "defaultMessage": "door lock, smart home, 868.42 MHz, 908.42 MHz"
+  },
+  "dfnzulyhzn": {
+    "defaultMessage": "DAB ensembles, named by block rather than by frequency, with the stations inside them."
+  },
+  "dqawmcbdxj": {
+    "defaultMessage": "902-928 MHz"
+  },
+  "drqd384el8": {
+    "defaultMessage": "Ship type, dimensions and draught"
+  },
+  "dtdf83skru": {
+    "defaultMessage": "UAT at 978 MHz"
+  },
+  "dvbxlf3vyy": {
+    "defaultMessage": "Every voice protocol lands in one call list: the caller, the group, the length and the channel, whether the transmission was DMR, TETRA, P25, NXDN, M17 or an analogue repeater. On an analogue channel the DTMF unit number and the CTCSS tone or DCS code say which radio keyed up and which group it belongs to."
+  },
+  "dvirr5ri8g": {
+    "defaultMessage": "the serving machine needs no display"
+  },
+  "dvzknvp12z": {
+    "defaultMessage": "The blocks are named on the spectrum from the band plan, so 11C reads as 11C."
+  },
+  "dxg45mebvs": {
+    "defaultMessage": "Project"
+  },
+  "dyilckfp8o": {
+    "defaultMessage": "A tuner on another machine"
+  },
+  "dzfi871i2q": {
+    "defaultMessage": "wfm, nfm, am, usb, lsb or cw."
+  },
+  "e0rx1dbbs3": {
+    "defaultMessage": "Morse decoder for SDR - WaveShark"
+  },
+  "e13hygios3": {
+    "defaultMessage": "No LimeSDR on Windows, because LimeSuite is not packaged for it"
+  },
+  "e1uvd8p7qi": {
+    "defaultMessage": "Voice and data on a traffic channel are encrypted and stay that way."
+  },
+  "e1vmjzo3sl": {
+    "defaultMessage": "A €30 dongle does most of what this site describes. A HackRF or a LimeSDR buys the wide protocols and a transmitter, and a tuner on another machine puts the antenna where the signals are."
+  },
+  "e21cheupvs": {
+    "defaultMessage": "This build has no LimeSDR driver: LimeSuite is not packaged for Windows, so that radio never appears in the list. Everything else works the same as on Linux, including speech on an NVIDIA card when the CUDA runtime is present."
+  },
+  "e5rweyqmex": {
+    "defaultMessage": "The band walk in the scanner settings steps the dial past the span, holds on what it hears or logs it and moves on, with a find you do not care about marked as ignored. Interference that only happens when nobody is watching is the reason any of this runs unattended."
+  },
+  "e69h98cf5b": {
+    "defaultMessage": "Local name, service UUIDs and manufacturer data"
+  },
+  "e72t990kub": {
+    "defaultMessage": "tyre pressure sensor, Ford, Renault, Schrader, 315 MHz"
+  },
+  "ectbhbp6tf": {
+    "defaultMessage": "APCO-25, trunking, talkgroup, radio id"
+  },
+  "eh2wayuq98": {
+    "defaultMessage": "VDL Mode 2"
+  },
+  "ej56mdif3o": {
+    "defaultMessage": "WaveShark answers a different question. Rather than demodulating the channel you chose, it decodes everything inside the sampled span and lists what it found, so the outcome is a list of devices, aircraft, vessels, pagers and mesh nodes rather than audio from one frequency."
+  },
+  "ek6drwkjz0": {
+    "defaultMessage": "The light aircraft that never appear on 1090, and the ground stations uplinking weather and traffic to them."
+  },
+  "el6jd5eohy": {
+    "defaultMessage": "Aircraft transponders: ADS-B and Mode S at 1090 MHz worldwide, and UAT at 978 MHz for light aircraft in the United States."
+  },
+  "eom5d6muj3": {
+    "defaultMessage": "PAN id, and source and destination addresses"
+  },
+  "esyfzm0aw8": {
+    "defaultMessage": "Full duplex: transmit and receive at once"
+  },
+  "f2026z95cq": {
+    "defaultMessage": "Baud rate and modulation level"
+  },
+  "fat0wjn1v0": {
+    "defaultMessage": "Clear the quarantine flag on first open"
+  },
+  "faxtcbx36k": {
+    "defaultMessage": "Simple, light and quick to learn"
+  },
+  "fb5do6wyxj": {
+    "defaultMessage": "HF weather fax"
+  },
+  "fbso5nr5dm": {
+    "defaultMessage": "Airband"
+  },
+  "fbzfq5xgga": {
+    "defaultMessage": "Tyre pressure sensors as cars pass: the sensor id, the pressure, the temperature and whether the wheel is turning. Also known as tyre pressure sensor, Ford, Renault, Schrader, 315 MHz."
+  },
+  "fcqf55ftzv": {
+    "defaultMessage": "WaveShark reads the P channel signal units and the messages carried on them, which appear in the message view beside the VHF ones rather than in a tool of their own."
+  },
+  "fg1krst402": {
+    "defaultMessage": "Mode S is the transponder reply every airliner sends, and ADS-B is the part of it that carries a position the aircraft worked out for itself. WaveShark reads both span-wide rather than on a channel, because a Mode S frame is shorter than a detector frame, and puts each aircraft on the map with a track table beside it."
+  },
+  "fkj8qkdeva": {
+    "defaultMessage": "Check the signal path with no display."
+  },
+  "fkknfquam": {
+    "defaultMessage": "NOAA APT and Meteor-M LRPT passes drawn as they arrive, HF weather fax charts, and radiosondes tracked from launch to burst."
+  },
+  "flot4044bl": {
+    "defaultMessage": "The network, its cells and who is called, with a wgpu key search on the ciphers in a source build carrying the tea feature."
+  },
+  "fm7xr88a8t": {
+    "defaultMessage": "Control"
+  },
+  "fmhiksmr9k": {
+    "defaultMessage": "HackRF or LimeSDR"
+  },
+  "fn6w6jq0q1": {
+    "defaultMessage": "It transmits, so a channel here can be a microphone, a tone, a recorded capture, a Flipper <code>.sub</code> file, a POCSAG page, an APRS beacon, an SSTV picture or a whole DVB-T multiplex built from anything ffmpeg can open."
+  },
+  "fpo68miik3": {
+    "defaultMessage": "This is where a receiver should be pointed first, and it is where WaveShark opens. The devices here transmit on a schedule of their own, every few seconds to every few minutes, so covering the whole band continuously catches things a scan would miss by design."
+  },
+  "frrj8bw8jf": {
+    "defaultMessage": "Got a radio already?"
+  },
+  "fxe5v0ey0t": {
+    "defaultMessage": "The channel and the time it keyed"
+  },
+  "g0bgdulx0d": {
+    "defaultMessage": "Any RTL-SDR dongle"
+  },
+  "g0iqanewpb": {
+    "defaultMessage": "137 MHz · 400-406 MHz · HF"
+  },
+  "g46zw4ku4e": {
+    "defaultMessage": "NXDN"
+  },
+  "g50h3ct23f": {
+    "defaultMessage": "Spectrum"
+  },
+  "g5cp0wzka1": {
+    "defaultMessage": "Itron ERT endpoints are on gas, water and electricity meters across North America, transmitting a consumption total every few seconds so a passing van or a fixed collector can read the street without anybody walking it."
+  },
+  "g7b1ui094q": {
+    "defaultMessage": "868 MHz"
+  },
+  "g8as9v28dd": {
+    "defaultMessage": "The busiest band in most homes: weather sensors, door contacts, gate remotes, tyre pressure sensors and anything else sold with a licence-exempt transmitter in it."
+  },
+  "g9ot3o9ct1": {
+    "defaultMessage": "On a LimeSDR the transmit port has to be the right one, which is a setting rather than a guess: pointing the transmitter at an unselected port is a silent failure that used to cost people an afternoon."
+  },
+  "gaay69tb69": {
+    "defaultMessage": "COSPAS-SARSAT beacons decoder for SDR - WaveShark"
+  },
+  "gfwtsgz2e5": {
+    "defaultMessage": "Every run serves the receiver over the Model Context Protocol, so a model can tune, open channels, read what arrived and rewire the signal chain in the window you are watching."
+  },
+  "gh4btqfa1q": {
+    "defaultMessage": "IEEE 802.15.4, PAN id, smart home mesh"
+  },
+  "gjaek657hi": {
+    "defaultMessage": "The burst a Motorola radio sends when its key goes down, naming the unit, so an analogue channel gains who as well as what."
+  },
+  "gjd4ao4kpj": {
+    "defaultMessage": "Ground station uplink: the weather and traffic products it is sending"
+  },
+  "gpwg5ryyw1": {
+    "defaultMessage": "The difference is who decides what runs. In SDRangel you place a demodulator on a channel; in WaveShark every scanner inside the span runs continuously, so a sensor that transmits once a minute is caught whether or not you were pointing at it. What you get back is a packet stream with views over it rather than a rack of instruments."
+  },
+  "gqhp4kd70f": {
+    "defaultMessage": "Battery flag, channel and the button pressed on a remote"
+  },
+  "gqr196bglq": {
+    "defaultMessage": "Mature, with a large user base and documentation"
+  },
+  "grmnvngnh": {
+    "defaultMessage": "In North America the equivalent traffic is largely on 315 MHz and 915 MHz, and tyre pressure sensors sit on 315 there."
+  },
+  "grpxcomdcx": {
+    "defaultMessage": "VDL Mode 2 replaced ACARS on most European fleets and much of the rest. It is D8PSK at 31,500 bits a second inside a 25 kHz channel, with AVLC frames underneath carrying ACARS messages and ATN traffic."
+  },
+  "gsmxjbfz7n": {
+    "defaultMessage": "x86_64 · msi and a zip"
+  },
+  "gu1w6t6ged": {
+    "defaultMessage": "Band III and shortwave"
+  },
+  "h1to1bfdpp": {
+    "defaultMessage": "1090 / 978 / 131 MHz"
+  },
+  "h2qms9ol75": {
+    "defaultMessage": "Air temperature and humidity, where the sonde measures them"
+  },
+  "h54q5klru5": {
+    "defaultMessage": "Public tuners"
+  },
+  "h6gr4k3gdg": {
+    "defaultMessage": "Amateur VHF and UHF (144-148 / 430-450 MHz): what is transmitting there"
+  },
+  "h9zpj42t30": {
+    "defaultMessage": "Survey a site and hunt interference with an SDR - WaveShark"
+  },
+  "hg5n65ai4j": {
+    "defaultMessage": "up to 30 MHz"
+  },
+  "hnnqyqjm4k": {
+    "defaultMessage": "A CW channel read as text at whatever speed it was sent, including the beacons that identify a repeater or a transmitter site. Also known as CW decoder, QRS, beacon."
+  },
+  "hokelj92gm": {
+    "defaultMessage": "The heat, water, gas and electricity meters transmitting around you: manufacturer, meter number, version and type. Also known as wM-Bus mode T, smart meter, OMS, 868.95 MHz."
+  },
+  "hpbp8u5xij": {
+    "defaultMessage": "NOAA APT"
+  },
+  "hs2eyet78d": {
+    "defaultMessage": "Marine VHF and L band"
+  },
+  "htt1hvlg0y": {
+    "defaultMessage": "A SAME header is the burst of data at the front of a weather radio alert, and it says exactly what the alert is, which county codes it applies to, when it was issued and when it expires. That is the whole alert in machine-readable form before the announcer says a word."
+  },
+  "hu5ddxnmcf": {
+    "defaultMessage": "Pressure and temperature"
+  },
+  "hufgqk0thh": {
+    "defaultMessage": "What comes out"
+  },
+  "hutd1k7wll": {
+    "defaultMessage": "The graph the receiver is running, drawn, with each stage saying what it has been doing. Manual mode edits it, and a transmitter is the same graph with the arrows the other way."
+  },
+  "hxt5l69syn": {
+    "defaultMessage": "The page you asked for is not here. The spectrum is."
+  },
+  "i42qjt06zy": {
+    "defaultMessage": "ADS-B and Mode S"
+  },
+  "i9culi1nx8": {
+    "defaultMessage": "Remote tuners"
+  },
+  "idagbwine0": {
+    "defaultMessage": "Every flag, and the two that matter most."
+  },
+  "ifmz7mezv": {
+    "defaultMessage": "Message priority, from routine to distress"
+  },
+  "ihjsd3b7ud": {
+    "defaultMessage": "118-137 MHz"
+  },
+  "iltfm7mgwt": {
+    "defaultMessage": "Bands"
+  },
+  "ir1vtswptc": {
+    "defaultMessage": "A polar orbiting weather satellite is overhead for about a quarter of an hour at a time, several times a day, and transmits a picture of the weather under it the whole way down. It is the cheapest satellite reception there is."
+  },
+  "it4zp1fpqb": {
+    "defaultMessage": "Write every burst that decodes as an rtl_433 style capture."
+  },
+  "iuo03saav1": {
+    "defaultMessage": "Publish every device heard to Home Assistant over MQTT."
+  },
+  "ivr857t0hl": {
+    "defaultMessage": "On a radio that can"
+  },
+  "iwj4tbf4gu": {
+    "defaultMessage": "Download WaveShark for Windows"
+  },
+  "iwm861r0m2": {
+    "defaultMessage": "Services in the multiplex, with labels and languages"
+  },
+  "iyl6to7y09": {
+    "defaultMessage": "There is a call bus and a message bus as well, with an on-air lamp, so an automation can react to a channel going busy or to a page arriving."
+  },
+  "j34md0ov4t": {
+    "defaultMessage": "174-240 MHz"
+  },
+  "j75dv4lr3d": {
+    "defaultMessage": "Distress beacons"
+  },
+  "j7pl9x7h9g": {
+    "defaultMessage": "A camera’s picture straight off the span, PAL or NTSC in colour, with its audio subcarrier heard alongside and the carrier named from its line rate."
+  },
+  "jarn37wd59": {
+    "defaultMessage": "The data half is the more interesting half: ACARS and VDL Mode 2 carry the messages crews and airlines exchange, and WaveShark reads them across the allocation rather than on a channel you have to pick."
+  },
+  "jf9tv7r1uu": {
+    "defaultMessage": "Device surveys, aircraft, shipping, voice networks, drones, weather satellites and more."
+  },
+  "jgljvohn2y": {
+    "defaultMessage": "POCSAG at 512, 1200 and 2400 bit/s and FLEX at 1600 and 3200 baud, message text in clear, plus the two-tone pair that opens a fire or ambulance pager and the MDC-1200 unit id a Motorola radio sends when its key goes down."
+  },
+  "jhg1lj4uqo": {
+    "defaultMessage": "Agent"
+  },
+  "jifvbtt13l": {
+    "defaultMessage": "Everything carrying text, whether it came from a pager capcode, a TETRA talkgroup, a mesh channel, an RTTY over or a Morse key. The same words twice inside two minutes are one message with a count, because a pager sends every page twice."
+  },
+  "jn8pkegslp": {
+    "defaultMessage": "These two frequencies are the whole of aircraft tracking. 1090 MHz carries Mode S replies and ADS-B position reports from every airliner; 978 MHz carries UAT, used by American general aviation and by the ground stations uplinking weather and traffic to them."
+  },
+  "jve0c2pv2p": {
+    "defaultMessage": "Open Drone ID, where a drone carries it over BLE"
+  },
+  "k05z3zraki": {
+    "defaultMessage": "ISM device decoding"
+  },
+  "k0u1cret1l": {
+    "defaultMessage": "The two read each other’s captures: <code>--record</code> writes rtl_433 style files, so a burst captured by one is a test fixture for the other."
+  },
+  "k2wlvmh2qo": {
+    "defaultMessage": "Leave a cheap SDR on a band and WaveShark tells you what is transmitting around you: sensors, TPMS, aircraft and their datalinks, ships, radiosondes, pagers, DMR, TETRA, P25, NXDN, M17, LoRa mesh, Wi-Fi, Bluetooth LE, Zigbee, GSM, drones, weather satellites and television, decoded continuously across the whole span."
+  },
+  "k4nppvpzrb": {
+    "defaultMessage": "Analogue channels give up their own identities too: the MDC-1200 burst when a Motorola key goes down, the DTMF unit number, and the CTCSS tone or DCS code that says which group a radio belongs to. Paging shares the same bands, and a fire pager toned out by a two-tone pair is the alert that precedes the voice dispatch."
+  },
+  "k55iv8kpbe": {
+    "defaultMessage": "The keys view lists every enciphered channel and what is known about its key. The <code>tea</code> feature, in a source build only, links the ciphers and a key search that runs on any GPU through wgpu, so an enciphered channel can be worked on rather than only counted."
+  },
+  "k5a50jidry": {
+    "defaultMessage": "Meshtastic text under the public keys, MeshCore adverts, and LoRaWAN join requests with the addresses they allocate. Also known as Meshtastic, MeshCore, LoRaWAN, chirp spread spectrum."
+  },
+  "k62bp1wbgx": {
+    "defaultMessage": "Home Assistant"
+  },
+  "k68i8dz2xm": {
+    "defaultMessage": "Zigbee, Thread and Matter over Thread all ride on IEEE 802.15.4, so one decoder sees all of them. What is readable is the network layer: PAN ids, short and extended addresses, and which devices are routing for which."
+  },
+  "k8b69jcqif": {
+    "defaultMessage": "DRM decoder for SDR - WaveShark"
+  },
+  "kbkj8zxmxq": {
+    "defaultMessage": "POCSAG paging"
+  },
+  "kc5791tpe9": {
+    "defaultMessage": "868 / 908 MHz"
+  },
+  "kfkbh7wrmf": {
+    "defaultMessage": "Whether the call is enciphered"
+  },
+  "kg1g0ykgdn": {
+    "defaultMessage": "Channel width, 12.5 or 6.25 kHz"
+  },
+  "kl0vfrief7": {
+    "defaultMessage": "Band III (174-240 MHz): what is transmitting there"
+  },
+  "ko2yrq7tlw": {
+    "defaultMessage": "Band"
+  },
+  "kpehph1moy": {
+    "defaultMessage": "The macOS build is the one whose ffmpeg is new enough to decode a service out of a DVB-T multiplex, so it is the only build that shows television pictures. Speech models run on Metal."
+  },
+  "kr1ko69qe8": {
+    "defaultMessage": "Packet stations and vehicle trackers, Mic-E included, on the EU, US and JP calling frequencies. A KISS TNC on --kiss-listen hands the same traffic to any packet program, and keys AX.25 back through the radio."
+  },
+  "kvf0tjulb": {
+    "defaultMessage": "RC links"
+  },
+  "kxkfag3djj": {
+    "defaultMessage": "Checked against other people’s decoders"
+  },
+  "kylmd34xgg": {
+    "defaultMessage": "The satellite half of airline datalink: the same messages as ACARS, sent where there is no VHF ground station to hear. Also known as satellite ACARS, SatCom, L band aero."
+  },
+  "kyvv8atr6u": {
+    "defaultMessage": "Which radio for which job: an RTL-SDR dongle for the narrowband protocols, a HackRF One or LimeSDR for Wi-Fi, Bluetooth, drone Remote ID and television, and a tuner on another machine over iqstream or rtl_tcp."
+  },
+  "kzqgljrzt": {
+    "defaultMessage": "Meshtastic channels with the default key decode to text; ones with their own key show the node, the hops and the packet type without the words. MeshCore adverts name the nodes announcing themselves. LoRaWAN join requests carry the device EUI, which identifies the sensor even when its payload is encrypted."
+  },
+  "l2xfnjx8x3": {
+    "defaultMessage": "--stream <host>"
+  },
+  "l5oalybpw2": {
+    "defaultMessage": "Transmitter and receiver addresses, with randomisation flagged"
+  },
+  "l7dp49nlrl": {
+    "defaultMessage": "The services on the multiplex, with their names and types"
+  },
+  "lddw5tuvk7": {
+    "defaultMessage": "Binding phrase hash or address, depending on the link"
+  },
+  "lkb1pqh6rm": {
+    "defaultMessage": "Sensor id, unique per wheel"
+  },
+  "lq4uhjucpv": {
+    "defaultMessage": "RTTY"
+  },
+  "lx1enynw62": {
+    "defaultMessage": "A call bus, a message bus and an on-air lamp"
+  },
+  "lxq3btch7q": {
+    "defaultMessage": "DRM is the digital broadcasting standard used where nothing else carries. WaveShark reads the services in a multiplex, their languages and their labels, though not yet the audio."
+  },
+  "m6jah23yon": {
+    "defaultMessage": "Three MSU-MR channels as they arrive"
+  },
+  "m942ancelh": {
+    "defaultMessage": "Packet stations, digipeaters, weather stations and vehicle trackers, with a KISS TNC so your own software can use the same radio."
+  },
+  "mc16r6dfm0": {
+    "defaultMessage": "A warning worth repeating"
+  },
+  "mdoelpfzut": {
+    "defaultMessage": "Video"
+  },
+  "mf34i99uvg": {
+    "defaultMessage": "RTL-SDR for 900 MHz; 1800 MHz wants a HackRF or LimeSDR"
+  },
+  "mf7ossludu": {
+    "defaultMessage": "Position, with the range ring drawn from your antenna"
+  },
+  "mlfpzg29ei": {
+    "defaultMessage": "On FM, the receiver reads stereo and RDS, and <code>--mpx</code> reports what is actually in the multiplex at a station, so a failing RDS decode can be blamed on the transmitter or on the receiver rather than guessed at."
+  },
+  "mnhyf1xisk": {
+    "defaultMessage": "RF sensors into Home Assistant over MQTT - WaveShark"
+  },
+  "mo6b0w6twe": {
+    "defaultMessage": "--headless scans and logs exactly as the interface would, which is what belongs on the machine at the antenna."
+  },
+  "moow4lzsa6": {
+    "defaultMessage": "The satellites view lists the passes over your station for the next day with peak elevation and a sky plot, then follows the downlink through Doppler for the whole pass and closes the channel when the satellite sets. Nobody has to sit at the dial."
+  },
+  "mp5rpb369q": {
+    "defaultMessage": "The LimeSDR is the better radio of the two on paper: 12 bit rather than 8, full duplex rather than half, and two channels on the USB version. For receiving a crowded band with a strong transmitter nearby, those extra bits are the ones that matter."
+  },
+  "mscxls5b0d": {
+    "defaultMessage": "On by default. Needs LimeSuite, which is why the Windows build drops it."
+  },
+  "mssdm24xaj": {
+    "defaultMessage": "iqstream and rtl_tcp"
+  },
+  "msxsq24m9t": {
+    "defaultMessage": "The voice half is AM, which is why airband sounds the way it does, and it is transcribed here like any other voice channel. Past zoom nine the map draws airports with their air traffic frequencies, so the tower you can hear is one click from the aircraft you can see."
+  },
+  "myfjeyqiu": {
+    "defaultMessage": "RTL-SDR, and an antenna cut for the band"
+  },
+  "n0fuvzicg5": {
+    "defaultMessage": "Consumption total, as the meter counts it"
+  },
+  "n24jepf0qt": {
+    "defaultMessage": "1090 and 978 MHz"
+  },
+  "n2wmsuoh6g": {
+    "defaultMessage": "Mode, detected from the VIS header"
+  },
+  "n4vnoy3hsy": {
+    "defaultMessage": "weather satellite images, NOAA 15, NOAA 18, NOAA 19, 137 MHz"
+  },
+  "n7v207iu60": {
+    "defaultMessage": "MDC-1200"
+  },
+  "n9a24c8ed": {
+    "defaultMessage": "A DAB ensemble and the stations in it, with their programme types and bit rates, and a DRM multiplex on shortwave or medium wave with its services, languages and labels. Both are read for what they carry; neither makes sound yet."
+  },
+  "nb5tyo0rny": {
+    "defaultMessage": "What it reaches →"
+  },
+  "ncvw3buhv5": {
+    "defaultMessage": "Apple silicon · dmg and a bare binary"
+  },
+  "nfj5vvvezo": {
+    "defaultMessage": "An ensemble and the stations in it, with their programme types and bit rates, read off the block your transmitter uses."
+  },
+  "ni12ux4no1": {
+    "defaultMessage": "<code>--record</code> writes each burst as an rtl_433 style capture, so both WaveShark and rtl_433 can read it back. Capture a band once, then replay after every change: no radio, same answer every time."
+  },
+  "nipfxyxeni": {
+    "defaultMessage": "Install LimeSuite from your distribution or Homebrew. The macOS app carries its own copy; the bare binary reads Homebrew’s."
+  },
+  "nkuqo1fnf4": {
+    "defaultMessage": "Vessel positions and identity on the same map as the aircraft, off the two AIS channels at once."
+  },
+  "nkuuwlkq6t": {
+    "defaultMessage": "This is the band most people start on, and the devices on it are the ones nobody thinks of as radio: the outdoor thermometer, the doorbell, the gate remote, the shelf label in a supermarket. Almost all of them carry a stable device id, which is what turns a survey into a list of devices rather than a list of transmissions."
+  },
+  "no4o6xpdmg": {
+    "defaultMessage": "Morse, RTTY, weather fax charts and DRM broadcasting, in the bands that reach across continents."
+  },
+  "npjtn8nxp4": {
+    "defaultMessage": "HackRF or LimeSDR for television; a dongle for DAB and FM"
+  },
+  "npq37ojgln": {
+    "defaultMessage": "Message text"
+  },
+  "nq0b4ljgq2": {
+    "defaultMessage": "Door locks, sensors and plugs at 9.6, 40 and 100 kbit/s, on the European and North American channels."
+  },
+  "nrrcq9trps": {
+    "defaultMessage": "Wireless M-Bus mode T is what most European utility meters use to report themselves to a drive-by or fixed collector. Every meter identifies itself in clear even where the readings are encrypted, so a block of flats resolves into a list of meters by manufacturer and serial."
+  },
+  "nwqz24hnk3": {
+    "defaultMessage": "HF weather fax decoder for SDR - WaveShark"
+  },
+  "ny5wndawu0": {
+    "defaultMessage": "45 decoders, most from rtl_433’s family. Weather stations, thermometers, TPMS including Ford and Renault, door contacts, gate remotes, security sensors, shelf labels, mostly with a stable device ID you can follow."
+  },
+  "o1b5pzilxp": {
+    "defaultMessage": "Service names and programme types"
+  },
+  "o1vmefkksn": {
+    "defaultMessage": "POCSAG paging decoder for SDR - WaveShark"
+  },
+  "oqtemrj7c": {
+    "defaultMessage": "Transmitting anything"
+  },
+  "otf9oyuu4k": {
+    "defaultMessage": "EAS and SAME"
+  },
+  "ou0b999ff3": {
+    "defaultMessage": "Hardware"
+  },
+  "ovcmttwqh3": {
+    "defaultMessage": "The app is signed ad-hoc rather than notarised, so the first open needs a right click and Open, or the quarantine flag cleared by hand. That is Apple’s gatekeeping, not a warning about the software."
+  },
+  "ovtaepv3jw": {
+    "defaultMessage": "<code>--ha-spaces ism,wmbus</code> keeps it to your own sensors and meters, which is almost always what you want. Leave it open on a band full of handsets and the house fills up with devices that rotate their address every quarter of an hour, so the default is the narrow one."
+  },
+  "oyr37k9wme": {
+    "defaultMessage": "Distress beacon identities and the position they encode, drawn on the map the moment one transmits. Also known as EPIRB, PLB, ELT, 406 MHz distress beacon."
+  },
+  "oyyuolzy7a": {
+    "defaultMessage": "Long-standing support for a wide range of radios"
+  },
+  "ozfu4vowf6": {
+    "defaultMessage": "WaveShark names the carrier from its line rate and gives it the channel it corresponds to, R1 or F4 or A5, rather than reporting a frequency you then have to look up."
+  },
+  "p3qg88eq2e": {
+    "defaultMessage": "Packet stations, digipeaters, weather stations and vehicle trackers, with a KISS TNC so your own software can use the same radio. Also known as AX.25 packet, Mic-E, 144.800 MHz, 144.390 MHz."
+  },
+  "p4lz7kuc8h": {
+    "defaultMessage": "The dial is where you look. The span is what you collect."
+  },
+  "p7irno6a1v": {
+    "defaultMessage": "WaveShark: Wireshark for the radio spectrum, over a spectrum trace with three signal peaks."
+  },
+  "p9o32qnekh": {
+    "defaultMessage": "A device survey with positions, and a WiGLE CSV export"
+  },
+  "pgt3rkwz60": {
+    "defaultMessage": "Any supported radio, and a small machine beside it"
+  },
+  "pjkc6hj0at": {
+    "defaultMessage": "The bias tee feeds a mast head amplifier from the coax, which is the difference between a working 1090 MHz setup and a disappointing one."
+  },
+  "pki0nonk4x": {
+    "defaultMessage": "MOD"
+  },
+  "pl2hp929rk": {
+    "defaultMessage": "<code>--probe</code> tests the signal path with no display, and <code>--squelch-probe</code> reports what the squelch reads on a frequency."
+  },
+  "pl78xp3usq": {
+    "defaultMessage": "Print every packet as it arrives, window or not."
+  },
+  "pn0hfb62ob": {
+    "defaultMessage": "Track aircraft and read what they send with an SDR - WaveShark"
+  },
+  "pnnpdc8wq3": {
+    "defaultMessage": "Install librtlsdr, or let the package do it"
+  },
+  "pqbk79k7rs": {
+    "defaultMessage": "Dashboard"
+  },
+  "py7up7bu9e": {
+    "defaultMessage": "Advertising address, and whether it is randomised"
+  },
+  "q1aj9udmd2": {
+    "defaultMessage": "UAT at 978 MHz decoder for SDR - WaveShark"
+  },
+  "q1cisskq9t": {
+    "defaultMessage": "A live map of the iqstream servers people share through the WaveShark directory on nostr: where each receiver is, the tuners it has, what they are set to and the address to open it at."
+  },
+  "q4g1bzg2ac": {
+    "defaultMessage": "about 2.4 MHz"
+  },
+  "q9ghb6p6co": {
+    "defaultMessage": "Reverse engineer a remote, sensor or alarm"
+  },
+  "qel5eov2i0": {
+    "defaultMessage": "Where to serve MCP, or off. 127.0.0.1:8931 unless told otherwise."
+  },
+  "qems1bibnr": {
+    "defaultMessage": "Paging is still how hospitals, fire services and site alarms reach people, and POCSAG carries the message as plain text with a capcode naming the pager it is for. A network usually repeats each page, so WaveShark folds the same words heard twice inside two minutes into one message with a count rather than showing you both."
+  },
+  "qj9gjdkpjq": {
+    "defaultMessage": "Text lands in the message view with everything else carrying words, which is the point: a beacon identifier and a pager message are the same kind of record."
+  },
+  "qn2ai0o7wl": {
+    "defaultMessage": "See drones, their operators and their handsets"
+  },
+  "qo98e1ehiy": {
+    "defaultMessage": "Radiosondes are the other half of the weather picture: Vaisala RS41, Graw DFM, Meteomodem M10 and M20, iMet, Meisei, MRZ and LMS6 balloons on the map with serial, height, climb rate and the temperature and humidity they were sent up to measure. The channel follows the transmitter as it drifts, and SondeHub launch sites say when the next one goes up."
+  },
+  "qqvnbj1uic": {
+    "defaultMessage": "HackRF One or LimeSDR"
+  },
+  "qqzp7sxnuu": {
+    "defaultMessage": "137 MHz"
+  },
+  "qrdz1wv2b6": {
+    "defaultMessage": "M17 was designed to be implementable without licensing anything, which is why it is the one digital voice mode here that decodes to audio in the published builds. Callsigns are carried in the stream rather than as numeric ids, so a call reads as two people rather than two numbers."
+  },
+  "qu6337ahba": {
+    "defaultMessage": "863-870 MHz"
+  },
+  "qz3qqo5ui8": {
+    "defaultMessage": "Nothing on this frequency"
+  },
+  "r0neyww55y": {
+    "defaultMessage": "DJI DroneID, Open Drone ID, ASTM F3411, operator location"
+  },
+  "r1j9satb68": {
+    "defaultMessage": "RC control links"
+  },
+  "r2id9uzhzq": {
+    "defaultMessage": "DAB"
+  },
+  "r4vbi1q9ud": {
+    "defaultMessage": "ISM coverage is the thin part: rtl_433 has roughly 250 device decoders and matching it is the job. Each protocol has <decodes>a page of its own</decodes> saying what it gives you, and <bands>the band guides</bands> say what is transmitting where. <registry>The registry</registry> is every protocol the receiver can reach, and <changelog>the changelog</changelog> is what landed last."
+  },
+  "r4xilm3b7z": {
+    "defaultMessage": "Node id, hop limit and the channel hash"
+  },
+  "r5hh4ahz0p": {
+    "defaultMessage": "Voice"
+  },
+  "r5ive2uwg1": {
+    "defaultMessage": "Drone Remote ID"
+  },
+  "r8a865mnif": {
+    "defaultMessage": "Frame type and the command class where it is in clear"
+  },
+  "rb0z8bsqxf": {
+    "defaultMessage": "433 / 868 / 915 MHz"
+  },
+  "rbx4lphhpi": {
+    "defaultMessage": "The talkgroup, the radio id and the key a call is under, off the C4FM frames North American public safety runs on. Also known as APCO-25, trunking, talkgroup, radio id."
+  },
+  "rchwylzo8e": {
+    "defaultMessage": "Something else can drive it"
+  },
+  "rdc764b3z8": {
+    "defaultMessage": "The message text in full"
+  },
+  "rgiwyaolql": {
+    "defaultMessage": "Memory banks import from Chirp, CSV, Freqman and SDR# lists and export as Chirp CSV, and on a radio that can transmit, POCSAG pages, APRS beacons, RTTY overs, BLE advertisements, SSTV pictures and RDS names go back out."
+  },
+  "rgx0mx5nun": {
+    "defaultMessage": "This is the deepest decode on the site: an 8 MHz OFDM multiplex demodulated, the transport stream recovered, the service tables read and a programme decoded to picture and sound. The transmission parameters it reports are the ones a broadcast engineer would ask for."
+  },
+  "rj1ngyto0o": {
+    "defaultMessage": "Language"
+  },
+  "rnljkhn2rf": {
+    "defaultMessage": "The Russian digital weather satellite: three MSU-MR channels drawn a strip of eight rows at a time as the pass comes over. Also known as Meteor M2, MSU-MR, digital weather satellite."
+  },
+  "rpi644veyt": {
+    "defaultMessage": "Serve the span over iqstream from the setup card or with <code>--iqstream-listen</code>, then switch on <strong>list</strong> in the directory section of the settings, and <strong>locate</strong> to be on the map. Leave the public host blank and the router is asked to open the port over UPnP, PCP or NAT-PMP. A <code>wave1090</code> box lists itself with <code>--iqstream-list</code>."
+  },
+  "rr4mv16s7t": {
+    "defaultMessage": "digital terrestrial, transport stream, Freeview, multiplex"
+  },
+  "rrjtz7nf9s": {
+    "defaultMessage": "SondeHub launch sites are drawn on the map with the time until the next release, so you know when to be listening. Checked against SDRangel on the same recording."
+  },
+  "rrk7knooy5": {
+    "defaultMessage": "Pick a band, point a radio at it and every decoder that lives there runs at once. These pages say what is on each one, what it takes to hear it and where to start."
+  },
+  "rsoo8ybq42": {
+    "defaultMessage": "Download WaveShark"
+  },
+  "ruocyarqjz": {
+    "defaultMessage": "DMR, P25, NXDN, TETRA, M17 and analogue voice"
+  },
+  "ruxit0vqit": {
+    "defaultMessage": "390-400 MHz"
+  },
+  "rxse8jrsgq": {
+    "defaultMessage": "FLEX is what the larger paging networks moved to, and it interleaves frames so several pagers share the air efficiently. Two level at 1600 baud and four level at 3200 are both read."
+  },
+  "s63rdj9e7f": {
+    "defaultMessage": "Weather balloons on the map with serial, height and climb rate, in eight families, with the channel following the transmitter as it drifts."
+  },
+  "sa6xlmnaaf": {
+    "defaultMessage": "Wherever you point it"
+  },
+  "sa89wr862": {
+    "defaultMessage": "The link view is the right place for it: one row per aircraft and ground station pair, with the frames that passed between them opening underneath. 136.975 MHz is the common channel, but the whole allocation is read at once."
+  },
+  "sctkev09ox": {
+    "defaultMessage": "Use cases"
+  },
+  "sehtqseaj4": {
+    "defaultMessage": "The Russian digital weather satellite: three MSU-MR channels drawn a strip of eight rows at a time as the pass comes over."
+  },
+  "sgc8qsdwl9": {
+    "defaultMessage": "{span} MHz span, fixed"
+  },
+  "sgwlhi7vir": {
+    "defaultMessage": "FLEX paging decoder for SDR - WaveShark"
+  },
+  "sllp83pq8i": {
+    "defaultMessage": "45 decoders from the rtl_433 family: weather stations, thermometers, door contacts, gate remotes, security sensors and shelf labels. Also known as rtl_433, 433.92 MHz, weather station, door sensor."
+  },
+  "sq7ocfet1b": {
+    "defaultMessage": "The signal unit type, on the P channel"
+  },
+  "sxukbbuyum": {
+    "defaultMessage": "The North American short range band: Itron ERT utility meters, LoRa, Z-Wave at 908 MHz and a great deal of industrial telemetry."
+  },
+  "t06pr1vko5": {
+    "defaultMessage": "SDRangel is the most capable multi-protocol SDR application there is, with a longer mode list, broader hardware support and years of work behind it. If you want to drive a specific demodulator on a specific frequency with every parameter exposed, it is the better tool."
+  },
+  "t1g98gafpt": {
+    "defaultMessage": "WaveShark and rtl_433 - where each one wins"
+  },
+  "t6bye6dqrj": {
+    "defaultMessage": "x86_64 · deb, rpm and a bare binary"
+  },
+  "t96hw1mkt0": {
+    "defaultMessage": "L band"
+  },
+  "tkrnxyvuu3": {
+    "defaultMessage": "Shortwave"
+  },
+  "tpwapvj6qs": {
+    "defaultMessage": "Coverage is the thin part and the site will not pretend otherwise: rtl_433 has roughly 250 device decoders and WaveShark has forty-five, verified field for field against rtl_433 25.02 on 81 recordings from its corpus. A burst nothing claims is still kept, with its coding inferred and its bits sliced out."
+  },
+  "tvn6ka0vth": {
+    "defaultMessage": "P25 phase 1 frames carry the talkgroup and the source radio id in clear whether or not the voice payload is encrypted, which means the pattern of who talks to whom is readable on a system you cannot listen to."
+  },
+  "tvz0s72fbe": {
+    "defaultMessage": "RF sensors into Home Assistant"
+  },
+  "tyqhv8vch1": {
+    "defaultMessage": "Apple silicon only. Signed but not notarised, so the first open needs a right click and Open, or <code>xattr -dr com.apple.quarantine /Applications/WaveShark.app</code>. The app carries its own ffmpeg, librtlsdr and LimeSuite; the bare binary reads them from Homebrew, so <code>brew install ffmpeg librtlsdr limesuite</code> before running that one."
+  },
+  "tznaurebcd": {
+    "defaultMessage": "DAB bundles several stations into one transmission, and reading the ensemble tells you what is in the bundle, what kind of programme each station is and how many kilobits it has been given, which is the number that decides how it sounds."
+  },
+  "u76o2cnhb6": {
+    "defaultMessage": "A GSM base station transmits continuously on its beacon channel, and everything needed to identify it is in clear: the country and network codes, the cell id, the location area and the neighbours it advertises. That is a survey of the mobile infrastructure around you from a receiver that never transmits."
+  },
+  "ubd1ls7a3p": {
+    "defaultMessage": "acarsdec, airline datalink, 131.550 MHz"
+  },
+  "uevbn9w54w": {
+    "defaultMessage": "TETRA is the European standard for public safety and transport, and its broadcasts name the network, the cell and the neighbours a radio could move to. Call setup names who is being called, which makes a busy system readable as a structure rather than a wall of noise."
+  },
+  "ujsoqaudog": {
+    "defaultMessage": "The Windows build of WaveShark has no LimeSDR driver, because LimeSuite is not packaged for Windows. That is a packaging limitation rather than a decision about the hardware."
+  },
+  "ul4wcv0qhm": {
+    "defaultMessage": "Every transmitter the decoders can name becomes a Home Assistant device over MQTT, with no hub, no bridge and no cloud account for the sensor you already own."
+  },
+  "uoeq5qq7gg": {
+    "defaultMessage": "The command line"
+  },
+  "uq54z3w64e": {
+    "defaultMessage": "Any supported radio"
+  },
+  "ut2pt6mx8h": {
+    "defaultMessage": "Loopback by default, and it will not transmit unless a channel is set up for it."
+  },
+  "uw9rgvkmkr": {
+    "defaultMessage": "12 bit"
+  },
+  "v004piiaej": {
+    "defaultMessage": "APRS decoder for SDR - WaveShark"
+  },
+  "v0e31buq3h": {
+    "defaultMessage": "8 bit sampling, so a strong signal beside a weak one is harder work"
+  },
+  "v0iqa0uymq": {
+    "defaultMessage": "Coverage is the thin part on ISM: rtl_433 has roughly 250 device decoders and WaveShark has forty-five, checked field for field against it. <bands>The bands</bands> say what lives where, and <cases>the use cases</cases> are the jobs these get used for."
+  },
+  "v0tmgwl2lg": {
+    "defaultMessage": "Everything here is wide. One Wi-Fi channel is 20 MHz and DJI DroneID wants 15.36 MS/s, which is why this band is the dividing line between a dongle and a HackRF or LimeSDR."
+  },
+  "v59art65up": {
+    "defaultMessage": "Read alongside the DTMF unit numbers and the CTCSS tone or DCS code the same channel carries, which together say which radio keyed up and which group it belongs to."
+  },
+  "v5to9vhfa": {
+    "defaultMessage": "Meteor-M LRPT"
+  },
+  "v6kh54mveh": {
+    "defaultMessage": "A capture that decodes is a test fixture: no radio, same answer every run."
+  },
+  "v7ichf3aiv": {
+    "defaultMessage": "On a crowded 2.4 GHz band the channels view is the useful pairing, because 802.15.4 channels overlap Wi-Fi ones and a mesh that keeps dropping is usually sitting under an access point."
+  },
+  "vewencogh3": {
+    "defaultMessage": "Signal chain"
+  },
+  "vh2v963t1n": {
+    "defaultMessage": "Over an ocean or a desert an aircraft has no VHF station in range, so its datalink goes up to an Inmarsat satellite instead. Because the satellite is geostationary, the downlink is a fixed signal from a fixed direction, which makes it one of the easiest satellite receptions there is once you have a patch antenna and a low noise amplifier."
+  },
+  "vh88ypv7zp": {
+    "defaultMessage": "Copied"
+  },
+  "vhaws6sg9s": {
+    "defaultMessage": "LoRa is a chirp, which is why it works at levels below the noise floor and why a conventional scanner never sees it. WaveShark places the chirp decoder on the ISM bands and reads what the three common stacks put on top of it."
+  },
+  "vhqo991vd2": {
+    "defaultMessage": "A drone’s serial, position, height and operator location, from the Remote ID broadcast it is required to send, and the home point from a DJI airframe."
+  },
+  "viqx0flk3i": {
+    "defaultMessage": "Lines received per frame"
+  },
+  "vmfrdyzgfs": {
+    "defaultMessage": "One row per transmitter that identified itself rather than one per transmission: what it called itself, who made it, the strongest level it was ever heard at, when it was last heard. Selecting a row draws its sightings on the map, and a drive exports as WiGLE CSV."
+  },
+  "vog2lgu7lw": {
+    "defaultMessage": "Wireless M-Bus and ERT meters: the reading"
+  },
+  "voojgf2lr0": {
+    "defaultMessage": "The ACARS message and its label"
+  },
+  "vski9xdprx": {
+    "defaultMessage": "ExpressLRS is the link the receiver places for itself, on 2.4 GHz and on the 868 and 915 MHz bands. FrSky ACCST, FlySky AFHDS-2A and XN297 toy remotes are read as well, the last with its address and payload."
+  },
+  "vso9nkdyoo": {
+    "defaultMessage": "Pictures play on the macOS build, whose ffmpeg is new enough; the other builds read the multiplex and list what is on it."
+  },
+  "vwen7w6kb1": {
+    "defaultMessage": "SSID from beacons and probe responses"
+  },
+  "vz0cl7lj2o": {
+    "defaultMessage": "Messages arrive in the message view beside POCSAG, with the same deduplication, so a site running both standards reads as one stream rather than two."
+  },
+  "vzh1dlu5r4": {
+    "defaultMessage": "Every finished picture is written to <code>~/.local/share/waveshark/pictures</code>. On a radio that transmits, a picture can be sent back out in the same modes."
+  },
+  "w2zclbtyk2": {
+    "defaultMessage": "Report a bug"
+  },
+  "w5htxyww2r": {
+    "defaultMessage": "WaveShark and SDRangel - where each one wins"
+  },
+  "w6ysoj0kj4": {
+    "defaultMessage": "Status"
+  },
+  "w84mk04q22": {
+    "defaultMessage": "A control link is the one signal that says what the pilot is doing rather than what the aircraft is. The control view draws each channel as a bar in microseconds, live, with the packet rate and the link level beside it, and flags the arm switch."
+  },
+  "w861mv3ro9": {
+    "defaultMessage": "It opens on the dashboard at 433.92 MHz, where the sensors are."
+  },
+  "w8rafrlm8x": {
+    "defaultMessage": "Everything the HackRF reaches"
+  },
+  "w922jm228l": {
+    "defaultMessage": "Tuning range"
+  },
+  "wb3tme72va": {
+    "defaultMessage": "COSPAS-SARSAT beacons"
+  },
+  "wj6loaoc3i": {
+    "defaultMessage": "Who called whom on which talkgroup, on both time slots, with speech through a source build carrying the ambe feature."
+  },
+  "wlff7jd5e3": {
+    "defaultMessage": "A terrestrial television multiplex is 8 MHz of OFDM carrying a transport stream with several services in it. Reading one from the carriers up is the deepest decode on this site, and it reports the parameters a broadcast engineer would ask for."
+  },
+  "wpzg55xm9t": {
+    "defaultMessage": "Encoded position, where the beacon has a fix"
+  },
+  "wqomfaurwh": {
+    "defaultMessage": "APRS packet, SSTV pictures, M17 digital voice and the repeaters that identify themselves in Morse."
+  },
+  "wqqh8v8zam": {
+    "defaultMessage": "Issues"
+  },
+  "wr9s5dhan7": {
+    "defaultMessage": "Also called"
+  },
+  "wubkvlqhce": {
+    "defaultMessage": "The decoded text, live as the characters arrive"
+  },
+  "wujef3l0o6": {
+    "defaultMessage": "Any RTL-SDR"
+  },
+  "wukyf53cd8": {
+    "defaultMessage": "SSTV sends a picture as audio over a voice channel, a line at a time, over a minute or two. Watching it build is half the appeal, so the video view draws each line as it lands rather than waiting for the end, and the caption counts the lines received."
+  },
+  "ww4mo9g2fd": {
+    "defaultMessage": "ADS-B and Mode S decoder for SDR - WaveShark"
+  },
+  "wwzjdlw8ns": {
+    "defaultMessage": "Analogue video"
+  },
+  "x4e8cqq59o": {
+    "defaultMessage": "What is transmitting on each band - WaveShark"
+  },
+  "x6b9uxms79": {
+    "defaultMessage": "The receiver position, which lets one ADS-B frame place an aircraft instead of needing a pair."
+  },
+  "x8ngpstg2i": {
+    "defaultMessage": "A vessel is the same kind of track as an aircraft, so the map, the trails and the range rings behave the same way. Static reports fill in the name, the type and the destination as they arrive, which is why a vessel gains a name a minute after its first position."
+  },
+  "xdakanitls": {
+    "defaultMessage": "Traffic channels are encrypted and stay that way. What is readable is who the network is, which cell you are under, what it advertises as its neighbours and which subscriber identities are being paged."
+  },
+  "xeg73htij2": {
+    "defaultMessage": "Weather balloons on the map with serial, height and climb rate, in eight families, with the channel following the transmitter as it drifts. Also known as RS41, DFM, M10, iMet, weather balloon, SondeHub."
+  },
+  "xi0if8l70d": {
+    "defaultMessage": "Watch shipping and safety traffic with an SDR - WaveShark"
+  },
+  "xl2a1p2o61": {
+    "defaultMessage": "Wherever pagers are used"
+  },
+  "xrkuj4v0zp": {
+    "defaultMessage": "129-137 MHz"
+  },
+  "xvo0zcicnu": {
+    "defaultMessage": "Whatever picture is on the span: an analogue camera, an SSTV transmission drawing line by line, a weather satellite pass building up in strips, or a service off a DVB-T multiplex. The caption counts the lines that arrived, and a chooser picks between transmissions."
+  },
+  "xwxbb29je8": {
+    "defaultMessage": "136.7-137 MHz"
+  },
+  "xzz0adrow7": {
+    "defaultMessage": "Channel and link quality"
+  },
+  "y0x6kccsap": {
+    "defaultMessage": "MCP on the loopback: an agent drives the receiver you are watching."
+  },
+  "y2gwjkzspm": {
+    "defaultMessage": "Algorithm id and key id on an encrypted call"
+  },
+  "y7x19gkd1t": {
+    "defaultMessage": "Reverse engineering"
+  },
+  "yak1t0izeg": {
+    "defaultMessage": "802.11a/g/b and single-stream n: network names, the addresses talking, the rate each frame arrived at and whether an address is randomised. A drone broadcasting Remote ID gives up its serial, position and operator, and a DJI airframe gives up its home point too. Needs a HackRF or a LimeSDR, since one channel is 20 MHz wide."
+  },
+  "yi72occiag": {
+    "defaultMessage": "Give the receiver its own position and a single position frame places an aircraft, rather than needing a matching pair. A mark drawn from one frame is hollow and never joins a trail."
+  },
+  "yjk7wo3pcr": {
+    "defaultMessage": "An SDR receiver an agent can drive - WaveShark MCP server"
+  },
+  "yjl1u33nrx": {
+    "defaultMessage": "Lines received, so a partial picture is labelled as one"
+  },
+  "ylvlo8rqks": {
+    "defaultMessage": "Emitter category, so a glider is not drawn as a jet"
+  },
+  "ylyi8z9etj": {
+    "defaultMessage": "Serial number as printed on the airframe"
+  },
+  "yq397vf9mt": {
+    "defaultMessage": "Downlink or uplink, and the station that sent it"
+  },
+  "yr5grs6meb": {
+    "defaultMessage": "Device type: water, heat, gas or electricity"
+  },
+  "yt6t6uxywj": {
+    "defaultMessage": "Inmarsat STD-C"
+  },
+  "ywxh43me71": {
+    "defaultMessage": "Decoding does not follow the dial. Every scanner inside the sampled span runs all the time, so a sensor that transmits once a minute is caught whether or not you were pointing at it when it fired."
+  },
+  "yxlf318w04": {
+    "defaultMessage": "USB and Mini, full duplex, 12 bit"
+  },
+  "z15pfrxp22": {
+    "defaultMessage": "Meshtastic text under the public keys, MeshCore adverts, and LoRaWAN join requests with the addresses they allocate."
+  },
+  "z4aukxonn3": {
+    "defaultMessage": "COSPAS-SARSAT EPIRB, PLB and ELT identities, with the position they encode drawn on the map."
+  },
+  "za6bva6xtc": {
+    "defaultMessage": "Coax loss and noise are worse than network latency, so the right place for a receiver is at the antenna. Point <code>--stream</code> at an iqstream or rtl_tcp server and it appears in the receiver list as a local radio, dial and all."
+  },
+  "zaowbkniva": {
+    "defaultMessage": "Motorola unit id, PTT ID, emergency button"
+  },
+  "zgrkhnpb0h": {
+    "defaultMessage": "{clients} listening when listed"
+  },
+  "zo6jqp6ntt": {
+    "defaultMessage": "Serial number, as printed on the sonde"
+  },
+  "zoq7mr1ndv": {
+    "defaultMessage": "ADS-B, UAT, ACARS, VDL Mode 2 and AIS"
+  },
+  "zpe6qw154f": {
+    "defaultMessage": "How it works →"
+  },
+  "zux4fiieiu": {
+    "defaultMessage": "RTL-SDR at 900 MHz; 1800 MHz wants a HackRF or LimeSDR"
+  },
+  "zvk4n0l8e5": {
+    "defaultMessage": "Let an agent drive the radio"
+  },
+  "zximma6hzg": {
+    "defaultMessage": "wM-Bus mode T, smart meter, OMS, 868.95 MHz"
+  },
+  "zxyotmjfm3": {
+    "defaultMessage": "ICAO address, callsign, position, altitude and velocity"
+  }
+}

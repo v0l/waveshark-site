@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'preact/hooks';
+import type { ComponentChildren } from 'preact';
+import { FormattedDate, FormattedMessage } from 'react-intl';
 import { DownloadHeader } from '../components/header';
 import { Code } from '../components/code';
+import { useLocalePath } from '../i18n/context';
 
 const REPO = 'https://github.com/v0l/waveshark';
 const RELEASE_PAGE = `${REPO}/releases/latest`;
@@ -26,11 +29,7 @@ const BUILDS: Build[] = [
     kinds: ['.deb', '.rpm', '.tar.gz', ''],
     fallbackMeta: 'x86_64',
     req: (
-      <>
-        The <code>.deb</code> and <code>.rpm</code> pull in librtlsdr, which brings the udev rules
-        that let you open a dongle without root. With the bare binary, install{' '}
-        <code>librtlsdr0</code> or <code>rtl-sdr</code> yourself. LimeSDR support is compiled in.
-      </>
+      <FormattedMessage defaultMessage="The <code>.deb</code> and <code>.rpm</code> pull in librtlsdr, which brings the udev rules that let you open a dongle without root. With the bare binary, install <code>librtlsdr0</code> or <code>rtl-sdr</code> yourself. LimeSDR support is compiled in." />
     ),
   },
   {
@@ -40,12 +39,10 @@ const BUILDS: Build[] = [
     kinds: ['.msi', '.zip'],
     fallbackMeta: 'x86_64',
     req: (
-      <>
-        Ships the DLLs it needs, but Windows will not let anything open an RTL2832U until WinUSB is
-        bound to it with <a href="https://zadig.akeo.ie/">Zadig</a>. The zip holds the executable and
-        its two DLLs, which have to stay beside it. No LimeSDR driver: LimeSuite is not packaged for
-        Windows.
-      </>
+      <FormattedMessage
+        defaultMessage="Ships the DLLs it needs, but Windows will not let anything open an RTL2832U until WinUSB is bound to it with <zadig>Zadig</zadig>. The zip holds the executable and its two DLLs, which have to stay beside it. No LimeSDR driver: LimeSuite is not packaged for Windows."
+        values={{ zadig: (chunks: ComponentChildren) => <a href="https://zadig.akeo.ie/">{chunks}</a> }}
+      />
     ),
   },
   {
@@ -55,12 +52,7 @@ const BUILDS: Build[] = [
     kinds: ['.dmg', '.tar.gz', ''],
     fallbackMeta: 'Apple silicon',
     req: (
-      <>
-        Apple silicon only. Signed but not notarised, so the first open needs a right click and Open,
-        or <code>xattr -dr com.apple.quarantine /Applications/WaveShark.app</code>. The app carries
-        its own ffmpeg, librtlsdr and LimeSuite; the bare binary reads them from Homebrew, so{' '}
-        <code>brew install ffmpeg librtlsdr limesuite</code> before running that one.
-      </>
+      <FormattedMessage defaultMessage="Apple silicon only. Signed but not notarised, so the first open needs a right click and Open, or <code>xattr -dr com.apple.quarantine /Applications/WaveShark.app</code>. The app carries its own ffmpeg, librtlsdr and LimeSuite; the bare binary reads them from Homebrew, so <code>brew install ffmpeg librtlsdr limesuite</code> before running that one." />
     ),
   },
 ];
@@ -89,16 +81,16 @@ function assetsFor(build: Build, assets: Asset[]) {
 
 /// What to call a file in a link. The version is in the name and full of full
 /// stops, so the extension cannot be read off the last one.
-function label(build: Build, name: string) {
+function Label({ build, name }: { build: Build; name: string }) {
   const kind = kindOf(build, name);
-  return kind === '' ? 'bare binary' : kind.slice(1);
+  return kind === '' ? <FormattedMessage defaultMessage="bare binary" /> : <>{kind.slice(1)}</>;
 }
 
 const size = (bytes: number) => `${(bytes / 1e6).toFixed(1)} MB`;
 
 function useRelease() {
   const [tag, setTag] = useState('v0.3.0');
-  const [published, setPublished] = useState<string | null>(null);
+  const [published, setPublished] = useState<Date | null>(null);
   const [assets, setAssets] = useState<Asset[]>([]);
 
   useEffect(() => {
@@ -110,13 +102,7 @@ function useRelease() {
       .then(rel => {
         if (!live || !rel) return;
         setTag(rel.tag_name);
-        setPublished(
-          new Date(rel.published_at).toLocaleDateString(undefined, {
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric',
-          }),
-        );
+        setPublished(new Date(rel.published_at));
         setAssets(rel.assets ?? []);
       })
       .catch(() => {});
@@ -138,6 +124,7 @@ const SOURCE = [
 
 export function Download() {
   const { tag, published, assets } = useRelease();
+  const to = useLocalePath();
   const cuda = assets.some(a => a.name.includes('-cuda'));
 
   return (
@@ -147,13 +134,19 @@ export function Download() {
         <section class="page-head">
           <div class="wrap">
             <p class="eyebrow">
-              Latest release &middot; {tag}
-              {published ? ` \u00b7 ${published}` : ''}
+              <FormattedMessage defaultMessage="Latest release · {tag}" values={{ tag }} />
+              {published ? (
+                <>
+                  {' · '}
+                  <FormattedDate value={published} year="numeric" month="short" day="numeric" />
+                </>
+              ) : null}
             </p>
-            <h1>Download</h1>
+            <h1>
+              <FormattedMessage defaultMessage="Download" />
+            </h1>
             <p class="lede">
-              A package or the bare binary, and a radio. No service, no account and nothing phoning
-              home.
+              <FormattedMessage defaultMessage="A package or the bare binary, and a radio. No service, no account and nothing phoning home." />
             </p>
           </div>
         </section>
@@ -167,20 +160,31 @@ export function Download() {
                   <h2>{b.title}</h2>
                   <p class="meta">
                     {b.fallbackMeta}
-                    {first ? ` \u00b7 ${label(b, first.name)} \u00b7 ${size(first.size)}` : ''}
+                    {first ? (
+                      <>
+                        {' · '}
+                        <Label build={b} name={first.name} />
+                        {` · ${size(first.size)}`}
+                      </>
+                    ) : null}
                   </p>
                   <p class="req">{b.req}</p>
                   <a class="btn" href={first ? first.browser_download_url : RELEASE_PAGE}>
-                    Download for {b.title}
+                    <FormattedMessage defaultMessage="Download for {platform}" values={{ platform: b.title }} />
                   </a>
                   <p class="alts">
-                    <a href={`/download/${b.id}/`}>Setup and first run on {b.title}</a>
+                    <a href={to(`/download/${b.id}/`)}>
+                      <FormattedMessage
+                        defaultMessage="Setup and first run on {platform}"
+                        values={{ platform: b.title }}
+                      />
+                    </a>
                   </p>
                   {rest.length ? (
                     <p class="alts">
                       {rest.map(a => (
                         <a key={a.name} href={a.browser_download_url}>
-                          {label(b, a.name)} &middot; {size(a.size)}
+                          <Label build={b} name={a.name} /> &middot; {size(a.size)}
                         </a>
                       ))}
                     </p>
@@ -190,48 +194,48 @@ export function Download() {
             })}
           </ul>
           <p class="note">
-            The buttons follow the release rather than a filename, because every asset carries its
-            version in the name.{' '}
+            <FormattedMessage defaultMessage="The buttons follow the release rather than a filename, because every asset carries its version in the name." />{' '}
             {cuda ? (
-              <>
-                This release also has a <code>-cuda</code> asset on Linux and Windows: the same
-                receiver with the speech model on an NVIDIA card, needing the CUDA 12 runtime and a
-                driver of 570 or later. Take the plain build unless you want speech read on the GPU.{' '}
-              </>
+              <FormattedMessage defaultMessage="This release also has a <code>-cuda</code> asset on Linux and Windows: the same receiver with the speech model on an NVIDIA card, needing the CUDA 12 runtime and a driver of 570 or later. Take the plain build unless you want speech read on the GPU." />
             ) : (
-              <>
-                One build per platform, card or no card: the speech models use an NVIDIA GPU when the
-                CUDA 12 runtime is on the machine and the CPU when it is not, and macOS uses Metal.{' '}
-              </>
-            )}
-            <a href={RELEASE_PAGE}>The release page</a> has the lot.
+              <FormattedMessage defaultMessage="One build per platform, card or no card: the speech models use an NVIDIA GPU when the CUDA 12 runtime is on the machine and the CPU when it is not, and macOS uses Metal." />
+            )}{' '}
+            <FormattedMessage
+              defaultMessage="<release>The release page</release> has the lot."
+              values={{ release: chunks => <a href={RELEASE_PAGE}>{chunks}</a> }}
+            />
           </p>
         </section>
 
         <section class="band" id="first-run">
           <div class="wrap two">
             <div>
-              <p class="eyebrow">After the download</p>
-              <h2 class="section-h">First run</h2>
+              <p class="eyebrow">
+                <FormattedMessage defaultMessage="After the download" />
+              </p>
+              <h2 class="section-h">
+                <FormattedMessage defaultMessage="First run" />
+              </h2>
               <p class="prose">
-                Four minutes, most of it the driver. If the spectrum moves, the radio is open and every
-                scanner in the span is already running.
+                <FormattedMessage defaultMessage="Four minutes, most of it the driver. If the spectrum moves, the radio is open and every scanner in the span is already running." />
               </p>
             </div>
             <ol class="steps">
               <li>
-                <h3>Give the dongle a driver</h3>
+                <h3>
+                  <FormattedMessage defaultMessage="Give the dongle a driver" />
+                </h3>
                 <p>
-                  On Linux, install the distribution package so the udev rules land. On Windows, run
-                  Zadig, pick the RTL2832U interface and install WinUSB.
+                  <FormattedMessage defaultMessage="On Linux, install the distribution package so the udev rules land. On Windows, run Zadig, pick the RTL2832U interface and install WinUSB." />
                 </p>
                 <Code html={'<span class="c">$</span> sudo apt install librtlsdr0'} />
               </li>
               <li>
-                <h3>Install it, or do not</h3>
+                <h3>
+                  <FormattedMessage defaultMessage="Install it, or do not" />
+                </h3>
                 <p>
-                  Open the package the button gave you, or take the bare binary and run it where it
-                  lands. The binary is the whole program either way.
+                  <FormattedMessage defaultMessage="Open the package the button gave you, or take the bare binary and run it where it lands. The binary is the whole program either way." />
                 </p>
                 <Code
                   html={[
@@ -241,18 +245,19 @@ export function Download() {
                 />
               </li>
               <li>
-                <h3>Press play</h3>
+                <h3>
+                  <FormattedMessage defaultMessage="Press play" />
+                </h3>
                 <p>
-                  It opens on the dashboard and the dial starts at 433.92 MHz, where the devices it
-                  decodes are. Click the spectrum to place a channel and listen, drag to pan, scroll to
-                  scrub, hold shift to snap to the band plan.
+                  <FormattedMessage defaultMessage="It opens on the dashboard and the dial starts at 433.92 MHz, where the devices it decodes are. Click the spectrum to place a channel and listen, drag to pan, scroll to scrub, hold shift to snap to the band plan." />
                 </p>
               </li>
               <li>
-                <h3>Check the path if nothing arrives</h3>
+                <h3>
+                  <FormattedMessage defaultMessage="Check the path if nothing arrives" />
+                </h3>
                 <p>
-                  <code>--probe</code> tests the signal path with no display, and{' '}
-                  <code>--squelch-probe</code> reports what the squelch reads on a frequency.
+                  <FormattedMessage defaultMessage="<code>--probe</code> tests the signal path with no display, and <code>--squelch-probe</code> reports what the squelch reads on a frequency." />
                 </p>
                 <Code html={'<span class="c">$</span> waveshark --probe 433.92'} />
               </li>
@@ -263,12 +268,14 @@ export function Download() {
         <section class="band" id="source">
           <div class="wrap two">
             <div>
-              <p class="eyebrow">Two decoders the downloads do not carry</p>
-              <h2 class="section-h">Build from source</h2>
+              <p class="eyebrow">
+                <FormattedMessage defaultMessage="Two decoders the downloads do not carry" />
+              </p>
+              <h2 class="section-h">
+                <FormattedMessage defaultMessage="Build from source" />
+              </h2>
               <p class="prose">
-                The published builds leave out <code>tea</code> and <code>ambe</code>. Compiling them
-                for yourself is not the same act as a project distributing them, which is why the
-                source turns them on and the downloads do not.
+                <FormattedMessage defaultMessage="The published builds leave out <code>tea</code> and <code>ambe</code>. Compiling them for yourself is not the same act as a project distributing them, which is why the source turns them on and the downloads do not." />
               </p>
             </div>
             <div>
@@ -276,43 +283,49 @@ export function Download() {
               <table class="flags">
                 <thead>
                   <tr>
-                    <th>Feature</th>
-                    <th>With it, and without</th>
+                    <th>
+                      <FormattedMessage defaultMessage="Feature" />
+                    </th>
+                    <th>
+                      <FormattedMessage defaultMessage="With it, and without" />
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td><code>tea</code></td>
                     <td>
-                      Links the TETRA ciphers and a wgpu key search. Without it the keys view still
-                      lists enciphered channels and says nothing can read them.
+                      <FormattedMessage defaultMessage="Links the TETRA ciphers and a wgpu key search. Without it the keys view still lists enciphered channels and says nothing can read them." />
                     </td>
                   </tr>
                   <tr>
                     <td><code>ambe</code></td>
                     <td>
-                      Builds the AMBE and IMBE vocoder port, whose algorithms are patent encumbered.
-                      Without it DMR still says who is talking and decodes no speech.
+                      <FormattedMessage defaultMessage="Builds the AMBE and IMBE vocoder port, whose algorithms are patent encumbered. Without it DMR still says who is talking and decodes no speech." />
                     </td>
                   </tr>
                   <tr>
                     <td><code>limesdr</code></td>
-                    <td>On by default. Needs LimeSuite, which is why the Windows build drops it.</td>
+                    <td>
+                      <FormattedMessage defaultMessage="On by default. Needs LimeSuite, which is why the Windows build drops it." />
+                    </td>
                   </tr>
                   <tr>
                     <td><code>stt</code></td>
-                    <td>Speech to text over decoded voice, with <code>cuda</code> moving the model onto a card.</td>
+                    <td>
+                      <FormattedMessage defaultMessage="Speech to text over decoded voice, with <code>cuda</code> moving the model onto a card." />
+                    </td>
                   </tr>
                   <tr>
                     <td><code>mcp</code></td>
-                    <td>Serves the receiver to an agent on 127.0.0.1:8931. In every published build.</td>
+                    <td>
+                      <FormattedMessage defaultMessage="Serves the receiver to an agent on 127.0.0.1:8931. In every published build." />
+                    </td>
                   </tr>
                 </tbody>
               </table>
               <p class="note">
-                The release workflow builds{' '}
-                <code>--no-default-features --features limesdr,stt,cuda,mcp</code>, with{' '}
-                <code>limesdr</code> dropped on Windows.
+                <FormattedMessage defaultMessage="The release workflow builds <code>--no-default-features --features limesdr,stt,cuda,mcp</code>, with <code>limesdr</code> dropped on Windows." />
               </p>
             </div>
           </div>
@@ -320,13 +333,14 @@ export function Download() {
 
         <section class="closer">
           <div class="wrap">
-            <h2>Something did not decode?</h2>
+            <h2>
+              <FormattedMessage defaultMessage="Something did not decode?" />
+            </h2>
             <p>
-              Record the burst with <code>--record</code> and open an issue with the capture. A capture
-              that decodes becomes a test fixture.
+              <FormattedMessage defaultMessage="Record the burst with <code>--record</code> and open an issue with the capture. A capture that decodes becomes a test fixture." />
             </p>
             <a class="btn btn-lg" href={`${REPO}/issues`}>
-              Open an issue
+              <FormattedMessage defaultMessage="Open an issue" />
             </a>
           </div>
         </section>

@@ -1,13 +1,19 @@
 import type { ComponentChildren } from 'preact';
+import { useIntl } from 'react-intl';
 import { SiteHeader } from './header';
+import { useLocalePath } from '../i18n/context';
 
-export function Crumbs({ trail }: { trail: [string, string][] }) {
+type Trail = [ComponentChildren, string][];
+
+export function Crumbs({ trail }: { trail: Trail }) {
+  const to = useLocalePath();
+  const intl = useIntl();
   return (
-    <nav class="crumbs" aria-label="Breadcrumb">
+    <nav class="crumbs" aria-label={intl.formatMessage({ defaultMessage: 'Breadcrumb' })}>
       {trail.map(([label, href], i) => (
         <>
           {i ? <span key={`s${href}`}>/</span> : null}
-          <a key={href} href={href}>{label}</a>
+          <a key={href} href={to(href)}>{label}</a>
         </>
       ))}
     </nav>
@@ -21,10 +27,10 @@ export function Para({ html }: { html: string }) {
 }
 
 export function PageHead(props: {
-  trail?: [string, string][];
-  kicker: string;
-  title: string;
-  lede: string;
+  trail?: Trail;
+  kicker: ComponentChildren;
+  title: ComponentChildren;
+  lede: ComponentChildren;
 }) {
   return (
     <section class="page-head">
@@ -41,10 +47,10 @@ export function PageHead(props: {
 /// Body on the left, the facts panel on the right, the way every detail page
 /// on this site is laid out.
 export function Article(props: {
-  trail: [string, string][];
-  kicker: string;
-  title: string;
-  lede: string;
+  trail: Trail;
+  kicker: ComponentChildren;
+  title: ComponentChildren;
+  lede: ComponentChildren;
   aside: ComponentChildren;
   children: ComponentChildren;
   closer?: ComponentChildren;
@@ -64,13 +70,19 @@ export function Article(props: {
   );
 }
 
-export function Closer(props: { title: string; body: string; href: string; cta: string }) {
+export function Closer(props: {
+  title: ComponentChildren;
+  body: ComponentChildren;
+  href: string;
+  cta: ComponentChildren;
+}) {
+  const to = useLocalePath();
   return (
     <section class="closer">
       <div class="wrap">
         <h2>{props.title}</h2>
         <p>{props.body}</p>
-        <a class="btn btn-lg" href={props.href}>{props.cta}</a>
+        <a class="btn btn-lg" href={to(props.href)}>{props.cta}</a>
       </div>
     </section>
   );

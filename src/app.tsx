@@ -1,5 +1,6 @@
 import { LocationProvider, Router, Route, useLocation } from 'preact-iso';
-import { useEffect } from 'preact/hooks';
+import { useEffect, useState } from 'preact/hooks';
+import type { ComponentType } from 'preact';
 import { Home } from './pages/home';
 import { Download } from './pages/download';
 import { Views } from './pages/views';
@@ -14,42 +15,94 @@ import { Tuners } from './pages/tuners';
 import { NotFound } from './pages/not-found';
 import { Footer } from './components/footer';
 import { PAGES } from './meta';
+import { LocaleProvider, useString } from './i18n/context';
+import { LOCALES, LOCALE_CODES, localePath, splitPath, type Locale } from './i18n/locales';
+import { loadMessages } from './i18n/messages';
+import type { Messages } from './i18n/copy';
+import { FormattedMessage } from 'react-intl';
+
+const PAGE_ROUTES: [string, ComponentType][] = [
+  ['/', Home],
+  ['/download', Download],
+  ['/views', Views],
+  ['/decodes', Decodes],
+  ['/decodes/:id', DecodePage],
+  ['/bands', Bands],
+  ['/bands/:id', BandPage],
+  ['/hardware', Hardware],
+  ['/hardware/:id', RadioPage],
+  ['/download/:id', PlatformPage],
+  ['/vs/:id', ComparisonPage],
+  ['/mcp', Mcp],
+  ['/home-assistant', HomeAssistant],
+  ['/cli', Cli],
+  ['/use-cases', UseCases],
+  ['/use-cases/:id', UseCase],
+  ['/tuners', Tuners],
+];
+
+const LOCALIZED_ROUTES = LOCALE_CODES.flatMap(locale =>
+  PAGE_ROUTES.map(([path, component]) => ({
+    path: localePath(locale, path).replace(/(.)\/$/, '$1'),
+    component,
+  })),
+);
 
 function Title() {
   const { path } = useLocation();
+  const t = useString();
   useEffect(() => {
-    const page = PAGES[path];
-    if (page) document.title = page.title;
-  }, [path]);
+    const page = PAGES[splitPath(path)[1]];
+    if (page) document.title = t(page.title);
+  }, [path, t]);
   return null;
 }
 
-export function App(props: { url?: string }) {
+function Localized(props: { locale: Locale; messages: Messages }) {
+  const { path } = useLocation();
+  const [locale] = splitPath(path);
+  const [held, setHeld] = useState(props);
+
+  useEffect(() => {
+    if (locale === held.locale) return;
+    let current = true;
+    loadMessages(locale).then(messages => current && setHeld({ locale, messages }));
+    return () => {
+      current = false;
+    };
+  }, [locale]);
+
+  useEffect(() => {
+    document.documentElement.lang = LOCALES[held.locale].tag;
+  }, [held.locale]);
+
   return (
-    <LocationProvider {...props}>
+    <LocaleProvider locale={held.locale} messages={held.messages}>
       <Title />
-      <a class="skip" href="#main">Skip to content</a>
+      <Skip />
       <Router>
-        <Route path="/" component={Home} />
-        <Route path="/download" component={Download} />
-        <Route path="/views" component={Views} />
-        <Route path="/decodes" component={Decodes} />
-        <Route path="/decodes/:id" component={DecodePage} />
-        <Route path="/bands" component={Bands} />
-        <Route path="/bands/:id" component={BandPage} />
-        <Route path="/hardware" component={Hardware} />
-        <Route path="/hardware/:id" component={RadioPage} />
-        <Route path="/download/:id" component={PlatformPage} />
-        <Route path="/vs/:id" component={ComparisonPage} />
-        <Route path="/mcp" component={Mcp} />
-        <Route path="/home-assistant" component={HomeAssistant} />
-        <Route path="/cli" component={Cli} />
-        <Route path="/use-cases" component={UseCases} />
-        <Route path="/use-cases/:id" component={UseCase} />
-        <Route path="/tuners" component={Tuners} />
+        {LOCALIZED_ROUTES.map(r => (
+          <Route key={r.path} path={r.path} component={r.component} />
+        ))}
         <Route default component={NotFound} />
       </Router>
       <Footer />
+    </LocaleProvider>
+  );
+}
+
+function Skip() {
+  return (
+    <a class="skip" href="#main">
+      <FormattedMessage defaultMessage="Skip to content" />
+    </a>
+  );
+}
+
+export function App(props: { url?: string; locale: Locale; messages: Messages }) {
+  return (
+    <LocationProvider {...{ url: props.url }}>
+      <Localized locale={props.locale} messages={props.messages} />
     </LocationProvider>
   );
 }

@@ -1,0 +1,3905 @@
+{
+  "101ymjskz10": {
+    "defaultMessage": "混雑した周波数帯で聞き取ったすべてを公開するのは好ましくありません。デバイスIDは誰がどこにいたかの記録であり、毎朝あなたの窓前を通り過ぎるスマートフォンやタグは、ある意味でその人そのものです。<code>ism,wmbus</code>に限定すれば、ご自宅の範囲内に留めることができます。"
+  },
+  "1026xat01f8": {
+    "defaultMessage": "ダッシュボードで開き、ダイヤルは433.92 MHzから始まります。スペクトラムをクリックしてチャンネルを設定し、聴取してください。"
+  },
+  "10a7k5lbbgu": {
+    "defaultMessage": "SDR用P25 phase 1デコーダー - WaveShark"
+  },
+  "10aqppmbpk9": {
+    "defaultMessage": "もう一つの違いは、その後の処理方法にある。聞き取れた内容も、復号できたかどうかにかかわらず、すべてサンプルを保存するログに記録されるため、「午前3時頃のあのパルスは何だったのか」という問いには必ず答えが得られる。"
+  },
+  "10ayq3jpx8o": {
+    "defaultMessage": "TEA1, TEA2, TETRAPOL 代替、トランクスド"
+  },
+  "10dsnjsfiwc": {
+    "defaultMessage": "カメラから直接得られる映像は、PALまたはNTSC方式のカラー映像であり、音声サブキャリアも同時に受信できる。FPVキャリアはラインレートに基づいて命名され、チャネルが割り当てられる。例えばR1、F4、A5など。"
+  },
+  "10eagd4oe1i": {
+    "defaultMessage": "誰が誰に、どのくらいの時間、どのトークグループで通話したか。M17パケットメッセージはCodec 2音声と完全に受信されますが、DMR音声にはambe機能が必要です。"
+  },
+  "10ed673hvw5": {
+    "defaultMessage": "バーストがテストか実運用か"
+  },
+  "10ey1htqp4w": {
+    "defaultMessage": "LoRaメッシュトラフィックもここで観測され、狭帯域スキャナでは追跡できない周波数ホッピング方式の産業用リンクも存在する。"
+  },
+  "10geq70w98": {
+    "defaultMessage": "TETRAネットワーク、30キロメートルの高さへ向かう気球、そして406メガヘルツの緊急事態ビーコン。"
+  },
+  "10hgukglr8w": {
+    "defaultMessage": "ビルドを取得"
+  },
+  "10j84xvfpj8": {
+    "defaultMessage": "ペイジング要求と対象の識別情報"
+  },
+  "10lhogrq94i": {
+    "defaultMessage": "チャネルキーが許可する場合のメッセージテキスト"
+  },
+  "10pxhz5vygu": {
+    "defaultMessage": "デコードされたすべてのフレームは単一の場所に集約され、各ビューはそのフレームに対する異なる解釈である。いずれのビューもプロトコルを認識しない。DMR通話、TETRA通話、M17通話は、異なるフィールドが埋め込まれた同一の行であり、航空機、船舶、メッシュノードはすべて同一の軌跡である。"
+  },
+  "10splocz6y": {
+    "defaultMessage": "バイナリを使用する場合、ライブラリをインストールしてください"
+  },
+  "10uuzccd35v": {
+    "defaultMessage": "PHYとアドバタイジングチャネル"
+  },
+  "10wbd6vjm6h": {
+    "defaultMessage": "設定画面にもアクセスできるため、スキャナーの追加、メモリの保存、音声の選択、フィードのオン、データセットの管理などが可能です。デフォルトではループバックのみで待機し、<code>--mcp-listen off</code> を指定すると停止します。"
+  },
+  "10z025327mb": {
+    "defaultMessage": "アーム要求 (プロトコルがサポートする場合)"
+  },
+  "10zxm8zxjdy": {
+    "defaultMessage": "満員、{listening}"
+  },
+  "1131i1zyflp": {
+    "defaultMessage": "システム情報ブロック、隣接セルリストを含む"
+  },
+  "113kmw5pl6m": {
+    "defaultMessage": "APTは、このサイトの中で最も古い技術でありながら、今なお最も満足感を与えてくれるものです。頭上を通過する衛星から、可視光と赤外線の2つのチャンネルを音声帯域の映像として送信し、15分後には自分の地域の天候の画像が画面に表示されるのです。"
+  },
+  "114r8eebyge": {
+    "defaultMessage": "{other} の方が向いている場面"
+  },
+  "115yodmxz8p": {
+    "defaultMessage": "位置、コース、速度、高度、Mic-E含む"
+  },
+  "1168vw8evho": {
+    "defaultMessage": "SDRを用いてリモコン、センサー、アラームをリバースエンジニアリング - WaveShark"
+  },
+  "117s9dg0g79": {
+    "defaultMessage": "RTL-SDR。DMRの音声にはambe対応のソースビルドが必要です"
+  },
+  "11a1yka6riy": {
+    "defaultMessage": "Codec 2音声、デコード済み、再生可能"
+  },
+  "11gqpt2gd7": {
+    "defaultMessage": "M17"
+  },
+  "11hw7psaes2": {
+    "defaultMessage": "WaveSharkが追加するのは、受信機の残りの部分です。センサー用に読み取られているのと同じ周波数帯域が、航空機、 пейジ（呼び出し機）、デジタル音声、メッシュトラフィック、その他あらゆる信号にも読み取られており、自己識別を行うデバイスは、出力の1行ではなく、地図上の観測点としてサーベイ（調査）の1行として表示されます。"
+  },
+  "11jm8vdf8i9": {
+    "defaultMessage": "リリース"
+  },
+  "11n1jopi669": {
+    "defaultMessage": "非常に小さなハードウェアを含むあらゆる環境で動作"
+  },
+  "11nwsu8gbtc": {
+    "defaultMessage": "RTL-SDRで受信、HackRFまたはLimeSDRで送信"
+  },
+  "11oe762m3lh": {
+    "defaultMessage": "CWデコーダー、QRS、ビーコン"
+  },
+  "11tcmb3zixm": {
+    "defaultMessage": "Wi-Fi"
+  },
+  "11tdz9c1kkh": {
+    "defaultMessage": "広告、Bluetooth 5 長距離通信、Open Drone ID に対応しています。"
+  },
+  "11tz2j5f9ks": {
+    "defaultMessage": "2.4 GHz の Wi-Fi、Bluetooth LE、802.15.4"
+  },
+  "11u2teu7xiu": {
+    "defaultMessage": "バンドIII"
+  },
+  "11vzqosp0g5": {
+    "defaultMessage": "すべての商船とほとんどのレジャーボートはAIS（自動船位報告システム）を発信しており、自船の識別情報、現在位置、航路、および速度を伝送する。2つの周波数チャネルは50 kHzの間隔で配置されており、WaveSharkはユーザーに選択を迫るのではなく、1つの周波数帯域で両方を同時に受信できる。"
+  },
+  "11w0qiv012y": {
+    "defaultMessage": "DMRは12.5 kHzのチャネルを時間分割することで、1つのチャネルに2つの通話を収容します。また、各バーストには発信者、グループ、スロットが明示されます。このメタデータこそが有用な半分であり、音声は一切デコードされなくても、車輌群は無線IDとその使用グループのリストとして把握できます。"
+  },
+  "11zaas7pz1q": {
+    "defaultMessage": "DMR"
+  },
+  "121bsoar62": {
+    "defaultMessage": "WaveSharkによるリモートチューナー - 到達範囲"
+  },
+  "12bqldyoo7h": {
+    "defaultMessage": "ダッシュボードで開き、ダイヤルはデコード対象のデバイスが所在する433.92 MHzから始まります。スペクトラムをクリックしてチャンネルを配置して受信し、ドラッグでパン、スクロールでスクラブ、Shiftキーを押しながらクリックするとバンドプランにスナップします。"
+  },
+  "12d0ulbrtcs": {
+    "defaultMessage": "<code>--headless</code> はウィンドウなしで全体を実行し、インターフェースと同様にスキャンとログ記録を行います。これは屋根裏部屋のマシンに搭載すべきものです。"
+  },
+  "12evlta4f12": {
+    "defaultMessage": "まず、他では扱えないものから"
+  },
+  "12icutmjw7f": {
+    "defaultMessage": "{platform} でのセットアップと初回起動"
+  },
+  "12jg1mqyd6l": {
+    "defaultMessage": "即時割り当て: 電話が割り当てられるチャネル"
+  },
+  "12jk2ss7irl": {
+    "defaultMessage": "IEEE 802.15.4におけるすべての3つの要素：通信するアドレス、それらが属するネットワーク、および各々が存在するチャネル。"
+  },
+  "12k1u2hvjcw": {
+    "defaultMessage": "1090 / 978 MHz"
+  },
+  "12l95bv6ubk": {
+    "defaultMessage": "2.4 GHz"
+  },
+  "12qa1qcl5po": {
+    "defaultMessage": "137 MHz 衛星"
+  },
+  "12qvu7914iu": {
+    "defaultMessage": "156-163 MHz"
+  },
+  "12rd9divgvx": {
+    "defaultMessage": "復号化と鍵の復旧には、tea機能を含むソースビルドが必要です。モニターは常に存在します。"
+  },
+  "134szimvz0y": {
+    "defaultMessage": "WaveShark の位置"
+  },
+  "134x2iqboiq": {
+    "defaultMessage": "耳の届く範囲内のすべてのモデルコントロールリンクにおけるスティックの位置：マイクロ秒単位のチャネルごとのバー、フレームレート、レベル、およびハンドセットがアーム要求を行っているかどうか。"
+  },
+  "13af6yzfpat": {
+    "defaultMessage": "パス構築中の画像、両チャネル"
+  },
+  "13bwu6plv71": {
+    "defaultMessage": "受信が完了するとディスクに保存される、マーティン1と2、スコッティ1、2およびDX、そしてロボット36と72の画像が、到着するたびに1行ずつ描画される。"
+  },
+  "13fawhnalyg": {
+    "defaultMessage": "ご自身のデバイスについては、<code>--ha-broker</code> と <code>--ha-spaces ism,wmbus</code> を使用して Home Assistant に供給してください。すると、ベンダーのゲートウェイを介さずに、読み取り値がセンサーとして表示されます。"
+  },
+  "13gs2eshkhe": {
+    "defaultMessage": "エアバンド周波数上のACARSと、欧州の航空交通が最も多く利用するデータリンクであるVDLモード2。機体、フライト、および地上へ送信されたメッセージ。Inmarsat Aeroは、同一トラフィックの衛星側をLバンドパッチアンテナから取得する。"
+  },
+  "13llmnrpxqn": {
+    "defaultMessage": "DVB-T テレビ: 1つの多重化は8 MHz"
+  },
+  "13mo5jd6zfg": {
+    "defaultMessage": "このページの狭帯域側に対応しています。Linuxではudevルールの設定のためにlibrtlsdr0またはrtl-sdrをインストールし、WindowsではまずZadigでWinUSBをバインドしてください。"
+  },
+  "13n4eru7j3p": {
+    "defaultMessage": "最新リリース · {tag}"
+  },
+  "13pnn3zur0j": {
+    "defaultMessage": "MQTT · --ha-broker"
+  },
+  "13rexlgdw5v": {
+    "defaultMessage": "DRM多重化サービスにおける各サービスの言語およびラベル、短波または中波送信からの情報。デジタル・ラジオ・モンディアル、短波デジタル、中波とも呼ばれる。"
+  },
+  "13ry3eapfr3": {
+    "defaultMessage": "トークグループ、カラーコード、タイムスロット"
+  },
+  "13sdlc6izp": {
+    "defaultMessage": "3つのメッセージ形式は読み取られる。SCMおよびSCM+は累計値を保持し、IDMは区間データを追加する。メーターIDは安定しており、これがメーターを単一の観測値ではなくデバイスとして定義する理由である。"
+  },
+  "13tm9trtwzf": {
+    "defaultMessage": "Capcode と機能ビット"
+  },
+  "13uorgeag0q": {
+    "defaultMessage": "受信できるもの →"
+  },
+  "13zl8ln5ds8": {
+    "defaultMessage": "時間軸ごとのバンドのヒートマップ、各Wi-Fi、Bluetooth、802.15.4チャネル上の状況、および検知した信号で停止するバンドウォーク。"
+  },
+  "140l73gyh3i": {
+    "defaultMessage": "完全復号化されたオープンデジタル音声モード：コールサイン、パケットメッセージ、Codec 2音声。特許による制約は一切ありません。Codec 2、オープンデジタル音声、アマチュア無線用としても知られています。"
+  },
+  "145pbw1zdys": {
+    "defaultMessage": "2レベルおよび4レベルの1600ボルトおよび3200ボルトで動作する高速ページング標準は、POCSAGと同様に同一のメッセージリストに読み込まれます。また、FLEX 1600 3200、モトローラ・ページングとも呼ばれます。"
+  },
+  "146e70p7btr": {
+    "defaultMessage": "SDR用TPMSデコーダー - WaveShark"
+  },
+  "146jelnprqz": {
+    "defaultMessage": "複数のチューナーを1つの広いスパンとして"
+  },
+  "14cw6oiln96": {
+    "defaultMessage": "ダイヤルは見る場所、スパンは収集する帯域"
+  },
+  "14dm0w42vs": {
+    "defaultMessage": "誰が誰と、どのプロトコルで同時に通信しているのか。Wiresharkの無線通信における会話リスト：リンクを選択すると、そのリンクが運んだパケットが下部に展開され、プロトコルが平文でペイロードを提供している場合はそれが表示されます。"
+  },
+  "14jlhwpx5ek": {
+    "defaultMessage": "スパンとそのウォーターフォール表示。クリックしてチャネルを配置し、ドラッグでパン、スクロールでスクラブ、Shiftキーを押すとバンドプランにスナップします。スパンは読み取り値として保持でき、ズームとパンが可能なヒートマップページとしてエクスポートでき、十字カーソル下で時間、周波数、デシベルを表示できます。"
+  },
+  "14lve2djxoy": {
+    "defaultMessage": "WaveSharkとrtl_433"
+  },
+  "14m7kbhn047": {
+    "defaultMessage": "ヴァイサラRS41、グラウDFM、メテオモデムM10およびM20、インターメットiMet、明成iMS-100、メテオ・ラジイMRZ、ロッキード・マーティンLMS6のすべてが読み取られる。探空儀は上昇し冷却するにつれて周波数がドリフトするため、20kmで信号を失うのではなく、チャネルがそれに追従する。"
+  },
+  "14nb1g13o8e": {
+    "defaultMessage": "アンテナ設置先のマシンで <code>waveshark --iqstream-listen 1234</code>、デスクトップで <code>waveshark --stream mast.local:1234</code> を実行します。"
+  },
+  "14oxiygo9jd": {
+    "defaultMessage": "RTTYは2つのトーンと5ビット符号を用いた方式であり、その消滅予測をすべて上回って存続しています。アマチュア無線のコンテスト、気象情報、そして相当量の業務用通信でも今なお利用されています。WaveSharkは標準的な速度と両方の極性を読み取れるため、シフトが逆転していても、そのチャネルが機能不全に陥ることはありません。"
+  },
+  "14prx5qftro": {
+    "defaultMessage": "<code>--record</code> は、永遠に同一に再生されるキャプチャを記録し、<code>--headless</code> は画面のないマシン上で受信機全体を実行します。"
+  },
+  "14tpdml0lfd": {
+    "defaultMessage": "SDR用EASおよびSAMEデコーダー - WaveShark"
+  },
+  "14v2xbctbmc": {
+    "defaultMessage": "ACARS"
+  },
+  "14w1yr3sylq": {
+    "defaultMessage": "マルチプレックスは、キャリアからトランスポートストリームまで読み取られ、選択したサービスがウィンドウ内でフルフレームレートで再生され、音が同期して出力されます。デジタル地上波、トランスポートストリーム、Freeview、マルチプレックスとも呼ばれます。"
+  },
+  "14x2jr7zxbo": {
+    "defaultMessage": "137-138 MHz"
+  },
+  "1517g19mw90": {
+    "defaultMessage": "同じパス計画が適用されます。衛星ビューにはパスが表示され、受信機は触れられることなく、そのパス全体にわたってドップラーシフトを追跡します。"
+  },
+  "153wpl0xpv0": {
+    "defaultMessage": "マスト上の機器でチューナーを動作させ、iqstreamまたはrtl_tcp経由でデスクトップから読み取り、複数のチューナーを連結してより広い周波数帯域をカバーする。"
+  },
+  "156qmzln52p": {
+    "defaultMessage": "プラットフォームごとに1つのビルドで、カードの有無を問わず対応します。音声モデルは、マシンにCUDA 12ランタイムがインストールされている場合はNVIDIA GPUを使用し、インストールされていない場合はCPUを使用します。macOSではMetalを使用します。"
+  },
+  "157ho3c9l0q": {
+    "defaultMessage": "NAC, システムを識別するネットワークアクセスコード"
+  },
+  "159d9e6ggq3": {
+    "defaultMessage": "電源を接続し、再生ボタンを押します。デコード対象のデバイスが存在する433.92MHzで開きます。"
+  },
+  "15a2ohtvwgf": {
+    "defaultMessage": "ラジオを接続して再生を押すだけ。"
+  },
+  "15baupv03a5": {
+    "defaultMessage": "TIME"
+  },
+  "15em8yitac3": {
+    "defaultMessage": "ウィンドウ：スペクトラム、ウォーターフォール、エンベロープ、未割り当てバーストのビットスライシングおよび16進数表示"
+  },
+  "15gtogid7j0": {
+    "defaultMessage": "サンプリング対象のスパン内のすべてのスキャナが同時に動作するため、これらは切り替えるためのモードではありません。受信機を特定のバンドに向ければ、そこに存在するスキャナはすでに稼働しています。"
+  },
+  "15hccmn2563": {
+    "defaultMessage": "2.4 GHz帯の作業にはHackRFまたはLimeSDR、それ以下の帯域にはドングル"
+  },
+  "15n8luiewl4": {
+    "defaultMessage": "433.92 MHzに設定して1時間ほど放置し、リストに何が蓄積されるか確認してください。"
+  },
+  "15ooz4gllgs": {
+    "defaultMessage": "デコードされた音声に対する音声認識（スピーチ・トゥ・テキスト）処理で、<code>cuda</code> によってモデルを GPU にロードします。"
+  },
+  "15paaksaege": {
+    "defaultMessage": "ホームポイント、DJI DroneIDの場合"
+  },
+  "15t6307mf9n": {
+    "defaultMessage": "トップページに戻る"
+  },
+  "15w97jdlp1s": {
+    "defaultMessage": "ディストリビューション向けのパッケージ、またはパス上のどこかにあるバイナリファイルのいずれかです。"
+  },
+  "15x2qnmz6t3": {
+    "defaultMessage": "1090 MHz"
+  },
+  "15xrar4e76e": {
+    "defaultMessage": "1つのパケットストリーム、その上に会話ビューとデバイスサーベイを重ねた表示"
+  },
+  "160btnizb6e": {
+    "defaultMessage": "30ユーロのドングルで、ほとんどの機能はカバーできます。より広帯域な無線機がもたらす利点は以下の通りです。"
+  },
+  "162h2anw18g": {
+    "defaultMessage": "データが届かない場合はパスを確認"
+  },
+  "16338458zt7": {
+    "defaultMessage": "RTL-SDRなら何でも可。送信にはHackRFまたはLimeSDRが必要"
+  },
+  "163d98q67s1": {
+    "defaultMessage": "スポンサー"
+  },
+  "1675i2rmukj": {
+    "defaultMessage": "SDRでエージェントが無線を操作する - WaveShark"
+  },
+  "168hkzvfjv9": {
+    "defaultMessage": "模型飛行機からのアナログFPV映像は、すべてのパイロットが使用する文字付きチャネルプランで送信されます。"
+  },
+  "16agbsjkgw0": {
+    "defaultMessage": "802.11a/g/bおよびシングルストリームのn：ネットワーク名、通信相手アドレス、各フレームの到着レート、およびアドレスがランダム化されているかどうか。"
+  },
+  "16bq7g5m830": {
+    "defaultMessage": "SDR用NOAA APTデコーダー - WaveShark"
+  },
+  "16cbobm5tto": {
+    "defaultMessage": "より多くの無線ハードウェアをサポート"
+  },
+  "16ds7um3svi": {
+    "defaultMessage": "1545-1555 MHz"
+  },
+  "16i76mjnnb6": {
+    "defaultMessage": "収集したスパンを複数のマシンで読み取れます"
+  },
+  "16iseooozh2": {
+    "defaultMessage": "NOAAの気象衛星から送信されるアナログ画像を、衛星の通過に合わせて描画し、その通過経路は衛星の視点から計画されています。"
+  },
+  "16j2uxtvy0e": {
+    "defaultMessage": "モース符号は、リピータが自局を識別する方法、伝搬ビーコンがコールサインをアナウンスする方法、そしてアマチュア無線の帯域の大部分が運用される方法として、現在もなお使用されています。デコーダは送信速度を指示されるのではなく、それに追従して動作します。"
+  },
+  "16ozg45wkzs": {
+    "defaultMessage": "地図上の航空機は、コールサイン、高度、速度、航跡、位置を表示し、1090MHzダウンリンクからスパン内の他の情報とともに読み取られる。"
+  },
+  "16phao5egph": {
+    "defaultMessage": "HackRFは半二重通信で8ビットの解像度ですが、この用途ではそれらの特性はさほど重要ではありません。重要なのは20 MS/sのスパンであり、これがWi-Fiチャネルの読み取りが可能かどうかを分ける点です。また、6 GHzまでの周波数カバーレージにより、5.8 GHz帯のFPV映像も捉えることが可能になります。"
+  },
+  "16xprg0nmao": {
+    "defaultMessage": "デフォルトではループバックのみで待機します。これは、ホストを介さずにネットワークへ渡すことは、ラジオを駆動するソケットとしては適切ではないためです。<code>--mcp-listen off</code> を指定すると完全に停止し、<code>host:port</code> を指定すると意図的に別の場所で待機します。"
+  },
+  "16y1mmq78ca": {
+    "defaultMessage": "{total, plural, other {# 局}}中 {shown} 局、地図上に {placed} 局、リレー {relays} 台中 {answered} 台から"
+  },
+  "16yx4xoc6wo": {
+    "defaultMessage": "WaveSharkはiqstreamにも対応しているため、スパンを収集しているマシンは、2つ目のアンテナなしで同じサンプルを別マシンに転送できます。`<code>,tune</code>`を追加すると、サブスクライバーがダイヤルを操作でき、その操作はサービング画面にも反映されます。"
+  },
+  "1714wo5vmer": {
+    "defaultMessage": "144.500 MHz と HF"
+  },
+  "171nwwtz69g": {
+    "defaultMessage": "セルが実行中のセキュリティクラス"
+  },
+  "1749ci6oufa": {
+    "defaultMessage": "センサーが報告する移動または静止状態"
+  },
+  "174r6zx7rr6": {
+    "defaultMessage": "帯域幅がボトルネックであり、復号化ではありません。433 MHz帯域における2.4 MHzのスパンでは、建物内のすべてのセンサーを同時に収容できますが、同じスパンではWi-Fiチャネル1つも収容できません。"
+  },
+  "175zioniw5g": {
+    "defaultMessage": "GSM 900 と 1800"
+  },
+  "178obt9yixc": {
+    "defaultMessage": "何もないと主張されても、コードの推論は行われ、ビットは切り出されるため、不明なリモートは空白ではなく出発点となる。"
+  },
+  "17d2o1i3aij": {
+    "defaultMessage": "ラインレートと協力インデックス"
+  },
+  "17dhrh1mvhc": {
+    "defaultMessage": "ビーコンメッセージは国コード、識別情報、位置情報を読み取り、ビーコンは他の軌跡と同様に地図上に軌跡として表示されます。121.5 MHzのホーミングキャリアは、デコードされない別の信号です。"
+  },
+  "17dl3dx5b3c": {
+    "defaultMessage": "1つのストリームで15のビュー"
+  },
+  "17dm9j2v2vm": {
+    "defaultMessage": "ダッシュボードで起動し、ダイヤルはデコード対象のデバイスが所在する433.92MHzから始まります。"
+  },
+  "17ffdephq4l": {
+    "defaultMessage": "送信元および送信先の無線ID、ならびにグループ通話または個別通話であるかどうか"
+  },
+  "17i61jza4il": {
+    "defaultMessage": "{platform} 版 WaveShark"
+  },
+  "17j4te9bn8n": {
+    "defaultMessage": "136-174 / 400-470 MHz"
+  },
+  "17lowkdtha1": {
+    "defaultMessage": "Digital Radio Mondiale、短波デジタル、中波"
+  },
+  "17m1oouswh7": {
+    "defaultMessage": "未割り当ての生タイミングとビット"
+  },
+  "17nkpfi0q7b": {
+    "defaultMessage": "868 MHz (863-870 MHz): この帯域で送信されているもの"
+  },
+  "17o7sxi1opu": {
+    "defaultMessage": "RTL-SDR なら何でも可。HF にはアップコンバータまたは直接サンプリングが必要"
+  },
+  "17o893b69em": {
+    "defaultMessage": "macOS版のビルドのみ画像が表示されます。これは、ffmpegのバージョンが十分に新しいのはこのビルドだけであるためです。その他のビルドでは、マルチプレックスを読み取り、そのサービスの一覧を表示します。マルチプレックスの送信は逆方向で動作し、トランスポートストリームファイルや、ffmpegで開ける任意のソースから行われます。"
+  },
+  "17pewyf5xdt": {
+    "defaultMessage": "RAN, システム番号"
+  },
+  "17pwljmonx7": {
+    "defaultMessage": "ステレオおよびRDS対応WFM、NFM、AM、USB、LSB、CWを受信し、複数チャネルを同時に処理しながら、ローカル環境で動作するWhisperまたはQwen3-ASRモデルが音声の発話に合わせて文字起こしを行います。すべてのオーバー（受信音）はOpus形式で保存され、コールリストから再生できます。"
+  },
+  "17pzwlggiu2": {
+    "defaultMessage": "無線電信、Baudot、45.45 baud"
+  },
+  "17r3p1d8084": {
+    "defaultMessage": "実務的な無線運用はここで行われ、音声そのものよりも識別情報が重要となる。DMR、P25、NXDNはすべて、音声通信が暗号化されていても、発信者名とグループ名を平文で伝送するため、メタデータだけで車隊の構成を読み取ることができる。"
+  },
+  "17rb1dukwzw": {
+    "defaultMessage": "RTL2832Uドングル"
+  },
+  "17rz2x12g9d": {
+    "defaultMessage": "ダウンロード"
+  },
+  "17toe05fpxc": {
+    "defaultMessage": "スキャナテーブルを含むすべての設定を変更"
+  },
+  "17vruzur1od": {
+    "defaultMessage": "気象ファックスは、単一サイドバンドチャネルを介して低速画像として送信される図表であり、現在も複数の国家的サービスによって船舶向けに放送されている。完全な図表は数分間を要し、1行ずつ表示される。"
+  },
+  "184cpjwelyt": {
+    "defaultMessage": "136-174 / 400-470 / 700-800 MHz"
+  },
+  "184u2hwo6og": {
+    "defaultMessage": "対象の FIPS カウンティコード"
+  },
+  "188vik4p284": {
+    "defaultMessage": "複数の整合チューナを一つのより広い受信機として提供できます。これらは共有する周波数帯域上で互いのドリフトを測定し、それを補償することで、単一の無線機では実現できない広い周波数範囲をカバーできます。"
+  },
+  "189jbqoilwv": {
+    "defaultMessage": "ドングルを開く際に発生する権限エラーは、デバイスが破損しているのではなく、udevルールが欠落していることが原因です。"
+  },
+  "18aft6hjttf": {
+    "defaultMessage": "フォードとルノーのセンサーは、汎用ファミリーと合わせてデコードされ、センサーが送信する場合は圧力と温度も含まれます。欧州では433.92 MHz、北米では315 MHzが使用されています。"
+  },
+  "18e7x39zmvi": {
+    "defaultMessage": "衛星ビューでは、翌日にあなたの観測地点上空を通過するすべてのパスを、最大高度、空プロット、リアルタイムの方位角・高度・ドップラー周波数偏移、および軌道要素の鮮度（古さ）とともに一覧表示します。受信はダウンリンクをパス全体にわたって追跡し、衛星が沈んだ時点で自動的に終了するため、ダイヤルを触ることなく画像が自動的に構築されていきます。"
+  },
+  "18fgsyrzkr4": {
+    "defaultMessage": "RTL2832U ドングル、約30ユーロから"
+  },
+  "18fp23i5ryy": {
+    "defaultMessage": "ご自身のリストからの局名"
+  },
+  "18l6v11b8e4": {
+    "defaultMessage": "<code>.deb</code>および<code>.rpm</code>パッケージはlibrtlsdrを依存関係として含んでおり、これによりudevルールが導入され、root権限なしでDongleを開くことができます。バイナリ単体を使用する場合は、<code>librtlsdr0</code>または<code>rtl-sdr</code>を自分でインストールしてください。LimeSDRへの対応はコンパイル済みです。"
+  },
+  "18ndk9c1pt4": {
+    "defaultMessage": "DJIの機体は、DJI DroneIDをブロードキャストしており、これにより離陸地点であるホームポイントが追加されます。この処理には15.36 MS/sの帯域幅が必要なため、USBドングルではなく、HackRFやLimeSDRを用いる必要があります。"
+  },
+  "18o1ne0dp3w": {
+    "defaultMessage": "DVB-T テレビ"
+  },
+  "18xcz4g6ddo": {
+    "defaultMessage": "ICAO アドレス、および航空機が送信するコールサイン"
+  },
+  "18yvf5lkeld": {
+    "defaultMessage": "サービスごとのビットレートと保護レベル"
+  },
+  "196z9ki0prl": {
+    "defaultMessage": "メッセージに含まれる位置情報、地図上に描画"
+  },
+  "19b0o1cciyj": {
+    "defaultMessage": "アップコンバータまたは直接サンプリングを備えた RTL-SDR"
+  },
+  "19dhzehakj6": {
+    "defaultMessage": "公開するアイデンティティスペースを指定します。例: ism, wmbus。"
+  },
+  "19dyvpc2gu8": {
+    "defaultMessage": "デバイス"
+  },
+  "19eyveaiko6": {
+    "defaultMessage": "任意の RTL-SDR、1090 MHz 対応アンテナ"
+  },
+  "19gvpty4f06": {
+    "defaultMessage": "<code>--record</code> を使用してバーストを記録し、キャプチャを添付して問題を報告してください。デコード可能なキャプチャはテストフィクスチャとなります。"
+  },
+  "19lapl1der2": {
+    "defaultMessage": "ローカルモデルが聴取したすべての内容を逐次書き起こし、最新の内容を最下部に表示し、文字列が伸びるにつれて行にマーカーを付与するとともに、信頼度の低い読み取り結果にはフラグを立てます。WhisperのあらゆるサイズやQwen3-ASRを使用し、CPUまたは指定のGPU上で実行できます。"
+  },
+  "19s6sqqrzg6": {
+    "defaultMessage": "まだ誰も聞いたことのない情報を示すビューの一つ：今後24時間以内に衛星がステーション上空を通過する際の各パスについて、最大仰角、空図、リアルタイムの方位角/仰角およびドップラー周波数偏移、そして軌道要素の鮮度（古さ）を表示します。受信はダウンリンクのパス追跡に従い、衛星が沈むと終了します。"
+  },
+  "19txf7esmza": {
+    "defaultMessage": "1090MHzで検出されない小型機、およびそれらに気象情報や交通情報をアップリンクする地上局。UAT978、ADS-B UAT、FIS-B、TIS-Bとも呼ばれる。"
+  },
+  "19vkt15yirb": {
+    "defaultMessage": "UHFとバンドIII"
+  },
+  "19vl8f2fiz2": {
+    "defaultMessage": "アナログ映像とFPV"
+  },
+  "1a56fxt6c5v": {
+    "defaultMessage": "動作内容"
+  },
+  "1a71mq8346n": {
+    "defaultMessage": "AX.25パケット、Mic-E、144.800 MHz、144.390 MHz"
+  },
+  "1adtuo86ix2": {
+    "defaultMessage": "カラー映像、PALまたはNTSC"
+  },
+  "1aef5yzrf88": {
+    "defaultMessage": "このスパンを提供し、別のマシンが同じサンプルを読み取れるようにしてください。購読者がダイヤルを調整できるようにするには、,tune を追加してください。"
+  },
+  "1anxwulk9sc": {
+    "defaultMessage": "航空会社が平文で送信するメッセージ本文"
+  },
+  "1ap57x2z8t5": {
+    "defaultMessage": "通話の長さおよび使用されたチャネル"
+  },
+  "1apw2e2k0nn": {
+    "defaultMessage": "SDR用Zigbee、ThreadおよびMatterデコーダー - WaveShark"
+  },
+  "1arye9c76pr": {
+    "defaultMessage": "星座、ガードインターバル、符号化率、セルID"
+  },
+  "1at4owa148n": {
+    "defaultMessage": "レース用およびフリースタイル用クアッドコプターは、デジタル映像が途切れる場合に比べてアナログ映像は徐々に劣化するだけで、途切れにくいという特性があるため、依然としてアナログ映像を伝送しています。映像は暗号化されておらず、自己チェック機能も備わっていないため、受信機は映像を表示するか、表示しないかの二択です。"
+  },
+  "1at9fgdy08": {
+    "defaultMessage": "ヘッダー末尾の局識別子"
+  },
+  "1atuz2h83ft": {
+    "defaultMessage": "HF と VHF"
+  },
+  "1au1c67x0rt": {
+    "defaultMessage": "WaveSharkとHackRF One - 到達範囲"
+  },
+  "1avaaomznc4": {
+    "defaultMessage": "ビーコンの種類: EPIRB、PLB、またはELT"
+  },
+  "1ax2rri7hdw": {
+    "defaultMessage": "デコーダー"
+  },
+  "1azlhpyiyiw": {
+    "defaultMessage": "全7つの気象ラジオチャンネルが設定されているため、受信機は送信機が使用するチャンネルを自動的に探し出し、推測して探す必要はありません。"
+  },
+  "1azm99r1ead": {
+    "defaultMessage": "発行時刻と破棄時刻"
+  },
+  "1b0wsnygjd7": {
+    "defaultMessage": "描画される海図そのもの"
+  },
+  "1b31gg104ze": {
+    "defaultMessage": "colaclanth 氏のデコーダで同じ録音データを照合済み。"
+  },
+  "1b56puqx555": {
+    "defaultMessage": "M17とDMR"
+  },
+  "1b65hn2gbxy": {
+    "defaultMessage": "--probe はディスプレイなしで信号経路をテストするため、ヘッドレスマシンの SSH 経由で実行する場合に使用します。"
+  },
+  "1b879yz2nsq": {
+    "defaultMessage": "ユースケースでは、ドングルでのデバイス調査からHackRFによるドローンのリモートIDまで、各機能が何に用いられるかを説明しています。"
+  },
+  "1bddohxetko": {
+    "defaultMessage": "1090 MHzと978 MHz（978/1090 MHz）：そこで何が送信されているか"
+  },
+  "1bfmhjmf99p": {
+    "defaultMessage": "北米の電力メーター：SCM、SCM+、IDM形式における消費量数値、メーターIDおよびタイプ。SCM、SCM+、IDM、rtlamr、915 MHzメーターとも呼ばれる。"
+  },
+  "1bk0diq8h77": {
+    "defaultMessage": "フレームタイプ: management、control、data"
+  },
+  "1bnfhylvvkh": {
+    "defaultMessage": "Gqrxは一度に一つのものを聞くのに優れたラジオです。WaveSharkは、そもそも何があるのかを明らかにするために使います。"
+  },
+  "1bp3zp2s7zc": {
+    "defaultMessage": "耳の届く範囲内のすべてのモデルコントロールリンクにおけるスティックの状態：マイクロ秒単位でのチャネルごとのバー、フレームレート、およびハンドセットがアーム要求を行っているかどうか。"
+  },
+  "1bq0lun7sz7": {
+    "defaultMessage": "物理スイッチとエンコーダースイッチのタンパーフラグ"
+  },
+  "1bs1995y51a": {
+    "defaultMessage": "CWチャネルは送信速度でテキストとして読み取られ、RTTYは45.45バウドから200バウドまでのバウドト符号で、どちらの方向でも読み取れます。EASおよびSAMEのアラートヘッダーは、7つのNOAA気象ラジオチャネルで読み取られます。"
+  },
+  "1bui33dxznu": {
+    "defaultMessage": "スペクトラム、パケット、通話、トランスクリプト、トラッカーを読み取ります。シグナルチェーン内のあらゆる要素を変更し、チェーン自体を描画します。ステージの追加、接続、削除、元に戻す、自動グラフへの復帰が可能です。設定にもアクセスできるため、スキャナーの追加、メモリの保存、ボイスの選択、フィードのオン、キャッシュ済みデータセットの管理を行えます。"
+  },
+  "1bw4ickrcat": {
+    "defaultMessage": "オペレーター位置、航空機が位置特定されている場合"
+  },
+  "1bzpl2tp9hm": {
+    "defaultMessage": "3つのスタックすべてに共通する802.15.4レイヤー：通信するアドレス、所属するネットワーク、および各々が使用しているチャネル。IEEE 802.15.4、PAN ID、スマートホームメッシュとも呼ばれる。"
+  },
+  "1c4ki30jg2x": {
+    "defaultMessage": "WaveSharkの各実行では、受信機がモデルコンテキストプロトコル（MCP）を介して <code>http://127.0.0.1:8931/mcp</code> で提供されます。受信機はヘッドレスの第2のデバイスではなく、画面に表示されているもののため、エージェントが調整、開き、またはオンにした内容はウィンドウに反映され、エージェントはそのウィンドウを撮影して実行結果を確認できます。"
+  },
+  "1c50ow6yf3o": {
+    "defaultMessage": "マルチプロトコルSDRソフトウェア"
+  },
+  "1c82zlecqx": {
+    "defaultMessage": "得られるもの →"
+  },
+  "1c92bt42uhb": {
+    "defaultMessage": "無線機を接続して再生を押す"
+  },
+  "1c9m9ft28pj": {
+    "defaultMessage": "センサーが設置されている場所の温度、湿度、雨量、風"
+  },
+  "1cc5ijdjwj8": {
+    "defaultMessage": "Gqrxは一つのことに特化してそれを完璧にこなす：周波数をチューニングし、デモジューラを選択して、受信する。軽量で安定しており、多くの人がドングルを手にした際に最初にインストールするソフトウェアであり、リピータや放送局の受信という目的においては、依然として最も手軽な選択肢である。"
+  },
+  "1ccwglfcol5": {
+    "defaultMessage": "AISによる船舶の位置および識別情報の地図上での表示、Inmarsat STD-Cによる安全放送、およびCOSPAS-SARSATの遭難ビーコンが符号化している位置情報。"
+  },
+  "1cece0c57yq": {
+    "defaultMessage": "暗号化されたチャネルごとに1行、およびその鍵に関する既知の情報。モニターは常に存在し、復号と鍵の復元にはtea機能が不可欠です。"
+  },
+  "1ceq5csqyfz": {
+    "defaultMessage": "UHF、バンドIII、短波"
+  },
+  "1cg07td3vga": {
+    "defaultMessage": "サンプル形式"
+  },
+  "1cgyxgucgk5": {
+    "defaultMessage": "音声処理はMetalで実行されるため、CUDAの問題はありません"
+  },
+  "1ciufesyvck": {
+    "defaultMessage": "ソースからビルド"
+  },
+  "1cl74dbv8f": {
+    "defaultMessage": "サービスと宛先となった洋域"
+  },
+  "1clyqli0yj4": {
+    "defaultMessage": "AIS"
+  },
+  "1cn31uq4k2d": {
+    "defaultMessage": "1 セッション {minutes} 分"
+  },
+  "1cnngs79vxw": {
+    "defaultMessage": "WaveShark - 電波スペクトラムのためのWireshark"
+  },
+  "1cno0rocrcn": {
+    "defaultMessage": "ループバックでMCP、家庭向けにMQTT"
+  },
+  "1cnvnajty13": {
+    "defaultMessage": "衛星ビューでは、次の1日間のあなたの観測所を通過するすべてのパスが、最大高度とスカイプロットとともに一覧表示されます。リスニングでは、パス中にダウンリンクを追跡し、ドップラー補正を行い、衛星が沈んだ時点でチャネルを閉じます。"
+  },
+  "1cp8t65qodg": {
+    "defaultMessage": "リポジトリ"
+  },
+  "1cro97h6sqf": {
+    "defaultMessage": "Windows"
+  },
+  "1cs6y0du4qv": {
+    "defaultMessage": "1 MHz から 6 GHz"
+  },
+  "1ctsf6yll6n": {
+    "defaultMessage": "地図上に表示される航空機について、コールサイン、高度、速度、航跡、位置を読み取り、1090 MHzダウンリンクおよびスペクトラム内の他のすべての情報を取得します。dump1090、1090 MHz、モードS、二次レーダーとしても知られています。"
+  },
+  "1cy61rwtjlt": {
+    "defaultMessage": "Linux"
+  },
+  "1d4uczg30dp": {
+    "defaultMessage": "テレビ"
+  },
+  "1d4yhky7fnh": {
+    "defaultMessage": "トラフィックは海上で起きている出来事に対するリアルタイムのコメントであり、ページャーやメッシュテキストと同様に、別ウィンドウではなくメッセージビューに表示される。"
+  },
+  "1d5u64e8gro": {
+    "defaultMessage": "セルの同期バースト、ブロードキャストされるブロック、ページング対象の呼び出し先、および端末が割り当てられるチャネルから、セルのアイデンティティを識別する。"
+  },
+  "1d9kw374n6w": {
+    "defaultMessage": "AMBE機能を備えたソースビルドによる音声通信において、両方のタイムスロットで、どのトークグループで誰が誰に電話したかを示します。また、MOTOTRBO、Tier II、トークグループ、DMR IDとしても知られています。"
+  },
+  "1dbm6xe8otn": {
+    "defaultMessage": "位置情報なし"
+  },
+  "1dgjoj2lz88": {
+    "defaultMessage": "ビジネス VHF と UHF"
+  },
+  "1dh5ji9ns1a": {
+    "defaultMessage": "868.95 / 915 MHz"
+  },
+  "1dl5jqh26jd": {
+    "defaultMessage": "WaveShark ホーム"
+  },
+  "1dnwjmmk7zt": {
+    "defaultMessage": "呼び出し設定時の発着呼出識別子"
+  },
+  "1dug68p9l3h": {
+    "defaultMessage": "Home Assistant 連携が真価を発揮するのも、まさにこのバンドです。`<code>--ha-broker</code>` を Home Assistant がすでに使用しているブローカーに指定し、`<code>ism,wmbus</code>` に限定しておけば、独自のメーターやセンサーが、ベンダーのゲートウェイを介さずにデバイスとして表示されます。"
+  },
+  "1dvxnhl4tl": {
+    "defaultMessage": "FREQ"
+  },
+  "1dyj0clbky4": {
+    "defaultMessage": "必要なもの"
+  },
+  "1e03iajjgo5": {
+    "defaultMessage": "欧州の短距離帯：検針用メーター、Z-Wave製ロックおよびセンサー、LoRaメッシュネットワーク、そして家庭用オートメーションにおける長距離通信用途。"
+  },
+  "1e10c9xk046": {
+    "defaultMessage": "ラジオ起動時から生スパンを書き出します。"
+  },
+  "1e59c9bm9a": {
+    "defaultMessage": "MMSI、および静的レポートからの船名とコールサイン"
+  },
+  "1e6tbeo02fi": {
+    "defaultMessage": "各Wi-Fi、Bluetooth、802.15.4チャネル上に存在するもの、その信号強度、およびチャネルの混雑状況を把握し、自ネットワークの最適な設置場所を示すビューです。"
+  },
+  "1e9ok7hj406": {
+    "defaultMessage": "5645-5945 MHz"
+  },
+  "1e9uiv4etm8": {
+    "defaultMessage": "Speech機能にはambe機能を備えたソースからのビルドが必要です。公開されているバイナリでは、音声以外のすべてがデコードできます。"
+  },
+  "1ehel55qpyo": {
+    "defaultMessage": "録音、トランスクリプト、検索可能なメッセージ履歴"
+  },
+  "1ehyk7udya5": {
+    "defaultMessage": "「録音」をオンにすると、各オーバーはOpus形式で保存されます。通話リストの下にはタイムラインが表示され、録音データが時間軸上に配置され、無音区間も明示されます。これにより、午後の一連の通話を単一のファイルとして扱えます。また、録音テーブルでは、トークグループ、発信者、システム、周波数ごとにフィルタリングできます。"
+  },
+  "1envjz6gdlb": {
+    "defaultMessage": "NOAA衛星からのアナログ気象衛星画像。衛星の通過が近づくと描画され、通過自体は衛星の視点から計画されます。気象衛星画像、NOAA 15、NOAA 18、NOAA 19、137 MHzとしても知られています。"
+  },
+  "1er5b69sbss": {
+    "defaultMessage": "チューナー"
+  },
+  "1esyzrqm88y": {
+    "defaultMessage": "初回実行"
+  },
+  "1ev8p516lvo": {
+    "defaultMessage": "AISは、航空機と同じ地図上に船舶を特定情報、位置、航跡とともに表示し、海上VHF音声通信はそれらの隣にあるコールリスト内で独自のチャンネルを使用する。"
+  },
+  "1f423dts634": {
+    "defaultMessage": "拡大"
+  },
+  "1f4ojr3bqke": {
+    "defaultMessage": "AISによる船舶の位置および識別情報、ならびに航空機と同じ地図上に、それらに送信されるInmarsat STD-CによるEGCおよびSafetyNET放送を表示します。"
+  },
+  "1fai3v6mslm": {
+    "defaultMessage": "MCPサーバーにより、エージェントが視聴中の受信機を操作できるようにします"
+  },
+  "1fc27pf8yfz": {
+    "defaultMessage": "接続できない場所に移動する前に、データセットのキャッシュを事前読み込みしてください。"
+  },
+  "1fcnvnywgcv": {
+    "defaultMessage": "コントロールビューはもう半分の機能です。耳の届く範囲内のすべてのモデルコントロールリンクを、マイクロ秒単位のチャネルごとのバーで表示し、フレームレート、信号レベル、そしてハンドセットがアームを要求しているかどうかを示します。ExpressLRSは受信機自体によって設定されます。FrSky ACCST、FlySky AFHDS-2A、およびXN297も読み取ります。"
+  },
+  "1fhd5hwexrc": {
+    "defaultMessage": "空きスロット"
+  },
+  "1fiu4n7vic6": {
+    "defaultMessage": "四分間、その大半は運転手によるもの。スペクトラムが動けば無線は開放され、範囲内のすべてのスキャナーがすでに稼働している。"
+  },
+  "1fnfi3z007r": {
+    "defaultMessage": "P25 phase 1"
+  },
+  "1fq5ecbfazc": {
+    "defaultMessage": "スロースキャンテレビ、Martin、Scottie、Robot 36"
+  },
+  "1fsnq0x06lx": {
+    "defaultMessage": "約30ユーロから"
+  },
+  "1fviq92uqmq": {
+    "defaultMessage": "TPMS: 圧力、温度、移動の有無"
+  },
+  "1g1e6jvxex1": {
+    "defaultMessage": "<release>リリースページ</release>にすべてあります。"
+  },
+  "1g1qea5pupy": {
+    "defaultMessage": "リモートIDを放送するドローンは、Wi-FiまたはBluetooth LEのいずれかを介して、シリアル番号、現在地、および操縦者の位置を公開する。DJIの機体が自機のドローンIDを読み取ると、離陸地点であるホームポイントも追加される。"
+  },
+  "1g1sj3dvrxc": {
+    "defaultMessage": "ADS-BおよびMode Sの情報を、コールサイン、高度、速度、航跡、位置を含む航跡表とともに地図上に表示します。978MHzのUATにより、軽飛行機および地上局からの気象・交通情報のアップリンクが追加されます。"
+  },
+  "1g24d6gd3w5": {
+    "defaultMessage": "航空機と同一マップ上で船舶の位置と識別情報を表示。2つのAISチャネルを同時に受信。船舶追跡、海事AIS、161.975 MHzとも呼ばれる。"
+  },
+  "1g2ovf85cgd": {
+    "defaultMessage": "パケットペイロード、テキストメッセージを含む"
+  },
+  "1g767lx0t48": {
+    "defaultMessage": "P25フェーズ1では、通話グループ、無線機ID、および通話中のキーが示されます。12.5kHzおよび6.25kHzチャネルでのNXDNでは、システム番号、呼び出し元と呼び出し先、および音声の暗号化の有無が示されます。いずれも現時点では音声が出力されていません。"
+  },
+  "1g9htwq1cda": {
+    "defaultMessage": "WaveSharkが読み取れるすべてのプロトコルと、それぞれが提供する情報。"
+  },
+  "1gcgdhll3yt": {
+    "defaultMessage": "すべてのWaveSharkフラグ: --tune、--span、--mode、--record、--replay、--headless、--survey、--mcp-listen、--kiss-listen、--iqstream-listen、--ha-broker、--probe、およびビュー上で受信機を開くスイッチ。"
+  },
+  "1gcws9ummjb": {
+    "defaultMessage": "バイナリのみ"
+  },
+  "1gn0mh7j9nb": {
+    "defaultMessage": "発信者とイベントコード、名称に展開"
+  },
+  "1gnyw579yh6": {
+    "defaultMessage": "衛星 ACARS、SatCom、Lバンド航空"
+  },
+  "1go97txz3ew": {
+    "defaultMessage": "静止軌道衛星は、常に同じ方向から沈むことなく信号を送ってくるため、パッチアンテナと低雑音増幅器を揃えれば、137MHzの気象衛星に次いで最も簡単な衛星受信としてLバンドが挙げられます。"
+  },
+  "1gs7sgm4ey9": {
+    "defaultMessage": "ヒートマップのエクスポートでは、スパンを測定値として保持し、拡大・パン操作が可能なページを生成します。ページ内では、クロスヘアの下に時刻、周波数、デシベル値が表示されます。各行はスナップショットではなく、各ビンの最大到達値を示すため、午前3時に一度だけ送信した送信機も朝まで表示され続けます。また、ダイヤルを回すと画面がクリアされるのではなく、表示範囲が拡大します。"
+  },
+  "1gu0dqhqsf1": {
+    "defaultMessage": "1台のSDR受信機でできること：周囲の無線機器をスキャンし、航空機や船舶を追跡し、無線ネットワークを監視して文字起こしし、リモコンの仕組みを逆解析し、ドローンを追尾し、気象衛星やラジオゾンデを受信し、アマチュア無線局を運用し、エージェントに無線を運転させる。"
+  },
+  "1gw0sycr8iz": {
+    "defaultMessage": "ロバストネスモードとスペクトラム占有"
+  },
+  "1h1mxhvxnrx": {
+    "defaultMessage": "LoRaWANの参加要求とアドレス、公開鍵下のMeshtasticテキスト、MeshCoreの広告。"
+  },
+  "1h3dl3ydaev": {
+    "defaultMessage": "UHF"
+  },
+  "1h598maslqw": {
+    "defaultMessage": "対応デコーダー"
+  },
+  "1h6bmoat6z0": {
+    "defaultMessage": "放送を分解する"
+  },
+  "1h9od13ekot": {
+    "defaultMessage": "現在、欧州の航空交通の多くが利用しており、ACARSと同じ航空会社メッセージを8倍の速度で伝送するデータリンク。"
+  },
+  "1hetooqn2xa": {
+    "defaultMessage": "ユニットID、フリートマップが書き込む16進数形式"
+  },
+  "1hh8519ohhn": {
+    "defaultMessage": "ウィンドウなしで実行"
+  },
+  "1hjtnrxc6ae": {
+    "defaultMessage": "すべてのバンド"
+  },
+  "1hjx30y08di": {
+    "defaultMessage": "チューナー {id}"
+  },
+  "1hkncbrxp7q": {
+    "defaultMessage": "音声サブキャリア、映像と同時に再生"
+  },
+  "1hp2ztw8k07": {
+    "defaultMessage": "NOAA Weather Radio、緊急警報、162.400 MHz"
+  },
+  "1hpc4bz64it": {
+    "defaultMessage": "802.11、ビーコンフレーム、SSID、プローブリクエスト"
+  },
+  "1hppvcmct2s": {
+    "defaultMessage": "2.4 GHz、5 GHz、任意のバンド"
+  },
+  "1hqag40yr6w": {
+    "defaultMessage": "1.2 / 2.4 / 5.8 GHz"
+  },
+  "1hr8y37b5qi": {
+    "defaultMessage": "チャネルの送信ソースはエージェント自身である場合がある。名前を付けると、呼びかけに応答する。オーバーを聞き取り、自身の声で応答し、再度名前を呼ばれなくても30秒間会話を継続する。"
+  },
+  "1hv003kqpno": {
+    "defaultMessage": "Z-Waveはサブギガヘルツ帯で動作するため、Zigbeeの周波数帯よりも低い帯域に位置し、これが壁を通過しやすい理由であり、2.4 GHzの調査では検出されない理由でもあります。すべての3つのデータレートが読み取られるため、9.6 kbit/sで動作する古いセンサーは、100 kbit/sで動作する新しい錠前と並んで表示されます。"
+  },
+  "1hwjmx3hypf": {
+    "defaultMessage": "バンドプランに由来するブロック名"
+  },
+  "1hyghsfav99": {
+    "defaultMessage": "WaveShark と Gqrx"
+  },
+  "1i0s36b57lv": {
+    "defaultMessage": "HackRFが到達するすべての周波数帯域、フルデュプレックス、12ビットサンプル対応。LinuxおよびmacOS向け。Windows版はありません。"
+  },
+  "1i16t0a28ze": {
+    "defaultMessage": "航空機についてペアとなるデータが存在しない単一の位置フレームであっても、受信機が位置を知っていれば、その位置を特定できます。具体的には、<code>--location</code> を指定するか、局の位置を設定することで、表面位置の復号に参照元が与えられます。単一のフレームから描画されるマークは中空（ハロー）であり、軌跡（トレイル）には決して連結されないため、推測は決して軌跡にはなりません。"
+  },
+  "1i1fkla60gk": {
+    "defaultMessage": "ウィンドウをスクリーンショットして動作を確認"
+  },
+  "1i3cvqqsstc": {
+    "defaultMessage": "自分のものを登録"
+  },
+  "1i3d1npb121": {
+    "defaultMessage": "Windowsでは、WinUSBがRTL2832Uにバインドされるまで、ユーザースペースのプログラムがデバイスを開くことができません。これは、デバイスがテレビチューナであると主張して接続されるためです。Zadigはこの処理を約30秒で完了させ、1つのドングルにつき1回だけ実行すれば済みます。"
+  },
+  "1i3q8rh6ysn": {
+    "defaultMessage": "137.1 / 137.9125 / 137.62 MHz"
+  },
+  "1i6fkvwb664": {
+    "defaultMessage": "LoRaメッシュ"
+  },
+  "1idfhhtbjs0": {
+    "defaultMessage": "可視受信機を制御する理由"
+  },
+  "1if2k6tn98n": {
+    "defaultMessage": "<readme>readme</readme>にはツール全体のリストが記載されており、<usecase>ユースケース</usecase>は簡潔なバージョンです。"
+  },
+  "1ighh77aubr": {
+    "defaultMessage": "5.8 GHz"
+  },
+  "1ii4ur4v82z": {
+    "defaultMessage": "RS41, DFM, M10, iMet, 気象観測気球, SondeHub"
+  },
+  "1iinxm6d79w": {
+    "defaultMessage": "混雑したバンドでの 12 bit ダイナミックレンジ"
+  },
+  "1ilda8it0kv": {
+    "defaultMessage": "ステッチング"
+  },
+  "1ipmqn4mh3u": {
+    "defaultMessage": "降下してくるのは、VHF地上局のない地域からの航空機データリンクと、すべての商用船舶が受信義務を負う海上安全放送である。"
+  },
+  "1ivn76j07lq": {
+    "defaultMessage": "UATは、米国において18,000フィート未満の航空機に使用される別のADS-Bリンクです。これを読み取ることにより、1090MHzでは見えない一般航空機の交通情報が地図上に表示されます。この周波数に現れる航空機こそが興味深いものであり、グライダー、練習機、農薬散布機などが含まれます。"
+  },
+  "1ix568b22d3": {
+    "defaultMessage": "macOS版WaveSharkをダウンロード"
+  },
+  "1j03xiyle9c": {
+    "defaultMessage": "802.11a/g/bおよびシングルストリームのn：ネットワーク名、通信相手アドレス、各フレームの受信レート、アドレスがランダム化されているかどうか。802.11、ビーコンフレーム、SSID、プローブリクエストとしても知られている。"
+  },
+  "1j8j8fs118d": {
+    "defaultMessage": "ACARSは2つのVHFデータリンクのうち古いほうであり、現在も世界の多くの地域で最も利用頻度が高い。各メッセージには航空機の登録記号、フライト番号、メッセージの種類を示すラベルが含まれ、本文は多くの場合、マニュアルなしでも読み取れるほど平易な形式である。"
+  },
+  "1jaffnkthh3": {
+    "defaultMessage": "radiofax、WEFAX、海図、Northwood"
+  },
+  "1jbbtbia90i": {
+    "defaultMessage": "編集可能なシグナルチェーンと、それを操作できるエージェント"
+  },
+  "1jldxh8ooea": {
+    "defaultMessage": "ISM機器"
+  },
+  "1jmho1ise8c": {
+    "defaultMessage": "独自の隠れたラジオを持つエージェントとは、その誤りが目に見えないエージェントである。ウィンドウを操作することで、すべての曲、すべてのチャンネル、チェーンへのすべての編集が、その瞬間に画面に表示される。スクリーンショットツールにより、モデルはユーザーが見ているのと同じものを確認できる。"
+  },
+  "1jn8ugqt7ax": {
+    "defaultMessage": "プロトコル"
+  },
+  "1jq54v0ry7v": {
+    "defaultMessage": "サンプルを保存するパケットログにより、将来のデコーダーが過去のバーストを復号する機会を得られる"
+  },
+  "1jqyave6m35": {
+    "defaultMessage": "アマチュア局として運用する"
+  },
+  "1jr1pufj66t": {
+    "defaultMessage": "マーティン1と2、スコッティ1、2およびDX、ロボット36と72は、映像が到着するたびに1行ずつ描画され、映像が終了するとディスクに保存されます。"
+  },
+  "1jr3wvsfbhj": {
+    "defaultMessage": "複数接続されている場合、使用するラジオを選択します。"
+  },
+  "1jv1gm449ay": {
+    "defaultMessage": "利用用途"
+  },
+  "1jye6sm2v04": {
+    "defaultMessage": "デコーダーが識別できるすべての送信機（気象観測ステーション、無線M-BusおよびERTメーター、TPMSの圧力値と受信レベル）を、ベンダー製ハブを介さずにMQTT経由でHome Assistantに公開します。"
+  },
+  "1jz5jwzfmls": {
+    "defaultMessage": "送信：音声、キャプチャ、.subファイル、復号化された6つのプロトコル"
+  },
+  "1k5gcimte9p": {
+    "defaultMessage": "はっきり述べるべきだが、このトラフィックには医療や個人的な詳細が頻繁に含まれており、法的に受領・保持できる内容は国によって異なる。"
+  },
+  "1k8fx0qbgj5": {
+    "defaultMessage": "SDR用Bluetooth LEデコーダー - WaveShark"
+  },
+  "1kc4g7dl5e3": {
+    "defaultMessage": "チューニングを合わせて聴取を開始してください。複数のチャンネルで同時に繰り返してください。"
+  },
+  "1kcxxzo3muu": {
+    "defaultMessage": "VHF経由で管制官と航空会社が互いに送受信するテキストメッセージ：位置報告、燃料残量、技術的な不具合、自由文。また、acarsdec、航空会社データリンク、131.550 MHzとも呼ばれる。"
+  },
+  "1kewv55vqvi": {
+    "defaultMessage": "アンサンブル名とID"
+  },
+  "1kj6xd53w48": {
+    "defaultMessage": "複数の整合チューナーを1つのより広い受信機として提供できる。これら間のドリフトは、共通の帯域で測定され、除去されることで、1台の無線機よりも広いスパンをカバーする。"
+  },
+  "1kjkd5woge9": {
+    "defaultMessage": "SDR用NXDNデコーダー - WaveShark"
+  },
+  "1kldbwb7gho": {
+    "defaultMessage": "一度キャプチャし、永遠にデコード"
+  },
+  "1klogjd7v1d": {
+    "defaultMessage": "直近1分間の受信バースト"
+  },
+  "1kmz22sni29": {
+    "defaultMessage": "TPMS"
+  },
+  "1kn2m0kzp3s": {
+    "defaultMessage": "モールス"
+  },
+  "1kp0gxpun1f": {
+    "defaultMessage": "RTL-SDR なら何でも可。ターンスタイルまたは V 字偶極子アンテナを使用"
+  },
+  "1kqbnloipj6": {
+    "defaultMessage": "パケットモードではテキストおよび任意のデータが送信され、それらはメッセージビューに完全な形で表示されます。"
+  },
+  "1ktxox5uetp": {
+    "defaultMessage": "アンテナに設置されたマシンでは、--headlessオプションにより、ディスプレイなしで受信機全体を実行できます。"
+  },
+  "1kum9rz5sct": {
+    "defaultMessage": "画像の横に公開されているバイナリは、それらを同梱するのではなく、Homebrewから読み込むようになっている。"
+  },
+  "1kv1oqcd5rp": {
+    "defaultMessage": "メーカーコードとメーターシリアル番号"
+  },
+  "1kvwd5g7k9t": {
+    "defaultMessage": "できないこと"
+  },
+  "1kx6bk6cvvh": {
+    "defaultMessage": "安価なUSBドングルをバンドに接続すると、WaveSharkは、誰かがすでに教えてくれた特定の周波数上の信号ではなく、周囲で実際に送信されている信号を知らせます。"
+  },
+  "1kxpxnxt8jv": {
+    "defaultMessage": "8ビット"
+  },
+  "1l24xrjmoxf": {
+    "defaultMessage": "915 MHz (902-928 MHz): この帯域で送信されているもの"
+  },
+  "1l2ms7auz4d": {
+    "defaultMessage": "カメラの映像をそのまま送信し、PALまたはNTSCのカラー方式に対応。音声サブキャリアが同時に受信でき、キャリアはラインレートから命名される。PAL、NTSC、5.8GHz FPV、無線カメラとも呼ばれる。"
+  },
+  "1l6o5lfl8ip": {
+    "defaultMessage": "周波数帯域別：433 MHz、868 MHz、915 MHz、2.4 GHzおよび5.8 GHz帯、航空用周波数帯、1090 MHz、海上VHF、アマチュア無線および業務用割当周波数、137 MHzの衛星通信、Lバンド、短波、テレビ放送。"
+  },
+  "1lb5ie4doms": {
+    "defaultMessage": "短波 (3-30 MHz): この帯域で送信されているもの"
+  },
+  "1lb9f0eq0cx": {
+    "defaultMessage": "ラジオのみ、それ以外は何もありません。"
+  },
+  "1lchlngx5dn": {
+    "defaultMessage": "同じスパン内で他のすべてのプロトコルを同時に処理"
+  },
+  "1le0s6kp8nq": {
+    "defaultMessage": "Codec 2、オープンデジタル音声、アマチュア"
+  },
+  "1lfh6nabf0v": {
+    "defaultMessage": "ラインレートと対応するFPVチャネル"
+  },
+  "1lgb87dcure": {
+    "defaultMessage": "通話"
+  },
+  "1lgct97ynb6": {
+    "defaultMessage": "Windows 版なし: LimeSuite がパッケージ化されていないため"
+  },
+  "1lj3lf58zk": {
+    "defaultMessage": "NOAA APTおよびMeteor-M LRPTパスのMSU-MR 3チャネルは、受信に伴いビデオパネル上にストリップ状に描画され、HF気象ファックスの天気図も同様に描画されます。"
+  },
+  "1lkl12f1is0": {
+    "defaultMessage": "フラグ"
+  },
+  "1lma825mul0": {
+    "defaultMessage": "地図上に表示されるADS-BとモードS、軽航空機向けのUAT、および地上と乗務員が交信するACARS、VDLモード2、衛星通信メッセージ"
+  },
+  "1lneeq7pp0i": {
+    "defaultMessage": "2トーン周波数とその持続時間"
+  },
+  "1lo3h5vefi5": {
+    "defaultMessage": "通話が暗号化されている場合、アルゴリズムIDとキーIDが読み取られ、通話はキービューに表示され、無音で破棄されることはありません。暗号化されていないシステムでは、音声が付属した同じ行が表示されます。"
+  },
+  "1lwdmfzv1d4": {
+    "defaultMessage": "単一のラジオより広いスパン"
+  },
+  "1lxraa9d3qh": {
+    "defaultMessage": "P25とNXDN"
+  },
+  "1ly4hangsb6": {
+    "defaultMessage": "Marine VHF"
+  },
+  "1m5zr03f1bn": {
+    "defaultMessage": "137 MHzとHF"
+  },
+  "1m65mp7bu7o": {
+    "defaultMessage": "利用可能なスパン"
+  },
+  "1m6h912286l": {
+    "defaultMessage": ".appはffmpeg、librtlsdr、LimeSuiteを同梱しているため、その他のものは不要です。"
+  },
+  "1m8wepjjwo3": {
+    "defaultMessage": "nostrからライブ読み取り中のIQStreamディレクトリ"
+  },
+  "1m8yk0i9r1r": {
+    "defaultMessage": "144.500 MHz"
+  },
+  "1m99njw2l7z": {
+    "defaultMessage": "完全なデコードに対応するオープンなデジタル音声モード：コールサイン、パケットメッセージ、Codec 2音声。特許による制約は一切ありません。"
+  },
+  "1mbzia83glq": {
+    "defaultMessage": "選択されたサービス、再生中、音声は同期済み"
+  },
+  "1mdbn322izy": {
+    "defaultMessage": "UHFテレビ (470-790 MHz): この帯域で送信されているもの"
+  },
+  "1mevpzu3pvf": {
+    "defaultMessage": "出力先"
+  },
+  "1mf1covvwqd": {
+    "defaultMessage": "すべてのデモジュレーターパラメータの精密な制御"
+  },
+  "1mfypxe2dqc": {
+    "defaultMessage": "消防・救急のページャー（呼び出し装置）で用いられる2音のトーン。オペレータリストに基づいて命名され、呼び出し時に周波数2つではなく局名として読み上げられる。クイックコールII、消防ページャー・トーン、警報トーンとも呼ばれる。"
+  },
+  "1milffdbxox": {
+    "defaultMessage": "925-960 / 1805-1880 MHz"
+  },
+  "1mkgknux66m": {
+    "defaultMessage": "同じ録音データでdumpvdl2と比較検証済み。"
+  },
+  "1movq7mz4rt": {
+    "defaultMessage": "137 MHz衛星 (137-138 MHz): この帯域で送信されているもの"
+  },
+  "1ms8b7i51qy": {
+    "defaultMessage": "アンテナのあるマシンで常時実行"
+  },
+  "1mu1k46o9h": {
+    "defaultMessage": "AISは161.975MHzと162.025MHzで船舶の識別情報、針路、目的地を地図上に表示し、WaveSharkは片方の周波数帯を選択するのではなく、一つの周波数帯域で両方のチャネルを読み取ります。"
+  },
+  "1mv2a2yuegi": {
+    "defaultMessage": "システム番号、発話者および着話者、並びにチャネル上の音声の暗号化の有無。"
+  },
+  "1mv70hi3nxn": {
+    "defaultMessage": "周波数が既に分かっており、その音を聴きたいだけなら、Gqrxで十分です。しかし、周囲で何が発信されているかを知りたいという目的であれば、Gqrxは用途に合わないツールです。"
+  },
+  "1mzkyvxaye3": {
+    "defaultMessage": "音声、ambe機能を備えたソースビルドの場合"
+  },
+  "1n09zavya14": {
+    "defaultMessage": "MCP on 127.0.0.1:8931"
+  },
+  "1n3b6js0k9m": {
+    "defaultMessage": "チャネルビューでは各チャネルの混雑状況が表示され、自ネットワークをどのチャネルに配置すべきかという実用的な回答を示します。デバイスビューでは、過去に検出された最強レベルを保持した状態で、アドレスごとに1行ずつ表示されます。また、ドライブからWiGLE形式のCSVとしてエクスポートできます。"
+  },
+  "1n3gv939hya": {
+    "defaultMessage": "SDR用Z-Waveデコーダー - WaveShark"
+  },
+  "1n6aufuucsw": {
+    "defaultMessage": "STD-Cは、すべての商用船舶に搭載が義務付けられているメッセージサービスです。このサービスで放送される拡張グループコールは、特定の船舶ではなく海洋区域を対象として送信されるため、受信・判読が可能となります。航行警報は、その海域にいるすべての船舶に届けることを目的としているためです。"
+  },
+  "1n7r2gbotag": {
+    "defaultMessage": "その直上では、気象観測用気球（ラジオゾンデ）が各発射地点から1日2回送信信号を送り出し、上昇に伴って周波数がドリフトしながら、チャンネルがそれに追従して上昇していく。406 MHzでは、COSPAS-SARSATビーコンが識別情報および多くの場合位置情報を送信するが、主に試験目的である。"
+  },
+  "1n8m3b40vm1": {
+    "defaultMessage": "変更履歴"
+  },
+  "1narfz2og3r": {
+    "defaultMessage": "SDR用TETRAデコーダー - WaveShark"
+  },
+  "1navgd1gv7n": {
+    "defaultMessage": "未割り当てのバースト、キャプチャ、リプレイ"
+  },
+  "1ncdincfnqv": {
+    "defaultMessage": "アップコンバータ付きの RTL-SDR、または HF 対応の無線機"
+  },
+  "1nepqf4qe73": {
+    "defaultMessage": "Itron ERT メーター"
+  },
+  "1nfjfi331ze": {
+    "defaultMessage": "過去のズーム9では、地図上に空港とその航空交通周波数が描画されるため、見えている航空機からワンクリックで、その管制塔の音声を確認できます。"
+  },
+  "1ngrhm2qgmb": {
+    "defaultMessage": "フレームとパケット数、悪いパスが一目で分かる"
+  },
+  "1nje5q1vjjt": {
+    "defaultMessage": "コマンドラインリファレンス"
+  },
+  "1now8zk4iwb": {
+    "defaultMessage": "インストールするかしないか"
+  },
+  "1np0eeznhng": {
+    "defaultMessage": "FLEX 1600 3200、Motorola ペイジング"
+  },
+  "1nu8ptr7nu": {
+    "defaultMessage": "受信機の動作を伴うモデルと、あなたがそれに対して要求した内容。すべての実行はループバック上でMCPを提供するため、エージェントが調整、起動、配線変更、または設定変更を行う内容は、すべてこのウィンドウ内で反映されます。"
+  },
+  "1nxawn7eb53": {
+    "defaultMessage": "144.800 / 144.390 / 144.640"
+  },
+  "1nyifsdcg15": {
+    "defaultMessage": "GPL-3.0 · RTL-SDR、HackRF One、LimeSDR · アカウント不要、クラウド不要"
+  },
+  "1nyju9pqk3j": {
+    "defaultMessage": "インストーラー、または実行ファイルと、これがないと起動しない2つのDLLを含むZIPファイル。まず、WinUSBをドングルにバインドする必要があります。"
+  },
+  "1o0nf18syj0": {
+    "defaultMessage": "3つのスタックすべてにおいて、その下層にある802.15.4レイヤー：通信するアドレス、所属するネットワーク、および各々が使用しているチャネル。"
+  },
+  "1o1n2ly7yzd": {
+    "defaultMessage": "MHz、例: 1090"
+  },
+  "1o1nvc4tstr": {
+    "defaultMessage": "BLEアドバタイジング、Bluetooth 5 Long Range、iBeacon"
+  },
+  "1o2pudjli83": {
+    "defaultMessage": "900 / 1800 MHz"
+  },
+  "1o6yek5fk6e": {
+    "defaultMessage": "現在、欧州の航空交通の多くで使用されているデータリンクであり、ACARSと同じ航空会社メッセージを8倍の速度で伝送する。別名として、dumpvdl2、VDL2、136.975 MHz、AVLCとも呼ばれる。"
+  },
+  "1o93dpfq1uj": {
+    "defaultMessage": "デコード可能なキャプチャはテストフィクスチャ"
+  },
+  "1o98ie1zb5v": {
+    "defaultMessage": "Zadig で WinUSB をバインド"
+  },
+  "1odkqi7mdhn": {
+    "defaultMessage": "--stream、iqstream、rtl_tcp"
+  },
+  "1ofi3ku7mpc": {
+    "defaultMessage": "ネットワークがページを複数回送信したことを示す再送信回数"
+  },
+  "1ogjkinco1y": {
+    "defaultMessage": "{count} 個のデコーダー、1 本のパケットストリーム"
+  },
+  "1oiegqbyhrh": {
+    "defaultMessage": "FPVキャリアは、そのラインレートと、通常のバンド命名法に基づくチャネル番号で識別されるため、周波数ではなくR1、F4、A5のように表記される。録画の基準となった6.5MHzの音声サブキャリアは映像とともに聞こえる。なぜなら、音声のない映像は受信機の半分だからである。"
+  },
+  "1oq3s8z0672": {
+    "defaultMessage": "エージェントが実行できること"
+  },
+  "1os29bxc0ai": {
+    "defaultMessage": "1つのパケットストリームを15通りの方法で読み取る。どのビューもプロトコルを認識していない。"
+  },
+  "1os4xfnx6oa": {
+    "defaultMessage": "全バンド"
+  },
+  "1osn07ltexw": {
+    "defaultMessage": "狙うべきバンド"
+  },
+  "1otl45jufq": {
+    "defaultMessage": "電波スペクトラムのためのWireshark"
+  },
+  "1ou92oiyfu9": {
+    "defaultMessage": "rtl_433はISMデバイスを読み取るための標準であり、本ツールがそれ以外のことを主張しているわけではありません。約250のデバイスデコーダーを備えるのに対し、WaveSharkは45個しか持っていません。そして、その45個は、WaveShark自身のコーパスからの81件の録音データを用いて、rtl_433 25.02に対してフィールド単位で検証されています。センサーのデコードのみを目的としており、最も広いカバー範囲を求める場合は、rtl_433を実行してください。"
+  },
+  "1ow2tb94y32": {
+    "defaultMessage": "周波数可変"
+  },
+  "1p3k0c2xl6o": {
+    "defaultMessage": "検知した各デバイスの信号レベル"
+  },
+  "1p5056zsg4i": {
+    "defaultMessage": "フレームタイプ、リンク管理とトラフィックを分離するため"
+  },
+  "1p7gnx5giwc": {
+    "defaultMessage": "SDR用DVB-Tテレビデコーダー - WaveShark"
+  },
+  "1pak4di4z6l": {
+    "defaultMessage": "はい、半二重"
+  },
+  "1pb2o7xdpj8": {
+    "defaultMessage": "どちらもフリーソフトウェアです"
+  },
+  "1pg7omnv7zt": {
+    "defaultMessage": "セルのアイデンティティは、同期バースト、放送されるシステム情報、およびページングが呼び出している対象によって識別されます。2G、GSM900、DCS1800、BCCH、IMSIページングとも呼ばれます。"
+  },
+  "1pgv1i9i33s": {
+    "defaultMessage": "390-406 MHz (390-406 MHz): この帯域で送信されているもの"
+  },
+  "1ph8fodi7yi": {
+    "defaultMessage": "TETRA"
+  },
+  "1phdh12ydt1": {
+    "defaultMessage": "SDR用Inmarsat STD-Cデコーダー - WaveShark"
+  },
+  "1pixuwa31jw": {
+    "defaultMessage": "すべての実行は、<code>http://127.0.0.1:8931/mcp</code> におけるモデルコンテキストプロトコル経由で受信機にサービスを提供します。これは画面に表示されている受信機であり、2台目のものではありません。エージェントが調整、開き、またはオンにするものはウィンドウ内に反映され、エージェントはそのウィンドウのスクリーンショットを撮ることで、自分が何をしたかを確認できます。エージェントはスペクトラム、パケット、通話、文字起こし、トラッカーを読み取り、信号チェーン内のあらゆる要素を変更し、チェーン自体を描画し、設定（スキャナテーブル、メモリバンク、ステーション、データセット）にアクセスします。<code>--mcp-listen off</code> を指定すると、リスニングが停止します。"
+  },
+  "1pko3c0v1ak": {
+    "defaultMessage": "WaveSharkのLinux、Windows、Apple Silicon向けビルド、音声処理用カード向けのCUDA対応バリアント、各ビルドがシステムに求める要件、およびteaとambe機能を有効にしてソースからビルドする方法。"
+  },
+  "1plbwodih9i": {
+    "defaultMessage": "ご自身の気象観測ステーション、メーター、タイヤセンサーをHome Assistantデバイスとして利用。30ユーロのドングルから、ベンダーのハブ不要。"
+  },
+  "1plktc140yi": {
+    "defaultMessage": "<cases>ユースケース</cases>とは、これらのビューが使用される用途であり、デバイスの調査からエージェントが無線機を操作する場面までを指します。"
+  },
+  "1pr9y0z4o2s": {
+    "defaultMessage": "SDR用Meteor-M LRPTデコーダー - WaveShark"
+  },
+  "1pufcb8lrg1": {
+    "defaultMessage": "デバイスモデルと ID、送信間で安定"
+  },
+  "1puyduxwlaj": {
+    "defaultMessage": "放送停止時のキャプチャ映像と照合し、他のデコーダーではなく、伝送データ自体が示す内容に基づいて検証した。"
+  },
+  "1px4tkm2t7i": {
+    "defaultMessage": "WaveSharkとGqrx - 各ソフトウェアの強み"
+  },
+  "1q3pvl43gz": {
+    "defaultMessage": "ネットワーク、そのセル、そして誰が呼ばれるか。ティー機能は暗号とWGPU鍵検索を連携させるため、暗号化されたチャネルを単にカウントするだけでなく、処理することが可能になります。"
+  },
+  "1q8xaiifp9": {
+    "defaultMessage": "SDR用VDL Mode 2デコーダー - WaveShark"
+  },
+  "1qbs10vo8kp": {
+    "defaultMessage": "`--record` オプションでバーストを記録し、キャプチャ付きで問題を報告してください。デコード可能なキャプチャはテストフィクスチャとして利用されます。"
+  },
+  "1qc93uxsn83": {
+    "defaultMessage": "SDR用ラジオゾンデデコーダー - WaveShark"
+  },
+  "1qgocyqyv6a": {
+    "defaultMessage": "メッセージの種類を示すラベルとブロック ID"
+  },
+  "1ql8ki2vynn": {
+    "defaultMessage": "帯域 {span} MHz、{min}〜{max} MHz で選局可"
+  },
+  "1qm029gfkgu": {
+    "defaultMessage": "開発を支援する"
+  },
+  "1qmhi71zu7k": {
+    "defaultMessage": "WaveSharkコマンドラインリファレンス"
+  },
+  "1qpxu308f4j": {
+    "defaultMessage": "スクリプトパネルには、デバイス上のすべてのFlipper <code>.sub</code>ファイルが保存されており、ファイル名に示された周波数でキー操作を行います。また、受信したバースト信号をキーファイルとして書き戻すことで、リモコンの読み取りから再生までの一連の処理を完結させることができます。"
+  },
+  "1qrc8ul3f31": {
+    "defaultMessage": "FLEX ペイジング"
+  },
+  "1qs8ipxkuar": {
+    "defaultMessage": "地図上の公開SDRチューナー - WaveShark"
+  },
+  "1qsgiig5qwo": {
+    "defaultMessage": "DVB-T多重化信号は、キャリアからトランスポートストリームまで読み取られ、送信パラメータ、その上に存在するサービス、そして選択したサービスの映像がフルフレームレートでウィンドウ内に表示され、音声が同期して再生される。"
+  },
+  "1qsk61eh9az": {
+    "defaultMessage": "既存のステーションにとって興味深い点は <code>--kiss-listen</code> です。WaveShark は KISS TNC として機能するため、Xastir、YAAC、Direwolf 系のツール、または KISS 形式を扱う他のツールは、SDR をモデムとして認識し、送信可能な無線機を通じて AX.25 フレームを送出できます。"
+  },
+  "1qwmr3pz9lu": {
+    "defaultMessage": "433 MHz"
+  },
+  "1qxw4fxmpba": {
+    "defaultMessage": "エージェントとMCP"
+  },
+  "1r1ee20681l": {
+    "defaultMessage": "内部に保持されるACARSメッセージ、ラベルとテキスト付き"
+  },
+  "1r26stqy0lb": {
+    "defaultMessage": "右クリックして「開く」を選択するか、一度だけこのコマンドを実行してください。"
+  },
+  "1radidgx63": {
+    "defaultMessage": "縮小"
+  },
+  "1rawc0pe5xp": {
+    "defaultMessage": "短波で船舶に送信される海面圧力図と海氷図が、受信に合わせてビデオパネル上に描画される。"
+  },
+  "1rcco39g3nb": {
+    "defaultMessage": "868 MHzは、ドアベルよりも重要なトラフィックを担っています。無線M-Busによる熱・水・ガスのメーター報告、Z-Waveのドアロック、そしてMeshtasticやLoRaWANセンサーを含むLoRaネットワークなどがこれに該当します。"
+  },
+  "1rdno1j5spz": {
+    "defaultMessage": "署名済みだが公証されていないアプリは、独自のライブラリを同梱しているか、Homebrewからそれらを読み込む素のバイナリである。テレビ視聴に対応するのは、このビルドのみである。"
+  },
+  "1reh7ydc4gj": {
+    "defaultMessage": "ダウンロードに含まれない2つのデコーダ"
+  },
+  "1rensfn2pd8": {
+    "defaultMessage": "LLMが操作できるSDR受信機：チューニング、チャネルの開放、受信データの読み取り、信号チェーンの再配線、そして目の前のウィンドウでその変化をリアルタイムに確認できる。"
+  },
+  "1rgm70b7d76": {
+    "defaultMessage": "DMR、TETRA、P25、NXDN、M17および通常のFMチャネルにおいて、誰が誰に呼びかけたか、すべての交信をOpus形式で録音し、ローカル音声モデルが言及内容を文字起こしします。"
+  },
+  "1roj4bzs056": {
+    "defaultMessage": "24 MHz から 1.7 GHz (チューナーによる)"
+  },
+  "1rt0nw9g8wu": {
+    "defaultMessage": "受信ライン数と同期品質"
+  },
+  "1rvr2wwvr09": {
+    "defaultMessage": "トランスクリプトビューは、このマシン上のWhisperまたはQwen3-ASRモデルが音声バス上のすべての音声をCPUまたはカード上で処理し、低信頼度の行は静かに誤って表示するのではなく、フラグを立てて示すものです。データはマシン外に出力されません。"
+  },
+  "1rxv6ndz26a": {
+    "defaultMessage": "ご自身の433MHzおよび868MHzセンサーをハブ不要でHome Assistantデバイスとして利用できます。"
+  },
+  "1s1r7xs7nbj": {
+    "defaultMessage": "APRS"
+  },
+  "1s9omxjztcy": {
+    "defaultMessage": "船舶に搭載されたEPIRB、ポケットに携帯されるPLB、航空機に搭載されたELTは、いずれも406MHzのバースト信号を約50秒間隔で送信し、暗号化された識別情報および多くの場合GPS位置情報を伝送する。平時には、実際の起動ではなく試験用のバースト信号が受信される。"
+  },
+  "1sd85k5nbpb": {
+    "defaultMessage": "任意の RTL-SDR、エアバンドアンテナ付き"
+  },
+  "1sdfyc132ki": {
+    "defaultMessage": "Home ID と送信元・送信先ノードID"
+  },
+  "1sfq4sk9w9c": {
+    "defaultMessage": "アンサンブルとその中の各ステーション、ならびに番組タイプとビットレートは、送信機が使用しているブロックから読み取ることができます。DAB+、デジタルラジオ、アンサンブル、バンドIIIとも呼ばれます。"
+  },
+  "1sjazobb4jn": {
+    "defaultMessage": "この帯域にあるもの"
+  },
+  "1sktsh746mz": {
+    "defaultMessage": "Lバンド (1525-1559 MHz): この帯域で送信されているもの"
+  },
+  "1sn5qcgmnja": {
+    "defaultMessage": "チューニング、ゲイン設定、チャネルの開閉"
+  },
+  "1spybdn8llc": {
+    "defaultMessage": "WaveSharkとSDRangel"
+  },
+  "1stdrcd89md": {
+    "defaultMessage": "AMBEおよびIMBEボコーダーのポートをビルドします。これらのアルゴリズムは特許で保護されています。これがない場合、DMRは誰が話しているかを示すものの、音声のデコードは行われません。"
+  },
+  "1suzwzwjqea": {
+    "defaultMessage": "すべての実行は、127.0.0.1:8931上のModel Context Protocol経由で受信機にサービスを提供するため、モデルはチューニング、チャネルのオープン、スペクトラムとパケットの読み取り、信号チェーンの編集、および操作しているウィンドウのスクリーンショット撮影を行うことができます。"
+  },
+  "1symvem8fx8": {
+    "defaultMessage": "ダウンロード後"
+  },
+  "1t3j5lptzgs": {
+    "defaultMessage": "音声自体にはAMBEボコーダーが必要ですが、そのアルゴリズムは特許に制約されるため、公開されているビルドではこれが除外されています。ソースから<code>ambe</code>機能を有効にしてビルドすることで、これをデコードできます。この機能がなければ、通話は発信者、グループ、および通話時間が表示された状態で表示されます。"
+  },
+  "1t9c4c4mc23": {
+    "defaultMessage": "リモートチューナーは、iqstreamまたはrtl_tcp経由で受信機リストにローカルラジオとして表示され、単に受信するだけでなく、ここからチューニング操作を行うことができます。この受信機はiqstreamにも対応しているため、マストヘッドの機器がすでに収集している周波数帯域を、第二のアンテナなしで別の機器から読み取ることができます。"
+  },
+  "1tb0je52xsf": {
+    "defaultMessage": "ビュー"
+  },
+  "1tbzcrnkbaz": {
+    "defaultMessage": "単一のチャンネルの受信に優れています"
+  },
+  "1thc4m4ky3r": {
+    "defaultMessage": "Wi-Fiとドローン"
+  },
+  "1tilwwiceph": {
+    "defaultMessage": "dumpvdl2、VDL2、136.975 MHz、AVLC"
+  },
+  "1tlt7hfu7gq": {
+    "defaultMessage": "バイナリパケットログの保存先。1日1ファイルです。"
+  },
+  "1trc3px3771": {
+    "defaultMessage": "WaveSharkでは、同じリストがリモートチューナーのダイアログに表示され、TUNEでステーションをラジオとして開くことができます。ターミナルから実行する場合、<code>--stream</code>は各カードのアドレスを指定します。"
+  },
+  "1tsgxp4jmgc": {
+    "defaultMessage": "バーストをキャプチャし、そのエンベロープ、タイミング、ビット列を確認し、新しいデコーダーに何度でもリプレイして、Flipperの.subファイルからキーとして出力できます。"
+  },
+  "1tuqywfxeeq": {
+    "defaultMessage": "メーターが暗号化せずに送信する計測値"
+  },
+  "1tycjh5hy8g": {
+    "defaultMessage": "デジタル規格が普及する以前から現在も日常で使われている、義警消防用のページャーは、その消防署固有の周波数で、長いトーンと短いトーンが連続して鳴ることで開通する。この二つのトーンを聴き取れば、どの隊が呼出されたかが即座にわかる。"
+  },
+  "1tz5o51d0f7": {
+    "defaultMessage": "WaveShark 用のハードウェア"
+  },
+  "1u2lf2kds50": {
+    "defaultMessage": "Z-Wave"
+  },
+  "1u36f1hte38": {
+    "defaultMessage": "掲載時の受信者 {clients}/{max}"
+  },
+  "1u38a8geruy": {
+    "defaultMessage": "2.4GHzの1チャネルは20MHzの帯域幅を持つため、この用途にはドングルではなくHackRFやLimeSDRが適しています。"
+  },
+  "1u4bpfutjo0": {
+    "defaultMessage": "NOAAのAPTパスとMeteor-MのLRPTが受信されるにつれ、ビデオ画面に描画され、さらにHF気象ファックスのチャートも表示されます。衛星ビューでは、翌日の観測所上空を通過するパスが表示され、受信はドップラー効果を追跡しながらダウンリンクを聴取し続け、衛星が沈むまで続きます。"
+  },
+  "1u5f5zkietp": {
+    "defaultMessage": "DABアンサンブルとは、1つの送信を共有する複数の放送局の集合を指し、その情報を読み取ると、アンサンブル名、含まれる全サービス、各サービスの番組の種類、そして割り当てられたキロビット数がわかります。このキロビット数は、音質を決定する数値です。"
+  },
+  "1u6sww63mm4": {
+    "defaultMessage": "ISM センサー、TPMS、検針機、Z-Wave"
+  },
+  "1u8fb2niukv": {
+    "defaultMessage": "コピー"
+  },
+  "1u8xyhhufal": {
+    "defaultMessage": "1 MHz - 6 GHz"
+  },
+  "1ugc63zwtv6": {
+    "defaultMessage": "EGCおよびSafetyNETは、船舶に対して航行警報、気象情報、海賊活動報告、および捜索・救助呼び出しを放送します。"
+  },
+  "1ughv6grrxq": {
+    "defaultMessage": "送信"
+  },
+  "1uitui9lrpq": {
+    "defaultMessage": "HackRF または LimeSDR: マルチプレックスは 8 MHz 幅"
+  },
+  "1ujmkpyd1oj": {
+    "defaultMessage": "162.400-162.550 MHz"
+  },
+  "1ulbqagz67i": {
+    "defaultMessage": "SDRで放送を分解する - WaveShark"
+  },
+  "1ung4icwrvj": {
+    "defaultMessage": "マップ"
+  },
+  "1uo8ov0btx7": {
+    "defaultMessage": "最初の10個はCtrlキーと数字キー、Ctrl+`キーで戻る"
+  },
+  "1uqxw5prn0k": {
+    "defaultMessage": "512、1200、2400ビット/秒のクリアなページャーメッセージ。ページングネットワークは各ページを2回送信するため、重複除去が行われます。ページャーデコーダー、キャップコード、512/1200/2400ボーとしても知られています。"
+  },
+  "1urskkv5mqp": {
+    "defaultMessage": "地図で表示"
+  },
+  "1uyycuumhgb": {
+    "defaultMessage": "フレームタイプ: ビーコン、データ、確認応答、コマンド"
+  },
+  "1v2gq8t6w2c": {
+    "defaultMessage": "メーター"
+  },
+  "1va68y0hyil": {
+    "defaultMessage": "スパン全体が一度に復号され、配置先となるチャネルは存在しない"
+  },
+  "1vcfyic5onx": {
+    "defaultMessage": "実行ファイル（exe）は単独では起動しません。rtlsdr.dll と libusb-1.0.dll が実行ファイルと同じディレクトリに配置されている必要があります。"
+  },
+  "1vdw3h4z73": {
+    "defaultMessage": "HackRFまたはLimeSDR: アドバタイジングチャネルは2 MHz幅"
+  },
+  "1vetyf6pjd6": {
+    "defaultMessage": "144-148 / 430-450 MHz"
+  },
+  "1vgz7sv81m7": {
+    "defaultMessage": "到達範囲"
+  },
+  "1vj8o3fxggd": {
+    "defaultMessage": "turnstileまたはQFHアンテナ付きの任意のRTL-SDR"
+  },
+  "1vkbpcb25rn": {
+    "defaultMessage": "433 / 868 / 915 MHz · RTL-SDR"
+  },
+  "1vl3upm6uu7": {
+    "defaultMessage": "HackRF One"
+  },
+  "1vonh2mjjot": {
+    "defaultMessage": "過去10年間に製造されたすべての車両には、各ホイールに4つの無線機が搭載されており、それぞれのセンサーは寿命にわたって変わらないIDを送信しています。このため、TPMS（タイヤ空気圧監視システム）は、固定地点を通過する車両を識別する最も信頼性の高い方法であり、まさにその理由から、この技術が活用されていることを認識しておく価値があります。"
+  },
+  "1vqn2v0v809": {
+    "defaultMessage": "SSTV"
+  },
+  "1vtnfkdmyfs": {
+    "defaultMessage": "Zadigを起動し、RTL2832Uインターフェースを選択してWinUSBを選び、インストールします。ドングルが2つ表示される場合は、正しいインターフェースを選択してください。"
+  },
+  "1vy66olgbut": {
+    "defaultMessage": "DRM"
+  },
+  "1w1v72is29o": {
+    "defaultMessage": "チューナの総ゲイン。ラジオの各段に分配されます。"
+  },
+  "1w26bmzsrxd": {
+    "defaultMessage": "船舶追跡、海上 AIS、161.975 MHz"
+  },
+  "1w3nunkv2z0": {
+    "defaultMessage": "ポイントは、これらすべてにベンダーのハブが不要であるということです。すでに所有しているセンサーが433 MHzまたは868 MHzでクリアに送信している場合、ブリッジを購入し、アカウントを作成したからではなく、何かがそれを監視したため、Home Assistantのエンティティとなります。"
+  },
+  "1w6yz9zciv2": {
+    "defaultMessage": "CWチャネルは、送信速度にかかわらず、リピータや送信局のサイトを示すビーコンも含め、テキストとして読み取れます。"
+  },
+  "1w7heujukad": {
+    "defaultMessage": "短波と中波"
+  },
+  "1wa00kjkhp0": {
+    "defaultMessage": "最も重要な2つ"
+  },
+  "1wagyxr6nyp": {
+    "defaultMessage": "ソースを読む"
+  },
+  "1wcsko816m": {
+    "defaultMessage": "Bluetooth 5 Long Rangeを含む3つのプライマリチャネルすべてでアドバタイジングパケットを送信し、Open Drone IDが搭載されている場合は読み取ります。BLEアドバタイジング、Bluetooth 5 Long Range、iBeaconとも呼ばれます。"
+  },
+  "1wcvksa9b7q": {
+    "defaultMessage": "メーター ID とエンドポイントタイプ"
+  },
+  "1wdet0gdwmy": {
+    "defaultMessage": "自分のセンサーをHome Assistantに接続"
+  },
+  "1wdji3344fp": {
+    "defaultMessage": "144.800 / 144.390 / 144.640 MHz"
+  },
+  "1wepjk8hgio": {
+    "defaultMessage": "プライマリ"
+  },
+  "1whz125ogy": {
+    "defaultMessage": "DABアンサンブルは、その名称、構成する局、各局の番組タイプおよびビットレートを示す。一方、短波または中波のDRM多重化サービスは、提供されるサービス、その言語、およびラベルを示す。いずれもまだ音は再生されていないため、探しまわる前に知っておく価値がある。"
+  },
+  "1wjt3xwsrst": {
+    "defaultMessage": "周囲で通信している熱・水・ガス・電気メーターの製造元、メーター番号、バージョン、およびタイプ。"
+  },
+  "1wllcq35it4": {
+    "defaultMessage": "引数なしでWaveSharkを実行すると、対話型の受信機が起動します。以下の項目は、すべてこの受信機のセットアップを行うか、診断情報を出力して終了するコマンドです。"
+  },
+  "1wmqpv3tzc": {
+    "defaultMessage": "より長いモードリスト、およびその大部分での送信機能"
+  },
+  "1x2nd5x0dqi": {
+    "defaultMessage": "デバイスビューは送信機ごとに1行表示され、送信ごとに1行表示されるわけではありません。表示される情報は、送信機が自己申告した名称、製造元、過去に検出された最大レベル、および最後に検出された時刻です。行を選択すると、その送信機の観測データが地図上にプロットされます。これにより、徒歩や車での移動が単なるリストではなく、カバー範囲の把握に変わり、調査結果はWiGLE CSV形式でエクスポートでき、既存のツールでそのまま地図表示が可能です。"
+  },
+  "1x3bma08soy": {
+    "defaultMessage": "必要なDLLを同梱しますが、WinUSBが<zadig>Zadig</zadig>でバインドされるまで、WindowsはRTL2832Uを何者にも開くことを許可しません。zipファイルには実行ファイルとその2つのDLLが含まれており、これらは実行ファイルの隣に配置する必要があります。LimeSDRのドライバはありません。LimeSuiteはWindows向けにパッケージ化されていないためです。"
+  },
+  "1x6qae3gis3": {
+    "defaultMessage": "半二重: 送信または受信、同時にはできません"
+  },
+  "1x764eu8aw3": {
+    "defaultMessage": "WaveSharkはLinux上で開発されており、最も予期せぬ問題が少ないプラットフォームです。LimeSDRへの対応がコンパイル済みで、音声モデルはCUDAランタイムが存在する場合にNVIDIA GPUを使用し、存在しない場合はCPUを使用します。また、パッケージのインストール時にlibrtlsdrが自動的に取得されます。"
+  },
+  "1xcy6no095e": {
+    "defaultMessage": "コールバスとメッセージバスも備わっており、オンエアランプを有するため、自動化システムはチャネルのビジー状態に反応して動作できます。"
+  },
+  "1xdvdefe11": {
+    "defaultMessage": "macOS版でのみ、マルチプレックスプレイの画像が表示されます。その他のプラットフォームでは、サービスはリストに表示されますが、デコードは行われません。"
+  },
+  "1xf3ddg4w0m": {
+    "defaultMessage": "406 MHz"
+  },
+  "1xipo1tytdp": {
+    "defaultMessage": "rtl_433はデバイス対応数が5倍であり、このプロジェクトのテスト基準となっています。WaveSharkはウィンドウ、サーベイ、およびISM以外のすべての機能を追加します。"
+  },
+  "1xjc35f6bx1": {
+    "defaultMessage": "受信した画像を1行ずつ描画し、Martin 1および2、Scottie 1、2およびDX、Robot 36および72で受信し、送信終了時にディスクに保存します。スロースキャンテレビ、Martin、Scottie、Robot 36とも呼ばれます。"
+  },
+  "1xmvj3hunpx": {
+    "defaultMessage": "フレームにはホームIDとノードが示されており、ホームネットワーク内のデバイス数をカウントし、どのデバイスが通信しているかを把握するのに十分です。ペイロードが保護されているかどうかに関わらず、可能です。"
+  },
+  "1xzff6exwhl": {
+    "defaultMessage": "送信機能を持つ無線機では、チャネルの送信ソースとしてエージェント自体を設定できます。名前を付けると、呼びかけに応答し、自身の声で返答し、再度名前を呼ばれなくても30秒間会話を継続します。"
+  },
+  "1y2okysigbx": {
+    "defaultMessage": "Wireless M-Bus"
+  },
+  "1y95cysm5vo": {
+    "defaultMessage": "注意すべき点"
+  },
+  "1yghlyqsgn8": {
+    "defaultMessage": "パケット一覧はすべての画面の下端に配置され、最新のパケットが末尾に表示されます。選択されたバーストのエンベロープ、瞬時周波数、および16進ダンプはその隣に表示されます。上部のタブ行は受信機が実行できる機能と受信した内容を、下部のタブ行は外部の送信元を示します。"
+  },
+  "1ymp0m3r4zy": {
+    "defaultMessage": "チャネル位置 (マイクロ秒単位、リアルタイム)"
+  },
+  "1ymscjcnk03": {
+    "defaultMessage": "<all>{count} 件の活用例すべて</all>。デバイス調査から、エージェントに無線機を操作させるところまで。"
+  },
+  "1yp1e2qp0ll": {
+    "defaultMessage": "メッセージに含まれる場合の航空機識別情報"
+  },
+  "1yqml6oig63": {
+    "defaultMessage": "衛星と、それが由来するパス"
+  },
+  "1yrb5ccr5v2": {
+    "defaultMessage": "KISS TNCを提供し、パケットソフトウェアが無線機を介してAX.25をキーイングできるようにします。"
+  },
+  "1yuf74elqy1": {
+    "defaultMessage": "3台のラジオと、ネットワーク経由で1台"
+  },
+  "1z1p7bw8jod": {
+    "defaultMessage": "このバンドは、チャネルの可視化がその価値を十分に発揮する場でもある。802.15.4のチャネルはWi-Fiチャネルの下層に配置されているため、Zigbeeメッシュが頻繁に切断する場合は、通常、アクセスポイントの直下に位置している。この可視化機能により、一目でその状態が確認できる。"
+  },
+  "1z58eql84tk": {
+    "defaultMessage": "Marine VHF (156-163 MHz): 何が送信されているか"
+  },
+  "1zctqk0c9md": {
+    "defaultMessage": "フライトの状況を把握するためのフレーム番号とバッテリー残量"
+  },
+  "1zgbw0f7neh": {
+    "defaultMessage": "SDRでアンテナを電波の届く場所に配置しよう - WaveShark"
+  },
+  "1zilg51qwsm": {
+    "defaultMessage": "2トーンページング"
+  },
+  "1zl7mqov6oy": {
+    "defaultMessage": "多重化された信号はキャリアからトランスポートストリームまで読み取られ、選択したサービスはウィンドウ内でフルフレームレートで再生され、音声も同期して出力されます。"
+  },
+  "1zmgpoc36kg": {
+    "defaultMessage": "バージョン、および送信ごとに増加するアクセス番号"
+  },
+  "1zobg86hoa8": {
+    "defaultMessage": "ここにあるほぼすべてのデータは安定したデバイスIDを保持しており、これが午後の一時間のリスニングを「送信リスト」ではなく「デバイスリスト」に変えるのである。何もデコードできないバーストも、タイミングやビットが切り出された状態で保持され、リバースエンジニアリングの出発点となる。"
+  },
+  "1zpvf9m2kqt": {
+    "defaultMessage": "3-30 MHz"
+  },
+  "1zs6rqjdxd6": {
+    "defaultMessage": "APRSは、1200ボーのAX.25で位置情報、気象情報、テキストを伝送するもので、地域ごとに1つの呼び出し周波数を使用します。欧州では144.800 MHz、北米では144.390 MHz、日本では144.640 MHzです。Mic-E圧縮された位置情報も、通常の位置情報と同様に読み取られます。"
+  },
+  "1zukncydsdm": {
+    "defaultMessage": "{platform} 版をダウンロード"
+  },
+  "1zvdbsgnpaj": {
+    "defaultMessage": "VHFおよびUHFの消防と救急"
+  },
+  "2044i25fvve": {
+    "defaultMessage": "SCM、SCM+、IDM、rtlamr、915 MHz メーター"
+  },
+  "205tc2rnc0b": {
+    "defaultMessage": "VHFを通じてクルーと航空会社が互いに送信するテキストメッセージには、位置報告、燃料量、技術的な故障、および自由形式のテキストが含まれます。"
+  },
+  "208f6okyqle": {
+    "defaultMessage": "リスティングは、種別10690の署名済みNostrイベントであり、ステーションがアナウンスするたびに置き換えられ、1日で期限切れとなるため、受信機が離脱すると自動的にリストから削除されます。位置情報は5文字のジオハッシュで、約5km四方のセルを示し、アンテナ自体の位置ではありません。"
+  },
+  "20emzg6kfgf": {
+    "defaultMessage": "空から画像とデータを取得する"
+  },
+  "20gkl9swh6": {
+    "defaultMessage": "コード化されたPHY（Bluetooth 5の長距離モード）も読み取られる。これは、長距離トラッカーや産業用センサーがこのモードを使用しているため重要である。"
+  },
+  "20kk0sprhhq": {
+    "defaultMessage": "RTL-SDRとターンスタイルアンテナまたはV字双極子アンテナ"
+  },
+  "20p1ow0d97x": {
+    "defaultMessage": "WaveSharkでできること - ユースケース"
+  },
+  "20rzv77e04w": {
+    "defaultMessage": "対象衛星とそのパス幾何学"
+  },
+  "20sgm41acdc": {
+    "defaultMessage": "メッセージ"
+  },
+  "20ydylf86f7": {
+    "defaultMessage": "ストリームまたはパケットモード、コール長"
+  },
+  "210te4bj0hn": {
+    "defaultMessage": "デコードに失敗したバーストも保持されます。その行をクリックすると、エンベロープ、瞬間周波数、および16進ダンプが表示され、推定された符号化方式と切り出されたビットが示されます。これにより、同じデバイスを再び識別し、フィールドの意味を解明する作業を開始するのに十分です。"
+  },
+  "2115nlu7ibj": {
+    "defaultMessage": "チャネルと開始時刻"
+  },
+  "2130cybkkpf": {
+    "defaultMessage": "Linuxでは、通常のudevルールを超えるドライバの動作はありません。バイアスティおよびゲイン設定はラジオダイアログにあり、スパン変更後も両方の設定が保持されます。"
+  },
+  "2155f50losa": {
+    "defaultMessage": "Meteor M2、MSU-MR、デジタル気象衛星"
+  },
+  "21779co2f83": {
+    "defaultMessage": "2G、GSM900、DCS1800、BCCH、IMSI ペイジング"
+  },
+  "2192m9385re": {
+    "defaultMessage": "アラーム時刻とチャネル"
+  },
+  "219aevq56z1": {
+    "defaultMessage": "SDR用LoRaメッシュデコーダー - WaveShark"
+  },
+  "21d0q03sgp5": {
+    "defaultMessage": "周波数の受信"
+  },
+  "21j0yq7091b": {
+    "defaultMessage": "送信可能な無線機では、チャンネルの送信ソースはエージェント自身である場合があります。名前を付けると、呼びかけに応答します。オーバーを聞き取り、ローカルの音声モデルを通じて自身の声で応答し、再度名前を呼ばれなくても30秒間会話を継続します。"
+  },
+  "21lnugjqi6c": {
+    "defaultMessage": "ある場合とない場合"
+  },
+  "21mhsdlzlqh": {
+    "defaultMessage": "パンくずリスト"
+  },
+  "21nfnu417u2": {
+    "defaultMessage": "WaveSharkがデコードするもの - すべてのプロトコル"
+  },
+  "21q374u1w0i": {
+    "defaultMessage": "470-790 MHz"
+  },
+  "21v98163ts": {
+    "defaultMessage": "登録局のマップ"
+  },
+  "21w2xbgbal": {
+    "defaultMessage": "デコーダはダイヤルに従いません。スパン内のすべての要素は常に動作しています。"
+  },
+  "21wbxhv8b1z": {
+    "defaultMessage": "Bluetooth LE"
+  },
+  "21y2igm35if": {
+    "defaultMessage": "すべての音声チャンネルを文字起こしするローカル音声モデル"
+  },
+  "220wghzhjoi": {
+    "defaultMessage": "同じ受信機が周波数帯域をカバーし、その中のすべての信号を復調して受信した内容を保持します。これら之间的違いは、アンテナ、チューニングダイヤル、そしてどの表示画面で視聴するかという点です。"
+  },
+  "2219rgk0e1s": {
+    "defaultMessage": "アナログ映像リンクは依然として至る所に存在します。安価な無線カメラ、ベビーモニター、そして5.8 GHzで動作するあらゆるFPV四軸ヘリコプターです。暗号化も自己検証機能もないため、キャプションでは「良好な画像」を主張するのではなく、受信したライン数をカウントしています。"
+  },
+  "222vc4ljr71": {
+    "defaultMessage": "SSTVや衛星通過と映像ペインを共有します。なぜなら、運ばれる媒体が何であれ、画像は画像だからです。"
+  },
+  "2299szs66wv": {
+    "defaultMessage": ".msiファイルは、その場でインストールおよびアップグレードを実行します。zipファイルにはwaveshark.exeとrtlsdr.dll、libusb-1.0.dllが含まれており、これらは同一フォルダ内に配置する必要があります。"
+  },
+  "22bgkc68lis": {
+    "defaultMessage": "Linux、Windows、macOS向けビルド、ドライバのセットアップ、ソースからのビルド。"
+  },
+  "22c04aibotg": {
+    "defaultMessage": "902〜928MHz帯は欧州の同帯域よりも帯域幅が広く、利用も活発です。特に目立つのが検針用メーターで、ガス、水道、電力のItron ERT端末は数秒ごとに累計値を報告し、通行中の車両が街中のメーターを一括で読み取れるようにしています。"
+  },
+  "22d5rk9zvdm": {
+    "defaultMessage": "設置場所"
+  },
+  "22ed4gax8j3": {
+    "defaultMessage": "セットアップ"
+  },
+  "22hhdh2j2mz": {
+    "defaultMessage": "遭難信標の識別情報と、その中に符号化された位置情報。送信開始の瞬間に地図上にプロットされる。"
+  },
+  "22hltvxtxh9": {
+    "defaultMessage": "ISM センサーとリモコン"
+  },
+  "22hqkzkan1e": {
+    "defaultMessage": "位置、対地針路、速度、旋回率"
+  },
+  "22k9iamz2d8": {
+    "defaultMessage": "停止する場所"
+  },
+  "22msww1d008": {
+    "defaultMessage": "はい、フルデュプレックス"
+  },
+  "22nkwjhsnxx": {
+    "defaultMessage": "ここに挙げられていることは、両方を実行しない理由にはなりません。これらは互いのキャプチャを読み取り、異なる問いに答えます。"
+  },
+  "22reiue1rcp": {
+    "defaultMessage": "範囲内のすべてのスマートフォン、腕時計、タグ、スピーカーは3つのチャネルで広告を送信し、その広告には名前、サービスID、製造業者データが含まれています。最新のデバイスの多くは約15分ごとにMACアドレスをローテーションしますが、これはデバイスがレポートを隠すのではなく、むしろレポートを可能にするためのものです。"
+  },
+  "22tt908li9c": {
+    "defaultMessage": "Lバンドパッチを介したInmarsat STD-Cは、該当する船舶に送信されるEGCおよびSafetyNETのブロードキャストを運ぶものであり、これは船舶の位置ではなく、何が起きているかを示す通信である。"
+  },
+  "22ufv82msfw": {
+    "defaultMessage": "航空データリンク"
+  },
+  "22w9yel3k9h": {
+    "defaultMessage": "Linuxでは、<code>librtlsdr0</code>または<code>rtl-sdr</code>をインストールしてください。これによりudevルールが導入され、root権限なしでデバイスを開けるようになります。Windowsでは、まずZadigを使用してWinUSBをRTL2832Uインターフェースにバインドする必要があります。そうしないと、デバイスを開くことができません。"
+  },
+  "23150z8fdlk": {
+    "defaultMessage": "検知したデバイスとその検知場所をデータベースに記録する。"
+  },
+  "23221gpdz8z": {
+    "defaultMessage": "ドローン Remote ID と DJI DroneID"
+  },
+  "2370lm0p65y": {
+    "defaultMessage": "SDR用2トーンページングデコーダー - WaveShark"
+  },
+  "23b8hbgn9o6": {
+    "defaultMessage": "セッションを12回のクリックなしに再現できるように受信機を設定するすべてのスイッチ、および数値を出力して終了するすべての診断機能。"
+  },
+  "23o8cbxyb31": {
+    "defaultMessage": "位置を示すあらゆるものを表示：航空機、船舶、車両、メッシュノード、気球観測装置、遭難信標、そしてOpenStreetMapタイル上の衛星地上軌道。単一フレームから現れる空洞のマークは軌跡に結合せず、範囲リングはアンテナの周りに描かれ、ウィンドウの周りには描かれない。ズームレベル9を超えると、空港がその航空交通周波数とともに表示される。"
+  },
+  "23oqqgmfb7i": {
+    "defaultMessage": "POCSAG と FLEX ペイジング、APRS、SSTV、気球"
+  },
+  "23q24vtyq9a": {
+    "defaultMessage": "これに最も近いスパン。無線機がこれほどゆっくりとサンプリングできない場合、ソフトウェアで狭められる。"
+  },
+  "23tcet7ala1": {
+    "defaultMessage": "EGCおよびSafetyNETは、航海警告、気象情報、海賊報告、捜索救難の呼びかけを船舶に配信します。また、EGC、SafetyNET、NCS、海上安全情報とも呼ばれます。"
+  },
+  "23yytvjppc2": {
+    "defaultMessage": "アマチュア無線の周波数帯では複数のモードが同時に運用されており、まさにこの受信機はそのために設計されています。コール周波数でのAPRS、144.500 MHzでのSSTV、デジタル音声セグメントでのM17、そしてそれらに挟まれたFMリピータ信号を、一度にすべて、しかも一度に一つのモードずつではなく、一つの周波数スパンから同時にデコードします。"
+  },
+  "2409qbzgxff": {
+    "defaultMessage": "位置、高度、上昇速度"
+  },
+  "2443660wl0c": {
+    "defaultMessage": "リレーに問い合わせ中"
+  },
+  "244ey4xyeo2": {
+    "defaultMessage": "読み取れるもの"
+  },
+  "24dv9l8hxe9": {
+    "defaultMessage": "デコードされたテキスト"
+  },
+  "24fiwwq2b96": {
+    "defaultMessage": "ブラウザビルドはまだ計画段階であり、目標が数百個であるのに対し、ISMデコーダーが45個しかない部分が成長させるべき箇所です。コード自体がドキュメントであり、<chain>crates/app/src/chain.rs</chain>は受信者が実行するグラフを描画しています。"
+  },
+  "24ibhtfcqew": {
+    "defaultMessage": "まだ音声はなし：フレームは音声ではなく、誰が何をしているかを読み取られる。"
+  },
+  "24iqo5b3e0d": {
+    "defaultMessage": "船舶交通と安全通信を監視する"
+  },
+  "24ldnjyzev1": {
+    "defaultMessage": "次の記事"
+  },
+  "24svxo7yyrf": {
+    "defaultMessage": "実行方法"
+  },
+  "24t4xihhqdq": {
+    "defaultMessage": "膨大な機器カタログにわたる長年のフィールドテスト"
+  },
+  "24x7czbz02y": {
+    "defaultMessage": "すべてのアセットにはバージョンがファイル名に含められているため、ボタンはファイル名ではなくリリースに従います。"
+  },
+  "24xdl44pg9c": {
+    "defaultMessage": "SDR用ISMセンサーおよびリモコンデコーダー - WaveShark"
+  },
+  "24zzxn7lzpy": {
+    "defaultMessage": "誰でもリモートラジオとして開くことができる共有SDR受信機、Nostrからライブで読み取れます。"
+  },
+  "2515tikr6gh": {
+    "defaultMessage": "Issueを開く"
+  },
+  "252bfvun10e": {
+    "defaultMessage": "{ago}に掲載"
+  },
+  "2562ia8ygnn": {
+    "defaultMessage": "任意のRTL-SDR。1090 MHzと同じアンテナが使用可能"
+  },
+  "256yduapl6k": {
+    "defaultMessage": "<code>--kiss-listen</code>で動作するKISS TNCは、トラフィックを任意のパケットプログラムに渡し、AX.25を無線機を介して復調・送信するため、既存のソフトウェアはSDRをモデムとして扱うことができます。"
+  },
+  "257fywpwttm": {
+    "defaultMessage": "基地局が継続的に自己識別を行う：国コードとネットワークコード、セルID、近隣セルリスト、およびページング。"
+  },
+  "25bjviiz5i4": {
+    "defaultMessage": "MCC、MNC、LAC とセル ID"
+  },
+  "25clkmqay4v": {
+    "defaultMessage": "コール長、およびコールが暗号化されているか"
+  },
+  "25d37jtq06t": {
+    "defaultMessage": "その1を読む"
+  },
+  "25dvitwa697": {
+    "defaultMessage": "任意のRTL-SDRドングルと、常時稼働するマシン"
+  },
+  "25k505fou0m": {
+    "defaultMessage": "当サイトの狭帯域通信を担うドングル：センサー、メーター、航空機、船舶、ページャー、デジタル音声、ラジオゾンデ、気象衛星。"
+  },
+  "25pjbejkot7": {
+    "defaultMessage": "433.05-434.79 MHz"
+  },
+  "25saq0ia9x4": {
+    "defaultMessage": "ユースケースを読む"
+  },
+  "25vo1imlybl": {
+    "defaultMessage": "ターンスティル、QFH、または V 偶極子アンテナを備えた RTL-SDR"
+  },
+  "25yuo28fwc8": {
+    "defaultMessage": "再生を押す"
+  },
+  "26330mpk5yt": {
+    "defaultMessage": "LRPTはAPTのデジタル版であり、その状況はより明確である。3つのMSU-MRチャネルはインターリーブされて到着し、フレームが組み立てられるにつれてビデオパネル上にストリップとして描画されるため、パスの進行が可視的に構築され、最後に一括で表示されるわけではない。"
+  },
+  "265jlire0io": {
+    "defaultMessage": "WaveSharkはペアを測定し、ユーザーが提供するリストから照合するため、アラートには名前が表示されます。トーン音に続く音声通信は、同じチャネル上の呼び出しであり、他の音声と同様に録音され、文字起こしされます。"
+  },
+  "2668ascw5il": {
+    "defaultMessage": "SDR用RTTYデコーダー - WaveShark"
+  },
+  "266x07hvzoq": {
+    "defaultMessage": "業務用VHF・UHF（136-174 / 400-470 MHz）：そこで何が発信されているのか"
+  },
+  "267j9o8pse7": {
+    "defaultMessage": "航空機のICAOアドレスと登録番号"
+  },
+  "26iv1b6izox": {
+    "defaultMessage": "DVB-T多重化信号をキャリアからトランスポートストリームまで読み取り、伝送パラメータ、その上に載るサービス、そして選択した任意のサービスをフルフレームレートで音声と同期させてウィンドウ内で再生する。"
+  },
+  "26oh080c3rd": {
+    "defaultMessage": "無線機で特定の周波数帯をスキャンし、すでに送信されている信号を確認します。"
+  },
+  "26pbst599rj": {
+    "defaultMessage": "SDR用Inmarsat Aeroデコーダー - WaveShark"
+  },
+  "26t5s77en52": {
+    "defaultMessage": "DVB-T多重化信号をトランスポートストリームレベルまで分解し再生し、DABアンサンブルとその各局、短波のDRMサービス、ステレオおよびRDS対応のFM放送に対応します。"
+  },
+  "26vhcyaxedv": {
+    "defaultMessage": "基地局無線、タクシー、セキュリティ、公共安全およびページング：DMR、P25、NXDN、MDC-1200およびトーンを伴うアナログFM、ならびにPOCSAGおよびFLEXページング。"
+  },
+  "270i9669qfr": {
+    "defaultMessage": "ブロックはスペクトラム上で名称が付けられているため、11Cは周波数として参照するのではなく、「11C」と読みます。"
+  },
+  "271dn6te6sk": {
+    "defaultMessage": "航空機データリンクの衛星側：VHF地上局の受信範囲外でも、ACARSと同じメッセージを送信する。"
+  },
+  "274fjsctlnc": {
+    "defaultMessage": "無線M-BusモードT（メーカー、メーター番号、バージョン、タイプを含む）および米国バンドでのItron ERT SCM、SCM+、IDMの読み取り。"
+  },
+  "277mrfe3jsj": {
+    "defaultMessage": "メッセージ形式: SCM、SCM+ または IDM"
+  },
+  "278ar7ewoz": {
+    "defaultMessage": "ボーレートと受信チャネル"
+  },
+  "278trenu7rz": {
+    "defaultMessage": "インマルサット：海洋上空の航空機からの衛星ACARS、および船舶向けに送信されるEGCとSafetyNETのブロードキャスト。"
+  },
+  "27e9qdj2e8l": {
+    "defaultMessage": "船舶"
+  },
+  "27ivktlfhsq": {
+    "defaultMessage": "DVB-T テレビと 5.8 GHz アナログ映像"
+  },
+  "27kjk6etn65": {
+    "defaultMessage": "433.920 MHz · span 2400 kHz · 45台のスキャナー稼働中"
+  },
+  "27mp8zm5pgm": {
+    "defaultMessage": "HF, VHF, UHF"
+  },
+  "27s4ro6vgrt": {
+    "defaultMessage": "帯域に合わせてカットしたアンテナを備えた任意の RTL-SDR"
+  },
+  "27xgdau5ey9": {
+    "defaultMessage": "表示される内容"
+  },
+  "27ypz6mvy83": {
+    "defaultMessage": "SDR用SSTVデコーダー - WaveShark"
+  },
+  "27z0wpatnr6": {
+    "defaultMessage": "Wi-Fi、Bluetooth LE、Zigbee、Thread、ドローンのリモートID、模型飛行機の管制リンク、これらはすべて同じ83MHzの帯域内で動作します。"
+  },
+  "280l49pvihp": {
+    "defaultMessage": "該当する掲載局はありません。すべて表示するにはフィルターをクリアしてください。"
+  },
+  "282uy7fuqn7": {
+    "defaultMessage": "周囲のすべての無線デバイスを見つける"
+  },
+  "283a7cxjitz": {
+    "defaultMessage": "気象ステーション: 温度、湿度、雨量、風"
+  },
+  "28533xl1r07": {
+    "defaultMessage": "パケットレートとリンクレベル"
+  },
+  "286qzoufeqp": {
+    "defaultMessage": "初回開封時に「破損」と表示されるのは隔離フラグであり、上記のコマンドで解除されます。"
+  },
+  "288kn7s3hd3": {
+    "defaultMessage": "2.4 GHz、HackRFまたはLimeSDR"
+  },
+  "28aeahqex8e": {
+    "defaultMessage": "これら2つの機能に加えて、フルデュプレックスもサポートしています。Windows版ビルドはありません。LimeSuiteはWindows向けにパッケージ化されていません。"
+  },
+  "28gquwsdw04": {
+    "defaultMessage": "<code>--kiss-listen</code> で動作する KISS TNC は、パケットトラフィックを既に実行中のソフトウェアに渡し、送信を行う無線機を介して AX.25 をキーイングします。"
+  },
+  "28jz15smsjk": {
+    "defaultMessage": "受信機が起動した直後、アプリケーションが提供できる情報として、そこへ導くカード、ラジオが動作している場合のチューニング周波数、ホストが処理に追いついているか、どれだけデコードが進んでいるか、そして現在空中に流れている内容を示します。"
+  },
+  "28nk2jc3jrp": {
+    "defaultMessage": "各バンドで送信されているもの"
+  },
+  "28p5mhvqg9h": {
+    "defaultMessage": "<code>--ha-broker</code> オプションで、Home Assistant が既に使用している MQTT ブローカーを指定してください。これにより、デコーダーが識別できるすべての送信機が、MQTT ディスカバリーを通じて Home Assistant 内のデバイスとして登録されます。気象観測所の温度と湿度、メーターの計測値、タイヤセンサーの圧力、およびそれらが検出された受信レベルなどが対象となります。"
+  },
+  "28qcig37z1d": {
+    "defaultMessage": "1600ボルトおよび3200ボルトの2レベル・4レベル方式の高速ページング標準は、POCSAGと同様に同じメッセージリストに読み込まれる。"
+  },
+  "28qoanz1oub": {
+    "defaultMessage": "信号チェーンを段階的に編集"
+  },
+  "28rqcu3hq6n": {
+    "defaultMessage": "3.8 GHz 以上は範囲外のため、5.8 GHz FPV には HackRF が必要です"
+  },
+  "28s88uwp83x": {
+    "defaultMessage": "ISMバンドで動作するドングルを配置し、近傍で送信しているセンサー、リモコン、ドアコンタクト、メーター、タイヤセンサーを、それぞれが保持するIDとともに収集します。"
+  },
+  "28sn2n44om9": {
+    "defaultMessage": "デコードされなかったものはありますか?"
+  },
+  "28vace9oujh": {
+    "defaultMessage": "受信したすべての信号は、デコードされたかどうかに関わらず、画面下部のリストに記録されます。具体的には、周波数、変調方式、RSSI、SNR、およびその処理結果です。各行をクリックすると、その信号のエンベロープ、瞬間周波数、および16進ダンプが表示されます。どのソフトウェアも特定できないバースト信号であっても、その符号化方式を推定し、ビットを切り出すことが可能です。これにより、同じ機器を再識別し、リバースエンジニアリングを開始できます。"
+  },
+  "28ve2eawycu": {
+    "defaultMessage": "まだ音声はありません。"
+  },
+  "2934039rwnr": {
+    "defaultMessage": "ExpressLRS, FrSky ACCST, FlySky AFHDS-2A, XN297"
+  },
+  "294lp02vwaz": {
+    "defaultMessage": "極性、つまり反転した信号は破損させるのではなくラベル付けされます"
+  },
+  "294qrisb0h6": {
+    "defaultMessage": "RTL-SDRがこの周波数帯域に到達するには、アップコンバータまたは直接サンプリング改造が必要です。"
+  },
+  "298gy1xc3qw": {
+    "defaultMessage": "VHFとUHF、録音と文字起こし"
+  },
+  "298n2hnvucu": {
+    "defaultMessage": "WaveSharkをインストール"
+  },
+  "299wqgh2a3a": {
+    "defaultMessage": "<strong>81件の録音</strong>をrtl_433のコーパスから取り出し、rtl_433 25.02がそれらをどのように処理したかとフィールド単位で比較します。さらに、ADS-Bはdump1090、ACARSはacarsdec、VDL Mode 2はdumpvdl2、SSTVはcolaclanthのデコーダ、気象観測用ラジオゾンデはSDRangelと比較します。M17、DMR、TETRA、Meshtasticの空中受信キャプチャは、送信自体が示す情報と照合して確認します。"
+  },
+  "29bplpxayep": {
+    "defaultMessage": "モールスとテレプリンタ"
+  },
+  "29ewwj3c4sn": {
+    "defaultMessage": "GitHubでスポンサーになる"
+  },
+  "29ezmokis6v": {
+    "defaultMessage": "システム番号、通話の相手関係（誰が誰にかけたか）、およびチャネル上の音声が暗号化されているかどうかを示す情報。IDAS、NEXEDGE、6.25 kHz狭帯域とも呼ばれる。"
+  },
+  "29fctni8jdf": {
+    "defaultMessage": "2.4 GHzアドバタイジングチャネル"
+  },
+  "29gn13ltsr6": {
+    "defaultMessage": "下半分には航空交通管制の音声、上半分にはACARSおよびVDL Mode 2のデータリンクを表示します。"
+  },
+  "29iofmuny0": {
+    "defaultMessage": "2.4 GHz / 868 / 915 MHz"
+  },
+  "29iz636mz86": {
+    "defaultMessage": "433 MHz (433.05-434.79 MHz): 何が送信されているか"
+  },
+  "29l0oa4m21m": {
+    "defaultMessage": "ドングルにドライバを与える"
+  },
+  "29tkdmx4clc": {
+    "defaultMessage": "USBとMini"
+  },
+  "2a3r739adjm": {
+    "defaultMessage": "受信できるもの"
+  },
+  "2a4ktw5xbiw": {
+    "defaultMessage": "この周波数帯域には無関係な3つの用途が重畳しており、広い帯域幅でこれらを同時に受信できる。TETRAは欧州の公共安全および交通分野で利用されており、そのセル情報や呼設定は可読で、暗号化方式はキービューに表示される。"
+  },
+  "2a6flpbq9qq": {
+    "defaultMessage": "1 台の受信機でできる {count} のこと"
+  },
+  "2aay7p5db3t": {
+    "defaultMessage": "比較対象"
+  },
+  "2afityrvf67": {
+    "defaultMessage": "WaveSharkは、エアバンドのデータ側全体で受信を行うため、特定の1チャネルだけでなく、知らなかった会社の周波数で送信されたメッセージも他のメッセージと一緒に捕捉されます。受信したメッセージはメッセージビューとリンクビューに表示され、1日分のログファイルとして記録されます。"
+  },
+  "2afw7zgey1g": {
+    "defaultMessage": "Apple silicon専用。Intel版はありません"
+  },
+  "2ahdyirgy1d": {
+    "defaultMessage": "公開されているビルドでは、<code>tea</code> と <code>ambe</code> が除外されています。自分でコンパイルすることと、プロジェクトがそれらを配布することは同じ行為ではないため、ソースコードではこれらが有効化されているのに対し、ダウンロード版では無効になっています。"
+  },
+  "2al6rl5wuev": {
+    "defaultMessage": "キャプチャファイル、そのディレクトリ、またはパケットログをデコードし、出力結果を表示します。"
+  },
+  "2am4ae77ieo": {
+    "defaultMessage": "<code>--ha-broker</code> を Home Assistant が既に使用している MQTT ブローカーに設定すると、気象ステーションの温度と湿度、メーターの読み取り値、タイヤセンサーの圧力、およびそれらが検出されたレベルが、ベンダーのハブを介さずにデバイスとして表示されます。"
+  },
+  "2apk1wu99s0": {
+    "defaultMessage": "国コードとビーコンID、16進ID含む"
+  },
+  "2aq9u4gz4mi": {
+    "defaultMessage": "ビットレートとエラー数"
+  },
+  "2at2m8unw6c": {
+    "defaultMessage": "TETRA暗号とwgpuの鍵検索を連携させます。これがない場合、鍵ビューでは暗号化されたチャネルがリスト表示され、それらが読み取れない旨のみが表示されます。"
+  },
+  "2aw4dusebee": {
+    "defaultMessage": "LoRaWANデバイスEUI、join EUI、デバイスアドレス"
+  },
+  "2ax613qv554": {
+    "defaultMessage": "SDR用アナログ映像およびFPVデコーダー - WaveShark"
+  },
+  "2ax7wq3x7se": {
+    "defaultMessage": "5.8 GHz (5645-5945 MHz): 何が送信されているか"
+  },
+  "2ay3f7fiunx": {
+    "defaultMessage": "WaveShark がデコードするもの"
+  },
+  "2ay4w1nt4it": {
+    "defaultMessage": "LimeSDR"
+  },
+  "2azouv7hgf2": {
+    "defaultMessage": "インストールまたは解凍"
+  },
+  "2b1vw8ypfqq": {
+    "defaultMessage": "広帯域プロトコル"
+  },
+  "2b4ltxo5xvg": {
+    "defaultMessage": "MOTOTRBO、Tier II、トークグループ、DMR ID"
+  },
+  "2b719wzev0p": {
+    "defaultMessage": "ほとんどの発射場からは毎日2つの気球が打ち上げられ、約30キロメートルの高さまで上昇した後に破裂する。各気球は飛行中、その位置と測定中の大気データを常時送信している。気球の追跡と回収自体が一つの趣味として楽しまれており、飛行中のデータは公開されている。"
+  },
+  "2baxwm6kueg": {
+    "defaultMessage": "他のデジタル音声規格と同様に、暗号化後も残存するのは識別情報であり、無線IDとグループIDにより、ペイロードが復号化されていない場合でも、車隊の活動状況が示される。"
+  },
+  "2bf5sjp6thy": {
+    "defaultMessage": "ディスクイメージを開いて、アプリをドラッグして移動"
+  },
+  "2bhxkwgbsp7": {
+    "defaultMessage": "たった今登録"
+  },
+  "2bp6mv3ncqi": {
+    "defaultMessage": "RTL-SDR。LバンドにはパッチアンテナとLNAが必要です"
+  },
+  "2bqj8omaoac": {
+    "defaultMessage": "アナログVHFとUHF"
+  },
+  "2bqvhsgyles": {
+    "defaultMessage": "iqstream と rtl_tcp、ネットワーク経由"
+  },
+  "2bryhm23vr6": {
+    "defaultMessage": "GSM"
+  },
+  "2bsg300a0qg": {
+    "defaultMessage": "Linux と macOS に LimeSuite のインストールが必要です"
+  },
+  "2bsjlp5nd0m": {
+    "defaultMessage": "パッケージまたはバイナリ本体、そして無線機。サービスもアカウントも不要で、外部への通信は一切ありません。"
+  },
+  "2bvejpgj4at": {
+    "defaultMessage": "512、1200、2400ビット/秒での明瞭なページャーメッセージ。ページングネットワークはすべてのページを2回送信するため、重複除去済み。"
+  },
+  "2bxma6ofueq": {
+    "defaultMessage": "WaveSharkはGPL-3.0ライセンスの無料ソフトウェアで、アカウント登録が不要であり、外部へのデータ送信（テレメトリ等）も行いません。スポンサー支援金は、無線機やテスト機器の購入、および次回のデコーダー開発に費やされる時間のコストに充当されます。"
+  },
+  "2byily30k8a": {
+    "defaultMessage": "アカウント不要、サービス不要、外部への通信なし。バイナリがプログラムそのものです。"
+  },
+  "2c87g9kxktc": {
+    "defaultMessage": "IDAS, NEXEDGE, 6.25 kHz 狭帯域"
+  },
+  "2c8aqr85e9i": {
+    "defaultMessage": "Wi-Fi、Bluetooth、ドローンのリモートID、テレビ放送、5.8GHz映像伝送に対応する十分な帯域幅を持ち、同一フローグラフ内に送信機を組み込むための最も低コストな方法です。"
+  },
+  "2c9h0tjlzne": {
+    "defaultMessage": "パイプラインやcronジョブに組み込めるコマンドラインツール"
+  },
+  "2cab5ljh63u": {
+    "defaultMessage": "<code>--ha-broker</code> を、Home Assistant がすでに使用している MQTT ブローカーに向けます。これにより、デコーダーが識別できるすべての送信機が、そこでのデバイスとして扱われます。具体的には、気象ステーションの温度と湿度、メーターの計測値、タイヤセンサーの圧力、およびそれらが検出された受信レベルです。<code>--ha-spaces ism,wmbus</code> を指定すると、通りすがりのスマートフォンなどが混在するのではなく、ご自身のセンサーやメーターに限定します。"
+  },
+  "2cdb1kmbzbg": {
+    "defaultMessage": "気象観測気球"
+  },
+  "2ce4rwvr8fx": {
+    "defaultMessage": "アンテナを信号のある場所に設置する"
+  },
+  "2cffgm35oq9": {
+    "defaultMessage": "SDR用M17デコーダー - WaveShark"
+  },
+  "2cfwiajxwcl": {
+    "defaultMessage": "すべてのバンド、1台の受信機。"
+  },
+  "2cgxahoohg4": {
+    "defaultMessage": "画面に表示されるのは受信機であり、第二の受信機ではありません。エージェントがチューニング、開いたり、オンにしたりした内容はウィンドウに表示され、そのウィンドウのスクリーンショットを撮って実行結果を確認できます。エージェントはスペクトラム、パケット、通話、文字起こし、トラッカーを読み取り、信号チェーン内のあらゆる要素を変更し、ステージの追加、接続、削除を行うことで、チェーン自体を描画します。"
+  },
+  "2chdwuv27n1": {
+    "defaultMessage": "2.4 GHz チャネル 11-26"
+  },
+  "2clj97av1ft": {
+    "defaultMessage": "航空機登録番号とフライト番号"
+  },
+  "2cnu6xktjyv": {
+    "defaultMessage": "この1日に局を掲載した人はいません。あなたが最初になれます。"
+  },
+  "2cuiieayai2": {
+    "defaultMessage": "ビューでの起動"
+  },
+  "2cxznpjx382": {
+    "defaultMessage": "390-406 MHz"
+  },
+  "2d2y43v5jjw": {
+    "defaultMessage": "rtl_433、433.92 MHz、気象ステーション、ドアセンサー"
+  },
+  "2d3h2hi0wyi": {
+    "defaultMessage": "1つのパケットストリームを15通りの方法で読み解く：スペクトラムとウォーターフォール、シグナルチェーンそのもの、コール、トランスクリプト、メッセージ、動画、マップ、データリンク、デバイス、チャンネル、コントロールリンク、衛星パス、キー、エージェントビュー。"
+  },
+  "2d6xrgahbar": {
+    "defaultMessage": "Meshtastic、MeshCore、LoRaWAN、chirp spread spectrum"
+  },
+  "2daws9efrk8": {
+    "defaultMessage": "UAT978、ADS-B UAT、FIS-B、TIS-B"
+  },
+  "2dcsq3gu4wh": {
+    "defaultMessage": "車両通過時のタイヤ圧力センサーによる計測：センサーID、圧力、温度、およびホイールの回転有無。"
+  },
+  "2dcywjktde8": {
+    "defaultMessage": "衛星"
+  },
+  "2dfmxka7or1": {
+    "defaultMessage": "Keysビューで表示される使用中の暗号"
+  },
+  "2dha6ewvvzy": {
+    "defaultMessage": "誰かが話しているのか、音声のデコードに関するあらゆる事柄について。通話を拾うとはそれを聴くことを求めることで、すべてのオーバーはOpusとして録音でき、リストの下にあるタイムラインは録音内容を時系列に沿って表示し、ある区間を単一のファイルとして引き伸ばすことができます。"
+  },
+  "2dl2nfpudrs": {
+    "defaultMessage": "SDRで周囲のすべての無線デバイスを見つけよう - WaveShark"
+  },
+  "2dofqu1knpz": {
+    "defaultMessage": "ボーレートとシフト"
+  },
+  "2door4wbbdw": {
+    "defaultMessage": "航空機"
+  },
+  "2dovzfwjl2x": {
+    "defaultMessage": "ページングとトーン"
+  },
+  "2dqbbncy1z2": {
+    "defaultMessage": "MDC-1200は、アナログ回線の開始時または終了時に送信される短時間のデータバーストです。ユニットIDや、場合によっては緊急・ステータスコードを保持し、未識別の音声チャネルを無線機のリストに変換します。"
+  },
+  "2ds6dw3q48x": {
+    "defaultMessage": "リトライを示すシーケンス番号"
+  },
+  "2du2rz8fhxt": {
+    "defaultMessage": "udevルールを同梱したパッケージ、またはドングル用のドライバのみで追加のインストールを必要としない単一のバイナリ。"
+  },
+  "2dzlmj34kca": {
+    "defaultMessage": "モバイル国コード、ネットワークコード、およびセル"
+  },
+  "2dzu7t0873w": {
+    "defaultMessage": "SDR用RC制御リンクデコーダー - WaveShark"
+  },
+  "2e01nexofnb": {
+    "defaultMessage": "macOS"
+  },
+  "2e1d46e0siw": {
+    "defaultMessage": "iqstreamまたはrtl_tcpサーバーはローカルな受信機として表示されるため、アンテナは電波が強い場所に設置できます。この受信機はiqstreamにも対応しており、複数の対応チューナを組み合わせることで、より広い周波数帯域をカバーできます。"
+  },
+  "2e2f05fb3to": {
+    "defaultMessage": "地上局も送信を行っています。そのアップリンクには、コックピットに送信される気象情報や交通状況の映像が含まれており、これは暗号化されていない放送サービスです。"
+  },
+  "2eaq9w7m5c0": {
+    "defaultMessage": "WaveSharkによる433.92 MHzの気象観測ステーションのデコード：上部にスペクトラムとウォーターフォール、下部にパケットリストを表示。"
+  },
+  "2ebz0wxjw90": {
+    "defaultMessage": "SDR用MDC-1200デコーダー - WaveShark"
+  },
+  "2edtdd05v5l": {
+    "defaultMessage": "送信元と宛先のコールサイン、およびディジピーター経路"
+  },
+  "2edtth2bfnq": {
+    "defaultMessage": "コンテンツへスキップ"
+  },
+  "2eic9yxee5p": {
+    "defaultMessage": "RF向けのOSINTツール。GPL-3.0-or-later。"
+  },
+  "2ejz5fnb0pq": {
+    "defaultMessage": "チャネルと検出レベル"
+  },
+  "2elx5uex2nu": {
+    "defaultMessage": "スポンサーシップが難しい場合でも、キャプチャを添付した良いバグレポートは同等の価値を持ち、実際の信号で誤動作するデコーダは、送付できるものの中で最も有用です。"
+  },
+  "2enqiq4f15z": {
+    "defaultMessage": "PAL、NTSC、5.8 GHz FPV、ワイヤレスカメラ"
+  },
+  "2eodtht6h3p": {
+    "defaultMessage": "Inmarsat Aero"
+  },
+  "2ep3rc54dlm": {
+    "defaultMessage": "APRSとパケット"
+  },
+  "2etmtqz0uv1": {
+    "defaultMessage": "ボタンで受け取ったパッケージを開くか、生のバイナリを取得して配置先で実行してください。いずれの場合も、バイナリがプログラムの全体です。"
+  },
+  "2euavjod2mp": {
+    "defaultMessage": "978 MHz"
+  },
+  "2ezz8ug1af6": {
+    "defaultMessage": "rtl_tcp は 8 bit サンプルを伝送します (ラジオの種類に関係なく)"
+  },
+  "2f04efwkkyj": {
+    "defaultMessage": "トークグループと送信元無線 ID"
+  },
+  "2f2cmuqicue": {
+    "defaultMessage": "設定ダイアログを起動して開始します。エージェント、ラジオ、スペクトラム、ウォーターフォール、ログ、スキャナー、メモリ、データ、またはアプリを選択できます。"
+  },
+  "2f5pempmig0": {
+    "defaultMessage": "気象衛星"
+  },
+  "2f6ywuox36h": {
+    "defaultMessage": "1台の受信機で、アマチュアバンドが同時に伝送する複数のモードを一度にカバーします。EU、米国、日本のコール周波数でのMic-E方式APRS、Martin、Scottie、RobotモードでのSSTV（画像送信が終了するたびに各画像を保存）、45.45〜200バウドのRTTY、送信速度そのままにテキストとして読み取れるCW、そしてパケットメッセージを完全に復調できるM17に対応しています。"
+  },
+  "2f8a3ru5i9z": {
+    "defaultMessage": "--chain、--flights、--calls、--messages、--transcript、--links、--control、--channels、--video、--scanners、--gain、--setup は、受信機を特定のビューで開きます。"
+  },
+  "2fakh0478gi": {
+    "defaultMessage": "NOAA気象ラジオ7チャンネルのアラートヘッダー：イベント、対象となる郡、および継続時間。"
+  },
+  "2ff5esyhu5j": {
+    "defaultMessage": "開始トーンと終了トーンにより、チャートが適切な位置で切り替わります"
+  },
+  "2ffusjhlj1y": {
+    "defaultMessage": "リモートIDとDJI DroneID（シリアル番号、位置、高度、ホームポイントを含む）に加え、スティックの動作をリアルタイムで描画したコントロールリンク。"
+  },
+  "2fkpyd67dvq": {
+    "defaultMessage": "131.5 / 136.7 - 137 MHz"
+  },
+  "2flya9ttuk1": {
+    "defaultMessage": "位置情報の報告は、航空機が送信する情報の一部にすぎません。1090 MHzのADS-BおよびモードSは、航空機を呼び出し符号、高度、速度、航跡とともに地図上に表示し、978 MHzのUATは1090 MHzでは検出されない軽航空機に加え、地上局からの気象情報や交通情報のアップリンクを追加します。"
+  },
+  "2fsfgbhsox0": {
+    "defaultMessage": "同時に40以上のプロトコルが実行されており、パケットリストとマップが表示されています"
+  },
+  "2fu1jt0wmyj": {
+    "defaultMessage": "GSM 900および1800（925-960 / 1805-1880 MHz）：その周波数帯で送信されているものは何ですか"
+  },
+  "2fu2y3bpx8h": {
+    "defaultMessage": "ネットワークのスループットが、伝送可能なスパンを決定します"
+  },
+  "2fxwvuwfz2s": {
+    "defaultMessage": "NOAA気象ラジオの7つのチャンネルからのアラートヘッダー：イベント、対象となる郡、および持続時間。NOAA気象ラジオ、緊急アラート、162.400 MHzとも呼ばれる。"
+  },
+  "2fybau5d1rd": {
+    "defaultMessage": "LimeSDRとWaveShark - 到達可能な範囲"
+  },
+  "2g1zep3qykk": {
+    "defaultMessage": "DVB-T多重化：送信パラメータ、各多重化が運ぶサービス、および映像と音声にデコードされた番組。"
+  },
+  "2g2075un3ck": {
+    "defaultMessage": "HFは、ある国の受信機が別の国の送信機を受信できる周波数帯域であり、この帯域で使われるモードは最も古くからあるものです。モールス符号はビーコンやリピーターを識別するために今も使われ、RTTYはブレットインやコンテストの通信に用いられ、ウェザファックスは気圧図をゆっくりとした画像として船舶に送信します。"
+  },
+  "2gjb633q6ws": {
+    "defaultMessage": "waveshark --help に残りの情報があります"
+  },
+  "2gkskakd1r9": {
+    "defaultMessage": "Zigbee、Thread、Matter"
+  },
+  "2gky0jpxtrl": {
+    "defaultMessage": "メッセージ本文または数値メッセージ"
+  },
+  "2l27vheugk": {
+    "defaultMessage": "無線ネットワークを監視し、後でSDRを使用して復調・再生する - WaveShark"
+  },
+  "2mga8cugs6": {
+    "defaultMessage": "rtl_433ファミリーの45種類のデコーダー：気象ステーション、温度計、ドアコンタクト、ゲートリモコン、セキュリティセンサー、棚ラベル。"
+  },
+  "2pbeoivq5l": {
+    "defaultMessage": "NOAA APT と Meteor LRPT 気象衛星の通過"
+  },
+  "2vcpovapgl": {
+    "defaultMessage": "868.95 MHz"
+  },
+  "2w6p0g9zvd": {
+    "defaultMessage": "ユーザーが共有を選択した受信機。それぞれは <nostr>nostr</nostr> でアナウンスされた iqstream サーバーであり、WaveShark のどのコピーでも、それをリモートラジオとして開き、そのアンテナが受信した信号をデコードできます。"
+  },
+  "2x1rqqw8ji": {
+    "defaultMessage": "チャンネル"
+  },
+  "31unvxdy2e": {
+    "defaultMessage": "SDR用ドローンRemote IDデコーダー - WaveShark"
+  },
+  "336huwmbqh": {
+    "defaultMessage": "スペクトラム、パケット、通話、文字起こしを読む"
+  },
+  "34toebin6l": {
+    "defaultMessage": "フレームごとのデータレートとチャネル"
+  },
+  "35dmvl4wc2": {
+    "defaultMessage": "Linux版WaveSharkをダウンロード"
+  },
+  "36ut2uoc13": {
+    "defaultMessage": "ウィンドウなしで実行し、インターフェースと同様にスキャンとログ記録を行います。"
+  },
+  "37ppdwjjup": {
+    "defaultMessage": "約250の機器デコーダーに対し、45個"
+  },
+  "38cnc557q0": {
+    "defaultMessage": "そのすぐ上には7つのNOAA気象ラジオチャンネルが配置されており、アナウンサーが一言も発する前に、SAMEヘッダーがアラートの全体、対象郡、有効期限を機械可読形式で伝達する。"
+  },
+  "3a6ibzv947": {
+    "defaultMessage": "978 / 1090 MHz"
+  },
+  "3bv0m4ugx4": {
+    "defaultMessage": "ネットワークチューナーをラジオとして提供します：iqstream、または rtl_tcp://host:port。繰り返し指定可能です。"
+  },
+  "3eji58ho1a": {
+    "defaultMessage": "ヘッドレス"
+  },
+  "3g8fk1mcaw": {
+    "defaultMessage": "まだ音は出ていない：アンサンブルは音声にデコードされるのではなく、その中に込められた意味として読み取られる。"
+  },
+  "3ga0uevlqz": {
+    "defaultMessage": "<code>--ha-spaces ism,wmbus</code> を指定すると、対象はご自身のセンサーやメーターに限定されます。携帯電話が多数存在する周波数帯でこの設定を開放したままにすると、15分ごとにアドレスを切り替えるデバイスが住宅内に溢れかえりますが、これは機能というより警告です。"
+  },
+  "3i59at279n": {
+    "defaultMessage": "データリンクは、エアバンドチャネル上のACARSおよびVDLモード2（欧州の航空交通が最も多く利用するリンク）を伝送し、衛星側はLバンドパッチアンテナを介してInmarsat Aeroがカバーしている。これらのメッセージには、フライト、航空機、および航空会社への報告内容が含まれている。"
+  },
+  "3ish90ipup": {
+    "defaultMessage": "--headless オプションは、ウィンドウを表示せずにレシーバー全体を実行し、ウィンドウがある場合と同様にスキャンとパブリッシュを行います。"
+  },
+  "3l0aim1i0n": {
+    "defaultMessage": "dump1090、1090 MHz、Mode S、二次レーダー"
+  },
+  "3l4x5sz8sr": {
+    "defaultMessage": "送信元と宛先のコールサイン"
+  },
+  "3nt7jar3y4": {
+    "defaultMessage": "フルデュプレックスリピータには非対応"
+  },
+  "3qs44k4pdz": {
+    "defaultMessage": "サイト調査と干渉の探索"
+  },
+  "3uvpen3zah": {
+    "defaultMessage": "Wi-Fi、Bluetooth LE、DroneID、テレビ放送、送信機、およびマストヘッドアンプ用のバイアスティーに十分な帯域幅を確保。"
+  },
+  "417u296esr": {
+    "defaultMessage": "まだ音がありません。"
+  },
+  "4a367o0js6": {
+    "defaultMessage": "RTL-SDR が届く範囲を、一台のラジオで"
+  },
+  "4ahp1wva16": {
+    "defaultMessage": "乗務員が入力した目的地と到着予定時刻"
+  },
+  "4bkbfmt5mg": {
+    "defaultMessage": "アマチュアバンド"
+  },
+  "4c4wbupq8b": {
+    "defaultMessage": "SDR用DABデコーダー - WaveShark"
+  },
+  "4fe0x4pxka": {
+    "defaultMessage": "送信機能を持つ無線機では、オーバーをキーバックで送信し、コンタクトの双方に同じウィンドウを適用できます。"
+  },
+  "4gr7bnrsb1": {
+    "defaultMessage": "45.45ボドから200ボドまでの baudot 電信機テキストを、受信方向を問わず、受信に伴ってメッセージビューに読み込む。"
+  },
+  "4ih42n98ys": {
+    "defaultMessage": "Airband (118-137 MHz): 何が送信されているか"
+  },
+  "4izuwv6cy9": {
+    "defaultMessage": "4台のラジオ、どれも高価ではありません"
+  },
+  "4jxnkla976": {
+    "defaultMessage": "RTL-SDRとWaveShark - 到達可能な範囲"
+  },
+  "4l858tmwdb": {
+    "defaultMessage": "ドローンが送信が義務付けられているリモートID放送から得られるシリアル番号、位置、高度、オペレータの位置情報、およびDJI機体からのホームポイント。DJI DroneID、Open Drone ID、ASTM F3411、オペレータ位置情報とも呼ばれる。"
+  },
+  "4lpdlv08ni": {
+    "defaultMessage": "測定された毎分単語数"
+  },
+  "4npawvcnus": {
+    "defaultMessage": "セルのアイデンティティは、同期バースト、ブロードキャストされるシステム情報、およびページングが呼び出している対象によって判別される。"
+  },
+  "4q0etjhd2d": {
+    "defaultMessage": "スプレディングファクター、帯域幅、コーディングレート"
+  },
+  "4qzx8smibe": {
+    "defaultMessage": "Wi-Fiチャネルは20MHzの帯域幅を持つため、その読み取りにはHackRFやLimeSDRのような機器が適しており、USBドングルには不向きです。得られるのは調査結果であり、ビーコンを送出しているネットワーク、プローブを送信しているクライアント、使用されているデータレート、そして繰り返し出現するアドレスが含まれます。"
+  },
+  "4r6u0t6qrr": {
+    "defaultMessage": "マスト上の機械に搭載されたチューナー、デスクから読み取れるチューナー、デスクからチューニング可能なチューナー、そしてそれらを縫い合わせてより広い帯域にまとめたもの。"
+  },
+  "4re1lg9km5": {
+    "defaultMessage": "消防や救急の呼び出し機（ペイジャー）の着信音として使用される2音のトーンは、運用者リストに基づいて命名されており、呼び出し内容が2つの周波数ではなく特定の局として認識されるように設計されている。"
+  },
+  "4srzzu0upz": {
+    "defaultMessage": "WaveSharkでできること"
+  },
+  "4svgwqfg8d": {
+    "defaultMessage": "NXDNはアイコムとケンウッドの狭帯域標準で、業務用や交通システムに広く用いられ、DMRが使用するチャネル幅の半分に収まります。両方のチャネル幅を読み取ることができます。"
+  },
+  "4wplsyuqp6": {
+    "defaultMessage": "受信"
+  },
+  "4x34lmko20": {
+    "defaultMessage": "このリリースには、LinuxおよびWindows向けに<code>-cuda</code>アセットも含まれています。これはNVIDIA GPU上で音声モデルを実行する同じレシーバーで、CUDA 12ランタイムおよび570以降のドライバーが必要です。GPU上で音声認識を行いたい場合を除き、通常版ビルドを使用してください。"
+  },
+  "4xxaw03lv4": {
+    "defaultMessage": "DABとDRM"
+  },
+  "50oqpj54it": {
+    "defaultMessage": "udevルールは、見落とされがちな部分です。これらが存在しないと、ドングルはroot権限でのみ開くことができ、これは無線機の不具合ではなく権限エラーです。ディストリビューションのパッケージをインストールすることで、これらが所定の場所に配置されます。"
+  },
+  "523s03tux5": {
+    "defaultMessage": "DRM多重化における各サービス、その言語およびラベル、短波または中波送信からの情報。"
+  },
+  "52d45k2otf": {
+    "defaultMessage": "すべてのモデル制御リンクが聴取可能な範囲内にあるスティックの状態：マイクロ秒単位のチャネルごとのバー、フレームレート、およびハンドセットがアームを要求しているかどうかを示す情報。ExpressLRS、FrSky ACCST、FlySky AFHDS-2A、XN297としても知られている。"
+  },
+  "54co5rz08w": {
+    "defaultMessage": "DECODED AS"
+  },
+  "5a61x8gopi": {
+    "defaultMessage": "デコードされたすべてのフレームは単一の場所に集約され、各ビューはそのフレームに対する異なる解釈である。いずれのビューもプロトコルを認識しない。DMRの呼び出し、TETRAの呼び出し、M17の呼び出しは、異なるフィールドが埋められた同一の行であり、航空機、船舶、メッシュノードは同一の軌跡である。パケットリストはすべてのビューの下部に配置され、最新のパケットが末尾に表示される。選択されたバーストのエンベロープ、瞬間周波数、および16進ダンプがその横に表示される。"
+  },
+  "5cwesb9hdb": {
+    "defaultMessage": "境界線は帯域幅であり、賢さではない。Wi-Fiの1チャネルは20MHz、テレビ多重化は8MHz、ドングルは約2.4MHzを扱う。これより狭い帯域、つまり<decodes>デコーダリスト</decodes>の大半は、史上最も安価な受信機で動作する。"
+  },
+  "5elv5b798": {
+    "defaultMessage": "WaveShark用SDRハードウェア - RTL-SDR, HackRF, LimeSDR"
+  },
+  "5ihjs7ikgj": {
+    "defaultMessage": "画像そのもの (ラインごとに表示)"
+  },
+  "5is2i5zezk": {
+    "defaultMessage": "建物内のほとんどの無線デバイスは、数秒から数分おきに自己を宣言し、そのほとんどは変更されないIDを保持しています。帯域を連続的にカバーすることで、別の周波数にチューニングしている間に送信していたデバイスも捕捉でき、これがスキャンでそれらが検出されない主な理由です。"
+  },
+  "5kojm6ux2d": {
+    "defaultMessage": "RF向けのOSINTツール。特定の周波数帯を継続的にカバーし、復号済み・未復号を問わずすべてのデータを保持します。"
+  },
+  "5lqm3x6p6i": {
+    "defaultMessage": "不可"
+  },
+  "5rwtbccx3j": {
+    "defaultMessage": "EPIRB、PLB、ELT、406 MHz遭難ビーコン"
+  },
+  "5sozpcoqhe": {
+    "defaultMessage": "Linuxでは、udevルールが適用されるようディストリビューションのパッケージをインストールしてください。Windowsでは、Zadigを実行し、RTL2832Uインターフェースを選択してWinUSBをインストールしてください。"
+  },
+  "5ukqq7yi5u": {
+    "defaultMessage": "同じ録音データを用いてdump1090と比較検証した。デコーダーが正しいのか、単に自信があるだけなのかを判断するには、これが唯一の方法である。"
+  },
+  "5vkvxhg6w6": {
+    "defaultMessage": "航空機を追跡し、送信内容を読む"
+  },
+  "5wsfjntqgr": {
+    "defaultMessage": "チャンネルビューは、各Wi-Fi、Bluetooth、802.15.4チャンネルで何が送信されているか、その電波強度、そして混雑度を示します。これは問題の図解ではなく、自ネットワークをどのチャンネルに配置すべきかという問いに対する答えです。"
+  },
+  "5yijtayq5i": {
+    "defaultMessage": "15のビュー - WaveShark"
+  },
+  "61oav484in": {
+    "defaultMessage": "同じ録音データで acarsdec と照合済み。"
+  },
+  "62x3w0ycpn": {
+    "defaultMessage": "400-406 MHz"
+  },
+  "6achmvtfq9": {
+    "defaultMessage": "SDR用GSMデコーダー - WaveShark"
+  },
+  "6q8g6icl0l": {
+    "defaultMessage": "ダッシュボードで開き、ダイヤルはデコード対象のデバイスが存在する433.92 MHzの位置から始まります。"
+  },
+  "6sxmkvhdk0": {
+    "defaultMessage": "AIS船舶の2つのチャネルでの位置情報、作業用チャネルおよび呼出音声、および帯域上部のNOAA気象ラジオ警報。"
+  },
+  "6u2t4jel4w": {
+    "defaultMessage": "ドローン、その操縦者、そしてハンドセットをSDRで観察する - WaveShark"
+  },
+  "70yac3rvz": {
+    "defaultMessage": "サービス識別子"
+  },
+  "719lt0z10f": {
+    "defaultMessage": "12.5 kHz と 6.25 kHz チャネル"
+  },
+  "733bunqdsr": {
+    "defaultMessage": "1525-1559 MHz"
+  },
+  "7am1p640zz": {
+    "defaultMessage": "知っているバンドで試してください。"
+  },
+  "7crvxb3tur": {
+    "defaultMessage": "ネットワーク、そのセル、および呼び出される対象。TEA機能を備えたソースビルドにおいて、暗号化に対してwgpuキー検索を行う。TEA1、TEA2、TETRAPOLの代替、トランクスとも呼ばれる。"
+  },
+  "7cu7vrpg8h": {
+    "defaultMessage": "1つのスパン内で同時に42個のデコーダーが稼働：ADS-B、ACARS、VDL Mode 2、AIS、POCSAGおよびFLEXパージング、DMR、P25、NXDN、TETRA、M17、LoRaメッシュ、無線M-Bus、Z-Wave、TPMS、ISMセンサー、Wi-Fi、Bluetooth LE、Zigbee、ドローンRemote ID、SSTV、気象衛星、ラジオゾンデ、DVB-T、DAB、DRM。"
+  },
+  "7fzmyjor46": {
+    "defaultMessage": "周波数でスクイッチの表示値を報告し、設定を行う。"
+  },
+  "7gr9rhzyl": {
+    "defaultMessage": "SDRで独自のセンサーをHome Assistantに接続 - WaveShark"
+  },
+  "7jx5uyv4x9": {
+    "defaultMessage": "屋根裏にアンテナ、デスクに受信機"
+  },
+  "7lgylux05": {
+    "defaultMessage": "HF 用アップコンバータ付き RTL-SDR、または直接サンプリング"
+  },
+  "7ns82niu86": {
+    "defaultMessage": "2400-2483.5 MHz"
+  },
+  "7p2ivb23p": {
+    "defaultMessage": "帯域 {span} MHz、選局可"
+  },
+  "7vt9qd4uyx": {
+    "defaultMessage": "SDRでアマチュア局として運用する - WaveShark"
+  },
+  "7w251fm81": {
+    "defaultMessage": "最大 20 MHz"
+  },
+  "7x29fn6l6i": {
+    "defaultMessage": "短波で船舶向けに送信される海面圧力図と氷情図は、受信と同時に映像パネル上に描画される。別名、ラジオファックス、WEFAX、海洋図、ノースウッド。"
+  },
+  "7y9tn2le1": {
+    "defaultMessage": "スティックのリアルタイム読み取りに対応したExpressLRS、およびFrSky ACCST、FlySky AFHDS-2A、XN297リモコン（アドレスとペイロードを含む）を制御ビューに表示します。"
+  },
+  "7ymgpwgd03": {
+    "defaultMessage": "データリンク"
+  },
+  "800dtpy3be": {
+    "defaultMessage": ".deb と .rpm はこれに依存しています。バイナリ単体を使用する場合、udev ルールのためにご自身でインストールしてください。"
+  },
+  "81y1aeuo8u": {
+    "defaultMessage": "リリースワークフローでは、<code>--no-default-features --features limesdr,stt,cuda,mcp</code> を使用してビルドを行います。ただし、Windows では <code>limesdr</code> は除外されます。"
+  },
+  "8233lasho0": {
+    "defaultMessage": "鍵"
+  },
+  "8267gvpm97": {
+    "defaultMessage": "高度、対地速度、針路、垂直速度"
+  },
+  "82k3a4fl2t": {
+    "defaultMessage": "コマンドライン"
+  },
+  "88peslw942": {
+    "defaultMessage": "SDR用Wi-Fiデコーダー - WaveShark"
+  },
+  "8a60tzp1aj": {
+    "defaultMessage": "<views>各ビューが保持する内容</views>、ダッシュボードで新規受信者が開くものから、まだ誰も耳にすることのない衛星の通過まで。"
+  },
+  "8b9gcaqrlp": {
+    "defaultMessage": "ここで読み取られるのは音声ではなく、多重構造であり、どのサービスが存在し、どの言語で提供され、送信がどのように構成されているかを示している。"
+  },
+  "8czb5se7x4": {
+    "defaultMessage": "915 MHz"
+  },
+  "8eum8uzz8t": {
+    "defaultMessage": "リレーに問い合わせ中、{relays} 台中 {settled} 台が応答"
+  },
+  "8evmerfzff": {
+    "defaultMessage": "アップコンバータや直接サンプリングなしの短波"
+  },
+  "8fzs0dxszi": {
+    "defaultMessage": "Wi-Fi、Bluetooth LE、Zigbee、DJI DroneID：1つのチャネルの帯域幅が、全体の周波数帯域幅よりも広い"
+  },
+  "8jtde5uw7t": {
+    "defaultMessage": "315 / 433.92 MHz"
+  },
+  "8k9uhrceln": {
+    "defaultMessage": "2.4 GHz の HackRF または LimeSDR、868/915 MHz のドングル"
+  },
+  "8ntovd9cpj": {
+    "defaultMessage": "Bluetooth 5 Long Rangeを含む3つの主要チャネルすべてで広告パケットを配信し、Open Drone IDが搭載されている場合はその情報を取得します。"
+  },
+  "8pjmbtrki9": {
+    "defaultMessage": "RTL-SDRで受信、HackRFまたはLimeSDRで送信"
+  },
+  "8sbtzrtwvw": {
+    "defaultMessage": "マイク、トーン、または録音データをNFM、WFM、AMに変調し、手動または音声でキーイングして送信。この受信機は既に6つのプロトコルを読み取り、POCSAGページ、APRSビーコン、RTTYオーバー、BLE広告、SSTV画像、RDS名称を送信します。Flipperの.subファイルは指定された周波数でキーイングし、ffmpegで開ける任意のファイルからDVB-Tマルチプレクス全体を構築できます。"
+  },
+  "8serfl71bo": {
+    "defaultMessage": "Quick Call II、消防パジャートーン、アラームトーン"
+  },
+  "8sf2t00tcg": {
+    "defaultMessage": "パケットログには、マークとギャップのタイミング、フレームのバイト列、およびバースト自体のサンプルが保存され、解析済みフィールドは保存されません。これにより、今月作成されたデコーダーでも、今日検出されたバーストを処理する機会が得られます。<code>--record</code>オプションは、両方のプログラムで読み取れる rtl_433 形式のキャプチャを書き出します。また、生キャプチャはエネルギー閾値でアームでき、トリガー発生前の信号を含むバーストごとにファイルが書き出されます。"
+  },
+  "8xi4uu0hu7": {
+    "defaultMessage": "地上局アドレスとフレーム送信側"
+  },
+  "92k071rx4k": {
+    "defaultMessage": "SDRで空から画像とデータを取得 - WaveShark"
+  },
+  "94n9ogvjyj": {
+    "defaultMessage": "地図上に表示されているVaisala RS41、Graw DFM、Meteomodem M10およびM20、iMet、Meisei、MRZ、LMS6の気球には、シリアル番号、高度、上昇速度、および測定のために打ち上げられた大気の情報が付与されています。チャンネルは送信機が漂流するのを追跡し、SondeHubからの発射地点情報により、次の気球の打ち上げ時刻が示されます。"
+  },
+  "96ztpjgyjc": {
+    "defaultMessage": "DAB+、デジタルラジオ、アンサンブル、バンドIII"
+  },
+  "97j51uk1gd": {
+    "defaultMessage": "APRS、SSTV、RTTY、モールス符号、M17を同時に読み取れます。既存のパケットソフトウェアに対応したKISS TNC機能、Chirpからのメモリバンクのインポートに対応しています。"
+  },
+  "9ejr342olt": {
+    "defaultMessage": "127.0.0.1:8931 のエージェントにレシーバーを提供します。すべての公開ビルドで実行されます。"
+  },
+  "9exahopy9q": {
+    "defaultMessage": "433.92 MHzの気象観測局をデコードしています。タブストリップでは、スペクトラム、信号チェーン、マップとそのトラックテーブル、コールリスト、トランスクリプト、メッセージ、画像、キーのいずれかを切り替えて表示できます。"
+  },
+  "9kg25byl6r": {
+    "defaultMessage": "SDR用Wireless M-Busデコーダー - WaveShark"
+  },
+  "9l4ojrr9qx": {
+    "defaultMessage": "1 MHz から 6 GHz、送信と受信"
+  },
+  "9nlufw56ub": {
+    "defaultMessage": "リモートIDはネットワークサービスではなくブロードキャストです。航空機はWi-FiまたはBluetooth LEを通じて、自機およびその運用者の所在を送信し、近傍のデバイスが受信できます。WaveSharkはOpen Drone IDをこれらの両方の通信方式で読み取り、航空機と運用者を地図上で別々のマーカーとして表示します。"
+  },
+  "9odlrlgob5": {
+    "defaultMessage": "WaylandとX11の両方で問題なく動作。ウィンドウはwgpuで描画されます"
+  },
+  "9pmc512hbc": {
+    "defaultMessage": "GSMセルはビコンチャネルを中断なく送信し、その識別情報はすべて平文で送信される。そのため、周囲のモバイルインフラを調査するには受信のみで済む。"
+  },
+  "9skgj0ta6p": {
+    "defaultMessage": "頭上を通過する気象衛星：NOAA APT画像とMeteor-M LRPT。パスリストに基づいて計画し、ドップラー効果を追跡して観測する。"
+  },
+  "9v5tkcy5ee": {
+    "defaultMessage": "ページングメッセージは、呼び出される加入者識別情報と、その後電話が接続されるチャネルを特定します。トラフィック自体は暗号化されており、復号化されません。"
+  },
+  "9xzs6yz7tv": {
+    "defaultMessage": "アマチュアVHFとUHF"
+  },
+  "9z9ow2xt5z": {
+    "defaultMessage": "UHF テレビ"
+  },
+  "9zaxev24zz": {
+    "defaultMessage": "海事VHF、Lバンド、406 MHz"
+  },
+  "a1xk3l5dtp": {
+    "defaultMessage": "放送停止時のキャプチャ映像と照合し、送信内容そのものが述べているものと突合した。"
+  },
+  "a2ihqarn65": {
+    "defaultMessage": "位置、高度、速度、針路"
+  },
+  "a3t8v4um3y": {
+    "defaultMessage": "トークグループ、無線ID、および北米の公共安全が利用するC4FMフレーム上で呼び出しが紐付けられている鍵"
+  },
+  "a8nw9lev65": {
+    "defaultMessage": "DRMは大陸をまたぐ周波数帯域で放送されるデジタル放送であり、他の手段では届かない地域でも国際放送局によって今なお利用されています。多重化（マルチプレクス）では1〜4つのサービスが収容され、それぞれに言語とラベルが割り当てられます。"
+  },
+  "aj4wuhsd6h": {
+    "defaultMessage": "Zadigで2つのインターフェースが表示されるドングルでは、バルクインターフェースを選択する必要があります。"
+  },
+  "aq2l8p8up3": {
+    "defaultMessage": "SDRangelはより多くのモード、より多くの無線機、そしてその大部分の送信機に対応しています。WaveSharkは、すべてのデモデューラを手動で配置する必要はなく、一度に全体の周波数帯域をデコードします。"
+  },
+  "art3voklsj": {
+    "defaultMessage": "SDR用Itron ERTメーターデコーダー - WaveShark"
+  },
+  "av7dlchfo8": {
+    "defaultMessage": "45.45ボーから200ボーまでのボー.Dot電信機テキストを、受信方向に関係なく、メッセージビューに到着順に読み込む。無線テレタイプ、ボー.Dot、45.45ボーとしても知られる。"
+  },
+  "avipn8cs66": {
+    "defaultMessage": "R820T2またはR860チューナーを搭載したRTL2832Uドングルは、これまで作られた中で最も安価かつ実用的な受信機であり、WaveSharkがデコードする対象の大部分は、この受信機を前提として設計されています。Wi-Fi、Bluetooth、テレビ放送、ドローンの映像リンクを除く、ここで取り扱うすべてのプロトコルには、約2.4 MS/sの利用可能な帯域幅で十分です。"
+  },
+  "ay8432qs36": {
+    "defaultMessage": "ユースケースを読む"
+  },
+  "azchfhqzf2": {
+    "defaultMessage": "トランスクリプト"
+  },
+  "b2dh1gokfv": {
+    "defaultMessage": "SDR用AISデコーダー - WaveShark"
+  },
+  "b441gaw3v2": {
+    "defaultMessage": "チューニング"
+  },
+  "b4j99w8c76": {
+    "defaultMessage": "北米の公共事業メーター：SCM、SCM+、IDM形式での消費量、メーターID、タイプ。"
+  },
+  "b6uhtvxtqh": {
+    "defaultMessage": "VHF と UHF ペイジング"
+  },
+  "b70orc7ob7": {
+    "defaultMessage": "データレートとチャネル"
+  },
+  "b7i90hkgf5": {
+    "defaultMessage": "キャップコードとフレーム位置"
+  },
+  "ba5btrqnsg": {
+    "defaultMessage": "RTL-SDR"
+  },
+  "bc0kaac6y0": {
+    "defaultMessage": "用途別のおすすめラジオ"
+  },
+  "bcxv98u65k": {
+    "defaultMessage": "100 kHz から 3.8 GHz、Mini は 10 MHz から"
+  },
+  "bf6nt5m2qh": {
+    "defaultMessage": "ステータスとメッセージテキスト、メッセージビュー内"
+  },
+  "bjvz910j6h": {
+    "defaultMessage": "機能"
+  },
+  "boe9hxbg9f": {
+    "defaultMessage": "無線ネットワークを監視し、後で読み返す"
+  },
+  "c91da206su": {
+    "defaultMessage": "RTL-SDR、Lバンドパッチアンテナ、LNA"
+  },
+  "c9j083hd4n": {
+    "defaultMessage": "406 MHzのCOSPAS-SARSATビーコンは、EPIRB、PLB、ELTの識別情報およびエンコードされた位置を読み取り、それらを同一の地図上に描画します。"
+  },
+  "cbuvhctbu9": {
+    "defaultMessage": "пейジャーチャネルは、その設置場所を問わず、常に пейджерチャネルとして機能するため、デコーダーは周波数帯域ではなく、形状に基づいて配置されます。受信機をローカルネットワークが使用している割当帯域に向けると、そのまま動作します。"
+  },
+  "ccu3wx5nor": {
+    "defaultMessage": "EGC、SafetyNET、NCS、海上安全"
+  },
+  "cf2758yl26": {
+    "defaultMessage": "スコールコード、および設定された緊急コード"
+  },
+  "cf9r9k4yyf": {
+    "defaultMessage": "モトローラの無線機がプッシュトゥトーク（PTT）キーを押し下げた際に送信する識別信号で、ユニット名を特定する情報を含み、アナログチャネルにおいて「誰が」発言しているかを明確にする。モトローラ・ユニットID、PTT ID、緊急ボタンとも呼ばれる。"
+  },
+  "cj194hvkq8": {
+    "defaultMessage": "Linux, Windows, macOS向けダウンロード"
+  },
+  "cji9zkweki": {
+    "defaultMessage": "24 MHz 以下の周波数帯では、標準のドングルは補助なしでは何も受信できないため、短波帯の受信にはアップコンバータまたは直接サンプリング改造が必要です。"
+  },
+  "ct8jbhzbq6": {
+    "defaultMessage": "2.4 GHz (2400-2483.5 MHz): 何が発信しているか"
+  },
+  "curuh59ikx": {
+    "defaultMessage": "単一のチャンネルではなく、スパン全体にわたる継続的なデコード"
+  },
+  "cwrody0m1s": {
+    "defaultMessage": "送信元および宛先のユニット ID"
+  },
+  "cx401c8i6x": {
+    "defaultMessage": "ページングデコーダ, capcode, 512 1200 2400 baud"
+  },
+  "cx4zym6vfg": {
+    "defaultMessage": "SDR用DMRデコーダー - WaveShark"
+  },
+  "cxzmbgzc8l": {
+    "defaultMessage": "1台の受信機、異なるアンテナとチューニング周波数"
+  },
+  "czxc7xwuvw": {
+    "defaultMessage": "局が送信する天気レポートフィールド"
+  },
+  "d07y2gj0vp": {
+    "defaultMessage": "操作：プッシュトゥトーク、緊急、ステータスまたは応答"
+  },
+  "d3d55gsii6": {
+    "defaultMessage": "サーバーが許可する場合、リモートダイヤル"
+  },
+  "d3rorxyezh": {
+    "defaultMessage": "任意の RTL-SDR、海上バンドアンテナ付き"
+  },
+  "d3waxb6stw": {
+    "defaultMessage": "バッテリーおよび故障フラグ"
+  },
+  "d4ixikncom": {
+    "defaultMessage": "9.6、40、100 kbit/sでのドアロック、センサー、プラグ、欧州および米国のチャネルに対応。"
+  },
+  "dchpg72mxn": {
+    "defaultMessage": "9.6、40、100 kbit/sのドアロック、センサー、プラグ、欧州および北米チャネル対応。ドアロック、スマートホーム、868.42 MHz、908.42 MHzとしても知られています。"
+  },
+  "ddn1vbcjwd": {
+    "defaultMessage": "SDR用ACARSデコーダー - WaveShark"
+  },
+  "df5sy3s7ib": {
+    "defaultMessage": "ドアロック、スマートホーム、868.42 MHz、908.42 MHz"
+  },
+  "dfnzulyhzn": {
+    "defaultMessage": "DABアンサンブルは周波数ではなくブロック名で識別され、その中に含まれる放送局が示されています。"
+  },
+  "dqawmcbdxj": {
+    "defaultMessage": "902-928 MHz"
+  },
+  "drqd384el8": {
+    "defaultMessage": "船舶タイプ、寸法、喫水"
+  },
+  "dtdf83skru": {
+    "defaultMessage": "978 MHz UAT"
+  },
+  "dvbxlf3vyy": {
+    "defaultMessage": "すべての音声プロトコルは、発信者、グループ、通話時間、チャネル、およびDMR、TETRA、P25、NXDN、M17、アナログリピータのいずれかを介した送信かどうかが記載された単一のコールリストに記録される。アナログチャネルでは、DTMFユニット番号とCTCSSトーンまたはDCSコードにより、どの無線機が送信を開始したか、およびそれがどのグループに属するかが特定される。"
+  },
+  "dvirr5ri8g": {
+    "defaultMessage": "配信マシンにはディスプレイ不要"
+  },
+  "dvzknvp12z": {
+    "defaultMessage": "ブロックは周波数帯計画に基づくスペクトラム上で命名されており、11Cはそのまま「11C」と読みます。"
+  },
+  "dxg45mebvs": {
+    "defaultMessage": "プロジェクト"
+  },
+  "dyilckfp8o": {
+    "defaultMessage": "別のマシン上のチューナー"
+  },
+  "dzfi871i2q": {
+    "defaultMessage": "wfm, nfm, am, usb, lsb, または cw。"
+  },
+  "e0rx1dbbs3": {
+    "defaultMessage": "SDR用モールスデコーダー - WaveShark"
+  },
+  "e13hygios3": {
+    "defaultMessage": "WindowsではLimeSDRが利用できません。LimeSuiteがWindows向けにパッケージ化されていないためです。"
+  },
+  "e1uvd8p7qi": {
+    "defaultMessage": "トラフィックチャネル上の音声とデータは暗号化され、その状態を維持します。"
+  },
+  "e1vmjzo3sl": {
+    "defaultMessage": "30ユーロのドングルで、このサイトで説明されている機能の大部分を実現できます。HackRFやLimeSDRを購入すれば、広帯域のプロトコル対応と送信機が得られ、別のマシンにチューナーを搭載することで、電波の届く場所にアンテナを設置できます。"
+  },
+  "e21cheupvs": {
+    "defaultMessage": "このビルドにはLimeSDRドライバーが含まれていません。LimeSuiteはWindows向けにパッケージ化されていないため、その無線機はリストに表示されません。それ以外の機能はLinux環境と同一で、CUDAランタイムが存在する場合、NVIDIAカードによる音声処理も同様に動作します。"
+  },
+  "e5rweyqmex": {
+    "defaultMessage": "バンドはスキャナーの設定に従い、ダイヤルをスパンを越えて回し、聞こえた音を保持するか、記録して次のチャネルへ進む。気にしない発見は「無視」マークを付けて処理する。誰も見ていないときにだけ生じる干渉こそ、このシステムが無人で運用される理由である。"
+  },
+  "e69h98cf5b": {
+    "defaultMessage": "ローカル名、サービスUUID、製造元データ"
+  },
+  "e72t990kub": {
+    "defaultMessage": "タイヤ圧力センサー、Ford、Renault、Schrader、315 MHz"
+  },
+  "ectbhbp6tf": {
+    "defaultMessage": "APCO-25, トランキング, トークグループ, 無線 ID"
+  },
+  "eh2wayuq98": {
+    "defaultMessage": "VDL Mode 2"
+  },
+  "ej56mdif3o": {
+    "defaultMessage": "WaveSharkは異なる問いに答えます。選択したチャネルを復調するのではなく、サンプリング範囲内のすべてをデコードし、検出されたものを一覧表示します。そのため、結果は単一の周波数からの音声ではなく、デバイス、航空機、船舶、ページャー、メッシュノードの一覧となります。"
+  },
+  "ek6drwkjz0": {
+    "defaultMessage": "1090で決して表示されない軽飛行機、およびそれらに気象情報と交通情報をアップリンクする地上局。"
+  },
+  "el6jd5eohy": {
+    "defaultMessage": "航空機トランスポンダー：全世界で1090MHzのADS-BおよびMode S、米国では軽航空機向けに978MHzのUATを使用。"
+  },
+  "eom5d6muj3": {
+    "defaultMessage": "PAN ID と送信元・送信先アドレス"
+  },
+  "esyfzm0aw8": {
+    "defaultMessage": "フルデュプレックス: 送信と受信を同時に行えます"
+  },
+  "f2026z95cq": {
+    "defaultMessage": "ボーレートと変調レベル"
+  },
+  "fat0wjn1v0": {
+    "defaultMessage": "初回起動時に隔離フラグを解除"
+  },
+  "faxtcbx36k": {
+    "defaultMessage": "シンプルで軽量、すぐに習得できます"
+  },
+  "fb5do6wyxj": {
+    "defaultMessage": "HF ウェザーファックス"
+  },
+  "fbso5nr5dm": {
+    "defaultMessage": "Airband"
+  },
+  "fbzfq5xgga": {
+    "defaultMessage": "車両通過時のタイヤ圧力センサー：センサーID、圧力、温度、ホイールの回転有無。タイヤ圧力センサー、フォード、ルノー、シュラーダー、315 MHzとしても知られています。"
+  },
+  "fcqf55ftzv": {
+    "defaultMessage": "WaveSharkはPチャネルのシグナルユニットおよびそれに載せられたメッセージを読み取り、これらは専用ツールではなく、VHFのメッセージと同様にメッセージビューに表示されます。"
+  },
+  "fg1krst402": {
+    "defaultMessage": "モードSはすべての旅客機が送信するトランスポンダー応答であり、ADS-Bはその中で航空機が自ら算出した位置情報を含む部分です。WaveSharkは、モードSフレームが検出器フレームより短いことを理由に、特定のチャネルではなくスペクトル全体で両者を読み取り、各航空機を地図上にプロットするとともに、その横に軌跡テーブルを表示します。"
+  },
+  "fkj8qkdeva": {
+    "defaultMessage": "ディスプレイなしでシグナルパスを確認します。"
+  },
+  "fkknfquam": {
+    "defaultMessage": "NOAA APTおよびMeteor-M LRPTのパスは到着時に描画され、HF気象ファックス図および気球は打上げから破裂までの追跡が行われます。"
+  },
+  "flot4044bl": {
+    "defaultMessage": "ネットワーク、そのセル、そして呼び出される対象、さらにtea機能を備えたソースビルドにおける暗号化に対してwgpuキー検索を行う。"
+  },
+  "fm7xr88a8t": {
+    "defaultMessage": "コントロール"
+  },
+  "fmhiksmr9k": {
+    "defaultMessage": "HackRF または LimeSDR"
+  },
+  "fn6w6jq0q1": {
+    "defaultMessage": "送信を行うため、ここでのチャネルは、マイク、トーン、録音されたキャプチャ、Flipperの<code>.sub</code>ファイル、POCSAGページ、APRSビーコン、SSTV画像、あるいはffmpegが開くことができるあらゆるものから構築されたDVB-T多重化信号全体となり得ます。"
+  },
+  "fpo68miik3": {
+    "defaultMessage": "受信機を最初に指向すべき場所であり、WaveSharkが起動する際もここが初期設定となります。ここにある機器は独自のスケジュールで送信を行っており、数秒ごとから数分ごとまで様々です。そのため、バンド全体を継続的にカバーすることで、スキャンでは構造的に検出できない信号も捕捉できます。"
+  },
+  "frrj8bw8jf": {
+    "defaultMessage": "すでにラジオをお持ちですか？"
+  },
+  "fxe5v0ey0t": {
+    "defaultMessage": "チャネルとキーイング時刻"
+  },
+  "g0bgdulx0d": {
+    "defaultMessage": "任意の RTL-SDR ドングル"
+  },
+  "g0iqanewpb": {
+    "defaultMessage": "137 MHz、400-406 MHz、HF"
+  },
+  "g46zw4ku4e": {
+    "defaultMessage": "NXDN"
+  },
+  "g50h3ct23f": {
+    "defaultMessage": "スペクトラム"
+  },
+  "g5cp0wzka1": {
+    "defaultMessage": "Itron ERT端末は北米全域のガス、水道、電力メーターに設置されており、数秒ごとに累計使用量を送信します。これにより、走行中の車両や固定式集信機が、担当者が現場を巡回することなく、通りのデータを収集できます。"
+  },
+  "g7b1ui094q": {
+    "defaultMessage": "868 MHz"
+  },
+  "g8as9v28dd": {
+    "defaultMessage": "多くの家庭で最も混雑している周波数帯：気象センサー、ドアコンタクト、ゲートリモコン、タイヤ圧センサー、その他免許不要送信機を内蔵して販売されているあらゆる機器。"
+  },
+  "g9ot3o9ct1": {
+    "defaultMessage": "LimeSDRでは送信ポートを正しく設定する必要があります。これは推測ではなく設定値であり、未選択のポートに向けて送信すると、かつて多くのユーザーに半日の時間を費やさせた無音の失敗（エラー表示なしの失敗）が発生します。"
+  },
+  "gaay69tb69": {
+    "defaultMessage": "SDR用COSPAS-SARSATビーコンデコーダー - WaveShark"
+  },
+  "gfwtsgz2e5": {
+    "defaultMessage": "すべての実行はモデルコンテキストプロトコル経由で受信者にサービスを提供するため、モデルは監視中のウィンドウ内でチューニングを行い、チャネルを開き、到着した内容を読み取り、シグナルチェーンを再配線できます。"
+  },
+  "gh4btqfa1q": {
+    "defaultMessage": "IEEE 802.15.4、PAN ID、スマートホームメッシュ"
+  },
+  "gjaek657hi": {
+    "defaultMessage": "モトローラ製無線機がプッシュトALKキーを押下した際に送信するバースト信号で、端末の識別名を付与することで、アナログチャネルにおいて「何を」伝えているかだけでなく「誰が」伝えているかも判別できるようにする。"
+  },
+  "gjd4ao4kpj": {
+    "defaultMessage": "地上局アップリンク：送信している気象および交通製品"
+  },
+  "gpwg5ryyw1": {
+    "defaultMessage": "違いは、何を実行させるかを誰が決定するかという点にある。SDRangelではチャネルにデモジューレータを配置するが、WaveSharkではスパン内のすべてのスキャナーが連続して動作するため、1分ごとに1回送信するセンサーであっても、まさにその周波数を指向していなくても検出される。得られるのは、計器ラックではなく、パケットストリームとそのビューである。"
+  },
+  "gqhp4kd70f": {
+    "defaultMessage": "バッテリーフラグ、チャネル、リモコンで押されたボタン"
+  },
+  "gqr196bglq": {
+    "defaultMessage": "成熟しており、大規模なユーザーベースとドキュメントを備える"
+  },
+  "grmnvngnh": {
+    "defaultMessage": "北米では、同種のトラフィックは主に315 MHzおよび915 MHzで動作しており、タイヤ圧力センサーは315 MHzで動作しています。"
+  },
+  "grpxcomdcx": {
+    "defaultMessage": "VDLモード2は、ヨーロッパの大部分の航空会社およびその他の多くの地域でACARSに取って代わった。これは25 kHzのチャネル内で31,500ビット/秒のD8PSKであり、その下層のAVLCフレームがACARSメッセージおよびATNトラフィックを伝送する。"
+  },
+  "gsmxjbfz7n": {
+    "defaultMessage": "x86_64 · msi と zip"
+  },
+  "gu1w6t6ged": {
+    "defaultMessage": "バンドIIIと短波"
+  },
+  "h1to1bfdpp": {
+    "defaultMessage": "1090 / 978 / 131 MHz"
+  },
+  "h2qms9ol75": {
+    "defaultMessage": "気象観測気球が測定した位置の気温と湿度"
+  },
+  "h54q5klru5": {
+    "defaultMessage": "公開チューナー"
+  },
+  "h6gr4k3gdg": {
+    "defaultMessage": "アマチュア無線のVHFおよびUHF（144-148 / 430-450 MHz）：そこで何が発信されているか"
+  },
+  "h9zpj42t30": {
+    "defaultMessage": "SDRでサイト調査と干渉源の特定 - WaveShark"
+  },
+  "hg5n65ai4j": {
+    "defaultMessage": "最大 30 MHz"
+  },
+  "hnnqyqjm4k": {
+    "defaultMessage": "CWチャネルは、送信された速度に関わらず、リピーターや送信局の位置を識別するビーコンを含むテキストとして読み取ります。CWデコーダー、QRS、ビーコンとも呼ばれます。"
+  },
+  "hokelj92gm": {
+    "defaultMessage": "周囲で送信されている熱、水、ガス、電力のメーターに関する情報：製造元、メーター番号、バージョン、タイプ。WM-BusモードT、スマートメーター、OMS、868.95 MHzとも呼ばれる。"
+  },
+  "hpbp8u5xij": {
+    "defaultMessage": "NOAA APT"
+  },
+  "hs2eyet78d": {
+    "defaultMessage": "船用VHFとLバンド"
+  },
+  "htt1hvlg0y": {
+    "defaultMessage": "SAMEヘッダーとは、気象ラジオ警報の先頭に送信されるデータバーストであり、警報の内容、適用対象の郡コード、発行時刻、有効期限を正確に示します。これはアナウンサーが言葉を発する前に、警報全体を機械可読形式で表現したものです。"
+  },
+  "hu5ddxnmcf": {
+    "defaultMessage": "圧力と温度"
+  },
+  "hufgqk0thh": {
+    "defaultMessage": "出力内容"
+  },
+  "hutd1k7wll": {
+    "defaultMessage": "受信機が実行しているグラフは、各ステージが何をしてきたかを示す形で描画されています。手動モードではこれを編集し、送信機は矢印の向きが逆になった同じグラフです。"
+  },
+  "hxt5l69syn": {
+    "defaultMessage": "お探しのページはありません。スペクトラムはあります。"
+  },
+  "i42qjt06zy": {
+    "defaultMessage": "ADS-B and Mode S"
+  },
+  "i9culi1nx8": {
+    "defaultMessage": "リモートチューナー"
+  },
+  "idagbwine0": {
+    "defaultMessage": "すべてのフラグ、そして最も重要な2つ。"
+  },
+  "ifmz7mezv": {
+    "defaultMessage": "メッセージの優先度、通常から緊急まで"
+  },
+  "ihjsd3b7ud": {
+    "defaultMessage": "118-137 MHz"
+  },
+  "iltfm7mgwt": {
+    "defaultMessage": "バンド"
+  },
+  "ir1vtswptc": {
+    "defaultMessage": "極軌を周回する気象衛星は、1日に数回、約15分間上空を通過し、その直下の気象状況を画像として送信する。これは最も安価な衛星受信手段である。"
+  },
+  "it4zp1fpqb": {
+    "defaultMessage": "デコードされたすべてのバーストを rtl_433 形式のキャプチャとして書き出します。"
+  },
+  "iuo03saav1": {
+    "defaultMessage": "検知したすべてのデバイスを MQTT 経由で Home Assistant に公開します。"
+  },
+  "ivr857t0hl": {
+    "defaultMessage": "送信可能な無線機で"
+  },
+  "iwj4tbf4gu": {
+    "defaultMessage": "Windows版WaveSharkをダウンロード"
+  },
+  "iwm861r0m2": {
+    "defaultMessage": "マルチプレックス内のサービス、ラベルと言語"
+  },
+  "iyl6to7y09": {
+    "defaultMessage": "コールバスとメッセージバスが備わっており、オンエアランプを備えているため、自動化機能がチャンネルのビジー状態やページ受信に反応できます。"
+  },
+  "j34md0ov4t": {
+    "defaultMessage": "174-240 MHz"
+  },
+  "j75dv4lr3d": {
+    "defaultMessage": "SOSビーコン"
+  },
+  "j7pl9x7h9g": {
+    "defaultMessage": "カメラがスパンから直接撮影した映像は、PALまたはNTSC方式のカラー信号であり、音声サブキャリアが同時に検出され、キャリアはラインレートに基づいて識別される。"
+  },
+  "jarn37wd59": {
+    "defaultMessage": "データ側の方がより興味深い。ACARSとVDLモード2は、乗務員と航空会社がやり取りするメッセージを搬送し、WaveSharkは特定のチャネルを選択するのではなく、割り当て帯域全体でそれらを解読する。"
+  },
+  "jf9tv7r1uu": {
+    "defaultMessage": "デバイス調査、航空機、船舶、音声ネットワーク、ドローン、気象衛星など。"
+  },
+  "jgljvohn2y": {
+    "defaultMessage": "512、1200、2400ビット/秒のPOCSAGおよび1600、3200ボーのFLEX、平文のメッセージテキスト、そして消防車や救急車のページャを起動させる2音のペア、さらにモトローラ無線機がプッシュトールークで送信するMDC-1200ユニットID。"
+  },
+  "jhg1lj4uqo": {
+    "defaultMessage": "エージェント"
+  },
+  "jifvbtt13l": {
+    "defaultMessage": "テキストを伴うすべての通信は、ページャーのキャップコード、TETRAのトークグループ、メッシュチャネル、RTTY、あるいはモールスキーからのものかを問わず、2分以内に同じ語が2回出現した場合は、1つのメッセージにカウントが付与されたものとして扱う。これは、ページャーがすべてのページングを2回送信するためである。"
+  },
+  "jn8pkegslp": {
+    "defaultMessage": "これらの2つの周波数が航空機追跡のすべてを構成します。1090MHzはすべての旅客機からのモードS応答およびADS-B位置報告を、978MHzはUATを伝送します。UATはアメリカの一般航空機および、それらに気象情報と交通情報をアップリンクする地上局で使用されています。"
+  },
+  "jve0c2pv2p": {
+    "defaultMessage": "Open Drone ID、ドローンがBLEで送信する場合"
+  },
+  "k05z3zraki": {
+    "defaultMessage": "ISM機器のデコード"
+  },
+  "k0u1cret1l": {
+    "defaultMessage": "両者は互いのキャプチャを読み取ります。<code>--record</code> は rtl_433 形式のファイルを書き出すため、片方がキャプチャしたバーストはもう片方のためのテストフィクスチャになります。"
+  },
+  "k2wlvmh2qo": {
+    "defaultMessage": "安価なSDRを特定の周波数帯に配置し、WaveSharkを使用すれば、周囲で送信されている情報が判明します。センサー、TPMS、航空機とそのデータリンク、船舶、気球式気象観測装置、ページャー、DMR、TETRA、P25、NXDN、M17、LoRaメッシュ、Wi-Fi、Bluetooth LE、Zigbee、GSM、ドローン、気象衛星、テレビ放送など、広範な周波数帯域全体で継続的にデコードされます。"
+  },
+  "k4nppvpzrb": {
+    "defaultMessage": "アナログチャンネルも自らのアイデンティティを放棄する：モトローラのキーが押され、DTMFのユニット番号、そして無線機がどのグループに属しているかを示すCTCSSトーンやDCSコードが送信されると、MDC-1200はバーストする。ページングも同じ周波数帯域を共有しており、2トーンペアで発報される火災報知器のページングは、音声指令に先立つ警報である。"
+  },
+  "k55iv8kpbe": {
+    "defaultMessage": "キービューでは、暗号化されたすべてのチャネルとその鍵に関する既知の情報がリスト表示されます。ソースビルドでのみ利用可能な <code>tea</code> 機能により、暗号と、wgpu 経由で任意の GPU 上で実行される鍵検索が連携し、暗号化されたチャネルを単にカウントするだけでなく、処理することが可能になります。"
+  },
+  "k5a50jidry": {
+    "defaultMessage": "公開鍵の下に表示されるMeshtasticテキスト、MeshCoreの広告、および割り当てられたアドレスを持つLoRaWAN参加リクエスト。また、Meshtastic、MeshCore、LoRaWAN、チャープスプレッドスペクトルとしても知られている。"
+  },
+  "k62bp1wbgx": {
+    "defaultMessage": "Home Assistant"
+  },
+  "k68i8dz2xm": {
+    "defaultMessage": "Zigbee、Thread、およびMatter over ThreadはすべてIEEE 802.15.4を基盤としており、そのため1つのデコーダーでこれらすべてを解析できます。読み取れるのはネットワーク層であり、PAN ID、ショートアドレスおよび拡張アドレス、そしてどのデバイスがどのデバイスのルーティングを担当しているかが確認できます。"
+  },
+  "k8b69jcqif": {
+    "defaultMessage": "SDR用DRMデコーダー - WaveShark"
+  },
+  "kbkj8zxmxq": {
+    "defaultMessage": "POCSAG ペイジング"
+  },
+  "kc5791tpe9": {
+    "defaultMessage": "868 / 908 MHz"
+  },
+  "kfkbh7wrmf": {
+    "defaultMessage": "通話が暗号化されているか"
+  },
+  "kg1g0ykgdn": {
+    "defaultMessage": "チャネル幅、12.5 または 6.25 kHz"
+  },
+  "kl0vfrief7": {
+    "defaultMessage": "Band III (174-240 MHz): 何が発信しているか"
+  },
+  "ko2yrq7tlw": {
+    "defaultMessage": "バンド"
+  },
+  "kpehph1moy": {
+    "defaultMessage": "macOS版ビルドは、DVB-Tマルチプレックスからサービスを受信してデコードするのに十分な新しさを備えたffmpegを備えているため、テレビ映像を表示できる唯一のビルドです。音声モデルはMetal上で実行されます。"
+  },
+  "kr1ko69qe8": {
+    "defaultMessage": "EU、米国、日本の呼出周波数で、Mic-Eを含むパケット局や車両トラッカーが運用されています。KISS TNCの--kiss-listenオプションにより、同じトラフィックが任意のパケットプログラムに渡され、AX.25が無線機を通じて送信されます。"
+  },
+  "kvf0tjulb": {
+    "defaultMessage": "RCリンク"
+  },
+  "kxkfag3djj": {
+    "defaultMessage": "他のデコーダーとの照合済み"
+  },
+  "kylmd34xgg": {
+    "defaultMessage": "航空機データリンクの衛星側：VHF地上局が受信できない場所で、ACARSと同じメッセージを送信する。衛星ACARS、SatCom、Lバンド航空通信とも呼ばれる。"
+  },
+  "kyvv8atr6u": {
+    "defaultMessage": "どの用途にどの無線機を使うか：狭帯域プロトコルにはRTL-SDRドングル、Wi-Fi、Bluetooth、ドローンのリモートID、テレビ放送にはHackRF OneまたはLimeSDR、そして別のマシン上のチューナーにはiqstreamまたはrtl_tcp経由で接続する。"
+  },
+  "kzqgljrzt": {
+    "defaultMessage": "デフォルト鍵を使用するMeshtasticチャネルはテキストにデコードされますが、独自の鍵を使用するチャネルでは、テキストなしでノード、ホップ数、パケットタイプが表示されます。MeshCoreの広告では、自己を通知するノードの名前が表示されます。LoRaWANの参加要求にはデバイスEUIが含まれており、ペイロードが暗号化されていてもセンサを識別できます。"
+  },
+  "l2xfnjx8x3": {
+    "defaultMessage": "--stream <host>"
+  },
+  "l5oalybpw2": {
+    "defaultMessage": "ランダム化フラグ付きの送信機および受信機アドレス"
+  },
+  "l7dp49nlrl": {
+    "defaultMessage": "マルチプレックス上のサービス、名称とタイプ付き"
+  },
+  "lddw5tuvk7": {
+    "defaultMessage": "バインディングフレーズのハッシュまたはアドレス (リンクによって異なる)"
+  },
+  "lkb1pqh6rm": {
+    "defaultMessage": "センサーID、ホイールごとに一意"
+  },
+  "lq4uhjucpv": {
+    "defaultMessage": "RTTY"
+  },
+  "lx1enynw62": {
+    "defaultMessage": "コールバス、メッセージバス、オンエアランプ"
+  },
+  "lxq3btch7q": {
+    "defaultMessage": "DRMは、他の放送方式が利用できない地域で用いられるデジタル放送標準規格です。WaveSharkは多重化されたサービス、その言語およびラベルを読み取れますが、音声はまだ読み取れません。"
+  },
+  "m6jah23yon": {
+    "defaultMessage": "到着順の3つのMSU-MRチャネル"
+  },
+  "m942ancelh": {
+    "defaultMessage": "パケットステーション、ディジピーター、気象ステーション、車両追跡装置に対応し、KISS TNCにより、ご自身のソフトウェアが同じ無線機を利用できます。"
+  },
+  "mc16r6dfm0": {
+    "defaultMessage": "繰り返す価値のある警告"
+  },
+  "mdoelpfzut": {
+    "defaultMessage": "ビデオ"
+  },
+  "mf34i99uvg": {
+    "defaultMessage": "900 MHz は RTL-SDR、1800 MHz は HackRF または LimeSDR が必要"
+  },
+  "mf7ossludu": {
+    "defaultMessage": "アンテナを基準に描画された範囲リング付きの位置"
+  },
+  "mlfpzg29ei": {
+    "defaultMessage": "FM受信機ではステレオおよびRDSを読み取り、<code>--mpx</code>オプションは局の多重化信号に実際に含まれている内容を報告します。これにより、RDSデコードの失敗が送信機側の問題か受信機側の問題かを推測せずに特定できます。"
+  },
+  "mnhyf1xisk": {
+    "defaultMessage": "RFセンサーをMQTT経由でHome Assistantに接続 - WaveShark"
+  },
+  "mo6b0w6twe": {
+    "defaultMessage": "インターフェースと同様に、ヘッドレススキャンとログを実行します。これはアンテナ設置箇所の機器で実行すべき処理です。"
+  },
+  "moow4lzsa6": {
+    "defaultMessage": "衛星ビューでは、翌日の観測局上空を通過するパスの一覧を、最大仰角とスカイプロット付きで表示します。その後、パス全体にわたってドップラー効果によるダウンリンク追跡を行い、衛星が沈んだ時点でチャネルを閉じます。誰もダイヤルを監視する必要はありません。"
+  },
+  "mp5rpb369q": {
+    "defaultMessage": "LimeSDRは、紙面上では2つのラジオの中で優れた性能を示しています。12ビット対8ビット、フルデュプレックス対ハーフデュプレックス、そしてUSB版には2チャネルを備えています。混雑した周波数帯を受信し、近くに強力な送信機がある場合、重要になるのはこれらの追加ビット数です。"
+  },
+  "mscxls5b0d": {
+    "defaultMessage": "デフォルトでオン。LimeSuiteが必要であるため、Windows版では削除されています。"
+  },
+  "mssdm24xaj": {
+    "defaultMessage": "iqstream と rtl_tcp"
+  },
+  "msxsq24m9t": {
+    "defaultMessage": "音声の半分はAM方式であり、これがエアバンドが特有の音に聞こえる理由であり、他の音声チャネルと同様にここで記録されている。ズーム9を超えると、地図には空港とその航空交通管制周波数が表示されるため、聞こえる管制塔は、見える航空機からワンクリックの距離にある。"
+  },
+  "myfjeyqiu": {
+    "defaultMessage": "RTL-SDRと、そのバンドに合わせたアンテナ"
+  },
+  "n0fuvzicg5": {
+    "defaultMessage": "メーターが計数する消費量合計"
+  },
+  "n24jepf0qt": {
+    "defaultMessage": "1090 と 978 MHz"
+  },
+  "n2wmsuoh6g": {
+    "defaultMessage": "モード (VIS ヘッダから検出)"
+  },
+  "n4vnoy3hsy": {
+    "defaultMessage": "気象衛星画像, NOAA 15, NOAA 18, NOAA 19, 137 MHz"
+  },
+  "n7v207iu60": {
+    "defaultMessage": "MDC-1200"
+  },
+  "n9a24c8ed": {
+    "defaultMessage": "DABアンサンブルとその中の各局、ならびにそれらの番組タイプとビットレート、また短波または中波におけるDRM多重化とそのサービス、言語、ラベル。どちらもその内容を参照するだけで、まだ音声は出力されていない。"
+  },
+  "nb5tyo0rny": {
+    "defaultMessage": "到達周波数帯 →"
+  },
+  "ncvw3buhv5": {
+    "defaultMessage": "Apple silicon · dmgおよびバイナリ"
+  },
+  "nfj5vvvezo": {
+    "defaultMessage": "アンサンブルとその中の各ステーション、ならびにそれらの番組種別とビットレートは、送信機が使用するブロックから読み取られます。"
+  },
+  "ni12ux4no1": {
+    "defaultMessage": "<code>--record</code> は各バーストを rtl_433 形式のキャプチャとして書き出すため、WaveShark と rtl_433 の両方で読み戻すことができます。バンドを一度キャプチャし、変更のたびに再生することで、ラジオ機器なしで毎回同じ結果が得られます。"
+  },
+  "nipfxyxeni": {
+    "defaultMessage": "ディストリビューションまたはHomebrewからLimeSuiteをインストールしてください。macOSアプリには独自のコピーが同梱されており、バイナリ単体ではHomebrewのコピーを読み込みます。"
+  },
+  "nkuqo1fnf4": {
+    "defaultMessage": "航空機と同一の地図上に、2つのAISチャネルから同時に船舶の位置と識別情報を表示。"
+  },
+  "nkuuwlkq6t": {
+    "defaultMessage": "この帯域は多くの人が最初に利用するものですが、そこに存在するデバイスは、一般的には「無線」として認識されません。屋外の温度計、ドアベル、ゲートのリモコン、スーパーマーケットの棚ラベルなどがその例です。これらにはほぼ例外なく安定したデバイスIDが付与されており、これが調査結果を「送信のリスト」ではなく「デバイスのリスト」として整理するための鍵となっています。"
+  },
+  "no4o6xpdmg": {
+    "defaultMessage": "大陸間を越えて届く周波数帯におけるモールス符号、RTTY、気象ファクスチャート、DRM放送。"
+  },
+  "npjtn8nxp4": {
+    "defaultMessage": "テレビにはHackRFまたはLimeSDR、DABとFMにはドングル"
+  },
+  "npq37ojgln": {
+    "defaultMessage": "メッセージ本文"
+  },
+  "nq0b4ljgq2": {
+    "defaultMessage": "9.6、40、100 kbit/sのドアロック、センサー、プラグ、欧州および北米チャネル対応。"
+  },
+  "nrrcq9trps": {
+    "defaultMessage": "ワイヤレスM-BusモードTは、欧州の多くの検針メーターがドライブバイ方式または固定式コレクタに対して自己報告を行う際に使用されるモードである。測定値が暗号化されていても、すべてのメーターは平文で自己識別情報を送信するため、集合住宅内のメーターは製造元とシリアル番号で識別可能なリストとして整理される。"
+  },
+  "nwqz24hnk3": {
+    "defaultMessage": "SDR用HF気象ファクスデコーダー - WaveShark"
+  },
+  "ny5wndawu0": {
+    "defaultMessage": "45個のデコーダー、その多くはrtl_433ファミリーに由来します。気象ステーション、温度計、フォードやルノーを含むTPMS、ドアコンタクト、ゲートリモコン、セキュリティセンサー、棚ラベルなど、追跡可能な安定したデバイスIDを備えたものが多いです。"
+  },
+  "o1b5pzilxp": {
+    "defaultMessage": "サービス名と番組タイプ"
+  },
+  "o1vmefkksn": {
+    "defaultMessage": "SDR用POCSAGページングデコーダー - WaveShark"
+  },
+  "oqtemrj7c": {
+    "defaultMessage": "送信"
+  },
+  "otf9oyuu4k": {
+    "defaultMessage": "EAS と SAME"
+  },
+  "ou0b999ff3": {
+    "defaultMessage": "ハードウェア"
+  },
+  "ovcmttwqh3": {
+    "defaultMessage": "このアプリはノタリゼーション（公証）ではなくアドホック署名が適用されているため、初回起動時には右クリックして「開く」を選択するか、隔離フラグを手動で解除する必要があります。これはソフトウェアに関する警告ではなく、Appleによるゲートキーピング（管理）です。"
+  },
+  "ovtaepv3jw": {
+    "defaultMessage": "<code>--ha-spaces ism,wmbus</code> は、対象を自分のセンサーやメーターに限定します。これはほぼ常に望ましい設定です。携帯電話が多数利用している周波数帯でこの設定を開放すると、15分ごとにアドレスが変わるデバイスが家中に溢れかえってしまいます。そのため、デフォルトではより狭い範囲に限定されています。"
+  },
+  "oyr37k9wme": {
+    "defaultMessage": "SOSビーコンの識別情報と、そのビーコンが符号化している位置情報。送信の瞬間に地図上にプロットされる。EPIRB、PLB、ELT、406 MHzのSOSビーコンとも呼ばれる。"
+  },
+  "oyyuolzy7a": {
+    "defaultMessage": "幅広い無線機への長年のサポート"
+  },
+  "ozfu4vowf6": {
+    "defaultMessage": "WaveSharkは、キャリアをそのラインレートから特定し、対応するチャンネル（R1、F4、A5など）を割り当てて表示するため、周波数を別途調べる必要がありません。"
+  },
+  "p3qg88eq2e": {
+    "defaultMessage": "パケットステーション、ディジピーター、気象ステーション、車両追跡装置、KISS TNCを備え、ご自身のソフトウェアで同じ無線機を利用できます。AX.25パケット、Mic-E、144.800 MHz、144.390 MHzとしても知られています。"
+  },
+  "p4lz7kuc8h": {
+    "defaultMessage": "チューニング周波数は見る場所、spanは収集する帯域です。"
+  },
+  "p7irno6a1v": {
+    "defaultMessage": "WaveShark：無線周波数帯域向けのWireshark。3つの信号ピークを含むスペクトラムトレース上に重ねて表示。"
+  },
+  "p9o32qnekh": {
+    "defaultMessage": "位置情報付きの機器調査とWiGLE CSVエクスポート"
+  },
+  "pgt3rkwz60": {
+    "defaultMessage": "対応する任意の無線機と、その横に置かれた小型マシン"
+  },
+  "pjkc6hj0at": {
+    "defaultMessage": "バイアスティーは同軸ケーブルからマストヘッドアンプに電力を供給し、これが1090MHzのセットアップが正常に動作するか、期待外れになるかの分かれ目となる。"
+  },
+  "pki0nonk4x": {
+    "defaultMessage": "MOD"
+  },
+  "pl2hp929rk": {
+    "defaultMessage": "<code>--probe</code> は表示なしで信号経路をテストし、<code>--squelch-probe</code> は周波数におけるスquelchの読み取り値を報告します。"
+  },
+  "pl78xp3usq": {
+    "defaultMessage": "ウィンドウの有無に関わらず、到着したすべてのパケットを出力します。"
+  },
+  "pn0hfb62ob": {
+    "defaultMessage": "SDRで航空機を追跡し、送信データを解読 - WaveShark"
+  },
+  "pnnpdc8wq3": {
+    "defaultMessage": "librtlsdrをインストールするか、パッケージに任せる"
+  },
+  "pqbk79k7rs": {
+    "defaultMessage": "ダッシュボード"
+  },
+  "py7up7bu9e": {
+    "defaultMessage": "アドバタイジングアドレス、ランダム化の有無"
+  },
+  "q1aj9udmd2": {
+    "defaultMessage": "SDR用978 MHz UATデコーダー - WaveShark"
+  },
+  "q1cisskq9t": {
+    "defaultMessage": "nostrのWaveSharkディレクトリを通じて共有されたiqstreamサーバーのライブマップ。各受信機の位置、搭載チューナー、設定内容、およびアクセス用アドレスを表示します。"
+  },
+  "q4g1bzg2ac": {
+    "defaultMessage": "約 2.4 MHz"
+  },
+  "q9ghb6p6co": {
+    "defaultMessage": "リモコン、センサー、アラームの逆解析"
+  },
+  "qel5eov2i0": {
+    "defaultMessage": "MCPを提供する場所、またはオフ。特に指定がない限り127.0.0.1:8931。"
+  },
+  "qems1bibnr": {
+    "defaultMessage": "ページングは、現在も病院、消防機関、現場の警報システムが人々に情報を届けるための主要な手段であり、POCSAGは、対象の пейジャーを特定するためのキャップコードとともに、メッセージをプレーンテキストとして伝送します。ネットワークは通常、各ページングメッセージを繰り返し送信するため、WaveSharkは2分以内に2回受信した同一のメッセージを1つのメッセージとして集約し、件数を付与して表示します。"
+  },
+  "qj9gjdkpjq": {
+    "defaultMessage": "テキストはメッセージビューに配置され、他のすべての要素と同様に文字を保持します。これがポイントです。ビーコン識別子とページャーメッセージは、同じ種類のレコードだからです。"
+  },
+  "qn2ai0o7wl": {
+    "defaultMessage": "ドローン、操縦者、ハンドセットを確認する"
+  },
+  "qo98e1ehiy": {
+    "defaultMessage": "ラジオゾンデは気象観測の半分の役割を担う。Vaisala RS41、Graw DFM、Meteomodem M10およびM20、iMet、Meisei、MRZ、LMS6の気球が地図上にプロットされ、シリアル番号、高度、上昇速度、および観測対象である気温と湿度が表示される。チャンネルは送信機が漂う方向を追跡し、SondeHubの打ち上げサイトからは次の気球の打ち上げ時刻が確認できる。"
+  },
+  "qqvnbj1uic": {
+    "defaultMessage": "HackRF One または LimeSDR"
+  },
+  "qqzp7sxnuu": {
+    "defaultMessage": "137 MHz"
+  },
+  "qrdz1wv2b6": {
+    "defaultMessage": "M17は、ライセンスなしで実装できるように設計されており、そのため公開されているビルドにおいて、音声にデコードされる唯一のデジタル音声モードとなっている。コールサインは数値IDではなくストリーム内に含まれるため、通話は2つの数字ではなく2人の人物として認識される。"
+  },
+  "qu6337ahba": {
+    "defaultMessage": "863-870 MHz"
+  },
+  "qz3qqo5ui8": {
+    "defaultMessage": "この周波数には何もありません"
+  },
+  "r0neyww55y": {
+    "defaultMessage": "DJI DroneID、Open Drone ID、ASTM F3411、オペレーター位置"
+  },
+  "r1j9satb68": {
+    "defaultMessage": "RC 制御リンク"
+  },
+  "r2id9uzhzq": {
+    "defaultMessage": "DAB"
+  },
+  "r4vbi1q9ud": {
+    "defaultMessage": "ISMバンドのカバレッジは薄い部分です：rtl_433には約250のデバイスデコーダーがあり、それらに合わせる作業が課題です。各プロトコルには<decodes>専用のページ</decodes>があり、そこから得られる情報が記載されています。<bands>バンドガイド</bands>には、どの周波数帯で何が発信されているかが示されています。<registry>レジストリ</registry>は受信機が到達可能なすべてのプロトコルを列挙しており、<changelog>変更履歴</changelog>には直近の追加・変更内容が記録されています。"
+  },
+  "r4xilm3b7z": {
+    "defaultMessage": "ノードID、ホップ制限、チャネルハッシュ"
+  },
+  "r5hh4ahz0p": {
+    "defaultMessage": "音声"
+  },
+  "r5ive2uwg1": {
+    "defaultMessage": "ドローンリモートID"
+  },
+  "r8a865mnif": {
+    "defaultMessage": "フレームタイプと平文の時のコマンドクラス"
+  },
+  "rb0z8bsqxf": {
+    "defaultMessage": "433 / 868 / 915 MHz"
+  },
+  "rbx4lphhpi": {
+    "defaultMessage": "C4FMフレームで北米の公共安全無線が運用する、通話グループ、無線機ID、および通話のキー。APCO-25、トランキング、通話グループ、無線機IDとも呼ばれる。"
+  },
+  "rchwylzo8e": {
+    "defaultMessage": "他のツールから操作可能"
+  },
+  "rdc764b3z8": {
+    "defaultMessage": "メッセージ本文全体"
+  },
+  "rgiwyaolql": {
+    "defaultMessage": "メモリバンクはChirp、CSV、Freqman、SDR#のリストからインポートし、Chirp CSV形式でエクスポートします。送信可能な無線機では、POCSAGページ、APRSビーコン、RTTYオーバー、BLE広告、SSTV画像、RDS名が送信されます。"
+  },
+  "rgx0mx5nun": {
+    "defaultMessage": "当サイトでは、最も詳細なデコード処理を行います。8 MHz OFDM多重信号を復調し、トランスポートストリームを復元、サービステーブルを読み取り、番組を映像と音声としてデコードします。報告される送信パラメータは、放送エンジニアが求めるものです。"
+  },
+  "rj1ngyto0o": {
+    "defaultMessage": "言語"
+  },
+  "rnljkhn2rf": {
+    "defaultMessage": "ロシアのデジタル気象衛星：パスが通過する際、MSU-MRの3つのチャネルが一度に8行のストリップを描き出す。メテオルM2、MSU-MR、デジタル気象衛星とも呼ばれる。"
+  },
+  "rpi644veyt": {
+    "defaultMessage": "セットアップカードまたは<code>--iqstream-listen</code>オプションを使用して、iqstream経由でspanを提供します。その後、設定のディレクトリセクションで<strong>list</strong>をオンにし、<strong>locate</strong>をオンにして地図に表示させます。パブリックホスト欄を空欄にしておくと、ルーターはUPnP、PCP、またはNAT-PMP経由でポートを開くよう要求されます。<code>wave1090</code>ボックスは<code>--iqstream-list</code>オプションにより、自身をリストに表示します。"
+  },
+  "rr4mv16s7t": {
+    "defaultMessage": "地上デジタル、トランスポートストリーム、Freeview、マルチプレックス"
+  },
+  "rrjtz7nf9s": {
+    "defaultMessage": "SondeHubの打ち上げ場所は、次の放出までの残り時間とともに地図上に表示されるため、どのタイミングで受信すべきかがわかります。同じ録音データを用いてSDRangelと照合済みです。"
+  },
+  "rrk7knooy5": {
+    "defaultMessage": "バンドを選択し、ラジオを向けるだけで、その周波数帯に存在するすべてのデコーダが同時に動作します。これらのページでは、各バンドに何が放送されているか、それを聴くために必要な条件、そしてどこから始めるべきかを説明しています。"
+  },
+  "rsoo8ybq42": {
+    "defaultMessage": "WaveSharkをダウンロード"
+  },
+  "ruocyarqjz": {
+    "defaultMessage": "DMR、P25、NXDN、TETRA、M17、アナログ音声"
+  },
+  "ruxit0vqit": {
+    "defaultMessage": "390-400 MHz"
+  },
+  "rxse8jrsgq": {
+    "defaultMessage": "FLEXは、大規模なページングネットワークが採用した方式であり、フレームをインターリーブすることで、複数のページャが効率的に無線チャネルを共有できるようにしています。1600ボaudの2レベル方式と3200ボaudの4レベル方式の両方をデコードできます。"
+  },
+  "s63rdj9e7f": {
+    "defaultMessage": "地図上にシリアル番号、高度、上昇速度を表示した気象観測風船、8つのグループ、送信機が漂流するに従ってチャンネルが追従。"
+  },
+  "sa6xlmnaaf": {
+    "defaultMessage": "アンテナの向き次第"
+  },
+  "sa89wr862": {
+    "defaultMessage": "リンクビューが適切な場所です。航空機と地上局のペアごとに1行を割り当て、それらの間で通過したフレームを展開して下に表示します。136.975 MHzは共通チャネルですが、割り当て全体を一度に読み取ります。"
+  },
+  "sctkev09ox": {
+    "defaultMessage": "ユースケース"
+  },
+  "sehtqseaj4": {
+    "defaultMessage": "ロシアのデジタル気象衛星：パス（衛星の地上通過）時に、MSU-MRの3チャネルが8行分のストリップを一度に取得する。"
+  },
+  "sgc8qsdwl9": {
+    "defaultMessage": "帯域 {span} MHz、固定"
+  },
+  "sgwlhi7vir": {
+    "defaultMessage": "SDR用FLEXページングデコーダー - WaveShark"
+  },
+  "sllp83pq8i": {
+    "defaultMessage": "rtl_433ファミリーの45種類のデコーダー：気象ステーション、温度計、ドアコンタクト、ゲートリモコン、セキュリティセンサー、棚ラベル。別名：rtl_433、433.92 MHz、気象ステーション、ドアセンサー。"
+  },
+  "sq7ocfet1b": {
+    "defaultMessage": "P チャネル上のシグナルユニットタイプ"
+  },
+  "sxukbbuyum": {
+    "defaultMessage": "北米の短距離バンド：Itron ERTの検針用メーター、LoRa、908 MHz帯のZ-Wave、および多数の産業用テレメトリ。"
+  },
+  "t06pr1vko5": {
+    "defaultMessage": "SDRangelは、最も高性能なマルチプロトコルSDRアプリケーションであり、より多くのモードをサポートし、幅広いハードウェアに対応しているほか、長年の開発実績を誇ります。特定の周波数で特定のデモジュレーターを駆動し、すべてのパラメータを制御したい場合は、SDRangelがより適したツールです。"
+  },
+  "t1g98gafpt": {
+    "defaultMessage": "WaveSharkとrtl_433 - 各々の強み"
+  },
+  "t6bye6dqrj": {
+    "defaultMessage": "x86_64 · deb、rpm、およびバイナリ"
+  },
+  "t96hw1mkt0": {
+    "defaultMessage": "Lバンド"
+  },
+  "tkrnxyvuu3": {
+    "defaultMessage": "短波"
+  },
+  "tpwapvj6qs": {
+    "defaultMessage": "カバレッジは限定的であり、当サイトもそれを隠すつもりはありません。rtl_433には約250のデバイスデコーダーがあり、WaveSharkには45個あります。これらはrtl_433 25.02に対して、そのコーパスからの81件の録音を用いてフィールド単位で検証済みです。いかなる主張もないバーストも保持され、そのコーディングは推定され、ビットは切り出されます。"
+  },
+  "tvn6ka0vth": {
+    "defaultMessage": "P25フェーズ1フレームは、音声ペイロードが暗号化されているかどうかに関わらず、トークグループおよび送信元無線機IDを平文で保持するため、音声そのものを聞き取れないシステムにおいても、誰が誰と交信しているかというパターンを判読可能にする。"
+  },
+  "tvz0s72fbe": {
+    "defaultMessage": "RFセンサーを Home Assistant に接続"
+  },
+  "tyqhv8vch1": {
+    "defaultMessage": "Apple Silicon専用。署名済みだが未認証（notarized）のため、初回起動時は右クリックして「開く」を選択するか、<code>xattr -dr com.apple.quarantine /Applications/WaveShark.app</code> を実行してください。アプリにはffmpeg、librtlsdr、LimeSuiteが同梱されていますが、単体のバイナリ版はHomebrewからこれらを参照するため、実行前に <code>brew install ffmpeg librtlsdr limesuite</code> を実行してください。"
+  },
+  "tznaurebcd": {
+    "defaultMessage": "DABは複数のラジオ局を一つの送信にまとめ、アンサンブル（番組リスト）を読み取ると、そのバンドルに含まれる局、各局の番組の種類、および割り当てられたキロビット数が分かります。このキロビット数は、音質を決定する数値です。"
+  },
+  "u76o2cnhb6": {
+    "defaultMessage": "GSM基地局はビーコンチャネル上で連続的に送信しており、それを識別するために必要な情報はすべて平文で含まれています。具体的には、国コード、ネットワークコード、セルID、位置エリア、そしてその基地局が通知する隣接セルです。これは、送信を行わない受信機から、周囲のモバイル通信インフラを調査するものです。"
+  },
+  "ubd1ls7a3p": {
+    "defaultMessage": "acarsdec、航空会社データリンク、131.550 MHz"
+  },
+  "uevbn9w54w": {
+    "defaultMessage": "TETRAは公共安全および交通分野における欧州規格であり、そのブロードキャストではネットワーク名、セル名、および無線機が移動し得る近接セル名を通知する。呼び出し設定では呼び出される相手の識別情報を示すため、混雑したシステムでもノイズの壁としてではなく、構造化された情報として読み取ることができる。"
+  },
+  "ujsoqaudog": {
+    "defaultMessage": "WaveSharkのWindows版にはLimeSDRドライバーが同梱されていません。これはLimeSuiteがWindows向けにパッケージ化されていないためであり、ハードウェアに関する判断ではなく、パッケージング上の制約です。"
+  },
+  "ul4wcv0qhm": {
+    "defaultMessage": "デコーダーが認識できるすべての送信機がMQTT経由でHome Assistantのデバイスとなり、すでに所有しているセンサーに対してハブ、ブリッジ、クラウドアカウントのいずれも不要です。"
+  },
+  "uoeq5qq7gg": {
+    "defaultMessage": "コマンドライン"
+  },
+  "uq54z3w64e": {
+    "defaultMessage": "対応する任意のラジオ"
+  },
+  "ut2pt6mx8h": {
+    "defaultMessage": "デフォルトではループバック状態であり、チャネルが設定されない限り送信は行われません。"
+  },
+  "uw9rgvkmkr": {
+    "defaultMessage": "12 bit"
+  },
+  "v004piiaej": {
+    "defaultMessage": "SDR用APRSデコーダー - WaveShark"
+  },
+  "v0e31buq3h": {
+    "defaultMessage": "8ビットサンプリングのため、強い信号の隣に弱い信号がある場合、処理がより困難になります"
+  },
+  "v0iqa0uymq": {
+    "defaultMessage": "ISMバンドでのカバレッジは薄い部分です。rtl_433には約250のデバイスデコーダーがあり、WaveSharkには45個あります。フィールド単位で照合して確認しました。<bands>周波数帯域</bands>はどの周波数帯にどのようなサービスが存在するかを示し、<cases>ユースケース</cases>はこれらのサービスが実際にどのような用途で利用されているかを示しています。"
+  },
+  "v0tmgwl2lg": {
+    "defaultMessage": "ここにあるものはすべて広い。Wi-Fiチャネルは20 MHzであり、DJI DroneIDは15.36 MS/sを必要とするため、この帯域がドングルとHackRFやLimeSDRの分岐点となる。"
+  },
+  "v59art65up": {
+    "defaultMessage": "DTMFユニット番号と、同じチャネルで送信されているCTCSSトーンまたはDCSコードを併せて読み取り、どの無線機が送信を開始したのか、そしてどのグループに属しているのかを特定します。"
+  },
+  "v5to9vhfa": {
+    "defaultMessage": "Meteor-M LRPT"
+  },
+  "v6kh54mveh": {
+    "defaultMessage": "デコード可能なキャプチャはテストフィクスチャであり、無線は不要で、実行回数を問わず常に同じ結果が得られる。"
+  },
+  "v7ichf3aiv": {
+    "defaultMessage": "混雑した2.4GHz帯では、チャネルビューが有用な組み合わせです。802.15.4のチャネルはWi-Fiのチャネルと重複しており、メッシュネットワークが頻繁に切断される場合、多くのアクセスポイントの直下に設置されていることが原因であることが多いからです。"
+  },
+  "vewencogh3": {
+    "defaultMessage": "シグナルチェーン"
+  },
+  "vh2v963t1n": {
+    "defaultMessage": "海上や砂漠上空では、航空機がVHF基地局の電波到達範囲外にあるため、データリンクはInmarsat衛星を経由して行われる。この衛星は静止軌道衛星であるため、ダウンリンクは固定の方向から届く固定信号となり、パッチアンテナと低雑音増幅器さえあれば、最も容易な衛星受信の一つとなる。"
+  },
+  "vh88ypv7zp": {
+    "defaultMessage": "コピーしました"
+  },
+  "vhaws6sg9s": {
+    "defaultMessage": "LoRaはチャープ信号であり、そのためノイズフロア以下のレベルでも動作し、従来のスキャナでは検出されない。WaveSharkはISMバンドにチャープデコーダを配置し、その上に構築される3つの一般的なスタックのデータをデコードする。"
+  },
+  "vhqo991vd2": {
+    "defaultMessage": "ドローンが送信が義務付けられているリモートIDブロードキャストに含まれるシリアル番号、位置、高度、操縦者の位置情報、およびDJI機体からのホームポイント。"
+  },
+  "viqx0flk3i": {
+    "defaultMessage": "フレームあたりの受信ライン数"
+  },
+  "vmfrdyzgfs": {
+    "defaultMessage": "送信機ごとに1行ずつ、送信ごとに1行ずつではなく、送信機が自己申告した情報（自己称する名称、製造元、過去に観測された最強の受信レベル、最後に観測された日時）を記録します。行を選択すると、その送信機の観測地点が地図上にプロットされ、ドライブ単位でWiGLE CSV形式としてエクスポートできます。"
+  },
+  "vog2lgu7lw": {
+    "defaultMessage": "Wireless M-Bus と ERT メーター: 読み取り"
+  },
+  "voojgf2lr0": {
+    "defaultMessage": "ACARS メッセージとそのラベル"
+  },
+  "vski9xdprx": {
+    "defaultMessage": "ExpressLRSは、受信機が2.4GHzおよび868MHz・915MHz帯域で自身に設定するリンクです。FrSky ACCST、FlySky AFHDS-2A、およびXN297トイ用リモコンも読み取られ、後者はアドレスとペイロードごとに対応します。"
+  },
+  "vso9nkdyoo": {
+    "defaultMessage": "macOS版ではffmpegのバージョンが十分に新しいため、画像を再生できます。その他のビルドでは、マルチプレックスを読み取り、そこに含まれている内容をリスト表示します。"
+  },
+  "vwen7w6kb1": {
+    "defaultMessage": "ビーコンとプローブリスポンスからのSSID"
+  },
+  "vz0cl7lj2o": {
+    "defaultMessage": "メッセージはPOCSAGの隣にあるメッセージビューに届き、重複排除も同じであるため、両方の標準を運用するサイトでは、2つのストリームではなく1つのストリームとして読み取られる。"
+  },
+  "vzh1dlu5r4": {
+    "defaultMessage": "完成した画像はすべて <code>~/.local/share/waveshark/pictures</code> に書き込まれます。送信機能を持つラジオでは、同じモードで画像を再送信できます。"
+  },
+  "w2zclbtyk2": {
+    "defaultMessage": "バグを報告する"
+  },
+  "w5htxyww2r": {
+    "defaultMessage": "WaveSharkとSDRangel - 各々の強み"
+  },
+  "w6ysoj0kj4": {
+    "defaultMessage": "ステータス"
+  },
+  "w84mk04q22": {
+    "defaultMessage": "コントロールリンクは、航空機の状態ではなく、パイロットが何をしているかを示す単一のシグナルである。コントロールビューは、各チャネルをマイクロ秒単位でライブのバーとして描画し、その隣にパケットレートとリンクレベルを表示するとともに、アームスイッチをフラグ付けする。"
+  },
+  "w861mv3ro9": {
+    "defaultMessage": "ダッシュボード上で、センサーが配置されている433.92 MHzで開きます。"
+  },
+  "w8rafrlm8x": {
+    "defaultMessage": "HackRF が届く範囲すべて"
+  },
+  "w922jm228l": {
+    "defaultMessage": "チューニング範囲"
+  },
+  "wb3tme72va": {
+    "defaultMessage": "COSPAS-SARSATビーコン"
+  },
+  "wj6loaoc3i": {
+    "defaultMessage": "ambe機能を備えたソースビルドによる音声で、両方のタイムスロットにおいて、どのトークグループで誰が誰に電話したか。"
+  },
+  "wlff7jd5e3": {
+    "defaultMessage": "地上波テレビ多重化信号は、OFDM方式で8MHzの帯域幅を持ち、複数のサービスを含むトランスポートストリームを伝送します。キャリアから読み取ったこの信号は、当サイトにおいて最も深いデコード処理を経ており、放送エンジニアが求めるパラメータを報告します。"
+  },
+  "wpzg55xm9t": {
+    "defaultMessage": "エンコードされた位置情報、ビーコンが位置特定済みの場合"
+  },
+  "wqomfaurwh": {
+    "defaultMessage": "APRSパケット、SSTV画像、M17デジタル音声、そしてモールス符号で自己識別するリピータ。"
+  },
+  "wqqh8v8zam": {
+    "defaultMessage": "Issues"
+  },
+  "wr9s5dhan7": {
+    "defaultMessage": "別名"
+  },
+  "wubkvlqhce": {
+    "defaultMessage": "デコードされたテキスト (文字到着時にリアルタイム表示)"
+  },
+  "wujef3l0o6": {
+    "defaultMessage": "RTL-SDRなら何でも可"
+  },
+  "wukyf53cd8": {
+    "defaultMessage": "SSTVは音声チャネルを介して画像を音声として送信し、1分〜2分の間に1行ずつ伝送します。その構築過程を見ること自体が魅力の半分を占めるため、動画ビューは送信が完了するまで待つのではなく、各ラインが到着するたびに描画し、キャプションでは受信したライン数をカウントします。"
+  },
+  "ww4mo9g2fd": {
+    "defaultMessage": "SDR用ADS-BとMode Sデコーダー - WaveShark"
+  },
+  "wwzjdlw8ns": {
+    "defaultMessage": "アナログ映像"
+  },
+  "x4e8cqq59o": {
+    "defaultMessage": "各バンドで何が発信しているか - WaveShark"
+  },
+  "x6b9uxms79": {
+    "defaultMessage": "受信機位置は、ADS-Bフレーム1つで航空機を特定でき、ペアを必要としない。"
+  },
+  "x8ngpstg2i": {
+    "defaultMessage": "船舶は航空機と同種のトラッキング対象であり、マップ、軌跡、距離環の挙動も同じです。静的レポートは到着に伴い名称、種類、目的地を補完するため、船舶は最初の位置報告から1分後に名称が付与されます。"
+  },
+  "xdakanitls": {
+    "defaultMessage": "トラフィックチャネルは暗号化されており、その状態は維持されます。読み取れるのは、ネットワークの種類、位置しているセル、そのセルが隣接セルとして広告している情報、そしてページングされている加入者識別情報です。"
+  },
+  "xeg73htij2": {
+    "defaultMessage": "地図上では、気球のシリアル番号、高度、上昇速度を表示し、8つのファミリーに分類して、送信機が漂流する方向にチャンネルを追尾します。RS41、DFM、M10、iMet、気象観測気球、SondeHubとしても知られています。"
+  },
+  "xi0if8l70d": {
+    "defaultMessage": "SDRで船舶交通と安全通信を監視 - WaveShark"
+  },
+  "xl2a1p2o61": {
+    "defaultMessage": "ページャーが使用される場所"
+  },
+  "xrkuj4v0zp": {
+    "defaultMessage": "129-137 MHz"
+  },
+  "xvo0zcicnu": {
+    "defaultMessage": "スパンに表示される画像は、アナログカメラの映像、SSTV送信による1行ずつ描画される画像、ストリップ状に構築される気象衛星のパス、あるいはDVB-T多重化からのサービスなど、多岐にわたります。キャプションは受信された行数をカウントし、セレクタは送信間の選択を行います。"
+  },
+  "xwxbb29je8": {
+    "defaultMessage": "136.7-137 MHz"
+  },
+  "xzz0adrow7": {
+    "defaultMessage": "チャネルとリンク品質"
+  },
+  "y0x6kccsap": {
+    "defaultMessage": "ループバック上のMCP：エージェントが、あなたが監視している受信機を駆動します。"
+  },
+  "y2gwjkzspm": {
+    "defaultMessage": "暗号化通話におけるアルゴリズム ID とキー ID"
+  },
+  "y7x19gkd1t": {
+    "defaultMessage": "リバースエンジニアリング"
+  },
+  "yak1t0izeg": {
+    "defaultMessage": "802.11a/g/bおよびシングルストリームのn規格では、ネットワーク名、通信相手のアドレス、各フレームの到着レート、およびアドレスがランダム化されているかどうかが判明します。ドローンがRemote IDを放送すると、シリアル番号、位置情報、運用者が明らかになり、DJIの機体ではホームポイントも判明します。1チャネルの帯域幅が20MHzであるため、HackRFまたはLimeSDRが必要です。"
+  },
+  "yi72occiag": {
+    "defaultMessage": "受信機に固有の位置を割り当て、単一の位置フレームで航空機を配置することで、対応するペアを必要としない。1つのフレームから描かれるマークは中空であり、軌跡に連結されることはない。"
+  },
+  "yjk7wo3pcr": {
+    "defaultMessage": "エージェントが操作できるSDR受信機 - WaveShark MCPサーバー"
+  },
+  "yjl1u33nrx": {
+    "defaultMessage": "受信ライン数 (部分的な画像としてラベル付け)"
+  },
+  "ylvlo8rqks": {
+    "defaultMessage": "エミッターカテゴリ、グライダーがジェットとして描画されないようにするため"
+  },
+  "ylyi8z9etj": {
+    "defaultMessage": "機体に印字されたシリアル番号"
+  },
+  "yq397vf9mt": {
+    "defaultMessage": "ダウンリンクまたはアップリンク、および送信局"
+  },
+  "yr5grs6meb": {
+    "defaultMessage": "デバイスタイプ: 水、熱、ガス、電気"
+  },
+  "yt6t6uxywj": {
+    "defaultMessage": "Inmarsat STD-C"
+  },
+  "ywxh43me71": {
+    "defaultMessage": "デコードはダイヤルに従いません。サンプリング期間内のすべてのスキャナーが常時稼働しているため、1分ごとに送信するセンサーであっても、発射時にダイヤルが向いていたかどうかに関係なく検出されます。"
+  },
+  "yxlf318w04": {
+    "defaultMessage": "USB と Mini、フルデュプレックス、12 bit"
+  },
+  "z15pfrxp22": {
+    "defaultMessage": "パブリックキーの下に表示されるMeshtasticテキスト、MeshCoreの広告、およびそれらが割り当てるアドレスを伴うLoRaWAN参加要求。"
+  },
+  "z4aukxonn3": {
+    "defaultMessage": "COSPAS-SARSAT EPIRB、PLBおよびELTの識別情報、およびそれらが符号化している位置を地図上に示す。"
+  },
+  "za6bva6xtc": {
+    "defaultMessage": "同軸ケーブルの損失とノイズはネットワーク遅延よりも大きいため、受信機の最適な設置場所はアンテナ側です。<code>--stream</code> を iqstream または rtl_tcp サーバーに向ければ、受信機リストにローカルラジオとして表示され、チューナー機能もそのまま利用できます。"
+  },
+  "zaowbkniva": {
+    "defaultMessage": "MotorolaユニットID、PTT ID、緊急ボタン"
+  },
+  "zgrkhnpb0h": {
+    "defaultMessage": "掲載時の受信者 {clients}"
+  },
+  "zo6jqp6ntt": {
+    "defaultMessage": "気象観測気球本体に印字されたシリアル番号"
+  },
+  "zoq7mr1ndv": {
+    "defaultMessage": "ADS-B、UAT、ACARS、VDL Mode 2、AIS"
+  },
+  "zpe6qw154f": {
+    "defaultMessage": "仕組み →"
+  },
+  "zux4fiieiu": {
+    "defaultMessage": "900 MHz では RTL-SDR、1800 MHz では HackRF または LimeSDR が必要"
+  },
+  "zvk4n0l8e5": {
+    "defaultMessage": "エージェントにラジオを操作させる"
+  },
+  "zximma6hzg": {
+    "defaultMessage": "wM-Bus mode T、スマートメーター、OMS、868.95 MHz"
+  },
+  "zxyotmjfm3": {
+    "defaultMessage": "ICAOアドレス、コールサイン、位置、高度、速度"
+  }
+}

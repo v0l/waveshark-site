@@ -34,6 +34,31 @@ the build prerenders and what the sitemap plugin in `vite.config.ts` writes.
 Paths carry a trailing slash everywhere, since that is what Cloudflare Pages
 serves; the router strips it before matching.
 
+## Translations
+
+Every page is prerendered once per locale: English at `/`, the rest under
+`/de/`, `/fr/`, `/es/`, `/it/`, `/pt/`, `/nl/`, `/pl/`, `/ja/` and `/zh/`
+(`src/i18n/locales.ts`), with hreflang alternates in the head and the sitemap.
+
+Page copy is react-intl `FormattedMessage` with a `defaultMessage` and no id.
+The data files stay plain English and are looked up by the same id at render,
+through `useCopy()`. The id is a hash of the English (`src/i18n/hash.ts`), set
+on JSX by `babel-plugin-formatjs` in `vite.config.ts`, so changing a sentence
+gives it a new id and it falls back to English until it is translated again.
+Internal links go through `useLocalePath()` so they stay in the reader's
+language.
+
+```sh
+bun run intl:extract   # -> src/locales/en.json, JSX and data together
+ollama_intl -u http://localhost:8001/v1 -m <model> -i src/locales/en.json -o src/locales \
+  -t German:de -t French:fr -t Spanish:es -t Italian:it -t Portuguese:pt \
+  -t Dutch:nl -t Polish:pl -t Japanese:ja -t "Chinese (Simplified):zh"
+```
+
+`ollama_intl` only translates keys a locale file does not have yet, and drops
+keys English no longer has. Shell commands, flags, band slugs and the hero's
+simulated packet log are left in English on purpose.
+
 `/tuners/` reads the IQStream directory from nostr in the browser: kind 10690
 listings on the relays in `src/directory.ts`, checked against their signatures,
 newest per author, dropped after a day. The map is Leaflet on OpenStreetMap

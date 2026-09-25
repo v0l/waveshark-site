@@ -1,12 +1,10 @@
 import { defineConfig, type Plugin } from 'vite';
 import preact from '@preact/preset-vite';
-import { ROUTES } from './src/meta';
+import { ROUTES, alternates, canonicalPath } from './src/meta';
+import { messageId } from './src/i18n/hash';
+import { splitPath } from './src/i18n/locales';
 
 const SITE = 'https://waveshark.io';
-
-/// Pages serves `/download/index.html`, so the slashless path redirects: the
-/// sitemap and the canonicals have to name the URL that answers 200.
-const href = (path: string) => (path === '/' ? '/' : `${path}/`);
 
 /// The sitemap is the route table, so a page cannot be added without listing it.
 function sitemap(): Plugin {
@@ -16,14 +14,17 @@ function sitemap(): Plugin {
     name: 'sitemap',
     apply: 'build',
     generateBundle() {
-      const urls = ROUTES.map(
-        p =>
-          `  <url>\n    <loc>${SITE}${href(p)}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <priority>${priority(p)}</priority>\n  </url>`,
-      ).join('\n');
+      const urls = ROUTES.map(full => {
+        const [, path] = splitPath(full);
+        const links = alternates(path)
+          .map(([lang, href]) => `    <xhtml:link rel="alternate" hreflang="${lang}" href="${href}"/>`)
+          .join('\n');
+        return `  <url>\n    <loc>${SITE}${canonicalPath(full)}</loc>\n${links}\n    <lastmod>${lastmod}</lastmod>\n    <priority>${priority(path)}</priority>\n  </url>`;
+      }).join('\n');
       this.emitFile({
         type: 'asset',
         fileName: 'sitemap.xml',
-        source: `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`,
+        source: `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls}\n</urlset>\n`,
       });
     },
   };
@@ -32,6 +33,17 @@ function sitemap(): Plugin {
 export default defineConfig({
   plugins: [
     preact({
+      babel: {
+        plugins: [
+          [
+            'formatjs',
+            {
+              overrideIdFn: (_id: string, defaultMessage: string) => messageId(defaultMessage),
+              ast: false,
+            },
+          ],
+        ],
+      },
       prerender: {
         enabled: true,
         renderTarget: '#app',
