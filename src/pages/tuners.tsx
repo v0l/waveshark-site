@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'preact/hooks';
 import { SiteHeader } from '../components/header';
 import { TunerMap } from '../components/tuner-map';
-import { RELAYS, addr, hasSlot, hears, now, span, watch, type Station, type Tuner } from '../directory';
+import { RELAYS, addr, hasSlot, hears, now, watch, type Station, type Tuner } from '../directory';
 
 const HARDWARE: Record<string, [string, string?]> = {
   rtlsdr: ['RTL-SDR', '/hardware/rtl-sdr/'],
@@ -12,10 +12,8 @@ const HARDWARE: Record<string, [string, string?]> = {
   sdrplay: ['SDRplay'],
 };
 
-function hz(v: number): string {
-  if (v >= 1e6) return `${+(v / 1e6).toFixed(3)} MHz`;
-  if (v >= 1e3) return `${+(v / 1e3).toFixed(1)} kHz`;
-  return `${v} Hz`;
+function mhzText(v: number): string {
+  return `${+(v / 1e6).toFixed(3)} MHz`;
 }
 
 function ago(secs: number): string {
@@ -35,22 +33,21 @@ function Hardware({ id }: { id: string }) {
 }
 
 function TunerRow({ t }: { t: Tuner }) {
-  const [lo, hi] = span(t);
   const reach =
     t.dial.tunable && t.dial.min !== undefined && t.dial.max !== undefined
-      ? `dial ${hz(t.dial.min)} to ${hz(t.dial.max)}`
+      ? `tunes ${+(t.dial.min / 1e6).toFixed(3)} to ${mhzText(t.dial.max)}`
       : t.dial.tunable
         ? 'tunable'
-        : 'fixed dial';
+        : 'fixed';
   return (
     <li>
-      <span class="tuner-f">{hz(t.center)}</span>
+      <span class="tuner-f">{mhzText(t.center)}</span>
       <span class="tuner-n">
         {t.name || `tuner ${t.id}`} &middot; <Hardware id={t.hardware} />
         {t.antenna && <> &middot; {t.antenna}</>}
       </span>
       <span class="tuner-r">
-        {hz(lo)} to {hz(hi)}, {reach}
+        {mhzText(t.rate)} span, {reach}
       </span>
     </li>
   );
